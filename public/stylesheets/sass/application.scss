@@ -1,0 +1,54 @@
+body{
+  text-align: left;
+}
+
+h1{
+  font-weight: 700;
+  letter-spacing: -2px;
+}
+
+header{
+  padding: 30px;
+
+  nav{
+    float: right;
+  }
+}
+
+#header_logo{
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#contributors{
+  margin-top: -80px;
+  height: 500px;
+  max-height: 500px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  
+}
+
+.backing{
+  position: absolute;
+  overflow: hidden;
+  width: 120%;
+  top: 0;
+  left: 0;
+
+  img{
+    margin: 0px 2px;
+  }
+  img.faded{
+    -webkit-transition-property: opacity;
+    -webkit-transition-duration: 3s;
+    opacity: 0.1;
+  }
+  img.opaque{
+    -webkit-transition-property: opacity;
+    -webkit-transition-duration: 3s;
+    opacity: 1;
+  }
+}
