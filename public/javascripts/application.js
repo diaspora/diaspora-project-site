@@ -10,11 +10,16 @@ $(document).ready(function(){
       var img = new Image();
       img.src = "http://gravatar.com/avatar/"+val["gravatar_id"]+"?d=" + default_url;
       img.height = 60;
+      img.id = val['login'];
       img.classList.add("faded")
       img.width = 60;
       img.onload = function(){
-        $(".backing", "#contributors").append($(img).fadeIn());
+        $(".backing", "#contributors").append($(img).fadeIn("fast"));
       }
+      var number = $('#number').text();
+      console.dir(number);
+      number = parseInt(number) + val['contributions']
+      $('#number').text(number);
     });
   });
   
@@ -22,8 +27,12 @@ $(document).ready(function(){
     this.classList.remove("faded");
     this.classList.add("opaque");
     this.addEventListener("webkitTransitionEnd", function(){
+    }, true)
+  });
+
+
+  $("img.opaque").live('mouseout', function(){
       this.classList.remove("opaque");
       this.classList.add("faded");
-    }, true)
-  })
+  });
 });

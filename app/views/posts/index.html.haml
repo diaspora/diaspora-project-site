@@ -1,2 +1,9 @@
-- for post in @posts
-  = @post.text
+.container
+  %h1 PROJECT BLOG
+  - @posts.each do |post|
+    .span-24.last
+      %h3
+        = link_to post.title, post
+      %p
+        = post.text
+

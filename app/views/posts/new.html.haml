@@ -1,0 +1,15 @@
+.container
+  .span-24.last#publisher
+    %h1
+      Make a new blog post
+    = form_for @post do |post|
+      = post.label :title
+      = post.text_field :title
+      .clearfix
+      = post.label :text
+      = post.text_area :text 
+
+      .clearfix
+      = post.submit
+
+      =link_to 'markdown help', 'http://daringfireball.net/projects/markdown/syntax', :target => '_blank'

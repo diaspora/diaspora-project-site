@@ -12,4 +12,12 @@ class PostsController < ApplicationController
     respond_with(@post, :status => :ok)
   end
 
+  def new
+    @post = Post.new
+  end
+
+  def create
+    post = Post.create(params[:post])
+    respond_with post
+  end
 end

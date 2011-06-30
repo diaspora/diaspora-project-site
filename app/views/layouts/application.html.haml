@@ -25,3 +25,38 @@
 
     = yield
 
+    %footer.container
+      .span-24.last
+        %h3 Useful Resources
+        %ul#links
+          .span-6
+            %ul.section
+              %li
+                %strong
+                  %a{:href => "http://github.com/diaspora/diaspora/", :title => "Git repository"} Codebase
+              %li
+                %strong
+                  %a{:href => "http://github.com/diaspora/diaspora/wiki", :title => "Wiki on github"} Documentation
+              %br
+                %li
+                  %a{:href => "http://bugs.joindiaspora.com/", :title => "Bug tracker"} Find & Report bugs
+          .span-6
+            %ul.section
+              %li
+                %a{:href => "http://webchat.freenode.net/?channels=diaspora", :title => "#diaspora"} IRC - General
+              %li
+                %a{:href => "http://webchat.freenode.net/?channels=diaspora-dev", :title => "#diaspora-dev"} IRC - Development
+          .span-6
+            %ul.section
+              %li
+                %a{:href => "http://groups.google.com/group/diaspora-discuss", :title => "General discussion mailing list"} Discussion - General
+              %li
+                %a{:href => "http://groups.google.com/group/diaspora-dev", :title => "Dev mailing list"} Discussion - Development
+          .span-5.last
+            %ul.section
+              %li
+                %a{:href => "http://getsatisfaction.com/diaspora/", :title => "Get Satisfaction"} User Feedback
+              %li
+                %a{:href => "http://guides.rubyonrails.org/"} Learn more about Ruby On Rails!
+
+

@@ -7,6 +7,8 @@ gem 'rails', '3.0.9'
 gem 'sass'
 gem 'haml'
 
+gem 'redcarpet'
+gem 'albino'
 
 group :development, :test do
   gem 'sqlite3'

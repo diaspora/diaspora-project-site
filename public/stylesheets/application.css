@@ -17,11 +17,14 @@ header {
 
 #contributors {
   margin-top: -80px;
-  height: 500px;
-  max-height: 500px;
+  height: 379px;
   width: 100%;
   overflow: hidden;
   position: relative; }
+
+#publisher input, #publisher textarea {
+  font-size: 20px;
+  width: 100%; }
 
 .backing {
   position: absolute;
@@ -33,9 +36,9 @@ header {
     margin: 0px 2px; }
   .backing img.faded {
     -webkit-transition-property: opacity;
-    -webkit-transition-duration: 3s;
-    opacity: 0.1; }
+    -webkit-transition-duration: 1s;
+    opacity: 0.3; }
   .backing img.opaque {
     -webkit-transition-property: opacity;
-    -webkit-transition-duration: 3s;
+    -webkit-transition-duration: 1s;
     opacity: 1; }
