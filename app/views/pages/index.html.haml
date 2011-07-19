@@ -1,26 +1,58 @@
+#top_half
+  .container
+    .span-24.last{:style => "position:relative;"}
+      #explanation
+        /= image_tag('llama.gif')
+        = image_tag('diaspora_collage.png')
+        %h1
+          be the social web frontier.
+
+
+
+        .span-18.prepend-3.append-3.last
+          %h3
+            %b
+              Diaspora brings the best parts of the web, small and focused applications, together.
+            Our web of identity servers lets anyone join and take control of their data without losing the connectedness of today's internet.
+
+          %br
+          %br
+
+      %h2#big_join_button
+        = link_to(("Get an account".html_safe + image_tag('arrow_right.png')), "https://joindiaspora.com")
+
+%hr
 .container
-  .span-20
-    #explanation
-      %h1
-        be the social web frontier
-      %h3
-        Diaspora brings the best parts of the web, small and focused applications, together.
-        Our web of identity servers lets anyone join and take control of their data without losing the connectedness of today's internet.
+  .span-24.last
 
-      HOW DOES IT WORK?
-
-      Diaspora is powered by the magic of open source.  That means that you are in charge how you want to share, and with who.  Diaspora doesn't force you to do things you don't want, 
-      and makes sure that you can let all of the people you care about know about that great sandwhich you had for lunch.
-      Whether its fuzzy LOLcats, breaking news stories, funny GIFs, or vital information to over throw goverments, sharing gives the internet meaning.
-      A diaspora account gives you front row seats to the raw sharing titlewave of the web.
+    %br
+    %br
 
 
+    %h3
+      How does it work?
+
+    #middle_box.span-24.last
+      .span-8
+        .section
+          Diaspora is powered by the magic of open source.  That means that you are in charge how you want to share, and with who.
       
-      %p 
-        users
-        1. get an account
-        2. find awesome ways that fit the way you share.
-        3. tell your friends
+      .span-8
+        .section
+          Diaspora doesn't force you to do things you don't want, and makes sure that you can let all of the people you care about know about that great sandwhich you had for lunch.
+          Whether its fuzzy LOLcats, breaking news stories, funny GIFs, or vital information to over throw goverments, sharing gives the internet meaning.
+
+      .span-8.last
+        .section
+          A diaspora account gives you front row seats to the raw sharing titlewave of the web.
+
+
+    
+    %p 
+      users
+      1. get an account
+      2. find awesome ways that fit the way you share.
+      3. tell your friends
       
 
       
@@ -29,14 +61,14 @@
         = link_to "Help Build Diaspora", page_path("get_involved")
 
 
-  .span-24.last
-    .span-12
-      users
-      1. get an account
-      2. find awesome ways that fit the way you share.
-      3. tell your friends
-    .span-12.last
-      devolpers
-      1. get the code
-      2. send epic pull requests
-      3. build the future of the social web
+    .span-24.last
+      .span-12
+        users
+        1. get an account
+        2. find awesome ways that fit the way you share.
+        3. tell your friends
+      .span-12.last
+        devolpers
+        1. get the code
+        2. send epic pull requests
+        3. build the future of the social web

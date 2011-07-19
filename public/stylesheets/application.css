@@ -6,7 +6,7 @@ h1 {
   letter-spacing: -2px; }
 
 header {
-  padding: 30px; }
+  padding: 20px; }
   header nav {
     float: right; }
 
@@ -42,3 +42,40 @@ header {
     -webkit-transition-property: opacity;
     -webkit-transition-duration: 1s;
     opacity: 1; }
+
+#explanation {
+  text-align: center;
+  margin-top: -80px; }
+
+#big_join_button {
+  border-radius: 5px;
+  background-color: #2D5CBF;
+  position: absolute;
+  display: inline-block;
+  bottom: -28px;
+  right: 100px;
+  padding: 10px 20px;
+  padding-right: 45px;
+  margin-bottom: 0; }
+  #big_join_button a {
+    position: relative;
+    color: white;
+    text-decoration: none; }
+  #big_join_button img {
+    height: 55px;
+    position: absolute;
+    top: -12px;
+    right: -50px; }
+
+#top_half {
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ebebeb), to(#f7f7f7)); }
+
+header {
+  background-color: #221e1e;
+  border-bottom: #fff; }
+
+#middle_box {
+  background-color: #eee;
+  border: 1px solid #999; }
+  #middle_box .section {
+    padding: 10px; }
