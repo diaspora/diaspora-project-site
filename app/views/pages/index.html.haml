@@ -2,9 +2,8 @@
   .container
     .span-24.last{:style => "position:relative;"}
       #explanation
-        /= image_tag('llama.gif')
         = image_tag('diaspora_collage.png')
-        %h1
+        %h1#emphasis
           be the social web frontier.
 
 
@@ -23,30 +22,158 @@
 
 %hr
 .container
+
+  %br
+  %br
+
+  #top_features.span-24.last
+    %h2
+      Features our users love...
+    .span-6
+      .section
+        %h3
+          Aspects
+
+        %p
+          Our web of identity servers lets anyone join and take control of their data without losing the connectedness of today's internet.
+
+        = image_tag('the_community.png')
+
+    .span-6
+      .section
+        %h3
+          Awesome people
+
+        %p
+          Take control of their data without losing the connectedness of today's internet.
+
+        - (1..6).each do |n|
+          = image_tag("avatars/person#{n}.jpeg", :class => "avatar")
+
+    .span-6
+      .section
+        %h3
+          Apps
+
+        %p
+          Diaspora brings the best parts of the web, small and focused applications, together.
+
+        = image_tag('cubbies_logo.png')
+
+
+    .span-6.last
+      .section
+        %h3
+          Completely free
+
+        %p
+          Diaspora is completely free.  Yeah, awesome.
+
+        = image_tag('free_sign.png')
+
+  .clearfix
+  %br
+
+  #middle_box
+    .span-12
+      .section
+        %h3
+          Connect to social
+
+      .section
+        %h3
+          Run it anywhere
+
+      .section
+        %h3
+          Hi-res photos
+
+      .section
+        %h3
+          Bookmarklet
+
+    .span-12.last
+      .section
+        %h3
+          \#hashtags
+
+      .section
+        %h3
+          We're here to help!
+
+      .section
+        %h3
+          No Ads
+
+      .section
+        %h3
+          Own your own data
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   .span-24.last
 
     %br
     %br
+    %br
+    %br
+    %br
+    %br
+    %br
+    %br
+    %br
+    %br
+    %br
+    %br
+    %br
+    %br
+    %br
+    %br
+    %br
+    %br
+    %br
+    %br
+    %br
+    %br
+    %br
+    %br
+    %br
+    %br
+    %br
+    %br
+    %br
+    %br
 
+
+    O, the people you meet
 
     %h3
-      How does it work?
+      Our user's favorite features 
 
-    #middle_box.span-24.last
-      .span-8
-        .section
-          Diaspora is powered by the magic of open source.  That means that you are in charge how you want to share, and with who.
-      
-      .span-8
-        .section
-          Diaspora doesn't force you to do things you don't want, and makes sure that you can let all of the people you care about know about that great sandwhich you had for lunch.
-          Whether its fuzzy LOLcats, breaking news stories, funny GIFs, or vital information to over throw goverments, sharing gives the internet meaning.
-
-      .span-8.last
-        .section
-          A diaspora account gives you front row seats to the raw sharing titlewave of the web.
+      awesome community.
+      people here are totally awesome
 
 
+      keep 
     
     %p 
       users
@@ -60,7 +187,10 @@
       #get_involved_link
         = link_to "Help Build Diaspora", page_path("get_involved")
 
-
+      %h2
+        made by viewers like you.
+      %p
+        diaspora is made by people who love sharing online as much as you do. 
     .span-24.last
       .span-12
         users
@@ -72,3 +202,7 @@
         1. get the code
         2. send epic pull requests
         3. build the future of the social web
+
+
+/= image_tag('llama.gif')
+
