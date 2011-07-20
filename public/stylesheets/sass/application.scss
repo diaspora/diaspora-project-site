@@ -73,7 +73,7 @@ header{
   background-color: #2D5CBF;
   position: absolute;
   display: inline-block;
-  bottom: -28px;
+  top: 647px;
   right: 100px;
   padding: 10px 20px;
   padding-right: 45px;
@@ -128,4 +128,21 @@ header {
   height: 60px;
   width: 60px;
   padding: 2px;
+}
+
+
+footer {
+  margin-top: 70px;
+  ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      list-style: none;
+      a {
+        color: #999;
+        text-decoration: none;
+      }
+    }
+  }
 }

@@ -30,7 +30,6 @@ $(document).ready(function(){
     }, true)
   });
 
-
   $("img.opaque").live('mouseout', function(){
       this.classList.remove("opaque");
       this.classList.add("faded");
