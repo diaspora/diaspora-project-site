@@ -1,51 +1,152 @@
-.container
-  %h1
-    We are a diverse international community of passionate people who belive we can change the social web for the better.
+#top_half
+  .container{:style => "text-align:center;"}
+    %h1#emphasis
+      The future of the social web starts with you.
+    %h1 Join the movement
 
-  %h3
-    over 
-    #number
-      0
-    contributions!
-#contributors
-  .backing
+  #contributors
+    .backing
 
 .container
   %h2
-    open source
-    %h3 
-      open source communites are amazing things.  At Diaspora, we beleive that people should be valued by what they do.  It does not matter if you have contirbuted to a project before, or are an elite open source hacker.
-      Contributing Diaspora means that you get to work on hard problems, with a focus on solutions that work for users.
+    We are a diverse community of passionate hackers, painters, and visionairies who are trailblazing the future of the social web.
 
-      This is why if you contribute something meaningful to Diaspora, we will give you core commit access(what does that mean?). 
-      We are in this together, so giving excited people the change to make huge changes always trumps keeping control sacred.
+.container
+  #github_stats.span-24.last
+    .span-8
+      .github_stats_section
+        %h3
+          Diaspora community quick stats
+        %ul
+          %li
+            over 
+            #number
+              0
+            contributions
+          %li top 2% of all open source projects
+          %li 6th most popular project on GitHub
+          %li over 800 forks
+          %li over 4000 followers
+          %li BDS open source rookie of the year
+          %li used in countries all over the world
+          %li liberal code commit rights policy
+          %li you don't need to code to get involved
+          %li easy to get involved
+          %li change people's lives
+
+    .span-8
+      .github_stats_section
+        %h3
+          we're awesome
+
+
+
+    .span-8.last
+      .github_stats_section
+        %h1
+          = link_to("Grab the code", "http://gitub.com/diaspora/diaspora")
+    
+
+  %h2
+    what is open source?
+  %p
+    it is about individuality, transpareny, creativity, and destiny.  It is about having an idea, and making it reality.  Diaspora was founded about fulfilling a passion for fun, and making the internet a better place.
+
+    open source is what enables us to change the world, for ourselves, and let our friends across the web benifit from our exploration.
+
+  %p
+    open source communites are amazing things.  At Diaspora, we beleive that people should be valued by what they do.  It does not matter if you have contirbuted to a project before, or are an elite open source hacker.
+    Contributing Diaspora means that you get to work on hard problems, with a focus on solutions that work for users.
+
+    This is why if you contribute something meaningful to Diaspora, we will give you core commit access(what does that mean?). 
+    We are in this together, so giving excited people the change to make huge changes always trumps keeping control sacred.
 
   %h2
     meet the core team
-  %h3
-    these are the people who have dedicated much of their time to making Diaspora awesome.  You can join this list by contributing here: http://github.com/diaspora/diaspora
 
   %p
+    these are the people who have dedicated much of their time to making Diaspora awesome.  You can join this list by contributing here: http://github.com/diaspora/diaspora
+
+  .span-24.last
+  - 4.times do |n|
+    - for contributor in @contributors
+      .span-12{:class => cycle("", "last")}
+        .contributor_info
+          = image_tag(contributor.avatar, :class => 'contributor_avatar')
+          .content
+            %h3
+              = contributor.name
+              = "(#{contributor.diaspora_id})"
+            %p
+              = contributor.bio
+
+            .contributor_links
+              = link_to("#{contributor.first_name} on GitHub", contributor.github_url)
+              
+  .clearfix
+            
+      
+
+
+
+
+
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
     Daniel Grippi
-
     Raphael Sofaer
-
     Ilya Z
-
     Maxwell Salzberg 
-
     Sarah Mei
-
     Dan Hanson
-
     Dennis Schubert
-
     Johanne Hass
 
     Featured Contributors
-
     Jamie Wilkison
-
     Michael Nutt
 
 

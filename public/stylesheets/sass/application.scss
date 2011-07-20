@@ -26,7 +26,6 @@ header{
 }
 
 #contributors{
-  margin-top: -80px;
   height: 379px;
   width: 100%;
   overflow: hidden;
@@ -69,6 +68,7 @@ header{
 }
 
 #big_join_button {
+  border: 2px solid darken(#2D5CBF,10%);
   border-radius: 5px;
   background-color: #2D5CBF;
   position: absolute;
@@ -95,6 +95,8 @@ header{
 
 #top_half {
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#EBEBEB), to(#F7F7F7));
+  box-shadow: 0 1px 3px #ddd;
+  border-bottom: 1px solid #ccc;
 }
 
 header {
@@ -144,5 +146,40 @@ footer {
         text-decoration: none;
       }
     }
+  }
+}
+
+#screenshot_collage {
+  display: inline-block;
+  height: 590px;
+  width: 842px;
+  position: relative;
+
+  img {
+    position: absolute;
+    top: 0px;
+  }
+}
+
+.contributor_info {
+  padding: 20px;
+  padding-left: 90px;
+  position: relative;
+
+  img.contributor_avatar {
+    position: absolute;
+    left: 0;
+  }
+}
+
+#github_stats {
+  text-align:center;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin: 10px 0;
+
+  .github_stats_section {
+    text-align: left;
+    padding: 20px;
   }
 }

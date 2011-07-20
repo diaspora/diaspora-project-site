@@ -19,7 +19,6 @@ header {
   font-size: 20px; }
 
 #contributors {
-  margin-top: -80px;
   height: 379px;
   width: 100%;
   overflow: hidden;
@@ -51,6 +50,7 @@ header {
   margin-top: -80px; }
 
 #big_join_button {
+  border: 2px solid #234896;
   border-radius: 5px;
   background-color: #2D5CBF;
   position: absolute;
@@ -71,7 +71,9 @@ header {
     right: -50px; }
 
 #top_half {
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ebebeb), to(#f7f7f7)); }
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ebebeb), to(#f7f7f7));
+  box-shadow: 0 1px 3px #ddd;
+  border-bottom: 1px solid #ccc; }
 
 header {
   background-color: #221e1e;
@@ -107,3 +109,29 @@ footer {
       footer ul li a {
         color: #999;
         text-decoration: none; }
+
+#screenshot_collage {
+  display: inline-block;
+  height: 590px;
+  width: 842px;
+  position: relative; }
+  #screenshot_collage img {
+    position: absolute;
+    top: 0px; }
+
+.contributor_info {
+  padding: 20px;
+  padding-left: 90px;
+  position: relative; }
+  .contributor_info img.contributor_avatar {
+    position: absolute;
+    left: 0; }
+
+#github_stats {
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin: 10px 0; }
+  #github_stats .github_stats_section {
+    text-align: left;
+    padding: 20px; }

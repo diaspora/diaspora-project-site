@@ -10,10 +10,20 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110628211938) do
+ActiveRecord::Schema.define(:version => 20110720183401) do
 
   create_table "authors", :force => true do |t|
     t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "contributors", :force => true do |t|
+    t.string   "name"
+    t.string   "github_username"
+    t.string   "diaspora_id"
+    t.text     "bio"
+    t.string   "avatar"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

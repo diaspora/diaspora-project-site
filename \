@@ -49,13 +49,9 @@ $(document).ready(function(){
     }
     else {
       console.log(top+(top*0.3) + "px");
-      depth1.css({
-        top: "-" + (top*0.3) + "px",
-      });
-      depth2.css({
-        top: "-" + (top*0.18) + "px",
-      });
-      depth3.css("top", "-" + (top*0.1) + "px");
+      depth1.css("top", "-" + (top*0.5) + "px");
+      depth2.css("top", "-" + (top*0.25) + "px");
+      depth3.css("top", "-" + (top*0.15) + "px");
     }
   }).trigger("scroll");
 

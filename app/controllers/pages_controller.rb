@@ -5,13 +5,11 @@ class PagesController < ApplicationController
   rescue_from ActionView::MissingTemplate, :with => :page_not_found
 
   def index
-    puts 'hey'
   end
 
-  def show
-    render params[:name]
+  def get_involved
+    @contributors = Contributor.all
   end
-
 
   private
   def page_not_found

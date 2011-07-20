@@ -1,9 +1,11 @@
 Diasporaproject::Application.routes.draw do
+  resources :contributors
+
   resources :authors
 
   resources :posts
 
-  match ':name' => 'pages#show', :as => 'page'
+  match 'get_involved' => 'pages#get_involved', :as => 'get_involved'
 
 
   # The priority is based upon order of creation:

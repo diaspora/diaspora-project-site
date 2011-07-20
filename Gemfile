@@ -6,6 +6,7 @@ gem 'rails', '3.0.9'
 
 gem 'sass'
 gem 'haml'
+gem 'haml-rails'
 
 gem 'redcarpet'
 gem 'albino'
