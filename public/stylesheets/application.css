@@ -17,7 +17,7 @@ header {
     z-index: 1; }
     header nav a {
       color: #3f8fba;
-      font-size: 14px;
+      font-size: 20px;
       text-transform: capitalize;
       text-decoration: none;
       -moz-border-radius: 5px 5px 5px 5px;
