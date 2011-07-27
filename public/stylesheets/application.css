@@ -117,7 +117,8 @@ footer {
   position: relative; }
   #screenshot_collage img {
     position: absolute;
-    top: 0px; }
+    top: 0px;
+    left: 0; }
 
 .contributor_info {
   padding: 20px;
