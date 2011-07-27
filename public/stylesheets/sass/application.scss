@@ -1,3 +1,5 @@
+@import 'mixins';
+
 body{
   text-align: left;
 }
@@ -16,6 +18,28 @@ header{
 
   nav{
     float: right;
+    margin-top: 22px;
+
+    // we need this as the screenshots are overlaying the nav...
+    position: relative;
+    z-index: 1;
+
+    a {
+      color: #3f8fba;
+      font-size: 14px;
+      text-transform: capitalize;
+      text-decoration: none;
+      @include border-radius(5px);
+      @include box-shadow(0,1px,1px,#666);
+      padding: 5px 8px;
+      background-color: #000;
+      border-top: 1px solid #000;
+      &:hover {
+        color: #3f8fba;
+        text-decoration: underline;
+        background-color: #222;
+      }
+    }
   }
 }
 
