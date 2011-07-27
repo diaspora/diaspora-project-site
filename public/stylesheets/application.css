@@ -52,7 +52,6 @@ header {
 .backing {
   position: absolute;
   overflow: hidden;
-  width: 120%;
   top: 0;
   left: 0; }
   .backing img {
