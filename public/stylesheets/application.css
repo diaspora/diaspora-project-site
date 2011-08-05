@@ -11,7 +11,28 @@ h1#emphasis {
 header {
   padding: 20px; }
   header nav {
-    float: right; }
+    float: right;
+    margin-top: 22px;
+    position: relative;
+    z-index: 1; }
+    header nav a {
+      color: #3f8fba;
+      font-size: 20px;
+      text-transform: capitalize;
+      text-decoration: none;
+      -moz-border-radius: 5px 5px 5px 5px;
+      -webkit-border-radius: 5px 5px 5px 5px;
+      border-radius: 5px 5px 5px 5px;
+      -webkit-box-shadow: 0 1px 1px #666666;
+      -moz-box-shadow: 0 1px 1px #666666;
+      box-shadow: 0 1px 1px #666666;
+      padding: 5px 8px;
+      background-color: #000;
+      border-top: 1px solid #000; }
+      header nav a:hover {
+        color: #3f8fba;
+        text-decoration: underline;
+        background-color: #222; }
 
 #header_logo {
   color: #000;
@@ -31,7 +52,6 @@ header {
 .backing {
   position: absolute;
   overflow: hidden;
-  width: 120%;
   top: 0;
   left: 0; }
   .backing img {
@@ -117,7 +137,8 @@ footer {
   position: relative; }
   #screenshot_collage img {
     position: absolute;
-    top: 0px; }
+    top: 0px;
+    left: 0; }
 
 .contributor_info {
   padding: 20px;
