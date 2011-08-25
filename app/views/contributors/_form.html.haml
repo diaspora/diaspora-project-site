@@ -22,6 +22,6 @@
     = f.label :avatar
     = f.text_field :avatar
   .field
-    =select("contributor", "type", options_for_select(["hacker", "painter", "community"]), {:prompt => 'Select type'})
+    = select("contributor", "kind", options_for_select(["hacker", "painter", "community"], { :selected => @contributor.kind}))
   .actions
     = f.submit 'Save'

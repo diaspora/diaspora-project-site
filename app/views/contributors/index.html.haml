@@ -7,6 +7,7 @@
         %th Name
         %th Github username
         %th Diaspora
+        %th kind 
         %th Bio
         %th Avatar
         %th
@@ -18,6 +19,7 @@
           %td= contributor.name
           %td= contributor.github_username
           %td= contributor.diaspora_id
+          %td= contributor.kind
           %td= truncate(contributor.bio)
           %td= image_tag contributor.avatar, :class => 'contributor_avatar'
           %td= link_to 'Show', contributor

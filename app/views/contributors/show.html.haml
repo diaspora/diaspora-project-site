@@ -19,8 +19,8 @@
       = image_tag @contributor.avatar
 
     %p
-      %b type:
-      = @contributor.type
+      %b kind:
+      = @contributor.kind
     = link_to 'Edit', edit_contributor_path(@contributor)
     \|
     = link_to 'Back', contributors_path
