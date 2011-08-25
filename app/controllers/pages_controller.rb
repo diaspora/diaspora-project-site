@@ -11,6 +11,10 @@ class PagesController < ApplicationController
     @contributors = Contributor.all
   end
 
+  def donate
+    
+  end
+
   private
   def page_not_found
     render :text => "page not found!"

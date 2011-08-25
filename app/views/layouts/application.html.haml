@@ -10,8 +10,8 @@
     = javascript_include_tag 'jquery-1.6.1.min'
     = javascript_include_tag 'github'
     = javascript_include_tag 'application'
-
     = csrf_meta_tag
+    = yield :head
 
   %body
     
@@ -22,6 +22,8 @@
         %nav
           = link_to "blog", posts_path
           = link_to "get involved", get_involved_path
+          = link_to "donate", donate_path
+          = link_to "supporters", supporters_path
 
     = yield
 
