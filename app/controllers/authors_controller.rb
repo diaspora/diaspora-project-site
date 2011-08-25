@@ -1,2 +1,0 @@
-class AuthorsController < ApplicationController
-end
