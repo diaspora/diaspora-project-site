@@ -78,17 +78,18 @@
               %h3
                 = contributor.name
                 %br
-                
                 = link_to "#{contributor.diaspora_id}", diaspora_url(contributor)
-                
               %p
                 = auto_link(contributor.bio).html_safe
 
               .contributor_links
                 = link_to("#{contributor.first_name} on GitHub", contributor.github_url)
-                
+    think your name should be here? send your info to support@joindiaspora.com!
   .clearfix
             
+  .span-24.last
+    %h2
+      how do I get involved?
       
 
 
