@@ -1,4 +1,5 @@
 class ContributorsController < ApplicationController
+  before_filter :authenticate
   # GET /contributors
   # GET /contributors.xml
   def index

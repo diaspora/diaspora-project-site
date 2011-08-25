@@ -16,7 +16,7 @@
       = @contributor.bio
     %p
       %b Avatar:
-      = @contributor.avatar
+      = image_tag @contributor.avatar
 
     = link_to 'Edit', edit_contributor_path(@contributor)
     \|

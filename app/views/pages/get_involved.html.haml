@@ -68,20 +68,22 @@
     these are the people who have dedicated much of their time to making Diaspora awesome.  You can join this list by contributing here: http://github.com/diaspora/diaspora
 
   .span-24.last
-  - 4.times do |n|
-    - for contributor in @contributors
-      .span-12{:class => cycle("", "last")}
-        .contributor_info
-          = image_tag(contributor.avatar, :class => 'contributor_avatar')
-          .content
-            %h3
-              = contributor.name
-              = "(#{contributor.diaspora_id})"
-            %p
-              = contributor.bio
+  - for contributor in @contributors
+    .span-12{:class => cycle("", "last")}
+      .contributor_info
+        = image_tag(contributor.avatar, :class => 'contributor_avatar')
+        .content
+          %h3
+            = contributor.name
+            %br
+            
+            = link_to "#{contributor.diaspora_id}", diaspora_url(contributor)
+            
+          %p
+            = auto_link(contributor.bio).html_safe
 
-            .contributor_links
-              = link_to("#{contributor.first_name} on GitHub", contributor.github_url)
+          .contributor_links
+            = link_to("#{contributor.first_name} on GitHub", contributor.github_url)
               
   .clearfix
             
@@ -89,52 +91,6 @@
 
 
 
-
-
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
   %br
     Daniel Grippi
     Raphael Sofaer

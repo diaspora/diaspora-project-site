@@ -140,6 +140,10 @@ footer {
     top: 0px;
     left: 0; }
 
+.contributor_avatar {
+  height: 75px;
+  width: 75px; }
+
 .contributor_info {
   padding: 20px;
   padding-left: 90px;
