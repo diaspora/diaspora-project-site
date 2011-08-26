@@ -10,6 +10,7 @@
 .container
   %h2
     We are a diverse community of passionate hackers, painters, and visionairies who are trailblazing the future of the social web.
+    =link_to 'help us change the world.', '#'
 
 .container
   #github_stats.span-24.last
@@ -19,14 +20,14 @@
           Diaspora community quick stats
         %ul
           %li
-            over 
+            over
             #number
               0
             contributions
           %li top 2% of all open source projects
           %li 6th most popular project on GitHub
           %li over 800 forks
-          %li over 4000 followers
+          %li over 5000 followers
           %li BDS open source rookie of the year
           %li used in countries all over the world
           %li liberal code commit rights policy
@@ -37,7 +38,18 @@
     .span-8
       .github_stats_section
         %h3
-          we're awesome
+          ways you can get involved
+        %ul
+          %li Coding
+          %li Outreach
+          %li Building applications
+          %li Hosting Meetups 
+          %li Design
+          %li Fan Art
+          %li Curating awesome content 
+          %li Donating 
+          %li Fundraising 
+          %li anything you want to do.
 
 
 
@@ -48,7 +60,7 @@
     
 
   %h2
-    what is open source?
+    what is open source mean to Diaspora?
   %p
     it is about individuality, transpareny, creativity, and destiny.  It is about having an idea, and making it reality.  Diaspora was founded about fulfilling a passion for fun, and making the internet a better place.
 
@@ -61,6 +73,29 @@
     This is why if you contribute something meaningful to Diaspora, we will give you core commit access(what does that mean?). 
     We are in this together, so giving excited people the change to make huge changes always trumps keeping control sacred.
 
+
+
+  %hr
+
+  %h2 
+    Diaspora Community Guidelines
+  %ol
+    %li
+      We are all in this together.
+    %li
+      The fastest way to learn is by jumping right in.
+    %li
+      If your not learning something, your doing it wrong
+    %li
+      If your not having fun, your doing it wrong
+    %li
+      Don't solve problems you don't have yet.
+    %li
+      Be excellent to each other.
+    %li
+      Our community is our best feature.
+
+
   %h2
     meet the core team
 
@@ -68,7 +103,7 @@
     these are the people who have dedicated much of their time to making Diaspora awesome.  You can join this list by contributing here: http://github.com/diaspora/diaspora
 
   .span-24.last
-    - @contributors.group_by(&:kind).each do |kind, contributors|
+    - @contributors.each do |kind, contributors|
       %h2= kind.pluralize.titleize
       -for contributor in contributors
         .span-12{:class => cycle("", "last")}

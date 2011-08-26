@@ -8,11 +8,15 @@ class PagesController < ApplicationController
   end
 
   def get_involved
-    @contributors = Contributor.all
+    @contributors = Contributor.all.group_by(&:kind)
   end
 
   def donate
     
+  end
+
+  def supporters
+
   end
 
   private
