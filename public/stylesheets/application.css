@@ -9,30 +9,33 @@ h1#emphasis {
   text-shadow: 0px -1px 0 white; }
 
 header {
-  padding: 20px; }
+  padding: 5px; }
   header nav {
     float: right;
     margin-top: 22px;
     position: relative;
     z-index: 1; }
     header nav a {
-      color: #3f8fba;
-      font-size: 20px;
-      text-transform: capitalize;
+      /* color: #3f8fba;*/
+      color: #ddd;
+      font-size: 12px;
+      text-transform: uppercase;
       text-decoration: none;
-      -moz-border-radius: 5px 5px 5px 5px;
-      -webkit-border-radius: 5px 5px 5px 5px;
-      border-radius: 5px 5px 5px 5px;
-      -webkit-box-shadow: 0 1px 1px #666666;
-      -moz-box-shadow: 0 1px 1px #666666;
-      box-shadow: 0 1px 1px #666666;
       padding: 5px 8px;
-      background-color: #000;
-      border-top: 1px solid #000; }
+    }
       header nav a:hover {
-        color: #3f8fba;
-        text-decoration: underline;
-        background-color: #222; }
+        color: #ddd;
+        text-decoration: none;
+        background-color: #000;
+        -moz-border-radius: 5px 5px 5px 5px;
+        -webkit-border-radius: 5px 5px 5px 5px;
+        border-radius: 5px 5px 5px 5px;
+        -webkit-box-shadow: 0 1px 1px #666666;
+        -moz-box-shadow: 0 1px 1px #666666;
+        box-shadow: 0 1px 1px #666666;
+        background-color: #222; 
+        border-top: 1px solid #000; 
+      }
 
 #header_logo {
   color: #000;
@@ -43,7 +46,8 @@ header {
   height: 379px;
   width: 100%;
   overflow: hidden;
-  position: relative; }
+  position: relative;
+}
 
 #publisher input, #publisher textarea {
   font-size: 20px;
@@ -51,6 +55,7 @@ header {
 
 .backing {
   position: absolute;
+  width: 105%;
   overflow: hidden;
   top: 0;
   left: 0; }
