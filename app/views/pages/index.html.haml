@@ -1,146 +1,189 @@
 #top_half
-  .container
-    .span-24.last{:style => "position:relative;"}
-      #explanation
+  #masthead
+    .inner
+      .container
         #screenshot_collage
           - (1..3).each do |n|
             = image_tag("screen_collage_#{n}.png", :id => "z-depth-#{n}")
-        %h1#emphasis
+
+        %h1
           Diaspora is the social web frontier.
 
-        .span-18.prepend-3.append-3.last
-          %h3
-            %b
-              Diaspora brings the best parts of the web, small and focused applications, together.
-            Our web of identity servers lets anyone join and take control of their data without losing the connectedness of today's internet.
-
-          %br
-          %br
-
-      %h2#big_join_button
-        = link_to(("Get an account".html_safe + image_tag('arrow_right.png')), "https://joindiaspora.com")
-
-.container
-  %br
-  %br
-
-  #top_features.span-24.last
-    %h2
-      Features our users love...
-    .span-6
-      .section
-        %h3
-          Aspects
-
-        %p
+        %p.lead
+          Diaspora brings the best parts of the web, small and focused applications, together.
           Our web of identity servers lets anyone join and take control of their data without losing the connectedness of today's internet.
 
-        = image_tag('the_community.png')
 
-    .span-6
-      .section
-        %h3
-          Awesome people
+        = link_to("Get an account »", "https://joindiaspora.com", :class => 'btn primary large')
+        .clearfix
 
-        %p
-          Take control of their data without losing the connectedness of today's internet.
+.clearfix
+.container
 
-        - (1..6).each do |n|
-          = image_tag("avatars/person#{n}.jpeg", :class => "avatar")
+  .row#top_features
+    .span4
+      %h5
+        Aspects
 
-    .span-6
-      .section
-        %h3
-          Apps
+      %p
+        Our web of identity servers lets anyone join and take control of their data without losing the connectedness of today's internet.
 
-        %p
-          Diaspora brings the best parts of the web, small and focused applications, together.
+      = image_tag('the_community.png')
 
-        = image_tag('cubbies_logo.png')
+    .span4
+      %h5
+        Community
+
+      %p
+        Take control of their data without losing the connectedness of today's internet.
+
+      - (1..6).each do |n|
+        = image_tag("avatars/person#{n}.jpeg", :class => "avatar")
+
+    .span4
+      %h5
+        Apps
+
+      %p
+        Diaspora brings the best parts of the web, small and focused applications, together.
+
+      = image_tag('cubbies_logo.png')
 
 
-    .span-6.last
-      .section
-        %h3
-          Completely free
+    .span4
+      %h5
+        Completely free
 
-        %p
-          Diaspora is completely free.  Yeah, awesome.
+      %p
+        Diaspora is completely free.  Yeah, awesome.
 
-        = image_tag('free_sign.png')
+      = image_tag('free_sign.png')
 
   .clearfix
   %br
+  .page-header
+    %h1
+      Why Diaspora?
+      %small
+        Diaspora has a lot to offer
 
-  #middle_box
-    .span-12
-      .section
-        %h3
-          Connect with social
-
-        %p
-          By connecting with services, you can use Diaspora as a megaphone to your social tools.
-
-        = image_tag('connect_to_services.png')
-
-      .section
-        %h3
-          Run it anywhere
-
-      .section
-        %h3
-          Hi-res photos
-
-      .section
-        %h3
-          Bookmarklet
-
-    .span-12.last
-      .section
-        %h3
-          \#hashtags
-
-        %p
-          Hashtags allow you to express and follow your interests. They're also a great way to find new people on Diaspora.
-
-        (more images needed)
-        = image_tag('design_perspiration_profile_tags.png')
-
-      .section
-        %h3
-          We're here to help!
-
-        %p
-          Diaspora is an international community of people who are passionate about making the social web work for everyone. We're excited to help. Just ask.
-
-
-      .section
-        %h3
-          No Ads
-
-      .section
-        %h3
-          Own your own data
-
-      .section
-        %h3
-          Social all over the web
-
-  .span-24.last
-    %br
-    %br
-
-    #get_involved_link
+  .row
+    .span4
       %h2
-        made by viewers like you.
-        Do What you Wanna Do.
+        Discovery
       %p
-        diaspora is powered by passionate people doing fun things togther.  Find out how what you love to do can help make Diaspora better.
-        diaspora is made by people who love sharing online as much as you do. 
-      = link_to "Help Build Diaspora", get_involved_path
+        Explanation text
 
-    #mailing_list
-      =link_to "join our mailing list. you won't regret it:"
+    .span12
+      %h4
+        Connect to your other social networks
+      %p
+        By connecting with services, you can use Diaspora as a megaphone to your social tools.
 
-/= image_tag('llama.gif')
+      %h4
+        Hashtags
+      %p
+        Hashtags allow you to express and follow your interests. They're also a great way to find new people on Diaspora.
+
+      %h4
+        Reshare
+      %p
+        By connecting with services, you can use Diaspora as a megaphone to your social tools.
+
+      %hr
+
+  .row
+    .span4
+      %h2
+        Choice
+      %p
+        Run it anywhere, and do some other stuff.
+    .span12
+      %h4
+        Powered by Open Source technology 
+      %p
+        Since Diaspora* is open source, you have the freedom to take your social web with you, wherever you go. 
+
+      %h4
+        Three steps to your own server
+      %p
+        Heroku coming soon
+
+      %hr
+
+  .row
+    .span4
+      %h2
+        Real people
+      %p
+        Explanation text goes here.
+
+    .span12
+      %h4
+        We're here to help
+      %p
+        Diaspora is an international community of people who are passionate about making the social web work for everyone. We're excited to help. Just ask.
+
+      %h4
+        International community
+      %p
+        Diaspora is an international community of people who are passionate about making the social web work for everyone. We're excited to help. Just ask.
+
+      %hr
+
+  .row
+    .span4
+      %h4
+        Bookmarklet
+    .span4
+      %h4
+        Hi-res photos
+
+    .span4
+      %h4
+        No Ads
+
+    .span4
+      %h4
+        Own your own data
+
+    %br
+    %br
+    %br
+    %br
+    %br
+    %br
+  .clearfix
+  .row
+    .page-header
+      %h1
+        Diaspora is a community effort
+        %small
+          Made by viewers like you
+    %p
+      Diaspora is powered by passionate people doing fun things togther.  Find out how what you love to do can help make Diaspora better.
+      diaspora is made by people who love sharing online as much as you do. 
+
+    .span8
+      %h4
+        Contribute code
+
+      %p
+        Some explanation of how people can contribute in a bunch of different ways (not just coding).
+
+      = link_to "Grab the source »", get_involved_path, :class => 'btn primary'
+
+    .span8
+      %h4
+        Donate
+
+      %p
+        Explanation of why donations are so important.  Also, maybe a
+        = link_to "link", "#"
+        to that chart that will explain how we spend our money in developing Diaspora.
+
+      = link_to "Donate", donate_path, :class => 'btn info'
+
+    /=link_to "join our mailing list. you won't regret it:"
+
 

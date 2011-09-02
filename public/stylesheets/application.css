@@ -1,15 +1,7 @@
-body {
-  text-align: left; }
-
-h1 {
-  letter-spacing: -2px; }
-
-h1#emphasis {
-  font-weight: 700;
-  text-shadow: 0px -1px 0 white; }
-
 header {
-  padding: 5px; }
+  padding: 20px;
+  background-color: #221e1e;
+  border-bottom: #fff; }
   header nav {
     float: right;
     margin-top: 22px;
@@ -21,8 +13,7 @@ header {
       font-size: 12px;
       text-transform: uppercase;
       text-decoration: none;
-      padding: 5px 8px;
-    }
+      padding: 5px 8px; }
       header nav a:hover {
         color: #ddd;
         text-decoration: none;
@@ -33,9 +24,8 @@ header {
         -webkit-box-shadow: 0 1px 1px #666666;
         -moz-box-shadow: 0 1px 1px #666666;
         box-shadow: 0 1px 1px #666666;
-        background-color: #222; 
-        border-top: 1px solid #000; 
-      }
+        background-color: #222;
+        border-top: 1px solid #000; }
 
 #header_logo {
   color: #000;
@@ -46,8 +36,7 @@ header {
   height: 379px;
   width: 100%;
   overflow: hidden;
-  position: relative;
-}
+  position: relative; }
 
 #publisher input, #publisher textarea {
   font-size: 20px;
@@ -55,7 +44,6 @@ header {
 
 .backing {
   position: absolute;
-  width: 105%;
   overflow: hidden;
   top: 0;
   left: 0; }
@@ -70,42 +58,10 @@ header {
     -webkit-transition-duration: 1s;
     opacity: 1; }
 
-#explanation {
-  text-align: center;
-  margin-top: -80px; }
-
-#big_join_button {
-  border: 2px solid #234896;
-  border-radius: 5px;
-  background-color: #2D5CBF;
-  position: absolute;
-  display: inline-block;
-  top: 647px;
-  right: 100px;
-  padding: 10px 20px;
-  padding-right: 45px;
-  margin-bottom: 0; }
-  #big_join_button a {
-    position: relative;
-    color: white;
-    text-decoration: none; }
-  #big_join_button img {
-    height: 55px;
-    position: absolute;
-    top: -12px;
-    right: -50px; }
-
 #top_half {
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ebebeb), to(#f7f7f7));
   box-shadow: 0 1px 3px #ddd;
   border-bottom: 1px solid #ccc; }
-
-header {
-  background-color: #221e1e;
-  border-bottom: #fff; }
-
-#middle_box .section {
-  text-align: center; }
 
 .section {
   text-align: center;
@@ -115,9 +71,6 @@ header {
   padding: 10px;
   box-shadow: 0 1px 6px #eee;
   margin-bottom: 10px; }
-
-#top_features .section {
-  height: 260px; }
 
 .avatar {
   height: 60px;
@@ -139,7 +92,8 @@ footer {
   display: inline-block;
   height: 590px;
   width: 842px;
-  position: relative; }
+  position: relative;
+  margin-top: -80px; }
   #screenshot_collage img {
     position: absolute;
     top: 0px;
@@ -150,19 +104,41 @@ footer {
   width: 75px; }
 
 .contributor_info {
-  padding: 20px;
-  height: 150px;
-  padding-left: 90px;
   position: relative; }
-  .contributor_info img.contributor_avatar {
-    position: absolute;
-    left: 0; }
 
-#github_stats {
+#top_features {
+  text-align: center; }
+
+#masthead div.inner, #footer div.inner {
+  background: transparent url(../img/grid-18px.png) top center;
+  -webkit-box-shadow: inset 0 10px 30px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 0 10px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 10px 30px rgba(0, 0, 0, 0.3); }
+
+#masthead h1,
+#footer h1,
+#masthead p,
+#footer p {
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); }
+
+#masthead p a,
+#footer p a {
+  color: #fff;
+  font-weight: bold; }
+
+#masthead h1,
+#masthead p {
   text-align: center;
-  border-radius: 5px;
-  border: 1px solid #ddd;
-  margin: 10px 0; }
-  #github_stats .github_stats_section {
-    text-align: left;
-    padding: 20px; }
+  margin-bottom: 9px; }
+
+#masthead h1 {
+  font-size: 54px;
+  line-height: 1;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); }
+
+#masthead p {
+  font-weight: 300; }
+
+#masthead p.lead {
+  font-size: 20px;
+  line-height: 27px; }

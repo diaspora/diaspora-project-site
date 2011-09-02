@@ -3,10 +3,8 @@
   %head
     %title
       The Diaspora Project
-    = stylesheet_link_tag 'print', :media => 'print'
-    = stylesheet_link_tag 'screen', :media => 'screen'
     = stylesheet_link_tag 'application'
-
+    %link{:rel =>"stylesheet", :href=>"http://twitter.github.com/bootstrap/assets/css/bootstrap-1.1.1.min.css"}
     = javascript_include_tag 'jquery-1.6.1.min'
     = javascript_include_tag 'github'
     = javascript_include_tag 'application'
@@ -14,7 +12,6 @@
     = yield :head
 
   %body
-    
     %header
       .container
         = link_to(image_tag("logo.png", :height => "70px"), root_path)
@@ -29,11 +26,10 @@
 
     %footer
       .container
-        %hr
-        .span-24.last
+        .row
           %h4 Useful Resources
           %ul#links
-            .span-6
+            .span4
               %ul
                 %li
                   %strong
@@ -44,19 +40,19 @@
                 %br
                   %li
                     %a{:href => "http://github.com/diaspora/diaspora/issues", :title => "Bug tracker"} Find & Report bugs
-            .span-6
+            .span4
               %ul
                 %li
                   %a{:href => "http://webchat.freenode.net/?channels=diaspora", :title => "#diaspora"} IRC - General
                 %li
                   %a{:href => "http://webchat.freenode.net/?channels=diaspora-dev", :title => "#diaspora-dev"} IRC - Development
-            .span-6
+            .span4
               %ul
                 %li
                   %a{:href => "http://groups.google.com/group/diaspora-discuss", :title => "General discussion mailing list"} Discussion - General
                 %li
                   %a{:href => "http://groups.google.com/group/diaspora-dev", :title => "Dev mailing list"} Discussion - Development
-            .span-5.last
+            .span3
               %ul
                 %li
                   %a{:href => "http://getsatisfaction.com/diaspora/", :title => "Get Satisfaction"} User Feedback
