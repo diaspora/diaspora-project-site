@@ -1,22 +1,74 @@
+.clearfix
 .container
-  .span-12.prepend-6.last
+  .row
     %h1 Supporters of Diaspora
 
-    .span-6
-      :erb
-        <iframe frameborder="0" height="380px" src="http://www.kickstarter.com/projects/196017994/diaspora-the-personally-controlled-do-it-all-distr/widget/card.html" width="220px"></iframe>
-    .span-6.last
-      %h4
-        First and foremost, Diaspora is made possible by the generous nature of our original 
-        = link_to 'Kickstarter backers.','http://www.kickstarter.com/projects/196017994/diaspora-the-personally-controlled-do-it-all-distr/backers'
-        Without them Diaspora could have never become the huge social movement it is today.
+  .row
+    .page-header
+      %h1
+        Sponsors
 
-    .span-12.last
-      %h2 
-        Pivotal Labs
-      %h3
+    .span4
+      = image_tag "http://www.xtremelabs.com/production/wp-content/uploads/2011/08/pivotal-labs-logo1.png"
+      %p
         Pivotal both housed and mentored the core team the first year.  They taught us much about making amazing software.  If you have a startup and are looking to make sure everything goes smoothly, you should contact them.
 
-      %h3 
-        if you want to see your name here, you should 
-        =link_to 'donate.', donate_path
+  .row
+    %div{:style => "text-align:center;"}
+      %h6
+        Want to see your name here?
+      = link_to "Contact us", "mailto:yosem@joindiaspora.com", :class => "btn info small"
+
+  .row
+    .page-header
+      %h1
+        Donors
+        %small
+          The people who keep the project going.
+
+    .row
+      .span4
+        %h2
+          You
+        =image_tag 'montone_you.png'
+
+      .span12
+        %h4
+          Make a difference
+        %p
+          Contributions come in all different shapes and sizes. whether it be
+          = link_to "code,"
+          design, community organizing, blah blah blah.  Or, you can make a monetary donation.
+
+        = link_to 'Donate now', donate_path, :class => 'btn large primary'
+
+
+    .row
+      .span4
+        %h2
+          Kickstarter
+        %p
+          First and foremost, Diaspora is made possible by the generous nature of our original 
+          = link_to 'Kickstarter backers.','http://www.kickstarter.com/projects/196017994/diaspora-the-personally-controlled-do-it-all-distr/backers'
+          Without them Diaspora could have never become the huge social movement it is today.
+
+        :erb
+          <iframe frameborder="0" height="380px" src="http://www.kickstarter.com/projects/196017994/diaspora-the-personally-controlled-do-it-all-distr/widget/card.html" width="220px"></iframe>
+
+      .span12
+        %h4
+          Our Backers
+
+          %small
+            Listed alphabetically
+
+        .clearfix
+
+        .well{:style => "height: 5000px"}
+          - 5.times do
+            .span2
+              %ul.unstyled
+                - 1000.times do
+                  %li John Smith
+
+

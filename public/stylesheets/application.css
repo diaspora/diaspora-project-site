@@ -27,36 +27,36 @@ header {
         background-color: #222;
         border-top: 1px solid #000; }
 
+#collage-container {
+  text-align: center; }
+
 #header_logo {
   color: #000;
   text-decoration: none;
   font-size: 20px; }
 
 #contributors {
+  z-index: 0;
   height: 379px;
-  width: 100%;
+  width: 120%;
   overflow: hidden;
-  position: relative; }
+  position: absolute;
+  top: 0; }
 
 #publisher input, #publisher textarea {
   font-size: 20px;
   width: 100%; }
 
-.backing {
-  position: absolute;
-  overflow: hidden;
-  top: 0;
-  left: 0; }
-  .backing img {
-    margin: 0px 2px; }
-  .backing img.faded {
-    -webkit-transition-property: opacity;
-    -webkit-transition-duration: 1s;
-    opacity: 0.3; }
-  .backing img.opaque {
-    -webkit-transition-property: opacity;
-    -webkit-transition-duration: 1s;
-    opacity: 1; }
+#contributors img {
+  margin: 0px 2px; }
+#contributors img.faded {
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: 1s;
+  opacity: 0.6; }
+#contributors img.opaque {
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: 1s;
+  opacity: 1; }
 
 #top_half {
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ebebeb), to(#f7f7f7));
@@ -109,16 +109,24 @@ footer {
 #top_features {
   text-align: center; }
 
-#masthead div.inner, #footer div.inner {
-  background: transparent url(../img/grid-18px.png) top center;
-  -webkit-box-shadow: inset 0 10px 30px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: inset 0 10px 30px rgba(0, 0, 0, 0.3);
-  box-shadow: inset 0 10px 30px rgba(0, 0, 0, 0.3); }
+#masthead {
+  position: relative; }
+
+.contributors,
+#contributors {
+  height: 250px; }
+
+.contributors .inner {
+  position: absolute;
+  width: 100%;
+  z-index: 12;
+  padding-top: 55px; }
 
 #masthead h1,
 #footer h1,
 #masthead p,
 #footer p {
+  z-index: 30;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); }
 
 #masthead p a,
@@ -142,3 +150,8 @@ footer {
 #masthead p.lead {
   font-size: 20px;
   line-height: 27px; }
+
+.contributors .well {
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); }

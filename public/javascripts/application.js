@@ -18,7 +18,7 @@ $(document).ready(function(){
       img.classList.add("faded")
       img.width = 60;
       img.onload = function(){
-        $(".backing", "#contributors").append($(img).fadeIn("fast"));
+        $("#contributors").append($(img).fadeIn("fast"));
       }
       var number = $('#number').text();
       number = parseInt(number) + val['contributions']
