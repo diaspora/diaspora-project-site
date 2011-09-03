@@ -3,23 +3,25 @@
   .row
     %h1 Supporters of Diaspora
 
-  .row
+  %section#sponsors
     .page-header
       %h1
         Sponsors
 
-    .span4
-      = image_tag "http://www.xtremelabs.com/production/wp-content/uploads/2011/08/pivotal-labs-logo1.png"
-      %p
-        Pivotal both housed and mentored the core team the first year.  They taught us much about making amazing software.  If you have a startup and are looking to make sure everything goes smoothly, you should contact them.
+    .row
+      .span4
+        = link_to "http://pivotallabs.com" do
+          = image_tag "http://www.xtremelabs.com/production/wp-content/uploads/2011/08/pivotal-labs-logo1.png", :width => 180, :height => 120
+        %p
+          Pivotal both housed and mentored the core team the first year.  They taught us much about making amazing software.  If you have a startup and are looking to make sure everything goes smoothly, you should contact them.
 
-  .row
-    %div{:style => "text-align:center;"}
-      %h6
-        Want to see your name here?
-      = link_to "Contact us", "mailto:yosem@joindiaspora.com", :class => "btn info small"
+      .span4.potential_supporter
+        %h6
+          Want to see your name here?
+        = link_to "Contact us", "mailto:yosem@joindiaspora.com", :class => "btn info small"
 
-  .row
+
+  %section#donors
     .page-header
       %h1
         Donors

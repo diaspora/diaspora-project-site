@@ -146,3 +146,12 @@ footer {
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+.potential_supporter {
+  text-align: center;
+  border: 2px dotted #ddd;
+  height: 200px;
+  border-radius: 5px;
+  padding-top: 50px; }
+  .potential_supporter h6 {
+    padding: 10px; }
