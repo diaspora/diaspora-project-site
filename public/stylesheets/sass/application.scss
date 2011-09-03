@@ -9,7 +9,7 @@ header{
 
   nav{
     float: right;
-    margin-top: 22px;
+    margin-top: 30px;
 
     // we need this as the screenshots are overlaying the nav...
     position: relative;
@@ -86,16 +86,6 @@ header{
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#EBEBEB), to(#F7F7F7));
   box-shadow: 0 1px 3px #ddd;
   border-bottom: 1px solid #ccc;
-}
-
-.section {
-  text-align: center;
-  background-color: #fafafa;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  padding: 10px;
-  box-shadow: 0 1px 6px #eee;
-  margin-bottom: 10px;
 }
 
 .avatar {

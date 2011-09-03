@@ -21,141 +21,169 @@
 .clearfix
 .container
 
-  .row#top_features
-    .span4
-      %h6
-        Aspects
+  %section#top_features
+    .row
+      .span4
+        %h6
+          Aspects
 
-      %p
-        Our web of identity servers lets anyone join and take control of their data without losing the connectedness of today's internet.
+        %p
+          Our web of identity servers lets anyone join and take control of their data without losing the connectedness of today's internet.
 
-      = image_tag('the_community.png')
+        = image_tag('the_community.png')
 
-    .span4
-      %h6
-        Community
+      .span4
+        %h6
+          Community
 
-      %p
-        Take control of their data without losing the connectedness of today's internet.
+        %p
+          Take control of their data without losing the connectedness of today's internet.
 
-      - (1..6).each do |n|
-        = image_tag("avatars/person#{n}.jpeg", :class => "avatar")
+        - (1..6).each do |n|
+          = image_tag("avatars/person#{n}.jpeg", :class => "avatar")
 
-    .span4
-      %h6
-        Apps
+      .span4
+        %h6
+          Apps
 
-      %p
-        Diaspora brings the best parts of the web, small and focused applications, together.
+        %p
+          Diaspora brings the best parts of the web, small and focused applications, together.
 
-      = image_tag('cubbies_logo.png')
+        = image_tag('cubbies_logo.png')
 
 
-    .span4
-      %h6
-        Completely free
+      .span4
+        %h6
+          Completely free
 
-      %p
-        Diaspora is completely free.  Yeah, awesome.
+        %p
+          Diaspora is completely free.  Yeah, awesome.
 
-      = image_tag('free_sign.png')
+        = image_tag('free_sign.png')
 
+  %section#why_diaspora
+    .page-header
+      %h1
+        Why Diaspora?
+        %small
+          Diaspora has a lot to offer
+
+    .row
+      .span4
+        %h2
+          Discovery
+        %p
+          Explanation text
+          There are a lot of people out there on the Internet.  Diaspora allows individuals so meet new and interesting people.
+
+      .span12
+        %h4
+          Connect to your other social networks
+        %p
+          Share with those not even on Diaspora yet with ease.  By connecting with services, you can use Diaspora as a megaphone to your social tools.  Diaspora currently supports cross-posting to your Facebook, Twitter, and Tumblr accounts.
+
+        %h4
+          Hashtags
+        %p
+          Hashtags allow you to express and follow your interests. They're also a great way to find new people on Diaspora.
+
+        %h4
+          Reshare
+        %p
+          Really like a post?  Then why not share it with your contacts?  Diaspora makes it easy to spread ideas throughout the network through resharing posts.
+
+        %hr
+
+    .row
+      .span4
+        %h2
+          Choice
+        %p
+          We believe in an open web.  Diaspora breaks down the boundries set by traditional social networks by allowing you to host your account where ever you choose.
+
+      .span12
+        %h4
+          Powered by
+          = link_to "Open Source", "/get_involved#open_source"
+          technology 
+        %p
+          Diaspora's code is readily available to look at and download.  Individuals should know what their software is doing with their data; we strive for complete transparency, not only in our code, but in our communication as well.  Feel free to tweak, contribute, and examine the ever-evolving Diaspora source-code.
+
+        %p
+          We have a largely internrational team working around the clock to make Diaspora better every single day.  We are committed to [something].
+
+        %h4
+          You're not tied to a single service provider
+
+        %p
+          Since Diaspora is able to run anywhere on the Internet, you can choose where you host your Diaspora ID, your passport to the Diaspora ecosystem.  You don't need to be on the same site as your friends to interact with them.  Diaspora breaks boundries through federation.
+
+        %h4
+          Host it yourself
+        %p
+          Not content on hosting your data on someone else's server?  No problem!  Since Diaspora is completely free software, you can
+          = link_to "grab the code", "https://github.com/diaspora/diaspora"
+          and host it where ever you want.  We're constatnly making it easier for individuals to host Diaspora themselves.
+
+        %hr
+
+    .row
+      .span4
+        %h2
+          Real people
+        %p
+          Explanation text goes here.
+
+      .span12
+        %h4
+          We're here to help
+        %p
+          Diaspora is an international community of people who are passionate about making the social web work for everyone. We're excited to help. Just ask.
+
+        %h4
+          International community
+        %p
+          Diaspora is an international community of people who are passionate about making the social web work for everyone. We're excited to help. Just ask.
+
+        %hr
+
+    .row
+      .span4
+        %h6
+          Bookmarklet
+
+        %p
+          Use a bookmarket to easily share interesting content from around the web with whomever you'd like.
+
+
+      .span4
+        %h6
+          Hi-res photos
+        Upload and share high-resolution photos with whomever you choose.
+
+      .span4
+        %h6
+          No Ads
+
+        %p
+          We don't like ads.  You don't like ads.
+
+      .span4
+        %h6
+          Own your own data
+
+        %p
+          We're not in the business of selling your personal information to third parties.  Diaspora's mission is to connect people, not sell them out.
+
+      %br
+      %br
+      %br
+      %br
+      %br
+      %br
   .clearfix
-  %br
-  .page-header
-    %h1
-      Why Diaspora?
-      %small
-        Diaspora has a lot to offer
 
-  .row
-    .span4
-      %h2
-        Discovery
-      %p
-        Explanation text
-
-    .span12
-      %h4
-        Connect to your other social networks
-      %p
-        By connecting with services, you can use Diaspora as a megaphone to your social tools.
-
-      %h4
-        Hashtags
-      %p
-        Hashtags allow you to express and follow your interests. They're also a great way to find new people on Diaspora.
-
-      %h4
-        Reshare
-      %p
-        By connecting with services, you can use Diaspora as a megaphone to your social tools.
-
-      %hr
-
-  .row
-    .span4
-      %h2
-        Choice
-      %p
-        Run it anywhere, and do some other stuff.
-    .span12
-      %h4
-        Powered by Open Source technology 
-      %p
-        Since Diaspora* is open source, you have the freedom to take your social web with you, wherever you go. 
-
-      %h4
-        Three steps to your own server
-      %p
-        Heroku coming soon
-
-      %hr
-
-  .row
-    .span4
-      %h2
-        Real people
-      %p
-        Explanation text goes here.
-
-    .span12
-      %h4
-        We're here to help
-      %p
-        Diaspora is an international community of people who are passionate about making the social web work for everyone. We're excited to help. Just ask.
-
-      %h4
-        International community
-      %p
-        Diaspora is an international community of people who are passionate about making the social web work for everyone. We're excited to help. Just ask.
-
-      %hr
-
-  .row
-    .span4
-      %h4
-        Bookmarklet
-    .span4
-      %h4
-        Hi-res photos
-
-    .span4
-      %h4
-        No Ads
-
-    .span4
-      %h4
-        Own your own data
-
-    %br
-    %br
-    %br
-    %br
-    %br
-    %br
-  .clearfix
-  .row
+  %section
     .page-header
       %h1
         Diaspora is a community effort
@@ -165,26 +193,27 @@
       Diaspora is powered by passionate people doing fun things togther.  Find out how what you love to do can help make Diaspora better.
       diaspora is made by people who love sharing online as much as you do. 
 
-    .span8
-      %h2
-        Contribute code
+    .row
+      .span8
+        %h2
+          Contribute code
 
-      %p
-        Some explanation of how people can contribute in a bunch of different ways (not just coding).
+        %p
+          Some explanation of how people can contribute in a bunch of different ways (not just coding).
 
-      = link_to "Grab the source »", get_involved_path, :class => 'btn primary'
+        = link_to "Grab the source »", get_involved_path, :class => 'btn primary'
 
-    .span8
-      %h2
-        Donate
+      .span8
+        %h2
+          Donate
 
-      %p
-        Explanation of why donations are so important.  Also, maybe a
-        = link_to "link", "#"
-        to that chart that will explain how we spend our money in developing Diaspora.
+        %p
+          Explanation of why donations are so important.  Also, maybe a
+          = link_to "link", "#"
+          to that chart that will explain how we spend our money in developing Diaspora.
 
-      = link_to "Donate", donate_path, :class => 'btn info'
+        = link_to "Donate", donate_path, :class => 'btn info'
 
-    /=link_to "join our mailing list. you won't regret it:"
+      /=link_to "join our mailing list. you won't regret it:"
 
 
