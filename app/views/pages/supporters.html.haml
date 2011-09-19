@@ -66,11 +66,9 @@
 
         .clearfix
 
-        .well{:style => "height: 5000px"}
+        .well{:style => "height:470px;max-height:470px;overflow:scroll;"}
           - 5.times do
-            .span2
-              %ul.unstyled
-                - 1000.times do
-                  %li John Smith
+            - 1000.times do
+              John Smith
 
 
