@@ -11,13 +11,9 @@ class PagesController < ApplicationController
     @contributors = Contributor.all.group_by(&:kind)
   end
 
-  def donate
-    
-  end
-
-  def supporters
-
-  end
+  def donate ; end
+  def supporters ; end
+  def why_diaspora ; end
 
   private
   def page_not_found

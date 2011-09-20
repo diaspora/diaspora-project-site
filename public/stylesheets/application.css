@@ -10,7 +10,7 @@ header {
     header nav a {
       /* color: #3f8fba;*/
       color: #ddd;
-      font-size: 12px;
+      font-size: 14px;
       text-transform: uppercase;
       text-decoration: none;
       padding: 5px 8px; }
@@ -83,8 +83,7 @@ footer {
   display: inline-block;
   height: 590px;
   width: 842px;
-  position: relative;
-  margin-top: -80px; }
+  position: relative; }
   #screenshot_collage img {
     position: absolute;
     top: 0px;
@@ -101,7 +100,8 @@ footer {
   text-align: center; }
 
 #masthead {
-  position: relative; }
+  position: relative;
+  background-color: #fcfcfc; }
 
 .contributors,
 #contributors {
@@ -117,6 +117,7 @@ footer {
 #footer h1,
 #masthead p,
 #footer p {
+  color: #111;
   z-index: 30;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); }
 
