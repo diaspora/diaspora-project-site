@@ -1,5 +1,6 @@
 = content_for :head do
   :javascript
+    //$('.tabs').tabs();
     /* <![CDATA[ */
         (function() {
             var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
@@ -27,44 +28,75 @@
       %small
         Your contributions give people freedom
 
-  #donations.row
-    .span4.offset2
-      %h4
-        One Time Donation
-      %p
+  %ul{:class=> 'tabs', :data => {:tabs => 'tabs'}}
+    %li{:class => 'active'}
+      = link_to 'One Time', '#one_time'
+    %li
+      = link_to 'Monthly', '#monthly'
+    %li
+      = link_to 'Flattr', '#flattr'
+
+  #donations.tab-content.row
+    #one_time.active
+      .span6
+        .clearfix
+          :erb
+              <form name="_xclick" action="https://www.paypal.com/cgi-bin/webscr" class='form-stacked' method="post">
+                <fieldset>
+                  <legend>
+                    One Time Donation
+                  </legend>
+                  <div class='clearfix'>
+                    <div class='input'>
+                      <input type="hidden" name="cmd" value="_xclick">
+                      <input type="hidden" name="business" value="donations@joindiaspora.com">
+                      <input type="hidden" name="item_name" value="Contribution To Diaspora">
+                      <input type="hidden" name="currency_code" value="USD">
+                      <input type="input" class='xlarge span2'name="amount" value="25.00">
+                  </div>
+                  </div>
+                </fieldset>
+                <div class='actions'>
+                  <input type="submit" class="btn primary" value="Donate">
+                </div>
+              </form>
+    #monthly
+      .span6
         :erb
-          <form name="_xclick" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-          <input type="hidden" name="cmd" value="_xclick">
-          <input type="hidden" name="business" value="donations@joindiaspora.com">
-          <input type="hidden" name="item_name" value="Contribution To Diaspora">
-          <input type="hidden" name="currency_code" value="USD">
-          <input type="input" name="amount" value="25.00">
-          <input type="image" src="http://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
+          <form action="https://www.paypal.com/cgi-bin/webscr" class='form-stacked' method="post">
+          <fieldset>
+            <legend>
+              Monthly Subscription
+            </legend>
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="N24UFDL4RJJF4">
+              <input type="hidden" name="on0" value="">
+              <div class='clearfix'>
+                <div class='input'>
+                  <select name="os0">
+                    <option value="Supporter">Supporter : $5.00USD</option>
+                    <option value="Member">Member : $10.00USD</option>
+                    <option value="Freedom Fighter">Freedom Fighter : $20.00USD</option>
+                  </select>
+                </div>
+                </div>
+    
+              <input type="hidden" name="currency_code" value="USD">
+            </fieldset>
+
+            <div class='actions'>
+              <input type="submit" class="btn primary" value="Donate">
+            </div>
           </form>
-    .span4
-      %h4
-        Monthly Subscription
-      %p
-        :erb
-          <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-          <input type="hidden" name="cmd" value="_s-xclick">
-          <input type="hidden" name="hosted_button_id" value="N24UFDL4RJJF4">
-          <table>
-          <tr><td><input type="hidden" name="on0" value=""></td></tr><tr><td><select name="os0">
-            <option value="Supporter">Supporter : $5.00USD - monthly</option>
-            <option value="Member">Member : $10.00USD - monthly</option>
-            <option value="Freedom Fighter">Freedom Fighter : $20.00USD - monthly</option>
-          </select> </td></tr>
-          </table>
-          <input type="hidden" name="currency_code" value="USD">
-          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribe_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-          <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-          </form>
-    .span4
-      %h4
-        Flattr
-      %p
-        :erb
-          <a class="FlattrButton" style="display:none;" href="https://flattr.com/profile/Diaspora"></a>
-          <noscript><a href="http://flattr.com/thing/382291/Diaspora-on-Flattr" target="_blank">
-          <img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></noscript>
+    #flattr 
+      .span4
+
+        %form{:class => 'form-stacked'}
+          %fieldset
+            %legend
+              Flattr
+          :erb
+            <a class="FlattrButton" style="display:none;" href="https://flattr.com/profile/Diaspora"></a>
+            <noscript><a href="http://flattr.com/thing/382291/Diaspora-on-Flattr" target="_blank">
+            <img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></noscript>
+

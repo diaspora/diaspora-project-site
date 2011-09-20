@@ -1,3 +1,6 @@
+- content_for :head do
+  = javascript_include_tag 'github', 'application'
+
 #top_half
   #masthead.contributors
     .inner
@@ -174,20 +177,37 @@
             = kind.pluralize.titleize
 
         .span12
-          -for contributor in contributors
-            .span6
-              .contributor_info
-                = image_tag(contributor.avatar, :class => 'contributor_avatar')
-                .content
-                  %h4
-                    = contributor.name
-                    %small
-                      = link_to "#{contributor.diaspora_id}", diaspora_url(contributor)
-                  %p
-                    = auto_link(contributor.bio).html_safe
+          - contributors.in_groups_of(2) do |c1, c2|
+            .row
+              .span5
+                .contributor_info
+                  = image_tag(c1.avatar, :class => 'contributor_avatar')
+                  .content
+                    %h4
+                      = c1.name
+                      %small
+                        = link_to "#{c1.diaspora_id}", diaspora_url(c1)
+                    %p
+                      = auto_link(c1.bio).html_safe
 
-                  .contributor_links
-                    = link_to("#{contributor.first_name}'s GitHub", contributor.github_url, :class => 'btn small')
+                    .contributor_links
+                      = link_to(image_tag('github-icon.png'), c1.github_url, :title => 'on GitHub')
+              .span1
+              .span5
+                .contributor_info
+                  = image_tag(c2.avatar, :class => 'contributor_avatar')
+                  .content
+                    %h4
+                      = c2.name
+                      %small
+                        = link_to "#{c2.diaspora_id}", diaspora_url(c2)
+                    %p
+                      = auto_link(c2.bio).html_safe
+
+                    .contributor_links
+                      = link_to(image_tag('github-icon.png'), c2.github_url, :title => 'on GitHub' )
+
+
     think your name should be here? send your info to support@joindiaspora.com!
   .clearfix
 
