@@ -3,20 +3,21 @@
     .inner
       .container
         .clearfix
-        %h1
-          Social networking has evolved.
-          /The social web frontier.
-          /The future of the social web, today.
+        .row
+          %h1
+            Social networking has evolved.
+          %p.lead
+            Finally, a network that lets you share on your own terms.
+          #collage-container
+            #screenshot_collage
+              - (1..3).each do |n|
+                = image_tag("screen_collage_#{n}.png", :id => "z-depth-#{n}")
 
-        %p.lead
-          Diaspora brings the best parts of the web, together.
-          /Our web of identity servers lets anyone join and take control of their data without losing the connectedness of today's internet.
+            /The social web frontier.
+            /The future of the social web, today.
 
-        %br
-
-        = image_tag('map_mock.png')
-
-        .clearfix
+            /  /Diaspora brings the best parts of the web, together.
+            /  /Our web of identity servers lets anyone join and take control of their data without losing the connectedness of today's internet.
 
 .clearfix
 .container
@@ -24,57 +25,67 @@
   %section#getting_involved
     .row
       .span10.offset3
-        %div{:style => "float:right;"}
+        .floater
           = link_to("Get an account »", "https://joindiaspora.com", :class => 'btn primary large')
 
         = link_to("Get involved", "https://joindiaspora.com", :class => 'btn large')
 
 
-  %section#top_features
+  %section#top_fdeatures
     .row
-      .span4
-        %h6
-          Freedom of Expression
+      .span8
+        .well
+          %h3
+            Personal data ownership
+          = image_tag('filler_1.png', :class => 'floater')
+          %p
+            Like the Internet itself, Diaspora* isn't housed in any one place, and it's not controlled by any one entity (including us).
 
-        %p
-          You can express yourself candidly, and be your authentic self.  You can go by whatever name you like on Diaspora* this opens the door to real connection.  
-          /Our web of identity servers lets anyone join and take control of their data without losing the connectedness of today's internet.
+      .span8
+        .well
+          %h3
+            Freedom of expression
+          = image_tag('filler_3.png', :class => 'floater')
+          %p
+            You can express yourself candidly, and be your authentic self. You can go by whatever name you like on Diaspora* this opens the door to real connection.
 
-        = image_tag('the_community.png')
+    .row
+      .span8
+        .well
+          %h3
+            A welcoming community
+          = image_tag('filler_4.png', :class => 'floater')
+          %p
+            We're passionate about making sharing better.
+            With core features like hashtags and reshare, it's really easy to meet likeminded people on Diaspora.
+            /And since Diaspora has Aspects, you can connect with a plethora of different people, while still communicating with just the right audience.
 
-      .span4
-        %h6
-          Community
-
-        %p
-          Take control of their data without losing the connectedness of today's internet.
-
-        - (1..6).each do |n|
-          = image_tag("avatars/person#{n}.jpeg", :class => "avatar")
-
-      .span4
-        %h6
-          Apps
-
-        %p
-          Diaspora brings the best parts of the web, small and focused applications, together.
-
-        = image_tag('cubbies_logo.png')
+          /- (1..6).each do |n|
+          /  = image_tag("avatars/person#{n}.jpeg", :class => "avatar")
 
 
-      .span4
-        %h6
-          Completely free
-
-        %p
-          Diaspora is completely free.  Yeah, awesome.
-
-        = image_tag('free_sign.png')
+      .span8
+        .well
+          %h3
+            Working together
+          = image_tag('filler_2.png', :class => 'floater')
+          %p
+            Our international community of developers works with our community of users to build a web that works for everybody.
 
 
   %section#supplimentary-info
     .row
-      %p
-        Diaspora is made by people like you. We are a community driven project that strives to make the future of the social web more.
+      .span11
+        .well
+          %h3
+            See all the other reasons that make Diaspora so great
+          %p
+            = link_to 'check it', why_diaspora_path
+
+      .span5
+        .well
+          %h3
+            Contribute action
+
 
 

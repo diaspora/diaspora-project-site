@@ -27,6 +27,9 @@ header {
         background-color: #222;
         border-top: 1px solid #000; }
 
+.floater {
+  float: right; }
+
 #collage-container {
   text-align: center; }
 
