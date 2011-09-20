@@ -4,7 +4,8 @@
       .container
         .clearfix
         %h1
-          The social web frontier.
+          Social networking has evolved.
+          /The social web frontier.
           /The future of the social web, today.
 
         %p.lead
@@ -20,11 +21,13 @@
 .clearfix
 .container
 
-  .row
-    %div{:style => "float:right;"}
-      = link_to("Get an account »", "https://joindiaspora.com", :class => 'btn primary large')
+  %section#getting_involved
+    .row
+      .span10.offset3
+        %div{:style => "float:right;"}
+          = link_to("Get an account »", "https://joindiaspora.com", :class => 'btn primary large')
 
-    = link_to("Join us", "https://joindiaspora.com", :class => 'btn large')
+        = link_to("Get involved", "https://joindiaspora.com", :class => 'btn large')
 
 
   %section#top_features
@@ -32,7 +35,6 @@
       .span4
         %h6
           Freedom of Expression
-          /Aspects
 
         %p
           You can express yourself candidly, and be your authentic self.  You can go by whatever name you like on Diaspora* this opens the door to real connection.  
@@ -68,4 +70,11 @@
           Diaspora is completely free.  Yeah, awesome.
 
         = image_tag('free_sign.png')
+
+
+  %section#supplimentary-info
+    .row
+      %p
+        Diaspora is made by people like you. We are a community driven project that strives to make the future of the social web more.
+
 

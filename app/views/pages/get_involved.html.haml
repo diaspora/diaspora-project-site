@@ -14,9 +14,54 @@
 .container
   .clearfix
 
-  %h2
-    We are a diverse community of passionate hackers, painters, and visionairies who are trailblazing the future of the social web.
-    =link_to 'help us change the world.', '#'
+  %section
+    .row
+      .span6
+        %h2
+          Contribute code
+
+        %p
+          Grabbing the source code is simple.  Clone down the repository and poke around:
+          %code
+            git clone git://github.com/diaspora/diaspora.git
+
+        %br
+        %p
+          = link_to "View the source on github »", get_involved_path, :class => 'btn primary'
+        %br
+
+        %p
+          We've got a large community ready to help you get started.  We suggest you check out our
+          = link_to "getting started guide,", "#"
+          = link_to "joining our mailing list,", "http://groups.google.com/group/diaspora-dev"
+          and hopping in the
+          = link_to "Diaspora IRC room.", "irc://irc.freenode.net/#diaspora"
+
+      .span6
+        %h2
+          Other ways to get invoved
+        %ul
+          %li Outreach
+          %li Building applications
+          %li Hosting Meetups 
+          %li Design
+          %li Fan Art
+          %li Curating awesome content 
+          %li Fundraising 
+
+      .span4
+        %h2
+          Donate
+
+        %p
+          Explanation of why donations are so important.  Also, maybe a
+          = link_to "link", "#"
+          to that chart that will explain how we spend our money in developing Diaspora.
+
+        = link_to "Donate", donate_path, :class => 'btn info'
+
+      /=link_to "join our mailing list. you won't regret it:"
+
 
   .clearfix
 
@@ -40,24 +85,6 @@
         %li you don't need to code to get involved
         %li easy to get involved
         %li change people's lives
-
-    .span6
-      %h3
-        ways you can get involved
-      %ul
-        %li Coding
-        %li Outreach
-        %li Building applications
-        %li Hosting Meetups 
-        %li Design
-        %li Fan Art
-        %li Curating awesome content 
-        %li Donating 
-        %li Fundraising 
-        %li anything you want to do.
-
-    .span4
-      = link_to("Grab the code", "http://gitub.com/diaspora/diaspora", :class => 'btn primary')
 
   %section#open_source
     .page-header
