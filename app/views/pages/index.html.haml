@@ -58,10 +58,8 @@
                   + meet people who love to share and appreciate amazing internet explorers
                   + Every feature you need, no feature you don't (no feature creep)
 
-.clearfix
 .container
-  %br
-  %section#why_diaspora
+  %section#features
     .page-header
       %h1
         More Features
@@ -69,80 +67,75 @@
           These are our community's favorite
     .row
       .span4
-        %h2
-          images in this gutter?
-        %p
-          this should be images
-
+        = image_tag('services.png')
       .span12
         %h4
           Connect to your other social networks
         %p
           Share with those not even on Diaspora yet with ease.  By connecting with services, you can use Diaspora as a megaphone to your social tools.  Diaspora currently supports cross-posting to your Facebook, Twitter, and Tumblr accounts.
 
+        %br
+        %br
+        %br
+    .clearfix
+
+    .row
+      .span4
         %h4
           Hashtags
         %p
           Hashtags allow you to express and follow your interests. They're also a great way to find new people on Diaspora.
-
+      .span4
         %h4
           Reshare
         %p
           Really like a post?  Then why not share it with your contacts?  Diaspora makes it easy to spread ideas throughout the network through resharing posts.
+
+      .span4
         %h4
           Mentions
         %p
           Want to get the attention of an amazing community member? just @-mention them!
 
+      .span4
+        %h4
+          Likes
+        %p
+          Want to get the attention of an amazing community member? just @-mention them!
 
+    .row
+      .span4
+        = image_tag('hashtag.png')
+      .span4
+        = image_tag('reshare.png')
+      .span4
+        = image_tag('mention.png')
+      .span4
+        = image_tag('heart.png')
+
+    .clearfix
+      %br
+      %br
+
+
+    .row
+      .span8
         %h4
           Personal Profile
         %p
           Say whatever you want about who you are.  Diaspora doesn't force your awesomeness into restrictive categories
-        
-        %h4
-          We're here to help
-        %p
-          Diaspora is an international community of people who are passionate about making the social web work for everyone. We're excited to help. Just ask.
-        
+
+      .span8
         %h4
           Aspects
         %p
           Ever wanted to to share something with a small group of people? Or post something out to the world?  Diaspora* pioneered Aspects, the original system for sharing things with the people you want, even if thats the whole world.
-        %h4
-          Export your data
-        %p
-          it works (most of the time!)
-        %h4
-          Delete your account whenever you want
-        %p
-          Our community will be sad to see you go, but we want you to feel in control as possible on Diaspora
 
-        %h4
-          Move Pods
-          %span.label.success 
-            coming soon!
-        %p
-          Get started on a community pod, and then move all of your social data to a pod you control.  Diaspora's Distrubuted nature lets you keep full control of where you source your social data from.
-        %h4
-          Host it yourself
-        %p
-          Not content on hosting your data on someone else's server?  No problem!  Since Diaspora is completely free software, you can
-          = link_to "grab the code", "https://github.com/diaspora/diaspora"
-          and host it where ever you want.  We're constatnly making it easier for individuals to host Diaspora themselves.
-          
+    .clearfix
+      %br
+      %br
 
-        %h4
-          Lots more!
-        %p
-          If you want to know more about Diaspora, should should get an account on a community pod.  It's fast, free and easy.
-          = link_to 'open pods'
-        %hr
-
-
-
-
-    .row
+    .row#small_features
       .span4
         %h6
           Bookmarklet
@@ -150,27 +143,81 @@
         %p
           Use a bookmarket to easily share interesting content from around the web with whomever you'd like.
 
-
       .span4
         %h6
           Hi-res photos
         Upload and share high-resolution photos with whomever you choose.
 
       .span4
-
+        %h6
+          Lots more!
+        %p
+          If you want to know more about Diaspora, should should get an account on a community pod.  It's fast, free and easy.
 
       .span4
+        %h6
+          Get an account
+        %p
+          = link_to "get account", "#", :class => "btn primary"
 
 
+  %section#benifits
+    .page-header
+      %h1
+        Foundations of our community
+        %small
+          These things make us a strong community
+    .row
+    .clearfix
       %br
       %br
-      %br
-      %br
-      %br
-      %br
-  .clearfix
 
-  %section
+    .row
+      .span2
+        =image_tag('question.png')
+      .span6
+        %h4
+          We're here to help
+        %p
+          Diaspora is an international community of people who are passionate about making the social web work for everyone. We're excited to help. Just ask.
+
+      .span2
+        =image_tag('lock.png')
+      .span6
+        %h4
+          Host it yourself
+        %p
+          Not content on hosting your data on someone else's server?  No problem!  Since Diaspora is completely free software, you can
+          = link_to "grab the code", "https://github.com/diaspora/diaspora"
+          and host it where ever you want.  We're constatnly making it easier for individuals to host Diaspora themselves.
+
+
+    .clearfix
+      %br
+      %br
+
+    .row
+      .span2
+        = image_tag('download.png')
+      .span6
+        %h4
+          Export your data
+          %span.label.warning
+            coming soon!
+        %p
+          Download all of your data in standard formats that can be used in other places.
+      .span2
+        = image_tag('two_asterisks.png')
+      .span6
+        %h4
+          Move Pods
+          %span.label.warning
+            coming soon!
+        %p
+          Get started on a community pod, and then move all of your social data to a pod you control.  Diaspora's Distrubuted nature lets you keep full control of where you source your social data from
+          = link_to 'open pods.'
+
+  %section#community
     .page-header
       %h1
         Diaspora is a community effort
