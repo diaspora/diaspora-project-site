@@ -2,61 +2,68 @@
   = javascript_include_tag 'carousel'
   :javascript
     $(document).ready(function(){
-      $('#screenshot_collage').bxSlider({auto:true, infiniteLoop:true, autoDelay:10000, pause:10000 });
+      $('#carousel').bxSlider({auto:true, infiniteLoop:true, mode:'vertical', autoDelay:10000, pause:10000 });
+
+
+      $(window).bind('resize', function(){
+        $("#backing-rectangle").first().css("right", $(window).width() - $("#carousel").first().offset().left - 860);
+        $("#triangle").first().css("right", $(window).width() - $("#carousel").first().offset().left - 920);
+      }).resize();
     })
+
 #top_half
-  #masthead
+  #masthead.hero
     .inner
+      #backing-rectangle
+        oasijdoasijd
+      #triangle
+
       .container
         .clearfix
+          %br
+          %br
         .row
-          %h2.lead
-            Explore the best of the web with Diaspora*: a fun and creative community that puts you in control.
-          #collage-container
-            #screenshot_collage
-              %div
-                .span6
-                  %h3
+          %h1
+            Explore the best of the web with Diaspora*
+          %p.lead
+            a fun and creative community that puts you in control.
+
+        .row
+          #carousel
+            %div
+              .backing-section
+                .rectangle_overlay
+                  %h2
                     Creative Community
                   %p
-                    + Diaspora is built and run by its users for its users.
-                  %p
-                  
-                    + Meet artistic people from all over the world who love the internet as much as you do.
-                  %p
-                  
-                    + Be whoever you want to be– Express yourself freely
-                  %p
-                  
-                    + a community of people who appreciate the stuff you post
-                  %p
-                  
-                    + get support from users just like you
-                .span9
-                  =image_tag 'featured_users.png'
+                    Diaspora is built and run by its users for its users.
+                    Meet artistic people from all over the world who love the internet as much as you do.
+                    Be whoever you want to be– Express yourself freely
+                    a community of people who appreciate the stuff you post
 
-              %div
+                =image_tag 'featured-users.png', :class => 'featured-users'
 
-                .span6
-                  Control(pod graphic)
-                  + use aspects to share only with who you want, or publicly
-                  + own your own social data by running your own network, or participate in open community network
-                  + open source code is transparent so you know where your data is going
-                  + your own ad free experience
-                  + decentralized + no one central party controlling Diaspora 
-                .span9
-                  = image_tag 'ecosystem.png'
-                
+            %div
+              .backing-section
+                .rectangle_overlay
+                  %h2
+                    Control
+                  %p
+                    use aspects to share only with who you want, or publicly
+                    own your own social data by running your own network, or participate in open community network
+                    open source code is transparent so you know where your data is going
+                    your own ad free experience
+                    decentralized + no one central party controlling Diaspora 
+                = image_tag 'distributed.png', :class => 'distributed'
 
-              %div
-                .span10
-                  = image_tag 'cubbies_collage.png'
-                .span6
-                  Best of the Web(cubbies explosion page)
-                  + applications that enable you to cool stuff throughout the web (like cubbi.es)
-                  + hashtags everywhere make finding people and posts easy and fun
-                  + meet people who love to share and appreciate amazing internet explorers
-                  + Every feature you need, no feature you don't (no feature creep)
+            %div
+              .backing-section
+                .rectangle_overlay
+                  %h2
+                    Best of the Web
+                  %h4
+                    Applications that enable you to cool stuff throughout the web.
+              = image_tag 'cubbies-screenshot.png', :class => "cubbies-screenshot"
 
 .container
   %section#features
@@ -158,7 +165,7 @@
         %h6
           Get an account
         %p
-          = link_to "get account", "#", :class => "btn primary"
+          = link_to "get account", pod_listing_link, :class => "btn primary"
 
 
   %section#benifits
@@ -215,7 +222,7 @@
             coming soon!
         %p
           Get started on a community pod, and then move all of your social data to a pod you control.  Diaspora's Distrubuted nature lets you keep full control of where you source your social data from
-          = link_to 'open pods.'
+          = link_to 'open pods', pod_listing_link, :target => '_blank'
 
   %section#community
     .page-header
