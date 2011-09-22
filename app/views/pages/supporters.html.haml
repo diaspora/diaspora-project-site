@@ -67,8 +67,4 @@
         .clearfix
 
         .well{:style => "height:470px;max-height:470px;overflow:scroll;"}
-          - 5.times do
-            - 1000.times do
-              John Smith
-
-
+          = BACKERS.each{|x| x}

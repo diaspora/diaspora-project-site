@@ -17,10 +17,10 @@
       %nav
         = link_to "home", root_url
         = link_to "blog",'http://blogtest.sourcedecay.net/', :target => '_blank'
-        = link_to "why diaspora?", why_diaspora_path
+        / = link_to "about", about_path
         = link_to "get involved", get_involved_path
         = link_to "supporters", supporters_path
-        = link_to "donate", donate_path
+        = link_to "donate", donate_path, :class => 'btn success'
 
     = yield
 

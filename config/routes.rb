@@ -4,7 +4,7 @@ Diasporaproject::Application.routes.draw do
   match 'get_involved' => 'pages#get_involved', :as => 'get_involved'
   match 'donate' => 'pages#donate', :as => 'donate'
   match 'supporters' => 'pages#supporters', :as => 'supporters'
-  match 'why_diaspora' => 'pages#why_diaspora', :as => 'why_diaspora'
+  match 'about' => 'pages#about', :as => 'about'
 
 
   # The priority is based upon order of creation:

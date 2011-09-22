@@ -1,3 +1,4 @@
+require File.join(Rails.root, 'lib/backers')
 class PagesController < ApplicationController
   
   respond_to :html
