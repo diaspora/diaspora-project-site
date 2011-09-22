@@ -1,5 +1,4 @@
 BACKERS = %w{
-  _Ê_¡„â„„Ð„_¼ _Ê„ „_____È„â
   -=TiM=-
   @marycray
   0ry4n
