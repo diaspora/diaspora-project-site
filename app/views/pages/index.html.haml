@@ -10,7 +10,7 @@
       .container
         .clearfix
         .row
-          %p.lead
+          %h2.lead
             Explore the best of the web with Diaspora*: a fun and creative community that puts you in control.
           #collage-container
             #screenshot_collage
@@ -33,31 +33,34 @@
                   
                     + get support from users just like you
                 .span9
-                  =image_tag 'http://placekitten.com/g/200/300'
+                  =image_tag 'featured_users.png'
 
               %div
-                .span9
-                  = image_tag 'http://placekitten.com/g/200/300'
-                
+
                 .span6
                   Control(pod graphic)
                   + use aspects to share only with who you want, or publicly
                   + own your own social data by running your own network, or participate in open community network
                   + open source code is transparent so you know where your data is going
                   + your own ad free experience
-                  + decentralized + no one central party controlling Diaspora  
+                  + decentralized + no one central party controlling Diaspora 
+                .span9
+                  = image_tag 'ecosystem.png'
+                
 
               %div
+                .span10
+                  = image_tag 'cubbies_collage.png'
                 .span6
                   Best of the Web(cubbies explosion page)
                   + applications that enable you to cool stuff throughout the web (like cubbi.es)
                   + hashtags everywhere make finding people and posts easy and fun
                   + meet people who love to share and appreciate amazing internet explorers
                   + Every feature you need, no feature you don't (no feature creep)
-                .span10
-                  = image_tag 'http://placekitten.com/g/200/300'
+
 .clearfix
 .container
+  %br
   %section#why_diaspora
     .page-header
       %h1
