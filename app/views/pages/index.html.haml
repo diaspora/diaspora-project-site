@@ -1,3 +1,9 @@
+- content_for :head do
+  = javascript_include_tag 'carousel'
+  :javascript
+    $(document).ready(function(){
+      $('#screenshot_collage').bxSlider({auto:true, infiniteLoop:true, autoDelay:10000, pause:10000 });
+    })
 #top_half
   #masthead
     .inner
@@ -5,39 +11,51 @@
         .clearfix
         .row
           %p.lead
-            Diaspora*: a fun and creative community that puts you in control to explore the best of the web.
+            Explore the best of the web with Diaspora*: a fun and creative community that puts you in control.
           #collage-container
             #screenshot_collage
-              Creative Community(featured user page gif+ified)
-              Diaspora's community is it's #1 Feature
-              + Diaspora is built and run by its users for its users.
-              + Meet artistic people from all over the world who love the internet as much as you do.
-              + Be whoever you want to be– Express yourself freely
-              + a community of people who appreciate the stuff you post
-              + get support from users just like you
+              %div
+                .span6
+                  %h3
+                    Creative Community
+                  %p
+                    + Diaspora is built and run by its users for its users.
+                  %p
+                  
+                    + Meet artistic people from all over the world who love the internet as much as you do.
+                  %p
+                  
+                    + Be whoever you want to be– Express yourself freely
+                  %p
+                  
+                    + a community of people who appreciate the stuff you post
+                  %p
+                  
+                    + get support from users just like you
+                .span9
+                  =image_tag 'http://placekitten.com/g/200/300'
 
-              Control(pod graphic)
-              + use aspects to share only with who you want, or publicly
-              + own your own social data by running your own network, or participate in open community network
-              + open source code is transparent so you know where your data is going
-              + your own ad free experience
-              + decentralized + no one central party controlling Diaspora  
+              %div
+                .span9
+                  = image_tag 'http://placekitten.com/g/200/300'
+                
+                .span6
+                  Control(pod graphic)
+                  + use aspects to share only with who you want, or publicly
+                  + own your own social data by running your own network, or participate in open community network
+                  + open source code is transparent so you know where your data is going
+                  + your own ad free experience
+                  + decentralized + no one central party controlling Diaspora  
 
-              Best of the Web(cubbies explosion page)
-              + applications that enable you to cool stuff throughout the web (like cubbi.es)
-              + hashtags everywhere make finding people and posts easy and fun
-              + meet people who love to share and appreciate amazing internet explorers
-              + Every feature you need, no feature you don't (no feature creep)
-              
-              /- (1..3).each do |n|
-              /= image_tag("screen_collage_#{n}.png", :id => "z-depth-#{n}")
-
-            /The social web frontier.
-            /The future of the social web, today.
-
-            /  /Diaspora brings the best parts of the web, together.
-            /  /Our web of identity servers lets anyone join and take control of their data without losing the connectedness of today's internet.
-            
+              %div
+                .span6
+                  Best of the Web(cubbies explosion page)
+                  + applications that enable you to cool stuff throughout the web (like cubbi.es)
+                  + hashtags everywhere make finding people and posts easy and fun
+                  + meet people who love to share and appreciate amazing internet explorers
+                  + Every feature you need, no feature you don't (no feature creep)
+                .span10
+                  = image_tag 'http://placekitten.com/g/200/300'
 .clearfix
 .container
   %section#why_diaspora
