@@ -13,12 +13,12 @@
         autoDirection:'prev',
         autoHover:true,
         mode:'vertical',
-        autoDelay:1000, pause:5000
+        autoDelay:1000, pause:7000
       });
 
       $(window).bind('resize', function(){
-        $("#backing-rectangle").first().css("right", $(window).width() - $("#carousel").first().offset().left - 860);
-        $("#triangle").first().css("right", $(window).width() - $("#carousel").first().offset().left - 920);
+        $("#backing-rectangle").first().css("right", $(window).width() - $("#carousel").first().offset().left - 869);
+        $("#triangle").first().css("right", $(window).width() - $("#carousel").first().offset().left - 918);
       }).resize();
     })
 
@@ -48,13 +48,16 @@
                 .rectangle_overlay
                   %h2
                     Creative Community
-                  %p
-                    Diaspora is built and run by its users for its users.
+                  %h4
                     Meet artistic people from all over the world who love the internet as much as you do.
-                    Be whoever you want to be– Express yourself freely
-                    a community of people who appreciate the stuff you post
 
-                  = link_to 'Join Us', '#love_yr_community', :class => 'btn primary'
+                  /%p
+                  /  Diaspora is built and run by its users for its users.
+                  /  Be whoever you want to be– Express yourself freely
+                  /  a community of people who appreciate the stuff you post
+
+                  %h4
+                    = link_to 'Join Us >', '#love_yr_community'
                 =image_tag 'featured-users.png', :class => 'featured-users'
 
             %div
@@ -62,13 +65,17 @@
                 .rectangle_overlay
                   %h2
                     Control
-                  %p
-                    use aspects to share only with who you want, or publicly
-                    own your own social data by running your own network, or participate in open community network
-                    open source code is transparent so you know where your data is going
-                    your own ad free experience
-                    decentralized + no one central party controlling Diaspora 
-                    = link_to 'Own your Data with Diaspora*', '#host_yr_own', :class => 'btn primary'
+                  %h4
+                    Communication is human nature.  Social networking shouldn't be a compromise.
+
+                  /%p
+                  /  use aspects to share only with who you want, or publicly
+                  /  own your own social data by running your own network, or participate in open community network
+                  /  open source code is transparent so you know where your data is going
+                  /  your own ad free experience
+                  /  decentralized + no one central party controlling Diaspora 
+                  %h4
+                    = link_to 'Own your Data with Diaspora* >', '#host_yr_own'
                 = image_tag 'distributed.png', :class => 'distributed'
 
             %div
@@ -78,10 +85,15 @@
                     Best of the Web
                   %h4
                     Applications that enable you to cool stuff throughout the web.
-                  = link_to 'Explore apps', '#apps', :class => 'btn primary'
+                  %h4
+                    = link_to 'Explore Apps >', '#apps'
               = image_tag 'cubbies-screenshot.png', :class => "cubbies-screenshot"
 
 .container
+
+  .inset
+    = image_tag 'asterisk-inset.png'
+
   %section#features
     .page-header
       %h1
