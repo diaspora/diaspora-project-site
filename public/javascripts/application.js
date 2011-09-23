@@ -25,7 +25,7 @@ $(document).ready(function(){
       $('#number').text(number);
     });
   });
-  
+
   $("img.faded").live('mouseover', function(){
     this.classList.remove("faded");
     this.classList.add("opaque");
@@ -37,30 +37,4 @@ $(document).ready(function(){
       this.classList.remove("opaque");
       this.classList.add("faded");
   });
-
-  var depth1 = $("#z-depth-1"),
-      depth2 = $("#z-depth-2"),
-      depth3 = $("#z-depth-3");
-
-  $(window).scroll(function(evt){
-    var top = $(this).scrollTop();
-
-    if(top > 800){ return; }
-    if(top == 0){
-      depth1.css("top", "0");
-      depth2.css("top", "0");
-      depth3.css("top", "0");
-    }
-    else {
-      console.log(top+(top*0.3) + "px");
-      depth1.css({
-        top: "-" + (top*0.3) + "px",
-      });
-      depth2.css({
-        top: "-" + (top*0.18) + "px",
-      });
-      depth3.css("top", "-" + (top*0.1) + "px");
-    }
-  }).trigger("scroll");
-
 });
