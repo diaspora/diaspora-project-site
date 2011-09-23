@@ -1,14 +1,21 @@
 @import 'mixins';
 
 header{
-  padding: 20px;
+  padding: 0px 20px;
+  position: fixed;
+  z-index: 20;
+  width: 100%;
+  left: 0;
+  top: 0;
 
   background-color: rgb(34,30,30);
-  border-bottom: #fff;
+  border-bottom: 1px solid #000;
+  @include box-shadow(0,1px,2px,#000);
 
   nav{
     float: right;
     margin-top: 30px;
+    padding-right: 40px;
 
     // we need this as the screenshots are overlaying the nav...
     position: relative;
@@ -35,11 +42,21 @@ header{
       border-top: 1px solid #000; 
       }
     }
+
+    .btn {
+      margin: {
+        left: 10px;
+      }
+    }
   }
 }
 
 .floater {
   float: right;
+}
+
+body {
+  margin-top: 70px !important;
 }
 
 
@@ -253,9 +270,35 @@ section {
   }
   width: 100%;
   position: absolute;
-  top: 440px;
+  top: 385px;
   height: 120px;
   right: 50px
+}
+
+#carousel-pagers {
+  position: absolute;
+  left: 20px;
+  top: 410px;
+  z-index: 4;
+
+  a {
+    @include transition(color);
+    color: #777;
+    display: block;
+    font-weight: bold;
+    text-shadow: 0 -1px 0 #444;
+    padding: 1px;
+    margin: 2px;
+
+    &:hover {
+      text-decoration: none;
+      color: #555;
+    }
+
+    &.active {
+      color: #fff;
+    }
+  }
 }
 
 #triangle {
@@ -266,7 +309,7 @@ section {
   width:50px;
   z-index: 1;
   position: absolute;
-  top: 390px;
+  top: 335px;
   right: 40px;
 }
 

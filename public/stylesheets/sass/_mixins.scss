@@ -9,3 +9,15 @@
   -moz-box-shadow: $left $top $blur $color;
   box-shadow: $left $top $blur $color;
 }
+
+/* Transision defaults */
+$speed: 0.2s;
+$easing: linear;
+
+@mixin transition($type, $speed:$speed, $easing:$easing){
+  -webkit-transition: $type $speed $easing;
+  -moz-transition: $type $speed $easing;
+  -o-transition: $type $speed $easing;
+  transition: $type $speed $easing;
+}
+
