@@ -270,6 +270,11 @@ section {
   }
 }
 
+/* hack to enable hardware acceleration on webkit browsers */
+.accel {
+  -webkit-transform: translateZ(0);
+}
+
 #backing-rectangle {
   background: {
     color: #838383

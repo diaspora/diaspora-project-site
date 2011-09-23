@@ -206,6 +206,10 @@ section {
     margin-bottom: 15px;
     font-weight: normal; }
 
+/* hack to enable hardware acceleration on webkit browsers */
+.accel {
+  -webkit-transform: translateZ(0); }
+
 #backing-rectangle {
   background-color: #838383;
   width: 100%;
