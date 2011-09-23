@@ -6,4 +6,8 @@ module ApplicationHelper
   def pod_listing_link
     'http://podupti.me'
   end
+
+  def code_link
+    "https://github.com/diaspora/diaspora"
+  end
 end

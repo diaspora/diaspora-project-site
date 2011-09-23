@@ -3,24 +3,35 @@
   %head
     %title
       The Diaspora Project
-    = stylesheet_link_tag 'application'
     %link{:rel =>"stylesheet", :href=>"http://twitter.github.com/bootstrap/1.3.0/bootstrap.min.css"}
+    = stylesheet_link_tag 'application'
+
     = javascript_include_tag 'jquery-1.6.1.min'
     = javascript_include_tag 'twitter-tabs'
+
     = csrf_meta_tag
     = yield :head
 
+    :javascript
+      var agent=navigator.userAgent.toLowerCase();
+      var is_mobile = (agent.indexOf('mobile')!=-1);
+      $(document).ready(function(){
+        if (is_mobile) { 
+          $('header').css('position', 'absolute');
+          $('.header_container').css('padding-right', '0`');
+        }
+      });
   %body
     %header
-      = link_to(image_tag("logo.png", :height => "70px"), root_path)
+      .header_container
+        = link_to(image_tag("logo.png", :height => "70px"), root_path)
 
-      %nav
-        = link_to "home", root_url
-        = link_to "blog",'http://blogtest.sourcedecay.net/', :target => '_blank'
-        / = link_to "about", about_path
-        = link_to "get involved", get_involved_path
-        = link_to "supporters", supporters_path
-        = link_to "donate", donate_path, :class => 'btn success'
+        %nav
+          = link_to "home", root_url
+          = link_to "blog",'http://blogtest.sourcedecay.net/', :target => '_blank'
+          = link_to "get involved", get_involved_path
+          = link_to "supporters", supporters_path
+          = link_to "donate", donate_path, :class => 'btn success'
 
     = yield
 

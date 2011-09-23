@@ -13,7 +13,7 @@
         autoDirection:'prev',
         autoHover:true,
         mode:'vertical',
-        autoDelay:1000, pause:7000,
+        autoDelay:7000, pause:7000,
 
         onAfterSlide: function(currentSlideNumber, totalSlideQty, currentSlideHtmlObject){
           var html = currentSlideHtmlObject.find('.info-text').html();
@@ -93,53 +93,15 @@
                   = link_to 'Explore Apps >', '#apps'
 
 .container
-
   .inset
     = image_tag 'asterisk-inset.png'
 
   %section#features
     .page-header
       %h1
-        More Features
+        Features our community loves
         %small
-          These are our community's favorite
-    .row
-      .span4
-        = image_tag('services.png')
-      .span12
-        %h4
-          Connect to your other social networks
-        %p
-          Share with those not even on Diaspora yet with ease.  By connecting with services, you can use Diaspora as a megaphone to your social tools.  Diaspora currently supports cross-posting to your Facebook, Twitter, and Tumblr accounts.
-
-        %br
-        %br
-        %br
-    .clearfix
-
-    .row
-      .span4
-        %h4
-          Hashtags
-        %p
-          Hashtags allow you to express and follow your interests. They're also a great way to find new people on Diaspora.
-      .span4
-        %h4
-          Reshare
-        %p
-          Really like a post?  Then why not share it with your contacts?  Diaspora makes it easy to spread ideas throughout the network through resharing posts.
-
-      .span4
-        %h4
-          Mentions
-        %p
-          Want to get the attention of an amazing community member? just @-mention them!
-
-      .span4
-        %h4
-          Likes
-        %p
-          Want to get the attention of an amazing community member? just @-mention them!
+          And you'll love, too.
 
     .row
       .span4
@@ -151,8 +113,32 @@
       .span4
         = image_tag('heart.png')
 
+    .row
+      .span4
+        %h4
+          Hashtags
+        %p
+          Hashtags allow you to label and follow your interests.  They're also a great way to meet cool and interesting people on Diaspora*.
+      .span4
+        %h4
+          Reshare
+        %p
+          Why not reshare a post you love with others?  Diaspora* makes it easy to spread ideas via reshare.
+
+      .span4
+        %h4
+          Mentions
+        %p
+          Want to get the attention of an amazing community member? just @-mention them!
+
+      .span4
+        %h4
+          Likes
+        %p
+          Show your appreciation for something you love by ♥-ing it.
+
+    %hr
     .clearfix
-      %br
       %br
 
 
@@ -172,6 +158,31 @@
     .clearfix
       %br
       %br
+    .row
+      .span4
+        = image_tag('services.png')
+      .span12
+        %h4
+          Social network intergration
+        %p
+          Diaspora lets you stay connected with your contacts that are not yet on Diaspora*. Simply connect to services and use Diaspora* as a megaphone to your other social media accounts.  Diaspora* currently supports cross-posting to your Facebook, Twitter, and Tumblr accounts, with more to come soon.
+
+        %br
+        %br
+
+    .row
+      .span4
+        =image_tag('question.png')
+      .span12
+        %h4
+          We're here to help
+        %p
+          Diaspora is an international community of people who are passionate about making the social web work for everyone. We're excited to help. Just ask.
+
+        %br
+        %br
+        %br
+    .clearfix
 
     .row#small_features
       .span4
@@ -179,18 +190,21 @@
           Bookmarklet
 
         %p
-          Use a bookmarket to easily share interesting content from around the web with whomever you'd like.
+          Use Diaspora*'s bookmarklet to discover fun content around the web and share it with whomever you'd like.
 
       .span4
         %h6
           Hi-res photos
-        Upload and share high-resolution photos with whomever you choose.
+        %p
+          Upload and share high-resolution photos with whomever you please.
 
       .span4
         %h6
           Lots more!
         %p
-          If you want to know more about Diaspora, should should get an account on a community pod.  It's fast, free and easy.
+          %strong
+            Ready to use Diaspora*?
+          Then get an account on a community pod.  It's fast, easy, and free.
 
       .span4
         %h6
@@ -202,9 +216,9 @@
   %section#benifits
     .page-header
       %h1
-        Foundations of our community
+        Own your own data
         %small
-          These things make us a strong community
+          No one but you controls Diaspora*
     .row
     .clearfix
       %br
@@ -212,21 +226,13 @@
 
     .row
       .span2
-        =image_tag('question.png')
-      .span6
-        %h4
-          We're here to help
-        %p
-          Diaspora is an international community of people who are passionate about making the social web work for everyone. We're excited to help. Just ask.
-
-      .span2
         =image_tag('lock.png')
-      .span6
+      .span14
         %h4
           Host it yourself
         %p
           Not content on hosting your data on someone else's server?  No problem!  Since Diaspora is completely free software, you can
-          = link_to "grab the code", "https://github.com/diaspora/diaspora"
+          = link_to "grab the code", code_link 
           and host it where ever you want.  We're constatnly making it easier for individuals to host Diaspora themselves.
 
 
@@ -260,7 +266,7 @@
       %h1
         Diaspora is a community effort
         %small
-          Made by viewers like you
+          Made by people who love the internet just like you
     %p
       Diaspora is powered by passionate people doing fun things together.  Find out how what you love to do can help make Diaspora better.
       diaspora is made by people who love sharing online as much as you do. 
@@ -276,17 +282,8 @@
           %code
             git clone git://github.com/diaspora/diaspora.git
 
-        %br
         %p
           = link_to "View the source on github »", get_involved_path, :class => 'btn primary'
-        %br
-
-        %p
-          We've got a large community ready to help you get started.  We suggest you check out our
-          = link_to "getting started guide,", "#"
-          = link_to "joining our mailing list,", "http://groups.google.com/group/diaspora-dev"
-          and hopping in the
-          = link_to "Diaspora IRC room.", "irc://irc.freenode.net/#diaspora"
 
 
       .span8

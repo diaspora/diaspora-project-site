@@ -14,57 +14,36 @@
     #contributors.accel
 
 .container
-  .clearfix
-  %br
-
-  %section
-    .page-header
-      %h1
-        Ways to Get Involved with Diaspora*
-
-        %small
-          Power to the people
+  %section#get-involved-subnav
     .row
-      .span6
-        %h3
+      %ul.pills
+        %li
           =link_to 'Contribute Code', '#code'
-
-        %h3
+        %li
           = link_to 'Help Translate', '#translate'
-
-        %h3
+        %li
           = link_to 'Spread the Word', '#spread_the_word'
-
-      .span6
-
-        %h3
+        %li
           = link_to 'Help Provide Support', '#support'
-        %h3
+        %li
           = link_to 'Run your own pod for the community', '#pod'
-        -# %h3
-        -#   = link_to 'Write Documentation or tutorials', '#docs'
-
-      .span4
-        %h2
-          Donate
-        %p
-          Explanation of why donations are so important.  Also, maybe a
-          = link_to "link", "#"
-          to that chart that will explain how we spend our money in developing Diaspora.
-
-        = link_to "Donate", donate_path, :class => 'btn info'
-
-      /=link_to "join our mailing list. you won't regret it:"
-
-
-  .clearfix
+        %li
+          = link_to 'Donate', donate_path
 
   %section#open_source
+    .page-header
+      %h1
+        Community Powered 
+        %small
+          Power to the people
+
     .row
       .span4
-        %h2
-          Community Powered 
+        = image_tag "osi_standard_logo.png", :width => 180, :height => 206
 
+      .span12
+        %h4
+          Quickstats
         %p
           Diaspora is already in the
           %strong top 2%
@@ -74,14 +53,13 @@
           %strong 5000 followers
           on github.
 
-      .span12
+        %hr
+
 
         %h4
           What does it all mean?
-          
         %p
           Open source is about individuality, transparency, creativity, and destiny.  It is about having an idea, and making it reality.  Diaspora was founded about fulfilling a passion for fun, and making the internet a better place.
-
           open source is what enables us to change the world, for ourselves, and let our friends across the web benefit from our exploration.
 
         %p
@@ -93,118 +71,128 @@
 
         %h4
           Where you come in
-
         %p
           We all make Diaspora.  We might not know you just yet, but we think you'd be a great fit to the future of the web.  You're fantastic, and you're ready to change the world.
-
         %p
           Contributing to Diaspora comes in all different shapes and sizes.  Whether you're a user helping us find bugs, providing feedback on our mailing lists, contributing code or design, we thank you.
-    %hr
-    .row
+
+  %section#getting-involved
+    .page-header
+      %h1
+        Ways to Get Involved with Diaspora*
+        %small
+          Power to the people
+
+    .row#code
       .span4
-        %h2#code
+        = image_tag 'octocats.png'
+
+      .span12
+        %h4
           Contribute Code
-        %p
-    
-      .span12
-        %p
-          Grabbing the source code is simple.  Clone down the repository and poke around:
-          %br
-          %code
-            git clone git://github.com/diaspora/diaspora.git
+          %small
+            Grabbing the source code is simple.  
+        %ol
+          %li
+            Clone down the repository and poke around:
+            %code
+              git clone git://github.com/diaspora/diaspora.git
+          %li
+            = link_to 'install your development enviroment'
+          %li
+            Write awesome code
 
-        %br
-        %p
-          = link_to "View the source on GitHub »", get_involved_path, :class => 'btn primary'
-        %br
+        .row
+          .span6
+            %p
+              We've got a large community ready to help you get started.  We suggest you check out our
+              = link_to "getting started guide,", "#"
+              = link_to "joining our mailing list,", "http://groups.google.com/group/diaspora-dev"
+              and hopping in the
+              = link_to "Diaspora IRC room.", "irc://irc.freenode.net/#diaspora"
+          .span6
+            %p
+              = link_to "View the source on GitHub »", get_involved_path, :class => 'btn primary'
 
-        %p
-          We've got a large community ready to help you get started.  We suggest you check out our
-          = link_to "getting started guide,", "#"
-          = link_to "joining our mailing list,", "http://groups.google.com/group/diaspora-dev"
-          and hopping in the
-          = link_to "Diaspora IRC room.", "irc://irc.freenode.net/#diaspora"
     %hr
-    .row
+    .row#translate
       .span4
-        %h2#translate
+        = image_tag 'globe.png'
+
+      .span12
+        %h4
           Help Translate
-        %p
+        %ul
+          %li
+            You can help translate Diaspora into other languages by joining the 
+            = link_to 'Translations Group.', 'http://99translations.com/public_projects/show/181'
+          %li
+            We also have instructions on how to get involved at 
+            = link_to 'Translations Instructions.', 'https://github.com/diaspora/diaspora/wiki/How-to-contribute-translations'
+
+    .row#spread_the_word
+      .span4
+        = image_tag 'megaphone.png'
 
       .span12
-        %p
-          You can help translate Diaspora into other languages by joining the 
-          = link_to 'Translations Group.', 'http://99translations.com/public_projects/show/181'
-        %p
-          We also have instructions on how to get involved at 
-          = link_to 'Translations Instructions.', 'https://github.com/diaspora/diaspora/wiki/How-to-contribute-translations'
-    %hr
-    .row
-      .span4
-        %h2#spread_the_word
+        %h4
           Spread the Word
-        %p
 
-        
-      .span12
-        %p
-          Join our 
-          = link_to 'grassroots mailing list', 'https://mailman.stanford.edu/mailman/listinfo/diaspora-grassroots'
-          to help spread the word.  
-        %p
-          If you're a blogger, join our 
-          = link_to 'grassroots media group', 'https://mailman.stanford.edu/mailman/listinfo/diaspora-media'
-        %p
-          Help organize your own real-life Diaspora* 
-          =link_to 'meetup', 'http://www.meetup.com/Diaspora/' 
-          in your own community.
-          
-          
-    %hr
-    .row
+        %ul
+          %li
+            Join our 
+            = link_to 'grassroots mailing list', 'https://mailman.stanford.edu/mailman/listinfo/diaspora-grassroots'
+            to help spread the word.  
+          %li
+            If you're a blogger, join our 
+            = link_to 'grassroots media group', 'https://mailman.stanford.edu/mailman/listinfo/diaspora-media'
+          %li
+            Help organize your own real-life Diaspora* 
+            =link_to 'meetup', 'http://www.meetup.com/Diaspora/' 
+            in your own community.
+
+    .row#support
       .span4
-        %h2#support
+        = image_tag 'support.png'
+
+      .span12
+        %h4
           Help Provide Support
-        %p
-      .span12
-        %p
-        
-          To help write user tutorials, visit
-          = link_to 'Diasporial', 'http://diasporial.com/'
-        %p
-          Help us build out our 
-          = link_to 'Forum', 'http://www.diasporaforum.org/'
-          
-        %p
-          
-          Help answer users' questions at 
-          =link_to 'GetSatisfaction', 'https://getsatisfaction.com/diaspora'
-          or 
-          = link_to 'IRC channel', 'http://webchat.freenode.net/?channels=diaspora'
-        %p
-          
-          Contribute to 
-          = link_to "Diaspora's Wiki", 'https://github.com/diaspora/diaspora/wiki'
-          at Github
-          
-        %p
-          Help answer users' questions on Diaspora itself by following the #help, #questions and #feedback hashtags
-          
-    %hr
-    .row
-      .span4
-        %h2#pod
-          Run a community Pod
-        %p
-      .span12
-        %p
-          If you would like to set up a community pod, please click here 
-          = link_to "Pod installation instructions", "https://github.com/diaspora/diaspora/wiki/Installing-and-Running-Diaspora" 
+        %ul
+          %li
+            To help write user tutorials, visit
+            = link_to 'Diasporial', 'http://diasporial.com/'
+          %li
+            Help us build out our 
+            = link_to 'Forum', 'http://www.diasporaforum.org/'
 
-        %p
-          To view a list of community pods, click here
-          =link_to "click here.", "http://podupti.me/"
+          %li
+            Help answer users' questions at 
+            =link_to 'GetSatisfaction', 'https://getsatisfaction.com/diaspora'
+            or 
+            = link_to 'IRC channel', 'http://webchat.freenode.net/?channels=diaspora'
+          %li
+            Contribute to 
+            = link_to "Diaspora's Wiki", 'https://github.com/diaspora/diaspora/wiki'
+            at Github
+          %li
+            Help answer users' questions on Diaspora itself by following the #help, #questions and #feedback hashtags
+
     %hr
+
+    .row#pod
+      .span4
+        = image_tag 'pod.png'
+      .span12
+        %h4
+          Run a community Pod
+        %ul
+          %li
+            If you would like to set up a community pod, please click here 
+            = link_to "Pod installation instructions", "https://github.com/diaspora/diaspora/wiki/Installing-and-Running-Diaspora" 
+          %li
+            To view a list of community pods, click here
+            =link_to "click here.", "http://podupti.me/"
 
   %section#core_team
     .page-header
@@ -238,7 +226,6 @@
 
                     .contributor_links
                       = link_to(image_tag('github-icon.png'), c1.github_url, :title => 'on GitHub')
-              .span1
               .span5
                 .contributor_info
                   = image_tag(c2.avatar, :class => 'contributor_avatar')
@@ -253,14 +240,4 @@
                     .contributor_links
                       = link_to(image_tag('github-icon.png'), c2.github_url, :title => 'on GitHub' )
 
-
     think your name should be here? send your info to support@joindiaspora.com!
-  .clearfix
-
-  %section
-    .page-header
-      %h1
-        Join us!
-
-
-
