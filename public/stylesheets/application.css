@@ -92,11 +92,17 @@ footer {
         text-decoration: none; }
 
 .contributor_avatar {
-  height: 75px;
-  width: 75px; }
+  -webkit-box-shadow: 0 2px 5px #333333;
+  -moz-box-shadow: 0 2px 5px #333333;
+  box-shadow: 0 2px 5px #333333;
+  height: 120px;
+  width: 120px;
+  float: left;
+  margin-right: 20px; }
 
 .contributor_info {
-  position: relative; }
+  position: relative;
+  min-height: 150px; }
 
 #top_features {
   text-align: center; }
@@ -331,3 +337,6 @@ section {
   #get-involved-subnav .tabs > li, #get-involved-subnav .pills > li {
     float: none;
     display: inline-block; }
+
+#start-contributing h6 {
+  text-align: center; }

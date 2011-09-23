@@ -55,7 +55,6 @@
 
         %hr
 
-
         %h4
           What does it all mean?
         %p
@@ -197,47 +196,28 @@
   %section#core_team
     .page-header
       %h1
-        The Core Team
+        Diaspora*'s Contributors
         %small
           The people who work on Diaspora every day
 
-    %p
-      these are the people who have dedicated much of their time to making Diaspora awesome.  You can join this list by contributing here: http://github.com/diaspora/diaspora
-
     - @contributors.each do |kind, contributors|
       .row
-        .span4
+        .span16
           %h2
-            = kind.pluralize.titleize
+            = contributor_type(kind)
+      .clearfix
+        %br
 
-        .span12
+      .row
+        .span16
           - contributors.in_groups_of(2) do |c1, c2|
             .row
-              .span5
-                .contributor_info
-                  = image_tag(c1.avatar, :class => 'contributor_avatar')
-                  .content
-                    %h4
-                      = c1.name
-                      %small
-                        = link_to "#{c1.diaspora_id}", diaspora_url(c1)
-                    %p
-                      = auto_link(c1.bio).html_safe
+              = render 'contributor', :contributor => c1
+              = render 'contributor', :contributor => c2
+      %hr
 
-                    .contributor_links
-                      = link_to(image_tag('github-icon.png'), c1.github_url, :title => 'on GitHub')
-              .span5
-                .contributor_info
-                  = image_tag(c2.avatar, :class => 'contributor_avatar')
-                  .content
-                    %h4
-                      = c2.name
-                      %small
-                        = link_to "#{c2.diaspora_id}", diaspora_url(c2)
-                    %p
-                      = auto_link(c2.bio).html_safe
 
-                    .contributor_links
-                      = link_to(image_tag('github-icon.png'), c2.github_url, :title => 'on GitHub' )
-
-    think your name should be here? send your info to support@joindiaspora.com!
+  %section#start-contributing
+    %h6
+      Have you already contributed to Diaspora? We want to see your name here!
+      = link_to 'email us', 'mailto:team@joindiaspora.com'

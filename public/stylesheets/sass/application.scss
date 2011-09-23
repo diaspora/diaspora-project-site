@@ -123,16 +123,23 @@ footer {
   }
 }
 
-
-
 .contributor_avatar {
-  height: 75px;
-  width: 75px;
+  @include box-shadow(0,2px,5px, #333);
+  height: 120px;
+  width: 120px;
+  float: left;
+  margin: {
+    right: 20px;
+  }
 }
 
 .contributor_info {
-  // padding-left: 90px;
   position: relative;
+  min-height: 150px;
+}
+
+.contributor_links {
+
 }
 
 #top_features {
@@ -425,5 +432,11 @@ section {
   .tabs > li, .pills > li {
     float: none;
     display: inline-block;
+  }
+}
+
+#start-contributing {
+  h6 {
+    text-align: center;
   }
 }
