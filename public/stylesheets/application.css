@@ -247,8 +247,8 @@ section {
     #carousel-pagers a.active {
       color: #fff; }
 
-#triangle {
-  border-color: transparent transparent #747474 transparent;
+#triangle-top {
+  border-color: transparent transparent #6f6f6f transparent;
   border-style: solid;
   border-width: 50px;
   height: 0px;
@@ -257,6 +257,26 @@ section {
   position: absolute;
   top: 335px;
   right: 40px; }
+
+#triangle-bottom {
+  border-color: #6f6f6f transparent transparent transparent;
+  -webkit-transform: rotate(90deg);
+  border-style: solid;
+  border-width: 50px;
+  height: 0px;
+  width: 50px;
+  z-index: 1;
+  position: absolute;
+  top: 470px;
+  right: 40px; }
+
+#triangle-fill {
+  position: absolute;
+  display: inline-block;
+  height: 100px;
+  width: 50px;
+  top: 435px;
+  background-color: #6f6f6f; }
 
 .cubbies-screenshot {
   position: absolute;

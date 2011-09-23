@@ -327,8 +327,8 @@ section {
   }
 }
 
-#triangle {
-  border-color: transparent transparent darken(#888,8%) transparent;
+#triangle-top {
+  border-color: transparent transparent darken(#888,10%) transparent;
   border-style:solid;
   border-width:50px;
   height:0px;
@@ -337,6 +337,28 @@ section {
   position: absolute;
   top: 335px;
   right: 40px;
+}
+
+#triangle-bottom {
+  border-color: darken(#888,10%) transparent transparent transparent ;
+  -webkit-transform: rotate(90deg);
+  border-style:solid;
+  border-width:50px;
+  height:0px;
+  width:50px;
+  z-index: 1;
+  position: absolute;
+  top: 470px;
+  right: 40px;
+}
+
+#triangle-fill {
+  position: absolute;
+  display: inline-block;
+  height:100px;
+  width:50px;
+  top: 435px;
+  background-color: darken(#888,10%);
 }
 
 .cubbies-screenshot {

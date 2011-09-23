@@ -18,7 +18,9 @@
 
       $(window).bind('resize', function(){
         $("#backing-rectangle").first().css("right", $(window).width() - $("#carousel").first().offset().left - 869);
-        $("#triangle").first().css("right", $(window).width() - $("#carousel").first().offset().left - 918);
+        $("#triangle-top").first().css("right", $(window).width() - $("#carousel").first().offset().left - 918);
+        $("#triangle-bottom").first().css("right", $(window).width() - $("#carousel").first().offset().left - 943);
+        $("#triangle-fill").first().css("right", $(window).width() - $("#carousel").first().offset().left - 918);
       }).resize();
     })
 
@@ -29,7 +31,9 @@
       #backing-rectangle
 
         oasijdoasijd
-      #triangle
+      #triangle-top
+      #triangle-bottom
+      #triangle-fill
 
       .container
         .clearfix
