@@ -39,58 +39,53 @@
       }).resize();
     })
 
-#top_half
-  #masthead.hero
-    .inner
-      #carousel-pagers
-      #backing-rectangle.accel
-      #triangle-top
-      #triangle-bottom
-      #triangle-fill
-      .rectangle_overlay
-        #overlay_container
+#masthead.hero
+  #carousel-pagers
+  #backing-rectangle.accel
+  #triangle-top
+  #triangle-bottom
+  #triangle-fill
+  .rectangle_overlay
+    #overlay_container
 
-      .container
-        .clearfix
-          %br
-          %br
-        .row
-          %h1
-            Social freedom.
-          %p.lead
-            Diaspora* is a fun and creative community that puts you in control.
+  .container
+    .row
+      %h1
+        Social freedom.
+      %p.lead
+        Diaspora* is a fun and creative community that puts you in control.
 
-        .row
-          #carousel
-            #carousel-featured-users
-              =image_tag 'featured-users.png', :class => 'featured-users'
-              .info-text.hidden
-                %h2
-                  Creative Community
-                %h4
-                  Meet artistic people from all over the world who love the internet as much as you do.
-                %h4
-                  = link_to 'Join Us >', '#love_yr_community'
+    .row
+      #carousel
+        #carousel-featured-users
+          =image_tag 'featured-users.png', :class => 'featured-users'
+          .info-text.hidden
+            %h2
+              Creative Community
+            %h4
+              Meet artistic people from all over the world who love the internet as much as you do.
+            %h4
+              = link_to 'Join Us >', '#love_yr_community'
 
-            #carousel-control
-              = image_tag 'distributed.png', :class => 'distributed'
-              .info-text.hidden
-                %h2
-                  Own your data
-                %h4
-                  Connecting socially is human nature.  You shouldn't have to trade away your personal information to participate.
-                %h4
-                  = link_to 'Own your Data with Diaspora* >', '#host_yr_own'
+        #carousel-control
+          = image_tag 'distributed.png', :class => 'distributed'
+          .info-text.hidden
+            %h2
+              Own your data
+            %h4
+              Connecting socially is human nature.  You shouldn't have to trade away your personal information to participate.
+            %h4
+              = link_to 'Own your Data with Diaspora* >', '#host_yr_own'
 
-            #carousel-best-of-web
-              = image_tag 'cubbies-screenshot.png', :class => "cubbies-screenshot"
-              .info-text.hidden
-                %h2
-                  Best of the Web
-                %h4
-                  Applications that enable you to discover & share cool stuff throughout the web.
-                %h4
-                  = link_to 'Explore Apps >', '#apps'
+        #carousel-best-of-web
+          = image_tag 'cubbies-screenshot.png', :class => "cubbies-screenshot"
+          .info-text.hidden
+            %h2
+              Best of the Web
+            %h4
+              Applications that enable you to discover & share cool stuff throughout the web.
+            %h4
+              = link_to 'Explore Apps >', '#apps'
 
 .container
   .inset
