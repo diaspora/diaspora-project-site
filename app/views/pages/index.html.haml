@@ -13,7 +13,7 @@
         autoDirection:'prev',
         autoHover:true,
         mode:'vertical',
-        autoDelay:7000, pause:7000,
+        autoDelay:10000, pause:10000,
 
         onAfterSlide: function(currentSlideNumber, totalSlideQty, currentSlideHtmlObject){
           var html = currentSlideHtmlObject.find('.info-text').html();
@@ -56,7 +56,7 @@
           %br
         .row
           %h1
-            A network of social networks.
+            Social freedom.
           %p.lead
             Diaspora* is a fun and creative community that puts you in control.
 
@@ -76,9 +76,9 @@
               = image_tag 'distributed.png', :class => 'distributed'
               .info-text.hidden
                 %h2
-                  Control
+                  Own your data
                 %h4
-                  Communication is human nature.  Social networking shouldn't be a compromise.
+                  Connecting socially is human nature.  You shouldn't have to trade away your personal information to participate.
                 %h4
                   = link_to 'Own your Data with Diaspora* >', '#host_yr_own'
 
@@ -88,7 +88,7 @@
                 %h2
                   Best of the Web
                 %h4
-                  Applications that enable you to cool stuff throughout the web.
+                  Applications that enable you to discover & share cool stuff throughout the web.
                 %h4
                   = link_to 'Explore Apps >', '#apps'
 
@@ -101,7 +101,7 @@
       %h1
         Features our community loves
         %small
-          And you'll love, too.
+          We think you'll love 'em too.
 
     .row
       .span4
@@ -118,7 +118,7 @@
         %h4
           Hashtags
         %p
-          Hashtags allow you to label and follow your interests.  They're also a great way to meet cool and interesting people on Diaspora*.
+          Hashtags allow you to label and follow your interests.  They're also a great way to meet fun and interesting new people on Diaspora*.
       .span4
         %h4
           Reshare
@@ -133,14 +133,13 @@
 
       .span4
         %h4
-          Likes
+          Love
         %p
           Show your appreciation for something you love by ♥-ing it.
 
     %hr
     .clearfix
       %br
-
 
     .row
       .span8
@@ -153,7 +152,7 @@
         %h4
           Aspects
         %p
-          Ever wanted to to share something with a small group of people? Or post something out to the world?  Diaspora* pioneered Aspects, the original system for sharing things with the people you want, even if thats the whole world.
+          Ever wanted to to share something with just a certain group of people?  Diaspora* pioneered Aspects, the original system for sharing things with just the people you want.  Of course, you can still tell the whole world too, if you want to.
 
     .clearfix
       %br
@@ -165,7 +164,7 @@
         %h4
           Social network intergration
         %p
-          Diaspora lets you stay connected with your contacts that are not yet on Diaspora*. Simply connect to services and use Diaspora* as a megaphone to your other social media accounts.  Diaspora* currently supports cross-posting to your Facebook, Twitter, and Tumblr accounts, with more to come soon.
+          Diaspora* lets you stay connected with your friends, even if they're not on Diaspora* yet. Simply connect your account to other major services, then use Diaspora* as your home base to post to your profiles on these other services too. Diaspora* currently supports cross-posting to your Facebook, Twitter, and Tumblr accounts, with more to come soon.
 
         %br
         %br
@@ -177,7 +176,8 @@
         %h4
           We're here to help
         %p
-          Diaspora is an international community of people who are passionate about making the social web work for everyone. We're excited to help. Just ask.
+          Diaspora is an international community of people who are passionate about making the social web work for everyone. We're excited to help.
+          = link_to "Just ask.", "#"
 
         %br
         %br
@@ -217,8 +217,7 @@
     .page-header
       %h1
         Own your own data
-        %small
-          No one but you controls Diaspora*
+
     .row
     .clearfix
       %br
@@ -231,9 +230,10 @@
         %h4
           Host it yourself
         %p
-          Not content on hosting your data on someone else's server?  No problem!  Since Diaspora is completely free software, you can
+
+          Not content leaving your data on someone else's server? No problem! Since Diaspora is completely free software, you can
           = link_to "grab the code", code_link 
-          and host it where ever you want.  We're constatnly making it easier for individuals to host Diaspora themselves.
+          and host it where ever you want. We're constantly making it easier for individuals to host their own pods on Diaspora.
 
 
     .clearfix
@@ -265,11 +265,8 @@
     .page-header
       %h1
         Diaspora is a community effort
-        %small
-          Made by people who love the internet just like you
     %p
       Diaspora is powered by passionate people doing fun things together.  Find out how what you love to do can help make Diaspora better.
-      diaspora is made by people who love sharing online as much as you do. 
       = link_to 'Learn More', get_involved_path
 
     .row
@@ -291,11 +288,9 @@
           Donate
 
         %p
-          Explanation of why donations are so important.  Also, maybe a
-          = link_to "link", "#"
-          to that chart that will explain how we spend our money in developing Diaspora.
+          Your donations keep us going and enable us to keep developing more amazing features for Diaspora*. Please give generously to help us build a new social web where you're in control.
 
-        = link_to "Donate", donate_path, :class => 'btn info'
+        = link_to "Donate", donate_path, :class => 'btn success'
 
       /=link_to "join our mailing list. you won't regret it:"
 

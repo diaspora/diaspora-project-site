@@ -12,30 +12,12 @@
             The future of the social web starts with you.
 
 .container
-  %section#sponsors
-    .page-header
-      %h1
-        Sponsors
-
-    .row
-      .span4
-        = link_to "http://pivotallabs.com" do
-          = image_tag "http://www.xtremelabs.com/production/wp-content/uploads/2011/08/pivotal-labs-logo1.png", :width => 180, :height => 120
-        %p
-          Pivotal both housed and mentored the core team the first year.  They taught us much about making amazing software.  If you have a startup and are looking to make sure everything goes smoothly, you should contact them.
-
-      .span4.potential_supporter
-        %h6
-          Want to see your name here?
-        = link_to "Contact us", "mailto:yosem@joindiaspora.com", :class => "btn info small"
-
-
   %section#donors
     .page-header
       %h1
         Donors
         %small
-          The people who keep the project going.
+          Thank you for making Diaspora* possible.
 
     .row
       .span4
@@ -46,12 +28,9 @@
           = link_to 'Kickstarter backers.','http://www.kickstarter.com/projects/196017994/diaspora-the-personally-controlled-do-it-all-distr/backers'
           Without them Diaspora could have never become the huge social movement it is today.
 
-        :erb
-          <iframe frameborder="0" height="380px" src="http://www.kickstarter.com/projects/196017994/diaspora-the-personally-controlled-do-it-all-distr/widget/card.html" width="220px"></iframe>
-
       .span12
         %h4
-          Our Backers
+          Our Generous Donors
 
           %small
             Listed alphabetically
@@ -73,11 +52,36 @@
         %h4
           Make a difference
         %p
+          We need your help to keep building Diaspora*. You can help in a
+          = link_to "variety of hands-on ways.", get_involved_path
+          Or by donating.
+
+
           Contributions come in all different shapes and sizes. whether it be
           = link_to "code,"
           design, community organizing, blah blah blah.  Or, you can make a monetary donation.
 
-        = link_to 'Donate now', donate_path, :class => 'btn large primary'
+        = link_to 'Donate now', donate_path, :class => 'btn large success'
 
 
+  %section#sponsors
+    .page-header
+      %h1
+        Sponsors
+
+    .row
+      .span4
+        = link_to "http://pivotallabs.com" do
+          = image_tag "http://www.xtremelabs.com/production/wp-content/uploads/2011/08/pivotal-labs-logo1.png", :width => 180, :height => 120
+      .span4
+        = link_to "http://kickstarter.com" do
+          = image_tag "kickstarter.jpg", :width => 180
+    .row
+      .span4
+        %p
+          Pivotal both housed and mentored the core team the first year.  They taught us much about making amazing software.  If you have a startup and are looking to make sure everything goes smoothly, you should contact them.
+
+      .span4
+        %p
+          The generosity of the Kickstarter community has made Diaspora* possible. If not for these people, listed above, Diaspora could never have become the huge social movement it is today.
 
