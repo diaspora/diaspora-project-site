@@ -21,7 +21,7 @@ $(document).ready(function(){
       img.title = val['login'];
       img.width = 60;
       img.onload = function(){
-        $("#contributors").append($(img).fadeIn("fast"));
+        $("#contributors").append($(img).fadeIn());
       }
       contributions = parseInt(contributions) + val['contributions'];
     });
