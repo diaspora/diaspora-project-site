@@ -11,92 +11,99 @@
         })();
     /* ]]> */
 
-#masthead{:style => "display:none;"}
-  .inner
-    .container
-      %h1
-        DIASPORA* needs your help.
-        %p 
-          Diaspora is about building a more fun social web that lets people be who they are,
-          and puts users in control. We beleive that when you put users first, leads to a more robust, fault taulunt, and fun Internet.
-
-.clearfix
-.container
-  .page-header
-    %h1
-      Three Easy Ways to Donate
-      %small
-        Your contributions give people freedom
-
-  %ul{:class=> 'tabs', :data => {:tabs => 'tabs'}}
-    %li{:class => 'active'}
-      = link_to 'One Time', '#one_time'
-    %li
-      = link_to 'Monthly', '#monthly'
-    %li
-      = link_to 'Flattr', '#flattr'
-
-  #donations.tab-content.row
-    #one_time.active
-      .span6
+#top_half
+  #masthead.hero.sidekick
+    .inner
+      .container
         .clearfix
-          :erb
-              <form name="_xclick" action="https://www.paypal.com/cgi-bin/webscr" class='form-stacked' method="post">
+          %br
+          %br
+        .row
+          %h1
+            Three Easy Ways to Donate
+          %p.lead
+            Your contributions give people freedom.
+
+.container
+  %section#donations-pane
+
+    .row
+      .span8
+        %h2
+          Why your donation matters
+        %p
+          This is some stuff
+
+      .span8
+        %ul{:class=> 'tabs', :data => {:tabs => 'tabs'}}
+          %li{:class => 'active'}
+            = link_to 'One Time', '#one_time'
+          %li
+            = link_to 'Monthly', '#monthly'
+          %li
+            = link_to 'Flattr', '#flattr'
+
+        #donations.tab-content.row
+          #one_time.active
+            .span6
+              .clearfix
+                :erb
+                    <form name="_xclick" action="https://www.paypal.com/cgi-bin/webscr" class='form-stacked' method="post">
+                      <fieldset>
+                        <legend>
+                          One Time Donation
+                        </legend>
+                        <div class='clearfix'>
+                          <div class='input'>
+                            <input type="hidden" name="cmd" value="_xclick">
+                            <input type="hidden" name="business" value="donations@joindiaspora.com">
+                            <input type="hidden" name="item_name" value="Contribution To Diaspora">
+                            <input type="hidden" name="currency_code" value="USD">
+                            <input type="input" class='xlarge span2'name="amount" value="25.00">
+                        </div>
+                        </div>
+                      </fieldset>
+                      <div class='actions'>
+                        <input type="submit" class="btn primary" value="Donate">
+                      </div>
+                    </form>
+          #monthly
+            .span6
+              :erb
+                <form action="https://www.paypal.com/cgi-bin/webscr" class='form-stacked' method="post">
                 <fieldset>
                   <legend>
-                    One Time Donation
+                    Monthly Subscription
                   </legend>
-                  <div class='clearfix'>
-                    <div class='input'>
-                      <input type="hidden" name="cmd" value="_xclick">
-                      <input type="hidden" name="business" value="donations@joindiaspora.com">
-                      <input type="hidden" name="item_name" value="Contribution To Diaspora">
-                      <input type="hidden" name="currency_code" value="USD">
-                      <input type="input" class='xlarge span2'name="amount" value="25.00">
-                  </div>
-                  </div>
-                </fieldset>
-                <div class='actions'>
-                  <input type="submit" class="btn primary" value="Donate">
-                </div>
-              </form>
-    #monthly
-      .span6
-        :erb
-          <form action="https://www.paypal.com/cgi-bin/webscr" class='form-stacked' method="post">
-          <fieldset>
-            <legend>
-              Monthly Subscription
-            </legend>
-              <input type="hidden" name="cmd" value="_s-xclick">
-              <input type="hidden" name="hosted_button_id" value="N24UFDL4RJJF4">
-              <input type="hidden" name="on0" value="">
-              <div class='clearfix'>
-                <div class='input'>
-                  <select name="os0">
-                    <option value="Supporter">Supporter : $5.00USD</option>
-                    <option value="Member">Member : $10.00USD</option>
-                    <option value="Freedom Fighter">Freedom Fighter : $20.00USD</option>
-                  </select>
-                </div>
-                </div>
-    
-              <input type="hidden" name="currency_code" value="USD">
-            </fieldset>
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="N24UFDL4RJJF4">
+                    <input type="hidden" name="on0" value="">
+                    <div class='clearfix'>
+                      <div class='input'>
+                        <select name="os0">
+                          <option value="Supporter">Supporter : $5.00USD</option>
+                          <option value="Member">Member : $10.00USD</option>
+                          <option value="Freedom Fighter">Freedom Fighter : $20.00USD</option>
+                        </select>
+                      </div>
+                      </div>
+          
+                    <input type="hidden" name="currency_code" value="USD">
+                  </fieldset>
 
-            <div class='actions'>
-              <input type="submit" class="btn primary" value="Donate">
-            </div>
-          </form>
-    #flattr 
-      .span4
+                  <div class='actions'>
+                    <input type="submit" class="btn primary" value="Donate">
+                  </div>
+                </form>
+          #flattr 
+            .span4
 
-        %form{:class => 'form-stacked'}
-          %fieldset
-            %legend
-              Flattr
-          :erb
-            <a class="FlattrButton" style="display:none;" href="https://flattr.com/profile/Diaspora"></a>
-            <noscript><a href="http://flattr.com/thing/382291/Diaspora-on-Flattr" target="_blank">
-            <img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></noscript>
+              %form{:class => 'form-stacked'}
+                %fieldset
+                  %legend
+                    Flattr
+                :erb
+                  <a class="FlattrButton" style="display:none;" href="https://flattr.com/profile/Diaspora"></a>
+                  <noscript><a href="http://flattr.com/thing/382291/Diaspora-on-Flattr" target="_blank">
+                  <img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></noscript>
 

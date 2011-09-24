@@ -1,8 +1,17 @@
-.clearfix
-.container
-  .row
-    %h1 Supporters of Diaspora
+#top_half
+  #masthead.hero.sidekick
+    .inner
+      .container
+        .clearfix
+          %br
+          %br
+        .row
+          %h1
+            Supporters of Diaspora*
+          %p.lead
+            The future of the social web starts with you.
 
+.container
   %section#sponsors
     .page-header
       %h1
@@ -31,23 +40,6 @@
     .row
       .span4
         %h2
-          You
-        =image_tag 'montone_you.png'
-
-      .span12
-        %h4
-          Make a difference
-        %p
-          Contributions come in all different shapes and sizes. whether it be
-          = link_to "code,"
-          design, community organizing, blah blah blah.  Or, you can make a monetary donation.
-
-        = link_to 'Donate now', donate_path, :class => 'btn large primary'
-
-
-    .row
-      .span4
-        %h2
           Kickstarter
         %p
           First and foremost, Diaspora is made possible by the generous nature of our original 
@@ -68,3 +60,24 @@
 
         .well{:style => "height:470px;max-height:470px;overflow:scroll;"}
           = BACKERS.join(' ')
+    %hr
+
+  %section#future-donor
+    .row
+      .span4
+        %h2
+          You
+        =image_tag 'montone_you.png'
+
+      .span12
+        %h4
+          Make a difference
+        %p
+          Contributions come in all different shapes and sizes. whether it be
+          = link_to "code,"
+          design, community organizing, blah blah blah.  Or, you can make a monetary donation.
+
+        = link_to 'Donate now', donate_path, :class => 'btn large primary'
+
+
+

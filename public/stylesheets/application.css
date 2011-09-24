@@ -47,11 +47,16 @@ body {
   text-decoration: none;
   font-size: 20px; }
 
-#contributors {
+#contributors-container {
+  width: 100%;
+  position: absolute;
   z-index: 0;
   position: absolute;
-  top: 0;
-  width: 100000px; }
+  top: 150px;
+  overflow: hidden; }
+
+#contributors {
+  width: 10000px; }
 
 #publisher input, #publisher textarea {
   font-size: 20px;
@@ -60,6 +65,7 @@ body {
 #contributors {
   height: 100px; }
   #contributors img {
+    float: left;
     -webkit-box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.4);
     box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.4);
@@ -109,7 +115,7 @@ footer {
 #contributors {
   top: 150px; }
 
-.contributors .inner {
+.hero.sidekick {
   z-index: 12;
   height: 250px; }
 
@@ -133,7 +139,8 @@ footer {
 
 #masthead h1 {
   font-size: 54px;
-  line-height: 1;
+  line-height: 1.3;
+  margin-bottom: 0;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8), 0 0 10px white;
   color: #111;
   -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(black)); }
