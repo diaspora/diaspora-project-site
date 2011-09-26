@@ -21,7 +21,7 @@
           %td= contributor.diaspora_id
           %td= contributor.kind
           %td= truncate(contributor.bio)
-          %td= image_tag contributor.avatar, :class => 'contributor_avatar'
+          %td= image_tag contributor.diaspora_avatar, :class => 'contributor_avatar'
           %td= link_to 'Show', contributor
           %td= link_to 'Edit', edit_contributor_path(contributor)
           %td= link_to 'Destroy', contributor, :confirm => 'Are you sure?', :method => :delete
