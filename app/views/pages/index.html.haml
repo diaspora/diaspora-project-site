@@ -195,17 +195,22 @@
 
       .span4
         %h6
+          Find your pod
+        %p
+          Diaspora pods mean you can get an account anywhere you would like.  
+          = link_to 'JoinDiapsora', 'https://joindiaspora.com'
+          and
+          = link_to 'Diasp.org', 'https://diasp.org'
+          are two of the largest, but you can sign up at any open community pod.
+      .span4
+        %h6
           Lots more!
         %p
           %strong
             Ready to use Diaspora*?
           Then get an account on a community pod.  It's fast, easy, and free.
+          = link_to "Sign up", pod_listing_link, :class => "btn primary"
 
-      .span4
-        %h6
-          Get an account
-        %p
-          = link_to "get account", pod_listing_link, :class => "btn primary"
 
 
   %section#benifits
