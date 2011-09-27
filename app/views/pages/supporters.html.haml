@@ -32,8 +32,8 @@
 
         .clearfix
 
-        .well{:style => "height:470px;max-height:470px;overflow:scroll;"}
-          = BACKERS.join(' ')
+        .well{:style => "height:470px;max-height:470px;overflow-y:scroll;"}
+          = BACKERS.join(', ')
     %hr
 
   %section#future-donor
