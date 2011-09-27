@@ -65,7 +65,7 @@
             %h4
               Meet artistic people from all over the world who love the internet as much as you do.
             %h4
-              = link_to 'Join Us >', '#love_yr_community'
+              = link_to 'Join Us >', pod_listing_link, :target => '_blank'
 
         #carousel-control
           = image_tag 'distributed.png', :class => 'distributed'
@@ -75,7 +75,7 @@
             %h4
               Connecting socially is human nature.  You shouldn't have to trade away your personal information to participate.
             %h4
-              = link_to 'Own your Data with Diaspora* >', '#host_yr_own'
+              = link_to 'Own your Data with Diaspora* >', '#benifits'
 
         #carousel-best-of-web
           = image_tag 'cubbies-screenshot.png', :class => "cubbies-screenshot"
@@ -84,6 +84,8 @@
               Best of the Web
             %h4
               Applications that enable you to discover & share cool stuff throughout the web.
+              =link_to "Cubbi.es ", 'http://cubbi.es'
+              is our first.
             %h4
               = link_to 'Explore Apps >', '#apps'
 

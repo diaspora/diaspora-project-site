@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $('ul.pills a').click(function(evt){
+  $('#overlay_container a,ul.pills a').live('click', function(evt){
     var link = $(this).attr('href');
     if(link.charAt(0) === '#')
       var anchor = $(link);
