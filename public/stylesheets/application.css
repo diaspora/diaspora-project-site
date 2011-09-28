@@ -100,7 +100,10 @@ footer {
 
 .contributor_info {
   position: relative;
-  min-height: 150px; }
+  min-height: 150px;
+  padding-left: 15px; }
+  .contributor_info h4 {
+    white-space: nowrap; }
 
 #top_features {
   text-align: center; }

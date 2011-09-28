@@ -1,11 +1,13 @@
 - if contributor
   .span8
-    .contributor_info
+    .span2
       = image_tag(contributor.diaspora_avatar, :class => 'contributor_avatar')
-      %h4
-        = contributor.name
-        %small
-          = link_to "#{contributor.diaspora_id}", contributor.diaspora_url
-      .content
-        %p
-          = auto_link(contributor.bio).html_safe
+    .span5
+      .contributor_info
+        %h4
+          = contributor.name
+          %small
+            = link_to "#{contributor.diaspora_id}", contributor.diaspora_url
+        .content
+          %p
+            = auto_link(contributor.bio).html_safe

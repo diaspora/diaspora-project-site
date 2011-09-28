@@ -129,6 +129,11 @@ footer {
 .contributor_info {
   position: relative;
   min-height: 150px;
+  padding-left: 15px;
+  h4{
+    white-space: nowrap;
+    
+  }
 }
 
 #top_features {
