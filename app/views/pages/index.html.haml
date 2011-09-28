@@ -64,7 +64,7 @@
               Creative Community
             %h4
               Meet artistic people from all over the world who love the internet as much as you do.
-            %h4
+            %h4.call_to_action
               = link_to 'Join Us >', pod_listing_link, :target => '_blank'
 
         #carousel-control
@@ -74,7 +74,7 @@
               Own your data
             %h4
               Connecting socially is human nature.  You shouldn't have to trade away your personal information to participate.
-            %h4
+            %h4.call_to_action
               = link_to 'Own your Data with Diaspora* >', '#benifits'
 
         #carousel-best-of-web
@@ -86,7 +86,7 @@
               Applications that enable you to discover & share cool stuff throughout the web.
               =link_to "Cubbi.es ", 'http://cubbi.es'
               is our first.
-            %h4
+            %h4.call_to_action
               = link_to 'Explore Apps >', '#apps'
 
 .container
@@ -226,8 +226,10 @@
             %h4
               One account to rule them all.
             %p
-              Diaspora %%Anchor%%, our own decentrialized authentication system, can be used with any Diaspora pod.  That means any cool new applications you connect to online will share with you you want, as well as giving you a copy of the data you create.
-
+              Log In With Diaspora, our own decentrialized authentication system, can be used with any Diaspora pod.  That means any cool new applications you connect to online will share with you you want, as well as giving you a copy of the data you create.
+            %p
+              If you are developer and want to intergrate Diaspora* into your application, learn more at:
+              = link_to "GitHub", 'https://github.com/diaspora/diaspora-client'
         .row
           .span8
             %h4
@@ -256,7 +258,6 @@
         %h4
           Host it yourself
         %p
-
           Now you don't have to settle for having your data on someone else's server! Since Diaspora is completely free software, you can
           = link_to "grab the code", code_link 
           and host it where ever you want. We're constantly making it easier for individuals to host their own pods on Diaspora.

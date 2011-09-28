@@ -33,6 +33,10 @@ header {
     header nav .btn {
       margin-left: 10px; }
 
+.call_to_action {
+  float: right;
+  padding-right: 20px; }
+
 .floater {
   float: right; }
 
