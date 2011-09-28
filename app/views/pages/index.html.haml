@@ -63,9 +63,9 @@
             %h2
               Creative Community
             %h4
-              Meet artistic people from all over the world who love the internet as much as you do.
+              Meet people from all over the world who love the internet as much as you do.
             %h4.call_to_action
-              = link_to 'Join Us >', pod_listing_link, :target => '_blank'
+              = link_to 'Learn More >', '#features'
 
         #carousel-control
           = image_tag 'distributed.png', :class => 'distributed'
@@ -84,8 +84,7 @@
               Best of the Web
             %h4
               Applications that enable you to discover & share cool stuff throughout the web.
-              =link_to "Cubbi.es ", 'http://cubbi.es'
-              is our first.
+              Cubbi.es is our first.
             %h4.call_to_action
               = link_to 'Explore Apps >', '#apps'
 
@@ -143,7 +142,7 @@
         %h4
           Personal Profile
         %p
-          Say whatever you want about who you are.  Diaspora doesn't force your awesomeness into restrictive categories
+          Say whatever you want about who you are.  Diaspora* doesn't force your awesomeness into restrictive categories
 
       .span8
         %h4
@@ -159,7 +158,7 @@
         = image_tag('services.png')
       .span12
         %h4
-          Social network intergration
+          Social network integration
         %p
           Diaspora* lets you stay connected with your friends, even if they're not on Diaspora* yet. Simply connect your account to other major services, then use Diaspora* as your home base to post to your profiles on these other services too. Diaspora* currently supports cross-posting to your Facebook, Twitter, and Tumblr accounts, with more to come soon.
 
@@ -174,7 +173,7 @@
           We're here to help
         %p
           Diaspora is an international community of people who are passionate about making the social web work for everyone. We're excited to help.
-          = link_to "Just ask.", "#"
+          = link_to "Just ask.", get_satisfaction_link
 
         %br
         %br
@@ -197,13 +196,14 @@
 
       .span4
         %h6
-          Find your pod
+          Join a pod
         %p
-          Diaspora pods mean you can get an account anywhere you would like.  
+          Diaspora pods mean you can get an account anywhere you would like.
           = link_to 'JoinDiapsora', 'https://joindiaspora.com'
           and
           = link_to 'Diasp.org', 'https://diasp.org'
-          are two of the largest, but you can sign up at any open community pod.
+          are two of the largest, but you can sign up at 
+          = link_to 'any open community pod.', pod_listing_link
       .span4
         %h6
           Lots more!
@@ -212,7 +212,6 @@
             Ready to use Diaspora*?
           Then get an account on a community pod.  It's fast, easy, and free.
           = link_to "Sign up", pod_listing_link, :class => "btn primary"
-
 
   %section#apps
     .page-header
@@ -226,7 +225,7 @@
             %h4
               One account to rule them all.
             %p
-              Log In With Diaspora, our own decentrialized authentication system, can be used with any Diaspora pod.  That means any cool new applications you connect to online will share with you you want, as well as giving you a copy of the data you create.
+              Log In With Diaspora*, our own decentrialized authentication system, can be used with any Diaspora pod.  That means any cool new applications you connect to online will share with you you want, as well as giving you a copy of the data you create.
             %p
               If you are developer and want to intergrate Diaspora* into your application, learn more at:
               = link_to "GitHub", 'https://github.com/diaspora/diaspora-client'
@@ -236,15 +235,15 @@
               Collect the Web with Cubbi.es
             %p
               = link_to 'Cubbi.es', 'http://cubbi.es'
-              is our first (of many) applications for Diaspora.  It also is the best way to collect photos around the web. 
-              In fact, Diaspora users tell us that Cubbi.es is the best way to save photos around the web.
+              is our first (of many) applications for Diaspora*.  It also is the best way to collect photos around the web. 
+              In fact, Diaspora* users tell us that Cubbi.es is the best way to save photos around the web.
       .span8
         = image_tag 'cubbies_collage2.png'
 
   %section#benifits
     .page-header
       %h1
-        Own your own data
+        Own your data
 
     .row
     .clearfix
@@ -258,9 +257,9 @@
         %h4
           Host it yourself
         %p
-          Now you don't have to settle for having your data on someone else's server! Since Diaspora is completely free software, you can
+          Now you don't have to settle for having your data on someone else's server. Since Diaspora is completely free software, you can
           = link_to "grab the code", code_link 
-          and host it where ever you want. We're constantly making it easier for individuals to host their own pods on Diaspora.
+          and host it wherever you want. We're constantly making it easier for individuals to host their own pods on Diaspora*.
 
 
     .clearfix
@@ -285,15 +284,17 @@
           %span.label.warning
             coming soon!
         %p
-          Get started on a community pod, and then move all of your social data to a pod you control.  Diaspora's Distrubuted nature lets you keep full control of where you source your social data from
-          = link_to 'open pods', pod_listing_link, :target => '_blank'
+          Get started on a 
+          = link_to 'community pod',pod_listing_link
+          and then move all of your social data to a pod you control. 
+          Diaspora*'s distributed design means that you will never have to sacrifice control of your data to stay connected.
 
   %section#community
     .page-header
       %h1
-        Diaspora is a community effort
+        Diaspora* is a community effort
     %p
-      Diaspora is powered by passionate people doing fun things together.  Find out how what you love to do can help make Diaspora better.
+      Diaspora* is powered by passionate people doing fun things together.  Find out how what you love to do can help make Diaspora* better.
       = link_to 'Learn More', get_involved_path
 
     .row
@@ -307,7 +308,7 @@
             git clone git://github.com/diaspora/diaspora.git
 
         %p
-          = link_to "View the source on github »", get_involved_path, :class => 'btn primary'
+          = link_to "View the source on github »", code_link, :class => 'btn primary'
 
 
       .span8

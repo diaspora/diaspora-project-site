@@ -43,9 +43,9 @@
 
       .span12
         %h4
-          Quickstats
+          Quick stats
         %p
-          Diaspora is already in the
+          Diaspora* is already in the
           %strong top 2%
           of all open source projects ever.  The codebase has received over 
           %strong 800 forks, and
@@ -61,7 +61,7 @@
           Open source is about individuality, transparency, creativity, and destiny. It is about having an idea, and making it reality. Diaspora* was founded to fulfill a passion for fun, and for making the Internet a better place. Open source is what enables us to change the world, for ourselves, and let our friends across the web benefit from our exploration.
 
         %p
-          Open source communities are amazing things. At Diaspora*, we believe that people should be valued for what they do. It does not matter if you have contributed to a project before, or are an elite open source hacker. Contributing to Diaspora* means that you get to work on hard problems, with a focus on solutions that work for users. This is why if you contribute something meaningful to Diaspora, we will give you core commit access. We are in this together, so giving excited people the chance to make huge changes always trumps keeping control sacred.
+          Open source communities are amazing things. At Diaspora*, we believe that people should be valued for what they do. It does not matter if you have contributed to a project before, or are an elite open source hacker. Contributing to Diaspora* means that you get to work on hard problems, with a focus on solutions that work for users. This is why if you contribute something meaningful to Diaspora*, we will give you core commit access. We are in this together, so giving excited people the chance to make huge changes always trumps keeping control sacred.
 
         %h4
           Where you come in
@@ -74,8 +74,6 @@
     .page-header
       %h1
         Ways to Get Involved with Diaspora*
-        %small
-          Power to the people
 
     .row#code
       .span4
@@ -92,21 +90,21 @@
             %code
               git clone git://github.com/diaspora/diaspora.git
           %li
-            = link_to 'install your development enviroment'
+            = link_to 'install your development enviroment', install_development_enviroment_path
           %li
-            Write awesome code
+            Write awesome code.
 
         .row
           .span6
             %p
               We've got a large community ready to help you get started.  We suggest you check out our
-              = link_to "getting started guide,", "#"
+              = link_to "Getting Started Guide,", "#"
               = link_to "joining our mailing list,", "http://groups.google.com/group/diaspora-dev"
               and hopping in the
-              = link_to "Diaspora IRC room.", "irc://irc.freenode.net/#diaspora"
+              = link_to "Diaspora* IRC room.", "http://webchat.freenode.net/?channels=diaspora-dev"
           .span6
             %p
-              = link_to "View the source on GitHub »", get_involved_path, :class => 'btn primary'
+              = link_to "View the source on GitHub »", code_link, :class => 'btn primary'
 
     %hr
     .row#translate
@@ -118,7 +116,7 @@
           Help Translate
         %ul
           %li
-            You can help translate Diaspora into other languages by joining the 
+            You can help translate Diaspora* into other languages by joining the 
             = link_to 'Translations Group.', 'http://99translations.com/public_projects/show/181'
           %li
             We also have instructions on how to get involved at 
@@ -170,10 +168,10 @@
             = link_to 'IRC channel', 'http://webchat.freenode.net/?channels=diaspora'
           %li
             Contribute to 
-            = link_to "Diaspora's Wiki", 'https://github.com/diaspora/diaspora/wiki'
+            = link_to "Diaspora*'s Wiki", 'https://github.com/diaspora/diaspora/wiki'
             at Github
           %li
-            Help answer users' questions on Diaspora itself by following the #help, #questions and #feedback hashtags
+            Help answer users' questions on Diaspora* itself by following the #help, #questions and #feedback hashtags
 
     %hr
 
@@ -185,18 +183,18 @@
           Run a community Pod
         %ul
           %li
-            If you would like to set up a community pod, please click here 
+            If you would like to set up a community pod, please read the 
             = link_to "Pod installation instructions", "https://github.com/diaspora/diaspora/wiki/Installing-and-Running-Diaspora" 
           %li
-            To view a list of community pods, click here
-            =link_to "click here.", "http://podupti.me/"
+            To view a list of community pods, check out
+            =link_to "Pod Uptime.", pod_listing_link
 
   %section#core_team
     .page-header
       %h1
         Diaspora*'s Contributors
         %small
-          The people who work on Diaspora every day
+          The people who work on Diaspora* every day
 
     - @contributors.each do |kind, contributors|
       .row
@@ -217,5 +215,5 @@
 
   %section#start-contributing
     %h6
-      Have you already contributed to Diaspora? We want to see your name here!
+      Have you already contributed to Diaspora*? We want to see your name here!
       = link_to 'email us', 'mailto:team@joindiaspora.com'
