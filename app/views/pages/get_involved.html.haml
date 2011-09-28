@@ -28,7 +28,7 @@
         %li
           = link_to 'Run your own pod for the community', '#pod'
         %li
-          = link_to 'Donate', donate_path
+          = link_to 'Donate', donate_path, :onClick => "_gaq.push(['_trackEvent', 'Donate Button', 'Click', 'page', '#{params[:action]}_sub_header']);"
 
   %section#open_source
     .page-header

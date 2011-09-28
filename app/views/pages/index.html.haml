@@ -317,7 +317,7 @@
         %p
           Your donations keep us going and enable us to keep developing more amazing features for Diaspora*. Please give generously to help us build a new social web where you're in control.
 
-        = link_to "Donate", donate_path, :class => 'btn success'
+        = link_to "Donate", donate_path, :class => 'btn success', :onClick => "_gaq.push(['_trackEvent', 'Donate Button', 'Click', 'page', '#{params[:action]}_bottom']);" 
 
       /=link_to "join our mailing list. you won't regret it:"
 

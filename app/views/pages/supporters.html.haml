@@ -56,7 +56,7 @@
           = link_to "code,"
           design, community organizing, blah blah blah.  Or, you can make a monetary donation.
 
-        = link_to 'Donate now', donate_path, :class => 'btn large success'
+        = link_to 'Donate now', donate_path, :class => 'btn large success', :onClick => "_gaq.push(['_trackEvent', 'Donate Button', 'Click', 'page', '#{params[:action]}_make_a_difference']);"
 
 
   %section#sponsors
