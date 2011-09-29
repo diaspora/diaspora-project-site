@@ -5,7 +5,7 @@
     .span5
       .contributor_info
         %h4
-          = contributor.name
+          = contributor.name.titleize
           %small
             = link_to "#{contributor.diaspora_id}", contributor.diaspora_url
         .content
