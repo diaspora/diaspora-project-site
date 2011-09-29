@@ -350,3 +350,13 @@ section {
   bottom: 10px;
   color: #666;
   text-shadow: 0 0px 3px #fff; }
+
+#CC-licence {
+  text-align: center;
+  font-size: 10px; }
+  #CC-licence span {
+    font-size: 10px;
+    color: #666; }
+  #CC-licence a {
+    font-size: 10px;
+    color: #666; }
