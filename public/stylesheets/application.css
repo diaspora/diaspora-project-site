@@ -40,6 +40,10 @@ header {
 .floater {
   float: right; }
 
+.note {
+  font-size: smaller;
+  color: #eee; }
+
 body {
   margin-top: 70px; }
 
