@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0">
+  <url>
+    <loc>http://diasporafoundation.org/</loc>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>http://blog.diasporafoundation.org</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>http://diasporafoundation.org/get_involved</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>http://diasporafoundation.org/supporters</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>http://diasporafoundation.org/donate</loc>
+    <priority>0.80</priority>
+  </url>
+</urlset>
