@@ -46,66 +46,62 @@
             = link_to 'Flattr', '#flattr'
 
         #donations.tab-content.row
-          #one_time.active
-            .span6
-              .clearfix
-                :erb
-                    <form name="_xclick" action="https://www.paypal.com/cgi-bin/webscr" class='form-stacked' method="post">
-                      <fieldset>
-                        <legend>
-                          One Time Donation
-                        </legend>
-                        <div class='clearfix'>
-                          <div class='input'>
-                            <input type="hidden" name="cmd" value="_xclick">
-                            <input type="hidden" name="business" value="donations@joindiaspora.com">
-                            <input type="hidden" name="item_name" value="Contribution To Diaspora">
-                            <input type="hidden" name="currency_code" value="USD">
-                            <input type="input" class='xlarge span2'name="amount" value="25.00">
-                        </div>
-                        </div>
-                      </fieldset>
-                      <div class='actions'>
-                        <input type="submit" class="btn success" value="Donate">
-                      </div>
-                    </form>
-          #monthly
-            .span6
-              :erb
-                <form action="https://www.paypal.com/cgi-bin/webscr" class='form-stacked' method="post">
-                <fieldset>
-                  <legend>
-                    Monthly Subscription
-                  </legend>
-                    <input type="hidden" name="cmd" value="_s-xclick">
-                    <input type="hidden" name="hosted_button_id" value="N24UFDL4RJJF4">
-                    <input type="hidden" name="on0" value="">
+          #one_time.active.span8
+            :erb
+                <form name="_xclick" action="https://www.paypal.com/cgi-bin/webscr" class='form-stacked' method="post">
+                  <fieldset>
+                    <legend>
+                      One Time Donation
+                    </legend>
                     <div class='clearfix'>
                       <div class='input'>
-                        <select name="os0">
-                          <option value="Supporter">Supporter : $5.00USD</option>
-                          <option value="Member">Member : $10.00USD</option>
-                          <option value="Freedom Fighter">Freedom Fighter : $20.00USD</option>
-                        </select>
-                      </div>
-                      </div>
-          
-                    <input type="hidden" name="currency_code" value="USD">
+                        <input type="hidden" name="cmd" value="_xclick">
+                        <input type="hidden" name="business" value="donations@joindiaspora.com">
+                        <input type="hidden" name="item_name" value="Contribution To Diaspora">
+                        <input type="hidden" name="currency_code" value="USD">
+                        <input type="input" class='xlarge span2'name="amount" value="25.00">
+                    </div>
+                    </div>
                   </fieldset>
-
                   <div class='actions'>
                     <input type="submit" class="btn success" value="Donate">
                   </div>
                 </form>
-          #flattr 
-            .span4
 
-              %form{:class => 'form-stacked'}
-                %fieldset
-                  %legend
-                    Flattr
-                :erb
-                  <a class="FlattrButton" style="display:none;" href="https://flattr.com/profile/Diaspora"></a>
-                  <noscript><a href="http://flattr.com/thing/382291/Diaspora-on-Flattr" target="_blank">
-                  <img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></noscript>
+          #monthly.span8
+            :erb
+              <form action="https://www.paypal.com/cgi-bin/webscr" class='form-stacked' method="post">
+              <fieldset>
+                <legend>
+                  Monthly Subscription
+                </legend>
+                  <input type="hidden" name="cmd" value="_s-xclick">
+                  <input type="hidden" name="hosted_button_id" value="N24UFDL4RJJF4">
+                  <input type="hidden" name="on0" value="">
+                  <div class='clearfix'>
+                    <div class='input'>
+                      <select name="os0">
+                        <option value="Supporter">Supporter : $5.00USD</option>
+                        <option value="Member">Member : $10.00USD</option>
+                        <option value="Freedom Fighter">Freedom Fighter : $20.00USD</option>
+                      </select>
+                    </div>
+                    </div>
+                  <input type="hidden" name="currency_code" value="USD">
+                </fieldset>
+
+                <div class='actions'>
+                  <input type="submit" class="btn success" value="Donate">
+                </div>
+              </form>
+
+          #flattr.span8
+            %form{:class => 'form-stacked'}
+              %fieldset
+                %legend
+                  Flattr
+              :erb
+                <a class="FlattrButton" style="display:none;" href="https://flattr.com/profile/Diaspora"></a>
+                <noscript><a href="http://flattr.com/thing/382291/Diaspora-on-Flattr" target="_blank">
+                <img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></noscript>
 
