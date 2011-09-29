@@ -7,7 +7,7 @@
     = stylesheet_link_tag 'application'
 
     = javascript_include_tag 'jquery-1.6.1.min'
-    = javascript_include_tag 'twitter-tabs', 'all'
+    = javascript_include_tag 'twitter-tabs', 'bootstrap-modal', 'all'
 
     = csrf_meta_tag
     = yield :head
@@ -33,7 +33,7 @@
       })();
 
   %body
-    %header
+    %header.accel
       .header_container
         = link_to(image_tag("logo.png", :height => "70px"), root_path)
 
@@ -42,7 +42,7 @@
           = link_to "blog",'http://blogtest.sourcedecay.net/'
           = link_to "get involved", get_involved_url
           = link_to "supporters", supporters_url
-          = link_to "sign up", pod_listing_link, :class => 'btn primary'
+          = link_to "sign up", pod_listing_link, :class => 'btn primary', 'data-backdrop' => true, 'data-controls-modal' => 'my-modal'
           = link_to "donate", donate_url, :class => 'btn success', :onClick => "_gaq.push(['_trackEvent', 'Donate Button', 'Click', 'page', '#{params[:action]}']);" 
 
     = yield
@@ -82,4 +82,22 @@
                 %li
                   %a{:href => "http://guides.rubyonrails.org/"} Learn more about Ruby On Rails!
 
+
+#my-modal.modal.fade
+  .modal-header
+    = link_to 'x', '#', :class => 'close'
+    %h3
+      Join an open pod.
+
+  .modal-body
+    %p
+      The Diaspora* ecosystem consists of numerous pods, which all connect together to form our new social web.  
+    %p
+      On the next page, you’ll see a list of the open pods.  The name of each of them is a link.  Simply pick one, click on that link (in the left column) and follow the simple steps on that pod’s home page to create your account.
+    %p
+      Note: You may find that some of these pods are not (or not yet) open to the public.  In that case, we encourage you to try another one.
+
+
+  .modal-footer
+    = link_to 'Click here to choose a pod to join.', 'http://podupti.me', :target => '_blank'
 
