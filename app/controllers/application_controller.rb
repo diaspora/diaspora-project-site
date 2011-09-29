@@ -1,6 +1,6 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
-  before filter :cache_money
+  before_filter :cache_money
 
 protected
 
