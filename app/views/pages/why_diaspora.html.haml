@@ -1,0 +1,274 @@
+#masthead.hero
+  .container
+    .row
+      %h1
+        Why Diaspora*?
+      %p.lead
+        Diaspora* is a new concept in social networking, based on three key philosophies: open-source, decentralisation, and privacy.
+
+.container
+  %section#body-content
+    .row
+      
+      .center
+        = image_tag('distributed-earth.png')
+
+
+    .row
+      .lower.span-one-third
+        %h4
+          Open Source
+        %p
+          means that the code which makes D* work is available to any developer around the world, so that they can improve it. This means that D* is continually being developed by a community rather than a corporation.
+      .lower.span-one-third
+        %h4
+          Distributed
+        %p
+          rather than everyone’s data being contained on centralized servers owned by a corporation, local servers (‘pods’) can be set up anywhere in the world.
+      .lower.span-one-third
+        %h4
+          Secure
+        %p
+          means that you choose who to share things with. No one gets to read things you write unless you allow them to. You don’t sign over any rights to a corporation or other interest who could use it for commercial purposes, as is the case with other social networks. With D*, you are in complete control of your information.
+
+
+
+.container
+  .inset
+    = image_tag 'asterisk-inset.png'
+
+  %section#features
+    .page-header
+      %h1
+        Features our community loves
+        %small
+          We think you'll love 'em too.
+
+    .row
+      .span4
+        = image_tag('hashtag.png')
+      .span4
+        = image_tag('reshare.png')
+      .span4
+        = image_tag('mention.png')
+      .span4
+        = image_tag('heart.png')
+
+    .row
+      .span4
+        %h4
+          Hashtags
+        %p
+          Hashtags allow you to label and follow your interests.  They're also a great way to meet fun and interesting new people on Diaspora*.
+      .span4
+        %h4
+          Reshare
+        %p
+          Why not reshare a post you love with others?  Diaspora* makes it easy to spread ideas via reshare.
+
+      .span4
+        %h4
+          Mentions
+        %p
+          Want to get the attention of an amazing community member? just @-mention them!
+
+      .span4
+        %h4
+          Love
+        %p
+          Show your appreciation for something you love by ♥-ing it.
+
+    %hr
+    .clearfix
+      %br
+
+    .row
+      .span8
+        %h4
+          Personal Profile
+        %p
+          Say whatever you want about who you are.  Diaspora* doesn't force your awesomeness into restrictive categories
+
+      .span8
+        %h4
+          Aspects
+        %p
+          Ever wanted to to share something with just a certain group of people?  Diaspora* pioneered Aspects, the original system for sharing things with just the people you want.  Of course, you can still tell the whole world too, if you want to.
+
+    .clearfix
+      %br
+      %br
+    .row
+      .span4
+        = image_tag('services.png')
+      .span12
+        %h4
+          Social network integration
+        %p
+          Diaspora* lets you stay connected with your friends, even if they're not on Diaspora* yet. Simply connect your account to other major services, then use Diaspora* as your home base to post to your profiles on these other services too. Diaspora* currently supports cross-posting to your Facebook, Twitter, and Tumblr accounts, with more to come soon.
+
+        %br
+        %br
+
+    .row
+      .span4
+        =image_tag('question.png')
+      .span12
+        %h4
+          We're here to help
+        %p
+          Diaspora is an international community of people who are passionate about making the social web work for everyone. We're excited to help.
+          = link_to "Just ask.", get_satisfaction_link
+
+        %br
+        %br
+        %br
+    .clearfix
+
+    .row#small_features
+      .span4
+        %h6
+          Bookmarklet
+
+        %p
+          Use Diaspora*'s bookmarklet to discover fun content around the web and share it with whomever you'd like.
+
+      .span4
+        %h6
+          Hi-res photos
+        %p
+          Upload and share high-resolution photos with whomever you please.
+
+      .span4
+        %h6
+          Join a pod
+        %p
+          Diaspora pods mean you can get an account anywhere you would like.
+          = link_to 'JoinDiapsora', 'https://joindiaspora.com'
+          and
+          = link_to 'Diasp.org', 'https://diasp.org'
+          are two of the largest, but you can sign up at 
+          = link_to 'any open community pod.', pod_listing_link
+      .span4
+        %h6
+          Lots more!
+        %p
+          %strong
+            Ready to use Diaspora*?
+          Then get an account on a community pod.  It's fast, easy, and free.
+          = link_to "Sign up", pod_listing_link, :class => "btn primary"
+
+  %section#apps
+    .page-header
+      %h1
+        Awesome Apps
+    .row
+      
+      .span8
+        .row
+          .span8
+            %h4
+              One account to rule them all.
+            %p
+              Log In With Diaspora*, our own decentrialized authentication system, can be used with any Diaspora pod.  That means any cool new applications you connect to online will share with you you want, as well as giving you a copy of the data you create.
+            %p
+              If you are developer and want to intergrate Diaspora* into your application, learn more at:
+              = link_to "GitHub", 'https://github.com/diaspora/diaspora-client'
+        .row
+          .span8
+            %h4
+              Collect the Web with Cubbi.es
+            %p
+              = link_to 'Cubbi.es', 'http://cubbi.es'
+              is our first (of many) applications for Diaspora*.  It also is the best way to collect photos around the web. 
+              In fact, Diaspora* users tell us that Cubbi.es is the best way to save photos around the web.
+      .span8
+        %br
+        %br
+        = image_tag 'cubbies_collage2.jpg'
+
+  %section#benifits
+    .page-header
+      %h1
+        Own your data
+
+    .row
+    .clearfix
+      %br
+      %br
+
+    .row
+      .span2
+        =image_tag('lock.png')
+      .span14
+        %h4
+          Host it yourself
+        %p
+          Now you don't have to settle for having your data on someone else's server. Since Diaspora is completely free software, you can
+          = link_to "grab the code", code_link 
+          and host it wherever you want. We're constantly making it easier for individuals to host their own pods on Diaspora*.
+
+
+    .clearfix
+      %br
+      %br
+
+    .row
+      .span2
+        = image_tag('download.png')
+      .span6
+        %h4
+          Export your data
+          %span.label.warning
+            coming soon!
+        %p
+          Download all of your data in standard formats that can be used in other places.
+      .span2
+        = image_tag('two_asterisks.png')
+      .span6
+        %h4
+          Move Pods
+          %span.label.warning
+            coming soon!
+        %p
+          Get started on a 
+          = link_to 'community pod',pod_listing_link
+          and then move all of your social data to a pod you control. 
+          Diaspora*'s distributed design means that you will never have to sacrifice control of your data to stay connected.
+          =link_to 'View current status of this task.', 'https://github.com/diaspora/diaspora/issues/908'
+
+  %section#community
+    .page-header
+      %h1
+        Diaspora* is a community effort
+    %p
+      Diaspora* is powered by passionate people doing fun things together.  Find out how what you love to do can help make Diaspora* better.
+      = link_to 'Learn More', get_involved_path
+
+    .row
+      .span8
+        %h2
+          Contribute code
+
+        %p
+          Grabbing the source code is simple.  Clone down the repository and poke around:
+          %code
+            git clone git://github.com/diaspora/diaspora.git
+
+        %p
+          = link_to "View the source on github »", code_link, :class => 'btn primary'
+
+
+      .span8
+        %h2
+          Donate
+
+        %p
+          Your donations keep us going and enable us to keep developing more amazing features for Diaspora*. Please give generously to help us build a new social web where you're in control.
+
+        = link_to "Donate", donate_path, :class => 'btn success', :onClick => "_gaq.push(['_trackEvent', 'Donate Button', 'Click', 'page', '#{params[:action]}_bottom']);" 
+
+      /=link_to "join our mailing list. you won't regret it:"
+
+
+

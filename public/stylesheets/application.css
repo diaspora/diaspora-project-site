@@ -331,6 +331,12 @@ section {
   background-image: radial-gradient(50% 50%, circle cover, #fcfcfc, #e6e6e6 100%);
   background-image: -webkit-gradient(linear, 0% 68%, 0% 100%, from(#f2f2f2), to(#f7f7f7), color-stop(0.5, #c1c1c1)); }
 
+.center {
+  text-align: center; }
+
+.lower {
+  margin-top: 0px; }
+
 .inset {
   text-align: center;
   margin-top: 20px;
