@@ -4,7 +4,7 @@
       %h1
         What is Diaspora*?
       %p.lead
-        Diaspora* is a new concept in social networking, based on three key philosophies: open-source, decentralisation, and privacy.
+        Diaspora* is a new concept in social networking, based on three key philosophies: open source, distributed networks, and privacy.
 
 .container
   %section#body-content
@@ -20,38 +20,38 @@
   %section#features
     .page-header
       %h1
-        What this means for you and the world.
+        What this means for you and the world?
         %small
-          We think you'll love 'em too.
+          Not just another social network.
 
     .row
       .span-one-third
-        = image_tag('osi-decal.png')
+        = image_tag('osi-stamp.png')
       
       .span-one-third
-        = image_tag('distributed-decal.png')
+        = image_tag('distributed-stamp.png')
       
       .span-one-third
-        = image_tag('distributed-decal.png')
+        = image_tag('keyhole-stamp.png')
 
     .row
       .span-one-third
         %h4
           Open Source
         %p
-          Hashtags allow you to label and follow your interests.  They're also a great way to meet fun and interesting new people on Diaspora*.
+          The code which makes Diaspora* work is available to any developer around the world to improve upon. Diaspora* is continually being developed by a community rather than a corporation. Contributions and improvements are vetted and rolled-out only after careful bug checks. [‘more about this’ link]
       
       .span-one-third
         %h4
           Distributed
         %p
-          Why not reshare a post you love with others?  Diaspora* makes it easy to spread ideas via reshare.
+          Instead of everyone’s data being contained on centralized servers owned by a corporation, local servers (‘pods’) can be set up anywhere in the world. You can choose which pod to register with, perhaps your local pod, and seamlessly connect with the D* community worldwide. [‘more about this’ link]
 
       .span-one-third
         %h4
-          Secure
+          Privacy
         %p
-          Want to get the attention of an amazing community member? just @-mention them!
+          Unique to Diaspora* is that YOU own your data. You do not sign over any rights to a corporation or other interest who could use it for commercial purposes. With Diaspora*, your friends,  your habits, and your content is your business...not ours! [‘more about this’ link]
 
     %hr
     .clearfix
@@ -60,40 +60,36 @@
     .row
       .span8
         %h4
-          Personal Profile
-        %p
-          Say whatever you want about who you are.  Diaspora* doesn't force your awesomeness into restrictive categories
+          This
 
       .span8
         %h4
-          Aspects
-        %p
-          Ever wanted to to share something with just a certain group of people?  Diaspora* pioneered Aspects, the original system for sharing things with just the people you want.  Of course, you can still tell the whole world too, if you want to.
+          Not this
+
 
     .clearfix
       %br
       %br
     .row
-      .span4
-        = image_tag('services.png')
-      .span12
-        %h4
-          Social network integration
-        %p
-          Diaspora* lets you stay connected with your friends, even if they're not on Diaspora* yet. Simply connect your account to other major services, then use Diaspora* as your home base to post to your profiles on these other services too. Diaspora* currently supports cross-posting to your Facebook, Twitter, and Tumblr accounts, with more to come soon.
+      .span8
+        = image_tag('network-distributed.png')
+      .span8
+        = image_tag('network-centralized.png')
 
-        %br
-        %br
-
+    .clearfix
+      %br
     .row
-      .span4
-        =image_tag('question.png')
-      .span12
+      .span8
         %h4
-          We're here to help
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
         %p
-          Diaspora is an international community of people who are passionate about making the social web work for everyone. We're excited to help.
-          = link_to "Just ask.", get_satisfaction_link
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+
+      .span8
+        %h4
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        %p
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
 
         %br
         %br
@@ -133,34 +129,6 @@
           Then get an account on a community pod.  It's fast, easy, and free.
           = link_to "Sign up", pod_listing_link, :class => "btn primary"
 
-  %section#apps
-    .page-header
-      %h1
-        Awesome Apps
-    .row
-      
-      .span8
-        .row
-          .span8
-            %h4
-              One account to rule them all.
-            %p
-              Log In With Diaspora*, our own decentrialized authentication system, can be used with any Diaspora pod.  That means any cool new applications you connect to online will share with you you want, as well as giving you a copy of the data you create.
-            %p
-              If you are developer and want to intergrate Diaspora* into your application, learn more at:
-              = link_to "GitHub", 'https://github.com/diaspora/diaspora-client'
-        .row
-          .span8
-            %h4
-              Collect the Web with Cubbi.es
-            %p
-              = link_to 'Cubbi.es', 'http://cubbi.es'
-              is our first (of many) applications for Diaspora*.  It also is the best way to collect photos around the web. 
-              In fact, Diaspora* users tell us that Cubbi.es is the best way to save photos around the web.
-      .span8
-        %br
-        %br
-        = image_tag 'cubbies_collage2.jpg'
 
   %section#benifits
     .page-header
