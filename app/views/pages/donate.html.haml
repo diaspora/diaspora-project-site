@@ -1,6 +1,18 @@
 = content_for :head do
   :javascript
-    //$('.tabs').tabs();
+    $(document).ready(function(){
+      $('input[type=submit]').click(function(evt){
+
+        var amount = $('input[name=amount]'),
+          value = parseFloat(amount.val().replace(/[^0-9\.]+/g, ''));
+
+        if(value < 1){
+          evt.preventDefault();
+          alert("Please help us out and donate at least $1 to offset payment fees. Thank you for supporting Diaspora*");
+          amount.val('$5.00');
+        }
+      });
+    });
     /* <![CDATA[ */
         (function() {
             var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
@@ -59,7 +71,7 @@
                         <input type="hidden" name="business" value="donations@joindiaspora.com">
                         <input type="hidden" name="item_name" value="Contribution To Diaspora">
                         <input type="hidden" name="currency_code" value="USD">
-                        <input type="input" class='xlarge span2'name="amount" value="25.00">
+                        <input type="input" class='xlarge span2'name="amount" value="$25.00">
                     </div>
                     </div>
                   </fieldset>
