@@ -39,15 +39,30 @@
 
     .row
       .span8
-        %h2
-          Why your donation matters
-        %p
-          We’re building the future we want to see -- a new social web that keeps you in control of your data, giving you the freedom to do what you want and have fun.
-          We’re a tiny core team of developers working our tails off, and we’re also a huge community effort, with more than 150 people having contributed code to our open-source software, hundreds of others engaged in community organizing and spreading the word, and thousands of people providing feedback and financial support.
-          %strong
-            We can’t do this without you.  
-          Please give what you can.  Thank you.
-
+        .row
+          .span8
+            %h2
+              Why your donation matters
+            %p
+              We’re building the future we want to see -- a new social web that keeps you in control of your data, giving you the freedom to do what you want and have fun.
+            %p
+              We’re a tiny core team of developers working our tails off, and we’re also a huge community effort, with more than 150 people having contributed code to our open-source software, hundreds of others engaged in community organizing and spreading the word, and thousands of people providing feedback and financial support.
+        .row
+          .span8
+            %h2
+              How we use your money 
+            %p
+              Here's 
+              = link_to 'a statement', 'http://dl.dropbox.com/u/345057/DIASPORA%207312011%20Profit%20and%20Loss%20Statement%20B.pdf'
+              showing how we spent the first $200k we raised via Kickstarter -- 
+              And here's a 
+              = link_to 'great analysis of it from ReadWriteWeb.', 'http://www.readwriteweb.com/cloud/2011/10/the-state-of-diaspora-and-fund.php'
+        .row
+          .span8
+            %h2
+              We can’t do this without you
+            %p
+              Please give what you can.  Thank you.
       .span8
         %ul{:class=> 'tabs', :data => {:tabs => 'tabs'}}
           %li{:class => 'active'}
