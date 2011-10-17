@@ -6,7 +6,7 @@ Diasporaproject::Application.routes.draw do
   match 'donate_from_email' => 'pages#donate', :as => 'donate_from_email'
   match 'supporters' => 'pages#supporters', :as => 'supporters'
   match 'about' => 'pages#about', :as => 'about'
-
+  match 'why_diaspora' => 'pages#why_diaspora', :as => 'why_diaspora'
 
   root :to => "pages#index"
 end
