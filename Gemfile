@@ -1,4 +1,4 @@
-source 'http://rubygems.org' 
+source 'http://rubygems.org'
 gem 'rails', '3.0.9'
 
 gem 'rake', '0.8.7'
@@ -11,6 +11,7 @@ gem 'haml-rails'
 
 gem 'redcarpet'
 gem 'albino'
+gem 'stripe'
 
 group :development, :test do
   gem 'sqlite3'
