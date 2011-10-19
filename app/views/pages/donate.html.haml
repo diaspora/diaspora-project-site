@@ -56,12 +56,6 @@
 .container
   %section#donations-pane
     .row
-      .span16
-        .alert-message.block-message.error
-          %p
-            Hi folks -- We're sorry to say that PayPal has frozen our account, so we're currently unable to process contributions by credit card. We're working as fast as we can to resolve this, and will have an alternative up ASAP.  In the meantime, if you are able to contribute via Flattr, please do. PayPal is notorious for arbitrary blocking of legitimate donations.  We'll get this sorted out as quickly as we can.
-
-    .row
       .span8
         .row
           .span8
@@ -110,6 +104,7 @@
                     </div>
 
                     <div class='clearfix'>
+                      <label for='amount'>Amount</label>
                       <div class='input'>
                         <input type="hidden" name="cmd" value="_xclick">
                         <input type="hidden" name="business" value="donations@joindiaspora.com">
@@ -128,33 +123,15 @@
                       <label for='exp_month'>Expiration (MM/YYYY)</label>
                       <div class="input">
                         <select class='card-expiry-month' style="width:50px">
-                          <option value="1">1</option>
-                          <option value="2">2</option>
-                          <option value="3">3</option>
-                          <option value="4">4</option>
-                          <option value="5">5</option>
-                          <option value="6">6</option>
-                          <option value="7">7</option>
-                          <option value="8">8</option>
-                          <option value="9">9</option>
-                          <option value="10">10</option>
-                          <option value="11">11</option>
-                          <option value="12">12</option>
+                          <% (1..12).each do |n| %>
+                            <option value= <%= n %> ><%= n %></option>
+                          <% end %>
                         </select>
 
                         <select class='card-expiry-year' style="width:70px">
-                          <option value="2011">2011</option>
-                          <option value="2012">2012</option>
-                          <option value="2013">2013</option>
-                          <option value="2014">2014</option>
-                          <option value="2015">2015</option>
-                          <option value="2016">2016</option>
-                          <option value="2017">2017</option>
-                          <option value="2018">2018</option>
-                          <option value="2019">2019</option>
-                          <option value="2020">2020</option>
-                          <option value="2021">2021</option>
-                          <option value="2022">2022</option>
+                          <% (2011..2022).each do |n| %>
+                          <option value= <%= n %> > <%= n %></option>
+                          <% end %>
                         </select>
                       </div>
 
@@ -169,31 +146,8 @@
                 </form>
 
           #monthly.span8
-            :erb
-              <form action="https://www.paypal.com/cgi-bin/webscr" class='form-stacked' method="post">
-              <fieldset>
-                <legend>
-                  Monthly Subscription
-                </legend>
-                  <input type="hidden" name="cmd" value="_s-xclick">
-                  <input type="hidden" name="hosted_button_id" value="N24UFDL4RJJF4">
-                  <input type="hidden" name="on0" value="">
-                  <div class='clearfix'>
-                    <div class='input'>
-                      <select name="os0">
-                        <option value="Supporter">Supporter : $5.00USD</option>
-                        <option value="Member">Member : $10.00USD</option>
-                        <option value="Freedom Fighter">Freedom Fighter : $20.00USD</option>
-                      </select>
-                    </div>
-                    </div>
-                  <input type="hidden" name="currency_code" value="USD">
-                </fieldset>
-
-                <div class='actions'>
-                  <input type="submit" class="btn success" value="Donate">
-                </div>
-              </form>
+            %h6
+              Temporarily unavailable.
 
           #flattr.span8
             %form{:class => 'form-stacked'}
@@ -203,5 +157,5 @@
               :erb
                 <a class="FlattrButton" style="display:none;" href="https://flattr.com/profile/Diaspora"></a>
                 <noscript><a href="http://flattr.com/thing/382291/Diaspora-on-Flattr" target="_blank">
-                <img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></noscript>
+                <img src="https://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></noscript>
 
