@@ -5,3 +5,5 @@ log/*.log
 tmp/
 *.swp
 *.DS_Store
+config/stripe.yml
+

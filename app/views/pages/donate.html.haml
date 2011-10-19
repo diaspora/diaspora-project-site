@@ -1,6 +1,49 @@
 = content_for :head do
+  = javascript_include_tag "https://js.stripe.com/v1/"
   :javascript
-    //$('.tabs').tabs();
+    Stripe.setPublishableKey('#{STRIPE_PUBLISHABLE_KEY}');
+
+    $(document).ready(function() {
+      $(".payment-form").submit(function(event) {
+        $('.payment-form .btn').attr("disabled", "disabled")
+                               .val("Processing..."); // prevent repeated clicks
+
+        $('.payment-form .alert-message').hide();
+
+        var amount = $('input[name=amount]').val().replace(/[^0-9\.]+/g,"")*100
+
+        Stripe.createToken({
+            number: $('.card-number').val(),
+            cvc: $('.card-cvc').val(),
+            exp_month: $('.card-expiry-month').val(),
+            exp_year: $('.card-expiry-year').val()
+        }, amount, stripeResponseHandler);
+
+        return false; // prevent the form from submitting
+      });
+    });
+
+    function stripeResponseHandler(status, response) {
+      if (response.error) {
+        $('.payment-form .alert-message p').html(response.error.message);
+        $('.payment-form .alert-message').show();
+        $('.payment-form .btn').removeAttr('disabled')
+                               .val("Donate");
+
+      } else {
+        $('.payment-form').append("<input type='hidden' name='stripeToken' value='" + response['id'] + "'/>");
+
+        $('.new_donor').append("<input type='hidden' name='donor[stripeToken]' value='" + response['id'] + "'/>");
+        $('.new_donor').append("<input type='hidden' name='donor[amount]' value='" + response['amount'] + "'/>");
+
+        $('#donations-pane').fadeOut(function(){
+          $('#user-pane').fadeIn();
+        });
+
+        //$('.payment-form').get(0).submit();
+      }
+    }
+
     /* <![CDATA[ */
         (function() {
             var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
@@ -22,20 +65,76 @@
       %div{:style => "text-align:center;"}
         = image_tag 'money.png', :height => 132, :width => 147
 
-.container
-  %section#donations-pane
+.container{:style => "min-height:460px;"}
+
+  / flash messages
+  - if flash.any?
+    %section
+      .row
+        .span12.offset2
+          - if flash[:notice]
+            .alert-message.success
+              = flash[:notice]
+
+          - elsif flash[:error]
+            .alert-message.error
+              = flash[:error]
+
+  %section#user-pane.hidden
+    .page-header
+      %h1
+        Thanks for your donation to Diaspora*
+        %small
+          Can we send you an invite?
 
     .row
-      .span8
-        %h2
-          Why your donation matters
-        %p
-          We’re building the future we want to see -- a new social web that keeps you in control of your data, giving you the freedom to do what you want and have fun.
-          We’re a tiny core team of developers working our tails off, and we’re also a huge community effort, with more than 150 people having contributed code to our open-source software, hundreds of others engaged in community organizing and spreading the word, and thousands of people providing feedback and financial support.
-          %strong
-            We can’t do this without you.  
-          Please give what you can.  Thank you.
+      .span16
+        = form_for Donor.new, :html => {:autocomplete => "off"} do |donor|
+          %fieldset
+            %legend
+              If you give us your email, we can send you one.
 
+            .clearfix
+              = donor.label :name
+              .input
+                = donor.text_field :name, :class => "xlarge"
+
+            .clearfix
+              = donor.label :email
+              .input
+                = donor.email_field :email, :class => "xlarge"
+
+          .actions
+            = donor.submit "Send me an invite!", :class => 'btn primary'
+
+
+  %section#donations-pane
+    .row
+      .span8
+        .row
+          .span8
+            %h2
+              Why your donation matters
+            %p
+              We’re building the future we want to see -- a new social web that keeps you in control of your data, giving you the freedom to do what you want and have fun.
+            %p
+              We’re a tiny core team of developers working our tails off, and we’re also a huge community effort, with more than 150 people having contributed code to our open-source software, hundreds of others engaged in community organizing and spreading the word, and thousands of people providing feedback and financial support.
+        .row
+          .span8
+            %h2
+              How we use your money
+            %p
+              Here's
+              = link_to 'a statement', 'http://dl.dropbox.com/u/345057/DIASPORA%207312011%20Profit%20and%20Loss%20Statement%20B.pdf'
+              showing how we spent the first $200k we raised via Kickstarter --
+              And here's a
+              = link_to 'great analysis of it from ReadWriteWeb.', 'http://www.readwriteweb.com/cloud/2011/10/the-state-of-diaspora-and-fund.php'
+        .row
+          .span8
+            %h2
+              We can’t do this without you
+            %p
+              Please give what you can.  Thank you.
       .span8
         %ul{:class=> 'tabs', :data => {:tabs => 'tabs'}}
           %li{:class => 'active'}
@@ -48,54 +147,65 @@
         #donations.tab-content.row
           #one_time.active.span8
             :erb
-                <form name="_xclick" action="https://www.paypal.com/cgi-bin/webscr" class='form-stacked' method="post">
+                <form name="_xclick" action="/donate" class='payment-form' method="post">
                   <fieldset>
                     <legend>
                       One Time Donation
                     </legend>
+
+                    <div class="alert-message error" style="display:none;">
+                      <p></p>
+                    </div>
+
                     <div class='clearfix'>
+                      <label for='amount'>Amount</label>
                       <div class='input'>
                         <input type="hidden" name="cmd" value="_xclick">
                         <input type="hidden" name="business" value="donations@joindiaspora.com">
                         <input type="hidden" name="item_name" value="Contribution To Diaspora">
                         <input type="hidden" name="currency_code" value="USD">
-                        <input type="input" class='xlarge span2'name="amount" value="25.00">
+                        <input type="input" class='xlarge span2' name="amount" value="<%=donation_prefill%>">
+                      </div>
                     </div>
+
+                    <div class='clearfix'>
+                      <label for='number'>Card number</label>
+                      <div class="input"><input type="text" class='card-number large' /></div>
                     </div>
+
+                    <div class='clearfix'>
+                      <label for='exp_month'>Expiration (MM/YYYY)</label>
+                      <div class="input">
+                        <select class='card-expiry-month' style="width:50px">
+                          <% (1..12).each do |n| %>
+                            <option value= <%= n %> ><%= n %></option>
+                          <% end %>
+                        </select>
+
+                        <select class='card-expiry-year' style="width:70px">
+                          <% (2011..2022).each do |n| %>
+                          <option value= <%= n %> > <%= n %></option>
+                          <% end %>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class='clearfix'>
+                      <label for='cvc'>Card verification code</label>
+                      <div class="input"><input type="text" class='card-cvc' style="width:50px" /></div>
+                    </div>
+
                   </fieldset>
                   <div class='actions'>
                     <input type="submit" class="btn success" value="Donate">
                   </div>
                 </form>
 
-          #monthly.span8
-            :erb
-              <form action="https://www.paypal.com/cgi-bin/webscr" class='form-stacked' method="post">
-              <fieldset>
-                <legend>
-                  Monthly Subscription
-                </legend>
-                  <input type="hidden" name="cmd" value="_s-xclick">
-                  <input type="hidden" name="hosted_button_id" value="N24UFDL4RJJF4">
-                  <input type="hidden" name="on0" value="">
-                  <div class='clearfix'>
-                    <div class='input'>
-                      <select name="os0">
-                        <option value="Supporter">Supporter : $5.00USD</option>
-                        <option value="Member">Member : $10.00USD</option>
-                        <option value="Freedom Fighter">Freedom Fighter : $20.00USD</option>
-                      </select>
-                    </div>
-                    </div>
-                  <input type="hidden" name="currency_code" value="USD">
-                </fieldset>
+          #monthly.span8{:style => "text-align:center;"}
+            %h6
+              Temporarily unavailable.
 
-                <div class='actions'>
-                  <input type="submit" class="btn success" value="Donate">
-                </div>
-              </form>
-
-          #flattr.span8
+          #flattr.span8{:style => "text-align:center;"}
             %form{:class => 'form-stacked'}
               %fieldset
                 %legend
@@ -103,5 +213,5 @@
               :erb
                 <a class="FlattrButton" style="display:none;" href="https://flattr.com/profile/Diaspora"></a>
                 <noscript><a href="http://flattr.com/thing/382291/Diaspora-on-Flattr" target="_blank">
-                <img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></noscript>
+                <img src="https://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></noscript>
 

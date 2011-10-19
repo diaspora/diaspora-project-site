@@ -1,6 +1,7 @@
 require File.join(Rails.root, 'lib/backers')
+
 class PagesController < ApplicationController
-  
+
   respond_to :html
 
   rescue_from ActionView::MissingTemplate, :with => :page_not_found
@@ -12,7 +13,21 @@ class PagesController < ApplicationController
     @contributors = Contributor.all.group_by(&:kind)
   end
 
-  def donate ; end
+  def donate
+    unless request.url.match(/^https:\/\/diaspora-project-site.heroku.com\/donate/i)
+      redirect_to "https://diaspora-project-site.heroku.com/donate"
+    end
+  end
+
+  def process_donation
+    Stripe::Charge.create(
+        :amount => params[:amount],
+        :card => params[:stripeToken],
+        :currency => 'usd',
+        :description => nil
+    )
+  end
+
   def supporters ; end
   def why_diaspora ; end
 
