@@ -32,15 +32,7 @@
 
       } else {
         $('.payment-form').append("<input type='hidden' name='stripeToken' value='" + response['id'] + "'/>");
-
-        $('.new_donor').append("<input type='hidden' name='donor[stripeToken]' value='" + response['id'] + "'/>");
-        $('.new_donor').append("<input type='hidden' name='donor[amount]' value='" + response['amount'] + "'/>");
-
-        $('#donations-pane').fadeOut(function(){
-          $('#user-pane').fadeIn();
-        });
-
-        //$('.payment-form').get(0).submit();
+        $('.payment-form').get(0).submit();
       }
     }
 
@@ -79,33 +71,6 @@
           - elsif flash[:error]
             .alert-message.error
               = flash[:error]
-
-  %section#user-pane.hidden
-    .page-header
-      %h1
-        Thanks for your donation to Diaspora*
-        %small
-          Can we send you an invite?
-
-    .row
-      .span16
-        = form_for Donor.new, :html => {:autocomplete => "off"} do |donor|
-          %fieldset
-            %legend
-              If you give us your email, we can send you one.
-
-            .clearfix
-              = donor.label :name
-              .input
-                = donor.text_field :name, :class => "xlarge"
-
-            .clearfix
-              = donor.label :email
-              .input
-                = donor.email_field :email, :class => "xlarge"
-
-          .actions
-            = donor.submit "Send me an invite!", :class => 'btn primary'
 
 
   %section#donations-pane
@@ -147,7 +112,7 @@
         #donations.tab-content.row
           #one_time.active.span8
             :erb
-                <form name="_xclick" action="/donate" class='payment-form' method="post">
+                <form name="_xclick" action="/donate" class='payment-form' method="post" data-remote=true>
                   <fieldset>
                     <legend>
                       One Time Donation
