@@ -5,7 +5,9 @@
 
     $(document).ready(function() {
       $(".payment-form").submit(function(event) {
-        $('.payment-form .btn').attr("disabled", "disabled"); // prevent repeated clicks
+        $('.payment-form .btn').attr("disabled", "disabled")
+                               .val("Processing..."); // prevent repeated clicks
+
         $('.payment-form .alert-message').hide();
 
         var amount = $('input[name=amount]').val().replace(/[^0-9\.]+/g,"")*100
@@ -25,10 +27,20 @@
       if (response.error) {
         $('.payment-form .alert-message p').html(response.error.message);
         $('.payment-form .alert-message').show();
-        $('.payment-form .btn').removeAttr('disabled');
+        $('.payment-form .btn').removeAttr('disabled')
+                               .val("Donate");
+
       } else {
         $('.payment-form').append("<input type='hidden' name='stripeToken' value='" + response['id'] + "'/>");
-        $('.payment-form').get(0).submit();
+
+        $('.new_donor').append("<input type='hidden' name='donor[stripeToken]' value='" + response['id'] + "'/>");
+        $('.new_donor').append("<input type='hidden' name='donor[amount]' value='" + response['amount'] + "'/>");
+
+        $('#donations-pane').fadeOut(function(){
+          $('#user-pane').fadeIn();
+        });
+
+        //$('.payment-form').get(0).submit();
       }
     }
 
@@ -53,7 +65,49 @@
       %div{:style => "text-align:center;"}
         = image_tag 'money.png', :height => 132, :width => 147
 
-.container
+.container{:style => "min-height:460px;"}
+
+  / flash messages
+  - if flash.any?
+    %section
+      .row
+        .span12.offset2
+          - if flash[:notice]
+            .alert-message.success
+              = flash[:notice]
+
+          - elsif flash[:error]
+            .alert-message.error
+              = flash[:error]
+
+  %section#user-pane.hidden
+    .page-header
+      %h1
+        Thanks for your donation to Diaspora*
+        %small
+          Can we send you an invite?
+
+    .row
+      .span16
+        = form_for Donor.new, :html => {:autocomplete => "off"} do |donor|
+          %fieldset
+            %legend
+              If you give us your email, we can send you one.
+
+            .clearfix
+              = donor.label :name
+              .input
+                = donor.text_field :name, :class => "xlarge"
+
+            .clearfix
+              = donor.label :email
+              .input
+                = donor.email_field :email, :class => "xlarge"
+
+          .actions
+            = donor.submit "Send me an invite!", :class => 'btn primary'
+
+
   %section#donations-pane
     .row
       .span8
@@ -93,7 +147,7 @@
         #donations.tab-content.row
           #one_time.active.span8
             :erb
-                <form name="_xclick" action="/donate" class='payment-form form-stacked' method="post">
+                <form name="_xclick" action="/donate" class='payment-form' method="post">
                   <fieldset>
                     <legend>
                       One Time Donation
@@ -134,22 +188,24 @@
                           <% end %>
                         </select>
                       </div>
+                    </div>
 
-                      <div class='clearfix'>
-                        <label for='cvc'>Card verification code</label>
-                        <div class="input"><input type="text" class='card-cvc' style="width:50px" /></div>
-                      </div>
+                    <div class='clearfix'>
+                      <label for='cvc'>Card verification code</label>
+                      <div class="input"><input type="text" class='card-cvc' style="width:50px" /></div>
+                    </div>
+
                   </fieldset>
                   <div class='actions'>
                     <input type="submit" class="btn success" value="Donate">
                   </div>
                 </form>
 
-          #monthly.span8
+          #monthly.span8{:style => "text-align:center;"}
             %h6
               Temporarily unavailable.
 
-          #flattr.span8
+          #flattr.span8{:style => "text-align:center;"}
             %form{:class => 'form-stacked'}
               %fieldset
                 %legend
