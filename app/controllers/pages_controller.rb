@@ -14,13 +14,12 @@ class PagesController < ApplicationController
   end
 
   def donate
-    unless request.url.match(/^https:\/\/diaspora-project-site.heroku.com\/donate/i)
-      #redirect_to "https://diaspora-project-site.heroku.com/donate"
+    unless request.url.match(/^https:\/\/diasporafoundation.org\/donate/i)
+      redirect_to "https://diasporafoundation.org/donate"
     end
   end
 
   def process_donation
-    puts params.inspect
     @donor = Donor.create_with_payment(params)
   end
 
