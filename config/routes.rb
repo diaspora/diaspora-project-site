@@ -1,6 +1,6 @@
 Diasporaproject::Application.routes.draw do
   resources :contributors
-  resources :donors, :only => :create
+  resources :donors, :only => :update
 
   match 'get_involved' => 'pages#get_involved', :as => 'get_involved'
   match 'donate' => 'pages#donate', :as => 'donate', :via => :get

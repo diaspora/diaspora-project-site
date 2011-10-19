@@ -14,18 +14,13 @@ class PagesController < ApplicationController
   end
 
   def donate
-    unless request.url.match(/^https:\/\/diaspora-project-site.heroku.com\/donate/i)
-      redirect_to "https://diaspora-project-site.heroku.com/donate"
+    unless request.url.match(/^https:\/\/www.diasporafoundation.org\/donate/i)
+      redirect_to "https://www.diasporafoundation.org/donate"
     end
   end
 
   def process_donation
-    Stripe::Charge.create(
-        :amount => params[:amount],
-        :card => params[:stripeToken],
-        :currency => 'usd',
-        :description => nil
-    )
+    @donor = Donor.create_with_payment(params)
   end
 
   def supporters ; end

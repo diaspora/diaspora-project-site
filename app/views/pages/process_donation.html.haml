@@ -2,30 +2,39 @@
   .container
     .row
       %h1
-        Thank you!
+        Share the love.
       %p.lead
-        Your payment of
-        %b
-          = params[:amount]
-        has been accepted.
+        Three Easy Ways to Donate
+
+      %div{:style => "text-align:center;"}
+        = image_tag 'money.png', :height => 132, :width => 147
 
 .container
-  %section#thanks-for-donating
+  %section#user-pane
     .page-header
       %h1
-        If you give us your name and email, we can give you an invite.
+        Thanks for your donation to Diaspora*
+        %small
+          Can we send you an invite?
 
     .row
       .span16
-        = form_for Donor.new do |donor|
+        = form_for @donor, :html => {:autocomplete => "off"} do |donor|
           %fieldset
+            %legend
+              If you give us your email, we can send you one.
+
+            = donor.hidden_field :stripe_token
+
             .clearfix
               = donor.label :name
-              = donor.text_field :name
+              .input
+                = donor.text_field :name, :class => "xlarge"
 
             .clearfix
               = donor.label :email
-              = donor.email_field :email
+              .input
+                = donor.email_field :email, :class => "xlarge"
 
           .actions
-            = donor.submit "Done!", :class => 'success'
+            = donor.submit "Send me an invite!", :class => 'btn primary'
