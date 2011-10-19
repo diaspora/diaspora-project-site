@@ -1,18 +1,37 @@
 = content_for :head do
+  = javascript_include_tag "https://js.stripe.com/v1/"
   :javascript
-    $(document).ready(function(){
-      $('input[type=submit]').click(function(evt){
+    Stripe.setPublishableKey('#{STRIPE_PUBLISHABLE_KEY}');
 
-        var amount = $('input[name=amount]'),
-          value = parseFloat(amount.val().replace(/[^0-9\.]+/g, ''));
+    $(document).ready(function() {
+      $(".payment-form").submit(function(event) {
+        $('.payment-form .btn').attr("disabled", "disabled"); // prevent repeated clicks
+        $('.payment-form .alert-message').hide();
 
-        if(value < 1){
-          evt.preventDefault();
-          alert("Please help us out and donate at least $1 to offset payment fees. Thank you for supporting Diaspora*");
-          amount.val('$5.00');
-        }
+        var amount = $('input[name=amount]').val().replace(/[^0-9\.]+/g,"")*100
+
+        Stripe.createToken({
+            number: $('.card-number').val(),
+            cvc: $('.card-cvc').val(),
+            exp_month: $('.card-expiry-month').val(),
+            exp_year: $('.card-expiry-year').val()
+        }, amount, stripeResponseHandler);
+
+        return false; // prevent the form from submitting
       });
     });
+
+    function stripeResponseHandler(status, response) {
+      if (response.error) {
+        $('.payment-form .alert-message p').html(response.error.message);
+        $('.payment-form .alert-message').show();
+        $('.payment-form .btn').removeAttr('disabled');
+      } else {
+        $('.payment-form').append("<input type='hidden' name='stripeToken' value='" + response['id'] + "'/>");
+        $('.payment-form').get(0).submit();
+      }
+    }
+
     /* <![CDATA[ */
         (function() {
             var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
@@ -55,12 +74,12 @@
         .row
           .span8
             %h2
-              How we use your money 
+              How we use your money
             %p
-              Here's 
+              Here's
               = link_to 'a statement', 'http://dl.dropbox.com/u/345057/DIASPORA%207312011%20Profit%20and%20Loss%20Statement%20B.pdf'
-              showing how we spent the first $200k we raised via Kickstarter -- 
-              And here's a 
+              showing how we spent the first $200k we raised via Kickstarter --
+              And here's a
               = link_to 'great analysis of it from ReadWriteWeb.', 'http://www.readwriteweb.com/cloud/2011/10/the-state-of-diaspora-and-fund.php'
         .row
           .span8
@@ -80,20 +99,69 @@
         #donations.tab-content.row
           #one_time.active.span8
             :erb
-                <form name="_xclick" action="https://www.paypal.com/cgi-bin/webscr" class='form-stacked' method="post">
+                <form name="_xclick" action="/donate" class='payment-form form-stacked' method="post">
                   <fieldset>
                     <legend>
                       One Time Donation
                     </legend>
+
+                    <div class="alert-message error" style="display:none;">
+                      <p></p>
+                    </div>
+
                     <div class='clearfix'>
                       <div class='input'>
                         <input type="hidden" name="cmd" value="_xclick">
                         <input type="hidden" name="business" value="donations@joindiaspora.com">
                         <input type="hidden" name="item_name" value="Contribution To Diaspora">
                         <input type="hidden" name="currency_code" value="USD">
-                        <input type="input" class='xlarge span2'name="amount" value="<%=donation_prefill%>">
+                        <input type="input" class='xlarge span2' name="amount" value="<%=donation_prefill%>">
+                      </div>
                     </div>
+
+                    <div class='clearfix'>
+                      <label for='number'>Card number</label>
+                      <div class="input"><input type="text" class='card-number large' /></div>
                     </div>
+
+                    <div class='clearfix'>
+                      <label for='exp_month'>Expiration (MM/YYYY)</label>
+                      <div class="input">
+                        <select class='card-expiry-month' style="width:50px">
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          <option value="6">6</option>
+                          <option value="7">7</option>
+                          <option value="8">8</option>
+                          <option value="9">9</option>
+                          <option value="10">10</option>
+                          <option value="11">11</option>
+                          <option value="12">12</option>
+                        </select>
+
+                        <select class='card-expiry-year' style="width:70px">
+                          <option value="2011">2011</option>
+                          <option value="2012">2012</option>
+                          <option value="2013">2013</option>
+                          <option value="2014">2014</option>
+                          <option value="2015">2015</option>
+                          <option value="2016">2016</option>
+                          <option value="2017">2017</option>
+                          <option value="2018">2018</option>
+                          <option value="2019">2019</option>
+                          <option value="2020">2020</option>
+                          <option value="2021">2021</option>
+                          <option value="2022">2022</option>
+                        </select>
+                      </div>
+
+                      <div class='clearfix'>
+                        <label for='cvc'>Card verification code</label>
+                        <div class="input"><input type="text" class='card-cvc' style="width:50px" /></div>
+                      </div>
                   </fieldset>
                   <div class='actions'>
                     <input type="submit" class="btn success" value="Donate">
