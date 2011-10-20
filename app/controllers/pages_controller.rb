@@ -15,7 +15,7 @@ class PagesController < ApplicationController
 
   def donate
     unless request.url.match(/^https:\/\/www.diasporafoundation.org\/donate/i)
-      redirect_to "https://www.diasporafoundation.org/donate"
+      #redirect_to "https://www.diasporafoundation.org/donate"
     end
   end
 
@@ -30,5 +30,4 @@ class PagesController < ApplicationController
   def page_not_found
     render :text => "page not found!"
   end
-
 end
