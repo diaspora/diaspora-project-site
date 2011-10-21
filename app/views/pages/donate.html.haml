@@ -117,7 +117,7 @@
                 <form name="_xclick" action="/donate" class='payment-form' method="post" data-remote=true>
                   <fieldset>
                     <legend>
-                      One Time Donation
+                      One Time Donation via Stripe
                     </legend>
 
                     <div class="alert-message error" style="display:none;">
@@ -168,12 +168,31 @@
                   </div>
                 </form>
 
+
+                <div class='clearfix'>
+                  <h6>or, alternatively</h6>
+                  <form name="_xclick" action="https://www.paypal.com/cgi-bin/webscr" class='form-stacked' method="post">
+                    <fieldset>
+                      <div class='clearfix'>
+                        <div class='input'>
+                          <input type="hidden" name="cmd" value="_xclick">
+                          <input type="hidden" name="business" value="donations@joindiaspora.com">
+                          <input type="hidden" name="item_name" value="Contribution To Diaspora">
+                          <input type="hidden" name="currency_code" value="USD">
+                      </div>
+                      </div>
+                    </fieldset>
+                    <input type="submit" class="btn" value="Donate via PayPal">
+                  </form>
+                </div>
+
+
           #monthly.span8{:style => "text-align:center;", :class => active_for_monthly?}
             :erb
               <form action="https://www.paypal.com/cgi-bin/webscr" class='form-stacked' method="post">
               <fieldset>
                 <legend>
-                  Monthly Subscription
+                  Monthly Subscription via PayPal
                 </legend>
                   <input type="hidden" name="cmd" value="_s-xclick">
                   <input type="hidden" name="hosted_button_id" value="N24UFDL4RJJF4">
