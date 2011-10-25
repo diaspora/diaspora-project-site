@@ -30,5 +30,4 @@ class PagesController < ApplicationController
   def page_not_found
     render :text => "page not found!"
   end
-
 end

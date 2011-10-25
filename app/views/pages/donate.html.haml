@@ -41,7 +41,7 @@
             var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
             s.type = 'text/javascript';
             s.async = true;
-            s.src = 'http://api.flattr.com/js/0.6/load.js?mode=auto';
+            s.src = 'https://api.flattr.com/js/0.6/load.js?mode=auto';
             t.parentNode.insertBefore(s, t);
         })();
     /* ]]> */
@@ -102,20 +102,22 @@
               Please give what you can.  Thank you.
       .span8
         %ul{:class=> 'tabs', :data => {:tabs => 'tabs'}}
-          %li{:class => 'active'}
+          %li{:class => active_for_one_time?}
             = link_to 'One Time', '#one_time'
-          %li
+          %li{:class => active_for_monthly?}
             = link_to 'Monthly', '#monthly'
           %li
             = link_to 'Flattr', '#flattr'
+          %li
+            = link_to 'Bitcoin', '#bitcoin'
 
         #donations.tab-content.row
-          #one_time.active.span8
+          #one_time.span8{:class => active_for_one_time?}
             :erb
                 <form name="_xclick" action="/donate" class='payment-form' method="post" data-remote=true>
                   <fieldset>
                     <legend>
-                      One Time Donation
+                      One Time Donation via Stripe
                     </legend>
 
                     <div class="alert-message error" style="display:none;">
@@ -166,9 +168,55 @@
                   </div>
                 </form>
 
-          #monthly.span8{:style => "text-align:center;"}
+
+                <div class='clearfix'>
+                  <h6>or, alternatively</h6>
+                  <form name="_xclick" action="https://www.paypal.com/cgi-bin/webscr" class='form-stacked' method="post">
+                    <fieldset>
+                      <div class='clearfix'>
+                        <div class='input'>
+                          <input type="hidden" name="cmd" value="_xclick">
+                          <input type="hidden" name="business" value="donations@joindiaspora.com">
+                          <input type="hidden" name="item_name" value="Contribution To Diaspora">
+                          <input type="hidden" name="currency_code" value="USD">
+                      </div>
+                      </div>
+                    </fieldset>
+                    <input type="submit" class="btn" value="Donate via PayPal">
+                  </form>
+                </div>
+
+
+          #monthly.span8{:style => "text-align:center;", :class => active_for_monthly?}
+            :erb
+              <form action="https://www.paypal.com/cgi-bin/webscr" class='form-stacked' method="post">
+              <fieldset>
+                <legend>
+                  Monthly Subscription via PayPal
+                </legend>
+                  <input type="hidden" name="cmd" value="_s-xclick">
+                  <input type="hidden" name="hosted_button_id" value="N24UFDL4RJJF4">
+                  <input type="hidden" name="on0" value="">
+                  <div class='clearfix'>
+                    <div class='input'>
+                      <select name="os0">
+                        <option value="Supporter" <%= is_selected?(1) %>>Supporter : $5.00USD</option>
+                        <option value="Member"  <%= is_selected?(2) %>>Member : $10.00USD</option>
+                        <option value="Freedom Fighter"  <%= is_selected?(3) %>>Freedom Fighter : $20.00USD</option>
+                      </select>
+                    </div>
+                    </div>
+                  <input type="hidden" name="currency_code" value="USD">
+                </fieldset>
+
+                <div class='actions'>
+                  <input type="submit" class="btn success" value="Donate">
+                </div>
+              </form>
             %h6
-              Temporarily unavailable.
+              NOTE: The use of paypal temporary until we move our monthly donations to Stripe
+
+
 
           #flattr.span8{:style => "text-align:center;"}
             %form{:class => 'form-stacked'}
@@ -177,6 +225,15 @@
                   Flattr
               :erb
                 <a class="FlattrButton" style="display:none;" href="https://flattr.com/profile/Diaspora"></a>
-                <noscript><a href="http://flattr.com/thing/382291/Diaspora-on-Flattr" target="_blank">
+                <noscript><a href="https://flattr.com/thing/382291/Diaspora-on-Flattr" target="_blank">
                 <img src="https://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></noscript>
+
+          #bitcoin.span8{:style => "text-align:center;"}
+            %form{:class => 'form-stacked'}
+              %fieldset
+                %legend
+                  Bitcoin 
+            If you clicked this tab, you know what to do.
+            %code
+              1H63WEQbK45K3xgC7DRfphMWMJMZHrX542
 
