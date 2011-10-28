@@ -1,94 +1,20 @@
-- content_for :head do
-  = javascript_include_tag 'carousel'
-  :javascript
-    $(document).ready(function(){
-      $('#carousel').bxSlider({
-        auto:true,
-        infiniteLoop:true,
-        randomStart:true,
-        pager:true,
-        pagerSelector: "#carousel-pagers",
-        pagerActiveClass: "active",
-        controls:false,
-        autoDirection:'prev',
-        autoHover:true,
-        mode:'vertical',
-        autoDelay:10000, pause:10000,
-
-        onAfterSlide: function(currentSlideNumber, totalSlideQty, currentSlideHtmlObject){
-          var html = currentSlideHtmlObject.find('.info-text').html();
-          $('#overlay_container').html(html).removeClass('zero-opacity');
-        },
-
-        onBeforeSlide: function(currentSlideNumber, totalSlideQty, currentSlideHtmlObject){
-          $('#overlay_container').addClass('zero-opacity');
-        }
-      });
-
-      $(window).bind('resize', function(){
-        var carouselWidth = $("#carousel").offset().left,
-          windowWidth = $(window).width(),
-          offset = windowWidth - carouselWidth;
-
-        $("#backing-rectangle").css("right", offset - 869);
-        $("#triangle-top").css("right", offset - 918);
-        $("#triangle-bottom").css("right", offset - 943);
-        $("#triangle-fill").css("right", offset - 918);
-
-        $(".rectangle_overlay").first().css("right", offset - 918);
-      }).resize();
-    })
-
 #masthead.hero
-  #carousel-pagers
-  #backing-rectangle.accel
-  #triangle-top
-  .rectangle_overlay
-    #overlay_container
-  
+
   .container
-    .row
+    .hero-unit
       %h1
-        Lorem ipsum
-      %p.lead
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Diaspora*
 
-    .row
-      #carousel
-        #carousel-featured-users
-          =image_tag 'featured-users.png', :class => 'featured-users'
-          .info-text.hidden
-            %h2
-              Creative Community
-            %h4
-              Meet people from all over the world who love the internet as much as you do.
-            %h4.call_to_action
-              = link_to 'Learn More >', '#features'
 
-        #carousel-control
-          = image_tag 'distributed.png', :class => 'distributed'
-          .info-text.hidden
-            %h2
-              Own your data
-            %h4
-              Connecting socially is human nature.  You shouldn't have to trade away your personal information to participate.
-            %h4.call_to_action
-              = link_to 'Own your Data with Diaspora* >', '#benefits'
 
-        #carousel-best-of-web
-          = image_tag 'cubbies-screenshot.png', :class => "cubbies-screenshot"
-          .info-text.hidden
-            %h2
-              Best of the Web
-            %h4
-              Applications that enable you to discover & share cool stuff throughout the web.
-              Cubbi.es is our first.
-            %h4.call_to_action
-              = link_to 'Explore Apps >', '#apps'
 
-    .row
-      .center
-        = link_to "Join Diaspora*", pods_path, :class => 'btn primary large'
+      = image_tag('billboard.png')
+      .clearfix
+        %br
+        %br
+          .inset
+            = link_to "Join Diaspora*", pods_path, :class => 'btn primary large'
+
 
 .container
   .inset

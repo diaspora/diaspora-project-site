@@ -62,10 +62,6 @@ body {
   margin-top: 70px;
 }
 
-#collage-container {
-  text-align:center;
-}
-
 #header_logo{
   color: #000;
   text-decoration: none;
@@ -199,6 +195,36 @@ footer {
 #masthead p.lead {
   font-size: 20px;
   line-height: 27px;
+}
+
+#billboard {
+  font-size: 54px;
+  text-align: justify;
+  color:#bfbfbf;
+}
+
+.highlight-blue {
+  color:#1fa2db;
+}
+
+.highlight-purple {
+  color:#993bf5;
+}
+
+.highlight-green {
+  color:#87db56;
+}
+
+.highlight-yellow {
+  color:#f5c348;
+}
+
+.highlight-red {
+  color:#f5473b;
+}
+
+#collage-container {
+  text-align:center;
 }
 
 .potential_supporter {

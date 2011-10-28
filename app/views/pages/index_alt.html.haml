@@ -2,12 +2,21 @@
 
   .container
     .hero-unit
-      = image_tag('billboard.png')
-      .clearfix
-        %br
-        %br
-          .inset
-            = link_to "Join Diaspora*", pods_path, :class => 'btn primary large'
+      %h1
+        #billboard
+          %span.highlight-blue Diaspora*
+          is a social network where your 
+          %span.highlight-purple friends,
+          %span.highlight-green habits,
+          and 
+          %span.highlight-yellow content
+          are your business, not ours!
+          %span.highlight-red Share the love.
+
+        
+          %br
+            .inset
+              = link_to "Sign Up", pods_path, :class => 'btn primary large'
 
 
 .container
