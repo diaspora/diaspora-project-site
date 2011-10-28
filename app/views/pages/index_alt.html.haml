@@ -2,13 +2,12 @@
 
   .container
     .hero-unit
-      %h1
-        Diaspora*
-      %p.lead
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      %br
-      %p
-        = link_to "Join Diaspora*", pods_path, :class => 'btn primary large'
+      = image_tag('billboard.png')
+      .clearfix
+        %br
+        %br
+          .inset
+            = link_to "Join Diaspora*", pods_path, :class => 'btn primary large'
 
 
 .container
