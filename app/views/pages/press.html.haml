@@ -1,21 +1,39 @@
 #masthead.hero
+  
   .container
-    .row
-      %h1
-        Lorem ipsum
-      %p.lead
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    %section#body-content
+      .center
+        = image_tag('diaspora_logo_transparent.png')
 
 .container
   %section#body-content
-    .row
-      
-      .center
-        = image_tag('atpm.png')
+    .center
+      = image_tag('earthD*.png')
+  %br
 
 .container
   .inset
     = image_tag 'asterisk-inset.png'
+  %br
+  %br
+
+  %section#features
+    .page-header
+      %h1
+        Comparing Diaspora
+
+  .container
+    .row
+      .span11
+        .hero-unit
+          %table
+            %thread
+              %th Privacy Related
+              %th Diaspora
+              %th Google Plus
+              %th Facebook  
+      .span5
+        .hero-unit
 
   %section#features
     .page-header
