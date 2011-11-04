@@ -180,13 +180,16 @@ footer {
 .highlight-red {
   color: #f5473b; }
 
-table {
+table#compare {
   background: white; }
 
-th.extend {
-  padding-right: 163px; }
+table#pods {
+  background: white; }
 
-td.center {
+.resize-col {
+  width: 225px; }
+
+.center-col {
   text-align: center; }
 
 #collage-container {

@@ -26,7 +26,12 @@
     .row
       .span11
         .hero-unit
-          %table.zebra-striped
+          %table#compare.zebra-striped
+            %colgroup.resize-col
+            %colgroup
+            %colgroup
+            %colgroup
+
             %thead
               %tr
                 %th Privacy Related
@@ -37,35 +42,40 @@
             %tbody
               %tr
                 %td Use your nickname or screen name
-                %td.center 
+                %td.center-col 
                   = image_tag('up.png')
-                %td.center
+                %td.center-col
                   = image_tag('down.png')
-                %td.center
+                %td.center-col
                   = image_tag('down.png')
               
               %tr
                 %td No Advertisements!
-                %td.center
+                %td.center-col
                   = image_tag('up.png')
-                %td.center
+                %td.center-col
                   = image_tag('down.png') 
-                %td.center
+                %td.center-col
                   = image_tag('down.png')
                 
               %tr
                 %td None of your data is sold
-                %td.center
+                %td.center-col
                   = image_tag('up.png') 
-                %td.center
+                %td.center-col
                   = image_tag('down.png') 
-                %td.center
+                %td.center-col
                   = image_tag('down.png')
 
-          %table.zebra-striped
+          %table#compare.zebra-striped
+            %colgroup.resize-col
+            %colgroup
+            %colgroup
+            %colgroup
+
             %thead
               %tr
-                %th.extend Features
+                %th Features
                 %th Diaspora
                 %th Google Plus
                 %th Facebook
@@ -73,27 +83,39 @@
             %tbody
               %tr
                 %td Share with friends
-                %td.center 
-                %td.center 
-                %td.center
+                %td.center-col
+                  = image_tag('up.png') 
+                %td.center-col
+                  = image_tag('up.png') 
+                %td.center-col
+                  = image_tag('up.png')
               
               %tr
                 %td Upload and share photos
-                %td.center 
-                %td.center 
-                %td.center
+                %td.center-col
+                  = image_tag('up.png') 
+                %td.center-col
+                  = image_tag('up.png') 
+                %td.center-col
+                  = image_tag('up.png')
                 
               %tr
                 %td Group friends into categories
-                %td.center 
-                %td.center 
-                %td.center
+                %td.center-col
+                  = image_tag('up.png') 
+                %td.center-col
+                  = image_tag('up.png') 
+                %td.center-col
+                  = image_tag('up.png')
 
               %tr
                 %td Like and or Re-share posts
-                %td.center 
-                %td.center 
-                %td.center
+                %td.center-col
+                  = image_tag('up.png') 
+                %td.center-col
+                  = image_tag('up.png') 
+                %td.center-col
+                  = image_tag('up.png')
 
               
 
