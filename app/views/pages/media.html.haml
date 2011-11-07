@@ -1,288 +1,45 @@
 #masthead.hero
+
+  .container
+    %h1
+      #billboard  
+        %span.highlight-blue Diaspora*
+        is a social network where your 
+        %span.highlight-purple friends,
+        %span.highlight-green habits,
+        and 
+        %span.highlight-yellow content
+        are your business, not ours!
+        %span.highlight-red Share the love.
+    
+    .page-header
+    %p
+    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolorsit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.
   
+    %br
+    %br
+
+  .container
+    .row
+      .span-one-third
+        .hero-unit
+
+      .span-one-third
+        .hero-unit
+
+      .span-one-third
+        .hero-unit
+
   .container
     %section#body-content
       .center
         = image_tag('diaspora_logo_transparent.png')
 
 .container
-  %section#body-content
-    .center
-      = image_tag('earthD*.png')
-  %br
-
-.container
   .inset
     = image_tag 'asterisk-inset.png'
   %br
   %br
-
-  %section#features
-    .page-header
-      %h1
-        Comparing Diaspora
-
-  .container
-    .row
-      .span11
-        .hero-unit
-          %table#compare.zebra-striped
-            %colgroup.resize-col
-            %colgroup
-            %colgroup
-            %colgroup
-
-            %thead
-              %tr
-                %th Privacy Related
-                %th Diaspora
-                %th Google Plus
-                %th Facebook
-              
-            %tbody
-              %tr
-                %td Use your nickname or screen name
-                %td.center-col 
-                  = image_tag('up.png')
-                %td.center-col
-                  = image_tag('down.png')
-                %td.center-col
-                  = image_tag('down.png')
-              
-              %tr
-                %td No Advertisements!
-                %td.center-col
-                  = image_tag('up.png')
-                %td.center-col
-                  = image_tag('down.png') 
-                %td.center-col
-                  = image_tag('down.png')
-                
-              %tr
-                %td None of your data is sold
-                %td.center-col
-                  = image_tag('up.png') 
-                %td.center-col
-                  = image_tag('down.png') 
-                %td.center-col
-                  = image_tag('down.png')
-
-          %table#compare.zebra-striped
-            %colgroup.resize-col
-            %colgroup
-            %colgroup
-            %colgroup
-
-            %thead
-              %tr
-                %th Features
-                %th Diaspora
-                %th Google Plus
-                %th Facebook
-              
-            %tbody
-              %tr
-                %td Share with friends
-                %td.center-col
-                  = image_tag('up.png') 
-                %td.center-col
-                  = image_tag('up.png') 
-                %td.center-col
-                  = image_tag('up.png')
-              
-              %tr
-                %td Upload and share photos
-                %td.center-col
-                  = image_tag('up.png') 
-                %td.center-col
-                  = image_tag('up.png') 
-                %td.center-col
-                  = image_tag('up.png')
-                
-              %tr
-                %td Group friends into categories
-                %td.center-col
-                  = image_tag('up.png') 
-                %td.center-col
-                  = image_tag('up.png') 
-                %td.center-col
-                  = image_tag('up.png')
-
-              %tr
-                %td Like and or Re-share posts
-                %td.center-col
-                  = image_tag('up.png') 
-                %td.center-col
-                  = image_tag('up.png') 
-                %td.center-col
-                  = image_tag('up.png')
-
-              
-
-      .span5
-        .hero-unit
-
-  %section#features
-    .page-header
-      %h1
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
-
-
-    .row
-      .span-one-third
-        = image_tag('osi-stamp.png')
-      
-      .span-one-third
-        = image_tag('distributed-stamp.png')
-      
-      .span-one-third
-        = image_tag('keyhole-stamp.png')
-
-    .row
-      .span-one-third
-        %h4
-          Open Source
-        %p
-          The code which makes Diaspora* work is openly available to any developer around the world. Diaspora* is continually being developed by a worldwide community rather than a corporation. Contributions and improvements are vetted and rolled out only after careful checks to make sure they work.
-      
-      .span-one-third
-        %h4
-          Decentralization
-        %p
-          Instead of everyone’s data being contained on centralized servers owned by a corporation, local servers (‘pods’) can be set up anywhere in the world. You can choose which pod to register with, perhaps your local pod, and seamlessly connect with the Diaspora* community worldwide.
-
-      .span-one-third
-        %h4
-          Ownership
-        %p
-          Unique to Diaspora* is that you own your data. You do not sign over any rights to a corporation or other interest who could use it for commercial purposes. With Diaspora*, your friends, your habits, and your content are your business ... not ours!
-
-    %hr
-    .clearfix
-      %br
-
-    .row
-      .span8
-        %h4
-          This
-
-      .span8
-        %h4
-          Not this
-
-
-    .clearfix
-      %br
-      %br
-    .row
-      .span8
-        = image_tag('network-distributed.png')
-      .span8
-        = image_tag('network-centralized.png')
-
-    .clearfix
-      %br
-    .row
-      .span8
-        %h4
-          Diaspora*’s network
-        %p
-          Diaspora* is a true network, with no central base. There are servers (‘pods’) all over the world, each containing the data of those users who have chosen to register with it. These pods communicate with each other seamlessly, so that you can communicate freely with your contacts, wherever they are on the network.
-
-      .span8
-        %h4
-          Centralized network
-        %p
-          Most social networks are run from centralized servers owned and run by a corporation. These store all the private data of their users. This data can be lost or hacked, and like any system with a bottleneck, any problem at the servers can make everything run very slowly, or not at all.
-
-        %br
-        %br
-        %br
-    .clearfix
-
-    .row#small_features
-      .span4
-        %h6
-          Bookmarklet
-
-        %p
-          Use Diaspora*'s bookmarklet to discover fun content around the web and share it with whomever you'd like.
-
-      .span4
-        %h6
-          Hi-res photos
-        %p
-          Upload and share high-resolution photos with whomever you please.
-
-      .span4
-        %h6
-          Join a pod
-        %p
-          Diaspora pods mean you can get an account anywhere you would like.
-          = link_to 'JoinDiapsora', 'https://joindiaspora.com'
-          and
-          = link_to 'Diasp.org', 'https://diasp.org'
-          are two of the largest, but you can sign up at 
-          = link_to 'any open community pod.', pod_listing_link
-      .span4
-        %h6
-          Lots more!
-        %p
-          %strong
-            Ready to use Diaspora*?
-          Then get an account on a community pod.  It's fast, easy, and free.
-          = link_to "Sign up", pod_listing_link, :class => "btn primary"
-
-
-  %section#benifits
-    .page-header
-      %h1
-        Own your data
-
-    .row
-    .clearfix
-      %br
-      %br
-
-    .row
-      .span2
-        =image_tag('lock.png')
-      .span14
-        %h4
-          Host it yourself
-        %p
-          Now you don't have to settle for having your data on someone else's server. Since Diaspora is completely free software, you can
-          = link_to "grab the code", code_link 
-          and host it wherever you want. We're constantly making it easier for individuals to host their own pods on Diaspora*.
-
-
-    .clearfix
-      %br
-      %br
-
-    .row
-      .span2
-        = image_tag('download.png')
-      .span6
-        %h4
-          Export your data
-          %span.label.warning
-            coming soon!
-        %p
-          Download all of your data in standard formats that can be used in other places.
-      .span2
-        = image_tag('two_asterisks.png')
-      .span6
-        %h4
-          Move Pods
-          %span.label.warning
-            coming soon!
-        %p
-          Get started on a 
-          = link_to 'community pod',pod_listing_link
-          and then move all of your social data to a pod you control. 
-          Diaspora*'s distributed design means that you will never have to sacrifice control of your data to stay connected.
-          =link_to 'View current status of this task.', 'https://github.com/diaspora/diaspora/issues/908'
 
   %section#community
     .page-header
