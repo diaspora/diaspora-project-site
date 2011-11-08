@@ -1,0 +1,78 @@
+#masthead.hero
+
+  .container
+    %h1
+      #billboard  
+        %span.highlight-blue Diaspora*
+        is a social network where your 
+        %span.highlight-purple friends,
+        %span.highlight-green habits,
+        and 
+        %span.highlight-yellow content
+        are your business, not ours!
+        %span.highlight-red Share the love.
+    
+    .page-header
+    %p
+    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolorsit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.
+  
+    %br
+    %br
+
+  .container
+    .row
+      .span-one-third
+        .hero-unit
+
+      .span-one-third
+        .hero-unit
+
+      .span-one-third
+        .hero-unit
+
+  .container
+    %section#body-content
+      .center
+        = image_tag('diaspora_logo_transparent.png')
+
+.container
+  .inset
+    = image_tag 'asterisk-inset.png'
+  %br
+  %br
+
+  %section#community
+    .page-header
+      %h1
+        Diaspora* is a community effort
+    %p
+      Diaspora* is powered by passionate people doing fun things together.  Find out how what you love to do can help make Diaspora* better.
+      = link_to 'Learn More', get_involved_path
+
+    .row
+      .span8
+        %h2
+          Contribute code
+
+        %p
+          Grabbing the source code is simple.  Clone down the repository and poke around:
+          %code
+            git clone git://github.com/diaspora/diaspora.git
+
+        %p
+          = link_to "View the source on github »", code_link, :class => 'btn primary'
+
+
+      .span8
+        %h2
+          Donate
+
+        %p
+          Your donations keep us going and enable us to keep developing more amazing features for Diaspora*. Please give generously to help us build a new social web where you're in control.
+
+        = link_to "Donate", donate_path, :class => 'btn success', :onClick => "_gaq.push(['_trackEvent', 'Donate Button', 'Click', 'page', '#{params[:action]}_bottom']);" 
+
+      /=link_to "join our mailing list. you won't regret it:"
+
+
+

@@ -27,7 +27,7 @@ class PagesController < ApplicationController
   def why_diaspora ; end
   def pods ; end
   def index_alt ; end
-  def press ; end
+  def media ; end
 
   private
   def page_not_found
