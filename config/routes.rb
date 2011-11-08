@@ -11,6 +11,6 @@ Diasporaproject::Application.routes.draw do
   match 'why_diaspora' => 'pages#why_diaspora', :as => 'why_diaspora'
   match 'pods' => 'pages#pods', :as => 'pods'
   match 'index_alt' => 'pages#index_alt', :as => 'index_alt'
-  match 'press' => 'pages#press', :as => 'press'
+  match 'media' => 'pages#media', :as => 'media'
   root :to => "pages#index"
 end
