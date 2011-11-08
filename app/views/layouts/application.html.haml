@@ -39,11 +39,10 @@
 
         %nav
           = link_to "home", root_url
-          -# = link_to "what is d*?", why_diaspora_url
           = link_to "blog",'http://blog.diasporafoundation.org/'
           = link_to "get involved", get_involved_url
           = link_to "supporters", supporters_url
-          = link_to "media", media_url
+          -# = link_to "media", media_url
           = link_to "sign up", pod_listing_link, :class => 'btn primary', 'data-backdrop' => true, 'data-controls-modal' => 'my-modal'
           = link_to "donate", donate_url, :class => 'btn success', :onClick => "_gaq.push(['_trackEvent', 'Donate Button', 'Click', 'page', '#{params[:action]}']);" 
 
