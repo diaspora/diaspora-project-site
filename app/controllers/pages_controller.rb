@@ -15,7 +15,7 @@ class PagesController < ApplicationController
 
   def donate
     unless request.url.match(/^https:\/\/www.diasporafoundation.org\/donate/i)
-      redirect_to "https://www.diasporafoundation.org/donate"
+      redirect_to "https://diaspora-project-site.herokuapp.com/donate"
     end
   end
 
