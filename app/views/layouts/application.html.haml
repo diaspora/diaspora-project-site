@@ -16,7 +16,7 @@
       var agent=navigator.userAgent.toLowerCase();
       var is_mobile = (agent.indexOf('mobile')!=-1);
       $(document).ready(function(){
-        if (is_mobile) { 
+        if (is_mobile) {
           $('header').css('position', 'absolute');
           $('.header_container').css('padding-right', '0`');
         }
@@ -44,7 +44,7 @@
           = link_to "supporters", supporters_url
           -# = link_to "media", media_url
           = link_to "sign up", pod_listing_link, :class => 'btn primary', 'data-backdrop' => true, 'data-controls-modal' => 'my-modal'
-          = link_to "donate", donate_url, :class => 'btn success', :onClick => "_gaq.push(['_trackEvent', 'Donate Button', 'Click', 'page', '#{params[:action]}']);" 
+          = link_to "donate", donate_url, :class => 'btn success', :onClick => "_gaq.push(['_trackEvent', 'Donate Button', 'Click', 'page', '#{params[:action]}']);"
 
     = yield
 
@@ -87,7 +87,7 @@
         .row#CC-licence
           .span16
             :erb
-              <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="/images/CC_label.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">DiasporaFoundation.org</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://DiasporaFoundation.org" property="cc:attributionName" rel="cc:attributionURL">http://DiasporaFoundation.org</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
+              <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="/images/CC_label.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">DiasporaProject.org</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://DiasporaProject.org" property="cc:attributionName" rel="cc:attributionURL">http://DiasporaProject.org</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
 
 #my-modal.modal.fade
   .modal-header
@@ -97,7 +97,7 @@
 
   .modal-body
     %p
-      The Diaspora* ecosystem consists of numerous pods, which all connect together to form our new social web.  
+      The Diaspora* ecosystem consists of numerous pods, which all connect together to form our new social web.
     %p
       On the next page, you’ll see a list of the open pods.  The name of each of them is a link.  Simply pick one, click on that link (in the left column) and follow the simple steps on that pod’s home page to create your account.
     %p
