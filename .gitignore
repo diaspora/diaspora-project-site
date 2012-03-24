@@ -6,4 +6,5 @@ tmp/
 *.swp
 *.DS_Store
 config/stripe.yml
+.sass-cache/
 

@@ -1,5 +1,9 @@
-// Place your application-specific JavaScript functions and classes here
-// This file is automatically included by javascript_include_tag :defaults
+//= require jquery
+//= require jquery_ujs
+//= require_self
+//= require bootstrap-modal
+//= require all
+//= require github.js 
 
 function randomOrder(){
   return (Math.round(Math.random())-0.5); 

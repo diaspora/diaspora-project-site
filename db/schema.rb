@@ -12,35 +12,21 @@
 
 ActiveRecord::Schema.define(:version => 20111019011317) do
 
-  create_table "authors", :force => true do |t|
-    t.string    "name"
-    t.timestamp "created_at"
-    t.timestamp "updated_at"
-  end
-
   create_table "contributors", :force => true do |t|
-    t.string    "name"
-    t.string    "github_username"
-    t.string    "diaspora_id"
-    t.text      "bio"
-    t.string    "avatar"
-    t.timestamp "created_at"
-    t.timestamp "updated_at"
-    t.string    "kind"
+    t.string   "name"
+    t.string   "github_username"
+    t.string   "diaspora_id"
+    t.text     "bio"
+    t.string   "avatar"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "kind"
   end
 
   create_table "donors", :force => true do |t|
     t.string "name"
     t.string "email"
     t.string "stripe_token", :null => false
-  end
-
-  create_table "posts", :force => true do |t|
-    t.string    "title"
-    t.text      "text"
-    t.integer   "author_id"
-    t.timestamp "created_at"
-    t.timestamp "updated_at"
   end
 
 end
