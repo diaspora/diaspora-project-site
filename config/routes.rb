@@ -1,5 +1,8 @@
 Diasporaproject::Application.routes.draw do
-  resources :contributors
+  mount RailsAdmin::Engine => '/admin', :as => 'rails_admin'
+
+  devise_for :users
+
   resources :donors, :only => :update
 
   match 'get_involved' => 'pages#get_involved', :as => 'get_involved'
