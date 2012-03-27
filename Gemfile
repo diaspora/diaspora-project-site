@@ -13,6 +13,8 @@ gem 'redcarpet'
 gem 'albino'
 gem 'stripe'
 
+gem 'rails_autolink'
+
 group :production do
   gem 'pg'
 end
