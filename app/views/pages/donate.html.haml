@@ -1,51 +1,3 @@
-= content_for :head do
-  = javascript_include_tag "https://js.stripe.com/v1/"
-  :javascript
-    Stripe.setPublishableKey('#{STRIPE_PUBLISHABLE_KEY}');
-
-    $(document).ready(function() {
-      $(".payment-form").submit(function(event) {
-        $('.payment-form .btn').attr("disabled", "disabled")
-                               .val("Processing..."); // prevent repeated clicks
-
-        $('.payment-form .alert-message').hide();
-
-        var amount = $('input[name=amount]').val().replace(/[^0-9\.]+/g,"")*100
-
-        Stripe.createToken({
-            number: $('.card-number').val(),
-            cvc: $('.card-cvc').val(),
-            exp_month: $('.card-expiry-month').val(),
-            exp_year: $('.card-expiry-year').val()
-        }, amount, stripeResponseHandler);
-
-        return false; // prevent the form from submitting
-      });
-    });
-
-    function stripeResponseHandler(status, response) {
-      if (response.error) {
-        $('.payment-form .alert-message p').html(response.error.message);
-        $('.payment-form .alert-message').show();
-        $('.payment-form .btn').removeAttr('disabled')
-                               .val("Donate");
-
-      } else {
-        $('.payment-form').append("<input type='hidden' name='stripeToken' value='" + response['id'] + "'/>");
-        $('.payment-form').get(0).submit();
-      }
-    }
-
-    /* <![CDATA[ */
-        (function() {
-            var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
-            s.type = 'text/javascript';
-            s.async = true;
-            s.src = 'https://api.flattr.com/js/0.6/load.js?mode=auto';
-            t.parentNode.insertBefore(s, t);
-        })();
-    /* ]]> */
-
 #masthead.hero.sidekick
   .container
     .row
@@ -101,16 +53,6 @@
             %p
               Please give what you can.  Thank you.
       .span8
-        %ul{:class=> 'tabs', :data => {:tabs => 'tabs'}}
-          %li{:class => active_for_one_time?}
-            = link_to 'One Time', '#one_time'
-          %li{:class => active_for_monthly?}
-            = link_to 'Monthly', '#monthly'
-          %li
-            = link_to 'Flattr', '#flattr'
-          %li
-            = link_to 'Bitcoin', '#bitcoin'
-
         #donations.tab-content.row
           #one_time.span8{:class => active_for_one_time?}
             :erb
@@ -139,111 +81,57 @@
                   </div>
                 </form>
 
-                <form name="_xclick" action="/donate" class='payment-form' method="post" data-remote=true>
-                  <fieldset>
-                    <legend>
-                      One Time Donation via Stripe
-                    </legend>
-
-                    <div class="alert-message error" style="display:none;">
-                      <p></p>
-                    </div>
-
-                    <div class='clearfix'>
-                      <label for='amount'>Amount</label>
-                      <div class='input'>
-                        <input type="hidden" name="cmd" value="_xclick">
-                        <input type="hidden" name="business" value="donations@joindiaspora.com">
-                        <input type="hidden" name="item_name" value="Contribution To Diaspora">
-                        <input type="hidden" name="currency_code" value="USD">
-                        <input type="input" class='xlarge span2' name="amount" value="<%=donation_prefill%>">
-                      </div>
-                    </div>
-
-                    <div class='clearfix'>
-                      <label for='number'>Card number</label>
-                      <div class="input"><input type="text" class='card-number large' /></div>
-                    </div>
-
-                    <div class='clearfix'>
-                      <label for='exp_month'>Expiration (MM/YYYY)</label>
-                      <div class="input">
-                        <select class='card-expiry-month' style="width:50px">
-                          <% (1..12).each do |n| %>
-                            <option value= <%= n %> ><%= n %></option>
-                          <% end %>
-                        </select>
-
-                        <select class='card-expiry-year' style="width:70px">
-                          <% (2011..2022).each do |n| %>
-                          <option value= <%= n %> > <%= n %></option>
-                          <% end %>
-                        </select>
-                      </div>
-                    </div>
-
-                    <div class='clearfix'>
-                      <label for='cvc'>Card verification code</label>
-                      <div class="input"><input type="text" class='card-cvc' style="width:50px" /></div>
-                    </div>
-
-                  </fieldset>
-                  <div class='actions'>
-                    <input type="submit" class="btn success" value="Donate via Stripe">
-                  </div>
-                </form>
-
             %h6
               Disclaimer: We do not store any credit card information.
 
 
 
-          #monthly.span8{:class => active_for_monthly?}
+        #monthly.span8{:class => active_for_monthly?}
+          :erb
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <fieldset>
+              <legend>
+                Monthly Subscription via PayPal
+              </legend>
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="N24UFDL4RJJF4">
+              <input type="hidden" name="on0" value="">
+              <div class='clearfix'>
+                <label for="os0">
+                  Amount
+                </label>
+                <div class="input">
+                  <select name="os0">
+                    <option value="Supporter" <%= is_selected?(1) %>>Supporter : $5.00USD</option>
+                    <option value="Member"  <%= is_selected?(2) %>>Member : $10.00USD</option>
+                    <option value="Freedom Fighter"  <%= is_selected?(3) %>>Freedom Fighter : $20.00USD</option>
+                  </select>
+                </div>
+              </div>
+              <input type="hidden" name="currency_code" value="USD">
+              </fieldset>
+
+              <div class='actions'>
+                <input type="submit" class="btn success" value="Donate via PayPal">
+              </div>
+            </form>
+
+        #flattr.span8{:style => "text-align:center;"}
+          %form{:class => 'form-stacked'}
+            %fieldset
+              %legend
+                Flattr
             :erb
-              <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-              <fieldset>
-                <legend>
-                  Monthly Subscription via PayPal
-                </legend>
-                <input type="hidden" name="cmd" value="_s-xclick">
-                <input type="hidden" name="hosted_button_id" value="N24UFDL4RJJF4">
-                <input type="hidden" name="on0" value="">
-                <div class='clearfix'>
-                  <label for="os0">
-                    Amount
-                  </label>
-                  <div class="input">
-                    <select name="os0">
-                      <option value="Supporter" <%= is_selected?(1) %>>Supporter : $5.00USD</option>
-                      <option value="Member"  <%= is_selected?(2) %>>Member : $10.00USD</option>
-                      <option value="Freedom Fighter"  <%= is_selected?(3) %>>Freedom Fighter : $20.00USD</option>
-                    </select>
-                  </div>
-                </div>
-                <input type="hidden" name="currency_code" value="USD">
-                </fieldset>
+              <a class="FlattrButton" style="display:none;" href="https://flattr.com/profile/Diaspora"></a>
+              <noscript><a href="https://flattr.com/thing/382291/Diaspora-on-Flattr" target="_blank">
+              <img src="https://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></noscript>
 
-                <div class='actions'>
-                  <input type="submit" class="btn success" value="Donate via PayPal">
-                </div>
-              </form>
-
-          #flattr.span8{:style => "text-align:center;"}
-            %form{:class => 'form-stacked'}
-              %fieldset
-                %legend
-                  Flattr
-              :erb
-                <a class="FlattrButton" style="display:none;" href="https://flattr.com/profile/Diaspora"></a>
-                <noscript><a href="https://flattr.com/thing/382291/Diaspora-on-Flattr" target="_blank">
-                <img src="https://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></noscript>
-
-          #bitcoin.span8{:style => "text-align:center;"}
-            %form{:class => 'form-stacked'}
-              %fieldset
-                %legend
-                  Bitcoin 
-            If you clicked this tab, you know what to do.
-            %code
-              1H63WEQbK45K3xgC7DRfphMWMJMZHrX542
+        #bitcoin.span8{:style => "text-align:center;"}
+          %form{:class => 'form-stacked'}
+            %fieldset
+              %legend
+                Bitcoin 
+          If you clicked this tab, you know what to do.
+          %code
+            1H63WEQbK45K3xgC7DRfphMWMJMZHrX542
 
