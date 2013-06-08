@@ -1,0 +1,20 @@
+common: &common
+  adapter: mysql2
+  host: localhost
+  username:
+  password:
+  encoding: utf8
+  reconnect: true
+  pool: 5
+
+development:
+  <<: *common
+  database: diasporaps_development
+
+test:
+  <<: *common
+  database: diasporaps_test
+
+production:
+  <<: *common
+  database: diasporaps_production
