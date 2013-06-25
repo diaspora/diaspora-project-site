@@ -1,5 +1,26 @@
-# Sample localization file for English. Add more files in this directory for other locales.
-# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
-
 en:
-  hello: "Hello world"
+  buttons:
+    host_yourself: 'Host yourself'
+    join_diaspora: 'Join Diaspora*'
+  meta:
+    footer:
+      copyleft: 'CC-BY The Diaspora* Foundation'
+  title: 'The Diaspora* Project'
+
+  pages:
+    home:
+      headline: 'The Diaspora* Project'
+      welcome_paragraph: 'We are awesome!'
+    about:
+      headline: 'About the project'
+      menu_title: 'About'
+    get_involved:
+      headline: 'Get involved!'
+      menu_title: 'Get involved'
+    blog:
+      headline: 'The Diaspora* Blog'
+      subline: 'official announcements'
+      menu_title: 'Blog'
+    planet:
+      headline: 'Planet'
+      menu_title: 'Planet'

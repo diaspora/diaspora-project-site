@@ -1,14 +1,12 @@
 class PagesController < ApplicationController
   respond_to :html
 
-  def show
-    params[:id] ||= 'home'
-    @page = Page.find_by_url params[:id]
+  def index
+  end
 
-    if @page
-      respond_with @page
-    else
-      not_found
-    end
+  def about
+  end
+
+  def get_involved
   end
 end

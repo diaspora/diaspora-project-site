@@ -1,0 +1,63 @@
+html, body {
+  height: 100%;
+}
+
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -60px;
+}
+
+#pusher {
+  height: 60px;
+}
+
+footer {
+  height: 40px;
+  background-color: #f5f5f5;
+  padding: 20px 20px 0;
+
+  p {
+    color: #666;
+  }
+}
+
+.navbar-fixed-top {
+  #mainnav {
+    margin-top: 20px;
+  }
+
+  .brand {
+    padding: 5px 20px;
+
+    #header-logo {
+      height: 70px;
+    }
+  }
+
+  .btn {
+    margin-left: 10px;
+  }
+}
+
+#main-container {
+  padding-top: 90px;
+}
+
+@media (max-width: 767px) {
+  .navbar-fixed-top {
+    position: static;
+  }
+
+  #main-container {
+    padding-top: 0;
+  }
+
+  footer {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}

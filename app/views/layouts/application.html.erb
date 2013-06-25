@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>DiasporaProjectSite</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
+  <title><%= page_title yield(:page_title) %></title>
+
+  <meta charset="utf-8">
+  <meta name="shortcut icon" href="/favicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <%= stylesheet_link_tag 'application', :media => 'all' %>
+  <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <div id="wrap">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <%= link_to root_url(:subdomain => false), :class => 'brand' do %>
+            <%= image_tag 'logo.png', :alt=> t('title'), :title => t('title'), :id => 'header-logo' %>
+          <% end %>
+          <div id="mainnav" class="pull-right">
+            <ul class="nav">
+              <li><%= link_to t('pages.about.menu_title'), about_url(:subdomain => false) %></li>
+              <li><%= link_to t('pages.get_involved.menu_title'), get_involved_url(:subdomain => false) %></li>
+              <li><%= link_to t('pages.blog.menu_title'), blog_index_url(:subdomain => 'blog') %></li>
+              <li><a href="#contact">Wiki</a></li>
+              <li><a href="#contact">Planet</a></li>
+            </ul>
+            <a href="#" class="btn btn-success">Host yourself</a>
+            <a href="#" class="btn btn-success">Join Diaspora*</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="main-container" class="container-fluid">
+      <%= yield %>
 
-<%= yield %>
-
+      <div id="pusher"></div>
+    </div>
+  </div>
+  <footer>
+    <p><%= t('meta.footer.copyleft') %></p>
+  </footer>
 </body>
 </html>
