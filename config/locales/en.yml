@@ -9,8 +9,32 @@ en:
 
   pages:
     home:
-      headline: 'The Diaspora* Project'
-      welcome_paragraph: 'We are awesome!'
+      headline: 'Welcome to Diaspora*'
+      welcome_paragraph: 'The online social world where you are in control.'
+      key_philosophies: 'Diaspora* is based on three key philosophies:'
+      decentralization: 'Decentralization'
+      decentralization_about: 'Instead of everyone’s data being contained on huge central servers owned by a large organization, local servers (‘pods’) can be set up anywhere in the world. You choose which pod to register with - perhaps your local pod - and seamlessly connect with the Diaspora* community worldwide.'
+      freedom: 'Freedom'
+      freedom_about: "You can be whoever you want to be in Diaspora*. Unlike some networks, you don't have to use your real identity. You can interact with whomever you choose in whatever way you want. The only limit is your imagination. Diaspora* is also Free Software, giving you liberty to use it as you wish."
+      privacy: 'Privacy'
+      privacy_about: "In Diaspora* you own your data. You do not sign over any rights to a corporation or other interest who could use it. With Diaspora*, your friends, your habits, and your content is your business...not ours! In addition, you choose who sees what you share, using Aspects."
+      get_started: 'Want to get started?'
+      get_started_sub: "It's as easy as 1, 2, 3 ..."
+      choose_pod: "1. Choose a pod"
+      choose_pod_exp: "Find a pod that suits you. You might prefer a smaller pod, or one based near where you live, or one based in a country that you know has good data security policies. The choice is yours! Choose from among our community pods, rated at "
+      sign_up: "2. Sign up"
+      sign_up_ex1: "Once you've decided which pod is right for you, based on the ratings and information at "
+      sign_up_ex2: "and maybe recommendations from people you trust, sign up there and create a profile with as much or as little personal information as you like. You are in control about how much you share."
+      join_convo: "3. Join the conversation!"
+      join_convo_ex: "Start following some #tags related to your interests: it could be #music, #photography, #privacy or #linux - whatever you're into. Post a message with the #newhere tag to introduce yourself, and away you go. You're now part of the vibrant Diaspora* community."
+      aspects: "Aspects"
+      aspects_ex: "Diaspora* pioneered the concept of aspects, which enables you to organise your contacts according to their role in your life. This means you can share something just with family members or work colleagues, knowing that no one you don't want to will be able to see what you post."
+      features: "Features"
+      features_ex: "Hashtags give you the freedom to label and follow your interests with ease. You can catch people's attention by @-mentioning them. Reshare posts you love so others can enjoy and comment on them too. And show your love for other people's work by ♥-ing it."
+      help: "Want to help?"
+      help_ex: "Diaspora* needs people to write and test code, welcome and help new members, set up and maintain community pods, and spread the word about the benefits of Diaspora* to others who might want to take part. Think you'd like to contribute to the project?"
+      socialint: "Social network integration"
+      socialint_ex: "Diaspora* lets you stay connected with your friends, even if they're not yet on Diaspora*. Simply connect your account to other major services, then use Diaspora* as your home base to post to your profiles on these other services too. Diaspora* currently supports cross-posting to your Facebook, Twitter, and Tumblr accounts, with more to come soon. "
     about:
       headline: 'About the project'
       menu_title: 'About'
@@ -24,3 +48,4 @@ en:
     planet:
       headline: 'Planet'
       menu_title: 'Planet'
+
