@@ -2,8 +2,301 @@
   <%= t('pages.about.menu_title') %>
 <% end %>
 
-<div class="page-header">
-  <h1><%= t('pages.about.headline') %></h1>
+<div class="hero" id="masthead">
+    <div class="container">
+        <div class="row">
+            <h1>
+            	<%= t('pages.about.headline') %>
+            </h1>
+            <h2 class="lead">
+            	<%= t('pages.about.byline') %>
+            </h2>
+	        <br>
+        </div>
+    </div>
 </div>
 
-<p><%= t('pages.home.welcome_paragraph') %></p>
+<div id="decent">
+</div>
+
+<div class="container">
+<br>&nbsp;
+    <div class="row">
+	    <div class="span4">
+        	&nbsp;
+        </div>
+        <div class="span8">
+	        <h1>
+    	    	<%= t('pages.about.decentralize') %>
+        	</h1>
+	        <p>
+    	    	<%= t('pages.about.decentralize_ex') %>
+            </p>
+        </div>
+        <div class="span4">
+        	&nbsp;
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="clearfix">
+	    <br>
+    </div>
+
+    <div class="row">
+    	<div class="span8">
+            <h2><%= t('pages.about.this') %></h2>
+        </div>
+        <div class="span8">
+            <h2><%= t('pages.about.notthis') %></h2>
+        </div>
+    </div>
+
+	<div class="clearfix">
+	    <br>
+    </div>
+    
+    <div class="row">
+        <div class="span8">
+	        <img alt="Network-distributed" src="/assets/network-distributed.png">
+        </div>
+        <div class="span8">
+        	<img alt="Network-centralized" src="/assets/network-centralized.png">
+        </div>
+    </div>
+    <div class="clearfix">
+	    <br>
+    </div>
+    <div class="row">
+    	<div class="span8">
+            <p><%= t('pages.about.this_ex') %></p>
+        </div>
+        <div class="span8">
+            <p><%= t('pages.about.notthis_ex') %></p>
+            <div id="connect">
+            </div>
+        </div>
+        <p class="centre">
+        	<%= t('pages.about.discl1') %> 
+            	<a href="https://code.google.com/p/pubsubhubbub/" target="_blank">
+                	PubSubHubub
+                </a> <%= t('pages.about.discl2') %>  <a href="http://webfinger.org/" target="_blank">
+                	Webfinger
+                </a> 
+            <%= t('pages.about.discl3') %> 
+        </p>
+    </div>
+    
+    <div class="clearfix">
+    </div>
+    
+    <br>&nbsp;<br>&nbsp;
+    
+    <div class="page-header">
+        <h1>
+        	<%= t('pages.about.connect') %><br>
+        </h1>
+        <p>
+        	<%= t('pages.about.connect_ex') %>
+        </p>
+    </div>
+    
+    <div class="clearfix">
+    </div>
+    
+    <div class="row">
+    	<div class="span2">
+	        <img src="/assets/search.png" alt="Search">
+        </div>
+            <div class="span6">
+                <h2><%= t('pages.about.find') %></h2>
+                <p><%= t('pages.about.find_ex') %></p>
+            </div>
+            <div class="span2">
+	            <img src="/assets/plus.png" alt="Add a contact">
+            </div>
+            <div class="span6">
+                <h2><%= t('pages.about.add') %></h2>
+                <p><%= t('pages.about.add_ex') %></p>
+                <div id="freedom">
+                </div>
+                <br>&nbsp;<br>&nbsp;<br>&nbsp;
+            </div>
+        </div>
+    	
+        <br>
+    
+        <div class="page-header">
+            <h1><%= t('pages.about.freedom') %> 
+            <small><%= t('pages.about.freedom_byline') %></small>
+            </h1>
+        </div>
+        <div class="row">
+            <div class="span-one-third">
+                <h2><%= t('pages.about.fdm1') %></h2>
+                <p><%= t('pages.about.fdm1_ex') %></p>
+            </div>
+        <div class="span-one-third">
+            <h2><%= t('pages.about.fdm2') %></h2>
+            <p><%= t('pages.about.fdm2_ex') %></p>
+        </div>
+        <div class="span-one-third">
+            <h2><%= t('pages.about.fdm3') %></h2>
+            <p><%= t('pages.about.fdm3_ex') %></p>
+            <p class="find_out_more">
+            	<a href="/get_involved.html" class="btn primary">
+            		Find out more &raquo;
+            	</a>
+            </p>
+        </div>
+    
+    </div>
+    
+    <div id="privacy">
+    </div>
+    <br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;
+    
+    <div class="page-header">
+        <h1><%= t('pages.about.privacy') %> 
+        	<small><%= t('pages.about.privacy_byline') %></small>
+        </h1>
+    </div>
+    <div class="row">
+        <div class="span-one-third">
+            <h2><%= t('pages.about.priv1') %></h2>
+            <p><%= t('pages.about.priv1_ex') %></p>
+        </div>
+        <div class="span-one-third">
+            <h2><%= t('pages.about.priv2') %></h2>
+            <p><%= t('pages.about.priv2_ex') %></p>
+            <p class="find_out_more">
+                <a href="#host" class="btn primary">
+	                Find out more &raquo;
+                </a>
+            </p>
+        </div>
+        <div class="span-one-third">
+            <h2>
+            	<%= t('pages.about.priv3') %>
+            </h2>
+            <p><%= t('pages.about.priv3_ex') %></p>
+            <p class="find_out_more">
+                <a href="#aspects" class="btn primary">
+                    Find out more &raquo;
+                </a>
+            </p>
+    	</div>
+    </div>
+    
+    <div id="aspects">
+    </div>
+    
+    <br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;
+    
+    <div class="page-header">
+        <h1><%= t('pages.about.aspects') %> 
+        <small><%= t('pages.about.aspects_byline') %></small>
+        </h1>
+    </div>
+    
+    <div class="row">
+        <div class="span-one-third">
+            <h2><%= t('pages.about.asp1') %></h2>
+            <p><%= t('pages.about.asp1_ex') %></p>
+        </div>
+        <div class="span-one-third">
+            <h2><%= t('pages.about.asp2') %></h2>
+            <p><%= t('pages.about.asp2_ex') %></p>
+        </div>
+        <div class="span-one-third">
+            <h2><%= t('pages.about.asp3') %></h2>
+            <p><%= t('pages.about.asp3_ex') %></p>
+        </div>
+    </div>
+    
+    <div id="features">
+    </div>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <div class="page-header">
+        <h1><%= t('pages.about.features') %> 
+        <small><%= t('pages.about.features_byline') %></small>
+        </h1>
+    </div>
+    <div class='row'>
+        <div class='span4'>
+        	<img alt="Hashtag" src="/assets/hashtag.png" />
+        </div>
+        <div class='span4'>
+        	<img alt="Reshare" src="/assets/reshare.png" />
+        </div>
+        <div class='span4'>
+        	<img alt="Mention" src="/assets/mention.png" />
+        </div>
+        <div class='span4'>
+        	<img alt="Heart" src="/assets/heart.png" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="span4">
+            <h4><%= t('pages.about.hashtags') %></h4>
+            <p><%= t('pages.about.hashtags_ex') %></p>
+        </div>
+        <div class="span4">
+            <h4><%= t('pages.about.reshare') %></h4>
+            <p><%= t('pages.about.reshare_ex') %></p>
+        </div>
+        <div class="span4">
+            <h4><%= t('pages.about.mentions') %></h4>
+            <p><%= t('pages.about.mentions_ex') %></p>
+        </div>
+        <div class="span4">
+            <h4><%= t('pages.about.love') %></h4>
+            <p><%= t('pages.about.love_ex') %></p>
+        </div>
+    </div>
+    
+    <div id="host">
+    </div>
+    
+    <br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;
+    
+    <div class="clearfix"> <br>
+    </div>
+    
+    <div class="page-header">
+        <h1><%= t('pages.about.host') %>
+        <small><%= t('pages.about.host_byline') %></small>
+        </h1>
+    </div>
+    <div class="row">
+        <div class="span7">
+        	<img src="/assets/network-distributed.png" alt="Network-distributed" width="400" height="161">
+        </div>
+        <div class="span9">
+            <p><%= t('pages.about.host_ex') %></p>
+            <ul>
+            	<li>
+                    <%= t('pages.about.hostinst1') %>
+                        <a href="http://wiki.diasporafoundation.org/Installation_guides" target="_blank">
+                            <%= t('pages.about.hostinst2') %>
+                        </a>
+                    <%= t('pages.about.hostinst3') %>
+                </li>
+                <li>
+                    <%= t('pages.about.hostinst4') %> 
+                        <a href="http://podupti.me">
+                            Pod Uptime.
+                        </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
