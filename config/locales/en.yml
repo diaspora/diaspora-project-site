@@ -11,6 +11,8 @@ en:
     home:
       headline: 'Welcome to Diaspora*'
       welcome_paragraph: 'The online social world where you are in control.'
+      find_more: "Find out more »"
+      register: "Sign up »"
       key_philosophies: 'Diaspora* is based on three key philosophies:'
       decentralization: 'Decentralization'
       decentralization_about: 'Instead of everyone’s data being contained on huge central servers owned by a large organization, local servers (‘pods’) can be set up anywhere in the world. You choose which pod to register with - perhaps your local pod - and seamlessly connect with the Diaspora* community worldwide.'
