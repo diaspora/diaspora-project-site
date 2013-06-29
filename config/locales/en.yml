@@ -99,7 +99,29 @@ en:
       hostinst4: "View a list of community pods at "
     get_involved:
       headline: 'Get involved!'
+      byline: "The future of the social web starts with you"
       menu_title: 'Get involved'
+      community: "Community powered"
+      community_byline: "Diaspora* belongs to you"
+      meaning: "What does it all mean?"
+      meaning_ex1: "Free Software is about individuality, transparency, creativity, and destiny. It is about having an idea, and making it reality. Diaspora* was founded to fulfill a passion for fun, and to make the internet a better place. Free Software is what enables us to change the world for ourselves, and lets our friends across the web benefit from our exploration."
+      meaning_ex2: "Free Software communities are amazing things. At Diaspora*, we believe that people should be valued for what they do. It doesn't matter whether you're an elite coder or have never contributed to a project before. Contributing to Diaspora* means that you get to work on hard problems, with a focus on solutions that work for users."
+      meaning_ex3: "This is why if you contribute something meaningful to Diaspora*, we will give you core commit access. We are in this together, and we want to give excited people the chance to make huge changes."
+      whereyou: "Where you come in"
+      whereyou_ex1: "We all make Diaspora*. We might not know you just yet, but we'd love to meet you and find how you can fit into the team that's building the future of the web. We all have the potential to change the world, given the right opportunity."
+      whereyou_ex2: "Contributing to Diaspora* comes in all different shapes and sizes. Whether you're a user helping us find bugs, providing feedback on our mailing lists, or contributing code or design, we need you."
+      gi_header: "Ways to get involved with Diaspora*"
+      code_header: "Contribute code"
+      code_byline: "Grabbing the source code is simple."
+      code_step1: "Clone the repository and poke around: "
+      code_step2: "Install your development environment"
+      code_step3: "Start contributing code!"
+      code_ex: "We've got a large community ready to help you get started. We suggest you check out our "
+      code_ex2: "Getting started guide"
+      code_ex3: "join our mailing list"
+      code_ex4: "and come and meet us in the "
+      code_ex5: "Diaspora* IRC room"
+      code_gh: "View the source on GitHub"
     blog:
       headline: 'The Diaspora* Blog'
       subline: 'official announcements'
