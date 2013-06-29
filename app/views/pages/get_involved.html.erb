@@ -2,8 +2,921 @@
   <%= t('pages.get_involved.menu_title') %>
 <% end %>
 
-<div class="page-header">
-  <h1><%= t('pages.get_involved.headline') %></h1>
+<div class="hero" id="masthead">
+    <div class="container">
+        <div class="row">
+	        <h1>
+            	<%= t('pages.get_involved.menu_title') %>
+            </h1>
+            <h2 class="lead">
+            	<%= t('pages.get_involved.byline') %>
+            </h2>
+            <br>
+        </div>
+    </div>
 </div>
 
-<p><%= t('pages.home.welcome_paragraph') %></p>
+<div class="container">
+    <br>&nbsp;
+    <div class="page-header">
+        <h1>
+            Community powered
+                <small>
+	                Diaspora&#42; belongs to you
+                </small>
+        </h1>
+    </div>
+    <div class="row">
+        <div class="span4">
+        <br>&nbsp;<br>&nbsp;
+        	<img alt="AGPL logo" height="83" src="/assets/agpl_logo.jpg" width="200" />
+            <br>&nbsp;<br>&nbsp;
+        	<img alt="Osi_standard_logo" height="190" src="/assets/osi_standard_logo.png" width="166" />
+        </div>
+        <div class="span12">
+            <h4><%= t('pages.get_involved.meaning') %></h4>
+            <p><%= t('pages.get_involved.meaning_ex1') %></p>
+            <p><%= t('pages.get_involved.meaning_ex2') %></p>
+            <p><%= t('pages.get_involved.meaning_ex3') %></p>
+
+            <h4><%= t('pages.get_involved.whereyou') %></h4>
+            <p><%= t('pages.get_involved.whereyou_ex1') %></p>
+            <p><%= t('pages.get_involved.whereyou_ex2') %></p>
+        </div>
+    </div>
+    
+    <div id="ways_to_help">
+    </div>
+    
+    <br><br><br>
+    
+    <div class="page-header">
+        <h1><%= t('pages.get_involved.gi_header') %></h1>
+    </div>
+    <div class="row" id="code">
+        <div class="span4">
+        	<img alt="Octocats" src="/assets/octocats.png" />
+        </div>
+        <div class="span12">
+            <h4><%= t('pages.get_involved.code_header') %>
+                <small><%= t('pages.get_involved.code_byline') %></small>
+            </h4>
+            <ol>
+                <li>
+	                <%= t('pages.get_involved.code_ex1') %>
+    		            <code>
+                        	git clone git://github.com/Diaspora&#42;/Diaspora&#42;.git
+                        </code>
+                </li>
+                <li>
+                	<a href="http://wiki.diasporafoundation.org/Installation_guides">
+                    	<%= t('pages.get_involved.code_ex2') %>
+                    </a>.
+                </li>
+                <li><%= t('pages.get_involved.code_ex3') %></li>
+            </ol>
+            <div class="row">
+            	<div class="span6">
+                    <p>
+                        <%= t('pages.get_involved.code_ex4') %>
+                            <a href="http://wiki.diasporafoundation.org/Getting_Started_With_Contributing">
+                            	<%= t('pages.get_involved.code_ex5') %>,
+                            </a>
+                            <a href="http://groups.google.com/group/diaspora-dev">
+                            	<%= t('pages.get_involved.code_ex6') %>,
+                            </a>
+                            	<%= t('pages.get_involved.code_ex7') %>
+                            <a href="http://webchat.freenode.net/?channels=diaspora-dev">
+                            	<%= t('pages.get_involved.code_ex8') %></a>.
+                    </p>
+                </div>
+                <div class="span6">
+                    <p>
+                    	<a href="https://github.com/diaspora/diaspora" class="btn primary">
+                        	<%= t('pages.get_involved.code_gh') %>
+                        </a>
+                	</p>
+                </div>
+        	</div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="row" id="bugs">
+        <div class="span4">
+	        <img alt="Globe" src="/assets/tick.png" />
+        </div>
+        <div class="span12">
+            <h4><%= t('pages.get_involved.bugs_header') %></h4>
+            <ul>
+                <li><%= t('pages.get_involved.bugs_ex1') %></li>
+                <li>
+                    <%= t('pages.get_involved.bugs_ex2') %>
+                    <a href="http://www.codetriage.com/diaspora/diaspora">
+                    	<%= t('pages.get_involved.bugs_ex3') %></a>.
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row" id="translate">
+        <div class="span4">
+	        <img alt="Globe" src="/assets/globe.png" />
+        </div>
+        <div class="span12">
+            <h4>
+	            <%= t('pages.get_involved.translate_header') %></h4>
+            <ul>
+                <li>
+	                <%= t('pages.get_involved.translate_ex1') %>
+    	            	<a href="https://webtranslateit.com/en/projects/3020-Diaspora">
+                        	<%= t('pages.get_involved.translate_ex2') %></a>.
+                </li>
+                <li>
+        	        <%= t('pages.get_involved.translate_ex3') %>
+            	    	<a href="http://wiki.diasporafoundation.org/Contribute_translations">
+                        	<%= t('pages.get_involved.translate_ex4') %>
+                        </a>
+                	<%= t('pages.get_involved.translate_ex5') %>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row" id="spread_the_word">
+        <div class="span4">
+	        <img alt="Megaphone" src="/assets/megaphone.png" />
+        </div>
+        <div class="span12">
+            <h4><%= t('pages.get_involved.voice_header') %></h4>
+            <ul>
+                <li>
+                    <%= t('pages.get_involved.voice_ex1') %> 
+                        <a href="https://www.loomio.org/groups/194" target="_blank">
+	                        <%= t('pages.get_involved.voice_ex2') %></a>.
+                </li>
+                <li>
+                    <%= t('pages.get_involved.voice_ex3') %>
+                        <a href="http://www.meetup.com/Diaspora/">
+                        	<%= t('pages.get_involved.voice_ex4') %>
+                        </a>
+                    <%= t('pages.get_involved.voice_ex5') %>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row" id="support">
+        <div class="span4">
+	        <img alt="Support" src="/assets/support.png" />
+        </div>
+        <div class="span12">
+            <h4><%= t('pages.get_involved.support_header') %></h4>
+            <ul>
+                <li>
+                	<%= t('pages.get_involved.support_ex1') %>
+                		<a href="https://docs.google.com/a/joindiaspora.com/spreadsheet/
+                        viewform?formkey=dG5RUHpMdlNidzRXN2twcXFRMDR0ZEE6MQ" target="_blank">
+                        	<%= t('pages.get_involved.support_ex2') %>
+                        </a>
+                </li>
+                <li>
+                    <%= t('pages.get_involved.support_ex3') %>
+                        <a href="http://diasporial.com/tutorials/" target="_blank">
+                        	<%= t('pages.get_involved.support_ex4') %>
+                        </a>
+                </li>
+                <li>
+                    <%= t('pages.get_involved.support_ex5') %>
+                        <a href="http://webchat.freenode.net/?channels=diaspora" target="_blank">
+                        	<%= t('pages.get_involved.support_ex6') %>
+                        </a>
+                    <%= t('pages.get_involved.support_ex7') %>
+                </li>
+                <li>
+                    <%= t('pages.get_involved.support_ex8') %>
+                        <a href="http://wiki.diasporafoundation.org/" target="_blank">
+                        	<%= t('pages.get_involved.support_ex9') %></a>.
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row" id="pod">
+        <div class="span4">
+	        <img alt="Pod" src="/assets/pod.png" />
+        </div>
+        <div class="span12">
+            <h4><%= t('pages.get_involved.run_header') %></h4>
+            <ul>
+                <li>
+                	<%= t('pages.get_involved.run_ex1') %> 
+                    	<a href="http://wiki.diasporafoundation.org/Installation_guides" target="_blank">
+                        	<%= t('pages.get_involved.run_ex2') %></a>.
+                </li>
+                <li> <%= t('pages.get_involved.run_ex3') %></li>
+                <li>
+                    <%= t('pages.get_involved.run_ex4') %>
+                    <a href="http://podupti.me">
+                    	Pod Uptime</a>.
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <br /><br /><br /><br /><br />
+    
+    
+    <div class="page-header">
+        <h1><%= t('pages.get_involved.contributors_header') %>
+            	<small><%= t('pages.get_involved.contributors_byline') %></small>
+        </h1>
+    </div>
+    
+    <div class="clearfix"><br>
+    </div>
+    
+    <div class="row">
+        <div class="span16">
+	        <h2>
+            The founders
+            </h2>
+        </div>
+    </div>
+    
+    <div class="clearfix"><br>
+    </div>
+    
+    <div class="row">
+        <div class="span16">        
+            <div class="row">
+                <div class="span8">
+                    <div class="span2a">
+	                    <img alt="Profile_photo" class="contributor_avatar" 
+                        src="http://joindiaspora.com/u/daniel/profile_photo" />
+                    </div>
+                    <div class="span5">
+                        <div class="contributor_info">
+                            <h4>
+                                <a href="http://joindiaspora.com/u/daniel">
+                                    Daniel Grippi
+                                </a>
+                            </h4>
+                            <div class="content">
+                                <p>
+                                	Daniel is responsible for Diaspora&#42;'s good looks and 
+                                    product cohesiveness. His pants are tight and his v-necks are deep.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    		    <div class="span8">
+                    <div class="span2a">
+                    	<img alt="Profile_photo" class="contributor_avatar" 
+                        src="http://joindiaspora.com/u/maxwell/profile_photo" />
+                    </div>
+                    <div class="span5">
+                        <div class="contributor_info">
+                            <h4>
+                                <a href="http://joindiaspora.com/u/maxwell">
+                                    Maxwell Salzberg
+                                </a>
+                            </h4>
+                            <div class="content">
+                                <p>
+                                    Maxwell just wants to figure out how to make something his sister will 
+                                    want to use, but that might be impossible. You can see him blog at 
+                                        <a href="http://sourcedecay.net">
+                                            http://sourcedecay.net
+                                        </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		    </div>
+    
+            <div class="row">
+                <div class="span8">
+                    <div class="span2a">
+                    	<img alt="Profile_photo" class="contributor_avatar" 
+                        src="http://joindiaspora.com/u/raphael/profile_photo" />
+                    </div>
+                    <div class="span5">
+                        <div class="contributor_info">
+                            <h4>
+                                <a href="http://joindiaspora.com/u/raphael">
+                                    Raphael Sofaer
+                                </a>
+                            </h4>
+                            <div class="content">
+                                <p>
+                                Raphael is the young-wise soul of Diaspora&#42;. He currently is headed 
+                                back to NYU, but he can still be seen trolling our list servs and IRC room.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="span8">
+                    <div class="span2a">
+                    	<img alt="Profile_photo" class="contributor_avatar" 
+                        src="http://joindiaspora.com/u/ilya/profile_photo" />
+                    </div>
+                    <div class="span5">
+                        <div class="contributor_info">
+                            <h4>
+                                <a href="http://joindiaspora.com/u/ilya">
+                                    Ilya Zhitomirskiy
+                                </a>
+                            </h4>
+                            <div class="content">
+                                <p>
+                                	Ilya is a Russian. He is super passionate about building a world of hacker 
+                                    spaces, maker culture, sharing, cycling, and life satisfaction.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+	    </div>
+    </div>
+    
+    <hr>
+    
+    <div class="row">
+        <div class="span16">
+	        <h2>
+            	Hackers
+            </h2>
+        </div>
+    </div>
+    
+    <div class="clearfix"><br>
+    </div>
+    
+    <div class="row">
+        <div class="span16">
+        
+            <div class="row">
+                <div class="span8">
+                    <div class="span2a">
+                    	<img alt="Profile_photo" class="contributor_avatar" 
+                        src="http://social.mrzyx.de/u/mrzyx/profile_photo" />
+                    </div>
+                    <div class="span5">
+                        <div class="contributor_info">
+                            <h4>
+                                <a href="http://social.mrzyx.de/u/mrzyx">
+	                                Jonne Ha&szlig;
+                                </a>
+                            </h4>
+                            <div class="content">
+                                <p> 
+                                
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="span8">
+                    <div class="span2a">
+                    	<img alt="Profile_photo" class="contributor_avatar" 
+                        src="http://pod.fulll.name/u/raven24/profile_photo" />
+                    </div>
+                    <div class="span5">
+                        <div class="contributor_info">
+                            <h4>
+                                <a href="http://pod.fulll.name/u/raven24">
+	                                Florian Staudacher
+                                </a>
+                            </h4>
+                            <div class="content">
+                            	<p> 
+                                
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+            <div class="row">
+                <div class="span8">
+                    <div class="span2a">
+                    	<img alt="Profile_photo" class="contributor_avatar" 
+                        src="http://pod.geraspora.de/u/denschub/profile_photo" />
+                    </div>
+                    <div class="span5">
+                        <div class="contributor_info">
+                            <h4>
+                                <a href="http://pod.geraspora.de/u/denschub">
+                                    Dennis Schubert
+                                </a>
+                            </h4>
+                            <div class="content">
+                                <p>
+                                    Dennis is from Germany and loves hacking around and
+                                    making things work. He loves web development, and lives and
+                                    works for an open web. He blogs about various nerd stuff
+                                    at 
+                                        <a href="http://dennis-schubert.de">
+                                            http://dennis-schubert.de
+                                        </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="span8">
+                    <div class="span2a">
+                    <img alt="Profile_photo" class="contributor_avatar" src="http://jauspora.com/u/movilla/profile_photo" />
+                    </div>
+                    <div class="span5">
+                        <div class="contributor_info">
+                            <h4>
+                                <a href="http://jauspora.com/u/movilla">
+	                                Movilla
+                                </a>
+                            </h4>
+                            <div class="content">
+	                            <p> 
+                                
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+                
+            <div class="row">
+                <div class="span8">
+                    <div class="span2a">
+                        <img alt="Profile_photo" class="contributor_avatar" 
+                        src="http://diaspora.digitalignition.net/u/ruxton/profile_photo" />
+                    </div>
+                    <div class="span5">
+                        <div class="contributor_info">
+                            <h4>
+                                <a href="http://diaspora.digitalignition.net/u/ruxton">
+	                                Greg "Ruxton" Tangey
+                                </a>
+                            </h4>
+                            <div class="content">
+                            	<p> 
+                                
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="span8">
+                    <div class="span2a">
+                    	<img alt="Profile_photo" class="contributor_avatar" 
+                        src="http://diasp.org/u/chevreuilaffriolant/profile_photo" />
+                    </div>
+                    <div class="span5">
+                        <div class="contributor_info">
+                            <h4>
+                                <a href="http://diasp.org/u/chevreuilaffriolant">
+	                                Flaburgan
+                                </a>
+                            </h4>
+                            <div class="content">
+                            	<p> 
+                                
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+            <div class="row">
+                <div class="span8">
+                    <div class="span2a">
+                    	<img alt="Profile_photo" class="contributor_avatar" 
+                        src="http://pod.geraspora.de/u/svbergerem/profile_photo" />
+                    </div>
+                    <div class="span5">
+                        <div class="contributor_info">
+                            <h4>
+                                <a href="http://pod.geraspora.de/u/svbergerem">
+                                	Steffen van Bergerem
+                                </a>
+                            </h4>
+                            <div class="content">
+                            	<p> 
+                                
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="span8">
+                    <div class="span2a">
+                    	<img alt="Profile_photo" class="contributor_avatar" 
+                        src="http://frndc.com/photo/profile/476.jpg" />
+                    </div>
+                    <div class="span5">
+                        <div class="contributor_info">
+                            <h4>
+                                <a href="http://frndc.com/u/vcuculo">
+	                                Vittorio Cuculo
+                                </a>
+                            </h4>
+                            <div class="content">
+                                <p>
+                                    Vittorio is Italian, and he started coding for Diaspora&#42; 
+                                    with his GSoC project about implementing XMPP IM and videochat. 
+                                    He is writing his thesis about it, while fixing some bugs.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+    
+    <hr>
+    
+    <div class="row">
+        <div class="span16">
+	        <h2>Pod runners</h2>
+        </div>
+    </div>
+        
+    <div class="clearfix"><br>
+    </div>
+        
+    <div class="row">
+        <div class="span16">
+        
+            <div class="row">
+                <div class="span8">
+                    <div class="span2a">
+	                    <img alt="Profile_photo" class="contributor_avatar" 
+                        src="http://diasp.org/u/davidmorley/profile_photo" />
+                    </div>
+                    <div class="span5">
+                        <div class="contributor_info">
+                            <h4>
+                                <a href="http://diasp.org/u/davidmorley">
+                                    David Morley
+                                </a>
+                            </h4>
+                            <div class="content">
+                                <p>
+                                David lives in Seattle, he is obsessed with cats and think they should 
+                                rule the world. He will only use his Vic20 and refuses to upgrade, 16K 
+                                Ram cartridges are plenty of space for anything.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="span8">
+                    <div class="span2a">
+                    	<img alt="Profile_photo" class="contributor_avatar" 
+                        src="http://diapod.net/u/aj/profile_photo" />
+                    </div>
+                    <div class="span5">
+                        <div class="contributor_info">
+                            <h4>
+                                <a href="http://diapod.net/u/aj">
+	                                aj@diapod.net
+                                </a>
+                            </h4>
+                            <div class="content">
+    	                        <p> 
+                                
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    	</div>
+    </div>
+    
+    <hr>
+    
+    <div class="row">
+        <div class="span16">
+            <h2>
+	            Community members
+            </h2>
+        </div>
+    </div>
+    
+    <div class="clearfix"><br>
+    </div>
+    
+    <div class="row">
+        <div class="span16">
+        
+            <div class="row">
+                <div class="span8">
+                    <div class="span2a">
+                    	<img alt="Profile_photo" class="contributor_avatar" 
+                        src="http://joindiaspora.com/u/deadsuperhero/profile_photo" />
+                    </div>
+                        <div class="span5">
+                            <div class="contributor_info">
+                            <h4>
+                                <a href="http://joindiaspora.com/u/deadsuperhero">
+	                                Sean Tilley
+                                </a>
+                            </h4>
+                            <div class="content">
+                                <p>
+                                Sean is Diaspora&#42;'s community manager. An aspiring web developer 
+                                and independent tech journalist based in Illinois, he likes writing 
+                                about Diaspora&#42;, making usability designs, and interacting with the 
+                                Diaspora&#42; developer community.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="span8">
+                    <div class="span2a">
+                    	<img alt="Profile_photo" class="contributor_avatar" 
+                        src="http://diasp.org/u/brent_bartlett/profile_photo" />
+                    </div>
+                    <div class="span5">
+                        <div class="contributor_info">
+                            <h4>
+                                <a href="http://diasp.org/u/brent_bartlett">
+                                    Brent Bartlett
+                                </a>
+                            </h4>
+                            <div class="content">
+                                <p>
+                                    Web designer, and ardent supporter of the free and open internet.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="row">
+                <div class="span8">
+                    <div class="span2a">
+                    	<img alt="Profile_photo" class="contributor_avatar" 
+                        src="http://joindiaspora.com/u/kevinkleinman/profile_photo" />
+                    </div>
+                        <div class="span5">
+                            <div class="contributor_info">
+                            <h4>
+                                <a href="http://joindiaspora.com/u/kevinkleinman">
+	                                Kevin Kleinman
+                                </a>
+                            </h4>
+                            <div class="content">
+                                <p>
+                                	Kevin is an all-round community member from the Netherlands, 
+                                    whose particular interests lie in user support and providing feedback. 
+                                    He is also the founder of 
+                                        <a href="http://diasporial.com/" target="_blank">
+	                                        Diasporial
+                                        </a>
+                                    . Loves autumn and indie music.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="span8">
+                    <div class="span2a">
+                    <img alt="Profile_photo" class="contributor_avatar" 
+                    src="http://iliketoast.net/u/jaywink/profile_photo" />
+                    </div>
+                    <div class="span5">
+                        <div class="contributor_info">
+                            <h4>
+                                <a href="http://iliketoast.net/u/jaywink">
+                                    Jason Robinson
+                                </a>
+                            </h4>
+                            <div class="content">
+                                <p> 
+                                
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="span8">
+                    <div class="span2a">
+                    <img alt="Profile_photo" class="contributor_avatar" 
+                    src="http://pod.geraspora.de/u/krassmus/profile_photo" />
+                    </div>
+                    <div class="span5">
+                        <div class="contributor_info">
+                            <h4>
+                                <a href="http://pod.geraspora.de/u/krassmus">
+	                                Rasmus Fuhse
+                                </a>
+                            </h4>
+                            <div class="content">
+                            	<p> 
+                                
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="span8">
+                    <div class="span2a">
+	                    <img alt="Profile_photo" class="contributor_avatar" src="http://joindiaspora.com/u/bahaltener/profile_photo" />
+                    </div>
+                    <div class="span5">
+                        <div class="contributor_info">
+                            <h4>
+                                <a href="http://joindiaspora.com/u/bahaltener">
+	                                Shmerl
+                                </a>
+                            </h4>
+                            <div class="content">
+    	                        <p> 
+                                
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="span8">
+                    <div class="span2a">
+	                    <img alt="Profile_photo" class="contributor_avatar" src="http://joindiaspora.com/u/j4v4m4n/profile_photo" />
+                    </div>
+                    <div class="span5">
+                        <div class="contributor_info">
+                            <h4>
+                                <a href="http://joindiaspora.com/u/j4v4m4n">
+                                Pirate Praveen
+                                </a>
+                            </h4>
+                            <div class="content">
+                                <p>
+                                    The 
+                                        <a href="http://diaspune.net/">
+                                            Diaspune
+                                        </a> 
+                                    guy, Debian guru, free software advocate and contributor, Chamba 
+                                    Open Movie Project coordinator, Swathanthra Malayalam Computing 
+                                    admin. Runs Diaspora&#42;'s Debian packaging team. 
+                                        <a href="http://j4v4m4n.in">
+                                            j4v4m4n.in
+                                        </a>
+                                    .
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="span8">
+                    <div class="span2a">
+	                    <div class="profile"><img alt="Profile_photo" class="contributor_avatar" 
+                        src="http://kosmospora.net/u/groovehunter/profile_photo" /></div>
+                    </div>
+                    <div class="span5">
+                        <div class="contributor_info">
+                            <h4>
+                                <a href="http://kosmospora.net/u/groovehunter">
+	                                groovehunter
+                                </a>
+                            </h4>
+                            <div class="content">
+                            	<p> 
+                                
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="span8">
+                    <div class="span2a">
+	                    <img alt="Profile_photo" class="contributor_avatar" 
+                        src="http://joindiaspora.com/u/tubbo/profile_photo" />
+                    </div>
+                    <div class="span5">
+                        <div class="contributor_info">
+                            <h4>
+                                <a href="http://joindiaspora.com/u/tubbo">
+	                                Tom Scott
+                                </a>
+                            </h4>
+                            <div class="content">
+    	                        <p> 
+                                
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="span8">
+                    <div class="span2a">
+                    	<img alt="Profile_photo" class="contributor_avatar" 
+                        src="http://joindiaspora.com/u/l3mncakes/profile_photo" />
+                    </div>
+                    <div class="span5">
+                        <div class="contributor_info">
+                            <h4>
+                                <a href="http://joindiaspora.com/u/l3mncakes">
+	                                L3MNcakes
+                                </a>
+                            </h4>
+                            <div class="content">
+    	                        <p> 
+                                
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="span8">
+                    <div class="span2a">
+	                    <img alt="Profile_photo" class="contributor_avatar" 
+                        src="http://joindiaspora.com/u/goobertron/profile_photo" />
+                    </div>
+                    <div class="span5">
+                        <div class="contributor_info">
+                            <h4>
+                                <a href="http://joindiaspora.com/u/goobertron">
+	                                Goob
+                                </a>
+                            </h4>
+                            <div class="content">
+                                <p>
+                                	Poorly drawn stickman. Based in UK.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="span8">
+                    <div class="span2a">
+                    	<img alt="Profile_photo" class="contributor_avatar" 
+                        src="http://diasp.org/u/morgenstern/profile_photo" />
+                    </div>
+                    <div class="span5">
+                        <div class="contributor_info">
+                            <h4>
+                                <a href="http://diasp.org/u/morgenstern">
+	                                Silvia Morgenstern
+                                </a>
+                            </h4>
+                            <div class="content">
+                                <p>
+                                	Just another Italian girl, studying social psychology and loving 
+                                    computers, open-source and Diaspora&#42;. Loves her town, living 
+                                    abroad and speaking French.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+
+	<div class="span12">
+    <br>	
+        <h6>
+            Have you already contributed to Diaspora&#42;? We want to see your name here!
+                <a href="mailto:team@joindiaspora.com">
+                    email us
+                </a>
+        </h6>
+	</div>
+</div>
