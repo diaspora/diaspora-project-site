@@ -22,9 +22,9 @@
   <div class="row">
     <div class="span4">
       <br />&nbsp;<br />&nbsp;
-      <img alt="AGPL logo" height="83" src="/assets/agpl_logo.jpg" width="200" />
+      <%= image_tag "agpl_logo.jpg", alt: "AGPL logo", size: "200x83" %>
       <br />&nbsp;<br />&nbsp;
-      <img alt="Osi_standard_logo" height="190" src="/assets/osi_standard_logo.png" width="166" />
+      <%= image_tag "osi_standard_logo.png", alt: "Osi_standard_logo", size: "166x190" %>
     </div>
     <div class="span12">
       <h4><%= t 'pages.get_involved.meaning' %></h4>
@@ -46,7 +46,7 @@
     <h1><%= t 'pages.get_involved.gi_header' %></h1>
   </div>
   <div class="row" id="code">
-    <div class="span4"><img alt="Octocats" src="/assets/octocats.png" /></div>
+    <div class="span4"><%= image_tag "octocats.png", alt: "Octocats" %></div>
     <div class="span12">
       <h4><%= t 'pages.get_involved.code_header' %>
         <small><%= t 'pages.get_involved.code_byline' %></small>
@@ -93,7 +93,7 @@
   <hr />
 
   <div class="row" id="bugs">
-    <div class="span4"><img alt="Globe" src="/assets/tick.png" /></div>
+    <div class="span4"><%= image_tag "tick.png", alt: "Globe" %></div>
     <div class="span12">
       <h4><%= t 'pages.get_involved.bugs_header' %></h4>
       <ul>
@@ -109,7 +109,7 @@
   </div>
 
   <div class="row" id="translate">
-    <div class="span4"><img alt="Globe" src="/assets/globe.png" /></div>
+    <div class="span4"><%= image_tag "globe.png", alt: "Globe" %></div>
     <div class="span12">
       <h4><%= t 'pages.get_involved.translate_header' %></h4>
       <ul>
@@ -131,7 +131,7 @@
   </div>
 
   <div class="row" id="spread_the_word">
-    <div class="span4"><img alt="Megaphone" src="/assets/megaphone.png" /></div>
+    <div class="span4"><%= image_tag "megaphone.png", alt: "Megaphone" %></div>
     <div class="span12">
       <h4><%= t 'pages.get_involved.voice_header' %></h4>
       <ul>
@@ -153,7 +153,7 @@
   </div>
 
   <div class="row" id="support">
-    <div class="span4"><img alt="Support" src="/assets/support.png" /></div>
+    <div class="span4"><%= image_tag "support.png", alt: "Support" %></div>
     <div class="span12">
       <h4><%= t 'pages.get_involved.support_header' %></h4>
       <ul>
@@ -187,7 +187,7 @@
   </div>
 
   <div class="row" id="pod">
-    <div class="span4"><img alt="Pod" src="/assets/pod.png" /></div>
+    <div class="span4"><%= image_tag "pod.png", alt: "Pod" %></div>
     <div class="span12">
       <h4><%= t 'pages.get_involved.run_header' %></h4>
       <ul>

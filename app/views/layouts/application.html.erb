@@ -16,7 +16,7 @@
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container-fluid">
-          <%= link_to root_url subdomain: false, class: 'brand' do %>
+          <%= link_to root_path(subdomain: false), class: 'brand' do %>
             <%= image_tag 'logo.png', alt: t('title'), title: t('title'), id: 'header-logo' %>
           <% end %>
 
@@ -28,8 +28,8 @@
               <li><a href="#contact">Wiki</a></li>
               <li><a href="#contact">Planet</a></li>
             </ul>
-            <a href="#" class="btn btn-success">Host yourself</a>
-            <a href="#" class="btn btn-success">Join Diaspora*</a>
+            <%= link_to "Host yourself", about_path(subdomain: false, anchor: "host"), class: 'btn btn-success' %>
+            <%= link_to "Join Diaspora*", root_path(subdomain: false, anchor: "get_started"), class: 'btn btn-success' %>
           </div>
         </div>
       </div>
@@ -112,8 +112,7 @@
         <div class="row" id="CC-licence">
           <div class="span16">
             <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">
-              <img alt="Creative Commons License" style="border-width: 0pt;" 
-                   src="/assets/80x15.png" />
+              <%= image_tag '80x15.png', alt: 'Creative Commons License', style: 'border-width: 0;' %>
             </a>
 
             <br />
