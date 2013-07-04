@@ -1,9 +1,9 @@
 module ApplicationHelper
-  def page_title(title, suffix = t(:title))
-    if title.blank? or title =~ /home/i
-      return suffix
+  def page_title title, suffix = t(:title)
+    if title.blank? || title =~ /home/i
+      suffix
     else
-      return "#{title} - #{suffix}"
+      "#{title} - #{suffix}"
     end
   end
 end

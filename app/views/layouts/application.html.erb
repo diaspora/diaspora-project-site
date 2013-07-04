@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title><%= page_title yield(:page_title) %></title>
+  <title><%= page_title yield :page_title %></title>
 
   <meta charset="utf-8">
   <meta name="shortcut icon" href="/favicon.png">
@@ -16,14 +16,15 @@
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container-fluid">
-          <%= link_to root_url(:subdomain => false), :class => 'brand' do %>
-            <%= image_tag 'logo.png', :alt=> t('title'), :title => t('title'), :id => 'header-logo' %>
+          <%= link_to root_url subdomain: false, class: 'brand' do %>
+            <%= image_tag 'logo.png', alt: t('title'), title: t('title'), id: 'header-logo' %>
           <% end %>
+
           <div id="mainnav" class="pull-right">
             <ul class="nav">
-              <li><%= link_to t('pages.about.menu_title'), about_url(:subdomain => false) %></li>
-              <li><%= link_to t('pages.get_involved.menu_title'), get_involved_url(:subdomain => false) %></li>
-              <li><%= link_to t('pages.blog.menu_title'), blog_index_url(:subdomain => 'blog') %></li>
+              <li><%= link_to t('pages.about.menu_title'), about_url(subdomain: false) %></li>
+              <li><%= link_to t('pages.get_involved.menu_title'), get_involved_url(subdomain: false) %></li>
+              <li><%= link_to t('pages.blog.menu_title'), blog_index_url(subdomain: 'blog') %></li>
               <li><a href="#contact">Wiki</a></li>
               <li><a href="#contact">Planet</a></li>
             </ul>
@@ -33,93 +34,97 @@
         </div>
       </div>
     </div>
+
     <div id="main-container" class="container-fluid">
       <%= yield %>
 
       <div id="pusher"></div>
     </div>
   </div>
+
   <footer>
     <div class="container">
-        <div class="row">
-          <h4>
-              Useful Resources
-            </h4>
-          <ul id="links">
-            <div class="span4">
-              <ul>
-                <li> 
-                            <a href="http://github.com/diaspora/diaspora/" title="Git repository">
-                                Codebase
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://wiki.diasporafoundation.org/" title="Diaspora wiki">
-                                Documentation
-                            </a>
-                        </li>                
-                    </ul>
-            </div>
-            <div class="span4">
-              <ul>
-                <li> 
-                  <a href="http://github.com/diaspora/diaspora/issues" title="Bug tracker">
-                              Find &amp; report bugs
-                            </a>
-                      </li>
-                    </ul>
-                </div>
-            <div class="span4">
-                    <ul>
-                      <li> 
-                            <a href="http://webchat.freenode.net/?channels=diaspora" title="#diaspora">
-                              IRC - General
-                            </a>
-                        </li>
-                <li>
-                          <a href="http://webchat.freenode.net/?channels=diaspora-dev" 
-                            title="#diaspora-dev">
-                              IRC - Development
-                          </a>
-                        </li>
-              </ul>
-            </div>
-            <div class="span4">
-                    <ul>
-                        <li> 
-                            <a 
-                            href="http://groups.google.com/group/diaspora-discuss" 
-                            title="General discussion mailing list">
-                              Discussion - General
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://groups.google.com/group/diaspora-dev" 
-                            title="Dev mailing list">
-                              Discussion - Development
-                            </a>
-                        </li>
-                    </ul>
-            </div>
-          </ul>
+      <div class="row">
+        <h4>
+          Useful Resources
+        </h4>
+        <ul id="links">
+          <div class="span4">
+            <ul>
+              <li> 
+                <a href="http://github.com/diaspora/diaspora/" title="Git repository">
+                  Codebase
+                </a>
+              </li>
+              <li>
+                <a href="http://wiki.diasporafoundation.org/" title="Diaspora wiki">
+                  Documentation
+                </a>
+              </li>                
+            </ul>
+          </div>
+
+          <div class="span4">
+            <ul>
+              <li> 
+                <a href="http://github.com/diaspora/diaspora/issues" title="Bug tracker">
+                  Find &amp; report bugs
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="span4">
+            <ul>
+              <li> 
+                <a href="http://webchat.freenode.net/?channels=diaspora" title="#diaspora">
+                  IRC - General
+                </a>
+              </li>
+              <li>
+                <a href="http://webchat.freenode.net/?channels=diaspora-dev" 
+                   title="#diaspora-dev">
+                  IRC - Development
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="span4">
+            <ul>
+              <li> 
+                <a href="http://groups.google.com/group/diaspora-discuss" 
+                   title="General discussion mailing list">
+                  Discussion - General
+                </a>
+              </li>
+              <li>
+                <a href="http://groups.google.com/group/diaspora-dev" 
+                   title="Dev mailing list">
+                  Discussion - Development
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <br>
+
+        <br />
         
         <div class="row" id="CC-licence">
-            <div class="span16">
-                <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">
-                  <img alt="Creative Commons License" style="border-width: 0pt;" 
-                  src="/assets/80x15.png">
-                </a>
-                <br>
-                  <a href="http://diasporafoundation.org/" property="cc:attributionName" 
-                    rel="cc:attributionURL">
-                        http://DiasporaFoundation.org
-                    </a>
-                    is licensed under a
-                        <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">
-                            Creative Commons Attribution 3.0 Unported License</a>.
-            </div>
+          <div class="span16">
+            <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">
+              <img alt="Creative Commons License" style="border-width: 0pt;" 
+                   src="/assets/80x15.png" />
+            </a>
+
+            <br />
+            <a href="http://diasporafoundation.org/" property="cc:attributionName" 
+               rel="cc:attributionURL">
+              http://DiasporaFoundation.org
+            </a> is licensed under a
+            <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">
+              Creative Commons Attribution 3.0 Unported License
+            </a>.
+          </div>
         </div>
     </div>
   </footer>
