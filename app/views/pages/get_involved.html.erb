@@ -1,30 +1,25 @@
-<%- content_for :page_title do %>
-<%= t 'pages.get_involved.menu_title' %>
-<% end %>
+<% content_for :page_title, t('pages.get_involved.menu_title') %>
+<% content_for :wrapper_class, "get_involved_page" %>
 
 <div class="hero" id="masthead">
   <div class="container">
     <div class="row">
       <h1><%= t 'pages.get_involved.menu_title' %></h1>
       <h2 class="lead"><%= t 'pages.get_involved.byline' %></h2>
-      <br />
     </div>
   </div>
 </div>
 
 <div class="container">
-  <br />&nbsp;
-  <div class="page-header">
+  <div class="page-header minor_top_spacing">
     <h1>
       Community powered <small>Diaspora* belongs to you</small>
     </h1>
   </div>
   <div class="row">
     <div class="span4">
-      <br />&nbsp;<br />&nbsp;
-      <%= image_tag "agpl_logo.jpg", alt: "AGPL logo", size: "200x83" %>
-      <br />&nbsp;<br />&nbsp;
-      <%= image_tag "osi_standard_logo.png", alt: "Osi_standard_logo", size: "166x190" %>
+      <%= image_tag "agpl_logo.jpg", alt: "AGPL logo", size: "200x83", class: "minor_top_spacing" %>
+      <%= image_tag "osi_standard_logo.png", alt: "Osi_standard_logo", size: "166x190", class: "minor_top_spacing" %>
     </div>
     <div class="span12">
       <h4><%= t 'pages.get_involved.meaning' %></h4>
@@ -38,11 +33,8 @@
     </div>
   </div>
 
-  <div id="ways_to_help"></div>
-
-  <br /><br /><br />
-
-  <div class="page-header">
+  <span id="ways_to_help" />
+  <div class="page-header top_spacing">
     <h1><%= t 'pages.get_involved.gi_header' %></h1>
   </div>
   <div class="row" id="code">
@@ -206,26 +198,19 @@
     </div>
   </div>
 
-  <br /><br /><br /><br /><br />
-
-
-  <div class="page-header">
+  <div class="page-header major_top_spacing">
     <h1><%= t 'pages.get_involved.contributors_header' %>
       <small><%= t 'pages.get_involved.contributors_byline' %></small>
     </h1>
   </div>
 
-  <div class="clearfix"><br /></div>
-
-  <div class="row">
+  <div class="row minor_top_spacing">
     <div class="span16">
       <h2>The founders</h2>
     </div>
   </div>
 
-  <div class="clearfix"><br /></div>
-
-  <div class="row">
+  <div class="row minor_top_spacing">
     <div class="span16">
       <div class="row">
         <div class="span8">
@@ -327,9 +312,7 @@
 
   <div class="row"><div class="span16"><h2>Hackers</h2></div></div>
 
-  <div class="clearfix"><br /></div>
-
-  <div class="row">
+  <div class="row minor_top_spacing">
     <div class="span16">
 
       <div class="row">
@@ -510,9 +493,7 @@
     </div>
   </div>
 
-  <div class="clearfix"><br /></div>
-
-  <div class="row">
+  <div class="row minor_top_spacing">
     <div class="span16">
 
       <div class="row">
@@ -572,9 +553,7 @@
     </div>
   </div>
 
-  <div class="clearfix"><br /></div>
-
-  <div class="row">
+  <div class="row minor_top_spacing">
     <div class="span16">
 
       <div class="row">
