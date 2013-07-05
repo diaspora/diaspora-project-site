@@ -1,6 +1,5 @@
-<%- content_for :page_title do %>
-  <%= t 'pages.about.menu_title' %>
-<% end %>
+<% content_for :page_title, t('pages.about.menu_title') %>
+<% content_for :wrapper_class, "about_page" %>
 
 <div class="hero" id="masthead">
   <div class="container">
@@ -12,12 +11,8 @@
   </div>
 </div>
 
-<div id="decent">
-</div>
-
 <div class="container">
-  <br />&nbsp;
-  <div class="row">
+  <div class="row top_spacing">
     <div class="span4">&nbsp;</div>
     <div class="span8">
       <h1><%= t 'pages.about.decentralize' %></h1>
@@ -28,9 +23,7 @@
 
   <hr />
 
-  <div class="clearfix"><br /></div>
-
-  <div class="row">
+  <div class="row top_spacing">
     <div class="span8">
       <h2><%= t 'pages.about.this' %></h2>
     </div>
@@ -39,9 +32,7 @@
     </div>
   </div>
 
-  <div class="clearfix"><br /></div>
-
-  <div class="row">
+  <div class="row minor_top_spacing">
     <div class="span8">
       <%= image_tag "network-distributed.png", alt: "Network-distributed" %>
     </div>
@@ -49,8 +40,8 @@
       <%= image_tag "network-centralized.png", alt: "Network-centralized" %>
     </div>
   </div>
-  <div class="clearfix"><br /></div>
-  <div class="row">
+
+  <div class="row minor_top_spacing">
     <div class="span8">
       <p><%= t 'pages.about.this_ex' %></p>
     </div>
@@ -67,18 +58,13 @@
     </p>
   </div>
 
-  <div class="clearfix"></div>
 
-  <br />&nbsp;<br />&nbsp;
-
-  <div class="page-header">
+  <div class="page-header top_spacing">
     <h1><%= t 'pages.about.connect' %><br /></h1>
     <p><%= t 'pages.about.connect_ex' %></p>
   </div>
 
-  <div class="clearfix"></div>
-
-  <div class="row">
+  <div class="row minor_top_spacing">
     <div class="span2">
       <%= image_tag "search.png", alt: "Search" %>
     </div>
@@ -92,14 +78,11 @@
     <div class="span6">
       <h2><%= t 'pages.about.add' %></h2>
       <p><%= t 'pages.about.add_ex' %></p>
-      <div id="freedom"></div>
-      <br />&nbsp;<br />&nbsp;<br />&nbsp;
     </div>
   </div>
 
-  <br />
-
-  <div class="page-header">
+  <span id="freedom" />
+  <div class="page-header top_spacing">
     <h1><%= t 'pages.about.freedom' %>
       <small><%= t 'pages.about.freedom_byline' %></small>
     </h1>
@@ -122,10 +105,8 @@
     </div>
   </div>
 
-  <div id="privacy"></div>
-  <br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;
-
-  <div class="page-header">
+  <span id="privacy" />
+  <div class="page-header top_spacing">
     <h1>
       <%= t 'pages.about.privacy' %>
       <small><%= t 'pages.about.privacy_byline' %></small>
@@ -152,11 +133,8 @@
     </div>
   </div>
 
-  <div id="aspects"></div>
-
-  <br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;
-
-  <div class="page-header">
+  <span id="aspects" />
+  <div class="page-header top_spacing">
     <h1>
       <%= t 'pages.about.aspects' %>
       <small><%= t 'pages.about.aspects_byline' %></small>
@@ -182,11 +160,8 @@
     </div>
   </div>
 
-  <div id="features"> </div>
-
-  <br /><br /><br /><br /><br />
-
-  <div class="page-header">
+  <span id="features" />
+  <div class="page-header top_spacing">
     <h1>
       <%= t 'pages.about.features' %>
       <small><%= t 'pages.about.features_byline' %></small>
@@ -221,13 +196,8 @@
     </div>
   </div>
 
-  <div id="host"></div>
-
-  <br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;
-
-  <div class="clearfix"><br /></div>
-
-  <div class="page-header">
+  <span id="host" />
+  <div class="page-header top_spacing">
     <h1>
       <%= t 'pages.about.host' %>
       <small><%= t 'pages.about.host_byline' %></small>
