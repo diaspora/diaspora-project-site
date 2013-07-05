@@ -36,7 +36,7 @@
       <p><%= t 'pages.home.decentralization_about' %></p>
 
       <p class="find_out_more">
-        <a href="/about" class="btn primary"><%= t 'pages.home.find_more' %></a>
+        <%= link_to t('pages.home.find_more'), about_path, class: "btn primary" %>
       </p>
     </div>
     <div class="span-one-third">
@@ -44,7 +44,7 @@
       <p><%= t 'pages.home.freedom_about' %></p>
 
       <p class="find_out_more">
-        <a href="/about#freedom" class="btn primary"><%= t 'pages.home.find_more' %></a>
+        <%= link_to t('pages.home.find_more'), about_path(anchor: 'freedom'), class: "btn primary" %>
       </p>
     </div>
     <div class="span-one-third">
@@ -52,7 +52,7 @@
       <p><%= t 'pages.home.privacy_about' %></p>
 
       <p class="find_out_more">
-        <a href="/about#privacy" class="btn primary"><%= t 'pages.home.find_more' %></a>
+        <%= link_to t('pages.home.find_more'), about_path(anchor: 'privacy'), class: "btn primary" %>
       </p>
     </div>
   </div>

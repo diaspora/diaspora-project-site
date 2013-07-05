@@ -4,7 +4,7 @@
   <title><%= page_title yield :page_title %></title>
 
   <meta charset="utf-8">
-  <meta name="shortcut icon" href="/favicon.png">
+  <%= favicon_link_tag "favicon.png" %>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <%= stylesheet_link_tag 'application', :media => 'all' %>
@@ -16,20 +16,20 @@
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container-fluid">
-          <%= link_to root_path(subdomain: false), class: 'brand' do %>
+          <%= link_to root_path, class: 'brand' do %>
             <%= image_tag 'logo.png', alt: t('title'), title: t('title'), id: 'header-logo' %>
           <% end %>
 
           <div id="mainnav" class="pull-right">
             <ul class="nav">
-              <li><%= link_to t('pages.about.menu_title'), about_url(subdomain: false) %></li>
-              <li><%= link_to t('pages.get_involved.menu_title'), get_involved_url(subdomain: false) %></li>
+              <li><%= link_to t('pages.about.menu_title'), about_url %></li>
+              <li><%= link_to t('pages.get_involved.menu_title'), get_involved_url %></li>
               <li><%= link_to t('pages.blog.menu_title'), blog_index_url(subdomain: 'blog') %></li>
               <li><a href="http://wiki.diasporafoundation.org">Wiki</a></li>
               <li><a href="http://planet.diasporafoundation.org">Planet</a></li>
             </ul>
-            <%= link_to "Host yourself", about_path(subdomain: false, anchor: "host"), class: 'btn btn-success' %>
-            <%= link_to "Join Diaspora*", root_path(subdomain: false, anchor: "get_started"), class: 'btn btn-success' %>
+            <%= link_to "Host yourself", about_path(anchor: "host"), class: 'btn btn-success' %>
+            <%= link_to "Join Diaspora*", root_path(anchor: "get_started"), class: 'btn btn-success' %>
           </div>
         </div>
       </div>
