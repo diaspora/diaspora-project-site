@@ -42,7 +42,11 @@
 }
 
 #mainnav.pull-right {
-  margin-top: 15px;
+  margin-top: 12px;
+
+  a.btn {
+    margin-top: 2px;
+  }
 }
 
 .call_to_action {
@@ -336,7 +340,7 @@ section {
   right: 140px; }
 
 #masthead.hero {
-  margin: 0 -20px;
+  margin: -25px -20px -20px;
   background-color: #fcfcfc;
   background-image: -moz-radial-gradient(50% 50%, circle cover, #fcfcfc, #e6e6e6 100%);
   background-image: -webkit-radial-gradient(50% 50%, circle cover, #fcfcfc, #e6e6e6 100%);
