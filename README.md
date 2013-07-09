@@ -1,3 +1,3 @@
 # The Diaspora* Project Site
 
-... blubb ...
+This project is a work-in-progress. Please expect further information soonish.
