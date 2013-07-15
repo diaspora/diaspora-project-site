@@ -4,7 +4,7 @@
   <title><%= page_title yield :page_title %></title>
 
   <meta charset="utf-8">
-  <%= favicon_link_tag "favicon.png" %>
+  <%= favicon_link_tag 'favicon.png' %>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <%= stylesheet_link_tag 'application', :media => 'all' %>
@@ -28,8 +28,8 @@
               <li><a href="http://wiki.diasporafoundation.org">Wiki</a></li>
               <!-- <li><a href="http://planet.diasporafoundation.org">Planet</a></li> -->
             </ul>
-            <%= link_to "Host yourself", about_path(anchor: "host"), class: 'btn btn-success' %>
-            <%= link_to "Join Diaspora*", root_path(anchor: "get_started"), class: 'btn btn-success' %>
+            <%= link_to 'Host yourself', about_path(anchor: 'host'), class: 'btn btn-success' %>
+            <%= link_to 'Join Diaspora*', root_path(anchor: 'get_started'), class: 'btn btn-success' %>
           </div>
         </div>
       </div>
