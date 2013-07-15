@@ -1,18 +1,12 @@
 <% content_for :wrapper_class, "index_page" %>
 
-<div id="masthead" class="hero">
-  <div class="container">
-    <h1><%= t 'pages.home.headline' %></h1>
-    <h2><%= t 'pages.home.welcome_paragraph' %></h2>
-  </div>
+<div id="masthead" class="hero row-fluid span12">
+  <h1><%= t 'pages.home.headline' %></h1>
+  <h2><%= t 'pages.home.welcome_paragraph' %></h2>
 </div>
 
-<div class="container" id="earth_container">
-  <div class="row">
-    <div class="center">
-      <%= image_tag 'earthD2.png', alt: 'Earthd*' %>
-    </div>
-  </div>
+<div class="row-fluid span12 row-centered" id="earth-container">
+  <%= image_tag 'earthD2.png', alt: 'Earthd*' %>
 </div>
 
 <div class="container">

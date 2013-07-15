@@ -12,6 +12,10 @@
   }
 }
 
+.row-centered {
+  text-align: center;
+}
+
 #main-container {
   margin-top: 81px;
 
@@ -21,7 +25,7 @@
 
     text-align: center;
     margin: 0 -20px;
-    padding: 20px 0;
+    padding: 20px;
 
     h1, h2 {
       margin: 0;
@@ -41,5 +45,9 @@
       font-weight: normal;
       line-height: 36px;
     }
+  }
+
+  #earth-container {
+    padding: 40px 0;
   }
 }
