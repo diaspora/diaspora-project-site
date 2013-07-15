@@ -4,7 +4,7 @@
   <title><%= page_title yield :page_title %></title>
 
   <meta charset="utf-8">
-  <%= favicon_link_tag "favicon.png" %>
+  <%= favicon_link_tag 'favicon.png' %>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <%= stylesheet_link_tag 'application', :media => 'all' %>
@@ -28,8 +28,8 @@
               <li><a href="http://wiki.diasporafoundation.org">Wiki</a></li>
               <!-- <li><a href="http://planet.diasporafoundation.org">Planet</a></li> -->
             </ul>
-            <%= link_to "Host yourself", about_path(anchor: "host"), class: 'btn' %>
-            <%= link_to "Join Diaspora*", root_path(anchor: "get_started"), class: 'btn' %>
+            <%= link_to 'Host yourself', about_path(anchor: 'host'), class: 'btn btn-success' %>
+            <%= link_to 'Join Diaspora*', root_path(anchor: 'get_started'), class: 'btn btn-success' %>
           </div>
         </div>
       </div>
@@ -37,92 +37,55 @@
 
     <div id="main-container" class="container-fluid <%= yield :wrapper_class %>">
       <%= yield %>
-
-      <div id="pusher"></div>
     </div>
   </div>
 
-  <footer>
-    <div class="container">
-      <div class="row">
-        <h4>
-          Useful Resources
-        </h4>
-        <div id="links">
-          <div class="span4">
-            <ul>
-              <li>
-                <a href="http://github.com/diaspora/diaspora/" title="Git repository">
-                  Codebase
-                </a>
-              </li>
-              <li>
-                <a href="http://wiki.diasporafoundation.org/" title="Diaspora wiki">
-                  Documentation
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="span4">
-            <ul>
-              <li>
-                <a href="http://github.com/diaspora/diaspora/issues" title="Bug tracker">
-                  Find &amp; report bugs
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="span4">
-            <ul>
-              <li>
-                <a href="http://webchat.freenode.net/?channels=diaspora" title="#diaspora">
-                  IRC - General
-                </a>
-              </li>
-              <li>
-                <a href="http://webchat.freenode.net/?channels=diaspora-dev"
-                   title="#diaspora-dev">
-                  IRC - Development
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="span4">
-            <ul>
-              <li>
-                <a href="http://groups.google.com/group/diaspora-discuss"
-                   title="General discussion mailing list">
-                  Discussion - General
-                </a>
-              </li>
-              <li>
-                <a href="http://groups.google.com/group/diaspora-dev"
-                   title="Dev mailing list">
-                  Discussion - Development
-                </a>
-              </li>
-            </ul>
-          </div>
+  <!-- TODO THE I18N DEVIL IS GOING TO KILL US -->
+  <footer class="container-fluid">
+    <div class="row-fluid">
+      <div class="span12">
+        <div class="page-header page-header-small">
+          <h2><small>Userful resources</small></h2>
         </div>
-
-        <div class="row" id="CC-licence">
-          <div class="span16">
-            <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">
-              <%= image_tag '80x15.png', alt: 'Creative Commons License', style: 'border-width: 0;' %>
-            </a>
-
-            <br />
-            <a href="http://diasporafoundation.org/" property="cc:attributionName"
-               rel="cc:attributionURL">
-              http://DiasporaFoundation.org
-            </a> is licensed under a
-            <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">
-              Creative Commons Attribution 3.0 Unported License
-            </a>.
-          </div>
-        </div>
+      </div>
+    </div>
+    <div class="row-fluid">
+      <div class="span3">
+        <ul class="footer-links">
+          <li><a href="http://github.com/diaspora/diaspora/" title="Git repository">Codebase</a></li>
+          <li><a href="http://wiki.diasporafoundation.org/" title="Diaspora wiki">Documentation</a></li>
+        </ul>
+      </div>
+      <div class="span3">
+        <ul class="footer-links">
+          <li><a href="http://github.com/diaspora/diaspora/issues" title="Bug tracker">Find &amp; report bugs</a></li>
+        </ul>
+      </div>
+      <div class="span3">
+        <ul class="footer-links">
+          <li><a href="http://webchat.freenode.net/?channels=diaspora" title="#diaspora">IRC - General</a></li>
+          <li><a href="http://webchat.freenode.net/?channels=diaspora-dev" title="#diaspora-dev">IRC - Development</a></li>
+        </ul>
+      </div>
+      <div class="span3">
+        <ul class="footer-links">
+          <li><a href="http://groups.google.com/group/diaspora-discuss" title="General discussion mailing list">Discussion - General</a></li>
+          <li><a href="http://groups.google.com/group/diaspora-dev" title="Dev mailing list">Discussion - Development</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row-fluid row-centered">
+      <div class="span12">
+        <p>
+          <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">
+            <%= image_tag '80x15.png', alt: 'Creative Commons License', style: 'border-width: 0;' %>
+          </a>
+          <br />
+          This website is licensed under a
+          <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">
+            Creative Commons Attribution 3.0 Unported License
+          </a>.
+        </p>
       </div>
     </div>
   </footer>

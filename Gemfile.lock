@@ -181,6 +181,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass
   capybara (~> 2.1.0)
   coffee-rails (~> 4.0.0)
   devise (~> 3.0.0.rc)
