@@ -1,3 +1,9 @@
-.navbar .brand {
-  padding: 8px 5px 7px;
+.navbar {
+  .brand {
+    padding: 8px 5px 7px;
+  }
+
+  #mainnav {
+    margin-top: 20px;
+  }
 }
