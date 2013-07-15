@@ -15,6 +15,8 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 
+gem 'bootstrap-sass'
+
 group :development, :test do
   gem 'rspec-rails', '~> 2.13.2'
   gem 'capybara', '~> 2.1.0'
