@@ -9,140 +9,151 @@
   <%= image_tag 'earthD2.png', alt: 'Earthd*' %>
 </div>
 
-<div class="container">
-  <div class="row top_spacing">
-    <h1><%= t 'pages.home.key_philosophies' %></h1>
-  </div>
-  <div class="row">
-    <div class="span-one-third">
-      <%= image_tag 'decentralized-stamp.png', alt: 'Decentralized-stamp' %>
-    </div>
-    <div class="span-one-third">
-      <%= image_tag 'freedom-stamp.png', alt: 'Freedom-stamp' %>
-    </div>
-    <div class="span-one-third">
-      <%= image_tag 'keyhole-stamp.png', alt: 'Keyhole-stamp' %>
+<div class="row-fluid">
+  <div class="span12">
+    <div class="page-header top_spacing" id="get_started">
+      <h1>
+        <%= t 'pages.home.key_philosophies' %>
+      </h1>
     </div>
   </div>
-  <div class="row">
-    <div class="span-one-third">
-      <h2><%= t 'pages.home.decentralization' %></h2>
-      <p><%= t 'pages.home.decentralization_about' %></p>
+</div>
 
-      <p class="find_out_more">
-        <%= link_to t('pages.home.find_more'), about_path, class: 'btn primary' %>
-      </p>
+<div class="row-fluid compare-row">
+  <div class="span4">
+    <%= image_tag 'decentralized-stamp.png', alt: 'Decentralized-stamp' %>
+    <div class="page-header page-header-small">
+      <h2><small><%= t 'pages.home.decentralization' %></small></h2>
     </div>
-    <div class="span-one-third">
-      <h2><%= t 'pages.home.freedom' %></h2>
-      <p><%= t 'pages.home.freedom_about' %></p>
-
-      <p class="find_out_more">
-        <%= link_to t('pages.home.find_more'), about_path(anchor: 'freedom'), class: 'btn primary' %>
-      </p>
+    <p><%= t 'pages.home.decentralization_about' %></p>
+    <p class="find_out_more">
+      <%= link_to t('pages.home.find_more'), about_path, class: 'btn' %>
+    </p>
+  </div>
+  <div class="span4">
+    <%= image_tag 'freedom-stamp.png', alt: 'Freedom-stamp' %>
+    <div class="page-header page-header-small">
+      <h2><small><%= t 'pages.home.freedom' %></small></h2>
     </div>
-    <div class="span-one-third">
-      <h2><%= t 'pages.home.privacy' %></h2>
-      <p><%= t 'pages.home.privacy_about' %></p>
+    <p><%= t 'pages.home.freedom_about' %></p>
+    <p class="find_out_more">
+      <%= link_to t('pages.home.find_more'), about_path(anchor: 'freedom'), class: 'btn' %>
+    </p>
+  </div>
+  <div class="span4">
+    <%= image_tag 'keyhole-stamp.png', alt: 'Keyhole-stamp' %>
+    <div class="page-header page-header-small">
+      <h2><small><%= t 'pages.home.privacy' %></small></h2>
+    </div>
+    <p><%= t 'pages.home.privacy_about' %></p>
+    <p class="find_out_more">
+      <%= link_to t('pages.home.find_more'), about_path(anchor: 'privacy'), class: 'btn' %>
+    </p>
+  </div>
+</div>
 
-      <p class="find_out_more">
-        <%= link_to t('pages.home.find_more'), about_path(anchor: 'privacy'), class: 'btn primary' %>
-      </p>
+<div class="row-fluid">
+  <div class="span12">
+    <div class="page-header top_spacing" id="get_started">
+      <h1>
+        <%= t 'pages.home.get_started' %>
+        <small><%= t 'pages.home.get_started_sub' %></small>
+      </h1>
     </div>
   </div>
+</div>
 
-  <div class="page-header top_spacing" id="get_started">
-    <h1>
-      <%= t 'pages.home.get_started' %>
-      <small><%= t 'pages.home.get_started_sub' %></small>
-    </h1>
+<div class="row-fluid">
+  <div class="span4">
+    <div class="page-header page-header-small">
+      <h2><small><%= t 'pages.home.choose_pod' %></small></h2>
+    </div>
+    <p>
+      <%= t 'pages.home.choose_pod_exp' %>
+      <a href="http://podupti.me/">Pod Uptime</a>.
+    </p>
   </div>
-
-  <div class="row">
-    <div class="span-one-third">
-      <h2><%= t 'pages.home.choose_pod' %></h2>
-      <p>
-        <%= t 'pages.home.choose_pod_exp' %>
-        <a href="http://podupti.me/">Pod Uptime</a>.
-      </p>
+  <div class="span4">
+    <div class="page-header page-header-small">
+      <h2><small><%= t 'pages.home.sign_up' %></small></h2>
     </div>
-    <div class="span-one-third">
-      <h2><%= t 'pages.home.sign_up' %></h2>
-      <p>
-        <%= t 'pages.home.sign_up_ex1' %>
-        <a href="http://podupti.me/">Pod Uptime</a>
-        <%= t 'pages.home.sign_up_ex2' %>
-      </p>
-      <p class="find_out_more">
-        <a href="http://podupti.me/" class="btn primary" data-backdrop="true" data-controls-modal="my-modal">
-          <%= t 'pages.home.register' %>
-        </a>
-      </p>
-    </div>
-    <div class="span-one-third">
-      <h2>
-        <%= t 'pages.home.join_convo' %>
-      </h2>
-      <p>
-        <%= t 'pages.home.join_convo_ex' %>
-      </p>
-    </div>
+    <p>
+      <%= t 'pages.home.sign_up_ex1' %>
+      <a href="http://podupti.me/">Pod Uptime</a>
+      <%= t 'pages.home.sign_up_ex2' %>
+    </p>
+    <p class="find_out_more">
+      <a href="http://podupti.me/" class="btn primary" data-backdrop="true" data-controls-modal="my-modal">
+        <%= t 'pages.home.register' %>
+      </a>
+    </p>
   </div>
-
-  <hr />
-
-  <div class="row top_spacing">
-    <div class="span-one-third">
-      <%= image_tag 'aspects.png', alt: 'Aspects' %>
+  <div class="span4">
+    <div class="page-header page-header-small">
+      <h2><small><%= t 'pages.home.join_convo' %></small></h2>
     </div>
-    <div class="span-one-third">
-      <%= image_tag 'features.png', alt: 'Features' %>
-    </div>
-    <div class="span-one-third">
-      <%= image_tag 'question-stamp.png', alt: 'Ways to help' %>
+    <p>
+      <%= t 'pages.home.join_convo_ex' %>
+    </p>
+  </div>
+</div>
+
+<div class="row-fluid">
+  <div class="span12">
+    <div class="page-header top_spacing" id="get_started">
+      <h1>
+        <%= t 'pages.home.key_features' %>
+      </h1>
     </div>
   </div>
-  <div class="row">
-    <div class="span-one-third">
-      <h2><%= t 'pages.home.aspects' %></h2>
-      <p>
-        <%= t 'pages.home.aspects_ex' %>
-      </p>
-      <p class="find_out_more">
-        <a href="/about#aspects" class="btn primary">
-          <%= t 'pages.home.find_more' %>
-        </a>
-      </p>
-    </div>
-    <div class="span-one-third">
-      <h2><%= t 'pages.home.features' %></h2>
-      <p>
-        <%= t 'pages.home.features_ex' %>
-      </p>
-      <p class="find_out_more">
-        <a href="/about#features" class="btn primary">
-          <%= t 'pages.home.find_more' %>
-        </a>
-      </p>
-    </div>
-    <div class="span-one-third">
-      <h2><%= t 'pages.home.help' %></h2>
-      <p><%= t 'pages.home.help_ex' %></p>
-      <p class="find_out_more">
-        <a href="/get_involved#ways_to_help" class="btn primary">
-          <%= t 'pages.home.find_more' %>
-        </a>
-      </p>
-    </div>
-  </div>
+</div>
 
-  <div class="row top_spacing">
-    <div class="span4">
-      <%= image_tag 'services.png', alt: 'Services' %>
+<div class="row-fluid">
+  <div class="span3">
+    <%= image_tag 'aspects.png', alt: 'Aspects' %>
+    <div class="page-header page-header-small">
+      <h2><small><%= t 'pages.home.aspects' %></small></h2>
     </div>
-    <div class="span12">
-      <h1><%= t 'pages.home.socialint' %></h1>
-      <p><%= t 'pages.home.socialint_ex' %></p>
+    <p>
+      <%= t 'pages.home.aspects_ex' %>
+    </p>
+    <p class="find_out_more">
+      <a href="/about#aspects" class="btn primary">
+        <%= t 'pages.home.find_more' %>
+      </a>
+    </p>
+  </div>
+  <div class="span3">
+    <%= image_tag 'features.png', alt: 'Features' %>
+    <div class="page-header page-header-small">
+      <h2><small><%= t 'pages.home.features' %></small></h2>
     </div>
+    <p>
+      <%= t 'pages.home.features_ex' %>
+    </p>
+    <p class="find_out_more">
+      <a href="/about#features" class="btn primary">
+        <%= t 'pages.home.find_more' %>
+      </a>
+    </p>
+  </div>
+  <div class="span3">
+    <%= image_tag 'question-stamp.png', alt: 'Ways to help' %>
+    <div class="page-header page-header-small">
+      <h2><small><%= t 'pages.home.help' %></small></h2>
+    </div>
+    <p><%= t 'pages.home.help_ex' %></p>
+    <p class="find_out_more">
+      <a href="/get_involved#ways_to_help" class="btn primary">
+        <%= t 'pages.home.find_more' %>
+      </a>
+    </p>
+  </div>
+  <div class="span3">
+    <%= image_tag 'services.png', alt: 'Services' %>
+    <div class="page-header page-header-small">
+      <h2><small><%= t 'pages.home.socialint' %></small></h2>
+    </div>
+    <p><%= t 'pages.home.socialint_ex' %></p>
   </div>
 </div>

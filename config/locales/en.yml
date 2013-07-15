@@ -37,6 +37,7 @@ en:
       help_ex: "Diaspora* needs people to write and test code, welcome and help new members, set up and maintain community pods, and spread the word about the benefits of Diaspora* to others who might want to take part. Think you'd like to contribute to the project?"
       socialint: "Social network integration"
       socialint_ex: "Diaspora* lets you stay connected with your friends, even if they're not yet on Diaspora*. Simply connect your account to other major services, then use Diaspora* as your home base to post to your profiles on these other services too. Diaspora* currently supports cross-posting to your Facebook, Twitter, and Tumblr accounts, with more to come soon. "
+      key_features: "Diaspora*s key features"
     about:
       headline: 'How does Diaspora* work?'
       byline: "Diaspora* is simple to use. Here's how."
@@ -136,7 +137,7 @@ en:
       voice_ex1: "Our project is run entirely by community volunteers. We use a tool called Loomio to gauge how our contributors feel about ideas and proposals for the project. "
       voice_ex2: "Join us there."
       voice_ex3: "Persuade your friends and family to join Diaspora* by organizing your own real-life Diaspora* "
-      voice_ex4: "meetup" 
+      voice_ex4: "meetup"
       voice_ex5: "in your own community."
       support_header: "Provide support"
       support_ex1: "Help new users feel welcome!"

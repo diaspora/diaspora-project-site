@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import "bootstrap-responsive";
 
 .navbar {
   @include box-shadow(0 0 7px #888);
@@ -14,6 +15,21 @@
 
 .row-centered {
   text-align: center;
+}
+
+.page-header {
+  margin: 40px 0 40px;
+
+  &.page-header-small {
+    margin: 10px 0;
+    padding-bottom: 0;
+  }
+
+  h2 {
+    small {
+      color: #333;
+    }
+  }
 }
 
 #main-container {
@@ -48,6 +64,22 @@
   }
 
   #earth-container {
-    padding: 40px 0;
+    padding: 40px 0 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  #main-container {
+    margin-top: -20px;
+  }
+}
+
+@media (max-width: 767px) {
+  #main-container {
+    margin-top: -20px;
+
+    #masthead {
+      display: block;
+    }
   }
 }
