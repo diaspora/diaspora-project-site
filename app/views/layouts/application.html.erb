@@ -17,7 +17,7 @@
       <div class="navbar-inner">
         <div class="container-fluid">
           <%= link_to root_path, class: 'brand' do %>
-            <%= image_tag 'logo.png', alt: t('title'), title: t('title'), id: 'header-logo' %>
+            <%= image_tag 'logo.png', alt: t('title'), title: t('title'), id: 'header-logo', height: '65', width: '228' %>
           <% end %>
 
           <div id="mainnav" class="pull-right">
@@ -26,10 +26,11 @@
               <li><%= link_to t('pages.get_involved.menu_title'), get_involved_url %></li>
               <!-- <li><%= link_to t('pages.blog.menu_title'), blog_index_url(subdomain: 'blog') %></li> -->
               <li><a href="http://wiki.diasporafoundation.org">Wiki</a></li>
+              <!-- <li><%= link_to t('pages.tutorials.menu_title'), tutorials_url %></li> -->
               <!-- <li><a href="http://planet.diasporafoundation.org">Planet</a></li> -->
             </ul>
-            <%= link_to "Host yourself", about_path(anchor: "host"), class: 'btn' %>
-            <%= link_to "Join Diaspora*", root_path(anchor: "get_started"), class: 'btn' %>
+            <%= link_to t('buttons.host_pod'), about_path(anchor: "host"), class: 'btn primary' %> 
+            <%= link_to t('buttons.join_diaspora'), root_path(anchor: "get_started"), class: 'btn success' %>
           </div>
         </div>
       </div>
