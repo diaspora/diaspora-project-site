@@ -24,7 +24,6 @@
     header nav a {
       color: #ddd;
       font-size: 14px;
-      text-transform: uppercase;
       text-decoration: none;
       padding: 5px 8px; }
       header nav a:hover {
@@ -43,6 +42,10 @@
 
 #mainnav.pull-right {
   margin-top: 12px;
+  
+  ul.nav {
+  	text-transform: lowercase; 
+  }
 
   a.btn {
     margin-top: 2px;
