@@ -45,11 +45,11 @@
   <footer>
     <div class="container">
       <div class="row">
-        <h4>
-          Useful Resources
-        </h4>
-        <div id="links">
-          <div class="span4">
+        <div class="span10" id="links">
+          <h4>
+            Useful Resources
+          </h4>
+          <div class="span3">
             <ul>
               <li>
                 <a href="http://github.com/diaspora/diaspora/" title="Git repository">
@@ -61,11 +61,6 @@
                   Documentation
                 </a>
               </li>
-            </ul>
-          </div>
-
-          <div class="span4">
-            <ul>
               <li>
                 <a href="http://github.com/diaspora/diaspora/issues" title="Bug tracker">
                   Find &amp; report bugs
@@ -73,7 +68,8 @@
               </li>
             </ul>
           </div>
-          <div class="span4">
+
+          <div class="span3">
             <ul>
               <li>
                 <a href="http://webchat.freenode.net/?channels=diaspora" title="#diaspora">
@@ -89,7 +85,7 @@
             </ul>
           </div>
 
-          <div class="span4">
+          <div class="span3">
             <ul>
               <li>
                 <a href="http://groups.google.com/group/diaspora-discuss"
@@ -107,16 +103,26 @@
           </div>
         </div>
 
+        <div id="locale-switcher" class="span4">
+          <div class="btn-group">
+            <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+              <%= t ".choose_language" %>
+            </a>
+
+            <ul class="dropdown-menu">
+              <%= locale_switcher_entries %>
+            </ul>
+          </div>
+        </div>
+
         <div class="row" id="CC-licence">
           <div class="span16">
             <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">
-              <%= image_tag '80x15.png', alt: 'Creative Commons License', style: 'border-width: 0;' %>
+              <%= image_tag '80x15.png', alt: 'Creative Commons License' %>
             </a>
-
-            <br />
-            <a href="http://diasporafoundation.org/" property="cc:attributionName"
+            <a href="https://diasporafoundation.org/" property="cc:attributionName"
                rel="cc:attributionURL">
-              http://DiasporaFoundation.org
+              diasporafoundation.org
             </a> is licensed under a
             <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">
               Creative Commons Attribution 3.0 Unported License
