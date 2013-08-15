@@ -6,7 +6,7 @@ gem 'unicorn'
 
 gem 'mysql2'
 
-gem 'devise', '~> 3.0.0.rc'
+gem 'devise', '~> 3.0.0'
 gem 'rails_admin'
 
 gem 'sass-rails', '~> 4.0.0'
@@ -16,7 +16,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 
 group :development, :test do
-  gem 'rspec-rails', '~> 2.13.2'
+  gem 'rspec-rails', '~> 2.14.0'
   gem 'capybara', '~> 2.1.0'
 
   gem 'fuubar', '~> 1.1.1'
