@@ -42,9 +42,9 @@
 
 #mainnav.pull-right {
   margin-top: 12px;
-  
+
   ul.nav {
-  	text-transform: lowercase; 
+  	text-transform: lowercase;
   }
 
   a.btn {
@@ -378,13 +378,69 @@ section {
   color: #666;
   text-shadow: 0 0px 3px #fff; }
 
+#locale-switcher {
+  text-align: right;
+  border-left: 1px solid #eee;
+  height: 5em;
+
+  ul {
+    text-align: left;
+
+    .current a {
+      font-weight: bold;
+    }
+  }
+
+  // Hacks to make it work with the f*cked up bootstrap
+  .dropdown-toggle:after {
+    content:'';
+    border-top-color: black;
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    list-style: none;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+  }
+
+  .btn-group {
+    position: relative;
+    display: inline-block;
+  }
+  .open {
+    & > .dropdown-menu {
+      display: block;
+    }
+  }
+}
+
 #CC-licence {
-  margin: 4em 0;
+  margin: 12em 0 3em 0;
   text-align: center;
-  font-size: 10px; }
-  #CC-licence span {
+  font-size: 10px;
+
+  img {
+    border: 0;
+    margin: 0 10px;
+    vertical-align: middle;
+  }
+
+  span {
     font-size: 10px;
-    color: #666; }
-  #CC-licence a {
+    color: #666;
+  }
+
+  a {
     font-size: 10px;
-    color: #666; }
+    color: #666;
+  }
+}

@@ -1,62 +1,83 @@
 en:
   buttons:
-    host_pod: 'Host a pod'
-    join_diaspora: 'Join us!'
+    host_pod: "Host a pod"
+    join_diaspora: "Join us!"
+    find_more: "Find out more »"
   meta:
     footer:
-      copyleft: 'CC-BY The diaspora* Foundation'
-  title: 'The diaspora* Project'
+      copyleft: "CC-BY The diaspora* Foundation"
+  title: "The diaspora* Project"
+  layouts:
+    application:
+      wiki: "Wiki"
+      planet: "Planet"
+      useful_resources: "Useful Resources"
+      codebase: "Codebase"
+      documentation: "Documentation"
+      report_bugs: "Find & report bugs"
+      irc_general: "IRC - General"
+      irc_development: "IRC - Development"
+      discussion_general: "Discussion - General"
+      discussion_development: "Discussion - Development"
+      choose_language: "Choose language"
+      cc_license_alt: "Creative Commons License"
+      licensed_under: "%{site_link} is licensed under a %{license_link}"
+      license_link_text: "Creative Commons Attribution 3.0 Unported License"
 
   pages:
-    home:
-      headline: 'Welcome to diaspora*'
-      byline: 'The online social world where you are in control.'
-      find_more: "Find out more »"
+    index:
+      headline: "Welcome to diaspora*"
+      byline: "The online social world where you are in control."
       register: "Sign up »"
-      key_philosophies: 'diaspora* is based on three key philosophies:'
-      decentralization: 'Decentralization'
-      decentralization_about: 'Instead of everyone’s data being contained on huge central servers owned by a large organization, local servers (‘pods’) can be set up anywhere in the world. You choose which pod to register with - perhaps your local pod - and seamlessly connect with the diaspora* community worldwide.'
-      freedom: 'Freedom'
+      key_philosophies: "diaspora* is based on three key philosophies:"
+      decentralization: Decentralization
+      decentralization_about: "Instead of everyone’s data being contained on huge central servers owned by a large organization, local servers (‘pods’) can be set up anywhere in the world. You choose which pod to register with - perhaps your local pod - and seamlessly connect with the diaspora* community worldwide."
+      freedom: Freedom
       freedom_about: "You can be whoever you want to be in diaspora*. Unlike some networks, you don't have to use your real identity. You can interact with whomever you choose in whatever way you want. The only limit is your imagination. diaspora* is also Free Software, giving you liberty to use it as you wish."
-      privacy: 'Privacy'
+      privacy: Privacy
       privacy_about: "In diaspora* you own your data. You do not sign over any rights to a corporation or other interest who could use it. With diaspora*, your friends, your habits, and your content is your business...not ours! In addition, you choose who sees what you share, using Aspects."
-      get_started: 'Want to get started?'
+      get_started: "Want to get started?"
       get_started_sub: "It's as easy as 1, 2, 3 ..."
       choose_pod: "1. Choose a pod"
-      choose_pod_exp: "Find a pod that suits you. You might prefer a smaller pod, or one based near where you live, or one based in a country that you know has good data security policies. The choice is yours! Choose from among our community pods, rated at "
+      choose_pod_exp: "Find a pod that suits you. You might prefer a smaller pod, or one based near where you live, or one based in a country that you know has good data security policies. The choice is yours! Choose from among our community pods, rated at %{poduptime}."
       sign_up: "2. Sign up"
-      sign_up_ex1: "Once you've decided which pod is right for you, based on the ratings and information at "
-      sign_up_ex2: "and maybe recommendations from people you trust, sign up there and create a profile with as much or as little personal information as you like. You are in control about how much you share."
+      sign_up_ex: "Once you've decided which pod is right for you, based on the ratings and information at %{poduptime} and maybe recommendations from people you trust, sign up there and create a profile with as much or as little personal information as you like. You are in control about how much you share."
       join_convo: "3. Join the conversation!"
       join_convo_ex: "Start following some #tags related to your interests: it could be #music, #photography, #privacy or #linux - whatever you're into. Post a message with the #newhere tag to introduce yourself, and away you go. You're now part of the vibrant diaspora* community."
-      aspects: "Aspects"
+      aspects: Aspects
       aspects_ex: "diaspora* pioneered the concept of aspects, which enables you to organise your contacts according to their role in your life. This means you can share something just with family members or work colleagues, knowing that no one you don't want to will be able to see what you post."
-      features: "Features"
+      features: Features
       features_ex: "Hashtags give you the freedom to label and follow your interests with ease. You can catch people's attention by @mentioning them. Reshare posts you love so others can enjoy and comment on them too. And show your love for other people's work by ♥ing it."
       help: "Want to help?"
       help_ex: "diaspora* needs people to write and test code, welcome and help new members, set up and maintain community pods, and spread the word about the benefits of diaspora* to others who might want to take part. Think you'd like to contribute to the project?"
       socialint: "Social network integration"
       socialint_ex: "diaspora* lets you stay connected with your friends, even if they're not yet on diaspora*. Simply connect your account to other major services, then use diaspora* as your home base to post to your profiles on these other services too. diaspora* currently supports cross-posting to your Facebook, Twitter, and Tumblr accounts, with more to come soon. "
+      earth_alt: "Earthd*"
+      decentralized_alt: "Decentralized"
+      freedom_alt: "Freedom"
+      keyhole_alt: "Keyhole"
+      aspects_alt: "Aspects"
+      features_alt: "Features"
+      ways_to_help_alt: "Ways to help"
+      services_alt: "Services"
     about:
-      headline: 'How does diaspora* work?'
+      headline: "How does diaspora* work?"
       byline: "diaspora* is simple to use. Here's how."
-      menu_title: 'About'
+      menu_title: About
       decentralize: "What is decentralization?"
       decentralize_ex: "diaspora* is completely different from most networks that you use. It is completely decentralized, with no central 'hub'. Even so, it's very easy to connect and communicate with people. Here's how."
-      this: "THIS"
+      this: THIS
       this_ex: "diaspora* is a true network, with no central base. There are servers (‘pods’) all over the world, each containing the data of those users who have chosen to register with it. These pods communicate with each other seamlessly, so that you can register with any pod and communicate freely with your contacts, wherever they are on the network."
       notthis: "NOT THIS"
       notthis_ex: "Most social networks are run from centralized servers owned and run by a corporation. These store all the private data of their users. This information can be lost or hacked, and like any system with a bottleneck, any problem at the central servers can make the whole network run very slowly, or not at all. It is also more easy for governments to 'listen in'."
-      discl1: "(diaspora* uses open web standards such as "
-      discl2: " and "
-      discl3: " to make this kind of connection possible.) "
+      discl: "(diaspora* uses open web standards such as %{pubsubhubub} and %{webfinger} to make this kind of connection possible.)"
       connect: "How do I connect?"
       connect_ex: "Even though diaspora* is made up of many pods all over the world, you will experience it as one integrated network. You don't need to be on the same pod as your contacts in order to communicate freely with each other - communication happens seamlessly across all the pods in the diaspora* universe. When you're using diaspora*, you can easily forget that it's actually made up of many pods. Connecting with someone in diaspora* is actually really simple: "
       find: "1. Find them"
       find_ex: "All you need to do to connect to someone is find them and add them to an aspect. (See below for more on aspects.) Find them using the search field in the black bar, or hover over their name in your stream and a hovercard will appear. If you know their diaspora* ID (yourname@podname.com), you can use that."
       add: "2. Add them"
       add_ex: "Then it's just a matter of clicking the 'Add contact' button and choose which aspect you want them to be part of. You're now connected and can share with them as you would on any other network. Or, if they're part of different aspects of your life, add them to multiple aspects. You're now connected. It's as easy as that. "
-      freedom: "Freedom"
+      freedom: Freedom
       freedom_byline: "diaspora* doesn't try to limit you"
       fdm1: "Be who you want to be"
       fdm1_ex: "A lot of networks insist that you use your real identity. Not diaspora*. Here you can choose who you want to be, and share as much or as little about yourself as you want. It really is up to you how you want to interact with other people."
@@ -64,7 +85,7 @@ en:
       fdm2_ex: "You're not limited to how you can interact. You can just follow fascinating people to see what they have to say, or you can share world with everyone. Share your photos, artwork, videos, music, words - whatever you want. Let yourself fly."
       fdm3: "Free as in freedom"
       fdm3_ex: "diaspora* is completely Free Software. This means there are no limits on how it can be used. You can even take the source code and change it to make it work in the way you want to, and help us improve the network. We'd love to have you on board."
-      privacy: "Privacy"
+      privacy: Privacy
       privacy_byline: "Total control over what is yours "
       priv1: "Own your own data"
       priv1_ex: "Many networks use your data to make money by analysing your interactions and using this information to advertise things to you. diaspora* doesn't use your data for any purpose other than allowing you to connect and share with others."
@@ -82,25 +103,32 @@ en:
       asp3_ex: "Of course, some things are so important that you want to tell the whole world about them. You can easily share something with the whole world by making it public. Using appropriate hashtags means it'll reach people who are likely to enjoy it."
       features: "Features our community loves"
       features_byline: "We think you'll love 'em too"
-      hashtags: "Hashtags"
+      hashtags: Hashtags
       hashtags_ex: "Hashtags allow you to flag and follow your interests, and help your posts reach like-minded people. They're also a great way to meet fun and interesting new people on diaspora*."
-      reshare: "Reshare"
+      reshare: Reshare
       reshare_ex: "Why not reshare a post you love with others? diaspora* makes it easy to spread ideas via reshare. Just press the button to share the message."
-      mentions: "Mentions"
+      mentions: Mentions
       mentions_ex: "Want to get someone's attention? Just @mention them! It's an easy way to alert one of your contacts to something you think they need to know about."
-      love: "Love"
+      love: Love
       love_ex: "Show your appreciation for something you love by ♥ing it. Because sometimes words just aren't enough to say what you feel."
       host: "Host a community pod"
       host_byline: "Be one of diaspora*'s stars"
       host_ex: "diaspora* depends on its community members to host and run pods which are open to anyone who wants to take part. If you have some server space and a little bit of technical knowledge, we'd love it if you'd set up a community pod. The more pods, the better diaspora* works - be part of the future of the decentralized social web!"
-      hostinst1: "Read the "
-      hostinst2: "Pod installation instructions"
-      hostinst3: "and set up your own community pod."
-      hostinst4: "View a list of community pods at "
+      hostinst1: "Read the %{instructions_link} and set up your own community pod."
+      instructions_link_text: "Pod installation instructions"
+      hostinst2: "View a list of community pods at %{poduptime}"
+      distributed_network: "Distriuted network"
+      centralibzed_network: "Centralized network"
+      search_alt: "Search"
+      add_a_contact_alt: "Add a contact"
+      hashtag_alt: "Hashtag"
+      reshare_alt: "Reshare"
+      mention_alt: "Mention"
+      heart_alt: "Heart"
     get_involved:
-      headline: 'Get involved!'
+      headline: "Get involved!"
       byline: "The future of the social web starts with you"
-      menu_title: 'Get involved'
+      menu_title: "Get involved"
       community: "Community powered"
       community_byline: "diaspora* belongs to you"
       meaning: "What does it all mean?"
@@ -113,56 +141,51 @@ en:
       gi_header: "Ways to get involved with diaspora*"
       code_header: "Contribute code"
       code_byline: "Grabbing the source code is simple."
-      code_ex1: "Clone the repository and poke around: "
+      code_ex1: "Clone the repository and poke around: %{clone_code}"
       code_ex2: "Install your development environment"
       code_ex3: "Start contributing code!"
-      code_ex4: "We've got a large community ready to help you get started. We suggest you check out our "
-      code_ex5: "Getting started guide"
-      code_ex6: "join our mailing list"
-      code_ex7: "and come and meet us in the "
-      code_ex8: "diaspora* IRC room"
+      code_ex4: "We've got a large community ready to help you get started. We suggest you check out our %{get_started_guide_link}, %{mailing_list_link} and come and meet us in the %{irc_link}."
+      get_started_guide_link_text: "Getting started guide"
+      mailing_list_link_text: "join our mailing list"
+      irc_link_text: "diaspora* IRC room"
       code_gh: "View the source on GitHub"
       bugs_header: "Squash bugs"
       bugs_ex1: "Our project makes use of Code Triage, a volunteer service where users and developers can work together to tackle bugs in our GitHub Issue Tracker."
       bugs_ex2: "Squashing small bugs helps everyone, and it can give a newcomer a better working knowledge of how parts of diaspora* works."
       bugs_ex3: "Help us clean up our code"
       translate_header: "Help translate"
-      translate_ex1: "You can help translate diaspora* into other languages by joining the "
-      translate_ex2: "Translations Group"
-      translate_ex3: "Read our "
-      translate_ex4: "translation instructions "
-      translate_ex5: "on how to get started."
+      translate_ex1: "You can help translate diaspora* into other languages by joining the %{translations_link}."
+      translations_link_text: "Translations Group"
+      translate_ex2: "Read our %{translation_instructions_link} on how to get started."
+      translation_instructions_link_text: "translation instructions "
       voice_header: "Provide your voice"
       voice_ex1: "Our project is run entirely by community volunteers. We use a tool called Loomio to gauge how our contributors feel about ideas and proposals for the project. "
       voice_ex2: "Join us there"
-      voice_ex3: "Persuade your friends and family to join diaspora* by organizing your own real-life diaspora* "
-      voice_ex4: "meetup " 
-      voice_ex5: "in your own community."
+      voice_ex3: "Persuade your friends and family to join diaspora* by organizing your own real-life diaspora* %{meetup_link} in your own community."
+      meetup_link_text: "meetup "
       support_header: "Provide support"
       support_ex1: "Help new users feel welcome!"
       support_ex2: "Sign up here"
-      support_ex3: "Write user tutorials at "
-      support_ex4: "Diasporial"
-      support_ex5: "Answer users' questions on our "
-      support_ex6: " IRC channel "
-      support_ex7: "or answer users' questions on diaspora* itself by following the #help, #question and #feedback hashtags."
-      support_ex8: "Contribute to "
-      support_ex9: "diaspora*'s wiki"
+      support_ex3: "Write user tutorials at %{diasporial_link}."
+      support_ex4: "Answer users' questions on our %{irc_channel_link} or answer users' questions on diaspora* itself by following the #help, #question and #feedback hashtags."
+      irc_channel_link_text: "IRC channel"
+      support_ex5: "Contribute to %{wiki_link}."
+      wiki_link_text: "diaspora*'s wiki"
       run_header: "Run a community pod"
-      run_ex1: "Now you don't have to settle for having your data on someone else's server. Since diaspora* is completely free software, we're constantly making it easier for individuals to "
-      run_ex2: "host their own pods on diaspora*"
-      run_ex3: "You can host it wherever you want."
-      run_ex4: "Add your pod to the list of community pods at "
+      run_ex1: "Now you don't have to settle for having your data on someone else's server. Since diaspora* is completely free software, we're constantly making it easier for individuals to %{host_pod_link}."
+      host_pod_link_text: "host their own pods on diaspora*"
+      run_ex2: "You can host it wherever you want."
+      run_ex3: "Add your pod to the list of community pods at "
       contributors_header: "diaspora*'s contributors"
       contributors_byline: "The people who make diaspora* what it is"
+      globe_alt: "Globe"
+      megaphone_alt: "Megaphone"
+      support_alt: "Support"
+      pod_alt: "Pod"
     blog:
-      headline: 'The diaspora* blog'
-      subline: 'official announcements'
-      menu_title: 'Blog'
+      headline: "The diaspora* blog"
+      subline: "official announcements"
+      menu_title: Blog
     planet:
-      headline: 'Planet'
-      menu_title: 'Planet'
-      
-      
-      
-
+      headline: Planet
+      menu_title: Planet
