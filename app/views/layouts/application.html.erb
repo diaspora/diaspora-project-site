@@ -25,8 +25,8 @@
               <li><%= link_to t('pages.about.menu_title'), about_url %></li>
               <li><%= link_to t('pages.get_involved.menu_title'), get_involved_url %></li>
               <!-- <li><%= link_to t('pages.blog.menu_title'), blog_index_url(subdomain: 'blog') %></li> -->
-              <li><a href="http://wiki.diasporafoundation.org">Wiki</a></li>
-              <!-- <li><a href="http://planet.diasporafoundation.org">Planet</a></li> -->
+              <li><%= link_to t('.wiki'), 'https://wiki.diasporafoundation.org' %></li>
+              <!-- <li><%= link_to t('.planet'), 'http://planet.diasporafoundation.org' %></li> -->
             </ul>
             <%= link_to t('buttons.host_pod'), about_path(anchor: "host"), class: 'btn primary' %>
             <%= link_to t('buttons.join_diaspora'), root_path(anchor: "get_started"), class: 'btn success' %>
@@ -47,23 +47,23 @@
       <div class="row">
         <div class="span10" id="links">
           <h4>
-            Useful Resources
+            <%= t '.useful_resources' %>
           </h4>
           <div class="span3">
             <ul>
               <li>
                 <a href="http://github.com/diaspora/diaspora/" title="Git repository">
-                  Codebase
+                  <%= t '.codebase' %>
                 </a>
               </li>
               <li>
-                <a href="http://wiki.diasporafoundation.org/" title="Diaspora wiki">
-                  Documentation
+                <a href="https://wiki.diasporafoundation.org/" title="Diaspora wiki">
+                  <%= t '.documentation' %>
                 </a>
               </li>
               <li>
                 <a href="http://github.com/diaspora/diaspora/issues" title="Bug tracker">
-                  Find &amp; report bugs
+                  <%= t '.report_bugs' %>
                 </a>
               </li>
             </ul>
@@ -73,13 +73,13 @@
             <ul>
               <li>
                 <a href="http://webchat.freenode.net/?channels=diaspora" title="#diaspora">
-                  IRC - General
+                  <%= t '.irc_general' %>
                 </a>
               </li>
               <li>
                 <a href="http://webchat.freenode.net/?channels=diaspora-dev"
                    title="#diaspora-dev">
-                  IRC - Development
+                  <%= t '.irc_development' %>
                 </a>
               </li>
             </ul>
@@ -90,13 +90,13 @@
               <li>
                 <a href="http://groups.google.com/group/diaspora-discuss"
                    title="General discussion mailing list">
-                  Discussion - General
+                  <%= t '.discussion_general' %>
                 </a>
               </li>
               <li>
                 <a href="http://groups.google.com/group/diaspora-dev"
                    title="Dev mailing list">
-                  Discussion - Development
+                  <%= t '.discussion_development' %>
                 </a>
               </li>
             </ul>
@@ -106,7 +106,7 @@
         <div id="locale-switcher" class="span4">
           <div class="btn-group">
             <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-              <%= t ".choose_language" %>
+              <%= t '.choose_language' %>
             </a>
 
             <ul class="dropdown-menu">
@@ -118,15 +118,16 @@
         <div class="row" id="CC-licence">
           <div class="span16">
             <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">
-              <%= image_tag '80x15.png', alt: 'Creative Commons License' %>
+              <%= image_tag '80x15.png', alt: t('.cc_license_alt') %>
             </a>
+            <%= t('.licensed_under', site_link: '
             <a href="https://diasporafoundation.org/" property="cc:attributionName"
                rel="cc:attributionURL">
               diasporafoundation.org
-            </a> is licensed under a
+            </a>', license_link: %Q{
             <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">
-              Creative Commons Attribution 3.0 Unported License
-            </a>.
+              #{t('.license_link_text')}
+            </a>.}).html_safe %>
           </div>
         </div>
       </div>

@@ -1,11 +1,11 @@
-<% content_for :page_title, t('pages.get_involved.menu_title') %>
+<% content_for :page_title, t('.menu_title') %>
 <% content_for :wrapper_class, "get_involved_page" %>
 
 <div class="hero" id="masthead">
   <div class="container">
     <div class="row">
-      <h1><%= t 'pages.get_involved.menu_title' %></h1>
-      <h2 class="lead"><%= t 'pages.get_involved.byline' %></h2>
+      <h1><%= t '.menu_title' %></h1>
+      <h2 class="lead"><%= t '.byline' %></h2>
     </div>
   </div>
 </div>
@@ -23,56 +23,50 @@
       <%= image_tag "osi_standard_logo.png", alt: "Osi_standard_logo", size: "166x190", class: "minor_top_spacing" %>
     </div>
     <div class="span12">
-      <h4><%= t 'pages.get_involved.meaning' %></h4>
-      <p><%= t 'pages.get_involved.meaning_ex1' %></p>
-      <p><%= t 'pages.get_involved.meaning_ex2' %></p>
-      <p><%= t 'pages.get_involved.meaning_ex3' %></p>
+      <h4><%= t '.meaning' %></h4>
+      <p><%= t '.meaning_ex1' %></p>
+      <p><%= t '.meaning_ex2' %></p>
+      <p><%= t '.meaning_ex3' %></p>
 
-      <h4><%= t 'pages.get_involved.whereyou' %></h4>
-      <p><%= t 'pages.get_involved.whereyou_ex1' %></p>
-      <p><%= t 'pages.get_involved.whereyou_ex2' %></p>
+      <h4><%= t '.whereyou' %></h4>
+      <p><%= t '.whereyou_ex1' %></p>
+      <p><%= t '.whereyou_ex2' %></p>
     </div>
   </div>
 
   <div id="ways_to_help" class="page-header top_spacing">
-    <h1><%= t 'pages.get_involved.gi_header' %></h1>
+    <h1><%= t '.gi_header' %></h1>
   </div>
   <div class="row" id="code">
     <div class="span4"><%= image_tag "octocats.png", alt: "Octocats" %></div>
     <div class="span12">
-      <h4><%= t 'pages.get_involved.code_header' %>
-        <small><%= t 'pages.get_involved.code_byline' %></small>
+      <h4><%= t '.code_header' %>
+        <small><%= t '.code_byline' %></small>
       </h4>
       <ol>
         <li>
-          <%= t 'pages.get_involved.code_ex1' %>
-          <code>git clone git://github.com/diaspora/diaspora.git</code>
+          <%= t('.code_ex1', clone_code: content_tag(:code, 'git clone git://github.com/diaspora/diaspora.git')).html_safe %>
         </li>
         <li>
-          <a href="http://wiki.diasporafoundation.org/Installation_guides">
-            <%= t 'pages.get_involved.code_ex2' %></a>.
+          <a href="https://wiki.diasporafoundation.org/Installation_guides">
+            <%= t '.code_ex2' %></a>.
         </li>
-        <li><%= t 'pages.get_involved.code_ex3' %></li>
+        <li><%= t '.code_ex3' %></li>
       </ol>
       <div class="row">
         <div class="span6">
           <p>
-            <%= t 'pages.get_involved.code_ex4' %>
-            <a href="http://wiki.diasporafoundation.org/Getting_Started_With_Contributing">
-              <%= t 'pages.get_involved.code_ex5' %>,
-            </a>
-            <a href="http://groups.google.com/group/diaspora-dev">
-              <%= t 'pages.get_involved.code_ex6' %>,
-            </a>
-            <%= t 'pages.get_involved.code_ex7' %>
-            <a href="http://webchat.freenode.net/?channels=diaspora-dev">
-              <%= t 'pages.get_involved.code_ex8' %></a>.
+            <%= t('.code_ex4',
+              get_started_guide_link: link_to(t('.get_started_guide_link_text'), 'https://wiki.diasporafoundation.org/Getting_Started_With_Contributing'),
+              mailing_list_link: link_to(t('.mailing_list_link_text'), 'http://groups.google.com/group/diaspora-dev'),
+              irc_link: link_to(t('.irc_link_text'), 'http://webchat.freenode.net/?channels=diaspora-dev')
+              ).html_safe %>
           </p>
         </div>
         <div class="span6">
           <p>
             <a href="https://github.com/diaspora/diaspora" class="btn primary">
-              <%= t 'pages.get_involved.code_gh' %>
+              <%= t '.code_gh' %>
             </a>
           </p>
         </div>
@@ -83,107 +77,86 @@
   <hr />
 
   <div class="row" id="bugs">
-    <div class="span4"><%= image_tag "tick.png", alt: "Globe" %></div>
+    <div class="span4"><%= image_tag "tick.png", alt: t('.globe_alt') %></div>
     <div class="span12">
-      <h4><%= t 'pages.get_involved.bugs_header' %></h4>
+      <h4><%= t '.bugs_header' %></h4>
       <ul>
-        <li><%= t 'pages.get_involved.bugs_ex1' %></li>
+        <li><%= t '.bugs_ex1' %></li>
         <li>
-          <%= t 'pages.get_involved.bugs_ex2' %>
+          <%= t '.bugs_ex2' %>
           <a href="http://www.codetriage.com/diaspora/diaspora">
-            <%= t 'pages.get_involved.bugs_ex3' %></a>.
+            <%= t '.bugs_ex3' %></a>.
         </li>
       </ul>
     </div>
   </div>
 
   <div class="row" id="translate">
-    <div class="span4"><%= image_tag "globe.png", alt: "Globe" %></div>
+    <div class="span4"><%= image_tag "globe.png", alt: t('.globe_alt') %></div>
     <div class="span12">
-      <h4><%= t 'pages.get_involved.translate_header' %></h4>
+      <h4><%= t '.translate_header' %></h4>
       <ul>
         <li>
-          <%= t 'pages.get_involved.translate_ex1' %>
-          <a href="https://webtranslateit.com/en/projects/3020-Diaspora">
-            <%= t 'pages.get_involved.translate_ex2' %></a>.
+          <%= t('.translate_ex1', translations_link: link_to(t('.translations_link_text'), 'https://webtranslateit.com/en/projects/3020-Diaspora')).html_safe %>
         </li>
         <li>
-          <%= t 'pages.get_involved.translate_ex3' %>
-          <a href="http://wiki.diasporafoundation.org/Contribute_translations">
-            <%= t 'pages.get_involved.translate_ex4' %>
-          </a>
-          <%= t 'pages.get_involved.translate_ex5' %>
+          <%= t('.translate_ex2', translation_instructions_link: link_to(t('.translation_instructions_link_text'), 'https://wiki.diasporafoundation.org/Contribute_translations')).html_safe %>
         </li>
       </ul>
     </div>
   </div>
 
   <div class="row" id="spread_the_word">
-    <div class="span4"><%= image_tag "megaphone.png", alt: "Megaphone" %></div>
+    <div class="span4"><%= image_tag "megaphone.png", alt: t('.megaphone_alt') %></div>
     <div class="span12">
-      <h4><%= t 'pages.get_involved.voice_header' %></h4>
+      <h4><%= t '.voice_header' %></h4>
       <ul>
         <li>
-          <%= t 'pages.get_involved.voice_ex1' %>
-          <a href="https://www.loomio.org/groups/194" target="_blank">
-            <%= t 'pages.get_involved.voice_ex2' %></a>.
+          <%= t '.voice_ex1' %>
+          <a href="https://www.loomio.org/groups/194">
+            <%= t '.voice_ex2' %></a>.
         </li>
         <li>
-          <%= t 'pages.get_involved.voice_ex3' %>
-          <a href="http://www.meetup.com/Diaspora/">
-            <%= t 'pages.get_involved.voice_ex4' %>
-          </a>
-          <%= t 'pages.get_involved.voice_ex5' %>
+          <%= t('.voice_ex3', meetup_link: link_to(t('.meetup_link_text'), 'http://www.meetup.com/Diaspora/')).html_safe %>
         </li>
       </ul>
     </div>
   </div>
 
   <div class="row" id="support">
-    <div class="span4"><%= image_tag "support.png", alt: "Support" %></div>
+    <div class="span4"><%= image_tag "support.png", alt: t('.support_alt') %></div>
     <div class="span12">
-      <h4><%= t 'pages.get_involved.support_header' %></h4>
+      <h4><%= t '.support_header' %></h4>
       <ul>
         <li>
-          <%= t 'pages.get_involved.support_ex1' %>
-          <a href="https://docs.google.com/a/joindiaspora.com/spreadsheet/viewform?formkey=dG5RUHpMdlNidzRXN2twcXFRMDR0ZEE6MQ" target="_blank">
-            <%= t 'pages.get_involved.support_ex2' %></a>.
+          <%= t '.support_ex1' %>
+          <a href="https://docs.google.com/a/joindiaspora.com/spreadsheet/viewform?formkey=dG5RUHpMdlNidzRXN2twcXFRMDR0ZEE6MQ">
+            <%= t '.support_ex2' %></a>.
         </li>
         <li>
-          <%= t 'pages.get_involved.support_ex3' %>
-          <a href="http://diasporial.com/tutorials/" target="_blank">
-            <%= t 'pages.get_involved.support_ex4' %></a>.
+          <%= t('.support_ex3', diasporial_link: link_to('Diasporial', 'http://diasporial.com/tutorials/')).html_safe %>
         </li>
         <li>
-          <%= t 'pages.get_involved.support_ex5' %>
-          <a href="http://webchat.freenode.net/?channels=diaspora" target="_blank">
-            <%= t 'pages.get_involved.support_ex6' %>
-          </a>
-          <%= t 'pages.get_involved.support_ex7' %>
+          <%= t('.support_ex4', irc_channel_link: link_to(t('.irc_channel_link_text'), 'http://webchat.freenode.net/?channels=diaspora')).html_safe %>
         </li>
         <li>
-          <%= t 'pages.get_involved.support_ex8' %>
-          <a href="http://wiki.diasporafoundation.org/" target="_blank">
-            <%= t 'pages.get_involved.support_ex9' %></a>.
+          <%= t('.support_ex5', wiki_link: link_to(t('.wiki_link_text'), 'https://wiki.diasporafoundation.org/')).html_safe %>
         </li>
       </ul>
     </div>
   </div>
 
   <div class="row" id="pod">
-    <div class="span4"><%= image_tag "pod.png", alt: "Pod" %></div>
+    <div class="span4"><%= image_tag "pod.png", alt: t('.pod_alt') %></div>
     <div class="span12">
-      <h4><%= t 'pages.get_involved.run_header' %></h4>
+      <h4><%= t '.run_header' %></h4>
       <ul>
         <li>
-          <%= t 'pages.get_involved.run_ex1' %>
-          <a href="http://wiki.diasporafoundation.org/Installation_guides" target="_blank">
-            <%= t 'pages.get_involved.run_ex2' %></a>.
+          <%= t('.run_ex1', host_pod_link: link_to(t('.host_pod_link_text'), 'https://wiki.diasporafoundation.org/Installation_guides')).html_safe %>
         </li>
-        <li><%= t 'pages.get_involved.run_ex3' %></li>
+        <li><%= t '.run_ex2' %></li>
         <li>
-          <%= t 'pages.get_involved.run_ex4' %>
-          <a href="http://podupti.me">Pod Uptime</a>.
+          <%= t('.run_ex3', poduptime: link_to('Pod Uptime', 'http://podupti.me')).html_safe %>
         </li>
       </ul>
     </div>
@@ -191,8 +164,8 @@
 
   <!-- tmp disabled as it's not done yet. will be there soon!
   <div class="page-header major_top_spacing">
-    <h1><%= t 'pages.get_involved.contributors_header' %>
-      <small><%= t 'pages.get_involved.contributors_byline' %></small>
+    <h1><%= t '.contributors_header' %>
+      <small><%= t '.contributors_byline' %></small>
     </h1>
   </div>
 
@@ -613,7 +586,7 @@
                   Kevin is an all-round community member from the Netherlands,
                   whose particular interests lie in user support and providing feedback.
                   He is also the founder of
-                  <a href="http://diasporial.com/" target="_blank">
+                  <a href="http://diasporial.com/">
                     Diasporial
                   </a>
                   . Loves autumn and indie music.
