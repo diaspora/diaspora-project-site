@@ -175,7 +175,7 @@ en:
       run_ex1: "Now you don't have to settle for having your data on someone else's server. Since diaspora* is completely free software, we're constantly making it easier for individuals to %{host_pod_link}."
       host_pod_link_text: "host their own pods on diaspora*"
       run_ex2: "You can host it wherever you want."
-      run_ex3: "Add your pod to the list of community pods at "
+      run_ex3: "Add your pod to the list of community pods at %{poduptime}"
       contributors_header: "diaspora*'s contributors"
       contributors_byline: "The people who make diaspora* what it is"
       globe_alt: "Globe"
