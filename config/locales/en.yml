@@ -117,7 +117,7 @@ en:
       hostinst1: "Read the %{instructions_link} and set up your own community pod."
       instructions_link_text: "Pod installation instructions"
       hostinst2: "View a list of community pods at %{poduptime}"
-      distributed_network: "Distriuted network"
+      distributed_network: "Distributed network"
       centralibzed_network: "Centralized network"
       search_alt: "Search"
       add_a_contact_alt: "Add a contact"
