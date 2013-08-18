@@ -9,11 +9,11 @@ en:
   title: "The diaspora* Project"
   layouts:
     application:
-      wiki: "Wiki"
-      planet: "Planet"
+      wiki: Wiki
+      planet: Planet
       useful_resources: "Useful Resources"
-      codebase: "Codebase"
-      documentation: "Documentation"
+      codebase: Codebase
+      documentation: Documentation
       report_bugs: "Find & report bugs"
       irc_general: "IRC - General"
       irc_development: "IRC - Development"
@@ -23,7 +23,6 @@ en:
       cc_license_alt: "Creative Commons License"
       licensed_under: "%{site_link} is licensed under a %{license_link}"
       license_link_text: "Creative Commons Attribution 3.0 Unported License"
-
   pages:
     index:
       headline: "Welcome to diaspora*"
@@ -52,14 +51,14 @@ en:
       help_ex: "diaspora* needs people to write and test code, welcome and help new members, set up and maintain community pods, and spread the word about the benefits of diaspora* to others who might want to take part. Think you'd like to contribute to the project?"
       socialint: "Social network integration"
       socialint_ex: "diaspora* lets you stay connected with your friends, even if they're not yet on diaspora*. Simply connect your account to other major services, then use diaspora* as your home base to post to your profiles on these other services too. diaspora* currently supports cross-posting to your Facebook, Twitter, and Tumblr accounts, with more to come soon. "
-      earth_alt: "Earthd*"
-      decentralized_alt: "Decentralized"
-      freedom_alt: "Freedom"
-      keyhole_alt: "Keyhole"
-      aspects_alt: "Aspects"
-      features_alt: "Features"
+      earth_alt: Earthd*
+      decentralized_alt: Decentralized
+      freedom_alt: Freedom
+      keyhole_alt: Keyhole
+      aspects_alt: Aspects
+      features_alt: Features
       ways_to_help_alt: "Ways to help"
-      services_alt: "Services"
+      services_alt: Services
     about:
       headline: "How does diaspora* work?"
       byline: "diaspora* is simple to use. Here's how."
@@ -118,13 +117,13 @@ en:
       instructions_link_text: "Pod installation instructions"
       hostinst2: "View a list of community pods at %{poduptime}"
       distributed_network: "Distributed network"
-      centralibzed_network: "Centralized network"
-      search_alt: "Search"
+      centralized_network: "Centralized network"
+      search_alt: Search
       add_a_contact_alt: "Add a contact"
-      hashtag_alt: "Hashtag"
-      reshare_alt: "Reshare"
-      mention_alt: "Mention"
-      heart_alt: "Heart"
+      hashtag_alt: Hashtag
+      reshare_alt: Reshare
+      mention_alt: Mention
+      heart_alt: Heart
     get_involved:
       headline: "Get involved!"
       byline: "The future of the social web starts with you"
@@ -178,10 +177,10 @@ en:
       run_ex3: "Add your pod to the list of community pods at %{poduptime}"
       contributors_header: "diaspora*'s contributors"
       contributors_byline: "The people who make diaspora* what it is"
-      globe_alt: "Globe"
-      megaphone_alt: "Megaphone"
-      support_alt: "Support"
-      pod_alt: "Pod"
+      globe_alt: Globe
+      megaphone_alt: Megaphone
+      support_alt: Support
+      pod_alt: Pod
     blog:
       headline: "The diaspora* blog"
       subline: "official announcements"
