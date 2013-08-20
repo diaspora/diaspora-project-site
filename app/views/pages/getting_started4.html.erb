@@ -1,0 +1,97 @@
+<% content_for :page_title, t('pages.getting_started4.menu_title') %>
+<% content_for :wrapper_class, "index_page" %>
+
+<div id="masthead", class="hero">
+  <div class="container">
+    <h1><%= t 'pages.tutorials.started_head' %></h1>
+    <h2><%= t 'pages.getting_started4.byline' %></h2>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row top_spacing">
+    <div class="span2">&nbsp;
+    </div>
+    <div class="span12">       
+		<p class="more-info"><%= t 'pages.getting_started4.aspects1' %></p>
+        <h3><%= t 'pages.getting_started4.sharing' %></h3>
+        <p><%= t 'pages.getting_started4.sharing_ex' %></p> 
+        <p><%= t 'pages.getting_started4.relationships' %></p> 
+        
+        <h5><%= t 'pages.getting_started4.followers' %></h5>
+        <p><%= t 'pages.getting_started4.followers_ex1' %></p>
+        <p><%= t 'pages.getting_started4.followers_ex2' %></p>
+        <p class="more-info"><%= t 'pages.getting_started4.followers_ex3' %></p>
+        
+        <h5><%= t 'pages.getting_started4.following' %></h5>
+        <p><%= t 'pages.getting_started4.following_ex1' %></p>
+        <p><%= t 'pages.getting_started4.following_ex2' %></p>
+        
+        <h5><%= t 'pages.getting_started4.mutual' %></h5>
+        <p><%= t 'pages.getting_started4.mutual_ex1' %></p>
+        <p><%= t 'pages.getting_started4.mutual_ex2' %></p>
+        	<ul>
+            	<li><%= t 'pages.getting_started4.mutual_ls1' %></li>
+                <li><%= t 'pages.getting_started4.mutual_ls2' %></li>
+                <li><%= t 'pages.getting_started4.mutual_ls3' %></li>
+                <li><%= t 'pages.getting_started4.mutual_ls4' %></li>
+            </ul>
+        <p><%= t 'pages.getting_started4.mutual_ex3' %><%= t 'pages.getting_started4.mutual_ex3a' %><%= t 'pages.getting_started4.mutual_ex3b' %></p>
+        
+        <h3><%= t 'pages.getting_started4.finding' %></h3>
+        <p><%= t 'pages.getting_started4.finding_ex1' %></p>
+        <p><%= t 'pages.getting_started4.finding_ex2' %></p>
+        </div>
+        <div class="span2">&nbsp;</div>
+        </div>
+
+        <div class="row">
+        <div class="span2">&nbsp;</div>
+        <div class="span10">
+        <h5><%= t 'pages.getting_started4.search' %></h5>
+        <p><%= t 'pages.getting_started4.search_ex' %></p>
+        <ul>
+        	<li><%= t 'pages.getting_started4.search_ls1' %></li>
+            <li><%= t 'pages.getting_started4.search_ls2' %></li>
+            <li><%= t 'pages.getting_started4.search_ls3' %><span class="click"><%= t 'click.add_contact' %></span><%= t 'pages.getting_started4.search_ls3a' %></li>
+            <li><%= t 'pages.getting_started4.search_ls4' %><span class="click"><%= t 'click.add_contact' %></span><%= t 'pages.getting_started4.search_ls4a' %></li>
+            <li><%= t 'pages.getting_started4.search_ls5' %><span class="click"><em><%= t 'click.add_aspect' %></em></span>.</li>
+            <li><%= t 'pages.getting_started4.search_ls6' %></li>
+        </ul>
+        
+        <h5><%= t 'pages.getting_started4.invite' %></h5>
+        <p><%= t 'pages.getting_started4.invite_ex1' %><span class="click"><%= t 'click.invite_mail' %></span><%= t 'pages.getting_started4.invite_ex1a' %><span class="click"><%= t 'click.invite' %></span><%= t 'pages.getting_started4.invite_ex1b' %></p>
+        </div>
+        <div class="span4"><%= image_tag "add-contact.png" %></div>
+        <div align="center"><%= image_tag "invite.png" %></div>
+        </div>
+        
+        <div class="row">
+        <div class="span2">&nbsp;</div>
+        <div class="span12">
+        <h5><%= t 'pages.getting_started4.profile' %></h5>
+        <p><%= t 'pages.getting_started4.profile_ex1' %></p>
+        <p><%= t 'pages.getting_started4.profile_ex2' %></p>
+        
+        <h5><%= t 'pages.getting_started4.tags' %></h5>
+        <p><%= t 'pages.getting_started4.tags_ex' %></p>
+        
+        <h3><%= t 'pages.getting_started4.removing' %></h3>
+        <p><%= t 'pages.getting_started4.removing_ex1' %>
+        	<ol>
+        		<li><%= t 'pages.getting_started4.removing_ex2' %></li>
+        		<li><%= t 'pages.getting_started4.removing_ex3' %></li>
+        	</ol>
+        <%= t 'pages.getting_started4.removing_ex4' %></p>
+        <p><%= t 'pages.getting_started4.removing_ex5' %><%= link_to t('pages.tutorials.part3'), getting_started3_url %>.</p>
+        <p>&nbsp;</p>
+        <p class="more-info"><%= t 'pages.getting_started4.finish' %><strong><%= t 'pages.getting_started4.finish2' %></strong></p>
+
+        <p>&nbsp;</p>
+ 
+            <p align="center"><%= link_to t('pages.getting_started3.byline'), getting_started3_url %> | <%= link_to t('pages.getting_started5.byline'), getting_started5_url %></p>
+   
+    <div class="span2">
+    </div>
+  </div>
+</div>

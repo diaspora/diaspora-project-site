@@ -1,0 +1,70 @@
+<% content_for :page_title, t('pages.getting_started6.menu_title') %>
+<% content_for :wrapper_class, "index_page" %>
+
+<div id="masthead", class="hero">
+  <div class="container">
+    <h1><%= t 'pages.tutorials.started_head' %></h1>
+    <h2><%= t 'pages.getting_started6.byline' %></h2>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row top_spacing">
+    <div class="span2">&nbsp;
+    </div>
+    <div class="span12">       
+        <p class="more-info"><%= t 'pages.getting_started6.intro' %></p>
+
+        <h3><%= t 'pages.getting_started6.notify' %></h3>
+    </div>
+    <div class="span2">
+    </div>
+  </div>    
+  <div class="row">
+    <div class="span2">&nbsp;
+    </div>
+    <div class="span11">       
+        <p><%= t 'pages.getting_started6.notify_ex1' %></p>
+		<p><%= t 'pages.getting_started6.notify_ex2' %></p>
+			<ul>
+				<li><%= t 'pages.getting_started6.notify_ls1' %></li>
+				<li><%= t 'pages.getting_started6.notify_ls2' %><span class="click"><%= t 'click.post' %></span><%= t 'pages.getting_started6.notify_ls3' %></li>
+				<li><%= t 'pages.getting_started6.notify_ls2' %><span class="click"><%= t 'click.mark_all' %></span>.</li>
+				<li><%= t 'pages.getting_started6.notify_ls2' %><span class="click"><%= t 'click.view_all' %></span><%= t 'pages.getting_started6.notify_ls4' %></li>
+			</ul>
+        <p><%= t 'pages.getting_started6.notify_ex3' %></p>
+    </div>
+    <div class="span2">
+    	<div align="center"><%= image_tag "notify.png" %></div>
+    </div>
+  </div>    
+		
+  <div class="row">
+    <div class="span2">&nbsp;
+    </div>
+    <div class="span12">       
+        <h3><%= t 'pages.getting_started6.convo' %></h3>
+        <p><%= t 'pages.getting_started6.convo_ex1' %></p>
+        <p><%= t 'pages.getting_started6.convo_ex2' %></p>
+        <div align="center"><%= image_tag "conversations_page.png" %></div>
+
+        <p>&nbsp;</p>
+        <p><%= t 'pages.getting_started6.convo_ex3' %><span class="click"><%= t 'click.new_msg' %></span><%= t 'pages.getting_started6.convo_ex3a' %></p>
+        <p class="more-info"><%= t 'pages.getting_started6.convo_ex4' %></p>
+        <p><%= t 'pages.getting_started6.convo_ex5' %></p>
+        <p><%= t 'pages.getting_started6.convo_ex6' %></p>
+        <p><%= t 'pages.getting_started6.convo_ex7' %></p>
+        <p><%= t 'pages.getting_started6.convo_ex8' %><span class="click"><%= t 'click.reply' %></span><%= t 'pages.getting_started6.convo_ex8a' %></p>
+        <p><%= t 'pages.getting_started6.convo_ex9' %><span class="click"><%= t 'click.click_x' %></span><%= t 'pages.getting_started6.convo_ex9a' %></p>
+        <p>&nbsp;</p>
+        <p class="more-info"><%= t 'pages.getting_started6.finish' %></p>
+
+        <p>&nbsp;</p>
+ 
+        <p align="center"><%= link_to t('pages.getting_started5.byline'), getting_started5_url %> | <%= link_to t('pages.getting_started7.byline'), getting_started7_url %></p>
+       
+	</div>   
+    <div class="span2">
+    </div>
+  </div>
+</div>

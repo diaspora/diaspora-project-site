@@ -1,0 +1,62 @@
+<% content_for :page_title, t('pages.tutorials.menu_title') %>
+<% content_for :wrapper_class, "index_page" %>
+
+<div id="masthead", class="hero">
+  <div class="container">
+    <h1><%= t 'pages.tutorials.headline' %></h1>
+    <h2><%= t 'pages.tutorials.byline' %></h2>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row top_spacing">
+    <div class="span12">
+		<p><%= t 'pages.tutorials.tutorials_ex1' %></p>
+		<p><%= t 'pages.tutorials.tutorials_ex2' %>
+		<a href="http://podupti.me/">Pod Uptime</a>
+		<%= t 'pages.tutorials.tutorials_ex3' %></p>
+		</div>
+        <div class="span4">
+        	<%= image_tag "diaspora-handdrawn.png", alt: "diaspora* tutorials" %>
+        </div>
+	</div>
+  <div class="row">
+    <div class="span-one-third">
+    	<h3><%= t 'pages.tutorials.started_head' %></h3>
+      		<ol>
+        		<li><%= link_to t('pages.tutorials.started1'), getting_started1_url %></li>
+		        <li><%= link_to t('pages.tutorials.started2'), getting_started2_url %></li>
+        		<li><%= link_to t('pages.tutorials.started3'), getting_started3_url %></li>
+		        <li><%= link_to t('pages.tutorials.started4'), getting_started4_url %></li>
+        		<li><%= link_to t('pages.tutorials.started5'), getting_started5_url %></li>
+		        <li><%= link_to t('pages.tutorials.started6'), getting_started6_url %></li>
+        		<li><%= link_to t('pages.tutorials.started7'), getting_started7_url %></li>
+	      </ol>
+    </div>
+    <div class="span-one-third">
+        <h3><%= t 'pages.tutorials.additional' %></h3>
+            <ul>
+                <li><%= link_to t('pages.tutorials.formatting'), formatting_url %></li>
+            </ul>
+    </div>
+    <div class="span-one-third">
+        <h3><%= t 'pages.tutorials.more_tutorials' %></h3>
+            <ul>
+	        	<li><%= t 'pages.tutorials.other_doc1' %><%= link_to t('pages.tutorials.other_doc2'), other_docs_url %><%= t 'pages.tutorials.other_doc3' %></li>
+            </ul>
+    </div>
+  </div>
+  	<div class="row">
+    	<div class="span3">
+	    <p>&nbsp;</p>
+        </div>
+		<div class="span12">
+        <p  class="more-info"><% t 'pages.tutorials.thanks' %></p>
+		</div>
+    	<div class="span2">
+	    <p>&nbsp;</p>
+        </div>
+     </div>
+
+</div>
+

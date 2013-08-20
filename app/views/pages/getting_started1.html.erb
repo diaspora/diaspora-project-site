@@ -1,0 +1,64 @@
+<% content_for :page_title, t('pages.getting_started1.menu_title') %>
+<% content_for :wrapper_class, "index_page" %>
+
+<div id="masthead", class="hero">
+  <div class="container">
+    <h1><%= t 'pages.tutorials.started_head' %></h1>
+    <h2><%= t 'pages.getting_started1.byline' %></h2>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row top_spacing">
+    <div class="span2">&nbsp;
+    </div>
+    <div class="span12">       
+        <p class="more-info"><%= t 'pages.getting_started1.welcome' %></p>
+        <h3><%= t 'pages.getting_started1.find_pod' %></h3>
+		<p><%= t 'pages.getting_started1.find_pod_ex1' %><em><%= t 'pages.getting_started1.find_pod_ex1a' %></em><%= t 'pages.getting_started1.find_pod_ex1b' %></p>
+        <p class="more-info"><%= t 'pages.getting_started1.find_pod_ex2' %></p>
+		<p><%= t 'pages.getting_started1.find_pod_ex3' %>
+        <a href="https://wiki.diasporafoundation.org/Choosing_a_pod" target="_blank"><%= t 'pages.getting_started1.find_pod_ex4' %></a>
+        <%= t 'pages.getting_started1.find_pod_ex5' %></p>
+        <p><%= t 'pages.getting_started1.find_pod_ex6' %></p>
+        <p class="more-info"><%= t 'pages.getting_started1.find_pod_ex7' %></p>
+		<h3><%= t 'pages.getting_started1.registration' %></h3>
+        <p><%= t 'pages.getting_started1.registration1' %><span class="click"><%= t 'click.sign_up' %></span><%= t 'pages.getting_started1.registration1a' %></p>
+        <p><%= t 'pages.getting_started1.registration2' %></p>
+
+		<div align="center"><%= image_tag "signup.png" %></div>
+
+		<p><%= t 'pages.getting_started1.registration3' %><span class="click"><%= t 'click.cont' %></span><%= t 'pages.getting_started1.registration3a' %></p>
+        <p class="more-info"><%= t 'pages.getting_started1.registration4' %><a href="https://joindiaspora.com/people/f278309aabb991d2" target="_blank">diaspora* HQ</a><%= t 'pages.getting_started1.registration5' %><%= link_to t('pages.tutorials.part4'), getting_started4_url  %>.
+        <p><%= t 'pages.getting_started1.registration6' %></p>
+        
+        <div align="center"><%= image_tag "gettingstarted.png" %></div>
+		<p>&nbsp;</p>
+        <ol>
+        <li><%= t 'pages.getting_started1.registration7' %></li>
+        <li><%= t 'pages.getting_started1.registration8' %></li>
+        <li><%= t 'pages.getting_started1.registration9' %></li>
+        <li><%= t 'pages.getting_started1.registration10' %></li>
+        <li><%= t 'pages.getting_started1.registration11' %><span class="click"><%= t 'pages.getting_started1.registration11a' %></span></li>
+        </ol>
+
+		<p><%= t 'pages.getting_started1.profile1' %><span class="click"><%= t 'click.profile' %></span><%= t 'pages.getting_started1.profile1a' %><span class="click"><%= t 'click.edit' %></span><%= t 'pages.getting_started1.profile1b' %></p>
+        <p><%= t 'pages.getting_started1.profile2' %></p>
+        <div align="center"><%= image_tag "profile-public.png" %></div>
+        <div align="center"><%= image_tag "profile-private.png" %></div>
+        <p><%= t 'pages.getting_started1.profile3' %><%= link_to t('pages.tutorials.part7'), getting_started7_url  %><%= t 'pages.getting_started1.profile4' %></p>
+        <p><%= t 'pages.getting_started1.profile5' %><span class="click"><%= t 'click.update' %></span><%= t 'pages.getting_started1.profile5a' %></p>
+        
+        <h3><%= t 'pages.getting_started1.finish' %></h3>
+        <p><%= t 'pages.getting_started1.finish_ex1' %><span class="click"><%= t 'click.stream' %></span><%= t 'pages.getting_started1.finish_ex1a' %></p>
+        <p>&nbsp;</p>
+        <p class="more-info"><%= t 'pages.getting_started1.finish_ex2' %><strong><%= t 'pages.getting_started1.finish_ex2a' %></strong><%= t 'pages.getting_started1.finish_ex2b' %><span class="click"><%= t 'click.newhere' %></span><%= t 'pages.getting_started1.finish_ex2c' %><%= link_to t('pages.tutorials.part5'), getting_started5_url  %>.</p>
+
+        <p>&nbsp;</p>
+ 
+        <p align="center"><%= link_to t('pages.getting_started2.byline'), getting_started2_url %></p>
+	</div>
+    <div class="span2">
+    </div>
+  </div>
+</div>

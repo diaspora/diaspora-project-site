@@ -1,0 +1,55 @@
+<% content_for :page_title, t('pages.other_docs.menu_title') %>
+<% content_for :wrapper_class, "index_page" %>
+
+<div id="masthead", class="hero">
+  <div class="container">
+    <h1><%= t 'pages.other_docs.headline' %></h1>
+    <h2><%= t 'pages.other_docs.byline' %></h2>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row top_spacing">
+    <div class="span2">&nbsp;
+    </div>
+    <div class="span12">       
+        <p><%= t 'pages.other_docs.intro1' %></p>
+        <p><%= t 'pages.other_docs.intro2' %></p>
+        <h3><%= t 'pages.other_docs.tutorials' %></h3>
+        <ul>
+	        <li><a href="http://fr.wikibooks.org/wiki/diaspora_:_Le_guide_du_parfait_d%C3%A9butant" target="_blank">diaspora* : Le guide du parfait débutant</a><%= t 'pages.other_docs.parfait' %></li>
+        </ul>
+        <h3><%= t 'pages.other_docs.about' %></h3>
+        <ul>
+            <li><%= t 'pages.other_docs.about1' %></li>
+            <li><a href="https://wiki.diasporafoundation.org/Main_Page" target="_blank"><%= t 'pages.other_docs.wiki' %></a><%= t 'pages.other_docs.wiki_ex' %></li>
+            <li><%= t 'pages.other_docs.wikipedia1' %><a href="http://en.wikipedia.org/wiki/Diaspora_%28social_network%29" target="_blank">diaspora*</a><%= t 'pages.other_docs.wikipedia2' %><a href="http://en.wikipedia.org/wiki/Diaspora_%28software%29" target="_blank"><%= t 'pages.other_docs.wikipedia3' %></a><%= t 'pages.other_docs.wikipedia4' %></li>
+        </ul>
+        <h3><%= t 'pages.other_docs.support' %></h3>
+        <ul>
+            <li><%= t 'pages.other_docs.question1' %><span class="click"><%= t 'click.question' %></span><%= t 'pages.other_docs.question2' %><span class="click"><%= t 'click.help' %></span><%= t 'pages.other_docs.question3' %><span class="click"><%= t 'click.bug' %></span><%= t 'pages.other_docs.question4' %></li>
+            <li><%= t 'pages.other_docs.mail' %><a href="http://groups.google.com/group/diaspora-discuss" target="_blank"><%= t 'pages.other_docs.mail_addr' %></a></li>
+            <li><%= t 'pages.other_docs.irc' %><a href="http://webchat.freenode.net/?channels=diaspora" target="_blank"><%= t 'pages.other_docs.irc_addr' %></a>. <%= t 'pages.other_docs.irc2' %></li>
+        </ul>
+        <h3><%= t 'pages.other_docs.progress' %></h3>
+        <ul>
+            <li><a title="Project blog" href="http://blog.diasporafoundation.org/"><%= t 'pages.other_docs.blog' %></a><%= t 'pages.other_docs.blog_ex' %></li>
+            <li><a href="https://github.com/diaspora/diaspora/blob/develop/Changelog.md" target="_blank"><%= t 'pages.other_docs.changelog' %></a><%= t 'pages.other_docs.changelog_ex' %></li>
+            <li><a href="https://www.loomio.org/groups/194" target="_blank">Loomio</a><%= t 'pages.other_docs.loomio' %></li>
+        </ul>
+        <h3><%= t 'pages.other_docs.communication' %></h3>
+        <ul>
+            <li><a href="https://wiki.diasporafoundation.org/How_we_communicate" target="_blank"><%= t 'pages.other_docs.communicate1' %></a><%= t 'pages.other_docs.communicate2' %></li>
+        </ul>
+        <h3><%= t 'pages.other_docs.other' %></h3>
+        <ul>
+            <li><a href="http://userdatamanifesto.org/" target="_blank"><%= t 'pages.other_docs.manifesto' %></a><%= t 'pages.other_docs.manifesto_ex' %></li>
+        </ul>
+        <p>&nbsp;</p>
+        <p align="center"><%= link_to t('pages.tutorials.headline'), tutorials_url %> | <%= link_to t('pages.tutorials.started_head'), getting_started1_url %></p>
+       
+ 	</div>
+    <div class="span2">
+    </div>
+  </div>
+</div>
