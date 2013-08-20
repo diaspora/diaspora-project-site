@@ -59,11 +59,9 @@
           <p>
             <%= t 'pages.get_involved.code_ex4' %>
             <a href="http://wiki.diasporafoundation.org/Getting_Started_With_Contributing">
-              <%= t 'pages.get_involved.code_ex5' %>,
-            </a>
+              <%= t 'pages.get_involved.code_ex5' %></a>, 
             <a href="http://groups.google.com/group/diaspora-dev">
-              <%= t 'pages.get_involved.code_ex6' %>,
-            </a>
+              <%= t 'pages.get_involved.code_ex6' %></a>, 
             <%= t 'pages.get_involved.code_ex7' %>
             <a href="http://webchat.freenode.net/?channels=diaspora-dev">
               <%= t 'pages.get_involved.code_ex8' %></a>.
@@ -83,11 +81,11 @@
   <hr />
 
   <div class="row" id="bugs">
-    <div class="span4"><%= image_tag "tick.png", alt: "Globe" %></div>
+    <div class="span4"><%= image_tag "tick.png" %></div>
     <div class="span12">
       <h4><%= t 'pages.get_involved.bugs_header' %></h4>
       <ul>
-        <li><%= t 'pages.get_involved.bugs_ex1' %></li>
+        <li><%= t 'pages.get_involved.bugs_ex1' %><a href="https://github.com/diaspora/diaspora/issues" target="_blank"><%= t 'pages.get_involved.bugs_ex1a' %></a>.</li>
         <li>
           <%= t 'pages.get_involved.bugs_ex2' %>
           <a href="http://www.codetriage.com/diaspora/diaspora">
@@ -98,7 +96,7 @@
   </div>
 
   <div class="row" id="translate">
-    <div class="span4"><%= image_tag "globe.png", alt: "Globe" %></div>
+    <div class="span4"><%= image_tag "globe.png" %></div>
     <div class="span12">
       <h4><%= t 'pages.get_involved.translate_header' %></h4>
       <ul>
@@ -119,7 +117,7 @@
   </div>
 
   <div class="row" id="spread_the_word">
-    <div class="span4"><%= image_tag "megaphone.png", alt: "Megaphone" %></div>
+    <div class="span4"><%= image_tag "megaphone.png" %></div>
     <div class="span12">
       <h4><%= t 'pages.get_involved.voice_header' %></h4>
       <ul>
@@ -140,26 +138,28 @@
   </div>
 
   <div class="row" id="support">
-    <div class="span4"><%= image_tag "support.png", alt: "Support" %></div>
+    <div class="span4"><%= image_tag "support.png" %></div>
     <div class="span12">
       <h4><%= t 'pages.get_involved.support_header' %></h4>
       <ul>
         <li>
           <%= t 'pages.get_involved.support_ex1' %>
-          <a href="https://docs.google.com/a/joindiaspora.com/spreadsheet/viewform?formkey=dG5RUHpMdlNidzRXN2twcXFRMDR0ZEE6MQ" target="_blank">
-            <%= t 'pages.get_involved.support_ex2' %></a>.
+           <span class="click"><%= t 'click.newhere' %></span>
+            <%= t 'pages.get_involved.support_ex2' %>
         </li>
         <li>
           <%= t 'pages.get_involved.support_ex3' %>
-          <a href="http://diasporial.com/tutorials/" target="_blank">
-            <%= t 'pages.get_involved.support_ex4' %></a>.
+          <a href="https://diasporfoundation.org/tutorials" target="_blank">
+            <%= t 'pages.get_involved.support_ex4' %></a><%= t 'pages.get_involved.support_ex4a' %>
+          <a href="https://github.com/diaspora/diaspora-project-site/" target="_blank">
+        	GitHub</a>.
         </li>
         <li>
           <%= t 'pages.get_involved.support_ex5' %>
           <a href="http://webchat.freenode.net/?channels=diaspora" target="_blank">
             <%= t 'pages.get_involved.support_ex6' %>
           </a>
-          <%= t 'pages.get_involved.support_ex7' %>
+          <%= t 'pages.get_involved.support_ex7' %><span class="click"><%= t 'click.help' %></span>, <span class="click"><%= t 'click.question' %></span><%= t 'pages.get_involved.support_ex7a' %><span class="click"><%= t 'click.feedback' %></span><%= t 'pages.get_involved.support_ex7b' %>
         </li>
         <li>
           <%= t 'pages.get_involved.support_ex8' %>
@@ -171,7 +171,7 @@
   </div>
 
   <div class="row" id="pod">
-    <div class="span4"><%= image_tag "pod.png", alt: "Pod" %></div>
+    <div class="span4"><%= image_tag "pod.png" %></div>
     <div class="span12">
       <h4><%= t 'pages.get_involved.run_header' %></h4>
       <ul>
