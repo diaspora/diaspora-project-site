@@ -6,13 +6,15 @@ DiasporaProjectSite::Application.routes.draw do
 	    get :about
 	    get :get_involved
 	    get :tutorials
-	    get :getting_started1
-	    get :getting_started2
-	    get :getting_started3
-	    get :getting_started4
-	    get :getting_started5
-	    get :getting_started6
-	    get :getting_started7
+	    scope 'getting_started' do
+	    	get :sign_up, action: 'getting_started1'
+	    	get :interface, action: 'getting_started2'
+	    	get :aspects, action: 'getting_started3'
+	    	get :connecting, action: 'getting_started4'
+	    	get :sharing, action: 'getting_started5'
+	    	get :conversations, action: 'getting_started6'
+	    	get :finishing, action: 'getting_started7'
+	    end
 	    get :formatting
 	    get :tips
 	    get :other_docs

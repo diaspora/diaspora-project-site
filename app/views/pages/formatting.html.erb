@@ -1,10 +1,10 @@
-<% content_for :page_title, t('pages.formatting.menu_title') %>
+<% content_for :page_title, t('.menu_title') %>
 <% content_for :wrapper_class, "index_page" %>
 
 <div id="masthead", class="hero">
   <div class="container">
     <h1><%= t 'pages.tutorials.headline' %></h1>
-    <h2><%= t 'pages.formatting.byline' %></h2>
+    <h2><%= t '.byline' %></h2>
   </div>
 </div>
 
@@ -13,98 +13,98 @@
     <div class="span2">&nbsp;
     </div>
     <div class="span12">       
-        <p><%= t 'pages.formatting.format1' %></p>
-        <p><%= t 'pages.formatting.format2' %></p>
-        <p class="more-info"><%= t 'pages.formatting.format3' %><span class="click"><%= t 'pages.getting-started.preview' %></span><%= t 'pages.formatting.format3a' %></p>
-        <p class="more-info"><%= t 'pages.formatting.format4' %><span class="click"><%= t 'pages.getting-started.preview' %></span><%= t 'pages.formatting.format4a' %></p>
+        <p><%= t '.format1' %></p>
+        <p><%= t '.format2' %></p>
+        <p class="more-info"><%= t('.format3').html_safe %></p>
+        <p class="more-info"><%= t('.format4').html_safe %></p>
         
-        <h3><%= t 'pages.formatting.headings' %></h3>
-        <p><%= t 'pages.formatting.headings_ex1' %></p>
-		<pre><%= t 'pages.formatting.headings_code1' %>
+        <h3><%= t '.headings' %></h3>
+        <p><%= t '.headings_ex1' %></p>
+		<pre># <%= t '.headings_code1' %>
 		
-<%= t 'pages.formatting.headings_code2' %>
+## <%= t '.headings_code2' %>
 
-<%= t 'pages.formatting.headings_code3' %></pre>
-        <p class="more-info"><%= t 'pages.formatting.headings_ex2' %></p>
+### <%= t '.headings_code3' %></pre>
+        <p class="more-info"><%= t '.headings_ex2' %></p>
         
-        <h3><%= t 'pages.formatting.lists' %></h3>
-        <p><%= t 'pages.formatting.lists_ex1' %></p>
-        <p><%= t 'pages.formatting.lists_ex2' %></p>
-        <p class="more-info"><%= t 'pages.formatting.lists_ex3' %></p>
-		<pre><%= t 'pages.formatting.lists_code1' %>
+        <h3><%= t '.lists' %></h3>
+        <p><%= t '.lists_ex1' %></p>
+        <p><%= t '.lists_ex2' %></p>
+        <p class="more-info"><%= t '.lists_ex3' %></p>
+		<pre><%= t '.lists_code1' %>
 		
-<%= t 'pages.formatting.lists_code2' %>
-<%= t 'pages.formatting.lists_code3' %>
-<%= t 'pages.formatting.lists_code4' %>
+* <%= t '.lists_code2' %>
+* <%= t '.lists_code3' %>
+* <%= t '.lists_code4' %>
 
-<%= t 'pages.formatting.lists_code5' %>
+<%= t '.lists_code5' %>
 
-<%= t 'pages.formatting.lists_code6' %>
-<%= t 'pages.formatting.lists_code7' %>
-<%= t 'pages.formatting.lists_code8' %>
+- <%= t '.lists_code2' %>
+- <%= t '.lists_code3' %>
+- <%= t '.lists_code4' %>
 
-<%= t 'pages.formatting.lists_code9' %>
+<%= t '.lists_code6' %>
 
-<%= t 'pages.formatting.lists_code10' %>
-<%= t 'pages.formatting.lists_code11' %>
-<%= t 'pages.formatting.lists_code12' %></pre>
+1. <%= t '.lists_code2' %>
+2. <%= t '.lists_code3' %>
+3. <%= t '.lists_code4' %></pre>
         
-        <h3><%= t 'pages.formatting.code' %></h3>
-        <p><%= t 'pages.formatting.code_ex1' %></p>
-        <p><%= t 'pages.formatting.code_ex2' %></p>
-        <p><%= t 'pages.formatting.code_ex3' %> `<code><%= t 'pages.formatting.code_ex4' %></code>`.</p>
-		<pre><%= t 'pages.formatting.code_code1' %>
+        <h3><%= t '.code' %></h3>
+        <p><%= t '.code_ex1' %></p>
+        <p><%= t '.code_ex2' %></p>
+        <p><%= t('.code_ex3').html_safe %></p>
+		<pre><%= t '.code_code1' %>
 		
-<%= t 'pages.formatting.code_ticks' %><code><%= t 'pages.formatting.code_code2' %></code><%= t 'pages.formatting.code_ticks' %>
+````<code><%= t '.code_code2' %></code>````
 
-<%= t 'pages.formatting.code_code3' %>
+<%= t '.code_code3' %>
 
-    <code><%= t 'pages.formatting.code_code4' %></code>
-      <code><%= t 'pages.formatting.code_code5' %></code></pre>     
+    <code><%= t '.code_code4' %></code>
+      <code><%= t '.code_code5' %></code></pre>     
       
-        <h3><%= t 'pages.formatting.line' %></h3>
-        <p><%= t 'pages.formatting.line_ex' %></p>
-		<pre><%= t 'pages.formatting.line_code1' %>
+        <h3><%= t '.line' %></h3>
+        <p><%= t '.line_ex' %></p>
+		<pre><%= t '.line_code1' %>
 
-<%= t 'pages.formatting.line_code2' %>
+---
 
-<%= t 'pages.formatting.line_code3' %></pre>
+<%= t '.line_code2' %></pre>
 
-        <h3><%= t 'pages.formatting.itals' %></h3>
-        <p><%= t 'pages.formatting.itals_ex1' %></p>
-        <p><em><%= t 'pages.formatting.itals_ex2' %></em><%= t 'pages.formatting.itals_ex3' %></p>
-        <p><strong><%= t 'pages.formatting.itals_ex4' %></strong><%= t 'pages.formatting.itals_ex5' %></p>
-        <p><strong><em><%= t 'pages.formatting.itals_ex6' %></em></strong><%= t 'pages.formatting.itals_ex7' %></p>
-		<p class="more-info"><%= t 'pages.formatting.itals_ex8' %></p>
+        <h3><%= t '.itals' %></h3>
+        <p><%= t '.itals_ex1' %></p>
+        <p><%= t('.itals_ex2').html_safe %></p>
+        <p><%= t('.itals_ex3').html_safe %></p>
+        <p><%= t('.itals_ex4').html_safe %></p>
+		<p class="more-info"><%= t '.itals_ex8' %></p>
 
-        <h3><%= t 'pages.formatting.links' %></h3>
-        <p><%= t 'pages.formatting.link_ex1' %><%= link_to t('pages.formatting.link_ex2'), formatting_url %><%= t 'pages.formatting.link_ex3' %></p>
-        <pre><%= t 'pages.formatting.link_code' %></pre>
-        <p class="more-info"><%= t 'pages.formatting.link_ex4' %></p>
+        <h3><%= t '.links' %></h3>
+        <p><%= t('.link_ex1', inline_link: link_to(t('.inline_link_text'), formatting_path)).html_safe %></p>
+        <pre><%= t '.link_code' %></pre>
+        <p class="more-info"><%= t '.link_ex2' %></p>
 
-        <h3><%= t 'pages.formatting.images' %></h3>
-        <p><%= t 'pages.formatting.images_ex1' %></p>
-        <pre><%= t 'pages.formatting.images_code' %></pre>
-        <p class="more-info"><%= t 'pages.formatting.images_ex2' %><strong><%= t 'pages.formatting.images_ex2a' %></strong><%= t 'pages.formatting.images_ex2b' %></p>
-        <p class="more-info"><%= t 'pages.formatting.images_ex3' %></p>
+        <h3><%= t '.images' %></h3>
+        <p><%= t '.images_ex1' %></p>
+        <pre><%= t '.images_code' %></pre>
+        <p class="more-info"><%= t('.images_ex2').html_safe %></p>
+        <p class="more-info"><%= t '.images_ex3' %></p>
 
-        <h3><%= t 'pages.formatting.escape' %></h3>
-        <p><%= t 'pages.formatting.escape_ex1' %></p>
-        <pre><%= t 'pages.formatting.escape_code' %></pre>
-        <p><%= t 'pages.formatting.escape_ex2' %></p>
-        <p class="more-info"><%= t 'pages.formatting.escape_ex3' %></p>
+        <h3><%= t '.escape' %></h3>
+        <p><%= t '.escape_ex1' %></p>
+        <pre><%= t '.escape_code' %></pre>
+        <p><%= t '.escape_ex2' %></p>
+        <p class="more-info"><%= t '.escape_ex3' %></p>
 
-        <h3><%= t 'pages.formatting.symbols' %></h3>
-        <p><%= t 'pages.formatting.symbols_ex' %></p>
+        <h3><%= t '.symbols' %></h3>
+        <p><%= t '.symbols_ex' %></p>
         <ul>
         <li>"-&gt;" = "→" ; "&lt;-" = "←" ; "&lt;-&gt;" = "↔"</li>
         <li>"(c)" = "©" ; "(r)" = "®" ; "(tm)" = ™</li>
         <li>"&lt;3″ = "♥ "</li>
         <li>"x^2″ = "x²"</li>
         </ul>
-        <p><%= t 'pages.formatting.finish1' %><a href="http://daringfireball.net/projects/markdown/syntax"><%= t 'pages.formatting.finish2' %></a>.</p>
+        <p><%= t('.finish', markdown_link: link_to(t('.markdown_link_text'), "http://daringfireball.net/projects/markdown/syntax")).html_safe %></p>
         <p>&nbsp;</p>
-        <p align="center"><%= link_to t('pages.tutorials.headline'), tutorials_url %> | <%= link_to t('pages.tutorials.started_head'), getting_started1_url %></p>
+        <p align="center"><%= link_to t('pages.tutorials.headline'), tutorials_url %> | <%= link_to t('pages.tutorials.started_head'), sign_up_url %></p>
        
  	</div>
     <div class="span2">

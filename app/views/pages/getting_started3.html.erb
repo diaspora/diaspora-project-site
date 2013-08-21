@@ -1,10 +1,10 @@
-<% content_for :page_title, t('pages.getting_started3.menu_title') %>
+<% content_for :page_title, t('.menu_title') %>
 <% content_for :wrapper_class, "index_page" %>
 
 <div id="masthead", class="hero">
   <div class="container">
     <h1><%= t 'pages.tutorials.started_head' %></h1>
-    <h2><%= t 'pages.getting_started3.byline' %></h2>
+    <h2><%= t '.byline' %></h2>
   </div>
 </div>
 
@@ -13,17 +13,17 @@
     <div class="span2">&nbsp;
     </div>
     <div class="span12">       
-        <p><%= t 'pages.getting_started3.aspects1' %></p>
-		<p><%= t 'pages.getting_started3.aspects2' %></p>
-        <p><%= t 'pages.getting_started3.aspects3' %></p>
-        <p><%= t 'pages.getting_started3.aspects4' %><span class="click"><%= t 'click.aspects' %></span><%= t 'pages.getting_started3.aspects4a' %><span class="click"><em><%= t 'click.add_aspect' %></em></span><%= t 'pages.getting_started3.aspects4b' %></p>
+        <p><%= t '.aspects1' %></p>
+		<p><%= t '.aspects2' %></p>
+        <p><%= t '.aspects3' %></p>
+        <p><%= t('.aspects4').html_safe %></p>
         <div align="center"><%= image_tag "add-aspect.png" %></div>
 	        <ol>
-    		    <li><%= t 'pages.getting_started3.add_aspect1' %></li>
-		        <li><%= t 'pages.getting_started3.add_aspect2' %></li>
-		        <li><%= t 'pages.getting_started3.add_aspect3' %><span class="click"><%= t 'click.create' %></span><%= t 'pages.getting_started3.add_aspect3a' %></li>
+    		    <li><%= t '.add_aspect1' %></li>
+		        <li><%= t '.add_aspect2' %></li>
+		        <li><%= t('.add_aspect3').html_safe %></li>
 	        </ol>
-        <p><%= t 'pages.getting_started3.add_aspect4' %></p>
+        <p><%= t '.add_aspect4' %></p>
     </div>
     <div class="span2">&nbsp;</div>
   </div>
@@ -31,18 +31,18 @@
   <div class="row">
     <div class="span2">&nbsp;</div>
     <div class="span10">
-        <p><%= t 'pages.getting_started3.my_aspects1' %><span class="click"><%= t 'click.aspects' %></span><%= t 'pages.getting_started3.my_aspects1a' %></p>
+        <p><%=(t '.my_aspects1').html_safe %></p>
         <ul>
-        	<li><%= t 'pages.getting_started3.my_aspects2' %></li>
-            <li><%= t 'pages.getting_started3.my_aspects3' %></li>
-            <li><%= t 'pages.getting_started3.my_aspects4' %></li>
-            <li><%= t 'pages.getting_started3.my_aspects5' %><span class="click"><%= t 'click.deselect' %></span><%= t 'pages.getting_started3.my_aspects5a' %></li>
+        	<li><%= t '.my_aspects2' %></li>
+            <li><%= t '.my_aspects3' %></li>
+            <li><%= t '.my_aspects4' %></li>
+            <li><%=(t '.my_aspects5').html_safe %></li>
         </ul>
-        <p><%= t 'pages.getting_started3.my_aspects6' %></p>
-        <p><%= t 'pages.getting_started3.my_aspects7' %></p>
+        <p><%= t '.my_aspects6' %></p>
+        <p><%= t '.my_aspects7' %></p>
 	        <ol>
-    		    <li><%= t 'pages.getting_started3.my_aspects8' %><em><%= t 'pages.getting_started3.my_aspects8a' %></em><%= t 'pages.getting_started3.my_aspects8b' %></li>
-		        <li><%= t 'pages.getting_started3.my_aspects9' %></li>
+    		    <li><%= t('.my_aspects8').html_safe %></li>
+		        <li><%= t '.my_aspects9' %></li>
 			</ol>
     </div>
     <div class="span4"><%= image_tag "aspect-list.png" %></div>
@@ -51,23 +51,23 @@
   <div class="row">
 	<div class="span2">&nbsp;</div>
     <div class="span12">
-        <h3><%= t 'pages.getting_started3.contacts' %></h3>
-        <p><%= t 'pages.getting_started3.contact_ex1' %><%= link_to t('pages.tutorials.part2'), getting_started2_url %>. <%= t 'pages.getting_started3.contact_ex2' %><span class="click"><%= t 'click.contacts1' %></span><%= t 'pages.getting_started3.contact_ex2a' %></p>
-        <p><%= t 'pages.getting_started3.contact_ex3' %></p>
-        <p><%= t 'pages.getting_started3.contact_ex4' %><span class="click"><%= t 'click.contacts' %></span><%= t 'pages.getting_started3.contact_ex4a' %><em><%= t 'pages.getting_started3.contact_ex4b' %></em><%= t 'pages.getting_started3.contact_ex4c' %></p>  
-        <p><%= t 'pages.getting_started3.contact_ex5' %></p>
-        <p><%= t 'pages.getting_started3.contact_ex6' %></p>
-        <p><%= t 'pages.getting_started3.contact_ex7' %></p>
+        <h3><%= t '.contacts' %></h3>
+        <p><%= t('.contact_ex1', part2_link: link_to(t('pages.tutorials.part2'), interface_path)).html_safe %></p>
+        <p><%= t '.contact_ex3' %></p>
+        <p><%= t('.contact_ex4').html_safe %></p>  
+        <p><%= t '.contact_ex5' %></p>
+        <p><%= t '.contact_ex6' %></p>
+        <p><%= t '.contact_ex7' %></p>
         
-        <h5><%= t 'pages.getting_started3.sharing_me' %></h5>
-        <p><%= t 'pages.getting_started3.sharing_me_ex' %></p>
+        <h5><%= t '.sharing_me' %></h5>
+        <p><%= t '.sharing_me_ex' %></p>
         
         <p>&nbsp;</p>
-        <p class="more-info"><%= t 'pages.getting_started3.finish' %></p>
+        <p class="more-info"><%= t '.finish' %></p>
         
         <p>&nbsp;</p>
  
-        <p align="center"><%= link_to t('pages.getting_started2.byline'), getting_started2_url %> | <%= link_to t('pages.getting_started4.byline'), getting_started4_url %></p>
+        <p align="center"><%= link_to t('pages.getting_started2.byline'), interface_url %> | <%= link_to t('pages.getting_started4.byline'), connecting_url %></p>
        
     <div class="span2">
     </div>

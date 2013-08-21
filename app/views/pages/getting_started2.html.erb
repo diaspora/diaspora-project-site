@@ -1,10 +1,10 @@
-<% content_for :page_title, t('pages.getting_started2.menu_title') %>
+<% content_for :page_title, t('.menu_title') %>
 <% content_for :wrapper_class, "index_page" %>
 
 <div id="masthead", class="hero">
   <div class="container">
     <h1><%= t 'pages.tutorials.started_head' %></h1>
-    <h2><%= t 'pages.getting_started2.byline' %></h2>
+    <h2><%= t '.byline' %></h2>
   </div>
 </div>
 
@@ -13,72 +13,72 @@
     <div class="span2">&nbsp;
     </div>
     <div class="span12">       
-        <p><%= t 'pages.getting_started2.interface1' %><span class="click"><%= t 'click.stream' %></span><%= t 'pages.getting_started2.interface1a' %></p>
-		<p class="more-info"><%= t 'pages.getting_started2.interface2' %></p>
-        <p><%= t 'pages.getting_started2.interface3' %></p>
-        <p><%= t 'pages.getting_started2.header' %></p>
+        <p><%= t('.interface1').html_safe %></p>
+		<p class="more-info"><%= t '.interface2' %></p>
+        <p><%= t '.interface3' %></p>
+        <p><%= t '.header' %></p>
         <div align="center"><%= image_tag "dropdown.png" %></div>
 	        <ol>
-	    	    <li><%= t 'pages.getting_started2.header2' %></li>
-    	    	<li><%= t 'pages.getting_started2.header3' %></li>
-	    	    <li><%= t 'pages.getting_started2.header4' %><%= link_to t('pages.tutorials.part6'), getting_started6_url  %>);</li>
-    	    	<li><%= t 'pages.getting_started2.header5' %><%= link_to t('pages.tutorials.part6'), getting_started6_url  %>);</li>
-	        	<li><%= t 'pages.getting_started2.header6' %><%= link_to t('pages.tutorials.part4'), getting_started4_url  %>);</li>
-		        <li><%= t 'pages.getting_started2.header7' %>
+	    	    <li><%= t '.header2' %></li>
+    	    	<li><%= t '.header3' %></li>
+	    	    <li><%= t('.header4', part6_link: link_to(t('pages.tutorials.part6'), conversations_path)).html_safe %></li>
+    	    	<li><%= t('.header5', part6_link: link_to(t('pages.tutorials.part6'), conversations_path)).html_safe %></li>
+    	    	<li><%= t('.header6', part4_link: link_to(t('pages.tutorials.part4'), connecting_path)).html_safe %></li>
+		        <li><%= t '.header7' %>
     		    	<ul>
-    		    		<li><%= t 'pages.getting_started2.header8' %><%= link_to t('pages.tutorials.part1'), getting_started1_url  %></a>);</li>
-        				<li><%= t 'pages.getting_started2.header9' %><%= link_to t('pages.tutorials.part4'), getting_started4_url  %></a>);</li>
-            			<li><%= t 'pages.getting_started2.header10' %><%= link_to t('pages.tutorials.part7'), getting_started7_url  %></a>);</li>
-		            	<li><%= t 'pages.getting_started2.header11' %></li>
+    		    		<li><%= t('.header8', part1_link: link_to(t('pages.tutorials.part1'), sign_up_path)).html_safe %></li>
+        				<li><%= t('.header9', part4_link: link_to(t('pages.tutorials.part4'), connecting_path)).html_safe %></li>
+            			<li><%= t('.header10', part7_link: link_to(t('pages.tutorials.part7'), finishing_path)).html_safe %></li>
+		            	<li><%= t '.header11' %></li>
 		        	</ul>
 		        </li>
     	    </ol>
-        <p><%= t 'pages.getting_started2.columns' %></p>
+        <p><%= t '.columns' %></p>
         <div align="center"><%= image_tag "stream.jpg" %></div>
         <p>&nbsp;</p>
         	<ul>
-		        <li><%= t 'pages.getting_started2.column1a' %><span class="click"><%= t 'click.activity' %></span>, <span class="click"><%= t 'click.mentions' %></span>, <span class="click"><%= t 'click.stream' %></span>, <span class="click"><%= t 'click.aspects' %></span><%= t 'pages.getting_started2.column1b' %><span class="click"><%= t 'click.tags' %></span>. <%= t 'pages.getting_started2.column1c' %></li>
-    		    <li><%= t 'pages.getting_started2.column2' %><%= link_to t('pages.tutorials.part4'), getting_started4_url  %>.</li>
-        		<li><%= t 'pages.getting_started2.column3' %></li>
+		        <li><%= t('.column1').html_safe %></li>
+    		    <li><%=(t '.column2', part4_link: link_to(t('pages.tutorials.part4'), connecting_path)).html_safe %></li>
+        		<li><%= t '.column3' %></li>
 	        </ul>
-        <p><%= t 'pages.getting_started2.views' %></p>
-        <h3><%= t 'pages.getting_started2.stream' %></h3>
-        <p><%= t 'pages.getting_started2.stream_ex' %></p>
+        <p><%= t '.views' %></p>
+        <h3><%= t '.stream' %></h3>
+        <p><%= t '.stream_ex' %></p>
 	        <ol>
-    		    <li><%= t 'pages.getting_started2.stream1' %></li>
-				<li><%= t 'pages.getting_started2.stream2' %></li>
-		        <li><%= t 'pages.getting_started2.stream3' %></li>
+    		    <li><%= t '.stream1' %></li>
+				<li><%= t '.stream2' %></li>
+		        <li><%= t '.stream3' %></li>
         	</ol>
-        <p><%= t 'pages.getting_started2.stream_ex2' %></p>
+        <p><%= t '.stream_ex2' %></p>
 
-        <h3><%= t 'pages.getting_started2.activity' %></h3>
-        <p><%= t 'pages.getting_started2.activity_ex' %></p>
+        <h3><%= t '.activity' %></h3>
+        <p><%= t '.activity_ex' %></p>
         
-        <h3><%= t 'pages.getting_started2.mentions' %></h3>
-        <p><%= t 'pages.getting_started2.mentions_ex' %><%= link_to t('pages.tutorials.part4'), getting_started4_url  %>.</p>
+        <h3><%= t '.mentions' %></h3>
+        <p><%= t('.mentions_ex', part4_link: link_to(t('pages.tutorials.part4'), connecting_path)).html_safe %></p>
         
-        <h3><%= t 'pages.getting_started2.aspects' %></h3>
-        <p><%= t 'pages.getting_started2.aspects_ex1' %></p>
-        <p><%= t 'pages.getting_started2.aspects_ex2' %><span class="click"><%= t 'click.aspects' %></span><%= t 'pages.getting_started2.aspects_ex2a' %></p>
+        <h3><%= t '.aspects' %></h3>
+        <p><%= t '.aspects_ex1' %></p>
+        <p><%= t('.aspects_ex2').html_safe %></p>
 
-		<h3><%= t 'pages.getting_started2.tags' %></h3>
-		<p><%= t 'pages.getting_started2.tags_ex1' %><%= link_to t('pages.tutorials.part5'), getting_started5_url  %>.</p>
-		<p><%= t 'pages.getting_started2.tags_ex2' %><span class="click"><%= t 'click.tags' %></span><%= t 'pages.getting_started2.tags_ex2a' %></p>
+		<h3><%= t '.tags' %></h3>
+		<p><%= t('.tags_ex1', part5_link: link_to(t('pages.tutorials.part5'), sharing_path)).html_safe %></p>
+		<p><%= t('.tags_ex2').html_safe %></p>
 
-        <h3><%= t 'pages.getting_started2.profile' %></h3>
-		<p><%= t 'pages.getting_started2.profile_ex1' %><%= link_to t('pages.tutorials.part1'), getting_started1_url  %>).</p>
-		<p><%= t 'pages.getting_started2.profile_ex2' %></p>
-		<p><%= t 'pages.getting_started2.profile_ex3' %><span class="click"><%= t 'click.edit' %></span><%= t 'pages.getting_started2.profile_ex3a' %></p>
-		<p><%= t 'pages.getting_started2.profile_ex4' %></p>        
+        <h3><%= t '.profile' %></h3>
+		<p><%= t('.profile_ex1', part1_link: link_to(t('pages.tutorials.part1'), sign_up_url)).html_safe %></p>
+		<p><%= t '.profile_ex2' %></p>
+		<p><%= t('.profile_ex3').html_safe %></p>
+		<p><%= t '.profile_ex4' %></p>        
         <div align="center"><%= image_tag "profile-icons.png" %></div>        
-		<p><%= t 'pages.getting_started2.profile_ex5' %></p>
-		<p><%= t 'pages.getting_started2.profile_ex6' %></p>
+		<p><%= t '.profile_ex5' %></p>
+		<p><%= t '.profile_ex6' %></p>
         <p>&nbsp;</p>
-		<p class="more-info"><%= t 'pages.getting_started2.finish' %></p>
+		<p class="more-info"><%= t '.finish' %></p>
 		
         <p>&nbsp;</p>
  
-        <p align="center"><%= link_to t('pages.getting_started1.byline'), getting_started1_url %> | <%= link_to t('pages.getting_started3.byline'), getting_started3_url %></div>
+        <p align="center"><%= link_to t('pages.getting_started1.byline'), sign_up_url %> | <%= link_to t('pages.getting_started3.byline'), aspects_url %></div>
     <div class="span2">
     </div>
   </div>
