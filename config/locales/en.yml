@@ -214,9 +214,8 @@ en:
       tips: 'Tips and tricks'
       formatting: 'Formatting text'
       more_tutorials: 'Want more help?'
-      other_doc1: 'Check our '
-      other_doc2: 'other documentation'
-      other_doc3: ' page for links to other sites.'
+      other_docs: 'Check our %{other_docs_link} page for links to other sites.'
+      other_docs_link_text: 'other documentation'
       thanks: 'Huge thanks to Kevin Kleinman, who created the original Diasporial guides on which these tutorials are based.'
     getting_started1:
       byline: 'Part 1 – Signing up'

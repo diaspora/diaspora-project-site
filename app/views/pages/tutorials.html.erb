@@ -40,7 +40,7 @@
     <div class="span-one-third">
         <h3><%= t '.more_tutorials' %></h3>
             <ul>
-	        	<li><%= t '.other_doc1' %><%= link_to t('.other_doc2'), other_docs_url %><%= t '.other_doc3' %></li>
+	        	<li><%= t('.other_docs', other_docs_link: link_to(t('.other_docs_link_text'), other_docs_url)).html_safe %></li>
             </ul>
     </div>
   </div>
