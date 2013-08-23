@@ -74,14 +74,12 @@
     </div>
   </div>
 
-  <hr />
-
   <div class="row" id="bugs">
     <div class="span4"><%= image_tag "tick.png", alt: t('.globe_alt') %></div>
     <div class="span12">
       <h4><%= t '.bugs_header' %></h4>
       <ul>
-        <li><%= t '.bugs_ex1' %></li>
+        <li><%= t('.bugs_ex1', github_link: link_to(t('.github_link_text'), "https://github.com/diaspora/diaspora/issues")).html_safe %></li>
         <li>
           <%= t '.bugs_ex2' %>
           <a href="http://www.codetriage.com/diaspora/diaspora">

@@ -22,10 +22,11 @@
 
           <div id="mainnav" class="pull-right">
             <ul class="nav">
-              <li><%= link_to t('pages.about.menu_title'), about_url %></li>
+              <!-- <li><%= link_to t('pages.about.menu_title'), about_url %></li> -->
               <li><%= link_to t('pages.get_involved.menu_title'), get_involved_url %></li>
               <!-- <li><%= link_to t('pages.blog.menu_title'), blog_index_url(subdomain: 'blog') %></li> -->
               <li><%= link_to t('.wiki'), 'https://wiki.diasporafoundation.org' %></li>
+              <li><%= link_to t('pages.tutorials.menu_title'), tutorials_url %></li>
               <!-- <li><%= link_to t('.planet'), 'http://planet.diasporafoundation.org' %></li> -->
             </ul>
             <%= link_to t('buttons.host_pod'), about_path(anchor: "host"), class: 'btn primary' %>
