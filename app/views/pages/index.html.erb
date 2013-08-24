@@ -19,7 +19,7 @@
   <div class="row top_spacing">
     <h1><%= t '.key_philosophies' %></h1>
   </div>
-  <div class="row">
+  <div class="row minor_top_spacing">
     <div class="span-one-third">
       <%= image_tag "decentralized-stamp.png", alt: t('.decentralized_alt') %>
     </div>
@@ -30,7 +30,7 @@
       <%= image_tag "keyhole-stamp.png", alt: t('.keyhole_alt') %>
     </div>
   </div>
-  <div class="row">
+  <div class="row minor_top_spacing">
     <div class="span-one-third">
       <h2><%= t '.decentralization' %></h2>
       <p><%= t '.decentralization_about' %></p>
@@ -68,7 +68,7 @@
     <div class="span-one-third">
       <h2><%= t '.choose_pod' %></h2>
       <p>
-        <%= t('.choose_pod_exp', poduptime: link_to('Pod Uptime', 'http://podupti.me')).html_safe %>
+        <%= t '.choose_pod_exp' %>
       </p>
       <p class="find_out_more">
         <a href="https://wiki.diasporafoundation.org/Choosing_a_pod" class="btn primary">
@@ -92,17 +92,15 @@
         <%= t '.join_convo' %>
       </h2>
       <p>
-        <%= t '.join_convo_ex' %>
+        <%= t('.join_convo_ex').html_safe %>
       </p>
-<!--      <p class="find_out_more">
-        <a href="/getting-started-1.html" class="btn primary">
+      <p class="find_out_more">
+        <a href="/getting_started/sign_up" class="btn primary">
           <%= t 'buttons.find_more' %>
         </a>
-      </p> --!>
+      </p>
     </div>
   </div>
-
-  <hr />
 
   <div class="row top_spacing">
     <div class="span-one-third">
