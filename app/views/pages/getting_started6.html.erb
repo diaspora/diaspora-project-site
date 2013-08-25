@@ -1,0 +1,70 @@
+<% content_for :page_title, t('.menu_title') %>
+<% content_for :wrapper_class, "index_page" %>
+
+<div id="masthead", class="hero">
+  <div class="container">
+    <h1><%= t 'pages.tutorials.started_head' %></h1>
+    <h2><%= t '.byline' %></h2>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row top_spacing">
+    <div class="span2">&nbsp;
+    </div>
+    <div class="span12">       
+        <p class="more-info"><%= t '.intro' %></p>
+
+        <h3><%= t '.notify' %></h3>
+    </div>
+    <div class="span2">
+    </div>
+  </div>    
+  <div class="row">
+    <div class="span2">&nbsp;
+    </div>
+    <div class="span11">       
+        <p><%= t '.notify_ex1' %></p>
+		<p><%= t '.notify_ex2' %></p>
+			<ul>
+				<li><%= t '.notify_ls1' %></li>
+				<li><%= t('.notify_ls2').html_safe %></li>
+				<li><%= t('.notify_ls3').html_safe %></li>
+				<li><%= t('.notify_ls4').html_safe %></li>
+			</ul>
+        <p><%= t '.notify_ex3' %></p>
+    </div>
+    <div class="span2">
+    	<div align="center"><%= image_tag "notify.png" %></div>
+    </div>
+  </div>    
+		
+  <div class="row">
+    <div class="span2">&nbsp;
+    </div>
+    <div class="span12">       
+        <h3><%= t '.convo' %></h3>
+        <p><%= t '.convo_ex1' %></p>
+        <p><%= t '.convo_ex2' %></p>
+        <div align="center"><%= image_tag "conversations_page.png" %></div>
+
+        <p>&nbsp;</p>
+        <p><%= t('.convo_ex3').html_safe %></p>
+        <p class="more-info"><%= t '.convo_ex4' %></p>
+        <p><%= t '.convo_ex5' %></p>
+        <p><%= t '.convo_ex6' %></p>
+        <p><%= t '.convo_ex7' %></p>
+        <p><%= t('.convo_ex8').html_safe %></p>
+        <p><%= t('.convo_ex9').html_safe %></p>
+        <p>&nbsp;</p>
+        <p class="more-info"><%= t '.finish' %></p>
+
+        <p>&nbsp;</p>
+ 
+        <p align="center"><%= link_to t('pages.getting_started5.byline'), sharing_url %> | <%= link_to t('pages.getting_started7.byline'), finishing_url %></p>
+       
+	</div>   
+    <div class="span2">
+    </div>
+  </div>
+</div>

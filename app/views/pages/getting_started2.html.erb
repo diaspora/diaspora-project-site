@@ -1,0 +1,85 @@
+<% content_for :page_title, t('.menu_title') %>
+<% content_for :wrapper_class, "index_page" %>
+
+<div id="masthead", class="hero">
+  <div class="container">
+    <h1><%= t 'pages.tutorials.started_head' %></h1>
+    <h2><%= t '.byline' %></h2>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row top_spacing">
+    <div class="span2">&nbsp;
+    </div>
+    <div class="span12">       
+        <p><%= t('.interface1').html_safe %></p>
+		<p class="more-info"><%= t '.interface2' %></p>
+        <p><%= t '.interface3' %></p>
+        <p><%= t '.header' %></p>
+        <div align="center"><%= image_tag "dropdown.png" %></div>
+	        <ol>
+	    	    <li><%= t '.header2' %></li>
+    	    	<li><%= t '.header3' %></li>
+	    	    <li><%= t('.header4', part6_link: link_to(t('pages.tutorials.part6'), conversations_path)).html_safe %></li>
+    	    	<li><%= t('.header5', part6_link: link_to(t('pages.tutorials.part6'), conversations_path)).html_safe %></li>
+    	    	<li><%= t('.header6', part4_link: link_to(t('pages.tutorials.part4'), connecting_path)).html_safe %></li>
+		        <li><%= t '.header7' %>
+    		    	<ul>
+    		    		<li><%= t('.header8', part1_link: link_to(t('pages.tutorials.part1'), sign_up_path)).html_safe %></li>
+        				<li><%= t('.header9', part4_link: link_to(t('pages.tutorials.part4'), connecting_path)).html_safe %></li>
+            			<li><%= t('.header10', part7_link: link_to(t('pages.tutorials.part7'), finishing_path)).html_safe %></li>
+		            	<li><%= t '.header11' %></li>
+		        	</ul>
+		        </li>
+    	    </ol>
+        <p><%= t '.columns' %></p>
+        <div align="center"><%= image_tag "stream.jpg" %></div>
+        <p>&nbsp;</p>
+        	<ul>
+		        <li><%= t('.column1').html_safe %></li>
+    		    <li><%=(t '.column2', part4_link: link_to(t('pages.tutorials.part4'), connecting_path)).html_safe %></li>
+        		<li><%= t '.column3' %></li>
+	        </ul>
+        <p><%= t '.views' %></p>
+        <h3><%= t '.stream' %></h3>
+        <p><%= t '.stream_ex' %></p>
+	        <ol>
+    		    <li><%= t '.stream1' %></li>
+				<li><%= t '.stream2' %></li>
+		        <li><%= t '.stream3' %></li>
+        	</ol>
+        <p><%= t '.stream_ex2' %></p>
+
+        <h3><%= t '.activity' %></h3>
+        <p><%= t '.activity_ex' %></p>
+        
+        <h3><%= t '.mentions' %></h3>
+        <p><%= t('.mentions_ex', part4_link: link_to(t('pages.tutorials.part4'), connecting_path)).html_safe %></p>
+        
+        <h3><%= t '.aspects' %></h3>
+        <p><%= t '.aspects_ex1' %></p>
+        <p><%= t('.aspects_ex2').html_safe %></p>
+
+		<h3><%= t '.tags' %></h3>
+		<p><%= t('.tags_ex1', part5_link: link_to(t('pages.tutorials.part5'), sharing_path)).html_safe %></p>
+		<p><%= t('.tags_ex2').html_safe %></p>
+
+        <h3><%= t '.profile' %></h3>
+		<p><%= t('.profile_ex1', part1_link: link_to(t('pages.tutorials.part1'), sign_up_url)).html_safe %></p>
+		<p><%= t '.profile_ex2' %></p>
+		<p><%= t('.profile_ex3').html_safe %></p>
+		<p><%= t '.profile_ex4' %></p>        
+        <div align="center"><%= image_tag "profile-icons.png" %></div>        
+		<p><%= t '.profile_ex5' %></p>
+		<p><%= t '.profile_ex6' %></p>
+        <p>&nbsp;</p>
+		<p class="more-info"><%= t '.finish' %></p>
+		
+        <p>&nbsp;</p>
+ 
+        <p align="center"><%= link_to t('pages.getting_started1.byline'), sign_up_url %> | <%= link_to t('pages.getting_started3.byline'), aspects_url %></div>
+    <div class="span2">
+    </div>
+  </div>
+</div>

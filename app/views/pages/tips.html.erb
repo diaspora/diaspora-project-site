@@ -1,0 +1,28 @@
+<% content_for :page_title, t('.menu_title') %>
+<% content_for :wrapper_class, "index_page" %>
+
+<div id="masthead", class="hero">
+  <div class="container">
+    <h1><%= t '.headline' %></h1>
+    <h2><%= t '.byline' %></h2>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row top_spacing">
+    <div class="span2">&nbsp;
+    </div>
+    <div class="span12">       
+        <p><%= t '.intro' %></p>
+        <h3><%= t '.profile' %></h3>
+        <p><%= t '.profile_ex' %></p>
+        <h3><%= t '.notepad' %></h3>
+        <p><%= t('.notepad_ex').html_safe %></p>
+        <p>&nbsp;</p>
+        <p align="center"><%= link_to t('pages.tutorials.headline'), tutorials_url %> | <%= link_to t('pages.tutorials.started_head'), sign_up_url %></p>
+       
+ 	</div>
+    <div class="span2">
+    </div>
+  </div>
+</div>
