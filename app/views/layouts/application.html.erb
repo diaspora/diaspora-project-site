@@ -7,6 +7,7 @@
   <%= favicon_link_tag "favicon.png" %>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <%= auto_discovery_link_tag :atom, news_feed_url, {:title => t('newsfeed')} %>
   <%= stylesheet_link_tag 'application', :media => 'all' %>
   <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
@@ -16,21 +17,21 @@
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container-fluid">
-          <%= link_to root_path, class: 'brand' do %>
+          <%= link_to root_url(subdomain: false), class: 'brand' do %>
             <%= image_tag 'logo.png', alt: t('title'), title: t('title'), id: 'header-logo' %>
           <% end %>
 
           <div id="mainnav" class="pull-right">
             <ul class="nav">
-              <!-- <li><%= link_to t('pages.about.menu_title'), about_url %></li> -->
-              <li><%= link_to t('pages.get_involved.menu_title'), get_involved_url %></li>
-              <!-- <li><%= link_to t('pages.blog.menu_title'), blog_index_url(subdomain: 'blog') %></li> -->
+              <!-- <li><%= link_to t('pages.about.menu_title'), about_url(subdomain: false) %></li> -->
+              <li><%= link_to t('pages.get_involved.menu_title'), get_involved_url(subdomain: false) %></li>
+              <li><%= link_to t('pages.blog.menu_title'), blog_index_url(subdomain: 'blog') %></li>
               <li><%= link_to t('.wiki'), 'https://wiki.diasporafoundation.org' %></li>
-              <li><%= link_to t('pages.tutorials.menu_title'), tutorials_url %></li>
+              <li><%= link_to t('pages.tutorials.menu_title'), tutorials_url(subdomain: false) %></li>
               <!-- <li><%= link_to t('.planet'), 'http://planet.diasporafoundation.org' %></li> -->
             </ul>
-            <%= link_to t('buttons.host_pod'), about_path(anchor: "host"), class: 'btn primary' %>
-            <%= link_to t('buttons.join_diaspora'), root_path(anchor: "get_started"), class: 'btn success' %>
+            <%= link_to t('buttons.host_pod'), about_url(subdomain: false, anchor: "host"), class: 'btn primary' %>
+            <%= link_to t('buttons.join_diaspora'), root_url(subdomain: false, anchor: "get_started"), class: 'btn success' %>
           </div>
         </div>
       </div>

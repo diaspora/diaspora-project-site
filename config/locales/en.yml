@@ -1,4 +1,7 @@
 en:
+  time:
+    formats:
+      blog_headline: "%d %B %Y"
   buttons:
     host_pod: "Host a pod"
     join_diaspora: "Join us!"
@@ -7,6 +10,7 @@ en:
     footer:
       copyleft: "CC-BY The diaspora* Foundation"
   title: "The diaspora* Project"
+  newsfeed: "Newsfeed"
   layouts:
     application:
       wiki: Wiki

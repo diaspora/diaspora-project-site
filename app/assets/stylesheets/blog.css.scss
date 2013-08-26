@@ -1,0 +1,27 @@
+.blogcontent {
+  width: 75%;
+  margin: 50px auto 0;
+
+  h1, h2, h3 {
+    text-align: left;
+    color: rgb(64, 64, 64);
+  }
+
+  h1 {
+    font-size: 24px;
+
+    small {
+      display: block;
+      float: right;
+      margin-top: 10px;
+    }
+  }
+
+  h2 {
+    margin: 35px 0 15px 0;
+  }
+
+  li {
+    color: rgb(64, 64, 64);
+  }
+}

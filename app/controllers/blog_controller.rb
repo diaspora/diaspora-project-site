@@ -1,25 +1,16 @@
 class BlogController < ApplicationController
-  respond_to :html
+  respond_to :html, :except => [:feed]
+  respond_to :atom, :only => [:feed]
 
   def show
+    @blogpost = Blogpost.find_by_id params[:id]
   end
 
   def index
+    @blogposts = Blogpost.where(:published => true).order(:created_at => :desc)
   end
 
-  def create
-    Blog.create person_params
-  end
-
-  def update
-    blog = Blog.find params[:id]
-    blog.update_attributes! person_params
-    redirect_to blog
-  end
-
-  private 
-
-  def blog_params
-    params.require(:blog).permit :title, :published, :content
+  def feed
+    @blogposts = Blogpost.where(:published => true).order(:created_at => :desc).limit 5
   end
 end

@@ -6,4 +6,13 @@
   <h1><%= t 'pages.blog.headline' %> <small><%= t 'pages.blog.subline' %></small></h1>
 </div>
 
-Ohai, blog!
+<%- @blogposts.each do |blogpost| %>
+  <div class="blogcontent bloglist-item">
+    <div class="page-header clearfix">
+      <h1><%= link_to blogpost.title, blog_url(blogpost, subdomain: 'blog') %> <small><%= l blogpost.created_at, format: :blog_headline %></small></h1>
+    </div>
+
+    <%= markdownify blogpost.content %>
+  </div>
+<% end %>
+

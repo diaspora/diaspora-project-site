@@ -6,4 +6,8 @@ module ApplicationHelper
       "#{title} - #{suffix}"
     end
   end
+
+  def markdownify text
+    Redcarpet::Markdown.new(Redcarpet::Render::HTML, :autolink => true).render(text).html_safe
+  end
 end
