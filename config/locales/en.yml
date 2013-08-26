@@ -42,7 +42,7 @@ en:
       sign_up: "2. Sign up"
       sign_up_ex: "Once you’ve decided which pod is right for you, based on the ratings and information at %{poduptime} and maybe recommendations from people you trust, sign up there and create a profile with as much or as little personal information as you like. You are in control about how much you share."
       join_convo: "3. Join the conversation!"
-      join_convo_ex: 'Start following some #tags related to your interests: it could be <span class="click">#music</span>, <span class="click">#photography</span>, <span class="click">#privacy</span> or <span class="click">#linux</span> - whatever you’re into. Share a public message with the <span class="click">#newhere</span> tag to introduce yourself, and away you go. You’re now part of the vibrant diaspora* community.'
+      join_convo_ex: "Start following some #tags related to your interests: it could be <span class=\"click\">#music</span>, <span class=\"click\">#photography</span>, <span class=\"click\">#privacy</span> or <span class=\"click\">#linux</span> - whatever you’re into. Share a public message with the <span class=\"click\">#newhere</span> tag to introduce yourself, and away you go. You’re now part of the vibrant diaspora* community."
       aspects: Aspects
       aspects_ex: "diaspora* pioneered the concept of aspects, which means you can organise your contacts according to their role in your life. This means you can share something just with family members or work colleagues, knowing that no one you don’t want to will be able to see what you post."
       features: Features
@@ -152,7 +152,7 @@ en:
       bugs_ex1: "Our project makes use of Code Triage, a volunteer service where users and developers can work together to tackle bugs in our %{github_link}."
       bugs_ex2: "Squashing small bugs helps everyone, and it can give a newcomer a better working knowledge of how parts of diaspora* works."
       bugs_ex3: "Help us clean up our code"
-      github_link_text: 'GitHub Issue Tracker'
+      github_link_text: "GitHub Issue Tracker"
       translate_header: "Help translate"
       translate_ex1: "You can help translate diaspora* into other languages by joining the %{translations_link}."
       translations_link_text: "Translations Group"
@@ -162,12 +162,12 @@ en:
       voice_ex1: "Our project is run entirely by community volunteers. We use a tool called Loomio to gauge how our contributors feel about ideas and proposals for the project. "
       voice_ex2: "Join us there"
       voice_ex3: "Persuade your friends and family to join diaspora* by organizing your own real-life diaspora* %{meetup_link} in your own community."
-      meetup_link_text: "meetup"
+      meetup_link_text: meetup
       support_header: "Provide support"
       support_ex1: "Help new users feel welcome!"
       support_ex2: "Sign up here"
       support_ex3: "Write user tutorials at %{diasporial_link}."
-      support_ex4: 'Answer users’ questions on our %{irc_channel_link} or answer users’ questions on diaspora* itself by following the <span class="click">#help</span>, <span class="click">#question</span> and <span class="click">#feedback</span> hashtags.'
+      support_ex4: "Answer users’ questions on our %{irc_channel_link} or answer users’ questions on diaspora* itself by following the <span class=\"click\">#help</span>, <span class=\"click\">#question</span> and <span class=\"click\">#feedback</span> hashtags."
       irc_channel_link_text: "IRC channel"
       support_ex5: "Contribute to %{wiki_link}."
       wiki_link_text: "diaspora*’s wiki"

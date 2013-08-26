@@ -1,0 +1,191 @@
+hu:
+  buttons:
+    host_pod: "Pod működtetése"
+    join_diaspora: Csatlakozz!
+    find_more: "Bővebben »"
+  meta:
+    footer:
+      copyleft: "CC-BY diaspora* Alapítvány"
+  title: "diaspora* projekt"
+  layouts:
+    application:
+      wiki: Wiki
+      planet: ~
+      useful_resources: "Hasznos segédanyagok"
+      codebase: Kódbázis
+      documentation: Dokumentáció
+      report_bugs: "Találj és jelents hibákat!"
+      irc_general: "IRC - Általános"
+      irc_development: "IRC - Fejlesztés"
+      discussion_general: "Általános fórum"
+      discussion_development: "Fejlesztői fórum"
+      choose_language: "Nyelv választása"
+      cc_license_alt: "Creative Commons licensz"
+      licensed_under: ~
+      license_link_text: ~
+  pages:
+    index:
+      headline: "A diaspora* üdvözöl!"
+      byline: "Az online közösségi hálózat, ahol te irányítasz."
+      register: Regisztráció
+      key_philosophies: "A diaspora* három kulcsfontosságú elven alapszik:"
+      decentralization: Decentralizáció
+      decentralization_about: ~
+      freedom: Szabadság
+      freedom_about: ~
+      privacy: Adatvédelem
+      privacy_about: ~
+      get_started: Kipróbálnád?
+      get_started_sub: "Egyszerű, mint háromig számolni..."
+      choose_pod: "1. Válassz podot!"
+      choose_pod_exp: ~
+      sign_up: "2. Regisztrálj!"
+      sign_up_ex: ~
+      join_convo: "3. Kapcsolódj másokhoz!"
+      join_convo_ex: ~
+      aspects: ~
+      aspects_ex: ~
+      features: ~
+      features_ex: ~
+      help: Segítenél?
+      help_ex: ~
+      socialint: ~
+      socialint_ex: ~
+      earth_alt: ~
+      decentralized_alt: Decentralizált
+      freedom_alt: ~
+      keyhole_alt: Szabadság
+      aspects_alt: ~
+      features_alt: Funkciók
+      ways_to_help_alt: "Hogyan segíthetsz"
+      services_alt: Szolgáltatások
+    about:
+      headline: "Hogyan működik a disapora*?"
+      byline: "A diaspora* használata egyszerű:"
+      menu_title: Ismertető
+      decentralize: "Mit jelent a decentralizáció?"
+      decentralize_ex: "A diaspora* teljesen más mint a legtöbb hálózati szolgáltatás, amelyet használsz. Teljesen decentralizált, tehát nem egy központi szerver irányítja. Ennek ellenére pofonegyszerű másokkal kapcsolatba lépni."
+      this: EZT
+      this_ex: "A diaspora* egy valódi hálózat, központi szerver nélkül. A hálózatot alkotó szerverek, az ún. \"podok\", a világ különböző pontjain működnek, és a hozzájuk regisztrált felhasználók adatait tartalmazzák csak. A podok viszont kommunikálnak egymással, így bármelyikre regisztrálhatsz, mivel minden ismerősöddel tartani tudod a kapcsolatot, függetlenül attól, hogy ők melyik szervert használják."
+      notthis: "EZT NEM"
+      notthis_ex: "A legtöbb közösségi hálózatot egyetlen cég által birtokolt, központosított szerverek sokasága üzemelteti. Ezek a szerverek tárolják a felhasználók összes személyes adatát. Ezek azonban elveszhetnek vagy egy betörés során illetéktelen személyek kezébe kerülhetnek, s mint minden szűk keresztmetszetű rendszernél, a központi szervereknél fellépő bármilyen probléma az egész hálózatot lelassíthatja vagy akár teljesen elérhetetlenné teheti. Továbbá az egyes kormányszerveknek is sokkal könnyebb \"hallgatózni\"."
+      discl: ~
+      connect: "Hogyan kapcsolódhatsz másokhoz?"
+      connect_ex: "Habár a diaspora* a világ különböző pontjain lévő szerverekből áll össze, mégis egy egységes hálózatként működik. Nem szükséges, hogy ismerőseiddel ugyanazt a podot használjátok a kapcsolattartáshoz - a kommunikáció egységesen működik a teljes diaspora* univerzumban. A diaspora* használata közben meg is feledkezhetsz róla, hogy ez különálló szerverek sokasága. Kapcsolatba lépni valakivel a diaspora* hálózatán rendkívül egyszerű: "
+      find: "1. Találd meg őket!"
+      find_ex: "A kapcsolatfelvételhez csupán annyit kell tenned, hogy megkeresel valakit és egy aspektushoz adod (lásd még bővebben lentebb). Találj meg másokat a fekete sávban lévő keresőmezővel, vagy mozgasd az egérmutatót a hírfolyamban megjelenő nevek fölé, hogy megjelenjen a névjegyük. Ha ismered bárki diaspora* azonosítóját (név@podnév.com), akkor azt is használhatod."
+      add: "2. Vedd fel őket!"
+      add_ex: "Ezek után nincs más teendőd, mint a \"Hozzáadás\" gombra kattintani és kiválasztani, hogy mely aspektusba tartozzon az adott személy. Innentől fogva kapcsolatba kerültök és megoszthatsz vele bármit, ahogyan más közösségi oldalakon is. Vagy, ha életedhez több szálon kötődik, akkor add őt akár több különböző aspektushoz is. Ilyen egyszerű kapcsolatba kerülni egymással. "
+      freedom: Szabadság
+      freedom_byline: "a disapora* nem állít korlátokat eléd"
+      fdm1: "Legyél, aki szeretnél!"
+      fdm1_ex: "Sok közösségi hálózat ragaszkodik ahhoz, hogy a valódi identitásod használd. De a diaspora* nem. Itt az lehetsz, aki csak akarsz, és te döntöd el, hogy mennyi információt osztasz meg magadról. Itt tényleg rajtad áll a döntés, hogyan lépsz kapcsolatba másokkal."
+      fdm2: "Legyél kreatív!"
+      fdm2_ex: "Korlátok nélkül léphetsz interakcióba másokkal. Dönthetsz úgy, hogy csak követed a számodra érdekes emberek gondolatait, de meg is oszthatod azokat a nagyvilággal. Ossz meg fotókat, műalkotásokat, videókat, zenét, szavakat - amit csak szeretnél. Szárnyalj!"
+      fdm3: "Szabad minden tekintetben"
+      fdm3_ex: "A diaspora* teljes mértékben Szabad Szoftver. Ez azt jelenti, hogy használatának nincsenek korlátai. Még a forráskódhoz is hozzáférhetsz és módosíthatod, hogy neked megfelelően működjön, vagy hogy segíts nekünk a hálózat tökéletesítésében. Tárt karokkal várunk!"
+      privacy: Adatvédelem
+      privacy_byline: "Te uralkodsz az adataid felett "
+      priv1: "Birtokold saját adataid!"
+      priv1_ex: "Sok közösségi hálózat abból profitál, hogy kielemzi online tevékenységed és ez alapján céloz meg hirdetésekkel. A diaspora* viszont kizárólag csak arra használja az adataid, hogy kapcsolatba léphess másokkal és tartalmat oszthass meg velük."
+      priv2: "Tárold te az adataid!"
+      priv2_ex: "Döntsd el te, hogy hol tárolod adataid egy számodra megfelelő pod kiválasztásával. Ha igazán biztosra szeretnél menni, te is tudsz podot működteti a saját szervereiden, így biztosítva azt, hogy más nem férhet hozzá az adataidhoz."
+      priv3: "Dönts a hallgatóságodról!"
+      priv3_ex: "A diaspora* aspektusok segítenek abban, hogy csak bizonyos személyekkel oszthass meg valamit. Annyira lehetsz publikus vagy titkolózó, amennyire csak szeretnél. Ossz meg egy vicces fotót az egész világgal, vagy egy komoly titkot csupán a legközelebbi barátaiddal."
+      aspects: "Az aspektusokról"
+      aspects_byline: "A diaspora* adatvédelmének kulcsa"
+      asp1: "Életed aspektusai"
+      asp1_ex: "Életednek sok aspektusa, oldala van, melyhez különböző emberek tartoznak. Miért lenne más az online életed? A diaspora* aspektusokkal neked tetsző módon rendszerezheted online életed és csak azokkal oszthatsz meg tartalmat, akikkel valóban szeretnél."
+      asp2: Rendszerezz!
+      asp2_ex: "Lehet például egy aspektusod a családtagjaidnak, egy a közeli barátaidnak, egy a kollégáidnak és egy a kedvenc szabadidős tevékenységednek. A kollégáidnak nem kell tudni a családi eseményekről, nem igaz? Aspektusok segítségével nem is fognak."
+      asp3: "Kürtöld világgá!"
+      asp3_ex: "Természetesen néhány dolog annyira fontos, hogy az egész világgal tudatni szeretnéd. Ennél mi sem egyszerűbb, csupán jelöld meg publikusként a tartalmat. A megfelelő címkék használatával biztosíthatod, hogy azokat érje majd el, akik értékelni fogják."
+      features: "A közösségünk által legkedveltebb funkciók"
+      features_byline: "Ezeket te is kedvelni fogod"
+      hashtags: Címkézés
+      hashtags_ex: "A címkék segítségével megjelölhetsz és követhetsz minden témát, ami téged érdekel. Továbbá segítenek abban is, hogy a gondolataid azonos érdeklődésű embereket érjen el. Nem utolsó sorban pedig a címkék által vicces és érdekes, új ismerősökre tehetsz szert."
+      reshare: Továbbosztás
+      reshare_ex: "Miért is ne osztanál meg egy általad kedvelt tartalmat másokkal? A diaspora* egyszerűvé teszi a jó gondolatok terjesztését a továbbosztás funkcióval. Csak egy gombnyomásnyira van bármely üzenet megosztása."
+      mentions: Hivatkozások
+      mentions_ex: "Szeretnéd felhívni valaki figyelmét? Csak @hivatkozz rá! Ez egy egyszerű módja annak, hogy egy ismerősöd figyelmét valamilyen fontos információra irányítsd."
+      love: Szeress!
+      love_ex: "Mutasd ki a ♥-eted, ha kedvelsz és értékelsz valamit. Mert néha nem lehet szavakkal leírni, amit érzel."
+      host: "Üzemeltess közösségi podot!"
+      host_byline: "Légy te is a diaspora* egyik csillaga!"
+      host_ex: "A diaspora* saját közösségének tagjaitól függ olyan podok működtetésében, melyek nyitottak minden érdeklődő számára. Ha van szabad szerverkapacitásod és egy kevés technikai tudásod, akkor nagyon örülnénk neki, ha megnyitnál egy podot szabad regisztrációval. Minél több pod létezik, annál jobban működik a diaspora* is - légy a decentralizált közösségi háló jövőjének részese!"
+      hostinst1: "Olvasd el az %{instructions_link} c. leírást és helyezz üzembe saját podot!"
+      instructions_link_text: "Útmutató pod működtetéséhez"
+      hostinst2: "Közösségi podok listája a %{poduptime} oldalon"
+      distributed_network: "Elosztott hálózat"
+      centralized_network: "Központosított hálózat"
+      search_alt: Keresés
+      add_a_contact_alt: Kapcsolatfelvétel
+      hashtag_alt: Címke
+      reshare_alt: Továbbosztás
+      mention_alt: Hivatkozás
+      heart_alt: ~
+    get_involved:
+      headline: Segíts!
+      byline: "A közösségi háló jövője veled kezdődik"
+      menu_title: Segíts!
+      community: "Közösségben az erő"
+      community_byline: "A diaspora* hozzád is tartozik"
+      meaning: "Mit jelent mindez?"
+      meaning_ex1: "A Szabad Szoftver lényege az egyediség, átláthatóság, kreativitás és egy cél. Egy ötlet megvalósításáról szól. A diaspora* azért jött létre, hogy szenvedélyünk segítségével egy jobb hellyé tegyük az internetet. Szabad Szoftverrel a magunk javára változtathatjuk meg a világot, s ebből barátaink is szerte a világhálón részesülhetnek."
+      meaning_ex2: ~
+      meaning_ex3: ~
+      whereyou: "Itt jössz a képbe..."
+      whereyou_ex1: ~
+      whereyou_ex2: ~
+      gi_header: "Így segíthetsz a diaspora* projektben:"
+      code_header: Kódírással
+      code_byline: "A forráskódhoz való hozzájutás egyszerű."
+      code_ex1: ~
+      code_ex2: ~
+      code_ex3: ~
+      code_ex4: ~
+      get_started_guide_link_text: ~
+      mailing_list_link_text: ~
+      irc_link_text: ~
+      code_gh: "Forráskód megtekintése a GitHubon"
+      bugs_header: Hibajavítással
+      bugs_ex1: ~
+      bugs_ex2: ~
+      bugs_ex3: ~
+      github_link_text: ~
+      translate_header: Fordítással
+      translate_ex1: ~
+      translations_link_text: ~
+      translate_ex2: ~
+      translation_instructions_link_text: ~
+      voice_header: Véleményformálással
+      voice_ex1: ~
+      voice_ex2: "Csatlakozz ott hozzánk!"
+      voice_ex3: ~
+      meetup_link_text: ~
+      support_header: "Mások kisegítésével"
+      support_ex1: "Segítsd az új felhasználókat!"
+      support_ex2: "Regisztráció itt"
+      support_ex3: ~
+      support_ex4: ~
+      irc_channel_link_text: "IRC szoba"
+      support_ex5: ~
+      wiki_link_text: "diaspora* wiki"
+      run_header: "Közösségi pod működtetésével"
+      run_ex1: ~
+      host_pod_link_text: ~
+      run_ex2: ~
+      run_ex3: ~
+      contributors_header: "A diaspora* közreműködői"
+      contributors_byline: "Emberek, akiktől a diaspora* azzá vált, ami."
+      globe_alt: ~
+      megaphone_alt: ~
+      support_alt: Támogatás
+      pod_alt: Pod
+    blog:
+      headline: "A diaspora* blogja"
+      subline: "hivatalos bejelentések"
+      menu_title: Blog
+    planet:
+      headline: ~
+      menu_title: ~

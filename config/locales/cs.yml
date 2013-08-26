@@ -1,0 +1,195 @@
+cs:
+  buttons:
+    host_pod: "Uspořádat pod"
+    join_diaspora: "Přidej se k nám!"
+    find_more: "Zjisti více"
+  meta:
+    footer:
+      copyleft: "CC-BY The diaspora* Foundation"
+  title: "diaspora* Project"
+  layouts:
+    application:
+      wiki: Wiki
+      planet: ~
+      useful_resources: "Potřebné zdroje"
+      codebase: ~
+      documentation: Dokumentace
+      report_bugs: "Najdi & nahlaš chyby"
+      irc_general: ~
+      irc_development: ~
+      discussion_general: ~
+      discussion_development: ~
+      choose_language: "Vyber jazyk"
+      cc_license_alt: ~
+      licensed_under: ~
+      license_link_text: ~
+  pages:
+    index:
+      headline: "Vítej na diaspora*"
+      byline: "Sociální svět online kde to máš v ruce."
+      register: "Zaregistruj se"
+      key_philosophies: "diaspora* je postavená na třech klíčovích filozofiích:"
+      decentralization: Decentralizace
+      decentralization_about: ~
+      freedom: Svoboda
+      freedom_about: ~
+      privacy: Soukromí
+      privacy_about: ~
+      get_started: "Chceš začít?"
+      get_started_sub: "Je to lehké jako 1, 2, 3 ..."
+      choose_pod: "1. Vyber si pod"
+      choose_pod_exp: ~
+      sign_up: "2. Přihlaš se"
+      sign_up_ex: ~
+      join_convo: "3. Zapoj se do konverzace!"
+      join_convo_ex: ~
+      aspects: Aspekty
+      aspects_ex: ~
+      features: Prvky
+      features_ex: ~
+      help: "Chceš pomoci?"
+      help_ex: ~
+      socialint: ~
+      socialint_ex: ~
+      earth_alt: ~
+      decentralized_alt: ~
+      freedom_alt: ~
+      keyhole_alt: ~
+      aspects_alt: ~
+      features_alt: ~
+      ways_to_help_alt: ~
+      services_alt: ~
+    about:
+      headline: "Jak funguje diaspora*?"
+      byline: "Používat diaspora* je lehké. Zde najdeš jak."
+      menu_title: O
+      decentralize: "Co je decentralizace?"
+      decentralize_ex: "diaspora* se velmi liší od většiny jiných sítí které používáš. Je zcela decentralizovaná, bez klíčového 'uzlu'. Přesto je lehké, se spojit s lidmi a komunikovat s nimi. Zde najdeš jak."
+      this: TO
+      this_ex: "diaspora* je opravdivá síť, bez centrální báze. Všude po světě existují servry ('pody'), které obsahují data těch uživatelů, kteří si vybrali se na ně přihlásit. Tyto pody komunikují souvisle mezi sebou, takže se můžeš přihlásit na jakýkoli pod a volně komunikovat se svími kontakty, bez ohledu na to, kde v síti se nachází."
+      notthis: "TO NE"
+      notthis_ex: "Většina sociálních sítí běží přes centralizované servry, ktreré jsou v rukách společností. Tyto sbírají soukromé data svích uživatelů. Informace je možno ztratit nebo hakovat a jako u každého systému s průsmykem může jakýkoli problém v centrálním servru způsobit zpomalení nebo kolaps. Pro vlády je také snadnější odposlech."
+      discl: ~
+      connect: "Jak se připojit?"
+      connect_ex: "I když se diaspora* skládá z mnoha podů umístěných na celém světě, budeš ji vnímat jako jednu integrovanou síť. Nemusíš být na stejném podu jako tvé kontakty, aby si s nimi mohl komunikovat - pody mezi sebou komunikují souvisle v celém diaspora* univerzu. Vlastně na ně můžeš zcela zapomenout. Spojit se s někým na diaspora* je velmi lehké: "
+      find: "1. Najdi"
+      find_ex: "Vše, co je třeba udělat, je najít někoho, s kým se chceš spojit a přidat si ho do aspektů. (viz. dole více o aspektech). Vyhledáváš buť v políčku 'hledat' v černé horní liště, nebo přejedeš přes jméno dotyčného v proudu a objeví se ti tlačítko. Zdali znáš diaspora* ID adresu dotyčného (tvojejméno@podjméno.com), můžeš jí taktéž použít."
+      add: "2. Přidej"
+      add_ex: "Pak už je to pouze otázka zmáčknutí tlačítka s nadpisem 'Přidat kontakt' a vybrání aspektu do kterého ho chceš zařadit. Teď jste spojeni a můžete sdílet jako v každé jiné síti. Zdali je dotyčný dílem různých aspektů tvého života, máš možnost ho zařadit do vícero aspektů. Teď jste spojeni. Je to tak jednoduché. "
+      freedom: Svoboda
+      freedom_byline: "diaspora* se pokouší tě neomezovat."
+      fdm1: "Buď, kým chceš býti"
+      fdm1_ex: "Mnoho sociálních sítí trvá na tom, aby si použil svou pravou identitu. diaspora* ne. Zde si můžeš vybrat, kým chceš býti a sdílet o sobě kolik chceš. Je to doopravdy na tobě, jak s jinými budeš interagovat."
+      fdm2: "Buď kreativní"
+      fdm2_ex: "Nejseš ve své interakci omezen. Sleduj fascinující lidi a pozoruj co mají co říci, nebo se poděl o svět se všemi. Sdílej fotky, umělecké díla, videa, muziku, slova - co si usmyslíš. Dej si volný průběh."
+      fdm3: "Volný jako na svobodě"
+      fdm3_ex: ~
+      privacy: Soukromí
+      privacy_byline: "Kontroluj, co je tvé "
+      priv1: "Vlastni své data"
+      priv1_ex: ~
+      priv2: "Uspořádej sám"
+      priv2_ex: ~
+      priv3: "Vyber si své publikum"
+      priv3_ex: ~
+      aspects: "Vše o aspektech"
+      aspects_byline: "Klíč k soukromí na diaspora*"
+      asp1: "Aspekty tvého života"
+      asp1_ex: ~
+      asp2: "Organizuj si život"
+      asp2_ex: ~
+      asp3: "Pověz to světu"
+      asp3_ex: ~
+      features: "Funkce které naše komunita miluje"
+      features_byline: "Myslíme, že je budeš milovat také"
+      hashtags: "štítky (hashtags)"
+      hashtags_ex: ~
+      reshare: Sdílet
+      reshare_ex: ~
+      mentions: Zmínky
+      mentions_ex: ~
+      love: Přízeň
+      love_ex: "Pokud chceš ukázat pochvalu, zmáčkni pod příspěvkem tlačítko:'To se mi líbí'.  Někdy není slov popsati co pociťuješ."
+      host: "Uspořádej community pod"
+      host_byline: "Buď jednou z hvězd na diaspora*"
+      host_ex: ~
+      hostinst1: "Přečti si %{instructions_link} a založ vlastní community pod."
+      instructions_link_text: ~
+      hostinst2: "Shlédni listinu community podů, zde: %{poduptime}"
+      distributed_network: ~
+      centralized_network: ~
+      search_alt: ~
+      add_a_contact_alt: ~
+      hashtag_alt: ~
+      reshare_alt: ~
+      mention_alt: ~
+      heart_alt: ~
+    get_involved:
+      headline: "Zapoj se!"
+      byline: "Budoucnost sociálního webu začíná tebou"
+      menu_title: "Zapoj se"
+      community: "Podpořeno komunitou"
+      community_byline: "diaspora* patří tobě"
+      meaning: "Co to vše znamená?"
+      meaning_ex1: ~
+      meaning_ex2: ~
+      meaning_ex3: ~
+      whereyou: "Kde se dostáváš do hry ty"
+      whereyou_ex1: ~
+      whereyou_ex2: ~
+      gi_header: "Možnosti, jak se zapojit do diaspora*"
+      code_header: "Přispěj ke kódu"
+      code_byline: ~
+      code_ex1: ~
+      code_ex2: ~
+      code_ex3: "Začni přispívati ke kódu!"
+      code_ex4: |-
+          Jsme velká komunita, připravena ti pomoci začít.
+          Doporučujeme %{get_started_guide_link}, přidej se k %{mailing_list_link} a poznej nás na %{irc_link}.
+      get_started_guide_link_text: ~
+      mailing_list_link_text: ~
+      irc_link_text: ~
+      code_gh: "Shlédni původ na GitHub"
+      bugs_header: ~
+      bugs_ex1: ~
+      bugs_ex2: ~
+      bugs_ex3: ~
+      github_link_text: ~
+      translate_header: "Pomož přeložit"
+      translate_ex1: |-
+          Můžeš pomoci přeložit diaspora* do jiných řečí.
+          Zapoj se zde: %{translations_link}
+      translations_link_text: ~
+      translate_ex2: "Přečti si naše %{translation_instructions_link}, jak začít."
+      translation_instructions_link_text: ~
+      voice_header: "Podpoř svím hlasem"
+      voice_ex1: ~
+      voice_ex2: "Přidej se tam k nám"
+      voice_ex3: ~
+      meetup_link_text: ~
+      support_header: Podpora
+      support_ex1: "Pomož uvítat nové uživatele!"
+      support_ex2: "Přihlaš se zde"
+      support_ex3: "Piš uživatelský návod zde:%{diasporial_link}."
+      support_ex4: ~
+      irc_channel_link_text: ~
+      support_ex5: "Přispěj k %{wiki_link}."
+      wiki_link_text: ~
+      run_header: "Uspořádej komunitní pod"
+      run_ex1: ~
+      host_pod_link_text: ~
+      run_ex2: ~
+      run_ex3: ~
+      contributors_header: "Podporovatelé diaspora*"
+      contributors_byline: "Lidé, kteří dělají diaspora* tím co je"
+      globe_alt: ~
+      megaphone_alt: ~
+      support_alt: ~
+      pod_alt: ~
+    blog:
+      headline: "diaspora* blog"
+      subline: "Veřejné sdělení"
+      menu_title: Blog
+    planet:
+      headline: ~
+      menu_title: ~

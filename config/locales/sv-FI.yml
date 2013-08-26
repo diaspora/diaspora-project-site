@@ -1,0 +1,191 @@
+sv-FI:
+  buttons:
+    host_pod: ~
+    join_diaspora: ~
+    find_more: "Ta reda på mera »"
+  meta:
+    footer:
+      copyleft: ~
+  title: "Diaspora* projektet"
+  layouts:
+    application:
+      wiki: Wiki
+      planet: Planet
+      useful_resources: "Nyttiga källor"
+      codebase: ~
+      documentation: Dokumentation
+      report_bugs: "Sök & rapportera buggar"
+      irc_general: "IRC - Allmänt"
+      irc_development: "IRC - Utveckling"
+      discussion_general: "Diskussion - Allmänt"
+      discussion_development: "Diskussion - Utveckling"
+      choose_language: "Välj språk"
+      cc_license_alt: "Creative Commons licens"
+      licensed_under: ~
+      license_link_text: "Creative Commons Attribution 3.0 Unported licens"
+  pages:
+    index:
+      headline: "Välkommen till Diaspora*"
+      byline: ~
+      register: ~
+      key_philosophies: ~
+      decentralization: Decentralisering
+      decentralization_about: ~
+      freedom: Frihet
+      freedom_about: ~
+      privacy: Integritet
+      privacy_about: ~
+      get_started: "Vill du komma igång?"
+      get_started_sub: "Enkelt som 1, 2, 3 ..."
+      choose_pod: "1. Välj en pod"
+      choose_pod_exp: ~
+      sign_up: ~
+      sign_up_ex: ~
+      join_convo: "3. Delta i konversationen!"
+      join_convo_ex: ~
+      aspects: Aspekter
+      aspects_ex: ~
+      features: Egenskaper
+      features_ex: ~
+      help: "Vill du hjälpa?"
+      help_ex: ~
+      socialint: "Integrering av sociala nätverk"
+      socialint_ex: ~
+      earth_alt: ~
+      decentralized_alt: Decentraliserat
+      freedom_alt: Frihet
+      keyhole_alt: ""
+      aspects_alt: Aspekter
+      features_alt: Egenskaper
+      ways_to_help_alt: "Sätt att hjälpa på"
+      services_alt: Tjänster
+    about:
+      headline: "Hur fungerar Diaspora*?"
+      byline: "Diaspora är enkelt att använda. Såhär gör man."
+      menu_title: Om
+      decentralize: "Vad betyder decentralisering?"
+      decentralize_ex: ~
+      this: DETTA
+      this_ex: ~
+      notthis: "INTE DETTA"
+      notthis_ex: ~
+      discl: ~
+      connect: ~
+      connect_ex: ~
+      find: "1. Hitta dem"
+      find_ex: ~
+      add: "2. Lägg till dem"
+      add_ex: ~
+      freedom: Frihet
+      freedom_byline: "Diaspora* försöker inte begränsa dig"
+      fdm1: "Var den du vill vara"
+      fdm1_ex: ~
+      fdm2: "Var kreativ"
+      fdm2_ex: ~
+      fdm3: "Fri som i frihet"
+      fdm3_ex: ~
+      privacy: Integritet
+      privacy_byline: "Total kontroll över vad som är ditt "
+      priv1: "Äg din egen data"
+      priv1_ex: ~
+      priv2: ~
+      priv2_ex: ~
+      priv3: "Välj din publik"
+      priv3_ex: ~
+      aspects: "Allt om aspekter"
+      aspects_byline: "Nyckeln till inergritet i Diaspora*"
+      asp1: "Aspekter i ditt liv"
+      asp1_ex: ~
+      asp2: "Organisera ditt liv"
+      asp2_ex: ~
+      asp3: "Berätta åt hela världen"
+      asp3_ex: ~
+      features: ~
+      features_byline: "Vi tror att du kommer att älska dem med"
+      hashtags: Hashtagar
+      hashtags_ex: ~
+      reshare: ~
+      reshare_ex: ~
+      mentions: Omnämnanden
+      mentions_ex: ~
+      love: Kärlek
+      love_ex: ~
+      host: ~
+      host_byline: ~
+      host_ex: ~
+      hostinst1: ~
+      instructions_link_text: "Installeringsinstruktioner för pod"
+      hostinst2: ~
+      distributed_network: "Distribuerat nätverk"
+      centralized_network: ~
+      search_alt: Sök
+      add_a_contact_alt: "Lägg till kontakt"
+      hashtag_alt: Hashtag
+      reshare_alt: ~
+      mention_alt: Nämn
+      heart_alt: Hjärta
+    get_involved:
+      headline: "Involvera dig!"
+      byline: ~
+      menu_title: "Involvera dig"
+      community: ~
+      community_byline: "Diaspora* hör till dig"
+      meaning: "Vad betyder allt detta?"
+      meaning_ex1: ~
+      meaning_ex2: ~
+      meaning_ex3: ~
+      whereyou: "Var du kommer in"
+      whereyou_ex1: ~
+      whereyou_ex2: ~
+      gi_header: ~
+      code_header: "Bidra med kod"
+      code_byline: "Att grabba tag i källkoden är enkelt."
+      code_ex1: ~
+      code_ex2: ~
+      code_ex3: "Börja bidra med kod!"
+      code_ex4: ~
+      get_started_guide_link_text: ~
+      mailing_list_link_text: ~
+      irc_link_text: ~
+      code_gh: "Undersök källkoden på GitHub"
+      bugs_header: ~
+      bugs_ex1: ~
+      bugs_ex2: ~
+      bugs_ex3: "Hjälp oss att städa upp i koden"
+      github_link_text: ~
+      translate_header: "Hjälp översätta"
+      translate_ex1: ~
+      translations_link_text: Översättningsgrupp
+      translate_ex2: ~
+      translation_instructions_link_text: "Översättningsinstruktioner "
+      voice_header: "Bidra med din röst"
+      voice_ex1: ~
+      voice_ex2: "Anslut dig med oss där"
+      voice_ex3: ~
+      meetup_link_text: ~
+      support_header: "Erbjud support"
+      support_ex1: "Hjälp nya användare att känna sig välkomna!"
+      support_ex2: ~
+      support_ex3: ~
+      support_ex4: ~
+      irc_channel_link_text: ~
+      support_ex5: "Bidra till %{wiki_link}."
+      wiki_link_text: "Diaspora*:s wiki"
+      run_header: ~
+      run_ex1: ~
+      host_pod_link_text: ~
+      run_ex2: ~
+      run_ex3: ~
+      contributors_header: "Bidragarna till Diaspora*"
+      contributors_byline: ~
+      globe_alt: ~
+      megaphone_alt: ~
+      support_alt: Support
+      pod_alt: Pod
+    blog:
+      headline: "Diaspora bloggen"
+      subline: "Officiella anslag"
+      menu_title: Blogg
+    planet:
+      headline: Planet
+      menu_title: Planet

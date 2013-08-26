@@ -1,0 +1,54 @@
+hu:
+  devise:
+    confirmations:
+      confirmed: ~
+      send_instructions: ~
+      send_paranoid_instructions: ~
+    failure:
+      already_authenticated: "Már bejelentkeztél."
+      inactive: "Még nem aktiváltad a felhasználói fiókod."
+      invalid: "Helytelen email cím vagy jelszó."
+      invalid_token: "Érvénytelen azonosító token."
+      locked: "A fiókod zárolva van."
+      not_found_in_database: "Helytelen email cím vagy jelszó."
+      timeout: ~
+      unauthenticated: ~
+      unconfirmed: ~
+    mailer:
+      confirmation_instructions:
+        subject: ~
+      reset_password_instructions:
+        subject: ~
+      unlock_instructions:
+        subject: ~
+    omniauth_callbacks:
+      failure: ~
+      success: ~
+    passwords:
+      no_token: ~
+      send_instructions: ~
+      send_paranoid_instructions: ~
+      updated: ~
+      updated_not_active: ~
+    registrations:
+      destroyed: ~
+      signed_up: "Üdvözlünk! Sikeresen csatlakoztál."
+      signed_up_but_inactive: ~
+      signed_up_but_locked: ~
+      signed_up_but_unconfirmed: ~
+      update_needs_confirmation: ~
+      updated: ~
+    sessions:
+      signed_in: "Sikeresen bejelentkeztél."
+      signed_out: "Sikeresen kijelentkeztél."
+    unlocks:
+      send_instructions: ~
+      send_paranoid_instructions: ~
+      unlocked: ~
+  errors:
+    messages:
+      already_confirmed: ~
+      confirmation_period_expired: ~
+      expired: ~
+      not_found: "nem található"
+      not_locked: ~

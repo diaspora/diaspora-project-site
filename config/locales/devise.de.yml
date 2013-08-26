@@ -1,54 +1,57 @@
 de:
   devise:
     confirmations:
-      confirmed: ~
-      send_instructions: ~
-      send_paranoid_instructions: ~
+      confirmed: "Dein Konto wurde erfolgreich bestätigt. Du bist nun eingeloggt."
+      send_instructions: "Du wirst in ein paar Minuten eine E-Mail erhalten, die beschreibt, wie du dein Konto bestätigst."
+      send_paranoid_instructions: "Wenn deine E-Mail in unserer Datenbank vorhanden ist, wirst du eine Mail mit Informationen erhalten, wie du dein Konto bestätigen kannst."
     failure:
-      already_authenticated: ~
-      inactive: ~
-      invalid: ~
-      invalid_token: ~
-      locked: ~
-      not_found_in_database: ~
-      timeout: ~
-      unauthenticated: ~
-      unconfirmed: ~
+      already_authenticated: "Du bist bereits angemeldet."
+      inactive: "Dein Konto wurde noch nicht aktiviert."
+      invalid: "Ungültige E-Mail oder Passwort."
+      invalid_token: "Ungültiger Authentifizierungstoken."
+      locked: "Dein Konto ist gesperrt."
+      not_found_in_database: "Ungültige E-Mail oder Passwort."
+      timeout: "Deine Sitzung ist abgelaufen; bitte melde dich erneut an um fortzufahren."
+      unauthenticated: "Du musst Dich erst anmelden oder registrieren, bevor du fortfahren kannst."
+      unconfirmed: "Du musst dein Konto bestätigen, bevor Du fortfahren kannst."
     mailer:
       confirmation_instructions:
-        subject: ~
+        subject: "Anweisungen zur Bestätigung"
       reset_password_instructions:
-        subject: ~
+        subject: "Anweisungen zum Zurücksetzen des Passworts"
       unlock_instructions:
-        subject: ~
+        subject: "Anweisungen zum Entsperren"
     omniauth_callbacks:
-      failure: ~
-      success: ~
+      failure: "Du konntest nicht aufgrund von %{kind} bestätigt werden, weil \"%{reason}\"."
+      success: "Erfolgreich bestätigt aufgrund %{kind} Konto."
     passwords:
-      no_token: ~
-      send_instructions: ~
-      send_paranoid_instructions: ~
-      updated: ~
-      updated_not_active: ~
+      no_token: "Du kannst diese Seite nur aufrufen, indem du auf den Link in der dir zugesendeten E-Mail für das Zurücksetzen des Passworts klickst. Falls du den Link aus der E-Mail kopiert haben solltest, stelle sicher, dass du die komplette URL benutzt hast."
+      send_instructions: "Du wirst in wenigen Minuten eine E-Mail mit Informationen erhalten, wie du dein Passwort zurücksetzen kannst."
+      send_paranoid_instructions: "Wenn deine E-Mail-Adresse in unserer Datenbank existiert, wirst du in wenigen Minuten einen Link zum Zurücksetzen deines Passworts in deinem Posteingang vorfinden."
+      updated: "Dein Passwort wurde erfolgreich geändert. Du bist nun angemeldet."
+      updated_not_active: "Dein Passwort wurde erfolgreich geändert."
     registrations:
-      destroyed: ~
-      signed_up: ~
-      signed_up_but_inactive: ~
-      signed_up_but_locked: ~
-      signed_up_but_unconfirmed: ~
-      update_needs_confirmation: ~
-      updated: ~
+      destroyed: "Tschüss! Dein Konto wurde erfolgreich gelöscht. Wir hoffen, dich bald wiederzusehen."
+      signed_up: "Herzlich Willkommen! Du hast dich erfolgreich registriert."
+      signed_up_but_inactive: "Du hast dich erfolgreich registriert. Aber du konntest dich nicht anmelden, weil dein Konto noch nicht aktiviert wurde."
+      signed_up_but_locked: "Du hast dich erfolgreich registriert. Dennoch konntest du dich nicht anmelden, da dein Konto gesperrt ist."
+      signed_up_but_unconfirmed: "Eine Nachricht mit einem Bestätigungslink wurde an deine E-Mail-Adresse gesendet. Bitte öffne den Link, um dein Konto zu aktivieren."
+      update_needs_confirmation: "Du hast dein Konto erfolgreich aktualisiert, doch wir müssen die Richtigkeit deiner neuen E-Mail-Adresse noch prüfen. Bitte schau in deinem Posteingang nach und klick auf den Bestätigungslink, um die Prüfung deiner neuen E-Mail-Adresse abzuschließen."
+      updated: "Deine Konto-Aktualisierung war erfolgreich."
     sessions:
-      signed_in: ~
-      signed_out: ~
+      signed_in: "Erfolgreich angemeldet."
+      signed_out: "Erfolgreich abgemeldet."
     unlocks:
-      send_instructions: ~
-      send_paranoid_instructions: ~
-      unlocked: ~
+      send_instructions: "Du wirst in wenigen Minuten eine E-Mail mit Informationen erhalten, wie du dein Konto freischalten kannst."
+      send_paranoid_instructions: "Wenn dein Konto exisitert, wirst du in wenigen Minuten eine E-Mail mit Anweisungen erhalten, wie du es entsperren kannst."
+      unlocked: "Dein Konto wurde erfolgreich entsperrt. Bitte melde dich an um fortzufahren."
   errors:
     messages:
-      already_confirmed: ~
-      confirmation_period_expired: ~
-      expired: ~
-      not_found: ~
-      not_locked: ~
+      already_confirmed: "wurde bereits bestätigt, bitte versuche dich anzumelden."
+      confirmation_period_expired: "muss innerhalb von %{period} bestätigt werden, bitte erneut anfordern."
+      expired: "abgelaufen, bitte neu anfordern"
+      not_found: "Nicht gefunden"
+      not_locked: "war nicht gesperrt"
+      not_saved:
+        one: "1 Fehler verhinderte, dass %{resource} gespeichert werden konnte:"
+        other: "%{count} Fehler verhinderten, dass %{resource} gespeichert werden konnte:"

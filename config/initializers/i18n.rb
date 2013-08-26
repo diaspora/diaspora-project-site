@@ -1,6 +1,11 @@
+# encoding: utf-8
 AVAILABLE_LOCALES = {
+  de: "Deutsch",
+  el: "Ελληνικά",
   en: "English",
-  de: "Deutsch"
+  fr: "Français",
+  nl: "Nederlands",
+  :'pt-BR' => "Português (Brasil)",
 }
 
 I18n.default_locale = :en

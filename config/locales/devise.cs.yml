@@ -1,0 +1,54 @@
+cs:
+  devise:
+    confirmations:
+      confirmed: ~
+      send_instructions: ~
+      send_paranoid_instructions: ~
+    failure:
+      already_authenticated: ~
+      inactive: ~
+      invalid: ~
+      invalid_token: ~
+      locked: ~
+      not_found_in_database: ~
+      timeout: ~
+      unauthenticated: ~
+      unconfirmed: ~
+    mailer:
+      confirmation_instructions:
+        subject: ~
+      reset_password_instructions:
+        subject: ~
+      unlock_instructions:
+        subject: ~
+    omniauth_callbacks:
+      failure: ~
+      success: ~
+    passwords:
+      no_token: ~
+      send_instructions: ~
+      send_paranoid_instructions: ~
+      updated: ~
+      updated_not_active: "Tvé heslo bylo úspěšně změněno."
+    registrations:
+      destroyed: "Sbohem! Tvůj účet byl úspěšně zrušen. Doufáme brzy nashledanou."
+      signed_up: "Vítáme! Úspěšně ses přihlásil."
+      signed_up_but_inactive: "Úspěšně ses přihlásil. Stejně tě nemůžeme připojit, nýbrž tvůj účet ještě nebyl aktivován."
+      signed_up_but_locked: "Úspěšně ses přihlásil. Stejně tě nemůžeme připojit, nýbrž tvůj účet je zamknutý."
+      signed_up_but_unconfirmed: ~
+      update_needs_confirmation: ~
+      updated: "Úspěšně si aktualizoval svůj účet."
+    sessions:
+      signed_in: "Přihlášení proběhlo úspěšně."
+      signed_out: "Odhlášení proběhlo úspěšně."
+    unlocks:
+      send_instructions: ~
+      send_paranoid_instructions: ~
+      unlocked: ~
+  errors:
+    messages:
+      already_confirmed: "už bylo potvrzeno, prosím zkoušej dál se přihlásit"
+      confirmation_period_expired: "musí být potvrzeno během %{period}, prosím požádej o nové"
+      expired: "vypršelo, požádej o nové"
+      not_found: nenalezeno
+      not_locked: "nebylo zamčeno"

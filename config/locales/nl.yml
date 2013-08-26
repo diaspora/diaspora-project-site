@@ -1,0 +1,191 @@
+nl:
+  buttons:
+    host_pod: "Begin een eigen pod"
+    join_diaspora: "Doe mee!"
+    find_more: "Meer informatie »"
+  meta:
+    footer:
+      copyleft: "CC-BY The diaspora* Foundation"
+  title: "Het diaspora* Project"
+  layouts:
+    application:
+      wiki: Wiki
+      planet: Planeet
+      useful_resources: "Nuttige bronnen"
+      codebase: Codebase
+      documentation: Documentatie
+      report_bugs: "Vind & meld bugs"
+      irc_general: "IRC - Algemeen"
+      irc_development: "IRC - Ontwikkeling"
+      discussion_general: "Discussies - Algemeen"
+      discussion_development: "Discussies - Ontwikkeling"
+      choose_language: "Kies je taal"
+      cc_license_alt: "Creative Commons License"
+      licensed_under: "%{site_link} is gelicenseerd onder %{license_link}"
+      license_link_text: "Creative Commons Naamsvermelding 3.0 Unported Licentie"
+  pages:
+    index:
+      headline: "Welkom op diaspora*"
+      byline: "De online sociale omgeving waar je zelf de baas bent."
+      register: Aanmelden
+      key_philosophies: "diaspora* is gebaseerd op drie kerngedachten:"
+      decentralization: Decentralisatie
+      decentralization_about: "In plaats van dat alle persoonlijke gegevens in de enorme centrale servers van een grote organisatie zijn opgeslagen, wordt gebruik gemaakt van lokale servers (pods) die overal in de wereld kunnen staan. Je kiest zelf bij welke pod je aangesloten wilt zijn - dat kan je eigen lokale pod zijn - en dan ben je naadloos en wereldwijd verbonden met de diaspora* gemeenschap."
+      freedom: Vrijheid
+      freedom_about: "In diaspora* ben je wie je wilt zijn. Anders dan bij andere sociale netwerken hoef je niet je echte identiteit te gebruiken. Je kunt met iedereen communiceren op de manier die je zelf wilt. De enige limiet is je eigen creativiteit. diaspora* is ook Vrije Software, die kun je in alle vrijheid zelf gebruiken."
+      privacy: Privacy
+      privacy_about: "In diaspora* ben je zelf de eigenaar van jouw informatie. Je draagt het eigendom of gebruiksrecht niet over aan wie dan ook. Met diaspora* zijn jouw vrienden, jouw gedrag en jouw content helemaal je eigen zaak... niet van ons! Bovendien bepaal je zelf wie wat te zien krijgt, door gebruik te maken van Aspecten."
+      get_started: "Wil je beginnnen?"
+      get_started_sub: "Het is een eitje ..."
+      choose_pod: "1. Kies een pod"
+      choose_pod_exp: "Kies een pod die bij jou past. Je kunt een kleine pod kiezen, of een pod bij jou in de buurt, of een in een land met goede privacy wetgeving, of juist in een ander land. De keus is aan jou! Kies uit de pods in de diaspora* gemeenschap (gesorteerd volgens %{poduptime})."
+      sign_up: "2. Schrijf je in"
+      sign_up_ex: "Als je besloten hebt welke pod het beste past, bijvoorbeeld gebaseerd op %{poduptime}, of op basis van aanbevelingen van mensen die je vertrouwt, meld je daar dan aan en creëer een profiel met net zo veel of weinig persoonlijke informatie als je wilt. Jij bepaalt wat je wilt delen!"
+      join_convo: "3. Doe mee!"
+      join_convo_ex: "Begin met het volgen van #tags (onderwerpen) die je interesseren. Dat kunnnen bijvoorbeeld zijn #muziek, #fotografie, #privacy, #linux, alles wat je maar leuk vindt. Plaats ook een bericht met de #nieuwhier tag om je zelf te introduceren. Dat is alles, je bent nu lid van de actieve diaspora* gemeenschap."
+      aspects: Aspecten
+      aspects_ex: "diaspora* ontwikkelde het concept van aspecten, waarmee je je relatienetwerk kunt organiseren volgens de rollen binnen je online leven. Dat betekent dat je iets kunt delen met je familieleden of collega's, terwijl je zeker weet dat ze van elkaar niet kunnen zien wat je binnen dat netwerkje deelt."
+      features: Mogelijkheden
+      features_ex: "Hashtags bieden je de vrijheid om je interesses heel makkelijk te classificeren en te volgen. Je kunt interesse van anderen wekken door hen te @vermelden. Je kunt berichten die je interessant vindt opnieuw delen en erop reageren. En toon je belangstelling voor de berichten van anderen door ze te ♥-en."
+      help: "Wil je helpen?"
+      help_ex: "diaspora* heeft behoefte aan mensen die kunnen programmeren en testen, om nieuwe deelnemers welkom te heten, om pods in te richten en draaiend te houden en om de mogelijkheden van diaspora* te promoten om het te laten groeien. Denk je dat je mee kunt helpen?"
+      socialint: "Sociale netwerkintegratie"
+      socialint_ex: "diaspora* laat je communiceren met je vrienden, ook als ze nog niet op diaspora* zitten. Verbind gewoon je accounts op andere sociale netwerken en gebruik diaspora* om berichten op die andere netwerken te plaatsen. diaspora* ondersteunt momenteel het delen naar Facebook, Twitter en Tumblr. Anderen volgen misschien later. "
+      earth_alt: Earthd*
+      decentralized_alt: Gedecentraliseerd
+      freedom_alt: Vrijheid
+      keyhole_alt: Sleutelgat
+      aspects_alt: Aspecten
+      features_alt: Mogelijkheden
+      ways_to_help_alt: "Manieren om te helpen"
+      services_alt: Diensten
+    about:
+      headline: "Hoe werkt diaspora*?"
+      byline: "diaspora* is makkelijk te gebruiken. Namelijk als volgt."
+      menu_title: Over
+      decentralize: "Wat is decentralisatie?"
+      decentralize_ex: "diaspora* is compleet anders dan de meeste netwerken die je kent. Het is volledig gedecentraliseerd, zonder centrale 'hub'/'server'. Toch is het erg makkelijk om contact te leggen en te communiceren met andere mensen. Hier is hoe."
+      this: ZO
+      this_ex: "diaspora* is een echt netwerk, zonder hoofdkwartier. Er zijn servers ('pods') verspreid over de hele wereld, waarvan elke de gegevens bevat van gebruikers die zelf voor die server gekozen hebben. Deze pods communiceren naadloos met elkaar waardoor je op een willekeurige pod een account kunt aanmaken en moeiteloos kunt communiceren met je contacten op welke andere pod dan ook in het netwerk."
+      notthis: "NIET ZO"
+      notthis_ex: "De meeste sociale netwerken worden gerund vanaf centrale servers die eigendom zijn van (grote) bedrijven. Deze bedrijven slaan alle privégegevens van hun gebruikers op. Deze informatie kan gehackt worden of verloren gaan, en zoals elk systeem met een flessenhals, kan elk probleem(pje) op de centrale servers de snelheid van het systeem verlagen, of het systeem zelfs platleggen. Ook is het voor de overheid veel makkelijker om 'mee te luisteren'."
+      discl: "(diaspora* gebruikt open webstandaarden zoals %{pubsubhubub} en %{webfinger} om dit soort verbindingen mogelijk te maken.)"
+      connect: "Hoe kan ik communiceren met anderen?"
+      connect_ex: "Hoewel diaspora* bestaat uit veel verschillende pods overal op de wereld, doet het aan als één geïntegreerd netwerk. Je hoeft niet op dezelfde pod als je contacten te zitten om gewoon met ze te kunnen communiceren - de communicatie verloopt naadloos tussen alle pods in het diaspora* universum. Als je diaspora* gebruikt vergeet je daarom makkelijk dat het bestaat uit verschillende pods. Het is heel eenvoudig om een verbinding te leggen met iemand op diaspora*: "
+      find: "1. Vind iemand"
+      find_ex: "Je hoeft iemand alleen maar te vinden en toe te voegen aan een aspect om een verbinding te leggen. (Zie onder voor uitleg over aspecten.) Je kan ze vinden dmv. het zoekveld in de bovenbalk, of beweeg de muispointer over hun naam in je stream zodat een venstertje opengaat. Als je hun diaspora* ID (jouwnaam@podnaam.com) weet, kan je die ook gebruiken."
+      add: "2. Voeg ze toe"
+      add_ex: "Dan hoef je alleen maar op de 'Voeg contact toe' knop te klikken en te kiezen in welk aspect je diegene wilt. Nu heb je een verbinding gelegd en kan je net zoals op andere netwerken met ze delen. Ook kun je mensen aan meerdere aspecten toevoegen. (bijv. 'werk' en 'vrienden') Je bent nu verbonden, zo simpel is het. "
+      freedom: Vrijheid
+      freedom_byline: "diaspora* probeert niet je te beperken"
+      fdm1: "Wees wie je wilt zijn"
+      fdm1_ex: "Veel netwerken verplichten je je echte naam en identiteit te gebruiken. diaspora* niet. Hier kan je kiezen wie je wilt zijn, en net zo veel of weinig over jezelf delen als je wilt. Het is helemaal aan jou om te bepalen hoe je met andere mensen omgaat."
+      fdm2: "Wees creatief"
+      fdm2_ex: "Er zitten geen grenzen aan je communicatie. Je kan gewoon interessante mensen volgen om te kijken wat die te zeggen hebben, of je kan jouw wereld delen met iedereen. Deel je foto's, kunst, video's, muziek, teksten - wat je maar wilt. Leef je uit."
+      fdm3: "Vrij als in vrijheid"
+      fdm3_ex: "diaspora* is volledig vrije software. Hierdoor zijn de gebruiksmogelijkheden onbeperkt. Je kan zelfs de broncode aanpassen om het te laten functioneren zoals jij wilt, en ons te helpen het netwerk te verbeteren. Wees welkom aan boord."
+      privacy: Privacy
+      privacy_byline: "Compleet beheer over wat van jou is "
+      priv1: "Beheer je eigen data"
+      priv1_ex: "Veel netwerken verdienen hun geld door jouw gedrag en interesses te analyseren om 'op maat gesneden' advertenties door je strot te duwen. diaspora* gebruikt je data alleen om je in de gelegenheid te stellen te communiceren en te delen met anderen."
+      priv2: "Host het zelf"
+      priv2_ex: "Kies zelf waar je data opgeslagen is door een pod uit te kiezen die je bevalt. Als je gaat voor maximale veiligheid, kan je ook je eigen pod beginnen en hosten op je eigen server, zodat niemand bij je persoonlijke gegevens kan."
+      priv3: "Kies je publiek"
+      priv3_ex: "De aspecten in diaspora* maken het mogelijk om zelf te bepalen wat je met wie deelt. Je posts kunnen zo publiek of privé zijn als je zelf wilt. Deel bijv. een foto met de hele wereld, of een groot geheim alleen met je beste vrienden. Jij bent de baas."
+      aspects: "Alles over aspecten"
+      aspects_byline: "De sleutel tot privacy in diaspora*"
+      asp1: "Aspecten van je leven"
+      asp1_ex: "In het echt heeft je leven verschillende aspecten, afhankelijk van specifieke situaties. Waarom zou dat online niet zo zijn? Met aspecten in diaspora* kun je je online leven zo organiseren als je wilt en dingen alleen delen met mensen waarmee je dat wilt."
+      asp2: "Organiseer je leven"
+      asp2_ex: "Je kunt bijvoorbeeld verschillende aspecten hebben voor je familie, voor je beste vrienden, voor collega's en voor een sport of hobby die je beoefend. Je collega's hoeven toch niet te weten dat je een familie-reünie hebt? Door het gebruik van aspecten zullen ze dat dan ook niet weten."
+      asp3: "Vertel het aan de hele wereld"
+      asp3_ex: "Er kunnen natuurlijk ook dingen zijn die je met de hele wereld wilt delen. Dat is erg eenvoudig; maak de post 'publiek' en iedereen kan het lezen. Door gebruik te maken van toepasselijke hashtags zal het mensen bereiken die er in geïnteresseerd zijn."
+      features: "Mogelijkheden waar onze gemeenschap van houdt"
+      features_byline: "We denken dat jij ze ook leuk zal vinden"
+      hashtags: Hashtags
+      hashtags_ex: "Hashtags maken het mogelijk je interesses te 'classificeren' en te volgen, en ze zorgen ervoor dat je post gelijkgestemde mensen bereiken. Hashtags zijn  ook een fantastische manier om leuke en interessante nieuwe mensen te ontmoeten op diaspora*."
+      reshare: "Doorgeven (opnieuw delen)"
+      reshare_ex: "Waarom zou je een leuk bericht niet doorgeven (nog een keer delen) met anderen? diaspora* maakt het makkelijk ideeën te verspreiden door ze 'door te geven'. Gewoon op de 'doorgeven' klikken en klaar."
+      mentions: Vermeldingen
+      mentions_ex: "Wil je iemands aandacht? Gewoon @gebruikersnaam gebruiken! Op deze manier is het eenvoudig om de aandacht te vragen van één van je contacten voor iets waarvan jij vindt dat ze dat zouden moeten weten."
+      love: "Leuk vinden"
+      love_ex: "Laat blijken dat iets je bevalt door het 'leuk te vinden' Al is het maar omdat woorden soms niet genoeg zijn."
+      host: "Host een publieke pod"
+      host_byline: "Word een van diaspora*'s sterren"
+      host_ex: "diaspora* is afhankelijk van de gemeenschap om pods te beheren en te runnen, die pods staan open voor iedereen die mee wil doen. Mocht je serverruimte en een beetje technische kennis hebben, dan zouden we het fantastisch vinden als je een publieke pod op zou zetten. Hoe meer pods, hoe beter diaspora* werkt - neem deel aan de toekomst van het gedecentraliseerde sociale web!"
+      hostinst1: "Lees de %{instructions_link} om je eigen publieke pod op te zetten."
+      instructions_link_text: "Pod installatieinstructies"
+      hostinst2: "Bekijk een opsomming van de actieve pods: %{poduptime}"
+      distributed_network: "Gedistribueerd netwerk"
+      centralized_network: "Gecentraliseerd netwerk"
+      search_alt: Zoeken
+      add_a_contact_alt: "Contact toevoegen"
+      hashtag_alt: Hashtag
+      reshare_alt: "Opnieuw delen"
+      mention_alt: Vermelden
+      heart_alt: Hart
+    get_involved:
+      headline: "Doe mee!"
+      byline: "De toekomst van het sociale web begint bij jou"
+      menu_title: "Doe mee"
+      community: "Door en voor de gemeenschap"
+      community_byline: "diaspora* is van jou"
+      meaning: "Waar gaat het over?"
+      meaning_ex1: "Vrije Software gaat over individualiteit, transparantie, creativiteit en zelfredzaamheid. Het is het realiseren van ideeën. diaspora* is ontwikkeld om plezier te hebben en om van internet een betere plaats te maken. Met Vrije Software kunnen we de wereld voor onszelf veranderen, en onze vrienden op het web mee te laten profiteren van onze onderzoekingen."
+      meaning_ex2: "Vrije Software gemeenschappen zijn een fantastisch ding. Wij op diaspora* geloven dat mensen gewaardeerd horen te worden voor wat ze doen. Daarbij maakt het niet uit of je een top programmeur bent of voor het eerst iets bijdraagt aan een project. Bijdragen aan diaspora* betekent problemen oplossen, met als doel bruikbare oplossingen voor de gebruikers te creëren."
+      meaning_ex3: "Vandaar dat we je toegang tot de broncode geven als je een zinvolle bijdrage aan diaspora* hebt. We doen dit samen, en we willen enthousiaste mensen de kans geven veel te veranderen."
+      whereyou: "Wat jij kunt doen"
+      whereyou_ex1: "We maken diaspora* samen. Nu mogen we je dan nog niet kennen, maar we zouden het te gek vinden om kennis te maken en uit te vinden hoe jij mee zou kunnen helpen aan het bouwen van de toekomst van het web. We hebben ieder de potentie om de wereld te veranderen, als we er de gelegenheid maar voor krijgen."
+      whereyou_ex2: "Op allerlei manieren kun je mee helpen diaspora verder te helpen. Of je nu als gebruiker bugs rapporteert, constructief reageert op onze maillijsten of code of designs produceert, jouw bijdrage maakt het verschil."
+      gi_header: "Manieren om betrokken te raken bij diaspora*"
+      code_header: "Draag code bij"
+      code_byline: "De broncode ophalen is makkelijk."
+      code_ex1: "Kloon de 'repository' en kijk wat rond: %{clone_code}"
+      code_ex2: "Installeer jouw ontwikkelomgeving"
+      code_ex3: "Begin code bij te dragen!"
+      code_ex4: "Er staat een grote gemeenschap klaar om je op weg te helpen. We raden je aan om onze %{get_started_guide_link}, %{mailing_list_link} te lezen en verheugen ons je te ontmoeten in de %{irc_link}."
+      get_started_guide_link_text: Inleiding
+      mailing_list_link_text: mailinglijst
+      irc_link_text: "diaspora* IRC rooom"
+      code_gh: "Bekijk de bron op GitHub"
+      bugs_header: "Plet bugs"
+      bugs_ex1: "Ons project maakt gebruik van Code Triage, een vrijwilligersproject waarbij gebruikers en ontwikkelaars samenwerken om bugs te verhelpen in onze GitHub Issue tracker"
+      bugs_ex2: "Het elimineren van bugs helpt iedereen en kan nieuwkomers de werking van de verschillende onderdelen van diaspora* beter leren kennen."
+      bugs_ex3: "Help ons onze code op te schonen"
+      github_link_text: ~
+      translate_header: "Help met vertalen"
+      translate_ex1: "Je kunt helpen diaspora* in andere talen te vertalen door mee te doen met de %{translations_link}."
+      translations_link_text: Vertaalgroep
+      translate_ex2: "Lees onze  %{translation_instructions_link} over hoe te beginnen."
+      translation_instructions_link_text: "vertaalinstructies "
+      voice_header: "Laat je mening horen."
+      voice_ex1: "Ons project wordt volledig door vrijwilligers gerund. Daarbij gebruiken we 'Loomio' als tool om de mening van de deelnemers te peilen over ideeën en voorstellen voor het project. "
+      voice_ex2: "Doe hier mee"
+      voice_ex3: "Je kunt natuurlijk ook je vrienden en familie overhalen om op diaspora* te komen door je eigen %{meetup_link} voor je eigen kennissenkring te organiseren."
+      meetup_link_text: "meetup "
+      support_header: "Bied ondersteuning"
+      support_ex1: "Help nieuwe gebruikers zich welkom voelen!"
+      support_ex2: "Schrijf je hier in"
+      support_ex3: "Schrijf handleidingen op %{diasporial_link}."
+      support_ex4: "Beantwoord vragen van gebruikers op %{irc_channel_link} of beantwoord gebruikersvragen op diaspora* zelf, door de #help, #vraag en feedback hashtags te volgen."
+      irc_channel_link_text: "IRC kanaal"
+      support_ex5: "Draag bij aan de %{wiki_link}."
+      wiki_link_text: "diaspora* wiki"
+      run_header: "Zet een openbare pod op"
+      run_ex1: "Nu hoef je je data niet meer uit handen te geven op de server van iemand anders. Omdat diaspora* volledig vrije software is, maken we het steeds eenvoudiger voor mensen om hun eigen %{host_pod_link}."
+      host_pod_link_text: "hosten hun eigen pods op diaspora*"
+      run_ex2: "Je kan het hosten waar je maar wilt"
+      run_ex3: "Voeg je pod toe aan de lijst van openbare pods op %{poduptime}"
+      contributors_header: "diaspora*'s bijdragers"
+      contributors_byline: "De mensen maken diaspora* tot wat het is"
+      globe_alt: Globe
+      megaphone_alt: Megafoon
+      support_alt: Ondersteuning
+      pod_alt: Pod
+    blog:
+      headline: "Het diaspora* blog"
+      subline: "officiële aankondigingen"
+      menu_title: Blog
+    planet:
+      headline: Planeet
+      menu_title: Planeet

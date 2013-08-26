@@ -1,0 +1,54 @@
+el:
+  devise:
+    confirmations:
+      confirmed: "Ο λογαριασμός σου επιβεβαιώθηκε με επιτυχία. Τώρα έχεις συνδεθεί."
+      send_instructions: "Θα λάβεις ένα μήνυμα ηλ. ταχυδρομείου με οδηγίες για το πώς να επιβεβαιώσεις τον λογαριασμό σου σε λίγα λεπτά."
+      send_paranoid_instructions: "Εάν η διεύθυνση του ηλ. ταχυδρομείου σου υπάρχει στη βάση δεδομένων μας, θα λάβεις ένα μήνυμα εκεί με οδηγίες για το πώς να επιβεβαιώσεις το λογαριασμό σου σε λίγα λεπτά."
+    failure:
+      already_authenticated: "Είσαι ήδη συνδεδεμένος."
+      inactive: "Ο λογαριασμός δεν έχει ακόμα ενεργοποιηθεί."
+      invalid: "Μη έγκυρο email ή κωδικός πρόσβασης."
+      invalid_token: "Λανθασμένο διακριτικό πιστοποίησης."
+      locked: "Ο λογαριασμός σου είναι κλειδωμένος."
+      not_found_in_database: "Μη έγκυρο email ή κωδικός πρόσβασης."
+      timeout: ~
+      unauthenticated: ~
+      unconfirmed: ~
+    mailer:
+      confirmation_instructions:
+        subject: ~
+      reset_password_instructions:
+        subject: ~
+      unlock_instructions:
+        subject: ~
+    omniauth_callbacks:
+      failure: ~
+      success: ~
+    passwords:
+      no_token: ~
+      send_instructions: ~
+      send_paranoid_instructions: ~
+      updated: ~
+      updated_not_active: ~
+    registrations:
+      destroyed: ~
+      signed_up: ~
+      signed_up_but_inactive: ~
+      signed_up_but_locked: ~
+      signed_up_but_unconfirmed: ~
+      update_needs_confirmation: ~
+      updated: ~
+    sessions:
+      signed_in: ~
+      signed_out: ~
+    unlocks:
+      send_instructions: ~
+      send_paranoid_instructions: ~
+      unlocked: ~
+  errors:
+    messages:
+      already_confirmed: ~
+      confirmation_period_expired: ~
+      expired: ~
+      not_found: ~
+      not_locked: ~

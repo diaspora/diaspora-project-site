@@ -1,0 +1,191 @@
+it:
+  buttons:
+    host_pod: "Ospita un pod"
+    join_diaspora: "Unisciti a noi!"
+    find_more: ~
+  meta:
+    footer:
+      copyleft: "CC-BY The diaspora* Foundation"
+  title: "Il progetto diaspora*"
+  layouts:
+    application:
+      wiki: ~
+      planet: ~
+      useful_resources: ~
+      codebase: ~
+      documentation: ~
+      report_bugs: ~
+      irc_general: ~
+      irc_development: ~
+      discussion_general: ~
+      discussion_development: ~
+      choose_language: ~
+      cc_license_alt: ~
+      licensed_under: ~
+      license_link_text: ~
+  pages:
+    index:
+      headline: ~
+      byline: ~
+      register: ~
+      key_philosophies: ~
+      decentralization: ~
+      decentralization_about: ~
+      freedom: ~
+      freedom_about: ~
+      privacy: ~
+      privacy_about: ~
+      get_started: ~
+      get_started_sub: ~
+      choose_pod: "Scegli un pod."
+      choose_pod_exp: ~
+      sign_up: Registrati
+      sign_up_ex: ~
+      join_convo: ~
+      join_convo_ex: ~
+      aspects: Aspetti
+      aspects_ex: ~
+      features: Caratteristiche
+      features_ex: ~
+      help: "Vuoi aiutare?"
+      help_ex: ~
+      socialint: "Integrazione con altre reti sociali"
+      socialint_ex: ~
+      earth_alt: ~
+      decentralized_alt: Decentralizzato
+      freedom_alt: ~
+      keyhole_alt: ~
+      aspects_alt: Aspetti
+      features_alt: ~
+      ways_to_help_alt: ~
+      services_alt: ~
+    about:
+      headline: "Come funziona diaspora*?"
+      byline: "diaspora* è semplice da usare. Ecco come funziona."
+      menu_title: "Su di noi"
+      decentralize: "Cos'è la decentralizzazione?"
+      decentralize_ex: "diaspora* è completamente differente rispetto a molte reti che utilizzi. È completamente decentralizzata, senza nessun 'crocevia' centrale. Nonostante ciò è veramente facile connettersi e comunicare con la gente. Ecco come."
+      this: QUESTO
+      this_ex: "diaspora* è una vera rete, senza una base centrale. Ci sono dei server (chiamati 'pod' - semi, baccelli) in tutto il mondo, ognuno dei quali contiene i dati di coloro che hanno deciso di registrarsi ad esso. Questi semi comunicano gli uni gli altri senza interruzioni, così è possibile registrarsi con qualsiasi seme e comunicare liberamente con i tuoi contatti, ovunque siano nella rete."
+      notthis: "NON QUESTO"
+      notthis_ex: "La maggior parte delle reti sociali girano su server centralizzati gestiti e detenuti da una corporazione. Essi immagazzinano tutti i dati privati dei loro utenti. Queste informazioni possono essere perse o trafugate, e come ogni sistema con un collo di bottiglia, qualunque problema ai server centrali può rendere l'intera rete molto lenta o completamente inutilizzabile. È anche più facile per i governi 'origliare'."
+      discl: ~
+      connect: "Come faccio a collegarmi?"
+      connect_ex: "Anche se diaspora* consiste di vari semi in tutto il mondo, tu vivrai l'esperienza di una rete integrata. Non hai bisogno di essere sullo stesso seme dei tuoi contatti per essere in grado di comunicare liberamente con gli altri - la comunicazione avverrà continuamente da una parte all'altra nei semi dell'universo diaspora*. Quando stai usando diaspora*, puoi facilmente dimenticarti che poggia effettivamente su molti semi. Connettersi con qualcuno in diaspora* è veramente semplice di fatto: "
+      find: "1. Cercali"
+      find_ex: "Tutto ciò di cui abbisogni per connetterti con qualcuno è cercarlo e aggiungerlo in un aspetto (Guarda più in basso per maggiori dettagli sugli aspetti). Cercali usando il campo di ricerca collocato sulla barra nera, o soffermati sopra il loro nome nel tuo flusso ed una vignetta ti apparirà. Se vuoi conoscere il loro identificativo diaspora* (tuonome@nomedelseme.com), puoi fare così."
+      add: "2. Aggiungili"
+      add_ex: "Ora è solo questione di cliccare sul bottone \"Aggiungi contatto\" e scegliere di quale aspetto vuoi che facciano parte. Ora sei connesso e puoi condividere con loro come faresti su qualsiasi altra rete. Oppure, se sono parte di aspetti differenti della tua vita, aggiungili a molteplici aspetti. Ora sei connesso. È così facile. "
+      freedom: Libertà
+      freedom_byline: "diaspora* non tenta di limitarti"
+      fdm1: "Sii chi vuoi essere"
+      fdm1_ex: "Molte reti insistono affinché tu usi la tua identità reale. Non diaspora*. Qui puoi scegliere chi vuoi essere, e condividere in pari maniera o in misura minore circa te stesso secondo come preferisci.  Sta davvero a te decidere come interagire con le altre persone."
+      fdm2: "Sii creativo"
+      fdm2_ex: "Non sei limitato in come puoi interagire. Puoi semplicemente seguire persone appassionanti e vedere quanto hanno da dire, oppure puoi condividere il tuo mondo con tutti. Condividi le tue foto, le tue opere d'arte, i tuoi video, la tua musica - ciò che vuoi. Lasciati trasportare."
+      fdm3: Libero
+      fdm3_ex: "diaspora* è interamente software libero. Questo significa che non ci sono limiti su come può essere usato. Puoi perfino prendere i sorgenti e modificarli per farlo funzionare come desideri, ed aiutarci a migliorare la rete. Saremmo felici di averti a bordo."
+      privacy: Riservatezza
+      privacy_byline: "Controllo totale di ciò che è tuo "
+      priv1: "Gestisci i tuoi dati"
+      priv1_ex: ~
+      priv2: "Ospitalo te stesso"
+      priv2_ex: ~
+      priv3: "Scegli il tuo pubblico"
+      priv3_ex: ~
+      aspects: "Tutto riguardo agli aspetti"
+      aspects_byline: "Il segreto della riservatezza in diaspora*"
+      asp1: "Aspetti della tua vita"
+      asp1_ex: ~
+      asp2: "Organizza la tua vita"
+      asp2_ex: ~
+      asp3: "Dillo al mondo intero"
+      asp3_ex: ~
+      features: ~
+      features_byline: ~
+      hashtags: ~
+      hashtags_ex: ~
+      reshare: Condividi
+      reshare_ex: ~
+      mentions: Menzioni
+      mentions_ex: ~
+      love: Amore
+      love_ex: ~
+      host: ~
+      host_byline: ~
+      host_ex: ~
+      hostinst1: ~
+      instructions_link_text: ~
+      hostinst2: ~
+      distributed_network: ~
+      centralized_network: ~
+      search_alt: Cerca
+      add_a_contact_alt: "Aggiungi un contatto"
+      hashtag_alt: ~
+      reshare_alt: ~
+      mention_alt: ~
+      heart_alt: ~
+    get_involved:
+      headline: Coinvolgiti!
+      byline: "Il futuro della rete sociale inizia con te"
+      menu_title: "Mettiti in gioco"
+      community: "Alimentato dalla comunità"
+      community_byline: ~
+      meaning: ~
+      meaning_ex1: ~
+      meaning_ex2: ~
+      meaning_ex3: ~
+      whereyou: ~
+      whereyou_ex1: ~
+      whereyou_ex2: ~
+      gi_header: ~
+      code_header: ~
+      code_byline: ~
+      code_ex1: ~
+      code_ex2: ~
+      code_ex3: ~
+      code_ex4: ~
+      get_started_guide_link_text: ~
+      mailing_list_link_text: ~
+      irc_link_text: ~
+      code_gh: ~
+      bugs_header: ~
+      bugs_ex1: ~
+      bugs_ex2: ~
+      bugs_ex3: ~
+      github_link_text: ~
+      translate_header: ~
+      translate_ex1: ~
+      translations_link_text: ~
+      translate_ex2: ~
+      translation_instructions_link_text: ~
+      voice_header: ~
+      voice_ex1: ~
+      voice_ex2: ~
+      voice_ex3: ~
+      meetup_link_text: ~
+      support_header: ~
+      support_ex1: ~
+      support_ex2: ~
+      support_ex3: ~
+      support_ex4: ~
+      irc_channel_link_text: "Canale IRC"
+      support_ex5: ~
+      wiki_link_text: "il wiki di diaspora*"
+      run_header: ~
+      run_ex1: ~
+      host_pod_link_text: ~
+      run_ex2: ~
+      run_ex3: ~
+      contributors_header: ~
+      contributors_byline: ~
+      globe_alt: ~
+      megaphone_alt: ~
+      support_alt: ~
+      pod_alt: ~
+    blog:
+      headline: ~
+      subline: ~
+      menu_title: ~
+    planet:
+      headline: ~
+      menu_title: ~

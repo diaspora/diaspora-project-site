@@ -1,0 +1,54 @@
+ru:
+  devise:
+    confirmations:
+      confirmed: "Ваша учетная запись была успешно подтверждена. Теперь вы в системе."
+      send_instructions: ~
+      send_paranoid_instructions: ~
+    failure:
+      already_authenticated: ~
+      inactive: ~
+      invalid: "Неверный адрес электронной почты или пароль."
+      invalid_token: ~
+      locked: ~
+      not_found_in_database: "Неверный адрес электронной почты или пароль."
+      timeout: ~
+      unauthenticated: ~
+      unconfirmed: ~
+    mailer:
+      confirmation_instructions:
+        subject: ~
+      reset_password_instructions:
+        subject: "Инструкции по сбросу пароля"
+      unlock_instructions:
+        subject: ~
+    omniauth_callbacks:
+      failure: ~
+      success: ~
+    passwords:
+      no_token: ~
+      send_instructions: ~
+      send_paranoid_instructions: "Если ваш электронный адрес есть в нашей базе данных, то через несколько минут вы получите ссылку для восстановления пароля."
+      updated: "Ваш пароль успешно изменен. Теперь вы в системе."
+      updated_not_active: "Ваш пароль был успешно изменен."
+    registrations:
+      destroyed: ~
+      signed_up: "Добро пожаловать! Вы успешно зарегистрировались."
+      signed_up_but_inactive: ~
+      signed_up_but_locked: ~
+      signed_up_but_unconfirmed: ~
+      update_needs_confirmation: ~
+      updated: "Вы успешно обновили настройки вашей учетной записи."
+    sessions:
+      signed_in: ~
+      signed_out: ~
+    unlocks:
+      send_instructions: ~
+      send_paranoid_instructions: ~
+      unlocked: ~
+  errors:
+    messages:
+      already_confirmed: ~
+      confirmation_period_expired: ~
+      expired: ~
+      not_found: ~
+      not_locked: ~
