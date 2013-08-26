@@ -1,0 +1,53 @@
+<% content_for :page_title, t('.menu_title') %>
+<% content_for :wrapper_class, "index_page" %>
+
+<div id="masthead", class="hero">
+  <div class="container">
+    <h1><%= t 'pages.tutorials.started_head' %></h1>
+    <h2><%= t '.byline' %></h2>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row top_spacing">
+    <div class="span2">&nbsp;
+    </div>
+    <div class="span12">       
+        <p class="more-info"><%= t '.intro' %></p>
+        
+        <h3><%= t '.connect' %></h3>
+        <p><%= t '.connect_ex1' %></p>
+        <p class="more-info"><%= t '.connect_ex2' %></p>
+        <p><%= t('.connect_ex3').html_safe %></p>
+        <p><%= t('.connect_ex4', part5_link: link_to(t('pages.tutorials.part5'), sharing_path)).html_safe %></p>
+        
+        <h3><%= t '.settings' %></h3>
+        <p><%= t('.settings_ex1').html_safe %></p>
+        <p><%= t '.settings_ex2' %></p>
+        
+        <h5><%= t '.profile' %></h5>
+        <p><%= t('.profile_ex', part1_link: link_to(t('pages.tutorials.part1'), sign_up_path)).html_safe %></p>
+        
+        <h5><%= t '.account' %></h5>
+        <p><%= t '.account_ex1' %></p>
+        <p><%= t '.account_ex2' %></p>
+        <p><%= t('.account_ex3').html_safe %></p>
+        <p><%= t '.account_ex4' %></p>
+        
+        <h5><%= t '.privacy' %></h5>
+        <p><%= t('.privacy_ex', part5_link: link_to(t('pages.tutorials.part5'), sharing_path)).html_safe %></p>
+        
+        <h5><%= t '.services' %></h5>
+        <p><%= t '.services_ex' %></p>
+        <p>&nbsp;</p>
+        <p><%= t('.finish1').html_safe %></p>
+        
+        <p>&nbsp;</p>
+ 
+        <p align="center"><%= link_to t('pages.getting_started6.byline'), conversations_url %> | <%= link_to t('pages.tutorials.headline'), tutorials_url %></p>
+       
+	</div>   
+    <div class="span2">
+    </div>
+  </div>
+</div>
