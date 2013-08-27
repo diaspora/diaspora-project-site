@@ -598,3 +598,15 @@ en:
       other: 'Other sites'
       manifesto: '%{manifesto_link} – a statement of security and privacy to which diaspora* is signed up'
       manifesto_link_text: 'User Data Manifesto'
+    donate:
+      headline: 'Donate'
+      byline: 'Help support our mission of decentralizing the social web!'
+      donate1: "Since August 27th, 2012, all of Diaspora's development has been done entirely by volunteers out in the open. This has allowed the project to grow in remarkable ways. New features, designs, and improvements have made their way into Diaspora's code, and as such, the project has evolved far beyond what its original founders could have ever expected."
+      donate2: "Our community-driven project is supported and backed by the"
+      donate3: "Free Software Support Network"
+      donate4: "a project by"
+      donate5: "Eben Moglen"
+      donate6: "and the"
+      donate7: "Software Freedom Law Center"
+      donate8: "The FSSN acts as an umbrella entity to house the Diaspora project's branding, finances, and legal assets. Every penny donated to the FSSN in Diaspora's name is earmarked for the project."
+      donate9: "By donating to our project, you're helping support the goals and visions of our community. We're working hard to make the social web a better place, and together, we believe that we can make something amazing."

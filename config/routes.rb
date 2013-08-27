@@ -1,6 +1,8 @@
 DiasporaProjectSite::Application.routes.draw do
   devise_for :users
 
+  get 'donate' => 'pages#donate'
+
   get 'switch_locale/:locale' => 'i18n#switch_locale', as: :switch_locale
 
   constraints subdomain: /^(|www)$/i do

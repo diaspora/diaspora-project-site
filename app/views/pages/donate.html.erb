@@ -1,0 +1,36 @@
+<div id="masthead" class="hero">
+  <div class="container">
+    <h1><%= t '.headline' %></h1>
+    <h2><%= t '.byline' %></h2>
+  </div>
+</div>
+
+
+<div class="donation-info container">
+	<div class="span16">
+		<p><%= t '.donate1' %></p>
+		<p><%= t '.donate2' %> <%= t('.donate3', fssn: link_to('Free Software Support Network', 'http://freesoftwaresupport.org/')).html_safe %>, <%= t '.donate4' %> <%= t('.donate5', eben: link_to('Eben Moglen', 'http://en.wikipedia.org/wiki/Eben_Moglen')).html_safe %> <%= t '.donate6' %> <%= t('.donate7', sflc: link_to('Software Freedom Law Center', 'http://www.softwarefreedom.org/')).html_safe %> <%= t '.donate8' %> </p>
+
+		<p></p>
+		<p><%= t '.donate9' %></p>
+	</div>
+</div>
+
+<div class="donation-widget">
+	<div class="container">
+		<div class="span16 center"
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post"
+			target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="DWCD6E5578GJJ">
+			<input type="image"
+			src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
+			border="0" name="submit" alt="PayPal - The safer, easier way to pay
+			online!">
+			<img alt="" border="0"
+			src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1"
+			height="1">
+			</form>
+		</div>
+	</div>
+</div>
