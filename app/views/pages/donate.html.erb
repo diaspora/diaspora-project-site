@@ -9,8 +9,9 @@
 <div class="donation-info container">
 	<div class="span16">
 		<p><%= t('.donate1') %></p>
-		<p><%= t('.donate2') %></p>
+		<p><%= t('.donate2', fssn_link: link_to(t('.fssn_link_text'), "http://freesoftwaresupport.net/"), eben_link: link_to(t('.eben_link_text'), "http://en.wikipedia.org/wiki/Eben_Moglen"), sflc_link: link_to(t('.sflc_link_text'), "http://softwarefreedom.org")).html_safe %></p>
 		<p><%= t('.donate3') %></p>
+
 	</div>
 </div>
 
