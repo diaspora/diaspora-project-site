@@ -15,6 +15,7 @@ en:
     application:
       wiki: Wiki
       planet: Planet
+      donate: Donate
       useful_resources: "Useful Resources"
       codebase: Codebase
       documentation: Documentation
@@ -599,6 +600,7 @@ en:
       manifesto: '%{manifesto_link} – a statement of security and privacy to which diaspora* is signed up'
       manifesto_link_text: 'User Data Manifesto'
     donate:
+      menu_title: Donate
       headline: 'Donate'
       byline: 'Help support our mission of decentralizing the social web!'
       donate1: "Since August 27th, 2012, all of Diaspora's development has been done entirely by volunteers out in the open. This has allowed the project to grow in remarkable ways. New features, designs, and improvements have made their way into Diaspora's code, and as such, the project has evolved far beyond what its original founders could have ever expected."
