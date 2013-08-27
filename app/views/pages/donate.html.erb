@@ -9,10 +9,11 @@
 <div class="donation-info container">
 	<div class="span16">
 		<p><%= t '.donate1' %></p>
-		<p><%= t '.donate2' %> <%= t('.donate3', fssn: link_to('Free Software Support Network', 'http://freesoftwaresupport.org/')).html_safe %>, <%= t '.donate4' %> <%= t('.donate5', eben: link_to('Eben Moglen', 'http://en.wikipedia.org/wiki/Eben_Moglen')).html_safe %> <%= t '.donate6' %> <%= t('.donate7', sflc: link_to('Software Freedom Law Center', 'http://www.softwarefreedom.org/')).html_safe %> <%= t '.donate8' %> </p>
+		<p><%= t('.donate2', fssn_link: link_to(t('.fssn_link_text'), "http://freesoftwaresupport.net/")).html_safe, eben_link: link_to(t('.eben_link_text'), "http://en.wikipedia.org/wiki/Eben_Moglen")).html_safe, sflc_link: link_to(t(".sflc_link_text"), "http://softwarefreedom.org/")).html_safe %></p>
+		<p><%= t '.donate3' %> </p>
 
-		<p></p>
-		<p><%= t '.donate9' %></p>
+
+
 	</div>
 </div>
 
