@@ -411,7 +411,7 @@ en:
       mentions: '@mentions'
       mentions_ex1: 'Did you know you can grab someone’s attention by “mentioning” them? Simply type a @ symbol followed by the name of one of your contacts. As you start typing their name (their screen name, not their user name) it will automatically be completed by diaspora*. Hit enter or click the name in the auto-completer and you’ll notice that it has changed to their full name, and the @ symbol has disappeared. Don’t worry, though; this will become an @mention once you have posted the message. The person you are mentioning will receive a notification of the mention on their notification page, and by email if they have asked to receive email notification of mentions.'
       mentions_ex2: 'Likewise other people can @mention you, and you’ll receive a notification in the header bar (and by email if you have set that option).'
-      mentions_ex3: 'Note that you can only @mention people people in your aspects; and only in posts, not in comments.'
+      mentions_ex3: 'Note that you can only @mention people in your aspects; and only in posts, not in comments.'
       format: 'Text formatting'
       format_ex: 'There’s a lot you can do to make your text more varied: bold, italics, large headings and so on. diaspora* uses a simple mark-up system called Markdown. It’s not in the scope of this introduction, however, so we explore how to use Markdown in %{format_link}.'
       format_link_text: 'this tutorial'
