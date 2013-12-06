@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.0.0'
+gem 'rails', '~> 4.0.0'
 
 gem 'unicorn'
 
@@ -22,7 +22,7 @@ gem 'redcarpet', '~> 3.0.0'
 
 group :development, :test do
   gem 'rspec-rails', '~> 2.14.0'
-  gem 'capybara', '~> 2.1.0'
+  gem 'capybara', '~> 2.2.0'
 
   gem 'fuubar', '~> 1.1.1'
   gem 'rspec-instafail', '~> 0.2.4'
