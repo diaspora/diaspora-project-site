@@ -170,7 +170,7 @@ en:
       support_header: "Provide support"
       support_ex1: "Help new users feel welcome!"
       support_ex2: "Sign up here"
-      support_ex3: "Write user tutorials at %{diasporial_link}."
+      support_ex3: "Write user tutorials for the %{tutorials_link} section."
       support_ex4: 'Answer users’ questions on our %{irc_channel_link} or answer users’ questions on diaspora* itself by following the <span class="click">#help</span>, <span class="click">#question</span> and <span class="click">#feedback</span> hashtags.'
       irc_channel_link_text: "IRC channel"
       support_ex5: "Contribute to %{wiki_link}."
