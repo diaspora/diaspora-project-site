@@ -24,6 +24,7 @@ en:
       discussion_general: "Discussion - General"
       discussion_development: "Discussion - Development"
       choose_language: "Choose language"
+      translate: "Add a translation"
       cc_license_alt: "Creative Commons License"
       licensed_under: "%{site_link} is licensed under a %{license_link}"
       license_link_text: "Creative Commons Attribution 3.0 Unported License"
