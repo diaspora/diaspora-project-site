@@ -1,15 +1,15 @@
-fi:
+id:
   time:
     formats:
       blog_headline: ~
   buttons:
     host_pod: ~
-    join_diaspora: ~
+    join_diaspora: "Mari bergabung!"
     find_more: ~
   meta:
     footer:
       copyleft: ~
-  title: "diaspora* projekti"
+  title: "Proyek diaspora*"
   newsfeed: ~
   layouts:
     application:
@@ -65,11 +65,11 @@ fi:
       ways_to_help_alt: ~
       services_alt: ~
     about:
-      headline: "Kuinka diaspora* toimii?"
-      byline: "diaspora* on helppokäyttöinen - katso ohjeet"
-      menu_title: ~
-      decentralize: "Mitä tarkoittaa hajauttaminen?"
-      decentralize_ex: ~
+      headline: "Bagaimana cara kerja diaspora*?"
+      byline: "diaspora* mudah digunakan – begini caranya"
+      menu_title: Ihwal
+      decentralize: "Apa artinya desentralisasi?"
+      decentralize_ex: "diaspora* amat berbeda dari kebanyakan jaringan sosial yang kamu pakai. diaspora* bersifat desentralisasi, tanpa \"hub\" utama. Biarpun demikian, menjalin hubungan dan berkomunikasi dengan orang lain tetap mudah. Begini caranya."
       this: ~
       this_ex: ~
       notthis: ~
@@ -77,12 +77,12 @@ fi:
       discl: ~
       connect: ~
       connect_ex: ~
-      find: ~
+      find: "1. Temukan mereka"
       find_ex: ~
-      add: ~
+      add: "2. Tambahkan mereka"
       add_ex: ~
-      freedom: ~
-      freedom_byline: ~
+      freedom: Bebas
+      freedom_byline: "diaspora* berusaha tidak membatasi kamu dengan aturan"
       fdm1: ~
       fdm1_ex: ~
       fdm2: ~
@@ -103,7 +103,7 @@ fi:
       asp1_ex: ~
       asp2: ~
       asp2_ex: ~
-      asp3: ~
+      asp3: "Ceritakan pada seluruh dunia"
       asp3_ex: ~
       features: ~
       features_byline: ~

@@ -1,0 +1,57 @@
+af:
+  devise:
+    confirmations:
+      confirmed: "Jou rekening is bevestig. Jy is nou aangemeld."
+      send_instructions: "Jy sal 'n e-pos ontvang met instruksies om jou rekening te bevestig in 'n paar minute."
+      send_paranoid_instructions: "As jou e-posadres ​​in ons databasis bestaan, in 'n paar minute sal jy 'n e-pos ontvang met instruksies oor hoe jy jou rekening te bevestig."
+    failure:
+      already_authenticated: "Jy is reeds aangemeld."
+      inactive: "Jou rekening is nog nie geaktiveer nie."
+      invalid: "Ongeldig e-pos of wagwoord."
+      invalid_token: "Ongeldig verifikasie teken."
+      locked: "Jou rekening is gesluit."
+      not_found_in_database: "Ongeldig e-pos of wagwoord."
+      timeout: "Jou sessie het verval; sluit asseblief in om voort te gaan."
+      unauthenticated: "Jy moet in sluit of registreer voordat u voortgaan."
+      unconfirmed: "Jy moet jou rekening bevestig voordat u voortgaan."
+    mailer:
+      confirmation_instructions:
+        subject: "Bevestiging instruksies"
+      reset_password_instructions:
+        subject: "Herstel wagwoord instruksies"
+      unlock_instructions:
+        subject: "Ontsluit instruksies"
+    omniauth_callbacks:
+      failure: "Kon nie u gewaarmerk vanaf %{kind} omdat \"%{reason}\"."
+      success: "Suksesvol gewaarmerk van %{kind} rekening."
+    passwords:
+      no_token: "Jy kan net toegang tot hierdie bladsy kry deur op die skakel te kliek in 'n wagwoord-terugstel e-pos. As jy die skakel gekopieer het vanaf 'n wagwoord terugstel e-pos, maak asseblief seker dat jy die hele URL wat verskaf is gekopieer het ."
+      send_instructions: "Jy sal 'n e-pos in 'n paar minute ontvang met instruksies om jou wagwoord te herstel."
+      send_paranoid_instructions: "As jou e-posadres ​​in ons databasis bestaan, sal jy 'n wagwoord herstel skakel in jou posbus ontvang in 'n paar minute."
+      updated: "Jou wagwoord is suksesvol verander. Jy is nou ingeteken."
+      updated_not_active: "Jou wagwoord is suksesvol verander."
+    registrations:
+      destroyed: "Totsiens! Jou rekening is suksesvol verwyder. Ons hoop ons sien jou binnekort weer."
+      signed_up: "Welkom! Jy het suksesvol registreer."
+      signed_up_but_inactive: "Jy het aangemeld, maar ons kon jou nie aan meld nie omdat jou rekening nog nie geaktiveer is nie."
+      signed_up_but_locked: "Jy het aangemeld, maar ons kon jou nie aan meld nie want jou rekening is gesluit."
+      signed_up_but_unconfirmed: "'n Boodskap met 'n bevestiging skakel is gestuur na jou e-posadres. Kyk asseblief na die skakel om jou rekening te aktiveer."
+      update_needs_confirmation: "Jy het jou rekening opgedateer, maar ons moet jou nuwe e-posadres bevestig. Kyk asseblief in jou inboks en kliek op die bevestig skakel om jou nuwe e-pos adres te finaliseer."
+      updated: "Jy het jou rekening suksesvol opgedateer."
+    sessions:
+      signed_in: "Suksesvol aangemeld."
+      signed_out: "Suksesvol uitgeteken."
+    unlocks:
+      send_instructions: "Jy sal 'n e-pos in 'n paar minute ontvang met instruksies oor hoe jy jou rekening kan ontsluit."
+      send_paranoid_instructions: "Indien jou rekening bestaan, sal u 'n e-pos in 'n paar minute ontvang met instruksies oor hoe om dit te ontsluit."
+      unlocked: "Jou rekening is suksesvol ontsluit. Meld asseblief aan om voort te gaan."
+  errors:
+    messages:
+      already_confirmed: "was al bevestig probeer weer aan te meld"
+      confirmation_period_expired: "moet binne %{period} bevestig word, versoek asseblief 'n nuwe een"
+      expired: "het verstryk, versoek asseblief 'n nuwe een"
+      not_found: "nie gevind nie"
+      not_locked: "was nie gesluit nie"
+      not_saved:
+        one: "%{count} fout verbied hierdie %{resource} om gestoor te word:"
+        other: "%{count} foute verbied hierdie %{resource} om gestoor te word:"

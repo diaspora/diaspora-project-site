@@ -1,0 +1,54 @@
+ml:
+  devise:
+    confirmations:
+      confirmed: "താങ്കളുടെ അക്കൌണ്ട് വിജയകരമായി സ്ഥിരീകരിച്ചിരിക്കുന്നു. നിങ്ങള്‍ ഇപ്പൊള്‍ പ്രവേശിച്ചിരിക്കുന്നു."
+      send_instructions: "താങ്കളുടെ അക്കൌണ്ട് സ്ഥിരീകരിക്കുന്നതിന് ആവശ്യമായ വിവരങ്ങള്‍ അടങ്ങിയ ഇമെയില്‍ അല്പസമയത്തിനകം ലഭിക്കുന്നതാണ്."
+      send_paranoid_instructions: ~
+    failure:
+      already_authenticated: ~
+      inactive: "താങ്കളുടെ അക്കൗണ്ട്‌ ഇതുവരെയും പ്രവർത്തനക്ഷമമാക്കിയിട്ടില്ല."
+      invalid: "അസാധുവായ ഇമെയില്‍ അല്ലെങ്കില്‍ രഹസ്യവാക്ക്"
+      invalid_token: "അധികാരപ്പെടുത്തലിന്റെ ടോക്കണ്‍ സാധുവല്ല."
+      locked: "നിങ്ങളുടെ അക്കൌണ്ട് പൂട്ടിയിരിക്കുന്നു."
+      not_found_in_database: "അസാധുവായ ഇമെയില്‍ അല്ലെങ്കില്‍ രഹസ്യവാക്ക്"
+      timeout: ~
+      unauthenticated: "തുടരുന്നതിന് മുമ്പ് നിങ്ങള്‍ അകത്ത് പ്രവേശിക്കുകയോ അംഗത്വം എടുക്കുകയോ ചെയ്യണം."
+      unconfirmed: "തുടരുന്നതിന് മുൻപായി താങ്കൾ താങ്കളുടെ അക്കൗണ്ട്‌ സ്ഥിതീകരിക്കുക."
+    mailer:
+      confirmation_instructions:
+        subject: "സ്ഥിരീകരണത്തിനുള്ള വിവരങ്ങള്‍"
+      reset_password_instructions:
+        subject: "രഹസ്യവാക്ക് പുനഃക്രമീകരിക്കാനുള്ള നിര്‍ദ്ദേശങ്ങള്‍"
+      unlock_instructions:
+        subject: "തുറക്കുവാനുള്ള വിവരങ്ങള്‍"
+    omniauth_callbacks:
+      failure: ~
+      success: ~
+    passwords:
+      no_token: ~
+      send_instructions: ~
+      send_paranoid_instructions: ~
+      updated: "താങ്കളുടെ രഹസ്യവാക്ക് വിജയകരമായി മാറ്റിയിരിക്കുന്നു. താങ്കൾ ഇപ്പോൾ അകത്ത് പ്രവേശിച്ചിരിക്കുകയാണ്."
+      updated_not_active: "താങ്കളുടെ രഹസ്യവാക്ക് വിജയകരമായി മാറ്റിയിരിക്കുന്നു."
+    registrations:
+      destroyed: "പോയിവരൂ! താങ്കളുടെ അക്കൗണ്ട്‌ വിജയകരമായി നീക്കം ചെയ്തിരിക്കുന്നു. നിങ്ങളെ വീണ്ടും കണ്ടുമെട്ടുമെന്നു ഞങ്ങൾ പ്രതീക്ഷിക്കുന്നു."
+      signed_up: "സ്വാഗതം! താങ്കൾ വിജയകരമായി അംഗത്വമെടുത്തിരികുന്നു."
+      signed_up_but_inactive: "താങ്കൾ വിജയകരമായി അംഗത്വമെടുത്തിരികുന്നു. എങ്കിലും, നിങ്ങളുടെ അക്കൗണ്ട്‌ പ്രവത്തനഷ്കമാമാക്കിയിട്ടില്ലത്തതിനാൽ അകത്ത് പ്രവേശിപ്പിക്കാൻ സാധ്യമല്ല."
+      signed_up_but_locked: "താങ്കൾ വിജയകരമായി അംഗത്വമെടുത്തിരികുന്നു. എങ്കിലും, നിങ്ങളുടെ അക്കൗണ്ട്‌ അടയ്ക്കപ്പെട്ടതിനാൽ അകത്ത് പ്രവേശിപ്പിക്കാൻ സാധ്യമല്ല."
+      signed_up_but_unconfirmed: ~
+      update_needs_confirmation: ~
+      updated: "താങ്കളുടെ പ്രൊഫൈൽ താങ്കൾ വിജയകരമായി പുതുക്കിയിരിക്കുന്നു"
+    sessions:
+      signed_in: "വിജയകരമായി പ്രവേശിച്ചിരിക്കുന്നു."
+      signed_out: "വിജയകരമായി പുറത്ത് കടന്നു."
+    unlocks:
+      send_instructions: ~
+      send_paranoid_instructions: ~
+      unlocked: ~
+  errors:
+    messages:
+      already_confirmed: ~
+      confirmation_period_expired: ~
+      expired: ~
+      not_found: കണ്ടുകിട്ടിയില്ല
+      not_locked: പൂട്ടിയിട്ടില്ല

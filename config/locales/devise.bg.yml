@@ -1,0 +1,54 @@
+bg:
+  devise:
+    confirmations:
+      confirmed: ~
+      send_instructions: ~
+      send_paranoid_instructions: ~
+    failure:
+      already_authenticated: ~
+      inactive: ~
+      invalid: ~
+      invalid_token: "Невалиден код за разпознаване."
+      locked: ~
+      not_found_in_database: ~
+      timeout: ~
+      unauthenticated: ~
+      unconfirmed: ~
+    mailer:
+      confirmation_instructions:
+        subject: "Инструкции за потвърждение"
+      reset_password_instructions:
+        subject: "Инструкции за нулиране на паролата"
+      unlock_instructions:
+        subject: "Инструкции за отключване"
+    omniauth_callbacks:
+      failure: ~
+      success: ~
+    passwords:
+      no_token: ~
+      send_instructions: ~
+      send_paranoid_instructions: ~
+      updated: ~
+      updated_not_active: ~
+    registrations:
+      destroyed: ~
+      signed_up: ~
+      signed_up_but_inactive: ~
+      signed_up_but_locked: ~
+      signed_up_but_unconfirmed: ~
+      update_needs_confirmation: ~
+      updated: ~
+    sessions:
+      signed_in: "Вписахте се успешно."
+      signed_out: "Отписахте се успешно."
+    unlocks:
+      send_instructions: ~
+      send_paranoid_instructions: ~
+      unlocked: ~
+  errors:
+    messages:
+      already_confirmed: ~
+      confirmation_period_expired: ~
+      expired: ~
+      not_found: "не е намерено"
+      not_locked: "не е бил заключен"

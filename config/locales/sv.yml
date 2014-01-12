@@ -1,15 +1,15 @@
-fi:
+sv:
   time:
     formats:
       blog_headline: ~
   buttons:
     host_pod: ~
-    join_diaspora: ~
+    join_diaspora: "Anslut dig till oss!"
     find_more: ~
   meta:
     footer:
       copyleft: ~
-  title: "diaspora* projekti"
+  title: diaspora*-projektet
   newsfeed: ~
   layouts:
     application:
@@ -23,14 +23,14 @@ fi:
       irc_development: ~
       discussion_general: ~
       discussion_development: ~
-      choose_language: ~
+      choose_language: "Välj språk"
       translate: ~
       cc_license_alt: ~
       licensed_under: ~
       license_link_text: ~
   pages:
     index:
-      headline: ~
+      headline: "Välkommen till Diaspora*"
       byline: ~
       register: ~
       key_philosophies: ~
@@ -52,7 +52,7 @@ fi:
       aspects_ex: ~
       features: ~
       features_ex: ~
-      help: ~
+      help: "Vill du hjälpa till?"
       help_ex: ~
       socialint: ~
       socialint_ex: ~
@@ -65,55 +65,55 @@ fi:
       ways_to_help_alt: ~
       services_alt: ~
     about:
-      headline: "Kuinka diaspora* toimii?"
-      byline: "diaspora* on helppokäyttöinen - katso ohjeet"
-      menu_title: ~
-      decentralize: "Mitä tarkoittaa hajauttaminen?"
+      headline: "Hur fungerar Diaspora*?"
+      byline: "Diaspora är enkelt att använda. Så här gör man."
+      menu_title: Om
+      decentralize: ~
       decentralize_ex: ~
-      this: ~
+      this: DETTA
       this_ex: ~
-      notthis: ~
+      notthis: "INTE DETTA"
       notthis_ex: ~
       discl: ~
-      connect: ~
+      connect: "Hur kan jag ansluta?"
       connect_ex: ~
-      find: ~
+      find: "1. Hitta dem"
       find_ex: ~
-      add: ~
+      add: "2. Lägg till dem"
       add_ex: ~
-      freedom: ~
-      freedom_byline: ~
-      fdm1: ~
+      freedom: Frihet
+      freedom_byline: "Diaspora* försöker inte begränsa dig"
+      fdm1: "Var den du vill vara"
       fdm1_ex: ~
-      fdm2: ~
+      fdm2: "Var kreativ"
       fdm2_ex: ~
-      fdm3: ~
+      fdm3: "Fri som i frihet"
       fdm3_ex: ~
-      privacy: ~
-      privacy_byline: ~
-      priv1: ~
+      privacy: Persondataskydd
+      privacy_byline: "Total kontroll över vad som är ditt "
+      priv1: "Äg din egen data"
       priv1_ex: ~
       priv2: ~
       priv2_ex: ~
-      priv3: ~
+      priv3: "Välj din publik"
       priv3_ex: ~
-      aspects: ~
+      aspects: "Allt om aspekter"
       aspects_byline: ~
-      asp1: ~
+      asp1: "Aspekter av ditt liv"
       asp1_ex: ~
-      asp2: ~
+      asp2: "Organisera ditt liv"
       asp2_ex: ~
-      asp3: ~
+      asp3: "Berätta åt hela världen"
       asp3_ex: ~
       features: ~
-      features_byline: ~
+      features_byline: "Vi tror att du kommer att älska dem också"
       hashtags: ~
       hashtags_ex: ~
       reshare: ~
       reshare_ex: ~
       mentions: ~
       mentions_ex: ~
-      love: ~
+      love: Kärlek
       love_ex: ~
       host: ~
       host_byline: ~
@@ -128,18 +128,18 @@ fi:
       hashtag_alt: ~
       reshare_alt: ~
       mention_alt: ~
-      heart_alt: ~
+      heart_alt: Hjärta
     get_involved:
       headline: ~
       byline: ~
-      menu_title: ~
+      menu_title: "Involvera dig"
       community: ~
       community_byline: ~
       meaning: ~
       meaning_ex1: ~
       meaning_ex2: ~
       meaning_ex3: ~
-      whereyou: ~
+      whereyou: "Var du kommer in"
       whereyou_ex1: ~
       whereyou_ex2: ~
       gi_header: ~
@@ -156,16 +156,16 @@ fi:
       bugs_header: ~
       bugs_ex1: ~
       bugs_ex2: ~
-      bugs_ex3: ~
+      bugs_ex3: "Hjälp oss att städa upp i koden"
       github_link_text: ~
-      translate_header: ~
+      translate_header: "Hjälp översätta"
       translate_ex1: ~
       translations_link_text: ~
       translate_ex2: ~
       translation_instructions_link_text: ~
       voice_header: ~
       voice_ex1: ~
-      voice_ex2: ~
+      voice_ex2: "Anslut dig med oss där"
       voice_ex3: ~
       meetup_link_text: ~
       support_header: ~
@@ -242,15 +242,15 @@ fi:
       dhq_link_text: ~
       registration5: ~
       registration6: ~
-      registration7: ~
-      registration8: ~
+      registration7: "Klicka på knappen för att ladda upp en profilbild från din dator."
+      registration8: "Om du vill ansluta din diaspora*-frö med ditt Facebook-konto, klicka på länken så kan du kan automatisera en del av denna process. Du kan till exempel hämta ditt namn och profilbild från din Facebook-konto."
       registration9: ~
       registration10: ~
       profile1: ~
       profile2: ~
       profile3: ~
       profile4: ~
-      finish: ~
+      finish: "Det är allt!"
       finish_ex1: ~
       finish_ex2: ~
     getting_started2:
@@ -282,7 +282,7 @@ fi:
       stream2: ~
       stream3: ~
       stream_ex2: ~
-      activity: ~
+      activity: "Min aktivitet"
       activity_ex: ~
       mentions: ~
       mentions_ex: ~
@@ -327,7 +327,7 @@ fi:
       contact_ex5: ~
       contact_ex6: ~
       contact_ex7: ~
-      sharing_me: ~
+      sharing_me: "Delar bara med mig"
       sharing_me_ex: ~
       finish: ~
     getting_started4:
@@ -455,7 +455,7 @@ fi:
       notify: ~
       notify_ex1: ~
       notify_ex2: ~
-      notify_ls1: ~
+      notify_ls1: "Klicka på personens namn för att visa deras profil."
       notify_ls2: ~
       notify_ls3: ~
       notify_ls4: ~
@@ -483,7 +483,7 @@ fi:
       settings: ~
       settings_ex1: ~
       settings_ex3: ~
-      profile: ~
+      profile: Profil
       profile_ex: ~
       account: ~
       account_ex1: ~
@@ -495,7 +495,7 @@ fi:
       services: ~
       services_ex: ~
       finish1: ~
-      finish2: ~
+      finish2: " och "
       finish3: ~
     formatting:
       byline: ~
@@ -510,7 +510,7 @@ fi:
       headings_code2: ~
       headings_code3: ~
       headings_ex2: ~
-      lists: ~
+      lists: Listor
       lists_ex1: ~
       lists_ex2: ~
       lists_ex3: ~
@@ -544,7 +544,7 @@ fi:
       link_code: ~
       link_ex2: ~
       inline_link_text: ~
-      images: ~
+      images: Bilder
       images_ex1: ~
       images_code: ~
       images_ex2: ~
@@ -574,12 +574,12 @@ fi:
       intro2: ~
       tutorials: ~
       parfait: ~
-      about: ~
+      about: "Om diaspora*"
       about1: ~
       wiki: ~
       wiki_link_text: ~
       wikipedia: ~
-      wikipedia_link_text: ~
+      wikipedia_link_text: diaspora*
       wikipedia_software_link_text: ~
       support: ~
       question: ~

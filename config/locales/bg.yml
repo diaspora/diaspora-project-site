@@ -1,0 +1,601 @@
+bg:
+  time:
+    formats:
+      blog_headline: ~
+  buttons:
+    host_pod: "Хоствай шушулка"
+    join_diaspora: "Присъединете се към нас!"
+    find_more: ~
+  meta:
+    footer:
+      copyleft: ~
+  title: "Проекта на диаспора*"
+  newsfeed: ~
+  layouts:
+    application:
+      wiki: Уики
+      planet: Планета
+      useful_resources: "Полезни Ресурси"
+      codebase: "Програмния код"
+      documentation: Документация
+      report_bugs: ~
+      irc_general: "IRC - Общо"
+      irc_development: "IRC - Развитие"
+      discussion_general: "Обсъждане - Общо"
+      discussion_development: "Обсъждане - Развитие"
+      choose_language: "Избери език"
+      translate: ~
+      cc_license_alt: "Creative Commons Лиценз"
+      licensed_under: ~
+      license_link_text: ~
+  pages:
+    index:
+      headline: "Добре дошил в диаспора*"
+      byline: ~
+      register: "Регистрирай се"
+      key_philosophies: ~
+      decentralization: Децентрализирано
+      decentralization_about: диаспора*
+      freedom: Свобода
+      freedom_about: диаспора*
+      privacy: Частност
+      privacy_about: диаспора*
+      get_started: "Искаш да започнеш?"
+      get_started_sub: ~
+      choose_pod: "1. Избери шушулка"
+      choose_pod_exp: ~
+      sign_up: "2. Регистрирайте се"
+      sign_up_ex: ~
+      join_convo: "3. Присъединете се към разговора!"
+      join_convo_ex: диаспора*
+      aspects: Аспекти
+      aspects_ex: диаспора*
+      features: Функции
+      features_ex: "@Споменавки"
+      help: "Искаш да помогаш?"
+      help_ex: диаспора*
+      socialint: "Интеграция на социални мрежи"
+      socialint_ex: диаспора*
+      earth_alt: ~
+      decentralized_alt: Децентрализирано
+      freedom_alt: Свобода
+      keyhole_alt: Ключалка
+      aspects_alt: Аспекти
+      features_alt: Функции
+      ways_to_help_alt: "Как да помогниш"
+      services_alt: Услуги
+    about:
+      headline: ~
+      byline: ~
+      menu_title: Относно
+      decentralize: "Какво е децентрализиране?"
+      decentralize_ex: "диаспора* е напълно различна от повечето мрежи, които използвате. Тя е напълно децентрализирана, без главен център, и въпреки това е много лесно да се свързвате и комуникирате с хората. Ето как."
+      this: това
+      this_ex: диаспора*
+      notthis: "не това"
+      notthis_ex: "Повечето социални мрежи се намират на централизирани съвръри притежавани от корпорации. Те съхраняват личната информация на всички потребители. Тази информация може да бъде загубена или незаконно придобита от други лица, и като всяка подобна система, всеки проблем в централните сървъри може да доведе до забавянето им или пълното им спиране. Също така е по-лесно за правителството да \"наблюдава\"."
+      discl: ~
+      connect: ~
+      connect_ex: "диаспора* "
+      find: "1. Намери ги"
+      find_ex: диаспора*
+      add: "2. Добави ги"
+      add_ex: ~
+      freedom: Свобода
+      freedom_byline: "диаспора* не се опитва да те ограничи"
+      fdm1: "Бъди себе си"
+      fdm1_ex: "Много социални мрежи настояват да използвате вашата истинска идентичнос. Не и диаспора*. Тук можете да изберете кой искате да сте и да споделяте точно толкова колкото искате за себе си. От вас зависи как ще комуникирате с хората."
+      fdm2: "Бъдете креативни"
+      fdm2_ex: ~
+      fdm3: ~
+      fdm3_ex: "диаспора* е напълно безплатен софтуер. Това означава, че не няма ограничения за начина на използването му. Можете да промените програмния код така че да работи така както искате и да ни помогнете да подобрим социалната мрежа. Ще се радваме ако се присъедините към нас."
+      privacy: Сигурност
+      privacy_byline: "Пълен контрол върху вашата информация "
+      priv1: "Вие сте единствения собственик на вашите данни"
+      priv1_ex: "Много социални мрежи използват вашите данни за да печелят пари като анализират вашата активност и ви предлагат реклами. диаспора* не използва вашата информация с друга цели, освен за да ви помогне да се свързвате и споделяте с други хора."
+      priv2: "Сам го хоствай"
+      priv2_ex: ~
+      priv3: "Изберете вашата аудиенция"
+      priv3_ex: диаспора*
+      aspects: "Всичко за аспекти"
+      aspects_byline: "Ключът към сигурноста в диаспора*"
+      asp1: ~
+      asp1_ex: диаспора*
+      asp2: "Организирай живота си"
+      asp2_ex: ~
+      asp3: "Споделете със света"
+      asp3_ex: ~
+      features: ~
+      features_byline: ~
+      hashtags: ~
+      hashtags_ex: ~
+      reshare: Сподели
+      reshare_ex: ~
+      mentions: Споменавки
+      mentions_ex: "Искате някой да ви забалежи? Просто го @споменете! Това е лесен начин да уведомите някой от контактите си за нещо, което мислите че те ще искат да знаят."
+      love: Любов
+      love_ex: "Покажете своята признателност към нещо което ♥бичате. Защото понякога думите не са достатъчни, да покажат вашите чувства."
+      host: ~
+      host_byline: ~
+      host_ex: диаспора*
+      hostinst1: ~
+      instructions_link_text: "Инструкции за инсталиране на шушулка"
+      hostinst2: ~
+      distributed_network: "Разпределена мрежа"
+      centralized_network: "Централизирана мрежа"
+      search_alt: Търси
+      add_a_contact_alt: "Добавяне на контакт"
+      hashtag_alt: ~
+      reshare_alt: Сподели
+      mention_alt: Споменете
+      heart_alt: ~
+    get_involved:
+      headline: "Включете се!"
+      byline: "Бъдещето на социалната мрежа започва със теб"
+      menu_title: "Включете се"
+      community: "Осъществено от общността"
+      community_byline: "диаспора* ти принадлежи"
+      meaning: "Какво означава всичко това?"
+      meaning_ex1: диаспора*
+      meaning_ex2: диаспора*
+      meaning_ex3: ~
+      whereyou: ~
+      whereyou_ex1: диаспора*
+      whereyou_ex2: ~
+      gi_header: "Как можеш да помогнеш на диаспора*"
+      code_header: "Допринасящ код"
+      code_byline: ~
+      code_ex1: ~
+      code_ex2: ~
+      code_ex3: "Започни да допринасяш код!"
+      code_ex4: ~
+      get_started_guide_link_text: "Начално ръководство"
+      mailing_list_link_text: "пощенския списък"
+      irc_link_text: "IRC стая на диаспора*"
+      code_gh: ~
+      bugs_header: "Оправяй програмни грешки"
+      bugs_ex1: ~
+      bugs_ex2: ~
+      bugs_ex3: ~
+      github_link_text: "GitHub Въпрос Тракер"
+      translate_header: "Помогни с превода"
+      translate_ex1: "Можеш да ни помогнеш да преведем диаспора* на други езици като се присъединиш към %{translations_link}."
+      translations_link_text: "Превеждаща Група"
+      translate_ex2: ~
+      translation_instructions_link_text: "инструкции за превод "
+      voice_header: "Представи гласа си"
+      voice_ex1: ~
+      voice_ex2: "Присъедини се там"
+      voice_ex3: ~
+      meetup_link_text: ~
+      support_header: "Предостави подкрепа"
+      support_ex1: ~
+      support_ex2: "Регистрирай се тук"
+      support_ex3: ~
+      support_ex4: ~
+      irc_channel_link_text: "IRC канал"
+      support_ex5: "Допринасай към %{wiki_link}"
+      wiki_link_text: "Уикито на диаспора*"
+      run_header: ~
+      run_ex1: ~
+      host_pod_link_text: ~
+      run_ex2: ~
+      run_ex3: ~
+      contributors_header: "сътрудници на диаспора*"
+      contributors_byline: ~
+      globe_alt: Глобус
+      megaphone_alt: Мегафон
+      support_alt: Подкрепа
+      pod_alt: Шушулка
+    blog:
+      headline: "блога на диаспора"
+      subline: "официални съобщения"
+      menu_title: Блог
+    planet:
+      headline: Планета
+      menu_title: Планета
+    tutorials:
+      headline: "диаспора* ръководства"
+      byline: ~
+      menu_title: Ръководства
+      tutorials_ex1: диаспора*
+      tutorials_ex2: "диаспора* %{podup_link}"
+      started_head: "Първи стъпки в диаспора *"
+      started1: Записване
+      started2: Интерфейсът
+      started3: Аспекти
+      started4: ~
+      started5: "Хайде, Споделайте!"
+      started6: "Уведомления и разговори"
+      started7: Довършителни
+      part1: "Част 1"
+      part2: "Част 2"
+      part3: "Част 3"
+      part4: "Част 4"
+      part5: "Част 5"
+      part6: "Част 6"
+      part7: "Част 7"
+      additional: "Допълнителни ръководства"
+      connecting: ~
+      tips: "Съвети и трикове"
+      formatting: "Форматиране на текст"
+      more_tutorials: "Искаш повече помощ?"
+      other_docs: ~
+      other_docs_link_text: "друга документация"
+      thanks: ~
+    getting_started1:
+      byline: "Част 1 – Записване"
+      menu_title: "Подписване до диаспора*"
+      welcome: диаспора*
+      find_pod: "Намиране на шушулка"
+      find_pod_ex1: диаспора*
+      find_pod_ex2: диаспора*
+      find_pod_ex3: ~
+      wiki_link_text: "ръководство за избор на шушулка"
+      find_pod_ex4: диаспора*
+      find_pod_ex5: диаспора*
+      registration: Регистрация
+      registration1: ~
+      registration2: ~
+      registration3: ~
+      registration4: "диаспора* %{dhq_link} %{part4_link}"
+      dhq_link_text: "диаспора* HQ"
+      registration5: ~
+      registration6: ~
+      registration7: ~
+      registration8: диаспора*
+      registration9: ~
+      registration10: ~
+      profile1: ~
+      profile2: ~
+      profile3: ~
+      profile4: ~
+      finish: "Това е!"
+      finish_ex1: ~
+      finish_ex2: "диаспора* %{part5_link}"
+    getting_started2:
+      byline: "Част 2 – Интерфейсът"
+      menu_title: "Използване на интерфейса"
+      interface1: ~
+      interface2: диаспора*
+      interface3: ~
+      header: ~
+      header2: ~
+      header3: ~
+      header4: "икона уведомленя (ние ще разгледаме това в %{part6_link});"
+      header5: ~
+      header6: ~
+      header7: "лично падащто меню с:"
+      header8: ~
+      header9: ~
+      header10: ~
+      header11: ~
+      header12: "Бутон за отписане."
+      columns: ~
+      column1: диаспора*
+      column2: ~
+      column3: диаспора*
+      views: ~
+      stream: Потокът
+      stream_ex: ~
+      stream1: "известие, направени от вашите контакти;"
+      stream2: ~
+      stream3: "известие, които те @споменават."
+      stream_ex2: ~
+      activity: "Моята Дейност"
+      activity_ex: диаспора*
+      mentions: Споменавки
+      mentions_ex: "@Споменавки %{part4_link}"
+      aspects: "Моите Аспекти"
+      aspects_ex1: ~
+      aspects_ex2: ~
+      tags: "#Следени Маркери"
+      tags_ex1: ~
+      tags_ex2: ~
+      profile: "Профил оглед"
+      profile_ex1: "диаспора* %{part1_link}"
+      profile_ex2: ~
+      profile_ex3: ~
+      profile_ex4: ~
+      profile_ex5: "Под снимката на профила ще види бар с икони: сив (с кръг), ако те не споделят с тев, зелено (с ✓) ако споделят. Ако игнорираш човека, барът ще бъди червен. Той съдържа следните икони, ако човека е на разположение с тев: икона @спомен, ако споделяш с човека, и икона на Съобщение, ако имате взаимно споделяне."
+      profile_ex6: ~
+      finish: диаспора*
+    getting_started3:
+      byline: "Част 3 – Аспекти"
+      menu_title: "Всичко за аспекти"
+      aspects1: ~
+      aspects2: диаспора*
+      aspects3: ~
+      aspects4: ~
+      add_aspect1: ~
+      add_aspect2: ~
+      add_aspect3: ~
+      add_aspect4: ~
+      my_aspects1: ~
+      my_aspects2: ~
+      my_aspects3: ~
+      my_aspects4: ~
+      my_aspects5: ~
+      my_aspects6: ~
+      my_aspects7: ~
+      my_aspects8: ~
+      my_aspects9: ~
+      contacts: "Контакти страница"
+      contact_ex1: "@Споменавки %{part2_link}"
+      contact_ex3: ~
+      contact_ex4: ~
+      contact_ex5: ~
+      contact_ex6: ~
+      contact_ex7: ~
+      sharing_me: "Само споделят с мен"
+      sharing_me_ex: ~
+      finish: ~
+    getting_started4:
+      byline: ~
+      menu_title: "Как да се свържиш с хора"
+      aspects1: ~
+      sharing: Споделяне
+      sharing_ex: диаспора*
+      relationships: ~
+      followers: Последователи
+      followers_ex1: "Някой те е поставил в аспект, но не си направил същото за тях. Ти ще получиш уведомление, че този човек \"започна да споделя с тев\", но иначе няма да забележиш някаква разлика."
+      followers_ex2: ~
+      followers_ex3: ~
+      following: Следиш
+      following_ex1: ~
+      following_ex2: ~
+      mutual: "Взаимно споделяне"
+      mutual_ex1: ~
+      mutual_ex2: ~
+      mutual_ls1: ~
+      mutual_ls2: ~
+      mutual_ls3: ~
+      mutual_ls4: ~
+      mutual_ex3: ~
+      finding: "Намирането на хора"
+      finding_ex1: ~
+      finding_ex2: ~
+      search: Търси
+      search_ex: ~
+      search_ls1: ~
+      search_ls2: ~
+      search_ls3: ~
+      search_ls4: ~
+      search_ls5: ~
+      search_ls6: ~
+      invite: "Изпращането на поканна поща"
+      invite_ex: ~
+      profile: "От профила им"
+      profile_ex1: диаспора*
+      profile_ex2: ~
+      tags: "Следването на маркери"
+      tags_ex: ~
+      removing: "Премахване на някой от контактите си"
+      removing_ex1: ~
+      removing_ex2: ~
+      removing_ex3: ~
+      removing_ex4: ~
+      removing_ex5: ~
+      finish: ~
+    getting_started5:
+      byline: "Част 5 –  Започни да споделяваш"
+      menu_title: "Хайде, Споделайте!"
+      intro1: ~
+      intro2: "диаспора* %{part6_link}"
+      publisher: Издателят
+      publisher_ex1: диаспора*
+      publisher_ex2: ~
+      publisher_ex3: ~
+      publisher_ex4: ~
+      buttons: ~
+      aspect_selector: "Бутон за избор на аспекти"
+      aspect_selector_ex1: ~
+      aspect_selector_ex2: ~
+      photo: "Споделяне на снимки"
+      photo_ex: ~
+      locator: ~
+      locator_ex1: ~
+      locator_ex2: ~
+      locator_ex3: ~
+      connected: "Свързани услуги"
+      connected_ex1: ~
+      connected_ex2: ~
+      connected_ex3: ~
+      preview: "Визуализирането на известие"
+      preview_ex1: ~
+      preview_ex2: "@Споменавки"
+      features: "Функции за публикуване"
+      tags: ~
+      tags_ex1: (хеш)
+      tags_ex2: "Да речем, че харесвате да гответе и вие публикувате известие с «#готвене» в него. Известияето ви ще се появи в потока на всеки, който следва таг #готвене. Разбира се, вашто известие трябва да бъде публично, така че всеки последовател на #готвене може да го види; ако го направите само за един или повече аспекти, само хората в тези аспекти ще бъдат в състояние да го прочетът. Можете също да търсите за «#готвене» в лентата за търсене, и ще ви бъде представено със списък на всички известия, маркирани с «#готвене». Това включва само собствените си известия, известия на приятели и публичин известия на други потребители. Вие разбирате, че това е фантастично средство за намиране и споделяне с хора, които споделят същите интереси."
+      tags_ex3: ~
+      mentions: "@споменавки"
+      mentions_ex1: "Знаете ли, че можете да хванете вниманието на някого, ако ги \"споменните\"? Просто пишеш @ символ, последван от името на един от вашите контакти. Когато започнете да пишете името им (името им на екрана, а не потребителското им име) автоматично ще бъде попълнен от диаспора*. Натиснете бутона «Enter» или кликнете върху името в авто-завършача и ще забележте, че то се е променило до пълното им име, и символа @ е изчезнал. Не се притеснявайте; това ще се превърне в @спомен когато публикуваш известието. Човекът което се споменава, ще получи уведомление за споменаването на тяхната страница за уведомление, и по имейл, ако те са поискали да получават уведомяване по имейл за спомененя."
+      mentions_ex2: "По същия начин могат други хора да те @споменават, и ти ще получиш уведомление в заглавната лента (и по имейл, ако сте задали тази опция)."
+      mentions_ex3: "@Споменавки"
+      format: "Форматиране на текста"
+      format_ex: "диаспора* %{format_link}"
+      format_link_text: "това ръководство"
+      links: Връзки
+      links_ex: ~
+      embed: ~
+      embed_ex1: ~
+      embed_ex2: ~
+      services: "Публикуване на други услуги"
+      services_ex1: ~
+      services_ex2: диаспора*
+      services_ex3: ~
+      how: ~
+      try_out: ~
+      make_post1: диаспора*
+      make_post2: ~
+      make_post3: ~
+      interact: ~
+      interact_ex1: ~
+      interact_ex2: "@Споменавки"
+      comments: Коментари
+      comments_ex: ~
+      likes: ~
+      likes_ex1: ~
+      likes_ex2: "Ако си промениш мнението, можеш да премахнеш \"Харесвам\" ако кликнеш върху <span class=\"click\">Не Харесвам</span> линк, който сега се вижда. Но имай предвид, че човека, чието мнение първоначално хареса вече е бил изпратен уведомление!"
+      reshare: "Сподели известие"
+      reshare_ex: ~
+      delete: "Изтриване на известие и коментари"
+      delete_ex: ~
+      hide: "Скриването на някой известие"
+      hide_ex: ~
+      ignore: "Игнориране на потребител"
+      ignore_ex1: ~
+      ignore_ex2: ~
+      finish: диаспора*
+    getting_started6:
+      byline: "Част 6 – Уведомления и разговори"
+      menu_title: "Уведомления и разговори"
+      intro: "Последният голяма функция за която определено трябва да знаеш е \"разговори\". Преди да направите това, обаче, нека да говорим за уведомления."
+      notify: Уведоменя
+      notify_ex1: "Ако кликнете иконата за уведомленя (което прилича на сателит) в заглавната лента, ще се появи падащ ще се появи, което показва петте най-нови уведомленя. Ако имате непрочетени уведомленя, това ще се появи като число в червено над иконата."
+      notify_ex2: "Уведоменя обикновено приемат формата \"Човек A е коментирал на известието на Човек Б\", \"Човек А започна да споделя с тев\", или \"Човек А е те споменил в известие\". От този падащ, можеш да:"
+      notify_ls1: ~
+      notify_ls2: ~
+      notify_ls3: ~
+      notify_ls4: "Кликнете <span class=\"click\">Виж всички</span> за да отидиш на страницата за Уведоменя."
+      notify_ex3: "Страницата за уведомленя те показва всички предишни нотификации, направени за вас, 25 на страница."
+      convo: Разговори
+      convo_ex1: ~
+      convo_ex2: ~
+      convo_ex3: ~
+      convo_ex4: ~
+      convo_ex5: "Когато пишете име в «до» линия, името ще бъде автоматично завършен, точно както става когато споменаваш някой. Кликнете върху името на човека, с когото искате да се свържете, добави обект в сюжетната линия, напиши твоято съобщение и тръгвай! Толкова е просто. Можете да използвате и форматиране на текст тук, така че чувствай се свободин да добавяш получерни заглавия и големи заглавия в съобщението си."
+      convo_ex6: ~
+      convo_ex7: ~
+      convo_ex8: ~
+      convo_ex9: ~
+      finish: ~
+    getting_started7:
+      byline: "Част 7 - Завършване"
+      menu_title: Довършителни
+      intro: ~
+      connect: ~
+      connect_ex1: ~
+      connect_ex2: ~
+      connect_ex3: диаспора*
+      connect_ex4: ~
+      settings: "Управление на сметката"
+      settings_ex1: ~
+      settings_ex3: ~
+      profile: Профил
+      profile_ex: ~
+      account: Сметка
+      account_ex1: "Тука можеш да се промениш твоя имейл адрес и парола, да задайш твоя език, да избереш твоите предпочитания за имейл уведоменя и да изтегляш твоите данни или да се затвориш семето. Нашта цел е, че потребителите ще бъдат в състояние да използват свалените данни да мигрират към друга шушулка, но това все още не е възможно. Обаче, може да искаш да се изтегляш твоите данни периодично като резервно копия."
+      account_ex2: диаспора*
+      account_ex3: ~
+      account_ex4: ~
+      privacy: Частност
+      privacy_ex: ~
+      services: Услуги
+      services_ex: ~
+      finish1: "диаспора* "
+      finish2: " и "
+      finish3: ~
+    formatting:
+      byline: "Форматиране на текст"
+      menu_title: "Форматиране на текст"
+      format1: ~
+      format2: ~
+      format3: ~
+      format4: ~
+      headings: Заглавия
+      headings_ex1: хеш
+      headings_code1: ~
+      headings_code2: ~
+      headings_code3: ~
+      headings_ex2: ~
+      lists: Списъци
+      lists_ex1: ~
+      lists_ex2: ~
+      lists_ex3: ~
+      lists_code1: ~
+      lists_code2: "точка едно;"
+      lists_code3: "точка две;"
+      lists_code4: "точка три."
+      lists_code5: ~
+      lists_code6: ~
+      code: "Код блокчета"
+      code_ex1: ~
+      code_ex2: ~
+      code_ex3: ~
+      code_code1: ~
+      code_code2: ~
+      code_code3: ~
+      code_code4: ~
+      code_code5: ~
+      line: "Хоризонтална линия"
+      line_ex: ~
+      line_code1: ~
+      line_code2: ~
+      itals: "Курсив и получер"
+      itals_ex1: ~
+      itals_ex2: "<em>Курсив</em>: *дума* или _word_"
+      itals_ex3: "<strong>Получер</ силен>: **дума** или __word__"
+      itals_ex4: ~
+      itals_ex8: ~
+      links: ~
+      link_ex1: ~
+      link_code: ~
+      link_ex2: ~
+      inline_link_text: ~
+      images: Изображения
+      images_ex1: ~
+      images_code: "![Алтернативен текст](http://уебсайт.com/изображение.jpg \"незадължително заглавие\")"
+      images_ex2: ~
+      images_ex3: ~
+      escape_ex1: ~
+      escape_code: ~
+      escape_ex2: ~
+      escape_ex3: ~
+      symbols: "Специални знаци"
+      symbols_ex: ~
+      finish: ~
+      markdown_link_text: "на тази страница"
+    tips:
+      headline: "Съвети за използване на диаспора*"
+      byline: ~
+      menu_title: "Съвети за използване на диаспора*"
+      intro: ~
+      profile: "Допълнителни полета в профила"
+      profile_ex: ~
+      notepad: ~
+      notepad_ex: "Можете дори да използвате диаспора* като бележник, за да запишете нещата, които трябва да запомните за по-късно, може би дори бележки за презентация. Да направите това, трябва само да създадете един аспект и да <strong>добавите никой към него</strong>! Какъв е смисълът от празен аспект? Ще можете да споделяте неща с този аспект, и никой няма да може да ги види. Това означава, че този аспект може да действа като частен бележник. То може да бъде полезен начин да премествате текст или снимки между компютри, и да запазвате бележки и снимки безопасно за когато влезете в диаспора*."
+    other_docs:
+      headline: "Друга документация"
+      byline: ~
+      menu_title: "Друга документация"
+      intro1: диаспора*
+      intro2: ~
+      tutorials: Уроци
+      parfait: ~
+      about: "За диаспора*"
+      about1: ~
+      wiki: ~
+      wiki_link_text: "Официалното уики на проекта"
+      wikipedia: ~
+      wikipedia_link_text: диаспора*
+      wikipedia_software_link_text: "диаспора* софтуер"
+      support: "Потребителска поддръжка"
+      question: ~
+      mail: ~
+      mail_link_text: "пощенския списък"
+      irc: ~
+      irc_link_text: "IRC канал"
+      progress: "Напредъка на проекта"
+      blog: ~
+      blog_link_text: "Блог на проекта"
+      changelog: ~
+      changelog_link_text: "За промените"
+      loomio: ~
+      communication: Комуникация
+      communicate: ~
+      communicate_link_text: "\"Как общуваме\""
+      other: "Други сайтове"
+      manifesto: ~
+      manifesto_link_text: "Манифесто на Данните на Потребителите"

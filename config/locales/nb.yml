@@ -1,4 +1,4 @@
-fi:
+nb:
   time:
     formats:
       blog_headline: ~
@@ -9,7 +9,7 @@ fi:
   meta:
     footer:
       copyleft: ~
-  title: "diaspora* projekti"
+  title: ~
   newsfeed: ~
   layouts:
     application:
@@ -65,10 +65,10 @@ fi:
       ways_to_help_alt: ~
       services_alt: ~
     about:
-      headline: "Kuinka diaspora* toimii?"
-      byline: "diaspora* on helppokäyttöinen - katso ohjeet"
+      headline: ~
+      byline: ~
       menu_title: ~
-      decentralize: "Mitä tarkoittaa hajauttaminen?"
+      decentralize: ~
       decentralize_ex: ~
       this: ~
       this_ex: ~
@@ -76,7 +76,7 @@ fi:
       notthis_ex: ~
       discl: ~
       connect: ~
-      connect_ex: ~
+      connect_ex: "Selv om diaspora* utgjøres av mange pod-er over hele verden, vil du oppleve det som ett integrert nettverk. Du behøver ikke være på samme pod some dine kontakter for at det skal gå an å kommunisere fritt med hverandre – kommunikasjon foregår sømløst over alle pod-ene i diaspora*-universet. Når du bruker diaspora*, kan du enkelt glemme at det faktisk er dannet av mange pod-er. Å få kontakt med noen på diaspora* er faktisk veldig enkelt: "
       find: ~
       find_ex: ~
       add: ~
@@ -117,7 +117,7 @@ fi:
       love_ex: ~
       host: ~
       host_byline: ~
-      host_ex: ~
+      host_ex: "diaspora* avhenger av at medlemmer av miljøet er verter og driver pod-er som er åpne for alle som ønsker å delta. Hvis du har en del serverplass og litegrann teknisk kunnskap, ville vi elske det om du ville sette opp en åpen pod der man kan registrere seg. Jo flere pod-er, jo bedre fungerer diaspora* – vær en del av fremtiden til det desentraliserte sosiale nettet!"
       hostinst1: ~
       instructions_link_text: ~
       hostinst2: ~
@@ -198,7 +198,7 @@ fi:
       headline: ~
       byline: ~
       menu_title: ~
-      tutorials_ex1: ~
+      tutorials_ex1: "Velkommen til opplæringsdelen av diaspora*. På denne siden vil du finne en oversikt over alle instruksjonene våre for diaspora*, delt inn i serien «Komme igang» og enkeltstående opplæringer for spesifikke gjøremål. Hvis du er ny på diaspora* eller ikke engang har registrert deg ennå, anbefaler vi deg å lese serien «Komme igang». Hvis du er ute etter andre muligheter, ta en kikk på de andre instruksjonene."
       tutorials_ex2: ~
       started_head: ~
       started1: ~
@@ -232,7 +232,7 @@ fi:
       find_pod_ex2: ~
       find_pod_ex3: ~
       wiki_link_text: ~
-      find_pod_ex4: ~
+      find_pod_ex4: "Du har kanskje mottatt en invitasjon til diaspora* fra noen du kjenner. I så fall inneholder denne en link til den pod-en på diaspora* der personen som inviterte deg er registrert. Hvis du har lyst til å bli med i den samme pod-en som de, kan du ganske enkelt følge linken i eposten. Imidlertid er det ikke nødvendig å være på samme pod som din venn for å kunne kommunisere med de."
       find_pod_ex5: ~
       registration: ~
       registration1: ~
@@ -274,7 +274,7 @@ fi:
       columns: ~
       column1: ~
       column2: ~
-      column3: ~
+      column3: "Til høyre vises profilikonene til de menneskene som det vises poster fra i stream-en din, og noen linker som hjelper deg med å invitere vennene dine, ønske nye brukere velkommen, finne hjelp, poste til diaspora* fra resten av nettet (diaspora* «bookmarklet-en») og på noen pod-er, kontaktinforasjon til pod-ens administrator. (Merk: på noen pod-er er venstre og høyre kolonne slått sammen og plassert enten til venstre eller til høyre.)"
       views: ~
       stream: ~
       stream_ex: ~
@@ -296,7 +296,7 @@ fi:
       profile_ex1: ~
       profile_ex2: ~
       profile_ex3: ~
-      profile_ex4: ~
+      profile_ex4: "Du kan også se en annens profilside ved å klikke på navnet eller bildet deres. Hvor mye av en persons profilinformasjon og poster du får tilgang til avhenger av hvordan du er forbundet med de. Oppe til høyre finner du en aspektknapp: gråfarget hvis personen ikke er i noen av aspektene dine; grønnfarget dersom de er. Klikk på den for å legge de til et aspekt."
       profile_ex5: ~
       profile_ex6: ~
       finish: ~
@@ -304,10 +304,10 @@ fi:
       byline: ~
       menu_title: ~
       aspects1: ~
-      aspects2: ~
+      aspects2: "diaspora* fungerer på akkurat samme måte. Du kan plassere kontakter i «aspekter» basert på hvilke aspekter av livet ditt de er del av. På denne måten kontrollerer du hvilke av dine kontakter som ser den enkelte post du lager på diaspora*, ved å poste til et spesifikt aspekt eller aspekter. Vi vil forklare mer om hva dette betyr over de neste tre delene av denne serien."
       aspects3: ~
       aspects4: ~
-      add_aspect1: ~
+      add_aspect1: "Velg et navn for det nye aspektet. Det kunne gjenspeile den felles forbindelsen mellom disse folkene, for eksempel «kreativ skriving», «fotball», eller «aktivister»; men du kan kalle det akkurat det du ønsker. Ingen vil noen noen gang kunne se navnene på aspektene dine, og kontaktene dine vil heller ikke komme til å vite hvilke aspekter de er i. I denne øvelsen foreslår jeg å lage et aspekt kalt «Diaspora», der du kan legge inn folk du møter her."
       add_aspect2: ~
       add_aspect3: ~
       add_aspect4: ~
@@ -369,7 +369,7 @@ fi:
       profile_ex1: ~
       profile_ex2: ~
       tags: ~
-      tags_ex: ~
+      tags_ex: "De ovenstående tre valgmuligheter fokuserer på å få kontakt med personer du allerede kjenner. Men noen ganger kan fremmede være like interessante, om ikke mer interessante, enn folk du allerede kjenner. En super metode for å begynne få kontakt med folk er å begynne å følge en del #tag-er for tema som interesserer deg. Poster som inneholder disse tag-ene vil da vises i stream-en din, og du kan følge mennesker som poster ting du finner interessante, ved å plassere i et av dine aspekter."
       removing: ~
       removing_ex1: ~
       removing_ex2: ~
@@ -383,13 +383,13 @@ fi:
       intro1: ~
       intro2: ~
       publisher: ~
-      publisher_ex1: ~
+      publisher_ex1: "Å dele innhold på diaspora* gjøres via publisereren, som er plassert øverst i midtkolonnen i de fleste sider i diaspora* sitt grensesnitt. Du har antagelig allerede klikket på den, og i så fall klarte du antagelig ikke motstå å poste noe! Det å poste en statusmelding er så enkelt som det kan få blitt. Litt senere i denne veiviseren skal vi se på noen av de mer komplekse tingene du kan gjøre med publisereren, men la oss begynne med en introduksjon."
       publisher_ex2: ~
       publisher_ex3: ~
       publisher_ex4: ~
       buttons: ~
       aspect_selector: ~
-      aspect_selector_ex1: ~
+      aspect_selector_ex1: "Denne knappen bruker du til å velge hvem som skal være istand til å lese posten din. Den er i utgangspunktet satt til «Alle aspekter»: det vil si, alle du har lagt til i et av dine aspekter vil være istand til å lese innlegget, men ingen andre vil kunne lese det. I det enkle innlegget du nettopp sendte, på grunn av at du ønsker å gjøre det synlig kun for de som følger deg og innstillingen i utgangspunktet er «Alle aspekter», var det ikke nødvendig å gjøre noen endringer i innstillingene før du delte innlegget."
       aspect_selector_ex2: ~
       photo: ~
       photo_ex: ~
@@ -406,11 +406,11 @@ fi:
       preview_ex2: ~
       features: ~
       tags: ~
-      tags_ex1: ~
-      tags_ex2: ~
+      tags_ex1: "Plasser et #-symbol («hash») foran et ord og det blir til en #tag. Hva poenget er med dette? Vel, #tag-er er en super metode for å finne innhold som interesserer deg, og for å gjøre folk oppmerksom på innhold, som antagelig vil være interessert i det. Du kan søke etter tag-er ved å taste de inn i søkefeltet i overskriftslinjen. Du kan også følge tag-er, sånn at alle poster som inneholder de tag-ene dukker opp i stream-en din – faktisk, hvis du har fylt ut «Deg: i 5 #tagger»-delen av profilsiden din, følger du allerede de tag-ene!"
+      tags_ex2: "Si for eksempel at du like matlaging og at du poster en melding med #matlaging i. Enhver som følger tag-en #matlaging vil nå se posten din dukke opp i stream-en sin. For at enhver som følger #matlaging skal kunne se posten din, må du naturligvis ha gjort den til en offentlig post; hvis du postet den til bare ett eller flere aspekter, vil bare personer i de aspektene kunne lese den. Du kan også søke etter #matlaging i søkefeltet, og du vil bli presentert for en liste over alle poster tag-et med «#matlaging». Det inkluderer dine egne poster, poster av venner og offentlige poster av brukere av diaspora*. Du kan se for deg hvordan dette kan være et fantastisk verktøy for å finne og dele innhold med mennesker som deler dine interesser."
       tags_ex3: ~
       mentions: ~
-      mentions_ex1: ~
+      mentions_ex1: "Visste du at du kan skaffe deg oppmerksomhet hos noen ved å «nevne» de? Helt enkelt tast inn et @-symbol etterfulgt av navnet til en av dine kontakter. Etterhvert som du taster inn navnet deres (skjermnavnet deres, ikke brukernavnet deres) vil diaspora* fullføre det automatisk. Trykk på enter-tasten eller klikk på navnet i auto-fullføreren og du vil se at det har blitt endret til deres fulle navn, og @-symbolet har forsvunnet. Men det er ikke noe å bekymre seg for, dette vil bli en @nevning når du har fått postet meldingen. Personen du nevner vil motta en beskjed om nevningen på sin beskjedside, og via epost hvis de har bedt om å motta epostbeskjeder om nevninger."
       mentions_ex2: ~
       mentions_ex3: ~
       format: ~
@@ -423,7 +423,7 @@ fi:
       embed_ex2: ~
       services: ~
       services_ex1: ~
-      services_ex2: ~
+      services_ex2: "Når du begynner å skrive en melding med ett eller flere av disse ikonene merket, vil det vises et telleverk for tegn for å vise hvor mange tegn du har igjen: 140 for Twitter, 1000 for Tumblr, 63 206 for Facebook. I diaspora* kan du dundre til med hele 65 535 tegn! Telleverket vil alltid vise antall tegn du har igjen for den valgte tjenesten som tillater færrest tegn; så, dersom du merker logoene til Twitter og Facebook, vil den telle ned fra 140 tegn."
       services_ex3: ~
       how: ~
       try_out: ~
@@ -431,7 +431,7 @@ fi:
       make_post2: ~
       make_post3: ~
       interact: ~
-      interact_ex1: ~
+      interact_ex1: "Innholds-streamen er en fremvisning i sanntid for statusmeldinger. Når noen du følger poster en statusmelding, blir den lagt inn i stream-en. Du kan naturligvis kommentere på dine egne poster og de som er laget av andre folk. Du kan også «like» og «videredele» andre folk sine meldinger og, dersom noen poster onen du virkelig ikke ønsker å se, kan du skjule det. Alt dette foregår i innholds-streamen, som er å finne rett under publisereren."
       interact_ex2: ~
       comments: ~
       comments_ex: ~
@@ -445,7 +445,7 @@ fi:
       hide: ~
       hide_ex: ~
       ignore: ~
-      ignore_ex1: ~
+      ignore_ex1: "Hvis du opplever at en persons poster er irriterende, kjedelige eller krenker deg,kan du ignorere den personen. Det betyr at postene deres ikke lenger vil vises i stream-en din; men, de vil fremdeles kunne kommentere på, like eller videredele postene dine, og kommentarene deres på dine og andres poster som vises i stream-en din vil være synlige for deg. For å ignorere noen, hold musepekeren over en av postene deres og klikk på ikonet ved siden av den lille «x»-en i øverste høyre hjørne – det ser ut som en person med en strek over. Når du ignorerer noen vil ikke postene deres forsvinne med en gang, du må først oppdatere skjermbildet."
       ignore_ex2: ~
       finish: ~
     getting_started6:
@@ -466,7 +466,7 @@ fi:
       convo_ex3: ~
       convo_ex4: ~
       convo_ex5: ~
-      convo_ex6: ~
+      convo_ex6: "I kolonnen til venstre vil du se en liste over konverasjoner, med tittelen, profilbildet til personen som startet konversasjonen, navnet til den seneste personen som har svart til den, og til høyre antallet bidrag til konversasjonen (med gråfarge; dersom der fins uleste meldinger vil dette indikeres med rød farge), tid siden forrige bidrag, og under, et ikon for «flere personer» hvis der er mer enn en person i tillegg til deg som er involvert. Beveg musepekeren over dette ikonet for å se hvem andre som er involvert."
       convo_ex7: ~
       convo_ex8: ~
       convo_ex9: ~
@@ -487,7 +487,7 @@ fi:
       profile_ex: ~
       account: ~
       account_ex1: ~
-      account_ex2: ~
+      account_ex2: "diaspora* har i miljøet en selvstyrende standard kalt NSFW (forkortelse for det engelske uttrykket «not safe for work», som betyr omtrent «upassende i jobbsitasjoner»). Hvis du antakelig kommer til å poster mye materiale som muligens ikke er egnet for å alle å se på ved kontorpulten (kanskje med sjefen stående bak dem), vennligst vurder å krysse av i NSFW-boksen. Dette vil skjule postene dine i folk sine stream-er bak en melding om at posten er markert som NSFW. De kan så klikke på denne meldingen for å se posten din dersom de ønsker."
       account_ex3: ~
       account_ex4: ~
       privacy: ~
@@ -565,7 +565,7 @@ fi:
       profile: ~
       profile_ex: ~
       notepad: ~
-      notepad_ex: ~
+      notepad_ex: "Du kan til og med bruke diaspora* som skrivebok, for å notere ned ting du må huske senere, kanskje til og med notater til en presentasjon du skal holde. For å gjøre dette, er alt som behøves at du oppretter et aspekt og å unngå å legge noen til i det! Ganske riktig, et tomt aspekt. Hva skal være poenget med dette? Vel, det betyr at du kan dele ting med dette aspektet, og ingen vil kunne se de. Det betyr at dette aspektet kan fungere som din private skrivebok. Det kan være en nyttig måte å flytte tekst eller bilder mellom en datamaskin og en annen på, og for å bevare notatene og bildene dine trygge frem til det måtte passe å logge deg på diaspora*."
     other_docs:
       headline: ~
       byline: ~

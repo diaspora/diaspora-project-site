@@ -1,0 +1,601 @@
+ia:
+  time:
+    formats:
+      blog_headline: ~
+  buttons:
+    host_pod: "Allogia un pod"
+    join_diaspora: "Veni con nos!"
+    find_more: "Leger plus »"
+  meta:
+    footer:
+      copyleft: "CC-BY Le fundation diaspora*"
+  title: "Le projecto diaspora*"
+  newsfeed: ~
+  layouts:
+    application:
+      wiki: Wiki
+      planet: Planeta
+      useful_resources: "Ressources utile"
+      codebase: "Base de codice"
+      documentation: Documentation
+      report_bugs: "Cercar & reportar defectos"
+      irc_general: "IRC – General"
+      irc_development: "IRC – Disveloppamento"
+      discussion_general: "Discussion – General"
+      discussion_development: "Discussion – Disveloppamento"
+      choose_language: "Selige lingua"
+      translate: ~
+      cc_license_alt: "Licentia Creative Commons"
+      licensed_under: "%{site_link} es licentiate sub un %{license_link}"
+      license_link_text: "Licentia Creative Commons Attribution 3.0 Unported"
+  pages:
+    index:
+      headline: "Benvenite a diaspora*"
+      byline: "Le mundo social in linea ubi tu ha le controlo"
+      register: "Inscribe te »"
+      key_philosophies: "diaspora* se basa in tres philosophias clave:"
+      decentralization: Decentralisation
+      decentralization_about: "In vice de concentrar le datos de totes in enorme servitores central que es le proprietate de un grande organisation, le servitores local (“pods”) pote esser installate ubicunque in le mundo. Tu selige in qual pod inscriber te (forsan un pod in tu localitate). Postea tu potera connecter te transparentemente al communitate mundial de diaspora*."
+      freedom: Libertate
+      freedom_about: "In diaspora* tu pote esser le persona qui tu vole esser. In contrasto con altere retes social, tu non es obligate a usar tu identitate real. Tu pote interager con le personas de tu preferentia in le maniera de tu preferentia. Le unic limite es tu imagination. diaspora* anque es software libere, lo que te da le libertate de usar lo como tu vole."
+      privacy: "Vita private"
+      privacy_about: "In diaspora* tu es le possessor de tu proprie datos. Tu non concede alcun derectos a un corporation o altere typo de interesse que poterea usar lo. Con diaspora*, tu amicos, tu habitudes, tu contento es tu proprie affaire... e non le nostre! In addition, usante \"aspectos\", tu selige qui vide lo que tu divide."
+      get_started: "Vole comenciar?"
+      get_started_sub: "Es facile como 1, 2, 3 …"
+      choose_pod: "1. Selige un pod"
+      choose_pod_exp: "Cerca un pod que te conveni. Tu poterea preferer un pod minus grande, o un pod in le vicinitate de tu casa, o un pod basate in un pais le qual tu sape que ha bon politicas de securitate de datos. Le option es tue! Elige inter nostre pods communitari, forsan un pod basate in tu localitate."
+      sign_up: "2. Inscribe te"
+      sign_up_ex: "Un vice que tu ha seligite un pod, a base del classification e information a %{poduptime} e forsan del recommendationes de personas a qui tu te fide, inscribe te in illo e crea un profilo con tanto multe o tanto pauc information personal como tu vole. Tu controla quanto tu divide."
+      join_convo: "3. Participa al conversation!"
+      join_convo_ex: "Seque alcun #etiquettas associate a tu interesses: per exemplo, <span class=\"click\">#musica</span>, <span class=\"click\">#photographia</span>, <span class=\"click\">#vitaprivate</span> o <span class=\"click\">#linux</span> – dependente de tu interesses. Divide un message public con le etiquetta <span class=\"click\">#newhere</span> (#novehic) pro introducer te – ecce, tu jam face parte del communitate vivace de diaspora*."
+      aspects: Aspectos
+      aspects_ex: "diaspora* ha inventate le concepto de aspectos, permittente organisar tu contactos secundo lor rolo in tu vita. Isto vole dicer que tu pote divider qualcosa solmente con membros de familia o collegas de labor, sapiente que nemo altere potera vider tu entrata."
+      features: Functionalitate
+      features_ex: "Le #etiquettas te da le libertate de etiquettar e sequer tu interesses de maniera facile. Tu pote diriger le attention de un persona per @mentionar la. Repete le entratas que tu ama de sorta que alteres pote gauder de illos e commentar los tamben. E monstra tu amor pro le obra de alteres per ♥r lo."
+      help: "Vole tu adjutar?"
+      help_ex: "diaspora* ha besonio de personas pro scriber e testar codice, dar le benvenita a nove membros e adjutar les, installar e mantener pods communitari, e diffunder le parola super le beneficios de diaspora* a alteres qui poterea voler prender parte. Pensa tu voler contribuer a iste projecto?"
+      socialint: "Integration de rete social"
+      socialint_ex: "Usa diaspora* como base de partita pro inviar cosas a tu profilos in altere grande servicios social. De iste maniera, tu amicos potera tener se al currente de tu activitates, mesmo si illes non es ancora in diaspora*. diaspora* supporta actualmente le duplication de tu entratas in contos de Facebook, Twitter e Tumblr, con alteres a venir."
+      earth_alt: ~
+      decentralized_alt: Decentralisate
+      freedom_alt: Libertate
+      keyhole_alt: "Oculo del serratura"
+      aspects_alt: Aspectos
+      features_alt: Functionalitate
+      ways_to_help_alt: "Manieras de adjutar"
+      services_alt: Servicios
+    about:
+      headline: "Como functiona diaspora*?"
+      byline: "diaspora* es facile de usar - ecce como functiona"
+      menu_title: "A proposito"
+      decentralize: "Que es decentralisation?"
+      decentralize_ex: "diaspora* es completemente differente del major parte del retes que tu usa. Illo es completemente decentralisate e non ha alcun centro de controlo. Nonobstante, es multo facile connecter se e communicar con le gente. Ecce como."
+      this: ISTO
+      this_ex: "diaspora* es un ver rete sin base central. Il ha servitores, appellate \"pods\", in tote le mundo. Cata pod contine le datos del usatores que se ha inscribite in illo. Le pods intercommunica de maniera transparente. Isto vole dicer que tu pote inscriber te in un certe pod e communicar liberemente con tu contactos in non importa qual pod del rete."
+      notthis: "NON ISTO"
+      notthis_ex: "In general, le retes social se trova in servitores centralisate in possession e sub gerentia de un interprisa commercial. Istes immagazina tote le datos private de lor usatores. Tal information pote esser perdite o furate. In ultra, como omne systema con un \"collo de bottilia\", un problema in le servitores central pote facer que tote le rete functiona lentemente o non del toto. Il anque es plus facile pro governamentos ascoltar le activitates del usatores."
+      discl: "(diaspora* usa standards web public como %{pubsubhubub} e %{webfinger} pro render iste typo de connexion possibile.)"
+      connect: "Como me connecte io?"
+      connect_ex: "Ben que diaspora* se compone de multe pods in tote le mundo, tu habera le experientia de un rete integrate. Non es necessari esser inscribite in le mesme pod que tu contactos pro poter intercommunicar in libertate; le communication se produce de maniera transparente inter tote le pods in le universo de diaspora*. Quando tu usa diaspora*, es facile oblidar que illo in realitate se compone de multe pods. De facto il es multo simple connecter se a un persona in diaspora*: "
+      find: "1. Trova la"
+      find_ex: "Tote lo que tu debe facer pro connecter te a un persona es trovar la e includer la in un \"aspecto\". (Vide in basso pro plus information sur aspectos.) Cerca le persona usante le quadro de recerca in le barra nigre, o puncta le mouse supra su nomine in tu fluxo e un carta de information apparera. Si tu cognosce su ID de diaspora* (nomine@pod.example.com), tu pote usar isto."
+      add: "2. Adde la"
+      add_ex: "Postea il te resta solmente cliccar le button \"Adder contato\" e seliger le aspecto in le qual tu vole includer la. Tu es ora connectite e pote divider cosas con illa como tu lo facerea in omne altere rete social. O, si illa face parte de altere aspectos de tu vita, include la in plure aspectos. Tu es ora connectite. Es tanto facile. "
+      freedom: "Libertate personal"
+      freedom_byline: "diaspora* non essaya limitar te"
+      fdm1: "Sia le persona que tu vole esser"
+      fdm1_ex: "Multe retes insiste que on usa su nomine real. Non diaspora*. Hic tu pote eliger qui tu vole esser, e divulgar si multo o si pauco de te como tu vole. Tu pote vermente decider como tu vole interager con altere personas."
+      fdm2: "Sia creative"
+      fdm2_ex: "Tu non es limitate qua modo de interaction de tu preferentia. Tu pote solmente sequer le personas de tu interesse pro vider lo que illes ha a dicer, o tu pote divider tu mundo con tote le mundo. Divide tu photos, arte, videos, musica, parolas – lo que tu vole. Permitte te de volar."
+      fdm3: "Libertate de computator"
+      fdm3_ex: "diaspora* se compone completemente de software libere. Isto vole dicer que nemo impone limites sur le uso de illo. Tu pote mesmo prender le codice-fonte e cambiar lo pro facer lo functionar in le modo de tu preferentia, e adjutar nos a meliorar le rete. Nos amarea haber tu collaboration."
+      privacy: "Vita private"
+      privacy_byline: "Controlo total sur lo que pertine a te "
+      priv1: "Possede tu proprie datos"
+      priv1_ex: "Multe retes usa tu datos pro ganiar moneta per analysar tu interactiones e usar iste information pro diriger publicitate a te. diaspora* non usa tu datos pro alcun scopo, salvo illo de permitter te de connecter e divider cosas con altere personas."
+      priv2: "Allogia lo tu mesme"
+      priv2_ex: "Elige le loco de tu datos per seliger un pod que tu considera digne de fide. Pro ver securitate, tu pote installar e allogiar un proprie pod in servitores que tu controla, de sorta que nemo pote acceder a tu datos personal."
+      priv3: "Selige tu audientia"
+      priv3_ex: "Le \"aspectos\" de diaspora* permitte divider cosas solmente con le personas appropriate. Tu pote scriber in publico o si privatemente como tu vole. Divide un photo amusante con tote le mundo, o divide un secreto personal con tu amicos intime. Le controlo es tue."
+      aspects: "A proposito de aspectos"
+      aspects_byline: "Le clave al vita private in diaspora*"
+      asp1: "Aspectos de tu vita"
+      asp1_ex: "Tu vita se compone de multe aspectos differente, involvente personas differente. Proque deberea il esser differente pro tu vita in linea? Con le aspectos de diaspora*, tu pote organisar tu vita in linea tanto como tu vole e divider cosas solmente con le personas que tu vole."
+      asp2: "Organisa tu vita"
+      asp2_ex: "Per exemplo, tu pote haber aspectos pro tu familia, pro tu amicos intime, pro tu collegas de travalio e pro un sport o hobby de tu interesse. Tu collegas non ha besonio de saper de tu reunion de familia, nonne? Con aspectos, illes non sapera."
+      asp3: "Parla a tote le mundo"
+      asp3_ex: "Ma naturalmente, alcun cosas es tanto importante que tu vole parlar a tote le mundo sur illos. Tu pote facilemente divider un cosa con tote le mundo per render lo public. E si tu usa #etiquettas appropriate, le personas con interesses similar pote vider lo plus facilemente."
+      features: "Functiones que nostre communitate ama"
+      features_byline: "Nos pensa que tu los amara tamben"
+      hashtags: "#Etiquettas"
+      hashtags_ex: "Le #etiquettas permitte marcar e sequer tu interesses, e adjutar tu entratas a attinger le personas con interesse similar. Illos forma anque un excellente maniera de incontrar nove personas interessante in diaspora*."
+      reshare: Repeter
+      reshare_ex: "Proque non re-divider un entrata que tu ama con altere personas? In diaspora* il es facile divulgar ideas per repetition. Simplemente preme le button pro repeter le message."
+      mentions: "@Mentiones"
+      mentions_ex: "Vole haber le attention de un persona? Simplemente @mentiona la! Isto es un maniera facile de alertar un de tu contactos sur un cosa que tu pensa que illes debe saper."
+      love: Amor
+      love_ex: "Monstra tu appreciation pro qualcosa que tu ama per ♥r lo. Alcun vices, parolas non suffice pro dicer lo que tu senti."
+      host: "Allogia un pod communitari"
+      host_byline: "Sia un del stars de diaspora*"
+      host_ex: "diaspora* depende del membros de su communitate pro allogiar e gerer pods que es aperte a omnes qui vole participar. Si tu ha spatio de servitor libere e un poco de cognoscentia technic, nos lo amarea si tu installa un pod que es aperte pro inscription public. Quanto plus pods, tanto melior le functionamento de diaspora*. Face parte del futuro del web social decentralisate!"
+      hostinst1: "Lege le %{instructions_link} e installa un proprie pod communitari."
+      instructions_link_text: "Instructiones pro installation de pod"
+      hostinst2: "Vide un lista de pods communitari a %{poduptime}"
+      distributed_network: "Rete distribuite"
+      centralized_network: "Rete centralisate"
+      search_alt: Cerca
+      add_a_contact_alt: "Adde un contacto"
+      hashtag_alt: Hashtag
+      reshare_alt: Repeter
+      mention_alt: Mentionar
+      heart_alt: Corde
+    get_involved:
+      headline: Participa!
+      byline: "Le futuro del web social comencia con te"
+      menu_title: Participa
+      community: "Sub gerentia communitari"
+      community_byline: "diaspora* vos pertine"
+      meaning: "Que significa tote isto?"
+      meaning_ex1: "Software libere tracta de individualitate, transparentia, creativitate e destino; de haber un idea e de realisar lo. diaspora* ha essite fundate pro satisfacer un passion, pro divertimento e pro facer del internet un loco melior. Le software libere nos permitte cambiar le mundo pro nos mesme, e lassa nostre amicos in tote le web beneficiar de nostre exploration."
+      meaning_ex2: "Le communitates de software libere forma un phenomeno stupende. A diaspora* nos crede que on debe esser judicate secundo lo que on face. Non importa si tu es un programmator experte o nunquam ha contribuite a un projecto antea. Contribuer a diaspora* significa haber le privilegio de resolver problemas difficile, con focalisation a solutiones que functiona pro nostre usatores."
+      meaning_ex3: "Ecce le ration proque, si tu contribue qualcosa de signification a diaspora*, nos te concedera un accesso integral al systema de controlo de codice-fonte. Nos perseque le mesme objecto, e nos vole dar a personas multo motivate le chance de facer grande cambiamentos."
+      whereyou: "Como participa tu"
+      whereyou_ex1: "Nos totes face diaspora*. Forsan nos non ancora te cognosce multo ben, ma nos amarea cognoscer te e determinar como tu pote participar in le equipa que construe le futuro del web. Nos ha totes le potential de cambiar le mundo, date le opportunitate juste."
+      whereyou_ex2: "Le contributiones a diaspora* varia multo e pote esser grande o micre. Non importa si tu es un usator qui nos adjuta a trovar defectos, si tu forni retroaction in nostre listas de correspondentia, o si contribue codice o designo graphic; nos ha besonio de te."
+      gi_header: "Manieras de prender parte a diaspora*"
+      code_header: "Contribuer codice"
+      code_byline: "Es facile obtener le codice-fonte"
+      code_ex1: "Clona le repositorio e explora le codice: %{clone_code}"
+      code_ex2: "Installa tu ambiente de programmation"
+      code_ex3: "Comencia a contribuer codice!"
+      code_ex4: "Nostre grande communitate es disposite a adjutar te a comenciar. Primo lege nostre %{get_started_guide_link}, postea inscribe te a nostre %{mailing_list_link} e veni cognoscer nos in le %{irc_link}."
+      get_started_guide_link_text: "Guida pro comenciar"
+      mailing_list_link_text: "lista de correspondentia"
+      irc_link_text: "canal IRC de diaspora*"
+      code_gh: "Lege le codice fonte in GitHub"
+      bugs_header: "Elimina defectos"
+      bugs_ex1: "Nostre projecto utilisa \"Code Triage\", un servicio de voluntarios ubi le usatores e le programmatores pote collaborar pro eliminar errores in nostre %{github_link}."
+      bugs_ex2: "Le elimination de parve defectos adjuta tote le mundo e pote dar a un novicio un cognoscimento melior del functionamento de certe partes de diaspora*."
+      bugs_ex3: "Adjuta nos a nettar nostre codice"
+      github_link_text: "Traciamento de problemas sur GitHub"
+      translate_header: "Adjuta a traducer"
+      translate_ex1: "Tu pote adjutar a traducer diaspora* in altere linguas per unir te a %{translations_link}."
+      translations_link_text: "Gruppo de traductiones"
+      translate_ex2: "Lege nostre %{translation_instructions_link} pro saper como comenciar."
+      translation_instructions_link_text: "instructiones de traduction "
+      voice_header: "Forni tu voce"
+      voice_ex1: "Nostre projecto es gerite integremente per voluntarios del communitate. Nos usa un instrumento appellate Loomio pro sondar le opinion del communitate sur ideas e propositiones pro le projecto. "
+      voice_ex2: "Trova nos ibi"
+      voice_ex3: "Persuade tu amicos e familia a venir a diaspora* per organisar tu proprie %{meetup_link} de diaspora* in vita real in tu proprie communitate."
+      meetup_link_text: Incontro
+      support_header: "Forni supporto"
+      support_ex1: "Adjuta le nove usatores a sentir se benvenite!"
+      support_ex2: "Registra vos ci"
+      support_ex3: "Scribe tutoriales pro usatores a %{tutorials_link}."
+      support_ex4: "Responde a questiones de usatores in nostre %{irc_channel_link} o responde a questiones de usatores sur diaspora* mesme per sequer le etiquettas <span class=\"click\">#help</span>, <span class=\"click\">#question</span> e <span class=\"click\">#feedback</span>."
+      irc_channel_link_text: "Canal IRC"
+      support_ex5: "Contribuer a %{wiki_link}."
+      wiki_link_text: "le wiki de diaspora*"
+      run_header: "Gerer un pod public"
+      run_ex1: "Ora tu non plus ha besonio de tolerar que tu datos es immagazinate in le servitor de qualcuno altere. Post que diaspora* se compone totalmente de software libere, nos lo rende sempre plus facile pro le personas a %{host_pod_link}."
+      host_pod_link_text: "allogiar proprie pods in diaspora*"
+      run_ex2: "Tu pote allogiar lo ubi tu vole."
+      run_ex3: "Adde tu pod al lista de pods public a %{poduptime}."
+      contributors_header: "Le contributores de diaspora*"
+      contributors_byline: "Le personas qui da forma a diaspora*"
+      globe_alt: Globo
+      megaphone_alt: Megaphono
+      support_alt: Supporto
+      pod_alt: Pod
+    blog:
+      headline: "Le blog de diaspora*"
+      subline: "communicationes official"
+      menu_title: Blog
+    planet:
+      headline: Planeta
+      menu_title: Planeta
+    tutorials:
+      headline: "tutoriales de diaspora*"
+      byline: "Guidas passo post passo pro adjutar te"
+      menu_title: Tutoriales
+      tutorials_ex1: "Benvenite al section tutorial de diaspora*. In iste pagina se trova un summario de tote le tutoriales de diaspora*, dividite in un serie “Prime passos” e tutoriales independente pro cargas particular. Si tu es nove in diaspora* o non ha mesmo ancora create un conto, nos recommenda que tu lege le serie “Prime passos”. Si tu cerca additional optiones, jecta un oculo sur le altere tutoriales."
+      tutorials_ex2: "Nos face nostre melior pro mantener iste tutoriales actual con le ultime disveloppamentos de diaspora*. Dunque, per favor sia conscie del possibilitate que tu pod non executa le ultime version de diaspora*, le qual pote resultar in functionamento differente de illo describite in nostre tutoriales. Cerca tu pod in %{podup_link} pro vider le version del software que illo executa."
+      started_head: "Prime passos in diaspora*"
+      started1: Registration
+      started2: "Le interfacie"
+      started3: Aspectos
+      started4: "Trovar e connecter con personas"
+      started5: "Comencia a divider cosas!"
+      started6: "Notificationes e conversationes"
+      started7: "Pro finir"
+      part1: "Parte 1"
+      part2: "Parte 2"
+      part3: "Parte 3"
+      part4: "Parte 4"
+      part5: "Parte 5"
+      part6: "Parte 6"
+      part7: "Parte 7"
+      additional: "Tutoriales additional"
+      connecting: "Connecter diaspora* a altere servicios"
+      tips: "Consilios e trucos"
+      formatting: "Formatation de texto"
+      more_tutorials: "Vole plus adjuta?"
+      other_docs: "Consulta nostre pagina de %{other_docs_link} pro ligamines a altere sitos."
+      other_docs_link_text: "altere documentation"
+      thanks: "Multissime gratias a Kevin Kleinman qui ha create le guidas original de diaspora* sur le quales iste tutoriales se basa."
+    getting_started1:
+      byline: "Parte 1 – Inscription"
+      menu_title: "Inscription a diaspora*"
+      welcome: "Benvenite a nostre guida “Prime passos”. Si tu ha trovate iste pagina, tu probabilemente te ha justo inscribite a diaspora* o tu actualmente considera de facer lo. In iste serie de tutoriales nos te accompaniara per le processo de inscription e te familiarisara con le functionamento basic de diaspora*. Nos spera que tu lo trovara utile e que tu gaudera de usar diaspora*!"
+      find_pod: "Cercar un pod"
+      find_pod_ex1: "In contrasto con altere sitos de rete social, que ha un infrastructura centralisate que immagazina le datos de tote le usatores, nos non pote dar te un ligamine specific e dicer: inscribe te hic. diaspora* es differente de iste retes in que illo es <em>decentralisate</em>, con multe differente punctos de accesso. Ante de comenciar, tu debe decider in qual fornitor de diaspora* tu vole inscriber te. Nos appella iste fornitores \"pods\"."
+      find_pod_ex2: "Le parola \"diaspora\" refere al dispersion de contos (o personas) in un area large. Isto es le ration proque nostre motivo es le dente de leon, e le asterisco in nostre nomine representa un grana lanuginose de dente de leon. Nos appella un conto individual sur diaspora* “<strong>seed</strong>” (grana), e cata un del servitores in que iste contos es colligite se appella “<strong>pod</strong>” (siliqua). Es un question de accostumar se!"
+      find_pod_ex3: "Pro adjutar te a eliger le pod que es optime pro te, consulta nostre %{wiki_link}."
+      wiki_link_text: "guida pro eliger un pod"
+      find_pod_ex4: "Forsan tu ha recipite un invitation a diaspora* de un cognoscito. In tal caso, iste contine un ligamine al pod de diaspora* in que le persona qui te ha invitate es inscribite. Si tu vole inscriber te in le mesme pod, tu pote simplemente sequer le ligamine in le message electronic. Nonobstante, tu non es obligate a esser in le mesme pod que tu amico pro poter communicar con ille."
+      find_pod_ex5: "Tu sempre aperira session a diaspora* in le pod in le qual tu te ha inscribite. A partir de tu pod tu pote connecter te a tote le rete, e tu experientia de diaspora* debe esser plus o minus identic non importa a partir de qual pod tu te connecte. Tu non potera aperir session in un altere pod, ma isto non es necessari in omne caso."
+      registration: Inscription
+      registration1: "Un vice que tu ha eligite un pod, cerca le ligamine <span class=\"click\">Crear un conto</span>. Illo debe esser presente in le pagina principal del pod. Si il non ha tal ligamine, pote esser que iste pod particular actualmente non accepta nove inscriptiones. In tal caso tu debera eliger un altere pod."
+      registration2: "Quando tu clicca sur le ligamine “Crear un conto” tu videra un pagina in que tu debe scriber un nomine de usator, adresse de e-mail e contrasigno. Considera le nomine de usator con prudentia perque tu non potera cambiar lo plus tarde."
+      registration3: "Fini le inscription con un clic sur <span class=\"click\">Continuar</span> pro crear e acceder a tu novissime “grana” de diaspora*!"
+      registration4: "Durante le processo de inscription, tu conto essera probabilemente connectite a un altere conto particular. Normalmente isto es nostre conto de %{dhq_link}, ma pote esser le conto administrative de tu pod. Isto nos permitte de tener te al currente con le actualitates importante super diaspora*. Nonobstante, si tu prefere non sequer iste conto, tu pote facilemente remover lo de tu lista de contactos. Nos explica como facer lo in %{part4_link}."
+      dhq_link_text: ~
+      registration5: "Ora tu deberea vider un pagina “Prime passos”. Non es obligatori, ma completar lo te adjutarea multo a facer le prime connexiones con altere personas."
+      registration6: "Scribe in le prime campo le nomine que tu vole monstrar sur le schermo."
+      registration7: "Clicca sur le button pro incargar un photo de profilo de tu computator."
+      registration8: "Si tu vole connecter tu conto de diaspora* a tu conto de Facebook, iste ligamine pote automatisar un parte de iste processo, p.ex. obtener tu nomine e photo de profilo de tu conto de Facebook."
+      registration9: "Insere alcun parolas de cosas que te interessa. Pote esser musica, activismo, forsan le citate in que tu habita. Istes essera convertite in #etiquettas, le quales te adjuta a trovar contento e adjuta alteros a discoperir te. Nos explicara plus sur #etiquettas plus tarde in iste tutorial."
+      registration10: "Clicca sur <span class=\"click\">Conduce me a diaspora*!</span>"
+      profile1: "Ante de facer altere cosa, prende un minuta pro completar tu profilo. Sur le schermo in que tu arriva, clicca sur tu nomine al latere dextra del barra superior nigre, e selige <span class=\"click\">Profilo</span> del lista disrolante. Postea clicca sur le button blau <span class=\"click\">Modificar mi profilo</span> in le angulo dextre superior."
+      profile2: "Tu profilo es dividite in duo partes: public e private. Le profilo public es visibile a tote le mundo; le profilo private es visibile solmente al personas con qui tu lo ha dividite. Tu pote completar si multo o si pauco de tu profilo como tu vole, e il non es obligatori usar tu nomine real."
+      profile3: "Le major parte del campos de information de profilo es obvie. NSFW significa \"not safe for work\", non secur pro le empleo. Nos explicara isto in detalio in %{part7_link}, dunque non preoccupa te de isto pro le momento."
+      profile4: "Non oblida de cliccar sur le button <span class=\"click\">Actualisar</span> quando tu ha finite!"
+      finish: "Es toto!"
+      finish_ex1: "Tu es toto preste pro comenciar a usar diaspora*! Clicca sur le logo de asterisco o <span class=\"click\">Fluxo</span> in le parte superior al sinistra del schermo pro comenciar."
+      finish_ex2: ~
+    getting_started2:
+      byline: "Parte 2 - Le interfacie"
+      menu_title: "Usar le interfacie"
+      interface1: ~
+      interface2: ~
+      interface3: ~
+      header: ~
+      header2: ~
+      header3: ~
+      header4: ~
+      header5: ~
+      header6: ~
+      header7: ~
+      header8: ~
+      header9: ~
+      header10: ~
+      header11: ~
+      header12: ~
+      columns: ~
+      column1: ~
+      column2: ~
+      column3: ~
+      views: ~
+      stream: "Le fluxo"
+      stream_ex: "Le fluxo es vostre pagina principal in diaspora*. Illo aggrega tote le entratas disponibile a te. Illo es:"
+      stream1: "entratas scribite per tu contactos:"
+      stream2: ~
+      stream3: ~
+      stream_ex2: ~
+      activity: ~
+      activity_ex: ~
+      mentions: ~
+      mentions_ex: ~
+      aspects: ~
+      aspects_ex1: ~
+      aspects_ex2: ~
+      tags: ~
+      tags_ex1: ~
+      tags_ex2: ~
+      profile: ~
+      profile_ex1: ~
+      profile_ex2: ~
+      profile_ex3: ~
+      profile_ex4: ~
+      profile_ex5: ~
+      profile_ex6: ~
+      finish: ~
+    getting_started3:
+      byline: ~
+      menu_title: ~
+      aspects1: ~
+      aspects2: ~
+      aspects3: ~
+      aspects4: ~
+      add_aspect1: ~
+      add_aspect2: ~
+      add_aspect3: ~
+      add_aspect4: ~
+      my_aspects1: ~
+      my_aspects2: ~
+      my_aspects3: ~
+      my_aspects4: ~
+      my_aspects5: ~
+      my_aspects6: ~
+      my_aspects7: ~
+      my_aspects8: ~
+      my_aspects9: ~
+      contacts: ~
+      contact_ex1: ~
+      contact_ex3: ~
+      contact_ex4: ~
+      contact_ex5: ~
+      contact_ex6: ~
+      contact_ex7: ~
+      sharing_me: ~
+      sharing_me_ex: ~
+      finish: ~
+    getting_started4:
+      byline: ~
+      menu_title: ~
+      aspects1: ~
+      sharing: ~
+      sharing_ex: ~
+      relationships: ~
+      followers: ~
+      followers_ex1: ~
+      followers_ex2: ~
+      followers_ex3: ~
+      following: ~
+      following_ex1: ~
+      following_ex2: ~
+      mutual: ~
+      mutual_ex1: ~
+      mutual_ex2: ~
+      mutual_ls1: ~
+      mutual_ls2: ~
+      mutual_ls3: ~
+      mutual_ls4: ~
+      mutual_ex3: ~
+      finding: ~
+      finding_ex1: ~
+      finding_ex2: ~
+      search: ~
+      search_ex: ~
+      search_ls1: ~
+      search_ls2: ~
+      search_ls3: ~
+      search_ls4: ~
+      search_ls5: ~
+      search_ls6: ~
+      invite: ~
+      invite_ex: ~
+      profile: ~
+      profile_ex1: ~
+      profile_ex2: ~
+      tags: ~
+      tags_ex: ~
+      removing: ~
+      removing_ex1: ~
+      removing_ex2: ~
+      removing_ex3: ~
+      removing_ex4: ~
+      removing_ex5: ~
+      finish: ~
+    getting_started5:
+      byline: ~
+      menu_title: ~
+      intro1: ~
+      intro2: ~
+      publisher: ~
+      publisher_ex1: ~
+      publisher_ex2: ~
+      publisher_ex3: ~
+      publisher_ex4: ~
+      buttons: ~
+      aspect_selector: ~
+      aspect_selector_ex1: ~
+      aspect_selector_ex2: ~
+      photo: ~
+      photo_ex: ~
+      locator: ~
+      locator_ex1: ~
+      locator_ex2: ~
+      locator_ex3: ~
+      connected: ~
+      connected_ex1: ~
+      connected_ex2: ~
+      connected_ex3: ~
+      preview: ~
+      preview_ex1: ~
+      preview_ex2: ~
+      features: ~
+      tags: ~
+      tags_ex1: ~
+      tags_ex2: ~
+      tags_ex3: ~
+      mentions: ~
+      mentions_ex1: ~
+      mentions_ex2: ~
+      mentions_ex3: ~
+      format: ~
+      format_ex: ~
+      format_link_text: ~
+      links: ~
+      links_ex: ~
+      embed: ~
+      embed_ex1: ~
+      embed_ex2: ~
+      services: ~
+      services_ex1: ~
+      services_ex2: ~
+      services_ex3: ~
+      how: ~
+      try_out: ~
+      make_post1: ~
+      make_post2: ~
+      make_post3: ~
+      interact: ~
+      interact_ex1: ~
+      interact_ex2: ~
+      comments: ~
+      comments_ex: ~
+      likes: ~
+      likes_ex1: ~
+      likes_ex2: ~
+      reshare: ~
+      reshare_ex: ~
+      delete: ~
+      delete_ex: ~
+      hide: ~
+      hide_ex: ~
+      ignore: ~
+      ignore_ex1: ~
+      ignore_ex2: ~
+      finish: ~
+    getting_started6:
+      byline: ~
+      menu_title: ~
+      intro: ~
+      notify: ~
+      notify_ex1: ~
+      notify_ex2: ~
+      notify_ls1: ~
+      notify_ls2: ~
+      notify_ls3: ~
+      notify_ls4: ~
+      notify_ex3: ~
+      convo: ~
+      convo_ex1: ~
+      convo_ex2: ~
+      convo_ex3: ~
+      convo_ex4: ~
+      convo_ex5: ~
+      convo_ex6: ~
+      convo_ex7: ~
+      convo_ex8: ~
+      convo_ex9: ~
+      finish: ~
+    getting_started7:
+      byline: ~
+      menu_title: ~
+      intro: ~
+      connect: ~
+      connect_ex1: ~
+      connect_ex2: ~
+      connect_ex3: ~
+      connect_ex4: ~
+      settings: ~
+      settings_ex1: ~
+      settings_ex3: ~
+      profile: ~
+      profile_ex: ~
+      account: ~
+      account_ex1: ~
+      account_ex2: ~
+      account_ex3: ~
+      account_ex4: ~
+      privacy: ~
+      privacy_ex: ~
+      services: ~
+      services_ex: ~
+      finish1: ~
+      finish2: ~
+      finish3: ~
+    formatting:
+      byline: ~
+      menu_title: ~
+      format1: ~
+      format2: ~
+      format3: ~
+      format4: ~
+      headings: ~
+      headings_ex1: ~
+      headings_code1: ~
+      headings_code2: ~
+      headings_code3: ~
+      headings_ex2: ~
+      lists: ~
+      lists_ex1: ~
+      lists_ex2: ~
+      lists_ex3: ~
+      lists_code1: ~
+      lists_code2: ~
+      lists_code3: ~
+      lists_code4: ~
+      lists_code5: ~
+      lists_code6: ~
+      code: ~
+      code_ex1: ~
+      code_ex2: ~
+      code_ex3: ~
+      code_code1: ~
+      code_code2: ~
+      code_code3: ~
+      code_code4: ~
+      code_code5: ~
+      line: ~
+      line_ex: ~
+      line_code1: ~
+      line_code2: ~
+      itals: ~
+      itals_ex1: ~
+      itals_ex2: ~
+      itals_ex3: ~
+      itals_ex4: ~
+      itals_ex8: ~
+      links: ~
+      link_ex1: ~
+      link_code: ~
+      link_ex2: ~
+      inline_link_text: ~
+      images: ~
+      images_ex1: ~
+      images_code: ~
+      images_ex2: ~
+      images_ex3: ~
+      escape_ex1: ~
+      escape_code: ~
+      escape_ex2: ~
+      escape_ex3: ~
+      symbols: ~
+      symbols_ex: ~
+      finish: ~
+      markdown_link_text: ~
+    tips:
+      headline: ~
+      byline: ~
+      menu_title: ~
+      intro: ~
+      profile: ~
+      profile_ex: ~
+      notepad: ~
+      notepad_ex: ~
+    other_docs:
+      headline: ~
+      byline: ~
+      menu_title: ~
+      intro1: ~
+      intro2: ~
+      tutorials: ~
+      parfait: ~
+      about: ~
+      about1: ~
+      wiki: ~
+      wiki_link_text: ~
+      wikipedia: ~
+      wikipedia_link_text: ~
+      wikipedia_software_link_text: ~
+      support: ~
+      question: ~
+      mail: ~
+      mail_link_text: ~
+      irc: ~
+      irc_link_text: ~
+      progress: ~
+      blog: ~
+      blog_link_text: ~
+      changelog: ~
+      changelog_link_text: ~
+      loomio: ~
+      communication: ~
+      communicate: ~
+      communicate_link_text: ~
+      other: ~
+      manifesto: ~
+      manifesto_link_text: ~

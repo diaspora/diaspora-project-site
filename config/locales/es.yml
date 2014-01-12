@@ -1,55 +1,60 @@
 es:
+  time:
+    formats:
+      blog_headline: ~
   buttons:
     host_pod: "Aloja un pod"
-    join_diaspora: Únete!
-    find_more: ~
+    join_diaspora: ¡Únete!
+    find_more: "Averigua más »"
   meta:
     footer:
       copyleft: "Bajo licencia CC-BY por The diaspora* Foundation"
   title: "El Proyecto diaspora*"
+  newsfeed: ~
   layouts:
     application:
-      wiki: ~
+      wiki: Wiki
       planet: Planeta
-      useful_resources: ~
+      useful_resources: "Recursos Útiles"
       codebase: ~
       documentation: Documentación
-      report_bugs: ~
-      irc_general: ~
-      irc_development: ~
-      discussion_general: ~
-      discussion_development: ~
-      choose_language: ~
-      cc_license_alt: ~
+      report_bugs: "Encuentra fallos e informa"
+      irc_general: "IRC - General"
+      irc_development: "IRC - Desarrollo"
+      discussion_general: "Debate - General"
+      discussion_development: "Debate - Desarrollo"
+      choose_language: "Elige idioma"
+      translate: ~
+      cc_license_alt: "Licencia de Creative Commons"
       licensed_under: "%{site_link} se encuentra disponible bajo una %{license_link}"
       license_link_text: "Licencia Creative Commons Atribución 3.0 Unported"
   pages:
     index:
-      headline: ~
-      byline: ~
-      register: ~
-      key_philosophies: ~
+      headline: "Bienvenido/a a diaspora*"
+      byline: "La red social en línea donde tú estás al mando"
+      register: "Regístrate »"
+      key_philosophies: "diaspora* se basa en tres filosofías claves:"
       decentralization: Descentralización
       decentralization_about: ~
       freedom: Libertad
       freedom_about: ~
-      privacy: ~
+      privacy: Privacidad
       privacy_about: ~
-      get_started: ~
-      get_started_sub: ~
-      choose_pod: ~
+      get_started: "¿Quieres empezar?"
+      get_started_sub: "Es tan fácil como 1, 2, 3 ..."
+      choose_pod: "1. Elige un pod"
       choose_pod_exp: ~
-      sign_up: ~
+      sign_up: "2. Regístrate"
       sign_up_ex: ~
-      join_convo: ~
+      join_convo: "3. ¡Únete a la conversación!"
       join_convo_ex: ~
-      aspects: ~
+      aspects: Aspectos
       aspects_ex: ~
-      features: ~
+      features: Características
       features_ex: ~
-      help: ~
+      help: "¿Quieres ayudar?"
       help_ex: ~
-      socialint: ~
+      socialint: "Integración de red social"
       socialint_ex: ~
       earth_alt: ~
       decentralized_alt: ~
@@ -72,120 +77,525 @@ es:
       discl: ~
       connect: "¿Cómo me conecto?"
       connect_ex: "Aunque diaspora* se compone de muchos \"pods\" al rededor del mundo, uno la percibe como una sola red integrada. No necesitas estar en el mismo \"pod\" que tus contctos, para que se puedan comunicar libremente el uno con el otro - la comunicación ocurre transparentemente a través de todos los \"pods\" en el universo de diaspora*. Cuando usas diaspora* a uno se le puede olvidar facilmente que está compuesta de muchos \"pods\". Conectarse con alguien en diaspora* es en realidad algo muy simple: "
-      find: "1. Encuentrales"
-      find_ex: "Todo lo que necesitas hacer para conectarte con alguien es encontrarle y agregarlos a algún \"aspecto\". (Leer más adelante para saber más sobre los \"aspectos\".) Éncuentrales utilizando el campo de búsqueda en la barra negra, o coloca el puntero sobre su nombre en tu stream y una tarjeta flotante aparecerá. Si te sabes su ID en diaspora* (sunombre@nombredelpod.com), puedes usar eso."
-      add: "2. Ágregales"
-      add_ex: ~
+      find: "1. Encuéntralos"
+      find_ex: "Todo lo que necesitas hacer para conectarte con alguien es encontrarlo y agregarlo a algún \"aspecto\". (Leer más adelante para saber más sobre los \"aspectos\".) Éncuentralo utilizando el campo de búsqueda en la barra negra, o coloca el puntero sobre su nombre en tu stream y aparecerá una tarjeta flotante. Si conoces su identificador en diaspora* (tunombre@nombredelpod.com), puedes usarlo."
+      add: "2. Agrégalos"
+      add_ex: "Entonces es sólo cuestión de hacer click en el botón de \"Agregar contacto\" y elegir de que aspecto deseas que formen parte. Ahora están conectados y puedes compartir con ellos tal como lo harías en cualquier otra red. O, si forman parte de diferentes aspectos en tu vida, agrégalo a aspectos múltiples. Ahora están conectados. Es tan sencillo como eso. "
       freedom: Libertad
       freedom_byline: "diaspora* no intenta limitarte"
-      fdm1: "Sé quién tu quieras ser"
-      fdm1_ex: ~
+      fdm1: "Sé quien tú quieras ser"
+      fdm1_ex: "Muchas redes insisten en que uses tu identidad real. diaspora* no. Aquí tú puedes elegir quién quieres ser, y compartir tanto o tan poco sobre ti como tú quieras. Realmente depende de ti cómo desees interactuar con otras personas."
       fdm2: "Sé creativo"
-      fdm2_ex: ~
-      fdm3: "Libre como en Libertad"
-      fdm3_ex: ~
+      fdm2_ex: "No estás limitado en tu manera de interactuar. Puedes simplemente seguir a personas fascinantes para ver que es lo que tienen que decir, o  puedes compartir el mundo con todos. Comparte tus fotos, dibujos, videos, música, palabras - lo que tu quieras. Déjate volar."
+      fdm3: "Libre como en libertad"
+      fdm3_ex: "diaspora* es totalmente Software Libre. Esto significa que no hay límites en como puede ser utilizado. Incluso puedes tomar el código fuente y cambiarlo para hacerlo funcionar de la manera que tu quieras y ayudarnos a mejorar la red. Nos encantaría tenerte a bordo."
       privacy: Privacidad
-      privacy_byline: ~
-      priv1: ~
-      priv1_ex: ~
-      priv2: ~
-      priv2_ex: ~
+      privacy_byline: "Control total sobre lo que es tuyo "
+      priv1: "Sé el dueño de tus propios datos"
+      priv1_ex: "Muchas redes utilizan tus datos para hacer dinero analizando tus interacciones y usando esta información para anunciarte cosas. diaspora* no usa tus datos para ningún otro propósito que permitir que te conectes y compartas on otros."
+      priv2: "Alójalo tú mismo"
+      priv2_ex: "Elige donde se almacenan tus datos elogiendo un \"pod\" con el que estés a gusto. Si quieres estar seguro de verdad, puedes configurar y alojar tu propio \"pod\" en servidores que tú controles, para que nadie pueda llegar a tus datos personales."
       priv3: "Elige tu audiencia"
-      priv3_ex: ~
-      aspects: ~
-      aspects_byline: ~
-      asp1: ~
-      asp1_ex: ~
-      asp2: ~
-      asp2_ex: ~
-      asp3: ~
-      asp3_ex: ~
-      features: ~
-      features_byline: ~
-      hashtags: ~
-      hashtags_ex: ~
-      reshare: ~
-      reshare_ex: ~
-      mentions: ~
-      mentions_ex: ~
-      love: ~
-      love_ex: ~
-      host: ~
+      priv3_ex: "Los \"aspectos\" de diaspora* te permiten compartir sólamente con aquellas personas que quieres. Puedes ser tan público o privado como quieras. Comparte una foto graciosa con el mundo entero, o un obscuro secreto con tus amigos mas cercanos. Tú tienes el control."
+      aspects: "Todo acerca de los \"aspectos\""
+      aspects_byline: "La clave de la privacidad en diaspora*"
+      asp1: "Aspectos de tu vida"
+      asp1_ex: "Tu vida está hecha de muchos aspectos diferentes, que involucran a personas diferentes. ¿Por qué debería tu vida en línea ser diferente? Con los aspectos de diaspora* puedes organizar tu vida en línea tanto como quieras y compartir cosas solo con las personas que tú quieras."
+      asp2: "Organiza tu vida"
+      asp2_ex: "Por ejemplo, podrías tener \"aspectos\" para tu familia, para tus amigos más cercanos, para colegas del trabajo y para algún deporte o hobby que practiques. Tus colegas de trabajo no necesitan saber de tu reunión familiar, ¿O sí? Con los \"aspectos\", no lo sabran."
+      asp3: "Díselo al mundo entero"
+      asp3_ex: "Por supuesto, algunas cosas son tan importantes quie quieres decirlas a todo el mundo. Puedes compartir algo facilmente con el mundo entero al hacerlo público. Utilizar los hashtags apropiados significa que alcanzará a las personas que probablemente lo disfruten."
+      features: "Características que nuestra comunidad ama"
+      features_byline: "Creemos que tú las amarás también"
+      hashtags: Hashtags
+      hashtags_ex: "Los Hashtags te permiten marcar y seguir tus intereses, y ayudan a que tus publicaciones alcancen a personas afines. También son una gran manera de conocer gente interesante y divertida en diaspora*."
+      reshare: Re-comparte
+      reshare_ex: "¿Por qué no re-compartir una publicación que amas con otros? diaspora* hace fácil esparcir ideas por medio de re-compartir. Sólo presiona el botón para compartir el mensaje."
+      mentions: Menciones
+      mentions_ex: "¿Deseas obtener la atención de alguien? ¡Sólo @menciónalo ! Es una manera sencilla de alertar a uno de tus contactos sobre algo que pienses que debe saber."
+      love: Amor
+      love_ex: "Muestra tu aprecio por algo que amas con ♥. Porque algunas veces las palabras simplemente no son suficientes para decir lo que sientes."
+      host: "Aloja un \"pod\" comunitario"
       host_byline: "Sé una de las estrellas de diaspora*"
-      host_ex: ~
-      hostinst1: ~
-      instructions_link_text: ~
-      hostinst2: ~
-      distributed_network: ~
+      host_ex: "diaspora* depende de los miembros de su comunidad para alojar y correr \"pods\" que estén abiertos a cualquiera que quiera participar. Si tienes un poco de espacio de servidor y un poco de conocimiento técnico, nos encantaría que configurases un \"pod\" que esté abierto para recibir registors. Mientras más \"pods\" haya, diaspora* funcionará mejor - ¡sé parte del futuro de la web social descentralizada!"
+      hostinst1: "Lee las %{instructions_link} y configura tu propio \"pod\" comunitario."
+      instructions_link_text: "Instrucciones para la instalación de pods"
+      hostinst2: "Mira una lista de \"pods\" comunitarios en %{poduptime}"
+      distributed_network: "Red distribuida"
       centralized_network: ~
-      search_alt: ~
-      add_a_contact_alt: ~
-      hashtag_alt: ~
-      reshare_alt: ~
-      mention_alt: ~
-      heart_alt: ~
+      search_alt: Buscar
+      add_a_contact_alt: "Añadir un contacto"
+      hashtag_alt: Etiqueta
+      reshare_alt: "Compartir de nuevo"
+      mention_alt: Mención
+      heart_alt: Corazón
     get_involved:
       headline: ¡Involúcrate!
-      byline: ~
-      menu_title: ~
-      community: ~
-      community_byline: ~
+      byline: "El futuro de la web social empieza contigo"
+      menu_title: ¡Participa!
+      community: "Hecho posible por la comunidad"
+      community_byline: "diaspora* te pertenece"
       meaning: "¿Qué significa todo esto?"
       meaning_ex1: "El Software Libre se trata de individualidad, transparencia, creatividad, y destino. Se trata de tener una idea, y hacerla realidad. diaspora* fue fundada para saciar una pasión por divertirse, y de paso hacer del internet un mejor lugar. El Software Libre es lo que nos permite cambiar el mundo para nosotros, y permite a nuestros amigos alrededor de la web beneficiarse de nuestra exploración"
-      meaning_ex2: ~
-      meaning_ex3: ~
-      whereyou: ~
-      whereyou_ex1: ~
-      whereyou_ex2: ~
-      gi_header: ~
-      code_header: ~
-      code_byline: ~
-      code_ex1: ~
-      code_ex2: ~
-      code_ex3: ~
-      code_ex4: ~
-      get_started_guide_link_text: ~
-      mailing_list_link_text: ~
-      irc_link_text: ~
-      code_gh: ~
+      meaning_ex2: "Las comunidades del Software Libre son algo asombroso. En diaspora* creemos que la gente debería ser valorada por lo que hace. No importa si eres un programador de élite o si no has contrinuido nunca antes a un proyecto. Contirbuir a diaspora* significa que estás dispuesto a grabajar en problemas difíciles, centrándote en soluciones que funcionen para los usuarios."
+      meaning_ex3: "Por esto es por lo que si aportas algo significativo a diaspora* te daremos pleno acceso. Estamos en esto juntos, y queremos dar a la gente excitada la oportunidad de hacer grandes cambios."
+      whereyou: "Donde entras"
+      whereyou_ex1: "Todos hacemos diaspora*. Podríamos no conocerte aún, pero nos encantaría conocerte y averiguar cómo puedes ajustarte al equipo que está construyendo el futuro de la web. Todos nosotros tenemos el potencial de cambiar el mundo si tenemos la oportunidad."
+      whereyou_ex2: "Se puede contribuir a diaspora* de muchas maneras. Ya sea ayudando a encontrar fallos, aportando retroalimentación en nuestras listas de correo o aportando en código o diseño, te necesitamos."
+      gi_header: "Modos de involucrarse en diaspora*"
+      code_header: "Aporta código"
+      code_byline: "Grabar el código fuente es sencillo"
+      code_ex1: "Clona el repositorio y espera tranquilo: %{clone_code}"
+      code_ex2: "Instala tu entorno de desarrollo"
+      code_ex3: "¡Empieza a aportar código!"
+      code_ex4: "Ya tenemos una gran comunidad preparada para ayudarte a empezar. Te sugerimos revisar nuestra %{get_started_guide_link}, unirte a nuestra %{mailing_list_link} y venir a conocernos al %{irc_link}"
+      get_started_guide_link_text: "Guía para comenzar"
+      mailing_list_link_text: "Lista de correo"
+      irc_link_text: "Sala de IRC de diaspora*"
+      code_gh: "Mira la fuente en GitHub"
       bugs_header: ~
-      bugs_ex1: ~
+      bugs_ex1: "Nuestro proyecto utiliza Code Triage, un servicio voluntario donde usuarios y desarrolladores pueden colaborar para afrontar los fallos en nuestro %{github_link}."
       bugs_ex2: ~
       bugs_ex3: "Ayúdanos a limpiar nuestro código"
       github_link_text: ~
-      translate_header: ~
-      translate_ex1: ~
-      translations_link_text: ~
-      translate_ex2: ~
+      translate_header: "Ayuda a traducir"
+      translate_ex1: "Puedes ayudar a traducir diaspora* a otras lenguas uniéndoe a %{translations_link}."
+      translations_link_text: "Grupo de Traducciones"
+      translate_ex2: "Lee nuestras  %{translation_instructions_link} sobre cómo comenzar."
       translation_instructions_link_text: "Instrucciones de traducción "
-      voice_header: ~
-      voice_ex1: ~
-      voice_ex2: ~
-      voice_ex3: ~
-      meetup_link_text: ~
-      support_header: ~
-      support_ex1: ~
-      support_ex2: ~
-      support_ex3: ~
-      support_ex4: ~
-      irc_channel_link_text: ~
-      support_ex5: ~
+      voice_header: "Aporta tu voz"
+      voice_ex1: "Nuestro proyecto es llevado enteramente por voluntarios de la comunidad. Utilizamos una herramienta llamada Loomio para evaluar cómo se sienten nuestros contribuyentes sobre ideas y proposiciones para el proyecto. "
+      voice_ex2: "Únete a nosotros allí"
+      voice_ex3: "Convence a tus familiares y amigos a unirse a diaspora* organizando tu propia %{meetup_link} de diaspora* en la vida real dentro de tu propia comunidad."
+      meetup_link_text: Encuentro
+      support_header: "Proporciona soporte"
+      support_ex1: "¡Ayuda a los nuevos usuarios a sentirse bienvenidos!"
+      support_ex2: "Regístrate aquí"
+      support_ex3: "Escribe manuales de usuario en %{tutorials_link}."
+      support_ex4: "Responde laspreguntas de los usuarios en nuestro %{irc_channel_link} o en la misma diaspora* siguiendo las etiquetas <span class=\"click\">#ayuda</span>, <span class=\"click\">#pregunta</span> and <span class=\"click\">#feedback</span>"
+      irc_channel_link_text: "Canal IRC"
+      support_ex5: "Contribuye a %{wiki_link}."
       wiki_link_text: "wiki de diaspora*"
-      run_header: ~
+      run_header: "Mantener un pod público"
       run_ex1: ~
-      host_pod_link_text: ~
-      run_ex2: ~
-      run_ex3: ~
-      contributors_header: ~
-      contributors_byline: ~
-      globe_alt: ~
-      megaphone_alt: ~
+      host_pod_link_text: "alojar pods propios en diaspora*"
+      run_ex2: "Lo puedes alojar donde quieras."
+      run_ex3: "Añade tu \"pod\" a las lista de \"pods\" abiertos en %{poduptime}."
+      contributors_header: "Contribuyentes a diaspora*"
+      contributors_byline: "La gente que hace de diaspora* lo que es"
+      globe_alt: Globo
+      megaphone_alt: Megáfono
       support_alt: Soporte
-      pod_alt: ~
+      pod_alt: Pod
     blog:
       headline: "El blog de diaspora*"
       subline: "Anuncios oficiales"
       menu_title: Blog
     planet:
+      headline: Planeta
+      menu_title: Planeta
+    tutorials:
       headline: ~
+      byline: ~
       menu_title: ~
+      tutorials_ex1: ~
+      tutorials_ex2: ~
+      started_head: ~
+      started1: ~
+      started2: ~
+      started3: ~
+      started4: ~
+      started5: ~
+      started6: ~
+      started7: ~
+      part1: ~
+      part2: ~
+      part3: ~
+      part4: ~
+      part5: ~
+      part6: ~
+      part7: ~
+      additional: ~
+      connecting: ~
+      tips: ~
+      formatting: ~
+      more_tutorials: ~
+      other_docs: ~
+      other_docs_link_text: ~
+      thanks: ~
+    getting_started1:
+      byline: ~
+      menu_title: ~
+      welcome: ~
+      find_pod: ~
+      find_pod_ex1: ~
+      find_pod_ex2: ~
+      find_pod_ex3: ~
+      wiki_link_text: ~
+      find_pod_ex4: ~
+      find_pod_ex5: ~
+      registration: ~
+      registration1: ~
+      registration2: ~
+      registration3: ~
+      registration4: ~
+      dhq_link_text: ~
+      registration5: ~
+      registration6: ~
+      registration7: ~
+      registration8: ~
+      registration9: ~
+      registration10: ~
+      profile1: ~
+      profile2: ~
+      profile3: ~
+      profile4: ~
+      finish: ~
+      finish_ex1: ~
+      finish_ex2: ~
+    getting_started2:
+      byline: ~
+      menu_title: ~
+      interface1: ~
+      interface2: ~
+      interface3: ~
+      header: ~
+      header2: ~
+      header3: ~
+      header4: ~
+      header5: ~
+      header6: ~
+      header7: ~
+      header8: ~
+      header9: ~
+      header10: ~
+      header11: ~
+      header12: ~
+      columns: ~
+      column1: ~
+      column2: ~
+      column3: ~
+      views: ~
+      stream: ~
+      stream_ex: ~
+      stream1: ~
+      stream2: ~
+      stream3: ~
+      stream_ex2: ~
+      activity: ~
+      activity_ex: ~
+      mentions: ~
+      mentions_ex: ~
+      aspects: ~
+      aspects_ex1: ~
+      aspects_ex2: ~
+      tags: ~
+      tags_ex1: ~
+      tags_ex2: ~
+      profile: ~
+      profile_ex1: ~
+      profile_ex2: ~
+      profile_ex3: ~
+      profile_ex4: ~
+      profile_ex5: ~
+      profile_ex6: ~
+      finish: ~
+    getting_started3:
+      byline: ~
+      menu_title: ~
+      aspects1: ~
+      aspects2: ~
+      aspects3: ~
+      aspects4: ~
+      add_aspect1: ~
+      add_aspect2: ~
+      add_aspect3: ~
+      add_aspect4: ~
+      my_aspects1: ~
+      my_aspects2: ~
+      my_aspects3: ~
+      my_aspects4: ~
+      my_aspects5: ~
+      my_aspects6: ~
+      my_aspects7: ~
+      my_aspects8: ~
+      my_aspects9: ~
+      contacts: ~
+      contact_ex1: ~
+      contact_ex3: ~
+      contact_ex4: ~
+      contact_ex5: ~
+      contact_ex6: ~
+      contact_ex7: ~
+      sharing_me: ~
+      sharing_me_ex: ~
+      finish: ~
+    getting_started4:
+      byline: ~
+      menu_title: ~
+      aspects1: ~
+      sharing: ~
+      sharing_ex: ~
+      relationships: ~
+      followers: ~
+      followers_ex1: ~
+      followers_ex2: ~
+      followers_ex3: ~
+      following: ~
+      following_ex1: ~
+      following_ex2: ~
+      mutual: ~
+      mutual_ex1: ~
+      mutual_ex2: ~
+      mutual_ls1: ~
+      mutual_ls2: ~
+      mutual_ls3: ~
+      mutual_ls4: ~
+      mutual_ex3: ~
+      finding: ~
+      finding_ex1: ~
+      finding_ex2: ~
+      search: ~
+      search_ex: ~
+      search_ls1: ~
+      search_ls2: ~
+      search_ls3: ~
+      search_ls4: ~
+      search_ls5: ~
+      search_ls6: ~
+      invite: ~
+      invite_ex: ~
+      profile: ~
+      profile_ex1: ~
+      profile_ex2: ~
+      tags: ~
+      tags_ex: ~
+      removing: ~
+      removing_ex1: ~
+      removing_ex2: ~
+      removing_ex3: ~
+      removing_ex4: ~
+      removing_ex5: ~
+      finish: ~
+    getting_started5:
+      byline: ~
+      menu_title: ~
+      intro1: ~
+      intro2: ~
+      publisher: ~
+      publisher_ex1: ~
+      publisher_ex2: ~
+      publisher_ex3: ~
+      publisher_ex4: ~
+      buttons: ~
+      aspect_selector: ~
+      aspect_selector_ex1: ~
+      aspect_selector_ex2: ~
+      photo: ~
+      photo_ex: ~
+      locator: ~
+      locator_ex1: ~
+      locator_ex2: ~
+      locator_ex3: ~
+      connected: ~
+      connected_ex1: ~
+      connected_ex2: ~
+      connected_ex3: ~
+      preview: ~
+      preview_ex1: ~
+      preview_ex2: ~
+      features: ~
+      tags: ~
+      tags_ex1: ~
+      tags_ex2: ~
+      tags_ex3: ~
+      mentions: ~
+      mentions_ex1: ~
+      mentions_ex2: ~
+      mentions_ex3: ~
+      format: ~
+      format_ex: ~
+      format_link_text: ~
+      links: ~
+      links_ex: ~
+      embed: ~
+      embed_ex1: ~
+      embed_ex2: ~
+      services: ~
+      services_ex1: ~
+      services_ex2: ~
+      services_ex3: ~
+      how: ~
+      try_out: ~
+      make_post1: ~
+      make_post2: ~
+      make_post3: ~
+      interact: ~
+      interact_ex1: ~
+      interact_ex2: ~
+      comments: ~
+      comments_ex: ~
+      likes: ~
+      likes_ex1: ~
+      likes_ex2: ~
+      reshare: ~
+      reshare_ex: ~
+      delete: ~
+      delete_ex: ~
+      hide: ~
+      hide_ex: ~
+      ignore: ~
+      ignore_ex1: ~
+      ignore_ex2: ~
+      finish: ~
+    getting_started6:
+      byline: ~
+      menu_title: ~
+      intro: ~
+      notify: ~
+      notify_ex1: ~
+      notify_ex2: ~
+      notify_ls1: ~
+      notify_ls2: ~
+      notify_ls3: ~
+      notify_ls4: ~
+      notify_ex3: ~
+      convo: ~
+      convo_ex1: ~
+      convo_ex2: ~
+      convo_ex3: ~
+      convo_ex4: ~
+      convo_ex5: ~
+      convo_ex6: ~
+      convo_ex7: ~
+      convo_ex8: ~
+      convo_ex9: ~
+      finish: ~
+    getting_started7:
+      byline: ~
+      menu_title: ~
+      intro: ~
+      connect: ~
+      connect_ex1: ~
+      connect_ex2: ~
+      connect_ex3: ~
+      connect_ex4: ~
+      settings: ~
+      settings_ex1: ~
+      settings_ex3: ~
+      profile: ~
+      profile_ex: ~
+      account: ~
+      account_ex1: ~
+      account_ex2: ~
+      account_ex3: ~
+      account_ex4: ~
+      privacy: ~
+      privacy_ex: ~
+      services: ~
+      services_ex: ~
+      finish1: ~
+      finish2: ~
+      finish3: ~
+    formatting:
+      byline: ~
+      menu_title: ~
+      format1: ~
+      format2: ~
+      format3: ~
+      format4: ~
+      headings: ~
+      headings_ex1: ~
+      headings_code1: ~
+      headings_code2: ~
+      headings_code3: ~
+      headings_ex2: ~
+      lists: ~
+      lists_ex1: ~
+      lists_ex2: ~
+      lists_ex3: ~
+      lists_code1: ~
+      lists_code2: ~
+      lists_code3: ~
+      lists_code4: ~
+      lists_code5: ~
+      lists_code6: ~
+      code: ~
+      code_ex1: ~
+      code_ex2: ~
+      code_ex3: ~
+      code_code1: ~
+      code_code2: ~
+      code_code3: ~
+      code_code4: ~
+      code_code5: ~
+      line: ~
+      line_ex: ~
+      line_code1: ~
+      line_code2: ~
+      itals: ~
+      itals_ex1: ~
+      itals_ex2: ~
+      itals_ex3: ~
+      itals_ex4: ~
+      itals_ex8: ~
+      links: ~
+      link_ex1: ~
+      link_code: ~
+      link_ex2: ~
+      inline_link_text: ~
+      images: ~
+      images_ex1: ~
+      images_code: ~
+      images_ex2: ~
+      images_ex3: ~
+      escape_ex1: ~
+      escape_code: ~
+      escape_ex2: ~
+      escape_ex3: ~
+      symbols: ~
+      symbols_ex: ~
+      finish: ~
+      markdown_link_text: ~
+    tips:
+      headline: ~
+      byline: ~
+      menu_title: ~
+      intro: ~
+      profile: ~
+      profile_ex: ~
+      notepad: ~
+      notepad_ex: ~
+    other_docs:
+      headline: ~
+      byline: ~
+      menu_title: ~
+      intro1: ~
+      intro2: ~
+      tutorials: ~
+      parfait: ~
+      about: ~
+      about1: ~
+      wiki: ~
+      wiki_link_text: ~
+      wikipedia: ~
+      wikipedia_link_text: ~
+      wikipedia_software_link_text: ~
+      support: ~
+      question: ~
+      mail: ~
+      mail_link_text: ~
+      irc: ~
+      irc_link_text: ~
+      progress: ~
+      blog: ~
+      blog_link_text: ~
+      changelog: ~
+      changelog_link_text: ~
+      loomio: ~
+      communication: ~
+      communicate: ~
+      communicate_link_text: ~
+      other: ~
+      manifesto: ~
+      manifesto_link_text: ~

@@ -1,15 +1,15 @@
-fi:
+es-AR:
   time:
     formats:
       blog_headline: ~
   buttons:
-    host_pod: ~
-    join_diaspora: ~
+    host_pod: "Aloja un pod"
+    join_diaspora: ¡Unite!
     find_more: ~
   meta:
     footer:
-      copyleft: ~
-  title: "diaspora* projekti"
+      copyleft: "Bajo licencia CC-BY por The diaspora* Foundation"
+  title: "El Proyecto diaspora*"
   newsfeed: ~
   layouts:
     application:
@@ -65,58 +65,58 @@ fi:
       ways_to_help_alt: ~
       services_alt: ~
     about:
-      headline: "Kuinka diaspora* toimii?"
-      byline: "diaspora* on helppokäyttöinen - katso ohjeet"
-      menu_title: ~
-      decentralize: "Mitä tarkoittaa hajauttaminen?"
+      headline: "¿Cómo funciona diaspora*?"
+      byline: "diaspora* es fácil de usar. He aquí cómo."
+      menu_title: "Acerca de"
+      decentralize: "¿Qué es la descentralización?"
       decentralize_ex: ~
-      this: ~
+      this: ESTO
       this_ex: ~
-      notthis: ~
+      notthis: "ESTO NO"
       notthis_ex: ~
       discl: ~
-      connect: ~
+      connect: "¿Cómo me conecto?"
       connect_ex: ~
-      find: ~
+      find: "1. Encuéntralos"
       find_ex: ~
-      add: ~
+      add: "2. Agrégalos"
       add_ex: ~
-      freedom: ~
-      freedom_byline: ~
-      fdm1: ~
+      freedom: Libertad
+      freedom_byline: "diaspora* no intenta limitarte"
+      fdm1: "Sé quien quieras ser"
       fdm1_ex: ~
-      fdm2: ~
+      fdm2: "Sé creativo"
       fdm2_ex: ~
-      fdm3: ~
+      fdm3: "Libre de verdad"
       fdm3_ex: ~
-      privacy: ~
-      privacy_byline: ~
-      priv1: ~
+      privacy: Privacidad
+      privacy_byline: "Control total sobre lo que es tuyo "
+      priv1: "Sé el dueño de tus datos"
       priv1_ex: ~
-      priv2: ~
+      priv2: "Alójalo tú mismo"
       priv2_ex: ~
-      priv3: ~
+      priv3: "Elige tu audiencia"
       priv3_ex: ~
-      aspects: ~
-      aspects_byline: ~
-      asp1: ~
+      aspects: "Todo acerca de los \"aspectos\""
+      aspects_byline: "La clave de la privacidad en diaspora*"
+      asp1: "Aspectos de tu vida"
       asp1_ex: ~
-      asp2: ~
+      asp2: "Organiza tu vida"
       asp2_ex: ~
-      asp3: ~
+      asp3: "Díselo al mundo entero"
       asp3_ex: ~
-      features: ~
+      features: "Características que nuestra comunidad ama"
       features_byline: ~
-      hashtags: ~
+      hashtags: Etiquetas
       hashtags_ex: ~
-      reshare: ~
+      reshare: "Volver a compartir"
       reshare_ex: ~
-      mentions: ~
+      mentions: Menciones
       mentions_ex: ~
-      love: ~
+      love: Amor
       love_ex: ~
-      host: ~
-      host_byline: ~
+      host: "Aloja un \"pod\" comunitario"
+      host_byline: "Sé una de las estrellas de diaspora*"
       host_ex: ~
       hostinst1: ~
       instructions_link_text: ~
@@ -130,45 +130,45 @@ fi:
       mention_alt: ~
       heart_alt: ~
     get_involved:
-      headline: ~
-      byline: ~
-      menu_title: ~
-      community: ~
-      community_byline: ~
-      meaning: ~
+      headline: ¡Participa!
+      byline: "El futuro de la web social empieza con vos"
+      menu_title: Participa
+      community: "Hecho posible por la Comunidad"
+      community_byline: "diaspora* te pertenece"
+      meaning: "¿Qué significa todo esto?"
       meaning_ex1: ~
       meaning_ex2: ~
       meaning_ex3: ~
-      whereyou: ~
+      whereyou: "Donde entras tú"
       whereyou_ex1: ~
       whereyou_ex2: ~
-      gi_header: ~
-      code_header: ~
+      gi_header: "Maneras de involucrarse en diaspora*"
+      code_header: "Contribuye al código"
       code_byline: ~
       code_ex1: ~
       code_ex2: ~
-      code_ex3: ~
+      code_ex3: "¡Empieza a aportar código!"
       code_ex4: ~
       get_started_guide_link_text: ~
       mailing_list_link_text: ~
       irc_link_text: ~
-      code_gh: ~
-      bugs_header: ~
+      code_gh: "Mira la fuente en GitHub"
+      bugs_header: "Manejo de errores"
       bugs_ex1: ~
       bugs_ex2: ~
       bugs_ex3: ~
       github_link_text: ~
-      translate_header: ~
+      translate_header: "Ayuda a traducir"
       translate_ex1: ~
       translations_link_text: ~
       translate_ex2: ~
       translation_instructions_link_text: ~
-      voice_header: ~
+      voice_header: "Aporta tu voz"
       voice_ex1: ~
       voice_ex2: ~
       voice_ex3: ~
       meetup_link_text: ~
-      support_header: ~
+      support_header: "Proporciona soporte"
       support_ex1: ~
       support_ex2: ~
       support_ex3: ~

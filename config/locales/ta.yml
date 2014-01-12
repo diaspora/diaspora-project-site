@@ -1,4 +1,4 @@
-fi:
+ta:
   time:
     formats:
       blog_headline: ~
@@ -9,7 +9,7 @@ fi:
   meta:
     footer:
       copyleft: ~
-  title: "diaspora* projekti"
+  title: ~
   newsfeed: ~
   layouts:
     application:
@@ -65,10 +65,10 @@ fi:
       ways_to_help_alt: ~
       services_alt: ~
     about:
-      headline: "Kuinka diaspora* toimii?"
-      byline: "diaspora* on helppokäyttöinen - katso ohjeet"
+      headline: ~
+      byline: ~
       menu_title: ~
-      decentralize: "Mitä tarkoittaa hajauttaminen?"
+      decentralize: ~
       decentralize_ex: ~
       this: ~
       this_ex: ~

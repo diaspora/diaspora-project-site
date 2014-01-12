@@ -1,0 +1,54 @@
+pt-PT:
+  devise:
+    confirmations:
+      confirmed: "A sua conta foi confirmada com sucesso. Agora, já está registado."
+      send_instructions: ~
+      send_paranoid_instructions: ~
+    failure:
+      already_authenticated: "Já se registou."
+      inactive: "A sua conta ainda não foi ativada."
+      invalid: "Endereço de e-mail ou senha inválidos."
+      invalid_token: "Senha de autenticação inválida."
+      locked: "A sua conta está bloqueada."
+      not_found_in_database: "e-mail ou senha inválidos."
+      timeout: "A sua sessão expirou, por favor, inicie-a de novo para continuar."
+      unauthenticated: "Antes de continuar, deve iniciar a sessão ou registar-se."
+      unconfirmed: "Antes de continuar, precisa de confirmar a sua conta."
+    mailer:
+      confirmation_instructions:
+        subject: "Instruções de confirmação"
+      reset_password_instructions:
+        subject: "Repor as instruções da senha"
+      unlock_instructions:
+        subject: "Instruções de desbloqueio"
+    omniauth_callbacks:
+      failure: ~
+      success: ~
+    passwords:
+      no_token: ~
+      send_instructions: ~
+      send_paranoid_instructions: ~
+      updated: ~
+      updated_not_active: ~
+    registrations:
+      destroyed: ~
+      signed_up: ~
+      signed_up_but_inactive: ~
+      signed_up_but_locked: ~
+      signed_up_but_unconfirmed: ~
+      update_needs_confirmation: "Atualizou a sua conta com sucesso, mas precisa de verificar o seu endereço de e-mail. Por favor, verifique a sua caixa de correio e clique na hiperligação de confirmação para finalizar a confirmação do seu novo endereço de  e-mail."
+      updated: "Atualizou a usa conta com sucesso."
+    sessions:
+      signed_in: "Sessão iniciada com sucesso."
+      signed_out: "Sessão encerrada com sucesso."
+    unlocks:
+      send_instructions: "Irá receber um e-mail dentro de minutos, com as instruções sobre como desbloquear a sua conta."
+      send_paranoid_instructions: "Se a sua conta já existir, irá receber um e-mail dentro de minutos, com as instruções sobre como a desbloquear."
+      unlocked: "A sua conta foi desbloqueada com sucesso. Por favor, inicie a sessão para continuar."
+  errors:
+    messages:
+      already_confirmed: ~
+      confirmation_period_expired: ~
+      expired: "expirou, por favor, solicite uma nova"
+      not_found: "não encontrado"
+      not_locked: "não foi bloqueado"

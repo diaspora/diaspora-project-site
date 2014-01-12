@@ -1,0 +1,601 @@
+pt-PT:
+  time:
+    formats:
+      blog_headline: "%d %B %Y"
+  buttons:
+    host_pod: "Hospede um \"Pod\""
+    join_diaspora: "Junte-se a nós!"
+    find_more: "Descubra mais »"
+  meta:
+    footer:
+      copyleft: "CC-BY - A Fundação diaspora*"
+  title: "O Projeto diaspora*"
+  newsfeed: ~
+  layouts:
+    application:
+      wiki: Wiki
+      planet: Planeta
+      useful_resources: "Recursos Úteis"
+      codebase: "Código Fonte"
+      documentation: Documentação
+      report_bugs: "Encontrar & Comunicar Problemas"
+      irc_general: "IRC - Geral"
+      irc_development: "IRC - Desenvolvimento"
+      discussion_general: "Discussão - Geral"
+      discussion_development: "Discussão - Desenvolvimento"
+      choose_language: "Escolha o Idioma"
+      translate: ~
+      cc_license_alt: "Licença \"Creative Commons\""
+      licensed_under: "%{site_link} está licenciado sob %{license_link}"
+      license_link_text: "Licença Não Suportada \"Creative Commons Attribution 3.0\""
+  pages:
+    index:
+      headline: "Bem-vindo ao diaspora*"
+      byline: "O mundo social na Internet onde tem um controlo total"
+      register: "Registar »"
+      key_philosophies: "O diaspora* é baseado em três chaves filosóficas:"
+      decentralization: Descentralização
+      decentralization_about: ~
+      freedom: Liberdade
+      freedom_about: ~
+      privacy: Privacidade
+      privacy_about: ~
+      get_started: "Pretende iniciar?"
+      get_started_sub: "É tão simples como, 1, 2, 3 ..."
+      choose_pod: "1. Escolha um \"Pod\""
+      choose_pod_exp: ~
+      sign_up: "2. Registar"
+      sign_up_ex: ~
+      join_convo: "3. Junte-se à conversa!"
+      join_convo_ex: ~
+      aspects: Aspetos
+      aspects_ex: ~
+      features: Recursos
+      features_ex: ~
+      help: "Pretende ajudar?"
+      help_ex: ~
+      socialint: "Integração na Rede Social"
+      socialint_ex: ~
+      earth_alt: Earthd*
+      decentralized_alt: Descentralizado
+      freedom_alt: Liberdade
+      keyhole_alt: Privado
+      aspects_alt: Aspetos
+      features_alt: Recursos
+      ways_to_help_alt: "Como pode ajudar"
+      services_alt: Serviços
+    about:
+      headline: "Como é que o diaspora* funciona?"
+      byline: "O Diaspora* é simples de usar – aqui tem como"
+      menu_title: "Sobre o Programa"
+      decentralize: "O que é a descentralização?"
+      decentralize_ex: "Diaspora* é completamente diferente da maioria das redes que utiliza. Este é completamente descentralizado, sem um 'hub' central. Ainda assim, é muito fácil para se conetar e comunicar com as pessoas. Veja como."
+      this: ISTO
+      this_ex: ~
+      notthis: "ISTO NÃO"
+      notthis_ex: ~
+      discl: ~
+      connect: "Como é que eu coneto?"
+      connect_ex: ~
+      find: "1. Encontre-os"
+      find_ex: ~
+      add: "2. Adicione-os"
+      add_ex: "Depois basta clicar em \"Adicionar Contacto\" e escolha o aspeto que pretende que as pessoas façam parte. Agora já está conetado e pode compartilhar com elas da maneira que faria em qualquer outra rede. Ou, se elas pertencem a diferentes aspetos da sua vida, adicione-as a múltiplos aspetos. Agora, já está conetado. É tão simples. "
+      freedom: Liberdade
+      freedom_byline: "O diaspora* não tenta limitá-lo"
+      fdm1: "Seja, quem pretende ser"
+      fdm1_ex: ~
+      fdm2: "Seja criativo"
+      fdm2_ex: ~
+      fdm3: "Livre como em liberdade"
+      fdm3_ex: "O diaspora* é um programa completamente livre. Isto significa, que não existem limites em como este pode ser utilizado. Mesmo assim, pode usar o código fonte e alterá-lo para como o desejar, e ajudar-nos a melhorar a rede. Nós adorávamos tê-lo a bordo!"
+      privacy: Privacidade
+      privacy_byline: "Controlo total sobre o que é seu "
+      priv1: "Seja dono dos seus próprios dados"
+      priv1_ex: "Muitas das redes utilizam os seus dados para fazerem dinheiro, analisando as suas interações e utilizam essa informação para publicitar anúncios para si. O diaspora* não utiliza os seus dados para qualquer fim, a não ser para permitir que se conecte e compartilhe com os outros."
+      priv2: "Seja o anfitrião"
+      priv2_ex: ~
+      priv3: "Escolha a sua audiência"
+      priv3_ex: "Os aspetos do diaspora* permite-lhe compartilhar só com as pessoas que desejar. Tanto pode ser como público ou como privado. Compartilhe uma fotografia engraçada com todo o mundo, ou um segredo profundo, só com os seus amigos mais chegados. Tem um controlo total."
+      aspects: "Tudo sobre aspetos"
+      aspects_byline: "A chave para a privacidade no diaspora*"
+      asp1: "Aspetos sobre a sua vida"
+      asp1_ex: ~
+      asp2: "Organize a sua vida"
+      asp2_ex: ~
+      asp3: "Conte ao mundo"
+      asp3_ex: ~
+      features: "Caraterísticas que a nossa comunidade adora"
+      features_byline: "Nós pensamos que também vai se apaixonar"
+      hashtags: Hashtags
+      hashtags_ex: ~
+      reshare: "Volte a Partilhar"
+      reshare_ex: ~
+      mentions: Menções
+      mentions_ex: ~
+      love: Amor
+      love_ex: ~
+      host: "Hospede um \"Pod\" Comunitário"
+      host_byline: "Seja uma das estrelas do diasporas*"
+      host_ex: ~
+      hostinst1: "Lei-a %{instructions_link} e configure o seu próprio \"Pod\" comunitário."
+      instructions_link_text: "Instruções da instalação do \"Pod\""
+      hostinst2: "Veja uma lista de pods comunitários em %{poduptime}"
+      distributed_network: "Rede distribuída"
+      centralized_network: "Rede centralizada"
+      search_alt: Procurar
+      add_a_contact_alt: "Adicionar um contacto"
+      hashtag_alt: Hashtag
+      reshare_alt: "Volte a Partilhar"
+      mention_alt: Mencionar
+      heart_alt: Coração
+    get_involved:
+      headline: Participe!
+      byline: "O futuro da web social começa consigo"
+      menu_title: Participe!
+      community: "Mantido pela comunidade"
+      community_byline: "O diaspora* pertence-lhe"
+      meaning: "O que é que isto tudo significa?"
+      meaning_ex1: ~
+      meaning_ex2: ~
+      meaning_ex3: ~
+      whereyou: "Onde pode ajudar"
+      whereyou_ex1: ~
+      whereyou_ex2: ~
+      gi_header: "Modos sobre como se envolver com o diaspora*"
+      code_header: "Código de Contribuição"
+      code_byline: "É simples a obtenção do código fonte."
+      code_ex1: "Clone o repositório e poke à volta de: %{clone_code}"
+      code_ex2: "Instale o seu ambiente de desenvolvimento"
+      code_ex3: "Inicie a sua contribuição do código!"
+      code_ex4: ~
+      get_started_guide_link_text: "Guia sobre como iniciar"
+      mailing_list_link_text: "lista de endereços"
+      irc_link_text: "Sala IRC diaspora*"
+      code_gh: "Ver a fonte no GitHub"
+      bugs_header: "Reduzir os Erros"
+      bugs_ex1: ~
+      bugs_ex2: "Reduzindo os pequenos erros ajuda-nos a todos, e isto pode dar a um recém-chegado uma melhor perceção de como as partes do diaspora* funcionam."
+      bugs_ex3: "Ajude-nos a melhorar o nosso código"
+      github_link_text: "Gerenciamento de Problemas do GitHub"
+      translate_header: "Ajude na tradução"
+      translate_ex1: "Pode ajudar-nos a traduzir o diaspora* para outros idiomas, aderindo em %{translations_link}."
+      translations_link_text: "Grupo de Traduções"
+      translate_ex2: "Leia as nossas %{translation_instructions_link} sobre como iniciar-se."
+      translation_instructions_link_text: "instruções de tradução "
+      voice_header: "Faça-se Ouvir"
+      voice_ex1: "O nosso projeto é totalmente gerido pela comunidade de voluntários. Nós utilizamos uma ferramenta denominada \"Loomio\" para determinar o que os nossos colaboradores pensam sobre as ideias e propostas para o projeto. "
+      voice_ex2: "Junte-se a nós lá"
+      voice_ex3: ~
+      meetup_link_text: encontro
+      support_header: "Proporcione Suporte"
+      support_ex1: "Ajude os novos utilizadores a sentirem-se bem-vindos!"
+      support_ex2: "Registe-se aqui"
+      support_ex3: "Crie os tutoriais de utilizador em %{tutorials_link}."
+      support_ex4: ~
+      irc_channel_link_text: "Canal IRC"
+      support_ex5: "Contribua para %{wiki_link}."
+      wiki_link_text: "wiki diaspora*"
+      run_header: "Mantenha um \"Pod\" público"
+      run_ex1: ~
+      host_pod_link_text: "hospedar os \"Pods\" de terceiros no diaspora*"
+      run_ex2: "Pode hospedá-lo em qualquer lugar."
+      run_ex3: "Adicione o seu pod à lista de pods abertos em %{poduptime}."
+      contributors_header: "colaboradores do diaspora*"
+      contributors_byline: ~
+      globe_alt: Globo
+      megaphone_alt: Megafone
+      support_alt: Suporte
+      pod_alt: Pod
+    blog:
+      headline: "O blogue diaspora*"
+      subline: "anúncios oficiais"
+      menu_title: Blogue
+    planet:
+      headline: Planeta
+      menu_title: Planeta
+    tutorials:
+      headline: "Tutoriais do diaspora*"
+      byline: "Guias passo-a-passo para o ajudar"
+      menu_title: Tutoriais
+      tutorials_ex1: "Bem-vindo a secção de tutoriais do diaspora*. Nesta página, vai encontrar uma visão global de todos os nossos tutoriais, divididos em \"Iniciação ...\" e tutoriais autónomos para tarefas específicas. Se é novo no diaspora* ou ainda não se registou, nós recomendamos que leia \"Iniciação ...\". Se estiver à procura de opções adicionais, consulte os outros tutoriais."
+      tutorials_ex2: ~
+      started_head: "Iniciação ao diaspora*"
+      started1: Registar-se
+      started2: "A interface"
+      started3: Aspetos
+      started4: "Encontrar e conetar com as pessoas"
+      started5: "Iniciar Partilha!"
+      started6: "Notificações e Conversações"
+      started7: Terminar
+      part1: "Parte 1"
+      part2: "Parte 2"
+      part3: "Parte 3"
+      part4: "Parte 4"
+      part5: "Parte 5"
+      part6: "Parte 6"
+      part7: "Parte 7"
+      additional: "Tutoriais adicionais"
+      connecting: "Conetar o diaspora* a outros serviços"
+      tips: "Dicas e truques"
+      formatting: "Formatar Texto"
+      more_tutorials: "Precisa de mais ajuda?"
+      other_docs: "Verifique a nossa página %{other_docs_link} para hiperligações a outros sites."
+      other_docs_link_text: "Outra documentação"
+      thanks: ~
+    getting_started1:
+      byline: "Parte 1 - Registo"
+      menu_title: "Registo no diaspora*"
+      welcome: ~
+      find_pod: "Encontrar um \"Pod\""
+      find_pod_ex1: ~
+      find_pod_ex2: ~
+      find_pod_ex3: "Para o ajudar a escolher qual o melhor \"Pod\" para si, vá até %{wiki_link} para ajuda."
+      wiki_link_text: "guia para escolher um \"Pod\""
+      find_pod_ex4: ~
+      find_pod_ex5: ~
+      registration: Registo
+      registration1: ~
+      registration2: ~
+      registration3: "Termine o registo, clicando em <span class=\"click\">Continuar</span> para criar e aceder à sua nova fonte diaspora*!"
+      registration4: ~
+      dhq_link_text: "Sede do diaspora*"
+      registration5: ~
+      registration6: "Insira o nome que deseja visualizar no ecrã no primeiro campo."
+      registration7: "Clique no botão para enviar uma foto do perfil do seu computador."
+      registration8: ~
+      registration9: ~
+      registration10: "Clique em <span class=\"click\"> Ir para o diaspora*!</span>"
+      profile1: ~
+      profile2: ~
+      profile3: ~
+      profile4: ~
+      finish: ~
+      finish_ex1: ~
+      finish_ex2: ~
+    getting_started2:
+      byline: "Parte 2 - A Interface"
+      menu_title: "Utilizando a interface"
+      interface1: ~
+      interface2: ~
+      interface3: "A interface principal pode ser dividida em quatro partes."
+      header: ~
+      header2: "o logotipo do diaspora*, que o leva de volta à página stream;"
+      header3: ~
+      header4: ~
+      header5: ~
+      header6: ~
+      header7: ~
+      header8: ~
+      header9: ~
+      header10: ~
+      header11: "uma hiperligação para a secção de ajuda;"
+      header12: ~
+      columns: "Debaixo do cabeçalho existem três colunas:"
+      column1: ~
+      column2: ~
+      column3: ~
+      views: ~
+      stream: ~
+      stream_ex: ~
+      stream1: "publicações efetuadas pelos seus contactos;"
+      stream2: "publicações públicas efetuadas, contendo as #tags que segue;"
+      stream3: ~
+      stream_ex2: ~
+      activity: "A Minha Atividade"
+      activity_ex: ~
+      mentions: "@Menções"
+      mentions_ex: ~
+      aspects: "Os Meus Aspetos"
+      aspects_ex1: ~
+      aspects_ex2: ~
+      tags: ~
+      tags_ex1: ~
+      tags_ex2: ~
+      profile: "Ver Perfil"
+      profile_ex1: ~
+      profile_ex2: ~
+      profile_ex3: ~
+      profile_ex4: ~
+      profile_ex5: ~
+      profile_ex6: ~
+      finish: ~
+    getting_started3:
+      byline: "Parte 3 - Aspetos"
+      menu_title: "Tudo sobre aspetos"
+      aspects1: ~
+      aspects2: ~
+      aspects3: ~
+      aspects4: ~
+      add_aspect1: ~
+      add_aspect2: ~
+      add_aspect3: ~
+      add_aspect4: ~
+      my_aspects1: ~
+      my_aspects2: ~
+      my_aspects3: ~
+      my_aspects4: ~
+      my_aspects5: ~
+      my_aspects6: ~
+      my_aspects7: ~
+      my_aspects8: ~
+      my_aspects9: ~
+      contacts: "Página de Contactos"
+      contact_ex1: ~
+      contact_ex3: ~
+      contact_ex4: ~
+      contact_ex5: ~
+      contact_ex6: ~
+      contact_ex7: ~
+      sharing_me: "Só compartilhando comigo"
+      sharing_me_ex: ~
+      finish: ~
+    getting_started4:
+      byline: "Parte 4 – Encontrar e conetar com pessoas"
+      menu_title: "Como conetar com pessoas"
+      aspects1: ~
+      sharing: Compartilhar
+      sharing_ex: ~
+      relationships: ~
+      followers: Seguidores
+      followers_ex1: ~
+      followers_ex2: ~
+      followers_ex3: ~
+      following: "A Seguir"
+      following_ex1: ~
+      following_ex2: ~
+      mutual: "Partilha Mutual"
+      mutual_ex1: ~
+      mutual_ex2: ~
+      mutual_ls1: ~
+      mutual_ls2: ~
+      mutual_ls3: ~
+      mutual_ls4: ~
+      mutual_ex3: ~
+      finding: "Encontrar Pessoas"
+      finding_ex1: ~
+      finding_ex2: ~
+      search: Procurar
+      search_ex: ~
+      search_ls1: ~
+      search_ls2: ~
+      search_ls3: ~
+      search_ls4: ~
+      search_ls5: ~
+      search_ls6: ~
+      invite: ~
+      invite_ex: ~
+      profile: ~
+      profile_ex1: ~
+      profile_ex2: ~
+      tags: "Seguir #tags"
+      tags_ex: ~
+      removing: ~
+      removing_ex1: ~
+      removing_ex2: ~
+      removing_ex3: ~
+      removing_ex4: ~
+      removing_ex5: ~
+      finish: ~
+    getting_started5:
+      byline: "Parte 5 – Iniciar Partilha!"
+      menu_title: "Iniciar Partilha!"
+      intro1: ~
+      intro2: ~
+      publisher: "O Editor"
+      publisher_ex1: ~
+      publisher_ex2: ~
+      publisher_ex3: ~
+      publisher_ex4: ~
+      buttons: ~
+      aspect_selector: "Botão da Seleção do Aspeto"
+      aspect_selector_ex1: ~
+      aspect_selector_ex2: ~
+      photo: "Partilha de Foto"
+      photo_ex: ~
+      locator: Localizador
+      locator_ex1: ~
+      locator_ex2: ~
+      locator_ex3: ~
+      connected: "Serviços conetados"
+      connected_ex1: ~
+      connected_ex2: ~
+      connected_ex3: ~
+      preview: "Pré-visualizar Publicação"
+      preview_ex1: ~
+      preview_ex2: ~
+      features: "Recursos das Publicações"
+      tags: "#tags"
+      tags_ex1: ~
+      tags_ex2: ~
+      tags_ex3: ~
+      mentions: "@menções"
+      mentions_ex1: ~
+      mentions_ex2: ~
+      mentions_ex3: ~
+      format: "Formato de texto"
+      format_ex: ~
+      format_link_text: "este tutorial"
+      links: Hiperligações
+      links_ex: ~
+      embed: Integração
+      embed_ex1: ~
+      embed_ex2: ~
+      services: "Publicar noutros serviços"
+      services_ex1: ~
+      services_ex2: ~
+      services_ex3: ~
+      how: ~
+      try_out: ~
+      make_post1: ~
+      make_post2: ~
+      make_post3: ~
+      interact: ~
+      interact_ex1: ~
+      interact_ex2: ~
+      comments: Comentários
+      comments_ex: ~
+      likes: ~
+      likes_ex1: ~
+      likes_ex2: ~
+      reshare: ~
+      reshare_ex: ~
+      delete: ~
+      delete_ex: ~
+      hide: ~
+      hide_ex: ~
+      ignore: "Ignorar um utilizador"
+      ignore_ex1: ~
+      ignore_ex2: ~
+      finish: ~
+    getting_started6:
+      byline: "Parte 6 – Notificações e Conversações"
+      menu_title: "Notificações e Conversações"
+      intro: ~
+      notify: Notificações
+      notify_ex1: ~
+      notify_ex2: ~
+      notify_ls1: ~
+      notify_ls2: "Clique em <span class=\"click\">Publicação</span> para ver a publicação."
+      notify_ls3: ~
+      notify_ls4: "Clique em <span class=\"click\">Ver Tudo</span> para ir para a página das Notificações."
+      notify_ex3: ~
+      convo: Conversas
+      convo_ex1: ~
+      convo_ex2: ~
+      convo_ex3: ~
+      convo_ex4: ~
+      convo_ex5: ~
+      convo_ex6: ~
+      convo_ex7: ~
+      convo_ex8: ~
+      convo_ex9: ~
+      finish: ~
+    getting_started7:
+      byline: "Parte 7 – Terminar"
+      menu_title: Terminar
+      intro: ~
+      connect: ~
+      connect_ex1: ~
+      connect_ex2: ~
+      connect_ex3: ~
+      connect_ex4: ~
+      settings: "Gestão de Conta"
+      settings_ex1: ~
+      settings_ex3: ~
+      profile: Perfil
+      profile_ex: ~
+      account: Conta
+      account_ex1: ~
+      account_ex2: ~
+      account_ex3: ~
+      account_ex4: ~
+      privacy: Privacidade
+      privacy_ex: ~
+      services: Serviços
+      services_ex: ~
+      finish1: ~
+      finish2: " e "
+      finish3: ~
+    formatting:
+      byline: "Formatar Texto"
+      menu_title: "Formatação de Texto"
+      format1: ~
+      format2: ~
+      format3: ~
+      format4: ~
+      headings: Cabeçalhos
+      headings_ex1: ~
+      headings_code1: ~
+      headings_code2: ~
+      headings_code3: ~
+      headings_ex2: ~
+      lists: Listas
+      lists_ex1: ~
+      lists_ex2: ~
+      lists_ex3: ~
+      lists_code1: ~
+      lists_code2: "item um;"
+      lists_code3: "item dois;"
+      lists_code4: "item três."
+      lists_code5: ~
+      lists_code6: ~
+      code: ~
+      code_ex1: ~
+      code_ex2: ~
+      code_ex3: ~
+      code_code1: ~
+      code_code2: ~
+      code_code3: ~
+      code_code4: ~
+      code_code5: ~
+      line: "Linha Horizontal"
+      line_ex: ~
+      line_code1: ~
+      line_code2: ~
+      itals: "Itálico e Negrito"
+      itals_ex1: ~
+      itals_ex2: ~
+      itals_ex3: ~
+      itals_ex4: ~
+      itals_ex8: ~
+      links: ~
+      link_ex1: ~
+      link_code: ~
+      link_ex2: ~
+      inline_link_text: ~
+      images: Imagens
+      images_ex1: ~
+      images_code: ~
+      images_ex2: ~
+      images_ex3: ~
+      escape_ex1: ~
+      escape_code: ~
+      escape_ex2: ~
+      escape_ex3: ~
+      symbols: ~
+      symbols_ex: ~
+      finish: ~
+      markdown_link_text: "nesta página"
+    tips:
+      headline: "Dicas sobre como utilizar o diaspora*"
+      byline: "Alguns truques úteis que nós descobrimos"
+      menu_title: "Dicas para utilizar o diaspora*"
+      intro: "Há muito mais que pode efetuar como o diaspora*. Aqui tem uma pequena seleção de dicas que poderá gostar."
+      profile: "Campos extra do perfil"
+      profile_ex: ~
+      notepad: ~
+      notepad_ex: ~
+    other_docs:
+      headline: "Outra documentação"
+      byline: "Onde encontrar mais ajuda e documentação"
+      menu_title: "Outra documentação"
+      intro1: ~
+      intro2: ~
+      tutorials: Tutoriais
+      parfait: "um guia em Francês para as novas pessoas no Diaspora*"
+      about: "Sobre o Diaspora*"
+      about1: ~
+      wiki: ~
+      wiki_link_text: "O projeto oficial Wiki"
+      wikipedia: ~
+      wikipedia_link_text: diaspora*
+      wikipedia_software_link_text: "programa diaspora*"
+      support: "Suporte do Utilizador"
+      question: ~
+      mail: ~
+      mail_link_text: "lista de endereços"
+      irc: ~
+      irc_link_text: "Canal IRC"
+      progress: "Progresso do Projeto"
+      blog: ~
+      blog_link_text: "Blogue do Projeto"
+      changelog: ~
+      changelog_link_text: "O registo de alterações"
+      loomio: ~
+      communication: Comunicação
+      communicate: ~
+      communicate_link_text: "\"Como Comunicar\""
+      other: "Outros Sites"
+      manifesto: ~
+      manifesto_link_text: ~

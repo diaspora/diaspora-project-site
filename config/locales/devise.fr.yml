@@ -25,7 +25,7 @@ fr:
       failure: "Impossible de vous authentifier depuis %{kind} car \"%{reason}\"."
       success: "Authentification réussie depuis le compte %{kind}."
     passwords:
-      no_token: "Vous ne pouvez accéder à cette page qu'en cliquant sur le lien indiqué dans un courriel de récupération de mot de passe. Si vous avez copié le lien dans un courriel de récupération de mot de passe, veuillez vous assurer s'il vous plaît que vous avez copié l'URL en entier."
+      no_token: "Vous ne pouvez accéder à cette page qu'en cliquant sur le lien indiqué dans un courriel de récupération de mot de passe. Si vous avez copié le lien dans un courriel de récupération de mot de passe, veuillez vous assurer que vous avez copié l'URL en entier."
       send_instructions: "Vous allez recevoir un email dans quelques minutes contenant les instructions pour réinitialiser votre mot de passe."
       send_paranoid_instructions: "Si votre adresse de courriel existe dans notre base de donnée, vous allez recevoir un lien de récupération dans votre boite dans quelques minutes."
       updated: "Votre mot de passe a bien été modifié. Vous êtes maintenant connecté(e)."

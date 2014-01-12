@@ -1,0 +1,601 @@
+ml:
+  time:
+    formats:
+      blog_headline: "%d %B %Y"
+  buttons:
+    host_pod: "ഒരു പോഡ് തുടങ്ങൂ"
+    join_diaspora: "ഞങ്ങളോടൊപ്പം ചേരൂ!"
+    find_more: "കൂടുതൽ കണ്ടെത്തൂ »"
+  meta:
+    footer:
+      copyleft: "ഡയാസ്പൊറ* ഫൌണ്ടേഷനു് കടപ്പാടോടെ സിസി"
+  title: "ഡയാസ്പൊറ* സംരംഭം"
+  newsfeed: ~
+  layouts:
+    application:
+      wiki: ~
+      planet: ~
+      useful_resources: "പ്രയോജനകരമായ ഉപാധികള്‍"
+      codebase: ~
+      documentation: "ആധാരരേഖളും പ്രമാണഗ്രന്ഥങ്ങളും ശേഖരിച്ച്‌ ഉപയോഗപ്പെടുത്തല്‍"
+      report_bugs: "തെറ്റുകൾ കണ്ടെത്തുക & അറിയിക്കുക"
+      irc_general: "IRC - പൊതുവായത്"
+      irc_development: "IRC - വികസനം"
+      discussion_general: "ചർച്ചകൾ - പൊതുവായത്"
+      discussion_development: "ചർച്ചകൾ - വികസനം"
+      choose_language: "ഭാഷ തിരെഞ്ഞെടുക്കു"
+      translate: ~
+      cc_license_alt: "ക്രിയേറ്റീവ് കോമണ്‍സ് അനുമതിപത്രം"
+      licensed_under: ~
+      license_link_text: ~
+  pages:
+    index:
+      headline: "ഡയാസ്പൊറ*യിലേക്ക് സ്വാഗതം"
+      byline: ~
+      register: "അക്കൗണ്ട് തുടങ്ങുക »"
+      key_philosophies: "മൂന്നു പ്രാഥമീക തത്വങ്ങളാണ് ഡയാസ്പൊറ*യുടെ അടിസ്ഥാനം :"
+      decentralization: വികേന്ത്രീകരണം
+      decentralization_about: ~
+      freedom: സ്വാതന്ത്ര്യം
+      freedom_about: ~
+      privacy: സ്വകാര്യത
+      privacy_about: ~
+      get_started: "തുടങ്ങാൻ ആഗ്രഹമുണ്ടോ?"
+      get_started_sub: "1, 2 ,3 ... ഇതുപോലെ വളരെ എളുപ്പമാണിത്‌"
+      choose_pod: "ഒരു പോഡ് തിരഞ്ഞെടുക്കു"
+      choose_pod_exp: ~
+      sign_up: "അക്കൗണ്ട് തുടങ്ങുക"
+      sign_up_ex: ~
+      join_convo: "ചർച്ചയിൽ പങ്കെടുക്കൂ!"
+      join_convo_ex: ~
+      aspects: വീക്ഷണം
+      aspects_ex: ~
+      features: സവിശേഷതകൾ
+      features_ex: ~
+      help: സഹായിക്കണമേന്നുണ്ടോ?
+      help_ex: ~
+      socialint: "സാമൂഹ്യ ശൃംഖല ഏകീകരണം"
+      socialint_ex: ~
+      earth_alt: ~
+      decentralized_alt: വികേന്ദ്രീകൃതം
+      freedom_alt: സ്വാതന്ത്ര്യം
+      keyhole_alt: താക്കോല്‍ദ്വാരം
+      aspects_alt: വീക്ഷണം
+      features_alt: സവിശേഷതകൾ
+      ways_to_help_alt: "സഹായിക്കാനുള്ള വഴികൾ"
+      services_alt: സേവനങ്ങൾ
+    about:
+      headline: "ഡയാസ്പൊറ* പ്രവര്‍ത്തിയ്ക്കുന്നതെങ്ങനെയാണു്?"
+      byline: "ഡയാസ്പൊറ* ഉപയോഗിയ്ക്കാന്‍ വളരെ എളുപ്പമാണു് – ഇങ്ങനെ"
+      menu_title: അണിയറ
+      decentralize: "വികേന്ദ്രീകരണം എന്നാൽ എന്താണ്?"
+      decentralize_ex: "നിങ്ങൾ കൂടുതലായും ഉപയോഗിക്കുന്ന സോഷ്യല്‍ നെറ്റ്‌വര്‍ക്കിങ്ങ് സൈറ്റുകളില്‍ നിന്നും വ്യത്യസ്തമാണു് ഡയാസ്പുറ*. ഇതു് തികച്ചും വികേന്ദ്രീകൃതമാണു്, ഇതിലൊരു കേന്ദ്ര സ്ഥലവുമില്ല. എങ്കിലും, ആളുകളുമായി ബന്ധപ്പെടാനും സംസാരിയ്ക്കാനും വളരെ എളുപ്പമാണു്. ഇങ്ങനെ."
+      this: ഇതു്
+      this_ex: "ആസ്ഥാനമില്ലാത്ത ശരിയായ ശൃംഖലയാണു് ഡയാസ്പൊറ*. ലോകമെമ്പാടും പരന്നുകിടക്കുന്ന സെര്‍വറുകളുണ്ടിതില്‍ (പോഡുകളെന്നവയെ വിളിയ്ക്കുന്നു), അവയിലോരോന്നിലും അവയില്‍ ചേര്‍ന്ന ആളുകളുടെ വിവരങ്ങളുണ്ടാകും. പോഡുകള്‍ തമ്മില്‍ സുഖമമായി സംസാരിയ്ക്കുന്നതില്‍ ശൃംഖലയിലെ ഏതു് പോഡിലും നിങ്ങള്‍ക്കു് ചേരാനും, മറ്റേതൊരു പോഡിലുമുള്ള ആളുകളുമായി സംസാരിയ്ക്കാനും നിങ്ങള്‍ക്കു് കഴിയും."
+      notthis: ഇതല്ല
+      notthis_ex: "ഒരു കോര്‍പ്പറേഷന്‍ നിയന്ത്രിയ്ക്കുന്ന കേന്ദ്രീകൃത സെര്‍വറുകളിലാണു് കൂടുതല്‍ സോഷ്യല്‍ നെറ്റ്‌വര്‍ക്കുകളും പ്രവര്‍ത്തിയ്ക്കുന്നതു്. ഇവയിലാണു് അവയുപയോഗിയ്ക്കുന്ന ആളുകളുടെ സ്വകാര്യ വിവരങ്ങളെല്ലാം സൂക്ഷിയ്ക്കുന്നതു്. ഈ വിവരം നഷ്ടപ്പെടുകയോ മോഷ്ടിയ്ക്കപ്പെടുകയോ ചെയ്യാം. അതു് പോലെ തന്നെ എല്ലാ കേന്ദ്രീകൃത സേവനങ്ങളേയും പോലെ കേന്ദ്ര സെര്‍വറുകള്‍ക്കുണ്ടാകുന്ന പ്രശ്നം ശൃഖല മുഴുവനായും ഇഴയാനോ നിന്നു പോകാനോ കാരണമാകാം. കൂടാതെ സര്‍ക്കാറുകള്‍ക്കു് \"ഒളിഞ്ഞു കേള്‍ക്കാന്‍\" എളുപ്പവുമാണു്."
+      discl: ~
+      connect: "ഞാനെങ്ങനെ ബന്ധപ്പെടും?"
+      connect_ex: "ഡയാസ്പൊറയില്‍ ലോകം മുഴുവനും പരന്നു് കിടക്കുന്ന സെര്‍വറുകളുണ്ടെങ്കിലും നിങ്ങള്‍ക്കതു് ഒരൊറ്റ ശൃംഖലയായേ അനുഭവപ്പെടൂ. നിങ്ങളുടെ കൂട്ടുകാരുമായി ബന്ധപ്പെടാന്‍ അവര്‍ തിരഞ്ഞെടുത്ത പോഡ് തന്നെ നിങ്ങള്‍ തിരഞ്ഞെടുക്കണമെന്നില്ല - ഡയാസ്പൊറ* ലോകത്തെ എല്ലാ പോഡുകളും തമ്മില്‍ സുഗമമായി സംസാരം നടക്കും. നിങ്ങള്‍ ഡയാസ്പൊറ* ഉപയോഗിയ്ക്കുമ്പോള്‍ പല പോഡുകളാലാണു് ഡയാസ്പൊറ ഉണ്ടാക്കിയിരിയ്ക്കുന്നതെന്ന കാര്യം പോലും ഓര്‍ക്കേണ്ടതില്ല. ഡയാസ്പൊറയിലൊരാളുമായി ബന്ധപ്പെടുന്നതു് വളരെ എളുപ്പമാണു്: "
+      find: "1. അവ കണ്ടുപിടിയ്ക്കൂ"
+      find_ex: "ഒരാളുമായി ബന്ധപ്പെടാന്‍ നിങ്ങളാകെ ചെയ്യേണ്ടു് അവരെ കണ്ടുപിടിച്ചു് നിങ്ങളുടെ ഒരു പരിചയത്തിലേയ്ക്കു് ചേര്‍ക്കുക എന്നതു് മാത്രമാണു്. മുകളിലുള്ള കറുത്ത പട്ടയിലെ തിരയാനുള്ള കളത്തില്‍ അവരുടെ പേരു് കൊടുക്കുകയോ, അല്ലെങ്കില്‍ നിങ്ങളുടെ സ്ത്രീമില്‍ അവരുടെ പേരിനു് മുകളില്‍ മൌസ് വച്ച് വരുന്ന കള്ളിയില്‍ അമര്‍ത്തിയോ ഇതു് ചെയ്യാം. അവരുടെ ഡയാസ്പൊറ* വിലാസം (yourname@podname.com) അറിയുമെങ്കില്‍ അതും ഉപയോഗിയ്ക്കാം."
+      add: "2. അവരെ ചേര്‍ക്കൂ"
+      add_ex: ~
+      freedom: സ്വാതന്ത്ര്യം
+      freedom_byline: "ഡയാസ്പൊറ* നിങ്ങളെ നിയന്ത്രിയ്ക്കാന്‍ ശ്രമിയ്ക്കുകയില്ല"
+      fdm1: "നിങ്ങളാഗ്രഹിയ്ക്കുന്ന ആള്‍ തന്നെ ആകൂ"
+      fdm1_ex: "പല ശൃംഖലകളും നിങ്ങളുടെ യഥാര്‍ത്ഥ പേരുപയോഗിയ്ക്കണമെന്നു് നിര്‍ബന്ധിയ്ക്കും. ഡയാസ്പൊറ അങ്ങനെയല്ല. നിങ്ങളാരാകണമെന്നു് നിങ്ങള്‍ക്കിവിടെ തിരഞ്ഞെടുക്കാം, നിങ്ങള്‍ക്കിഷ്ടമുള്ളത്രയും - കൂടുതലോ കുറവോ, നിങ്ങള്‍ക്കു് പങ്കുവെയ്ക്കാം. നിങ്ങളാണു് നിങ്ങള്‍ മറ്റുള്ളവരുമായി എങ്ങനെ സംവദിയ്ക്കണമെന്നു് തീരുമാനിയ്ക്കുന്നതു്."
+      fdm2: സര്‍ഗാത്മകമാകൂ
+      fdm2_ex: "നിങ്ങള്‍ എങ്ങനെ സംവദിയ്ക്കണമെന്നു് നിയന്ത്രിച്ചിട്ടില്ല. ആളുകളെന്തു് പറയുന്നു എന്നു് കൌതുകത്തോടെ നോക്കാം, അല്ലെങ്കില്‍ നിങ്ങള്‍ക്കു് എല്ലാവരുമായും ലോകം തന്നെ പങ്കിടാം. ചിത്രങ്ങള്‍, കലാസൃഷ്ടികള്‍, ചലചിത്രങ്ങള്‍, സംഗീതം, വാക്കുകള്‍ - നിങ്ങളാഗ്രഹിയ്ക്കുന്നതെന്തും. പറക്കാന്‍ നിങ്ങളെ അനുവദിയ്ക്കൂ,"
+      fdm3: സ്വതന്ത്രം
+      fdm3_ex: "ഡയാസ്പൊറ* പൂര്‍ണ്ണമായും സ്വതന്ത്ര സോഫ്റ്റ്‌വെയറാണു്. ഇതിനര്‍ത്ഥം ഇതെങ്ങനെ ഉപയോഗിയ്ക്കണമെന്നതിനൊരു നിയന്ത്രണവുമില്ലെന്നാണു്. നിങ്ങള്‍ക്കും ഇതിന്റെ സോഴ്സ്കോഡെടുത്തു് നിങ്ങളാഗ്രഹിയ്ക്കുന്നതു് പോലെ പ്രവര്‍ത്തിയ്ക്കുന്നതാക്കി, ഈ ശൃംഖല തന്നെ മെച്ചപ്പെടുത്താന്‍ ഞങ്ങളെ സഹായിയ്ക്കാം."
+      privacy: സ്വകാര്യത
+      privacy_byline: "നിങ്ങളുടെ കാര്യങ്ങളില്‍ പൂര്‍ണ്ണ നിയന്ത്രണം "
+      priv1: "നിങ്ങളുടെ വിവരങ്ങളുടെ ഉടമയാകൂ"
+      priv1_ex: "പല ശൃംഖലകളും നിങ്ങളുടെ സംവാദങ്ങള്‍ ചികഞ്ഞു നോക്കി ആ വിവരങ്ങള്‍ ഉപയോഗിച്ചു് നിങ്ങളെ പരസ്യം കാണിച്ചു് നിങ്ങളുടെ വിവരങ്ങളുപയോഗിച്ചു് പണമുണ്ടാക്കുന്നു. നിങ്ങള്‍ക്കു് മറ്റുള്ളവരുമായി ബന്ധപ്പെടാനും പങ്കുവെയ്ക്കാനുമല്ലാതെ ഡയാസ്പൊറ മറ്റൊരാവശ്യത്തിനും നിങ്ങളുടെ വിവരമുപയോഗിയ്ക്കില്ല."
+      priv2: "സ്വയം പ്രവര്‍ത്തിപ്പിയ്ക്കൂ"
+      priv2_ex: "നിങ്ങള്‍ക്കു് തൃപ്തിയുള്ളൊരു പോഡ് തിരഞ്ഞെടുത്തു് നിങ്ങളുടെ വിവരങ്ങള്‍ ശേഖരിയ്ക്കുന്നതെവിടെയെന്നു് നിങ്ങള്‍ക്കു് തന്നെ തീരുമാനിയ്ക്കാം. ഇതിലും കൂടുതല്‍ സുരക്ഷ വേണമെന്നാണെങ്കില്‍ നിങ്ങള്‍ക്കു് നിയന്ത്രണമുള്ള സെര്‍വറുകളില്‍ നിങ്ങളുടെ സ്വന്തം പോഡ് പ്രവര്‍ത്തിപ്പിയ്ക്കുകയും മറ്റൊരാള്‍ക്കും നിങ്ങളുടെ സ്വകാര്യ വിവരങ്ങള്‍ കിട്ടാതാക്കുകയും ചെയ്യാം."
+      priv3: "നിങ്ങളുടെ ശ്രോതാക്കളെ തിരഞ്ഞെടുക്കൂ"
+      priv3_ex: "നിങ്ങള്‍ തിരഞ്ഞെടുക്കുന്നവരുമായി മാത്രം പങ്കുവെയ്ക്കാന്‍ ഡയാസ്പൊറയിലെ പരിചയങ്ങള്‍ സഹായിയ്ക്കുന്നു. നിങ്ങളാഗ്രഹിയ്ക്കുന്നത്രയും പരസ്യമോ സ്വകാര്യമോ നിങ്ങള്‍ക്കാവാം. ഒരു തമാശ വേണമെങ്കില്‍ ലോകത്തിലെല്ലാവരുമായോ അല്ലെങ്കില്‍ ഒരു ഗൂഢ രഹസ്യം നിങ്ങളുടെ ഏറ്റവും അടുത്ത സുഹൃത്തുകളുമായി മാത്രമോ പങ്കുവെയ്ക്കാം. നിങ്ങളാണിവിടെ മേധാവി."
+      aspects: പരിചയങ്ങളെക്കുറിച്ചെല്ലാം
+      aspects_byline: "ഡയാസ്പൊറയുടെ സ്വകാര്യതയുടെ സൂത്രം"
+      asp1: "നിങ്ങളുടെ ജീവിതത്തിലെ പരിചയങ്ങള്‍"
+      asp1_ex: "നിങ്ങളുടെ ജീവിതത്തില്‍ നിങ്ങള്‍ പല ആളുകളേയും പല തരത്തില്‍ പരിചയപ്പെട്ടിട്ടുണ്ടാകാം. നിങ്ങളുടെ ഓണ്‍ലൈന്‍ ജീവിതമെന്തിനു് വ്യത്യസ്തമാകണം? ഡയാസ്പൊറയുടെ പരിചയങ്ങളുപയോഗിച്ചു് നിങ്ങളുടെ ഓണ്‍ലൈന്‍ ജീവിതം നിങ്ങള്‍ക്കിഷ്ടമുള്ളത്രയും ചിട്ടപ്പെടുത്താനും നിങ്ങളാഗ്രഹിയ്ക്കുന്നവരുമായി മാത്രം പങ്കു് വയ്ക്കാനും നിങ്ങള്‍ക്കാവും."
+      asp2: "നിങ്ങളുടെ ജീവിതം ചിട്ടപ്പെടുത്തൂ"
+      asp2_ex: "ഉദാഹരണത്തിനു്, നിങ്ങള്‍ക്കു് കുംടുംബാംഗങ്ങള്‍ക്കും, അടുത്ത സുഹൃത്തുക്കള്‍ക്കും, സഹപ്രവര്‍ത്തകര്‍ക്കും, ഒരു കായികവിനോദത്തിനോ ഹോബിയ്ക്കോ വേറെ വേറെ പരിചയങ്ങളുണ്ടായിരിയ്ക്കാം. നിങ്ങളുടെ സഹപ്രവര്‍ത്തകര്‍ നിങ്ങളുടെ കുടംബസംഗമത്തെക്കുറിച്ചറിയണമെന്നില്ല, അല്ലേ? പരിചയങ്ങല്‍ വഴി അവരറിയില്ല."
+      asp3: "ലോകത്തോടു് വിളിച്ചു് പറയൂ"
+      asp3_ex: "തീര്‍ച്ചയായും ലോകത്തോടും വിളിച്ചു് പറയാന്‍ നിങ്ങളാഗ്രഹിയ്ക്കുന്ന പ്രധാന കാര്യങ്ങളും നിങ്ങള്‍ക്കുണ്ടാകും. എന്തെങ്കിലും പരസ്യമായി പങ്കിട്ടു് നിങ്ങള്‍ക്കതു് ലോകത്തോടു് മുഴുവന്‍ വിളിച്ചു് പറയാം. യോജിച്ച ഹാഷ്‌ടാഗുകളുപയോഗിച്ചാല്‍ അവ ആസ്വദിയ്ക്കാന്‍ സാധ്യതയുള്ളവരില്‍ അതെത്തിച്ചേരും."
+      features: "ഞങ്ങളെല്ലാവരും ഇഷ്ടപ്പെടുന്ന കാര്യങ്ങള്‍"
+      features_byline: "നിങ്ങള്‍ക്കും അവ ഇഷ്ടമാകുമെന്നു് ഞങ്ങള്‍ കരുതുന്നു"
+      hashtags: ഹാഷ്‌ടാഗുകള്‍
+      hashtags_ex: "ഹാഷ്‌ടാഗുകളുപയോഗിച്ചു് നിങ്ങളുടെ താത്പര്യങ്ങള്‍ അടയാളപ്പെടുത്താനും അവയെക്കുറിച്ചു് കൂടുതല്‍ അറിയാനും നിങ്ങളുടെ കുറിപ്പുകള്‍ സമാനമനസ്കരില്‍ എത്തിയ്ക്കാനും കഴിയും.ഡയാസ്പൊറയിലെ രസികരും കൌതുകമുണര്‍ത്തുന്നവരുമായ പുതിയ ആളുകളെ പരിചയപ്പെടാനുള്ള നല്ലൊരു മാര്‍ഗ്ഗമാണവ."
+      reshare: വീണ്ടുംപങ്കിടുക
+      reshare_ex: "നിങ്ങള്‍ക്കിഷ്ടപ്പെട്ടൊരു കുറിപ്പെന്തുകൊണ്ടു് മറ്റുള്ളവരുമായി പങ്കിട്ടുകൂടാ? വീണ്ടും പങ്കിട്ടു് ആശയങ്ങള്‍ പടരാന്‍ ഡയാസ്പൊറ വഴിയൊരുക്കുന്നു. ഒരു സന്ദേശം പങ്കിടാനൊരു ബട്ടണമര്‍ത്തിയാല്‍ മതി."
+      mentions: വിളികള്‍
+      mentions_ex: "ആരുടെയെങ്കിലും ശ്രദ്ധ പിടിയ്ക്കണോ? അവരെ @ വച്ച് വിളിച്ചാല്‍ മതി! നിങ്ങളുടെ കൂട്ടുകാരാരെങ്കിലും എന്തെങ്കിലും അറിയണമെന്നു് നിങ്ങളാഗ്രഹിയ്ക്കുന്നെങ്കില്‍ ഇതു് വളരെ എളുപ്പമുള്ളൊരു വഴിയാണു്."
+      love: ഇഷ്ടം
+      love_ex: "♥പ്പെട്ടു് നിങ്ങള്‍ക്കെന്തെങ്കിലും ഇഷ്ടമായെന്നു് കാണിയ്ക്കുക. കാരണം, ചിലപ്പോള്‍ ചില വികാരങ്ങള്‍ പര്കടിപ്പിയ്കാന്‍ വാക്കുകള്‍ പോരാതെ വരും."
+      host: "എല്ലാവര്‍ക്കുമായി ഒരു പോഡ് പ്രവര്‍ത്തിപ്പിയ്ക്കുക"
+      host_byline: "ഡയാസ്പൊറയുടെ താരങ്ങളിലൊന്നാകൂ"
+      host_ex: "താത്പര്യമുള്ള ഏതൊരാള്‍ക്കും ചേരാവുന്ന പോഡുകള്‍ സ്ഥാപിയ്ക്കാനും പ്രവര്‍ത്തിപ്പിയ്ക്കാനും ഡയാസ്പൊറ* സ്വന്തം കൂട്ടായ്മയിലെ അംഗങ്ങളെയാണു് ആശ്രയിച്ചിരിയ്ക്കുന്നതു്. നിങ്ങള്‍ക്കു് സ്വന്തമായി സെര്‍വറില്‍ ഇത്തിരി സ്ഥലവും ഇത്തിരി സാങ്കേതി പരിജ്ഞാനവും ഉണ്ടെങ്കില്‍ മറ്റുള്ളവര്‍ക്കു് ചേരാവുന്ന ഒരു പോഡ് നിങ്ങളതില്‍ സജ്ജീകരിച്ചാല്‍ ഞങ്ങള്‍ക്കു് വളരെ സന്തോഷമാകൂം. എത്രയും കൂടുതല്‍ പോഡുകളുണ്ടോ ഡയാസ്പൊറ അത്രയും നല്ലതാകും - വികേന്ദ്രീകൃത സോഷ്യല്‍ വെബിന്റെ ഭാവിയില്‍ നിങ്ങളും ഭാഗഭാക്കാവൂ!"
+      hostinst1: "%{instructions_link} വായിച്ചു് നിങ്ങളുടെ സ്വന്തം പോഡ് എല്ലാവര്‍ക്കുമായി തുറക്കൂ."
+      instructions_link_text: "പോഡ് സ്ഥാപിക്കാനുള്ള മാർഗ നിര്‍ദ്ദേശങ്ങള്‍"
+      hostinst2: "%{poduptime} ല്‍ തുറന്ന പോഡുകളുടെ പട്ടികയുണ്ടു്"
+      distributed_network: "വിതരണപ്പെട്ട ശൃംഖല"
+      centralized_network: "കേന്ദ്രീകൃത ശൃംഖല"
+      search_alt: തിരയുക
+      add_a_contact_alt: "ഒരു കോണ്ടാക്റ്റ് ചേർക്കുക"
+      hashtag_alt: ~
+      reshare_alt: "വീണ്ടും പങ്കിടല്‍"
+      mention_alt: സൂചന
+      heart_alt: ഇഷ്‌ടം
+    get_involved:
+      headline: പങ്കാളികളാകൂ!
+      byline: "സോഷ്യല്‍ വെബിന്റെ ഭാവി നിങ്ങളില്‍ തുടങ്ങുന്നു"
+      menu_title: പങ്കാളികളാകൂ
+      community: "കൂട്ടായ്മകള്‍ നടത്തുന്ന"
+      community_byline: "ഡയാസ്പൊറ* നിങ്ങളുടേതാണു്"
+      meaning: "ഇതിന്റെയൊക്കെ അര്‍ത്ഥമെന്താണു്?"
+      meaning_ex1: ~
+      meaning_ex2: ~
+      meaning_ex3: ~
+      whereyou: ~
+      whereyou_ex1: ~
+      whereyou_ex2: ~
+      gi_header: "ഡയാസ്പൊറയില്‍ പങ്കാളിയാവാനുള്ള വഴികള്‍"
+      code_header: "കോഡ് സംഭാവന ചെയ്യാം"
+      code_byline: "സോഴ്സ് കോഡെടുക്കാന്‍ വളരെ എളുപ്പമാണു്"
+      code_ex1: ~
+      code_ex2: ~
+      code_ex3: "കോഡ് സംഭാവന ചെയ്യാൻ തുടങ്ങൂ!"
+      code_ex4: ~
+      get_started_guide_link_text: "തുടങ്ങുവാനുള്ള മാര്‍ഗ്ഗദര്‍ശി"
+      mailing_list_link_text: കത്തുപട്ടിക
+      irc_link_text: ~
+      code_gh: "ഉറവിടം GitHub ൽ കാണുക"
+      bugs_header: "തെറ്റുകൾ നീക്കം ചെയ്യുക"
+      bugs_ex1: ~
+      bugs_ex2: ~
+      bugs_ex3: "നമ്മുടെ കോഡ് ശുദ്ധീകരിക്കാൻ ഞങ്ങളെ സഹായിക്കൂ"
+      github_link_text: ~
+      translate_header: "പരിഭാഷക്കു സഹായിക്കൂ"
+      translate_ex1: "%{translations_link} ൽ അംഗത്വമെടുത്ത്  താങ്കൾക്ക്  ഡയസ്പോറ*യെ മറ്റു ഭാഷകളിലേക്ക് പരിഭാഷപ്പെടുപരിഭാഷപ്പെടുത്തി സഹായിക്കാം."
+      translations_link_text: "പരിഭാഷ വിഭാഗം"
+      translate_ex2: "%{translation_instructions_link} ൽ എങ്ങനെ ആരംഭിക്കാം എന്നതിനെക്കുറിച്ചുള്ള ഞങ്ങളുടെ നിർദേശങ്ങൾ വായിക്കുക."
+      translation_instructions_link_text: "പരിഭാഷ നിര്‍ദ്ദേശങ്ങൾ "
+      voice_header: ~
+      voice_ex1: ~
+      voice_ex2: "അവിടേക്ക് ഞങ്ങളോടൊപ്പം ചെരൂ"
+      voice_ex3: ~
+      meetup_link_text: കൂടിച്ചേരൽ
+      support_header: "പിന്തുണ നല്കുക"
+      support_ex1: "പുതിയ ഉപയോക്താക്കൾക്ക് ഊഷ്മളമായ സ്വാഗത സഹകരണങ്ങളേകുക!"
+      support_ex2: "അക്കൗണ്ട് ഇവിടെ തുടങ്ങുക"
+      support_ex3: "%{tutorials_link} ൽ ഉപയോക്തക്കൾക്കായുള്ള പരിശീലനങ്ങൾ എഴുതുക."
+      support_ex4: ~
+      irc_channel_link_text: ~
+      support_ex5: "%{wiki_link} ലേക്ക് സംഭാവന ചെയ്യൂ."
+      wiki_link_text: ~
+      run_header: "ഒരു പൊതുവായ പോഡ് നടത്തുക"
+      run_ex1: ~
+      host_pod_link_text: ~
+      run_ex2: ~
+      run_ex3: "%{poduptime} എന്ന തുറന്ന പ്രവേശനമുള്ള പോഡുകളുടെ പട്ടികയിലേക്ക് നിങ്ങളുടെ പോഡ് ചേർക്കുക."
+      contributors_header: "ഡയാസ്പൊറ*ക്ക് സഹായ സഹകരണങ്ങൾ നൽകുന്നവർ"
+      contributors_byline: ~
+      globe_alt: ഭൂഗോളം
+      megaphone_alt: ഉച്ചഭാഷിണി
+      support_alt: പിന്താങ്ങുക
+      pod_alt: പോഡ്
+    blog:
+      headline: ~
+      subline: "ഔദ്യോതീക അറിയിപ്പുകൾ"
+      menu_title: ~
+    planet:
+      headline: ~
+      menu_title: ~
+    tutorials:
+      headline: "ഡയസ്പോറ* പരിശീലനങ്ങൾ"
+      byline: "നിങ്ങൾക്കുവേണ്ടിയുള്ള പടി പടിയായുള്ള സഹായ നിർദേശങ്ങൾ"
+      menu_title: പരിശീലനങ്ങൾ
+      tutorials_ex1: പരിശീലനങ്ങൾ
+      tutorials_ex2: ~
+      started_head: ~
+      started1: ~
+      started2: പ്രവര്‍ത്തിമുഖം
+      started3: ~
+      started4: ~
+      started5: "പങ്കിടൽ തുടങ്ങൂ!"
+      started6: "അറിയിപ്പുകളും സംഭാഷണങ്ങളും"
+      started7: ~
+      part1: "ഭാഗം ൧"
+      part2: "ഭാഗം ൨"
+      part3: "ഭാഗം ൩"
+      part4: "ഭാഗം ൪"
+      part5: "ഭാഗം ൫"
+      part6: "ഭാഗം ൬"
+      part7: "ഭാഗം ൭"
+      additional: "കൂടുതലായുള്ള പരിശീലനങ്ങൾ"
+      connecting: "ഡയസ്പോറ*യെ മറ്റൂ സേവനങ്ങളുമായി ബന്ധിപ്പിക്കുക"
+      tips: സൂത്രപ്പണികൾ
+      formatting: ~
+      more_tutorials: "കൂടുതല്‍ സഹായം വേണോ?"
+      other_docs: ~
+      other_docs_link_text: ~
+      thanks: ~
+    getting_started1:
+      byline: ~
+      menu_title: ~
+      welcome: ~
+      find_pod: ~
+      find_pod_ex1: ~
+      find_pod_ex2: ~
+      find_pod_ex3: ~
+      wiki_link_text: "പോഡ്  തിരഞ്ഞെടുക്കുന്നതിനുള്ള സൂചനകൾ"
+      find_pod_ex4: ~
+      find_pod_ex5: ~
+      registration: "രജിസ്റ്റര്‍ ചെയ്യല്‍"
+      registration1: ~
+      registration2: ~
+      registration3: ~
+      registration4: ~
+      dhq_link_text: ~
+      registration5: ~
+      registration6: ~
+      registration7: ~
+      registration8: ~
+      registration9: ~
+      registration10: ~
+      profile1: ~
+      profile2: ~
+      profile3: ~
+      profile4: ~
+      finish: ഇതാണവസാനം!
+      finish_ex1: ~
+      finish_ex2: ~
+    getting_started2:
+      byline: ~
+      menu_title: ~
+      interface1: ~
+      interface2: ~
+      interface3: ~
+      header: ~
+      header2: ~
+      header3: ~
+      header4: ~
+      header5: ~
+      header6: ~
+      header7: ~
+      header8: ~
+      header9: ~
+      header10: ~
+      header11: "സഹായ വിഭാഗത്തിലേക്കുള്ള ഒരു കണ്ണി;"
+      header12: ~
+      columns: ~
+      column1: ~
+      column2: ~
+      column3: ~
+      views: ~
+      stream: പ്രവാഹം
+      stream_ex: ~
+      stream1: ~
+      stream2: ~
+      stream3: ~
+      stream_ex2: ~
+      activity: "എന്റെ പ്രവൃത്തി"
+      activity_ex: ~
+      mentions: "@സൂചിപ്പക്കലുകൾ"
+      mentions_ex: ~
+      aspects: ~
+      aspects_ex1: ~
+      aspects_ex2: ~
+      tags: ~
+      tags_ex1: ~
+      tags_ex2: ~
+      profile: "നാമാവലി കാഴ്ച"
+      profile_ex1: ~
+      profile_ex2: ~
+      profile_ex3: ~
+      profile_ex4: ~
+      profile_ex5: ~
+      profile_ex6: ~
+      finish: ~
+    getting_started3:
+      byline: ~
+      menu_title: പരിചയങ്ങളെക്കുറിച്ചെല്ലാം
+      aspects1: ~
+      aspects2: ~
+      aspects3: ~
+      aspects4: ~
+      add_aspect1: ~
+      add_aspect2: ~
+      add_aspect3: ~
+      add_aspect4: ~
+      my_aspects1: ~
+      my_aspects2: ~
+      my_aspects3: ~
+      my_aspects4: ~
+      my_aspects5: ~
+      my_aspects6: ~
+      my_aspects7: ~
+      my_aspects8: ~
+      my_aspects9: ~
+      contacts: ~
+      contact_ex1: ~
+      contact_ex3: ~
+      contact_ex4: ~
+      contact_ex5: ~
+      contact_ex6: ~
+      contact_ex7: ~
+      sharing_me: "നിങ്ങളുമായി മാത്രം പങ്ക് വച്ചത്"
+      sharing_me_ex: ~
+      finish: ~
+    getting_started4:
+      byline: ~
+      menu_title: "എങ്ങനെ ആളുകളുമായി ബന്ധിപ്പിക്കാം?"
+      aspects1: ~
+      sharing: പങ്കുവെക്കൽ
+      sharing_ex: ~
+      relationships: ~
+      followers: അനുയായികള്‍
+      followers_ex1: ~
+      followers_ex2: ~
+      followers_ex3: ~
+      following: ~
+      following_ex1: ~
+      following_ex2: ~
+      mutual: "പരസ്‌പരമായ പങ്കുവെക്കൽ"
+      mutual_ex1: ~
+      mutual_ex2: ~
+      mutual_ls1: ~
+      mutual_ls2: ~
+      mutual_ls3: ~
+      mutual_ls4: ~
+      mutual_ex3: ~
+      finding: "ആളുകളെ കണ്ടെത്തല്‍"
+      finding_ex1: ~
+      finding_ex2: ~
+      search: തിരയുക
+      search_ex: ~
+      search_ls1: ~
+      search_ls2: ~
+      search_ls3: ~
+      search_ls4: ~
+      search_ls5: ~
+      search_ls6: ~
+      invite: "ഒരു ക്ഷണക്കത്ത് അയക്കൽ"
+      invite_ex: ~
+      profile: ~
+      profile_ex1: ~
+      profile_ex2: ~
+      tags: ~
+      tags_ex: ~
+      removing: ~
+      removing_ex1: ~
+      removing_ex2: ~
+      removing_ex3: ~
+      removing_ex4: ~
+      removing_ex5: ~
+      finish: ~
+    getting_started5:
+      byline: ~
+      menu_title: "പങ്കിടൽ തുടങ്ങൂ!"
+      intro1: ~
+      intro2: ~
+      publisher: രചയിതാവ്
+      publisher_ex1: ~
+      publisher_ex2: ~
+      publisher_ex3: ~
+      publisher_ex4: ~
+      buttons: ~
+      aspect_selector: ~
+      aspect_selector_ex1: ~
+      aspect_selector_ex2: ~
+      photo: "ചിത്രം പങ്കുവെക്കൽ"
+      photo_ex: ~
+      locator: ~
+      locator_ex1: ~
+      locator_ex2: ~
+      locator_ex3: ~
+      connected: "ബന്ധപ്പെട്ട സേവനങ്ങള്‍"
+      connected_ex1: ~
+      connected_ex2: ~
+      connected_ex3: ~
+      preview: ~
+      preview_ex1: ~
+      preview_ex2: ~
+      features: ~
+      tags: ~
+      tags_ex1: ~
+      tags_ex2: ~
+      tags_ex3: ~
+      mentions: ~
+      mentions_ex1: ~
+      mentions_ex2: ~
+      mentions_ex3: ~
+      format: ~
+      format_ex: ~
+      format_link_text: "ഈ പരിശീലനം"
+      links: കണ്ണികൾ
+      links_ex: ~
+      embed: ~
+      embed_ex1: ~
+      embed_ex2: ~
+      services: ~
+      services_ex1: ~
+      services_ex2: ~
+      services_ex3: ~
+      how: ~
+      try_out: ~
+      make_post1: ~
+      make_post2: ~
+      make_post3: ~
+      interact: ~
+      interact_ex1: ~
+      interact_ex2: ~
+      comments: അഭിപ്രായങ്ങള്‍
+      comments_ex: ~
+      likes: ഇഷ്ട്ടപ്പെടലുകൾ
+      likes_ex1: ~
+      likes_ex2: ~
+      reshare: ~
+      reshare_ex: ~
+      delete: "രചനകളും അഭിപ്രായങ്ങളും നീക്കിക്കളയുന്നു"
+      delete_ex: ~
+      hide: ~
+      hide_ex: ~
+      ignore: ~
+      ignore_ex1: ~
+      ignore_ex2: ~
+      finish: ~
+    getting_started6:
+      byline: ~
+      menu_title: "അറിയിപ്പുകളും സംഭാഷണങ്ങളും"
+      intro: ~
+      notify: അറിയിപ്പുകള്‍
+      notify_ex1: ~
+      notify_ex2: ~
+      notify_ls1: ~
+      notify_ls2: ~
+      notify_ls3: ~
+      notify_ls4: ~
+      notify_ex3: ~
+      convo: സംഭാഷണങ്ങൾ
+      convo_ex1: ~
+      convo_ex2: ~
+      convo_ex3: ~
+      convo_ex4: ~
+      convo_ex5: ~
+      convo_ex6: ~
+      convo_ex7: ~
+      convo_ex8: ~
+      convo_ex9: ~
+      finish: ~
+    getting_started7:
+      byline: ~
+      menu_title: ~
+      intro: ~
+      connect: ~
+      connect_ex1: ~
+      connect_ex2: ~
+      connect_ex3: ~
+      connect_ex4: ~
+      settings: "അക്കൗണ്ട്‌ നടത്തിപ്പ്"
+      settings_ex1: ~
+      settings_ex3: ~
+      profile: പ്രൊഫൈല്‍
+      profile_ex: ~
+      account: അക്കൗണ്ട്
+      account_ex1: ~
+      account_ex2: ~
+      account_ex3: ~
+      account_ex4: ~
+      privacy: സ്വകാര്യത
+      privacy_ex: ~
+      services: സേവനങ്ങൾ
+      services_ex: ~
+      finish1: ~
+      finish2: " കൂടാതെ "
+      finish3: ~
+    formatting:
+      byline: ~
+      menu_title: ~
+      format1: ~
+      format2: ~
+      format3: ~
+      format4: ~
+      headings: ശീർഷകങ്ങൾ
+      headings_ex1: ~
+      headings_code1: "ഇത് വളരെ വലിയ ഒരു ശീർഷകമാണ്"
+      headings_code2: ~
+      headings_code3: "സാധാരണ അക്ഷരത്തേക്കാൾ ഇരട്ടി വലുപ്പം"
+      headings_ex2: ~
+      lists: പട്ടികകൾ
+      lists_ex1: ~
+      lists_ex2: ~
+      lists_ex3: ~
+      lists_code1: "ഒരു ബുള്ളെറ്റ് ലിസ്റ്റ് ഉണ്ടാക്കുന്ന വിധം:"
+      lists_code2: "തരം ഒന്ന്‌;"
+      lists_code3: "തരം രണ്ട്‌;"
+      lists_code4: "തരം മൂന്ന്‌."
+      lists_code5: ~
+      lists_code6: ~
+      code: ~
+      code_ex1: ~
+      code_ex2: ~
+      code_ex3: ~
+      code_code1: ~
+      code_code2: ~
+      code_code3: ~
+      code_code4: ~
+      code_code5: ~
+      line: "തിരശ്ചീന രേഖ"
+      line_ex: ~
+      line_code1: ~
+      line_code2: ~
+      itals: ~
+      itals_ex1: ~
+      itals_ex2: ~
+      itals_ex3: ~
+      itals_ex4: ~
+      itals_ex8: ~
+      links: "അന്തർലീന കണ്ണികൾ"
+      link_ex1: ~
+      link_code: ~
+      link_ex2: ~
+      inline_link_text: "അന്തർലീന കണ്ണി"
+      images: ചിത്രങ്ങൾ
+      images_ex1: ~
+      images_code: ~
+      images_ex2: ~
+      images_ex3: ~
+      escape_ex1: ~
+      escape_code: ~
+      escape_ex2: ~
+      escape_ex3: ~
+      symbols: "പ്രത്യേക ചിഹ്നങ്ങൾ"
+      symbols_ex: ~
+      finish: ~
+      markdown_link_text: "ഈ താളിൽ"
+    tips:
+      headline: ~
+      byline: ~
+      menu_title: ~
+      intro: ~
+      profile: ~
+      profile_ex: ~
+      notepad: ~
+      notepad_ex: ~
+    other_docs:
+      headline: ~
+      byline: ~
+      menu_title: ~
+      intro1: ~
+      intro2: ~
+      tutorials: പരിശീലനങ്ങൾ
+      parfait: ~
+      about: ഡയസ്പോറ*യെപ്പറ്റി
+      about1: ~
+      wiki: ~
+      wiki_link_text: ~
+      wikipedia: ~
+      wikipedia_link_text: ഡയാസ്പുറ_(സോഷ്യൽനെറ്റ്വർക്ക്)
+      wikipedia_software_link_text: ഡയാസ്പുറ_(സോഫ്റ്റ്‌വെയർ)
+      support: "ഉപയോക്തൃ പിന്തുണ"
+      question: ~
+      mail: ~
+      mail_link_text: കത്തുപട്ടിക
+      irc: ~
+      irc_link_text: ~
+      progress: "പദ്ധതി പുരോഗമനം"
+      blog: ~
+      blog_link_text: ~
+      changelog: ~
+      changelog_link_text: ~
+      loomio: ~
+      communication: ആശയവിനിമയം
+      communicate: ~
+      communicate_link_text: ~
+      other: മറ്റിടങ്ങൾ
+      manifesto: ~
+      manifesto_link_text: ~

@@ -1,4 +1,7 @@
 hu:
+  time:
+    formats:
+      blog_headline: ~
   buttons:
     host_pod: "Pod működtetése"
     join_diaspora: Csatlakozz!
@@ -7,10 +10,11 @@ hu:
     footer:
       copyleft: "CC-BY diaspora* Alapítvány"
   title: "diaspora* projekt"
+  newsfeed: ~
   layouts:
     application:
       wiki: Wiki
-      planet: ~
+      planet: Bolygó
       useful_resources: "Hasznos segédanyagok"
       codebase: Kódbázis
       documentation: Dokumentáció
@@ -20,56 +24,57 @@ hu:
       discussion_general: "Általános fórum"
       discussion_development: "Fejlesztői fórum"
       choose_language: "Nyelv választása"
+      translate: ~
       cc_license_alt: "Creative Commons licensz"
-      licensed_under: ~
-      license_link_text: ~
+      licensed_under: "A %{site_link} %{license_link} licensz alatt van."
+      license_link_text: "Creative Commons Nevezd meg! 3.0 Unported"
   pages:
     index:
       headline: "A diaspora* üdvözöl!"
-      byline: "Az online közösségi hálózat, ahol te irányítasz."
+      byline: "Az online közösség, ahol tiéd az irányítás."
       register: Regisztráció
       key_philosophies: "A diaspora* három kulcsfontosságú elven alapszik:"
       decentralization: Decentralizáció
-      decentralization_about: ~
+      decentralization_about: "Mamutcégek által birtokolt központi szerverek helyett kis, helyi szerverek (\"podok\") is tárolhatják adatainkat bárhol a világon. Te döntöd el, hogy melyik podra regisztrálsz (ami akár a sajátod is lehet), hogy a diaspora* világméretű közösségéhez csatlakozz."
       freedom: Szabadság
-      freedom_about: ~
+      freedom_about: "A diasporán* belül az lehetsz, aki csak akarsz. Más hálózatokkal ellentétben itt nem kell felfedned valódi személyedet. Bárkivel, bármilyen módon kapcsolatba léphetsz. Mindennek csupán a képzeleted szab határt. A diaspora* Szabad Szoftver, ezért felhasználása tetszőleges."
       privacy: Adatvédelem
-      privacy_about: ~
+      privacy_about: "A diasporán* te birtoklod az adataid. Nem ruházol át semmilyen jogot cégekre, vagy bárki másra, aki ebből hasznot húzhatna. A diasporán* barátaid, szokásaid és az általad megosztott tartalmak csak rád tartoznak, nem ránk! Továbbá az aspektusok használatával te döntöd el, hogy ki láthatja azt, amit megosztottál."
       get_started: Kipróbálnád?
       get_started_sub: "Egyszerű, mint háromig számolni..."
       choose_pod: "1. Válassz podot!"
-      choose_pod_exp: ~
+      choose_pod_exp: "Találj egy számodra megfelelő podot, ami talán kicsi, esetleg közel van hozzád, vagy éppen olyan országban működik, melynek adatvédelmi törvényeiben megbízol. A választás a tiéd! Keress egyet a közösség nyilvános podjai között, esetleg egy hozzád közel működőt."
       sign_up: "2. Regisztrálj!"
-      sign_up_ex: ~
-      join_convo: "3. Kapcsolódj másokhoz!"
-      join_convo_ex: ~
-      aspects: ~
-      aspects_ex: ~
-      features: ~
-      features_ex: ~
+      sign_up_ex: "Ha eldöntötted, melyik pod a legmegfelelőbb számodra (a %{poduptime} értékeléseinek segítségével vagy esetleg ismerőseid ajánlása alapján), akkor regisztrálj ott és töltsd ki az adatlapod olyan sok vagy éppen olyan kevés személyes adattal, amennyivel szeretnéd. Rajtad áll, hogy mennyit fedsz fel magadról."
+      join_convo: "3. Beszélgess másokkal!"
+      join_convo_ex: "Kövesd az érdeklődési köreidnek megfelelő #címkéket, ami lehet <span class=\"click\">#zene</span>, <span class=\"click\">#fotózás</span>, <span class=\"click\">#adatvédelem</span> vagy <span class=\"click\">#linux</span> is - bármi, ami érdekel. Bemutatkozhatsz nyilvánosan is az <span class=\"click\">#újvagyok</span> címke használatával. Innentől fogva te is a nyüzsgő diaspora* közösség része leszel."
+      aspects: Aspektusok
+      aspects_ex: "A diaspora* fejlesztette ki az aspektusokat, melyek segítségével az életedben betöltött szerepük alapján oszthatod csoportokba ismerőseidet. Dönthetsz úgy, hogy valamit csak családtagjaiddal vagy kollégáiddal osztasz meg, tudván, hogy illetéktelen szemek nem fogják látni."
+      features: Funkciók
+      features_ex: "A #címkékkel könnyedén megjelölheted és követheted is az érdeklődési köreidbe tartozó tartalmakat. Mások @említésével felhívhatod a figyelmüket valamire. Továbbosztással az ismerőseid is láthatnak és kommentálhatnak neked tetsző tartalmakat! Mások munkájának elismerésére pedig a ♥ a legjobb eszköz."
       help: Segítenél?
-      help_ex: ~
-      socialint: ~
-      socialint_ex: ~
-      earth_alt: ~
+      help_ex: "A diasporának* szüksége van kódírókra és tesztelőkre, valamint olyanokra, akik üdvözlik és segítik az új tagokat, közösségi podokat működtetnek és megismertetik a diaspora* előnyeit az érdeklődőkkel. Szeretnél a projektben segíteni?"
+      socialint: "Integráció más hálózatokkal"
+      socialint_ex: "Használd a diasporát* fő hálózatodként, ahonnan a többi közösségi hálózatra is megosztod a tartalmakat. Így azon barátaid is követhetnek téged, akik egyébként nem a diaspora* tagjai. A diaspora* jelenleg a Facebook, Twitter és Tumblr fiókjaidat tudja kezelni, a támogatott hálózatok köre azonban hamarosan tovább bővül."
+      earth_alt: Earthd*
       decentralized_alt: Decentralizált
-      freedom_alt: ~
-      keyhole_alt: Szabadság
-      aspects_alt: ~
+      freedom_alt: Szabadság
+      keyhole_alt: Kulcslyuk
+      aspects_alt: Aspektusok
       features_alt: Funkciók
       ways_to_help_alt: "Hogyan segíthetsz"
       services_alt: Szolgáltatások
     about:
-      headline: "Hogyan működik a disapora*?"
+      headline: "Hogyan működik a diaspora*?"
       byline: "A diaspora* használata egyszerű:"
       menu_title: Ismertető
       decentralize: "Mit jelent a decentralizáció?"
-      decentralize_ex: "A diaspora* teljesen más mint a legtöbb hálózati szolgáltatás, amelyet használsz. Teljesen decentralizált, tehát nem egy központi szerver irányítja. Ennek ellenére pofonegyszerű másokkal kapcsolatba lépni."
+      decentralize_ex: "A diaspora* nagy mértékben különbözik a legtöbb hálózattól, amelyet használsz. Teljesen decentralizált, tehát nem egy központi szerver irányítja. Ennek ellenére pofonegyszerű másokkal kapcsolatba lépni."
       this: EZT
       this_ex: "A diaspora* egy valódi hálózat, központi szerver nélkül. A hálózatot alkotó szerverek, az ún. \"podok\", a világ különböző pontjain működnek, és a hozzájuk regisztrált felhasználók adatait tartalmazzák csak. A podok viszont kommunikálnak egymással, így bármelyikre regisztrálhatsz, mivel minden ismerősöddel tartani tudod a kapcsolatot, függetlenül attól, hogy ők melyik szervert használják."
       notthis: "EZT NEM"
       notthis_ex: "A legtöbb közösségi hálózatot egyetlen cég által birtokolt, központosított szerverek sokasága üzemelteti. Ezek a szerverek tárolják a felhasználók összes személyes adatát. Ezek azonban elveszhetnek vagy egy betörés során illetéktelen személyek kezébe kerülhetnek, s mint minden szűk keresztmetszetű rendszernél, a központi szervereknél fellépő bármilyen probléma az egész hálózatot lelassíthatja vagy akár teljesen elérhetetlenné teheti. Továbbá az egyes kormányszerveknek is sokkal könnyebb \"hallgatózni\"."
-      discl: ~
+      discl: "(a diaspora* nyílt internetes szabványokat használ, mint például a %{pubsubhubub} és a %{webfinger}, hogy ezt a fajta kapcsolatot lehetővé tegye)"
       connect: "Hogyan kapcsolódhatsz másokhoz?"
       connect_ex: "Habár a diaspora* a világ különböző pontjain lévő szerverekből áll össze, mégis egy egységes hálózatként működik. Nem szükséges, hogy ismerőseiddel ugyanazt a podot használjátok a kapcsolattartáshoz - a kommunikáció egységesen működik a teljes diaspora* univerzumban. A diaspora* használata közben meg is feledkezhetsz róla, hogy ez különálló szerverek sokasága. Kapcsolatba lépni valakivel a diaspora* hálózatán rendkívül egyszerű: "
       find: "1. Találd meg őket!"
@@ -85,12 +90,12 @@ hu:
       fdm3: "Szabad minden tekintetben"
       fdm3_ex: "A diaspora* teljes mértékben Szabad Szoftver. Ez azt jelenti, hogy használatának nincsenek korlátai. Még a forráskódhoz is hozzáférhetsz és módosíthatod, hogy neked megfelelően működjön, vagy hogy segíts nekünk a hálózat tökéletesítésében. Tárt karokkal várunk!"
       privacy: Adatvédelem
-      privacy_byline: "Te uralkodsz az adataid felett "
-      priv1: "Birtokold saját adataid!"
+      privacy_byline: "Teljes ellenőrzés afelett, ami a tiéd "
+      priv1: "Adataid birtokosa te vagy"
       priv1_ex: "Sok közösségi hálózat abból profitál, hogy kielemzi online tevékenységed és ez alapján céloz meg hirdetésekkel. A diaspora* viszont kizárólag csak arra használja az adataid, hogy kapcsolatba léphess másokkal és tartalmat oszthass meg velük."
-      priv2: "Tárold te az adataid!"
+      priv2: "Te is tárolhatod adataid"
       priv2_ex: "Döntsd el te, hogy hol tárolod adataid egy számodra megfelelő pod kiválasztásával. Ha igazán biztosra szeretnél menni, te is tudsz podot működteti a saját szervereiden, így biztosítva azt, hogy más nem férhet hozzá az adataidhoz."
-      priv3: "Dönts a hallgatóságodról!"
+      priv3: "Közönségedet te választod meg"
       priv3_ex: "A diaspora* aspektusok segítenek abban, hogy csak bizonyos személyekkel oszthass meg valamit. Annyira lehetsz publikus vagy titkolózó, amennyire csak szeretnél. Ossz meg egy vicces fotót az egész világgal, vagy egy komoly titkot csupán a legközelebbi barátaiddal."
       aspects: "Az aspektusokról"
       aspects_byline: "A diaspora* adatvédelmének kulcsa"
@@ -106,10 +111,10 @@ hu:
       hashtags_ex: "A címkék segítségével megjelölhetsz és követhetsz minden témát, ami téged érdekel. Továbbá segítenek abban is, hogy a gondolataid azonos érdeklődésű embereket érjen el. Nem utolsó sorban pedig a címkék által vicces és érdekes, új ismerősökre tehetsz szert."
       reshare: Továbbosztás
       reshare_ex: "Miért is ne osztanál meg egy általad kedvelt tartalmat másokkal? A diaspora* egyszerűvé teszi a jó gondolatok terjesztését a továbbosztás funkcióval. Csak egy gombnyomásnyira van bármely üzenet megosztása."
-      mentions: Hivatkozások
-      mentions_ex: "Szeretnéd felhívni valaki figyelmét? Csak @hivatkozz rá! Ez egy egyszerű módja annak, hogy egy ismerősöd figyelmét valamilyen fontos információra irányítsd."
+      mentions: Említés
+      mentions_ex: "Szeretnéd felhívni valaki figyelmét? Csak @említsd meg a nevét! Ez egy egyszerű módja annak, hogy ismerősöd figyelmét egy számára is fontos információra irányítsd."
       love: Szeress!
-      love_ex: "Mutasd ki a ♥-eted, ha kedvelsz és értékelsz valamit. Mert néha nem lehet szavakkal leírni, amit érzel."
+      love_ex: "Mutasd ki a ♥-eted, ha kedvelsz és értékelsz valamit! Mert néha nem lehet szavakkal leírni, amit érzel."
       host: "Üzemeltess közösségi podot!"
       host_byline: "Légy te is a diaspora* egyik csillaga!"
       host_ex: "A diaspora* saját közösségének tagjaitól függ olyan podok működtetésében, melyek nyitottak minden érdeklődő számára. Ha van szabad szerverkapacitásod és egy kevés technikai tudásod, akkor nagyon örülnénk neki, ha megnyitnál egy podot szabad regisztrációval. Minél több pod létezik, annál jobban működik a diaspora* is - légy a decentralizált közösségi háló jövőjének részese!"
@@ -122,64 +127,64 @@ hu:
       add_a_contact_alt: Kapcsolatfelvétel
       hashtag_alt: Címke
       reshare_alt: Továbbosztás
-      mention_alt: Hivatkozás
-      heart_alt: ~
+      mention_alt: Említés
+      heart_alt: Szeretet
     get_involved:
       headline: Segíts!
       byline: "A közösségi háló jövője veled kezdődik"
       menu_title: Segíts!
       community: "Közösségben az erő"
-      community_byline: "A diaspora* hozzád is tartozik"
+      community_byline: "A diaspora* a tiéd is"
       meaning: "Mit jelent mindez?"
       meaning_ex1: "A Szabad Szoftver lényege az egyediség, átláthatóság, kreativitás és egy cél. Egy ötlet megvalósításáról szól. A diaspora* azért jött létre, hogy szenvedélyünk segítségével egy jobb hellyé tegyük az internetet. Szabad Szoftverrel a magunk javára változtathatjuk meg a világot, s ebből barátaink is szerte a világhálón részesülhetnek."
-      meaning_ex2: ~
-      meaning_ex3: ~
+      meaning_ex2: "A Szabad Szoftver közösségek csodálatosak. Mi, a diaspora* tagjai hisszük, hogy megbecsülés jár a tagjainak azért, amit tesznek. Nem számít, hogy kódkirály vagy hasonló projektben csupán először résztvevő személy vagy. A diaspora* felépítése komoly problémák megoldásával jár, a felhasználók igényeinek szem előtt tartásával."
+      meaning_ex3: "Ha érdemben segíted a diaspora* fejlesztését, akkor a legmagasabb szintű hozzáférést biztosítjuk a kódbázishoz számodra. Mi mind együtt dolgozunk, s szeretnénk a lelkes segítőknek lehetőséget biztosítani nagy változások véghezvitelére."
       whereyou: "Itt jössz a képbe..."
-      whereyou_ex1: ~
-      whereyou_ex2: ~
+      whereyou_ex1: "A diaspora* mindannyiunk műve. Talán még nem ismerünk, de szeretnénk megismerni és kitalálni, hogyan lehetsz a csapat része, amely a világháló jövőjét építi."
+      whereyou_ex2: "A diaspora* fejlesztésének számtalan formája van. Akár egy hibákat kereső felhasználó vagy, aki a levelezőlistán keresztül segít bennünket, akár kódíró vagy grafikus: szükségünk van rád!"
       gi_header: "Így segíthetsz a diaspora* projektben:"
       code_header: Kódírással
       code_byline: "A forráskódhoz való hozzájutás egyszerű."
-      code_ex1: ~
-      code_ex2: ~
-      code_ex3: ~
-      code_ex4: ~
-      get_started_guide_link_text: ~
-      mailing_list_link_text: ~
-      irc_link_text: ~
+      code_ex1: "Készíts másolatot a kódbázisról és kutakodj benne: %{clone_code}"
+      code_ex2: "Útmutató a fejlesztői környezet beállításához"
+      code_ex3: "Kezdj kódot írni!"
+      code_ex4: "Közösségünk mindig készen áll, hogy segítségedre legyen a következő helyeken: %{get_started_guide_link}, %{mailing_list_link}, %{irc_link}."
+      get_started_guide_link_text: "Útmutató az első lépésekhez"
+      mailing_list_link_text: levelezőlista
+      irc_link_text: "diaspora* IRC szoba"
       code_gh: "Forráskód megtekintése a GitHubon"
       bugs_header: Hibajavítással
-      bugs_ex1: ~
-      bugs_ex2: ~
-      bugs_ex3: ~
-      github_link_text: ~
+      bugs_ex1: "Projektünk a Code Triage szolgáltatását használja, amellyel önkéntes felhasználók és fejlesztők együtt dolgoznak a kódbázisban fellelhető hibákon: %{github_link}."
+      bugs_ex2: "A kisebb hibák javítása is mindenki javára válik, és az újonnan érkezőknek ez remek bevezetést nyújt a diaspora* egyes részeinek működésébe."
+      bugs_ex3: "Segíts a hibák kigyomlálásában!"
+      github_link_text: "GitHub feladatlista"
       translate_header: Fordítással
-      translate_ex1: ~
-      translations_link_text: ~
-      translate_ex2: ~
-      translation_instructions_link_text: ~
+      translate_ex1: "Csatlakozz itt, ha szeretnéd a diaspora* oldalait más nyelvekre lefordítani: %{translations_link}."
+      translations_link_text: "Fordító Csoport"
+      translate_ex2: "Az első lépésekről itt olvashatsz: %{translation_instructions_link}."
+      translation_instructions_link_text: "fordítási irányelvek "
       voice_header: Véleményformálással
-      voice_ex1: ~
-      voice_ex2: "Csatlakozz ott hozzánk!"
-      voice_ex3: ~
-      meetup_link_text: ~
+      voice_ex1: "A projektet kizárólag önkéntesek működtetik. Az egyes ötletek és javaslatok elfogadottságát a Loomio nevű eszközzel mérjük fel. "
+      voice_ex2: "Itt csatlakozhatsz a csoporthoz"
+      voice_ex3: "Egy diaspora* %{meetup_link} szervezésével a saját közösségedben csatlakozásra inspirálhatod barátaid, családtagjaid."
+      meetup_link_text: találkozó
       support_header: "Mások kisegítésével"
       support_ex1: "Segítsd az új felhasználókat!"
-      support_ex2: "Regisztráció itt"
-      support_ex3: ~
-      support_ex4: ~
+      support_ex2: "További információk itt találhatók"
+      support_ex3: "Írj felhasználói útmutatókat a %{tutorials_link} oldalain!"
+      support_ex4: "Az %{irc_channel_link} kiváló hely a többi felhasználó kérdéseinek megválaszolására, továbbá követheted a <span class=\"click\">#segítség</span>, <span class=\"click\">#kérdés</span> és <span class=\"click\">#visszajelzés</span> címkéket is (a címkék angol megfelelője sorrendben a következő: <span class=\"click\">#help</span>, <span class=\"click\">#question</span>, <span class=\"click\">#feedback</span>)."
       irc_channel_link_text: "IRC szoba"
-      support_ex5: ~
+      support_ex5: "Bővítsd a %{wiki_link} tartalmát!"
       wiki_link_text: "diaspora* wiki"
       run_header: "Közösségi pod működtetésével"
-      run_ex1: ~
-      host_pod_link_text: ~
-      run_ex2: ~
-      run_ex3: ~
+      run_ex1: "Mostantól nem kell beletörődnöd, hogy más tárolja az adataid. Mivel a diaspora* teljesen szabad szoftver, folyamatosan törekszünk arra, hogy mindenki számára egyszerűbbé váljon egy %{host_pod_link}."
+      host_pod_link_text: "diaspora* pod kiszolgálása"
+      run_ex2: "Bárhol felállíthatsz egy pod szervert."
+      run_ex3: "Add hozzá a nyilvános podok listájához: %{poduptime}"
       contributors_header: "A diaspora* közreműködői"
       contributors_byline: "Emberek, akiktől a diaspora* azzá vált, ami."
-      globe_alt: ~
-      megaphone_alt: ~
+      globe_alt: Bolygó
+      megaphone_alt: Megafon
       support_alt: Támogatás
       pod_alt: Pod
     blog:
@@ -187,5 +192,410 @@ hu:
       subline: "hivatalos bejelentések"
       menu_title: Blog
     planet:
-      headline: ~
+      headline: Bolygó
+      menu_title: Bolygó
+    tutorials:
+      headline: "diaspora* útmutatók"
+      byline: "Segítség lépésről lépésre"
+      menu_title: Útmutatók
+      tutorials_ex1: "Üdvözlünk a diaspora* útmutatóinak listáján! Ezen az oldalon gyűjtöttünk össze minden diaspora* útmutatót, amelyek vagy a \"Kezdeti lépések\" sorozat részei, vagy különálló útmutatók egy-egy adott feladathoz kapcsolódóan. Ha új vagy a diasporán* vagy esetleg még nem is csatlakoztál, akkor javasoljuk, hogy olvasd el a \"Kezdeti lépések\" részt. Ha az alapoknál többet szeretnél tudni, akkor kukkants bele a további útmutatókba is!"
+      tutorials_ex2: ~
+      started_head: "Kezdeti lépések"
+      started1: Regisztráció
+      started2: "A kezelőfelület"
+      started3: Aspektusok
+      started4: "Kapcsolatba lépés másokkal"
+      started5: "Tartalmak megosztása"
+      started6: "Értesítések és társalgások"
+      started7: "Végül pedig..."
+      part1: "1. rész"
+      part2: "2. rész"
+      part3: "3. rész"
+      part4: "4. rész"
+      part5: "5. rész"
+      part6: "6. rész"
+      part7: "7. rész"
+      additional: "További ismertetők"
+      connecting: "A diaspora* összekötése más szolgáltatásokkal"
+      tips: "Tippek és trükkök"
+      formatting: Szövegformázás
+      more_tutorials: "Több segítségre van szükséged?"
+      other_docs: "Az %{other_docs_link} oldalán további forrásokat találhatsz."
+      other_docs_link_text: "egyéb dokumentumok"
+      thanks: ~
+    getting_started1:
+      byline: ~
       menu_title: ~
+      welcome: ~
+      find_pod: ~
+      find_pod_ex1: ~
+      find_pod_ex2: ~
+      find_pod_ex3: ~
+      wiki_link_text: ~
+      find_pod_ex4: ~
+      find_pod_ex5: ~
+      registration: ~
+      registration1: ~
+      registration2: ~
+      registration3: ~
+      registration4: ~
+      dhq_link_text: ~
+      registration5: ~
+      registration6: ~
+      registration7: ~
+      registration8: ~
+      registration9: ~
+      registration10: "<span class=\"click\">Irány a diaspora*!</span>"
+      profile1: ~
+      profile2: ~
+      profile3: ~
+      profile4: ~
+      finish: ~
+      finish_ex1: ~
+      finish_ex2: ~
+    getting_started2:
+      byline: ~
+      menu_title: ~
+      interface1: ~
+      interface2: ~
+      interface3: ~
+      header: ~
+      header2: ~
+      header3: ~
+      header4: ~
+      header5: ~
+      header6: ~
+      header7: ~
+      header8: ~
+      header9: ~
+      header10: ~
+      header11: ~
+      header12: ~
+      columns: ~
+      column1: ~
+      column2: ~
+      column3: ~
+      views: ~
+      stream: ~
+      stream_ex: ~
+      stream1: ~
+      stream2: ~
+      stream3: ~
+      stream_ex2: ~
+      activity: ~
+      activity_ex: ~
+      mentions: ~
+      mentions_ex: ~
+      aspects: ~
+      aspects_ex1: ~
+      aspects_ex2: ~
+      tags: "#követett címkék"
+      tags_ex1: ~
+      tags_ex2: ~
+      profile: "Adatlap megtekintése"
+      profile_ex1: ~
+      profile_ex2: ~
+      profile_ex3: ~
+      profile_ex4: ~
+      profile_ex5: ~
+      profile_ex6: ~
+      finish: ~
+    getting_started3:
+      byline: ~
+      menu_title: "Mindent az aspektusokról"
+      aspects1: ~
+      aspects2: ~
+      aspects3: ~
+      aspects4: ~
+      add_aspect1: ~
+      add_aspect2: ~
+      add_aspect3: ~
+      add_aspect4: ~
+      my_aspects1: ~
+      my_aspects2: ~
+      my_aspects3: ~
+      my_aspects4: ~
+      my_aspects5: ~
+      my_aspects6: ~
+      my_aspects7: ~
+      my_aspects8: ~
+      my_aspects9: ~
+      contacts: "Kapcsolatok oldala"
+      contact_ex1: ~
+      contact_ex3: ~
+      contact_ex4: ~
+      contact_ex5: ~
+      contact_ex6: ~
+      contact_ex7: ~
+      sharing_me: ~
+      sharing_me_ex: ~
+      finish: ~
+    getting_started4:
+      byline: ~
+      menu_title: ~
+      aspects1: ~
+      sharing: ~
+      sharing_ex: ~
+      relationships: ~
+      followers: Követők
+      followers_ex1: ~
+      followers_ex2: ~
+      followers_ex3: ~
+      following: Követettek
+      following_ex1: ~
+      following_ex2: ~
+      mutual: "Kölcsönös megosztás"
+      mutual_ex1: ~
+      mutual_ex2: ~
+      mutual_ls1: ~
+      mutual_ls2: ~
+      mutual_ls3: ~
+      mutual_ls4: ~
+      mutual_ex3: ~
+      finding: ~
+      finding_ex1: ~
+      finding_ex2: ~
+      search: Keresés
+      search_ex: ~
+      search_ls1: ~
+      search_ls2: ~
+      search_ls3: ~
+      search_ls4: ~
+      search_ls5: ~
+      search_ls6: ~
+      invite: "Meghívólevél küldése"
+      invite_ex: ~
+      profile: ~
+      profile_ex1: ~
+      profile_ex2: ~
+      tags: "#Címkék követése"
+      tags_ex: ~
+      removing: ~
+      removing_ex1: ~
+      removing_ex2: ~
+      removing_ex3: ~
+      removing_ex4: ~
+      removing_ex5: ~
+      finish: ~
+    getting_started5:
+      byline: ~
+      menu_title: ~
+      intro1: ~
+      intro2: ~
+      publisher: ~
+      publisher_ex1: ~
+      publisher_ex2: ~
+      publisher_ex3: ~
+      publisher_ex4: ~
+      buttons: ~
+      aspect_selector: ~
+      aspect_selector_ex1: ~
+      aspect_selector_ex2: ~
+      photo: "Fotók megosztása"
+      photo_ex: ~
+      locator: ~
+      locator_ex1: ~
+      locator_ex2: ~
+      locator_ex3: ~
+      connected: ~
+      connected_ex1: ~
+      connected_ex2: ~
+      connected_ex3: ~
+      preview: "Bejegyzés előnézete"
+      preview_ex1: ~
+      preview_ex2: ~
+      features: ~
+      tags: "#címkék"
+      tags_ex1: ~
+      tags_ex2: ~
+      tags_ex3: ~
+      mentions: "@említések"
+      mentions_ex1: ~
+      mentions_ex2: ~
+      mentions_ex3: ~
+      format: Szövegformázás
+      format_ex: ~
+      format_link_text: ~
+      links: Hivatkozások
+      links_ex: ~
+      embed: Beágyazás
+      embed_ex1: ~
+      embed_ex2: ~
+      services: ~
+      services_ex1: ~
+      services_ex2: ~
+      services_ex3: ~
+      how: ~
+      try_out: ~
+      make_post1: ~
+      make_post2: ~
+      make_post3: ~
+      interact: ~
+      interact_ex1: ~
+      interact_ex2: ~
+      comments: ~
+      comments_ex: ~
+      likes: ~
+      likes_ex1: ~
+      likes_ex2: ~
+      reshare: ~
+      reshare_ex: ~
+      delete: ~
+      delete_ex: ~
+      hide: ~
+      hide_ex: ~
+      ignore: ~
+      ignore_ex1: ~
+      ignore_ex2: ~
+      finish: ~
+    getting_started6:
+      byline: ~
+      menu_title: ~
+      intro: ~
+      notify: ~
+      notify_ex1: ~
+      notify_ex2: ~
+      notify_ls1: ~
+      notify_ls2: ~
+      notify_ls3: ~
+      notify_ls4: ~
+      notify_ex3: ~
+      convo: ~
+      convo_ex1: ~
+      convo_ex2: ~
+      convo_ex3: ~
+      convo_ex4: ~
+      convo_ex5: ~
+      convo_ex6: ~
+      convo_ex7: ~
+      convo_ex8: ~
+      convo_ex9: ~
+      finish: ~
+    getting_started7:
+      byline: ~
+      menu_title: ~
+      intro: ~
+      connect: ~
+      connect_ex1: ~
+      connect_ex2: ~
+      connect_ex3: ~
+      connect_ex4: ~
+      settings: ~
+      settings_ex1: ~
+      settings_ex3: ~
+      profile: ~
+      profile_ex: ~
+      account: ~
+      account_ex1: ~
+      account_ex2: ~
+      account_ex3: ~
+      account_ex4: ~
+      privacy: ~
+      privacy_ex: ~
+      services: ~
+      services_ex: ~
+      finish1: ~
+      finish2: ~
+      finish3: ~
+    formatting:
+      byline: ~
+      menu_title: ~
+      format1: ~
+      format2: ~
+      format3: ~
+      format4: ~
+      headings: ~
+      headings_ex1: ~
+      headings_code1: ~
+      headings_code2: ~
+      headings_code3: ~
+      headings_ex2: ~
+      lists: ~
+      lists_ex1: ~
+      lists_ex2: ~
+      lists_ex3: ~
+      lists_code1: ~
+      lists_code2: ~
+      lists_code3: ~
+      lists_code4: ~
+      lists_code5: ~
+      lists_code6: ~
+      code: ~
+      code_ex1: ~
+      code_ex2: ~
+      code_ex3: ~
+      code_code1: ~
+      code_code2: ~
+      code_code3: ~
+      code_code4: ~
+      code_code5: ~
+      line: ~
+      line_ex: ~
+      line_code1: ~
+      line_code2: ~
+      itals: ~
+      itals_ex1: ~
+      itals_ex2: ~
+      itals_ex3: ~
+      itals_ex4: ~
+      itals_ex8: ~
+      links: ~
+      link_ex1: ~
+      link_code: ~
+      link_ex2: ~
+      inline_link_text: ~
+      images: ~
+      images_ex1: ~
+      images_code: ~
+      images_ex2: ~
+      images_ex3: ~
+      escape_ex1: ~
+      escape_code: ~
+      escape_ex2: ~
+      escape_ex3: ~
+      symbols: ~
+      symbols_ex: ~
+      finish: ~
+      markdown_link_text: ~
+    tips:
+      headline: ~
+      byline: ~
+      menu_title: ~
+      intro: ~
+      profile: ~
+      profile_ex: ~
+      notepad: ~
+      notepad_ex: ~
+    other_docs:
+      headline: ~
+      byline: ~
+      menu_title: ~
+      intro1: ~
+      intro2: ~
+      tutorials: ~
+      parfait: ~
+      about: ~
+      about1: ~
+      wiki: ~
+      wiki_link_text: ~
+      wikipedia: ~
+      wikipedia_link_text: ~
+      wikipedia_software_link_text: ~
+      support: ~
+      question: ~
+      mail: ~
+      mail_link_text: ~
+      irc: ~
+      irc_link_text: ~
+      progress: ~
+      blog: ~
+      blog_link_text: ~
+      changelog: ~
+      changelog_link_text: ~
+      loomio: ~
+      communication: ~
+      communicate: ~
+      communicate_link_text: ~
+      other: ~
+      manifesto: ~
+      manifesto_link_text: ~

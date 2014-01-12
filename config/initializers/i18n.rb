@@ -1,11 +1,37 @@
 # encoding: utf-8
 AVAILABLE_LOCALES = {
+  af: "Afrikaans",
+  bg: "български език",
+  cs: "Čeština",
+  da: "Dansk",
   de: "Deutsch",
   el: "Ελληνικά",
   en: "English",
+  eo: "Esperanto",
+  es: "Castellano",
+  :'es-AR' => "Castellano - Argentina",
+  fi: "Suomi",
   fr: "Français",
+  he: "עברית",
+  hu: "magyar nyelv",
+  ia: "Interlingua",
+  id: "Bahasa Indonesia",
+  it: "Italiano",
+  mk: "македонски",
+  ml: "മലയാളം",
+  nb: "Norske",
   nl: "Nederlands",
+  nn: "Nynorsk",
+  pl: "polski",
   :'pt-BR' => "Português (Brasil)",
+  :'pt-PT' => "Português (Portugal)",
+  ro: "Română",
+  ru: "Русский",
+  sk: "Slovenčina",
+  sv: "Svenska",
+  :'sv-FI' => "Svenska (Finland)",
+  ta: "தமிழ்",
+  tr: "Türk"
 }
 
 I18n.default_locale = :en
