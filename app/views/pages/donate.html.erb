@@ -1,0 +1,35 @@
+<div id="masthead" class="hero">
+  <div class="container">
+    <h1><%= t '.headline' %></h1>
+    <h2><%= t '.byline' %></h2>
+  </div>
+</div>
+
+
+<div class="donation-info container">
+	<div class="span16">
+		<p><%= t('.donate1') %></p>
+		<p><%= t('.donate2', fssn_link: link_to(t('.fssn_link_text'), "http://freesoftwaresupport.net/"), eben_link: link_to(t('.eben_link_text'), "http://en.wikipedia.org/wiki/Eben_Moglen"), sflc_link: link_to(t('.sflc_link_text'), "http://softwarefreedom.org")).html_safe %></p>
+		<p><%= t('.donate3') %></p>
+
+	</div>
+</div>
+
+<div class="donation-widget">
+	<div class="container">
+		<div class="span16 center"
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post"
+			target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="DWCD6E5578GJJ">
+			<input type="image"
+			src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
+			border="0" name="submit" alt="PayPal - The safer, easier way to pay
+			online!">
+			<img alt="" border="0"
+			src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1"
+			height="1">
+			</form>
+		</div>
+	</div>
+</div>

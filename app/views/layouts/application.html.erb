@@ -29,6 +29,7 @@
               <li><%= link_to t('.wiki'), 'https://wiki.diasporafoundation.org' %></li>
               <li><%= link_to t('pages.tutorials.menu_title'), tutorials_url(subdomain: false) %></li>
               <!-- <li><%= link_to t('.planet'), 'http://planet.diasporafoundation.org' %></li> -->
+              <li><%= link_to t('pages.donate.menu_title'), donate_url(subdomain: false) %></li>
             </ul>
             <%= link_to t('buttons.host_pod'), about_url(subdomain: false, anchor: "host"), class: 'btn primary' %>
             <%= link_to t('buttons.join_diaspora'), root_url(subdomain: false, anchor: "get_started"), class: 'btn success' %>
