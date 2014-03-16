@@ -1,78 +1,78 @@
-nn:
+te:
   time:
     formats:
       blog_headline: ~
   buttons:
-    host_pod: "Driv ein pod"
-    join_diaspora: "Bli med!"
-    find_more: "Finn ut meir »"
+    host_pod: ~
+    join_diaspora: "మాలో చేరండి!"
+    find_more: ~
   meta:
     footer:
       copyleft: ~
-  title: Diaspora*-prosjektet
+  title: "డయాస్పోరా* పరియోజన"
   newsfeed: ~
   layouts:
     application:
-      wiki: ~
+      wiki: వికీ
       planet: ~
-      useful_resources: ~
+      useful_resources: "ఉపయోగపడే వనరులు"
       codebase: ~
-      documentation: ~
+      documentation: పత్రీకరణ
       report_bugs: ~
       irc_general: ~
       irc_development: ~
-      discussion_general: ~
+      discussion_general: "చర్చ - సాధారణం"
       discussion_development: ~
-      choose_language: ~
-      translate: ~
-      cc_license_alt: ~
+      choose_language: "భాషను ఎంచుకోండి"
+      translate: "ఒక అనువాదాన్ని జోడించండి"
+      cc_license_alt: "క్రియేటివ్ కామన్స్ లైసెన్స్"
       licensed_under: ~
       license_link_text: ~
   pages:
     index:
-      headline: "Velkomen til diaspora*"
+      headline: "డయాస్పోరా*కు స్వాగతం"
       byline: ~
-      register: ~
-      key_philosophies: ~
-      decentralization: ~
+      register: "నమోదవ్వండి »"
+      key_philosophies: "డయాస్పోరా* మూడు కీలక తత్త్వాల పై ఆధారపడివుంది:"
+      decentralization: వికేంద్రీకరణ
       decentralization_about: ~
-      freedom: ~
+      freedom: స్వేచ్ఛ
       freedom_about: ~
-      privacy: ~
+      privacy: గోప్యత
       privacy_about: ~
-      get_started: ~
+      get_started: మొదలుపెట్టాలనుకుంటున్నారా?
       get_started_sub: ~
-      choose_pod: ~
+      choose_pod: "౧. ఒక పోడ్‌ని ఎంచుకోండి"
       choose_pod_exp: ~
-      sign_up: ~
+      sign_up: "౨. నమోదుకండి"
       sign_up_ex: ~
-      join_convo: ~
+      join_convo: "సంభాషణలో చేరండి!"
       join_convo_ex: ~
-      aspects: ~
+      aspects: కోణాలు
       aspects_ex: ~
-      features: ~
+      features: విశిష్టతలు
       features_ex: ~
-      help: ~
+      help: "సహాయం చేయాలనుకుంటున్నారా?"
       help_ex: ~
-      socialint: ~
+      socialint: "సామాజిక అనుసంధాన వేదికల ఏకీకరణ"
       socialint_ex: ~
       earth_alt: ~
       decentralized_alt: ~
-      freedom_alt: ~
+      freedom_alt: స్వేచ్ఛ
       keyhole_alt: ~
       aspects_alt: ~
-      features_alt: ~
-      ways_to_help_alt: ~
-      services_alt: ~
+      features_alt: విశిష్టతలు
+      ways_to_help_alt: "సాయపడే మార్గాలు"
+      services_alt: సేవలు
     about:
-      headline: "Korleis virker Diaspora*?"
-      byline: "Diaspora* er enkelt å bruke. Her er korleis."
-      menu_title: Om
-      decentralize: "Kva er desentralisering?"
-      decentralize_ex: "Diaspora* er heilt annleis frå dei fleste nettverk du brukar. Det er heilt desentralisert, altså utan nokon sentral styring. Tross det er det lett å kontakte og kommunisere med andre personar. Her er korleis."
-      this: DETTE
+      headline: "డయాస్పోరా* ఎలా పనిచేస్తుంది?"
+      byline: "డయాస్పోరా వాడటం చాలా సులభం - ఎలాగో ఇక్కడ చూడండి"
+      menu_title: గురించి
+      decentralize: ~
+      decentralize_ex: ~
+      this: ~
       this_ex: ~
-      notthis: "IKKJE DETTE"
+      notthis: ~
       notthis_ex: ~
       discl: ~
       connect: ~
@@ -81,21 +81,21 @@ nn:
       find_ex: ~
       add: ~
       add_ex: ~
-      freedom: Fridom
-      freedom_byline: "Diaspora forsøker ikkje å begrensa deg"
-      fdm1: "Ver den du vil vere"
+      freedom: స్వేచ్ఛ
+      freedom_byline: "డయాస్పోరా* మిమ్మల్ని పరిమితం చేయడానికి ప్రయత్నించదు"
+      fdm1: ~
       fdm1_ex: ~
-      fdm2: "Ver kreativ"
+      fdm2: "సృజనాత్మకంగా ఉండండి"
       fdm2_ex: ~
       fdm3: ~
       fdm3_ex: ~
-      privacy: ~
+      privacy: గోప్యత
       privacy_byline: ~
       priv1: ~
       priv1_ex: ~
       priv2: ~
       priv2_ex: ~
-      priv3: ~
+      priv3: "మీ ప్రేక్షకులను ఎంచుకోండి"
       priv3_ex: ~
       aspects: ~
       aspects_byline: ~
@@ -103,7 +103,7 @@ nn:
       asp1_ex: ~
       asp2: ~
       asp2_ex: ~
-      asp3: ~
+      asp3: "ప్రపంచం మొత్తానికి చాటి చెప్పండి"
       asp3_ex: ~
       features: ~
       features_byline: ~
@@ -111,30 +111,30 @@ nn:
       hashtags_ex: ~
       reshare: ~
       reshare_ex: ~
-      mentions: ~
+      mentions: పేర్కోలు
       mentions_ex: ~
-      love: ~
+      love: ప్రేమ
       love_ex: ~
       host: ~
       host_byline: ~
       host_ex: ~
       hostinst1: ~
-      instructions_link_text: ~
+      instructions_link_text: "పోడ్ స్థాపన సూచనలు"
       hostinst2: ~
       distributed_network: ~
-      centralized_network: ~
-      search_alt: ~
-      add_a_contact_alt: ~
+      centralized_network: "కేంద్రీకృత జాలం"
+      search_alt: వెతకండి
+      add_a_contact_alt: "పరిచయాన్ని జతచేయి"
       hashtag_alt: ~
       reshare_alt: ~
-      mention_alt: ~
+      mention_alt: పేర్కొనండి
       heart_alt: ~
     get_involved:
-      headline: ~
+      headline: పాలుపంచుకోండి!
       byline: ~
-      menu_title: ~
-      community: ~
-      community_byline: ~
+      menu_title: పాలుపంచుకోండి
+      community: "సంఘంచే శక్తివంతం"
+      community_byline: "డయాస్పోరా మీకు చెందినదే"
       meaning: ~
       meaning_ex1: ~
       meaning_ex2: ~
@@ -156,101 +156,101 @@ nn:
       bugs_header: ~
       bugs_ex1: ~
       bugs_ex2: ~
-      bugs_ex3: ~
+      bugs_ex3: "కోడ్ శుద్ధిలో తోడ్పడండి"
       github_link_text: ~
-      translate_header: ~
+      translate_header: "అనువాదంలో తోడ్పడండి"
       translate_ex1: ~
-      translations_link_text: ~
+      translations_link_text: "అనువాదాల గుంపు"
       translate_ex2: ~
-      translation_instructions_link_text: ~
-      voice_header: ~
+      translation_instructions_link_text: "అనువాద సూచనలు "
+      voice_header: "మీ గొంతును అందించండి"
       voice_ex1: ~
       voice_ex2: ~
       voice_ex3: ~
-      meetup_link_text: ~
-      support_header: ~
+      meetup_link_text: కలయిక
+      support_header: "తోడ్పాటు అందించండి"
       support_ex1: ~
-      support_ex2: ~
+      support_ex2: "ఇక్కడ నమోదుచేసుకోండి"
       support_ex3: ~
       support_ex4: ~
-      irc_channel_link_text: ~
+      irc_channel_link_text: "IRC వాహిక"
       support_ex5: ~
-      wiki_link_text: ~
+      wiki_link_text: "డయాస్పోరా* వికీ"
       run_header: ~
       run_ex1: ~
       host_pod_link_text: ~
       run_ex2: ~
       run_ex3: ~
-      contributors_header: ~
+      contributors_header: "డయాస్పోరా* సహాయకులు"
       contributors_byline: ~
-      globe_alt: ~
-      megaphone_alt: ~
-      support_alt: ~
-      pod_alt: ~
+      globe_alt: విశ్వం
+      megaphone_alt: మెగాఫోను
+      support_alt: తోడ్పాటు
+      pod_alt: పోడ్
     blog:
-      headline: ~
-      subline: ~
-      menu_title: ~
+      headline: "డయాస్పోరా* బ్లాగు"
+      subline: "అధికారిక ప్రకటనలు"
+      menu_title: బ్లాగు
     planet:
       headline: ~
       menu_title: ~
     tutorials:
-      headline: ~
-      byline: ~
-      menu_title: ~
+      headline: "డయాస్పోరా* ఉపశిక్షణ"
+      byline: " "
+      menu_title: ఉపశిక్షణ
       tutorials_ex1: ~
       tutorials_ex2: ~
       started_head: ~
       started1: ~
-      started2: ~
+      started2: అంతరవర్తి
       started3: ~
       started4: ~
       started5: ~
       started6: ~
       started7: ~
-      part1: ~
-      part2: ~
-      part3: ~
-      part4: ~
-      part5: ~
-      part6: ~
-      part7: ~
-      additional: ~
+      part1: "భాగం 1"
+      part2: "భాగం 2"
+      part3: "భాగం 3"
+      part4: "భాగం 4"
+      part5: "భాగం 5"
+      part6: "భాగం 6"
+      part7: "భాగం 7"
+      additional: "అదనపు ఉపశిక్షణ"
       connecting: ~
       tips: ~
-      formatting: ~
-      more_tutorials: ~
+      formatting: "పాఠ్యాన్ని ఆకృతించుట"
+      more_tutorials: "మరింత సహాయం కావాలా?"
       other_docs: ~
-      other_docs_link_text: ~
+      other_docs_link_text: "ఇతర పత్రీకరణ"
       thanks: ~
     getting_started1:
       byline: ~
       menu_title: ~
       welcome: ~
-      find_pod: ~
+      find_pod: "ఒక పోడ్‌ని వెతుకుట"
       find_pod_ex1: ~
       find_pod_ex2: ~
       find_pod_ex3: ~
       wiki_link_text: ~
       find_pod_ex4: ~
       find_pod_ex5: ~
-      registration: ~
+      registration: నమోదు
       registration1: ~
       registration2: ~
       registration3: ~
       registration4: ~
-      dhq_link_text: ~
+      dhq_link_text: "డయాస్పోరా* HQ"
       registration5: ~
       registration6: ~
       registration7: ~
       registration8: ~
       registration9: ~
-      registration10: ~
+      registration10: "<span class=\"click\">నన్ను డయాస్పోరా*కు తీసుకువెళ్ళు!</span> నొక్కండి"
       profile1: ~
       profile2: ~
       profile3: ~
       profile4: ~
-      finish: ~
+      finish: అంతే!
       finish_ex1: ~
       finish_ex2: ~
     getting_started2:
@@ -276,23 +276,23 @@ nn:
       column2: ~
       column3: ~
       views: ~
-      stream: ~
+      stream: ప్రవాహం
       stream_ex: ~
       stream1: ~
       stream2: ~
       stream3: ~
       stream_ex2: ~
-      activity: ~
+      activity: "నా క్రియాశీలత"
       activity_ex: ~
-      mentions: ~
+      mentions: "@పేర్కోలు"
       mentions_ex: ~
-      aspects: ~
+      aspects: "నా కోణాలు"
       aspects_ex1: ~
       aspects_ex2: ~
       tags: ~
       tags_ex1: ~
       tags_ex2: ~
-      profile: ~
+      profile: "ప్రవర రూపు"
       profile_ex1: ~
       profile_ex2: ~
       profile_ex3: ~
@@ -320,7 +320,7 @@ nn:
       my_aspects7: ~
       my_aspects8: ~
       my_aspects9: ~
-      contacts: ~
+      contacts: "పరిచయాల పుట"
       contact_ex1: ~
       contact_ex3: ~
       contact_ex4: ~
@@ -334,17 +334,17 @@ nn:
       byline: ~
       menu_title: ~
       aspects1: ~
-      sharing: ~
+      sharing: పంచుకోలు
       sharing_ex: ~
       relationships: ~
-      followers: ~
+      followers: అనుచరులు
       followers_ex1: ~
       followers_ex2: ~
       followers_ex3: ~
-      following: ~
+      following: అనుసరణ
       following_ex1: ~
       following_ex2: ~
-      mutual: ~
+      mutual: "పరస్పర పంచుకోలు"
       mutual_ex1: ~
       mutual_ex2: ~
       mutual_ls1: ~
@@ -355,7 +355,7 @@ nn:
       finding: ~
       finding_ex1: ~
       finding_ex2: ~
-      search: ~
+      search: వెతకండి
       search_ex: ~
       search_ls1: ~
       search_ls2: ~
@@ -365,7 +365,7 @@ nn:
       search_ls6: ~
       invite: ~
       invite_ex: ~
-      profile: ~
+      profile: "వారి ప్రవర నుండి"
       profile_ex1: ~
       profile_ex2: ~
       tags: ~
@@ -382,7 +382,7 @@ nn:
       menu_title: ~
       intro1: ~
       intro2: ~
-      publisher: ~
+      publisher: ప్రచురణకర్త
       publisher_ex1: ~
       publisher_ex2: ~
       publisher_ex3: ~
@@ -391,7 +391,7 @@ nn:
       aspect_selector: ~
       aspect_selector_ex1: ~
       aspect_selector_ex2: ~
-      photo: ~
+      photo: "ఛాయాచిత్ర పంచుకోలు"
       photo_ex: ~
       locator: ~
       locator_ex1: ~
@@ -401,22 +401,22 @@ nn:
       connected_ex1: ~
       connected_ex2: ~
       connected_ex3: ~
-      preview: ~
+      preview: "టపా మునుజూపు"
       preview_ex1: ~
       preview_ex2: ~
       features: ~
-      tags: ~
+      tags: "#కొసలు"
       tags_ex1: ~
       tags_ex2: ~
       tags_ex3: ~
-      mentions: ~
+      mentions: "@పేర్కోలు"
       mentions_ex1: ~
       mentions_ex2: ~
       mentions_ex3: ~
-      format: ~
+      format: "పాఠ్య ఆకృతీకరణ"
       format_ex: ~
-      format_link_text: ~
-      links: ~
+      format_link_text: "ఈ ఉపశిక్షణ"
+      links: లంకెలు
       links_ex: ~
       embed: ~
       embed_ex1: ~
@@ -433,12 +433,12 @@ nn:
       interact: ~
       interact_ex1: ~
       interact_ex2: ~
-      comments: ~
+      comments: వ్యాఖ్యలు
       comments_ex: ~
-      likes: ~
+      likes: ఇష్టాలు
       likes_ex1: ~
       likes_ex2: ~
-      reshare: ~
+      reshare: "టపాలను మరలా పంచుకోండి"
       reshare_ex: ~
       delete: ~
       delete_ex: ~
@@ -452,7 +452,7 @@ nn:
       byline: ~
       menu_title: ~
       intro: ~
-      notify: ~
+      notify: గమనికలు
       notify_ex1: ~
       notify_ex2: ~
       notify_ls1: ~
@@ -460,7 +460,7 @@ nn:
       notify_ls3: ~
       notify_ls4: ~
       notify_ex3: ~
-      convo: ~
+      convo: సంభాషణలు
       convo_ex1: ~
       convo_ex2: ~
       convo_ex3: ~
@@ -480,19 +480,19 @@ nn:
       connect_ex2: ~
       connect_ex3: ~
       connect_ex4: ~
-      settings: ~
+      settings: "ఖాతా నిర్వహణ"
       settings_ex1: ~
       settings_ex3: ~
-      profile: ~
+      profile: ప్రవర
       profile_ex: ~
-      account: ~
+      account: ఖాతా
       account_ex1: ~
       account_ex2: ~
       account_ex3: ~
       account_ex4: ~
-      privacy: ~
+      privacy: గోప్యత
       privacy_ex: ~
-      services: ~
+      services: సేవలు
       services_ex: ~
       finish1: ~
     formatting:
@@ -502,13 +502,13 @@ nn:
       format2: ~
       format3: ~
       format4: ~
-      headings: ~
+      headings: పీఠికలు
       headings_ex1: ~
       headings_code1: ~
       headings_code2: ~
       headings_code3: ~
       headings_ex2: ~
-      lists: ~
+      lists: జాబితాలు
       lists_ex1: ~
       lists_ex2: ~
       lists_ex3: ~
@@ -527,7 +527,7 @@ nn:
       code_code3: ~
       code_code4: ~
       code_code5: ~
-      line: ~
+      line: "అడ్డ గీత"
       line_ex: ~
       line_code1: ~
       line_code2: ~
@@ -542,7 +542,7 @@ nn:
       link_code: ~
       link_ex2: ~
       inline_link_text: ~
-      images: ~
+      images: బొమ్మలు
       images_ex1: ~
       images_code: ~
       images_ex2: ~
@@ -551,7 +551,7 @@ nn:
       escape_code: ~
       escape_ex2: ~
       escape_ex3: ~
-      symbols: ~
+      symbols: "ప్రత్యేక అక్షరాలు"
       symbols_ex: ~
       finish: ~
       markdown_link_text: ~
@@ -565,35 +565,35 @@ nn:
       notepad: ~
       notepad_ex: ~
     other_docs:
-      headline: ~
+      headline: "ఇతర పత్రీకరణ"
       byline: ~
-      menu_title: ~
+      menu_title: "ఇతర పత్రీకరణ"
       intro1: ~
       intro2: ~
-      tutorials: ~
+      tutorials: ఉపశిక్షణ
       parfait: ~
-      about: ~
+      about: "డయాస్పోరా* గురించి"
       about1: ~
       wiki: ~
       wiki_link_text: ~
       wikipedia: ~
-      wikipedia_link_text: ~
-      wikipedia_software_link_text: ~
-      support: ~
+      wikipedia_link_text: డయాస్పోరా*
+      wikipedia_software_link_text: "డయాస్పోరా* సాఫ్ట్​వేర్"
+      support: "వాడుకరి తోడ్పాటు"
       question: ~
       mail: ~
       mail_link_text: ~
       irc: ~
-      irc_link_text: ~
-      progress: ~
+      irc_link_text: "IRC వాహిక"
+      progress: "పరియోజన ప్రగతి"
       blog: ~
-      blog_link_text: ~
+      blog_link_text: "పరియోజన బ్లాగు"
       changelog: ~
       changelog_link_text: ~
       loomio: ~
-      communication: ~
+      communication: సమాచారం
       communicate: ~
       communicate_link_text: ~
-      other: ~
+      other: "ఇతర గూళ్ళు"
       manifesto: ~
       manifesto_link_text: ~

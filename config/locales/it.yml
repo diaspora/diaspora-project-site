@@ -499,8 +499,6 @@ it:
       services: ~
       services_ex: ~
       finish1: ~
-      finish2: ~
-      finish3: ~
     formatting:
       byline: ~
       menu_title: ~

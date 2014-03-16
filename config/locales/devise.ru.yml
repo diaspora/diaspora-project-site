@@ -1,7 +1,7 @@
 ru:
   devise:
     confirmations:
-      confirmed: "Ваша учетная запись была успешно подтверждена. Теперь вы в системе."
+      confirmed: "Ваш аккаунт подтверждён. Добро пожаловать."
       send_instructions: ~
       send_paranoid_instructions: ~
     failure:

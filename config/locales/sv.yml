@@ -65,35 +65,35 @@ sv:
       ways_to_help_alt: ~
       services_alt: ~
     about:
-      headline: "Hur fungerar Diaspora*?"
-      byline: "Diaspora är enkelt att använda. Så här gör man."
+      headline: "Hur fungerar diaspora*?"
+      byline: "diaspora är enkelt att använda - så här gör man."
       menu_title: Om
-      decentralize: ~
-      decentralize_ex: ~
+      decentralize: "Vad är decentralisering?"
+      decentralize_ex: "diaspora* skiljer sig helt från de flesta nätverk som du använder. Den är totalt decentraliserad, helt utan någon central \"hub\". Trots detta, är det väldigt enkel att ansluta, och kommunicera med människor. Så här gör man."
       this: DETTA
-      this_ex: ~
+      this_ex: "diaspora* är ett nätverk i dess sanna bemärkelse, utan någon central bas. Det förekommer servrar (som kallas \"pods\") över hela världen, där varje pod innehåller data från de som valt att registrera sig hos den. Dessa pods kommunicerar med varandra oavbrutet, så du kan registrera med vilken pod som helst och kommunicera fritt med dina kontakter, varhelst de befinner sig i nätverket."
       notthis: "INTE DETTA"
-      notthis_ex: ~
+      notthis_ex: "De flesta sociala nätverk sköts genom centraliserade servrar, ägda och skötta av företag som lagrar all privat data om deras användare. Denna information kan gå förlorad eller utnyttjas, och precis som alla system med en flaskhals, så påverkas hela systemet om ett fel med den centrala servern inträffar - nätverket blir långsamt eller fungerar inte alls. Det är även lättare för myndigheter att avlyssna."
       discl: ~
       connect: "Hur kan jag ansluta?"
-      connect_ex: ~
+      connect_ex: "Även om diaspora* består av flera olika pods över hela jorden, kommer du att uppleva det som ett enda, integrerat nätverk. Du behöver inte vara registrerad på samma pod som dina kontakter, för att kunna kommunicera fritt med dem - kommunikationen flyter obehindrat mellan alla poddar i diasporas* universum. När du använder diaspora* kan du lätt glömma att det faktiskt består av flera poddar. Att koppla upp sig mot någon i diaspora* är väldigt enkelt: "
       find: "1. Hitta dem"
-      find_ex: ~
+      find_ex: "Allt du behöver göra för att få kontakt med någon är att finna dem och placera dem i en aspekt. (Se nedan för mera om aspekter.) Hitta dem genom att använda sökfältet i den svarta balken, eller sväva över deras namn i ditt flöde och ett \"hovercard\" dyker upp. Ifall du känner till deras diaspora* ID (dittnamn@podnamn.com), så kan du använda det."
       add: "2. Lägg till dem"
-      add_ex: ~
+      add_ex: "Sen är det bara att klicka på Lägg till kontakt-knappen och välja vilken aspekt du vill att personen ska vara del av. Ni är nu sammankopplade och kan dela information med dem på samma vis som i andra sociala nätverk. Eller, om de är del av ett flertal aspekter av ditt liv, välj då flera aspekter. Ni är nu sammankopplade. Så enkelt är det. "
       freedom: Frihet
       freedom_byline: "Diaspora* försöker inte begränsa dig"
       fdm1: "Var den du vill vara"
-      fdm1_ex: ~
+      fdm1_ex: "Flera nätverk kräver att du använder din riktiga identitet. Inte diaspora*. Här kan du välja vem du vill vara, och dela så mycket eller så lite om dig själv som du själv vill. Det är ju faktiskt upp till dig själv hur du vill inteagera med andra människor."
       fdm2: "Var kreativ"
-      fdm2_ex: ~
+      fdm2_ex: "Du är inte begränsad i hur du kan interagera. Du kan bara följa människor som facinerar dig och se vad de säger. eller så kan du låta hela världen ta del av ditt liv. Dela sina foton, konst, videor, musik, ord - dela vad du vill. Lätta och sprid dina vingar."
       fdm3: "Fri som i frihet"
-      fdm3_ex: ~
+      fdm3_ex: "diaspora* är en helt fri mjukvara. Detta betyder att det inte finns några begränsningar för hur den kan användas. Du kan ta källkoden och ändra den så den fungerar som du vill, och samtidigt hjälpa oss att förbättra nätverket. Vi skulle älska att ha dig med."
       privacy: Persondataskydd
       privacy_byline: "Total kontroll över vad som är ditt "
       priv1: "Äg din egen data"
-      priv1_ex: ~
-      priv2: ~
+      priv1_ex: "Många nätverk använder din data för att tjäna pengar, genom att analysera dina interaktioner, och använda informationen för att marknadsföra saker till dig. diaspora* använder inte din data för någon annat än att låta dig koppla upp dig, och dela med andra."
+      priv2: "Var din egen värd!"
       priv2_ex: ~
       priv3: "Välj din publik"
       priv3_ex: ~
@@ -103,7 +103,7 @@ sv:
       asp1_ex: ~
       asp2: "Organisera ditt liv"
       asp2_ex: ~
-      asp3: "Berätta åt hela världen"
+      asp3: "Berätta för hela världen"
       asp3_ex: ~
       features: ~
       features_byline: "Vi tror att du kommer att älska dem också"
@@ -116,7 +116,7 @@ sv:
       love: Kärlek
       love_ex: ~
       host: ~
-      host_byline: ~
+      host_byline: "Var en av diaspora*s stjärnor"
       host_ex: ~
       hostinst1: ~
       instructions_link_text: ~
@@ -130,12 +130,12 @@ sv:
       mention_alt: ~
       heart_alt: Hjärta
     get_involved:
-      headline: ~
+      headline: "Bli involverad!"
       byline: ~
       menu_title: "Involvera dig"
       community: ~
-      community_byline: ~
-      meaning: ~
+      community_byline: "diaspora* tillhör dig"
+      meaning: "Vad betyder allt detta?"
       meaning_ex1: ~
       meaning_ex2: ~
       meaning_ex3: ~
@@ -243,7 +243,7 @@ sv:
       registration5: ~
       registration6: ~
       registration7: "Klicka på knappen för att ladda upp en profilbild från din dator."
-      registration8: "Om du vill ansluta din diaspora*-frö med ditt Facebook-konto, klicka på länken så kan du kan automatisera en del av denna process. Du kan till exempel hämta ditt namn och profilbild från din Facebook-konto."
+      registration8: "Om du vill ansluta ditt diaspora*-frö med ditt Facebook-konto, klicka på länken så kan du kan automatisera en del av denna process. Du kan till exempel hämta ditt namn och profilbild från ditt Facebook-konto."
       registration9: ~
       registration10: ~
       profile1: ~
@@ -495,8 +495,6 @@ sv:
       services: ~
       services_ex: ~
       finish1: ~
-      finish2: " och "
-      finish3: ~
     formatting:
       byline: ~
       menu_title: ~

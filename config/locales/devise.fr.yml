@@ -27,11 +27,11 @@ fr:
     passwords:
       no_token: "Vous ne pouvez accéder à cette page qu'en cliquant sur le lien indiqué dans un courriel de récupération de mot de passe. Si vous avez copié le lien dans un courriel de récupération de mot de passe, veuillez vous assurer que vous avez copié l'URL en entier."
       send_instructions: "Vous allez recevoir un email dans quelques minutes contenant les instructions pour réinitialiser votre mot de passe."
-      send_paranoid_instructions: "Si votre adresse de courriel existe dans notre base de donnée, vous allez recevoir un lien de récupération dans votre boite dans quelques minutes."
+      send_paranoid_instructions: "Si votre adresse de courriel existe dans notre base de donnée, vous allez recevoir un lien de récupération dans votre boite d'ici quelques minutes."
       updated: "Votre mot de passe a bien été modifié. Vous êtes maintenant connecté(e)."
       updated_not_active: "Votre mot de passe a bien été modifié."
     registrations:
-      destroyed: "Ciao! Ton compte a été effacé avec succès. Nous espérons te revoir bientôt."
+      destroyed: "Au revoir ! Votre compte a été effacé avec succès. Nous espérons vous revoir bientôt."
       signed_up: "Votre inscription est validée. Bienvenue !"
       signed_up_but_inactive: "Votre inscription est enregistrée. Toutefois vous ne pouvez pas encore vous connecter car votre compte n'est pas encore activé."
       signed_up_but_locked: "Votre inscription est enregistrée. Toutefois vous ne pouvez pas encore vous connecter car votre compte est bloqué."

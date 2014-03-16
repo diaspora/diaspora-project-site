@@ -32,7 +32,7 @@ pt-BR:
       updated_not_active: "Sua senha foi atualizada com sucesso."
     registrations:
       destroyed: "Tchau! Sua conta foi removida com sucesso. Esperamos vê-lo novamente em breve."
-      signed_up: "Benvindo! Você se registrou com sucesso."
+      signed_up: "Bem-vindo! Você se registrou com sucesso."
       signed_up_but_inactive: "Voce se registrou para uma conta corretamente. No entanto, não pudemos autenticá-lo porque sua conta não está ativada ainda."
       signed_up_but_locked: "Você se inscreveu com sucesso. No entanto, não pôde entrar porque sua conta está bloqueada."
       signed_up_but_unconfirmed: "Uma mensagem com um link de confirmação foi enviado para seu endereço de e-mail. Por favor, clique no link para ativar sua conta."

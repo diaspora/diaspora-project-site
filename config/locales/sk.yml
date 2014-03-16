@@ -30,15 +30,15 @@ sk:
       license_link_text: ~
   pages:
     index:
-      headline: ~
+      headline: "Vitaj v diaspora*"
       byline: ~
       register: "Registrácia »"
       key_philosophies: ~
-      decentralization: ~
+      decentralization: Decentralizácia
       decentralization_about: ~
-      freedom: ~
+      freedom: Sloboda
       freedom_about: ~
-      privacy: ~
+      privacy: Súkromie
       privacy_about: ~
       get_started: "Chcete začať?"
       get_started_sub: ~
@@ -58,10 +58,10 @@ sk:
       socialint_ex: ~
       earth_alt: ~
       decentralized_alt: ~
-      freedom_alt: ~
+      freedom_alt: Sloboda
       keyhole_alt: ~
       aspects_alt: ~
-      features_alt: ~
+      features_alt: Funkcie
       ways_to_help_alt: ~
       services_alt: ~
     about:
@@ -134,8 +134,8 @@ sk:
       byline: ~
       menu_title: ~
       community: ~
-      community_byline: ~
-      meaning: ~
+      community_byline: "diaspora* patrí tebe"
+      meaning: "Čo to všetko znamená?"
       meaning_ex1: ~
       meaning_ex2: ~
       meaning_ex3: ~
@@ -144,15 +144,15 @@ sk:
       whereyou_ex2: ~
       gi_header: ~
       code_header: ~
-      code_byline: ~
+      code_byline: "Získanie zdrojového kódu je jednoduché"
       code_ex1: ~
-      code_ex2: ~
+      code_ex2: "Inštalujte vaše vývojové prostredie"
       code_ex3: ~
       code_ex4: ~
       get_started_guide_link_text: ~
       mailing_list_link_text: ~
-      irc_link_text: ~
-      code_gh: ~
+      irc_link_text: "IRC miestnosť diaspora*"
+      code_gh: "Zobraziť zdorjový kód v službe GitHub"
       bugs_header: ~
       bugs_ex1: ~
       bugs_ex2: ~
@@ -160,8 +160,8 @@ sk:
       github_link_text: ~
       translate_header: "Pomôžte s prekladom"
       translate_ex1: ~
-      translations_link_text: ~
-      translate_ex2: ~
+      translations_link_text: "Skupina prekladateľov"
+      translate_ex2: "prečítať si inštrukcie ako začať na %{translation_instructions_link}"
       translation_instructions_link_text: ~
       voice_header: ~
       voice_ex1: ~
@@ -185,7 +185,7 @@ sk:
       contributors_byline: ~
       globe_alt: ~
       megaphone_alt: ~
-      support_alt: ~
+      support_alt: Podpora
       pod_alt: ~
     blog:
       headline: ~
@@ -197,12 +197,12 @@ sk:
     tutorials:
       headline: ~
       byline: ~
-      menu_title: ~
+      menu_title: Návody
       tutorials_ex1: ~
       tutorials_ex2: ~
       started_head: ~
       started1: ~
-      started2: ~
+      started2: Rozhranie
       started3: ~
       started4: ~
       started5: ~
@@ -217,8 +217,8 @@ sk:
       part7: "Časť 7"
       additional: ~
       connecting: ~
-      tips: ~
-      formatting: ~
+      tips: "Tipy a triky"
+      formatting: "Formátovanie textu"
       more_tutorials: ~
       other_docs: ~
       other_docs_link_text: ~
@@ -234,7 +234,7 @@ sk:
       wiki_link_text: ~
       find_pod_ex4: ~
       find_pod_ex5: ~
-      registration: ~
+      registration: Registrácia
       registration1: ~
       registration2: ~
       registration3: ~
@@ -254,7 +254,7 @@ sk:
       finish_ex1: ~
       finish_ex2: ~
     getting_started2:
-      byline: ~
+      byline: "Časť 2 - Rozhranie"
       menu_title: ~
       interface1: ~
       interface2: ~
@@ -352,10 +352,10 @@ sk:
       mutual_ls3: ~
       mutual_ls4: ~
       mutual_ex3: ~
-      finding: ~
+      finding: "Hľadať ľudí"
       finding_ex1: ~
       finding_ex2: ~
-      search: ~
+      search: Hľadať
       search_ex: ~
       search_ls1: ~
       search_ls2: ~
@@ -370,7 +370,7 @@ sk:
       profile_ex2: ~
       tags: ~
       tags_ex: ~
-      removing: ~
+      removing: "Odstrániť niekoho z kontaktov"
       removing_ex1: ~
       removing_ex2: ~
       removing_ex3: ~
@@ -433,14 +433,14 @@ sk:
       interact: ~
       interact_ex1: ~
       interact_ex2: ~
-      comments: ~
+      comments: Komentáre
       comments_ex: ~
       likes: ~
       likes_ex1: ~
       likes_ex2: ~
       reshare: ~
       reshare_ex: ~
-      delete: ~
+      delete: "Mazanie príspevkov a komentárov"
       delete_ex: ~
       hide: ~
       hide_ex: ~
@@ -449,10 +449,10 @@ sk:
       ignore_ex2: ~
       finish: ~
     getting_started6:
-      byline: ~
-      menu_title: ~
+      byline: "Časť 6 - Notifikácie a konverzácie"
+      menu_title: "Notifikácie a konverzácie"
       intro: ~
-      notify: ~
+      notify: Notifikácie
       notify_ex1: ~
       notify_ex2: ~
       notify_ls1: ~
@@ -485,21 +485,19 @@ sk:
       settings_ex3: ~
       profile: ~
       profile_ex: ~
-      account: ~
+      account: Účet
       account_ex1: ~
       account_ex2: ~
       account_ex3: ~
       account_ex4: ~
-      privacy: ~
+      privacy: Súkromie
       privacy_ex: ~
-      services: ~
+      services: Služby
       services_ex: ~
       finish1: ~
-      finish2: ~
-      finish3: ~
     formatting:
-      byline: ~
-      menu_title: ~
+      byline: "Formátovanie textu"
+      menu_title: "Formátovanie textu"
       format1: ~
       format2: ~
       format3: ~

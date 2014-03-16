@@ -3,7 +3,7 @@ cs:
     formats:
       blog_headline: ~
   buttons:
-    host_pod: "Uspořádat pod"
+    host_pod: "Hostovat pod"
     join_diaspora: "Přidej se k nám!"
     find_more: "Zjisti více"
   meta:
@@ -14,32 +14,32 @@ cs:
   layouts:
     application:
       wiki: Wiki
-      planet: ~
-      useful_resources: "Potřebné zdroje"
+      planet: Planeta
+      useful_resources: "Užitečné odkazy"
       codebase: ~
       documentation: Dokumentace
       report_bugs: "Najdi & nahlaš chyby"
-      irc_general: ~
-      irc_development: ~
-      discussion_general: ~
-      discussion_development: ~
+      irc_general: "IRC - obecné"
+      irc_development: "IRC - vývoj"
+      discussion_general: "Diskuse - obecné"
+      discussion_development: "Diskuse - vývoj"
       choose_language: "Vyber jazyk"
-      translate: ~
-      cc_license_alt: ~
-      licensed_under: ~
+      translate: "Přidej překlad"
+      cc_license_alt: "Licence Creative Commons"
+      licensed_under: "%{site_link} je pod licencí %{license_link}"
       license_link_text: ~
   pages:
     index:
       headline: "Vítej na diaspora*"
       byline: "Sociální svět online kde to máš v ruce."
       register: "Zaregistruj se"
-      key_philosophies: "diaspora* je postavená na třech klíčovích filozofiích:"
+      key_philosophies: "diaspora* je postavená na třech klíčových filozofiích:"
       decentralization: Decentralizace
-      decentralization_about: ~
+      decentralization_about: "Namísto velkých serverů, které obsahují data všech uživatelů a které vlastní velká korporace, lokální servery (\"pody\") mohou být provozovány kdekoliv na světě. Vybereš si, na kterém podu se zaregistruješ - možná na svém místním - a hladce se spojíš s celosvětovou komunitou diaspora*."
       freedom: Svoboda
-      freedom_about: ~
+      freedom_about: "V diaspora* můžeš být kýmkoliv chceš. Narozdíl od jiných sociálních sítí nemusíš používat svou pravou identitu. Můžeš komunikovat s kýmkoliv chceš a jakým způsobem chceš. Jediným omezením je tvá fantazie. diaspora* je svobodný software, který ti dává svobodu použít jej tak, jak si přeješ."
       privacy: Soukromí
-      privacy_about: ~
+      privacy_about: "V diaspora*  vlastníš svá data. Nepodepisuješ žádné podstoupení práv korporaci nebo někomu, kdo by je mohl využít. V diaspora* tví přátelé, tvé zvyky a tvůj obsah jsou tvůj byznys - ne náš! Navíc si můžeš vybrat, kdo uvidí jednotlivé příspěvky pomocí aspektů."
       get_started: "Chceš začít?"
       get_started_sub: "Je to lehké jako 1, 2, 3 ..."
       choose_pod: "1. Vyber si pod"
@@ -54,80 +54,80 @@ cs:
       features_ex: ~
       help: "Chceš pomoci?"
       help_ex: ~
-      socialint: ~
+      socialint: "Integrace sociálních sítí"
       socialint_ex: ~
       earth_alt: ~
-      decentralized_alt: ~
+      decentralized_alt: Decentralizováno
       freedom_alt: Svoboda
-      keyhole_alt: ~
+      keyhole_alt: "Klíčová dírka"
       aspects_alt: ~
       features_alt: ~
       ways_to_help_alt: Nápověda
-      services_alt: ~
+      services_alt: Služby
     about:
       headline: "Jak funguje diaspora*?"
       byline: "Používat diaspora* je lehké. Zde najdeš jak."
       menu_title: O
       decentralize: "Co je decentralizace?"
-      decentralize_ex: "diaspora* se velmi liší od většiny jiných sítí které používáš. Je zcela decentralizovaná, bez klíčového 'uzlu'. Přesto je lehké, se spojit s lidmi a komunikovat s nimi. Zde najdeš jak."
+      decentralize_ex: "diaspora* se velmi liší od většiny jiných sítí které používáš. Je zcela decentralizovaná, bez klíčového 'uzlu'. Přesto je velmi snadné spojit se a komunikovat s jinými lidmi. Zde najdeš jak."
       this: TO
-      this_ex: "diaspora* je opravdivá síť, bez centrální báze. Všude po světě existují servry ('pody'), které obsahují data těch uživatelů, kteří si vybrali se na ně přihlásit. Tyto pody komunikují souvisle mezi sebou, takže se můžeš přihlásit na jakýkoli pod a volně komunikovat se svími kontakty, bez ohledu na to, kde v síti se nachází."
+      this_ex: "diaspora* je skutečná síť, bez ústředí. Všude po světě existují servery ('pody'), které obsahují data těch uživatelů, kteří se rozhodli se na ně přihlásit. Tyto pody mezi sebou hladce komunikují, takže se můžeš přihlásit na jakýkoli z nich a volně komunikovat se svými kontakty, bez ohledu na to, v které v síti se nachází."
       notthis: "TO NE"
-      notthis_ex: "Většina sociálních sítí běží přes centralizované servry, ktreré jsou v rukách společností. Tyto sbírají soukromé data svích uživatelů. Informace je možno ztratit nebo hakovat a jako u každého systému s průsmykem může jakýkoli problém v centrálním servru způsobit zpomalení nebo kolaps. Pro vlády je také snadnější odposlech."
+      notthis_ex: "Většina sociálních sítí běží přes centralizované servery, ktreré jsou majetkem korporací. Sbírají veškerá soukromá data svých uživatelů. Tyto informace mohou být ztraceny nebo odcizeny (hackováním) a jako u každého systému s úzkým hrdlem může jakýkoli problém centrálního serveru způsobit zpomalení nebo nedostupnost. Vlády je mohou také mnohem snadněji odposlouchávat."
       discl: ~
       connect: "Jak se mohu připojit?"
-      connect_ex: "I když se diaspora* skládá z mnoha podů umístěných na celém světě, budeš ji vnímat jako jednu integrovanou síť. Nemusíš být na stejném podu jako tvé kontakty, aby si s nimi mohl komunikovat - pody mezi sebou komunikují souvisle v celém diaspora* univerzu. Vlastně na ně můžeš zcela zapomenout. Spojit se s někým na diaspora* je velmi lehké: "
+      connect_ex: "I když se diaspora* skládá z mnoha podů umístěných na celém světě, bude se ti jevit jako jedna kompaktní síť. Nemusíš být na stejném podu jako tví známí, abys s nimi mohl komunikovat - pody mezi sebou komunikují souvisle v celém diaspora* univerzu. Vlastně na ně můžeš zcela zapomenout. Spojit se s někým na diaspora* je velmi lehké: "
       find: "1. Najdi"
       find_ex: "Vše, co je třeba udělat, je najít někoho, s kým se chceš spojit a přidat si ho do aspektů. (viz. dole více o aspektech). Vyhledáváš buť v políčku 'hledat' v černé horní liště, nebo přejedeš přes jméno dotyčného v proudu a objeví se ti tlačítko. Zdali znáš diaspora* ID adresu dotyčného (tvojejméno@podjméno.com), můžeš jí taktéž použít."
       add: "2. Přidej"
-      add_ex: "Pak už je to pouze otázka zmáčknutí tlačítka s nadpisem 'Přidat kontakt' a vybrání aspektu do kterého ho chceš zařadit. Teď jste spojeni a můžete sdílet jako v každé jiné síti. Zdali je dotyčný dílem různých aspektů tvého života, máš možnost ho zařadit do vícero aspektů. Teď jste spojeni. Je to tak jednoduché. "
+      add_ex: "Pak už stačí pouze stisknout tlačítko 'Přidat kontakt' a vybrat aspekt, do kterého ho chceš zařadit. Nyní jste spojeni a můžete sdílet jako v každé jiné síti. V případě, že je dotyčný členem různých aspektů tvého života, máš možnost ho zařadit do vícero aspektů. Teď jste spojeni. Je to tak jednoduché. "
       freedom: Svoboda
-      freedom_byline: "diaspora* se pokouší tě neomezovat."
-      fdm1: "Buď, kým chceš býti"
-      fdm1_ex: "Mnoho sociálních sítí trvá na tom, aby si použil svou pravou identitu. diaspora* ne. Zde si můžeš vybrat, kým chceš býti a sdílet o sobě kolik chceš. Je to doopravdy na tobě, jak s jinými budeš interagovat."
+      freedom_byline: "diaspora* se tě nesnaží omezovat."
+      fdm1: "Buď, kým chceš být"
+      fdm1_ex: "Mnoho sociálních sítí trvá na tom, abys používal svou skutečnou identitu. diaspora* ne. Zde si můžeš vybrat, kým chceš být a sdílet o sobě kolik chceš. Záleží jen na tobě, jak s jinými budeš interagovat."
       fdm2: "Buď kreativní"
       fdm2_ex: "Nejseš ve své interakci omezen. Sleduj fascinující lidi a pozoruj co mají co říci, nebo se poděl o svět se všemi. Sdílej fotky, umělecké díla, videa, muziku, slova - co si usmyslíš. Dej si volný průběh."
       fdm3: "Volný jako na svobodě"
-      fdm3_ex: ~
+      fdm3_ex: "diaspora* je zcela svobodný software. To znamená, že neexistují žádná omezení v jeho použití. Můžeš si vzít zdrojový kód a změnit jej tak, jak chceš a pomoci nám tak vylepšit naši síť. Moc rádi tě vezmeme na palubu."
       privacy: Soukromí
       privacy_byline: "Kontroluj, co je tvé "
       priv1: "Vlastni své data"
-      priv1_ex: ~
+      priv1_ex: "Mnoho sociálních sítí vydělává peníze analýzou tvých interakcí a používá je k cílené reklamě. diaspora* tvoje data nijak nevyužívá - pouze za účelem spojení s dalšími lidmi."
       priv2: "Uspořádej sám"
-      priv2_ex: ~
+      priv2_ex: "Vyber si pod, kde budou tvá data uložena. Pokud ti na bezpečí opravdu velmi záleží, můžeš vytvořit a hostovat vlastní pod na svých serverech, takže se nikdo k tvým osobním údajům nedostane."
       priv3: "Vyber si své publikum"
       priv3_ex: ~
       aspects: "Vše o aspektech"
       aspects_byline: "Klíč k soukromí na diaspora*"
       asp1: "Aspekty tvého života"
-      asp1_ex: ~
+      asp1_ex: "Tvůj život je tvořen mnoha různými aspekty spolu s různými lidmi. Proč by tvůj online život měl vypadat jinak? S aspekty diaspora* můžeš svůj online život rozdělit tak, jak chceš a sdílet věci pouze s těmi lidmi, se kterými chceš."
       asp2: "Organizuj si život"
       asp2_ex: ~
       asp3: "Pověz to světu"
-      asp3_ex: ~
+      asp3_ex: "Samozřejmě že některé věci jsou tak důležité, že je chceš sdělit celému světu. V diaspora* stačí, když onu zprávu učiníš veřejnou. S použitím správných štítků pak najde lidi, kteří mají o dané téma zájem."
       features: "Funkce které naše komunita miluje"
       features_byline: "Myslíme, že je budeš milovat také"
       hashtags: "štítky (hashtags)"
-      hashtags_ex: ~
+      hashtags_ex: "Pomocí štítků můžeš označit a sledovat své zájmy a zároveň tvé příspěvky dorazí k podobně zaměřeným lidem. Štítky jsou také skvělým způsobem, jak se setkat s vtipnými a zajímavými novými lidmi na diaspora*."
       reshare: Sdílet
-      reshare_ex: ~
+      reshare_ex: "Proč nesdílet příspěvky, které se ti líbí, spolu s ostatními? V diaspora* to jde snadno pomocí znovusdílení. Stačí stisknout tlačítko na sdílení příspěvku."
       mentions: Zmínky
-      mentions_ex: ~
+      mentions_ex: "Chceš někoho zaujmout? Stačí ho takhle @zmínit! Je to jednoduchý způsob, jak upozornit jednoho z tvých kontaktů na něco, o čem by dle tebe měl vědět."
       love: Přízeň
-      love_ex: "Pokud chceš ukázat pochvalu, zmáčkni pod příspěvkem tlačítko:'To se mi líbí'.  Někdy není slov popsati co pociťuješ."
+      love_ex: "Pokud chceš ukázat pochvalu, zmáčkni pod příspěvkem tlačítko:'To se mi líbí'.  Někdy slova nevyjádří vše, co cítíš."
       host: "Uspořádej community pod"
       host_byline: "Buď jednou z hvězd na diaspora*"
-      host_ex: ~
+      host_ex: "diaspora* funguje díky svým členům, kteří hostují a provozují pody, které jsou otevřené všem. Pokud máš prostor na serveru a trochu technických znalostí, můžeš k *diaspora přispět vlastním veřejným podem. Čím více jich bude, tím lépe bude diaspora* fungovat - buď součástí budoucnosti - decentralizované sociální sítě!"
       hostinst1: "Přečti si %{instructions_link} a založ vlastní community pod."
-      instructions_link_text: ~
+      instructions_link_text: "Instrukce k instalaci podu"
       hostinst2: "Shlédni listinu community podů, zde: %{poduptime}"
-      distributed_network: ~
+      distributed_network: "Distribuovaná síť"
       centralized_network: ~
       search_alt: hledat
-      add_a_contact_alt: ~
-      hashtag_alt: ~
+      add_a_contact_alt: "Přidat kontakt"
+      hashtag_alt: Štítek
       reshare_alt: ~
-      mention_alt: ~
+      mention_alt: Zmínit
       heart_alt: ~
     get_involved:
       headline: "Zapoj se!"
@@ -136,54 +136,54 @@ cs:
       community: "Podpořeno komunitou"
       community_byline: "diaspora* patří tobě"
       meaning: "Co to vše znamená?"
-      meaning_ex1: ~
-      meaning_ex2: ~
-      meaning_ex3: ~
+      meaning_ex1: "Svobodný software je o individualitě, transparentnosti, tvořivosti a osudu. Je o myšlence a jejím uskutečnění. diaspora* byla založena, aby naplnila vášeň pro legraci a k zlepšení internetu. Svobodný software nám umožňuje změnit svět pro nás samotné a z našich objevů mohou čerpat naši přátelé."
+      meaning_ex2: "Komunity lidí okolo svobodného softwaru jsou fascinující. V diaspora* věříme, že lidé by měli být ceněni za to, co dělají. Nezáleží na tom, jestli jsi skvělý programátor nebo jsi nikdy nic podobného nedělal. Přispívat k diaspora* znamená, že se soustředíš na usilovné hledání takových řešení, která budou fungovat pro ostatní."
+      meaning_ex3: "Proto když smysluplně přispěješ k diaspora*, dáme ti přístup ke core. Jedeme v tom spolu a chceme nadšeným lidem dát šanci uskutečnit velké změny."
       whereyou: "Kde se dostáváš do hry ty"
-      whereyou_ex1: ~
-      whereyou_ex2: ~
+      whereyou_ex1: "diaspora* je utvářena každým z nás. Možná tě zatím neznáme, ale rádi se s tebou setkáme a poznáme, jak se hodíš do týmu, který buduje budoucnost webu. Všichni můžeme změnit svět, když dostaneme tu správnou příležitost."
+      whereyou_ex2: "Přispívat k diaspora* lze mnoha způsoby. Ať jsi uživatel, který nám pomáhá hledat chyby, poskytuje zpětnou vazbu přes naše mailové konference, píše kód nebo navrhuje vzhled, potřebujeme tě."
       gi_header: "Možnosti, jak se zapojit do diaspora*"
       code_header: "Přispěj ke kódu"
-      code_byline: ~
-      code_ex1: ~
-      code_ex2: ~
-      code_ex3: "Začni přispívati ke kódu!"
+      code_byline: "Získat zdrojový kód je snadné."
+      code_ex1: "Naklonuj si repozitář a pošťourej se: %{clone_code}"
+      code_ex2: "Nainstaluj si své vývojové prostředí"
+      code_ex3: "Začni přispívat ke kódu!"
       code_ex4: |-
           Jsme velká komunita, připravena ti pomoci začít.
           Doporučujeme %{get_started_guide_link}, přidej se k %{mailing_list_link} a poznej nás na %{irc_link}.
-      get_started_guide_link_text: ~
+      get_started_guide_link_text: Začínáme
       mailing_list_link_text: Seznam
-      irc_link_text: ~
-      code_gh: "Shlédni původ na GitHub"
-      bugs_header: ~
+      irc_link_text: "diaspora* IRC místnost"
+      code_gh: "Shlédni zdrojový kód na GitHub"
+      bugs_header: "Rozdrť chyby (brouky)"
       bugs_ex1: ~
-      bugs_ex2: ~
-      bugs_ex3: ~
+      bugs_ex2: "Opravování malých chyb pomáhá každému a nováčkovi umožní lépe pochopit, jak části diaspora* fungují."
+      bugs_ex3: "Pomoz nám vyčistit náš kód."
       github_link_text: ~
       translate_header: "Pomož přeložit"
       translate_ex1: |-
           Můžeš pomoci přeložit diaspora* do jiných řečí.
           Zapoj se zde: %{translations_link}
-      translations_link_text: ~
+      translations_link_text: "Překladatelská skupina"
       translate_ex2: "Přečti si naše %{translation_instructions_link}, jak začít."
-      translation_instructions_link_text: ~
-      voice_header: "Podpoř svím hlasem"
-      voice_ex1: ~
+      translation_instructions_link_text: "instrukce k překladu "
+      voice_header: "Podpoř svým hlasem"
+      voice_ex1: "Náš projekt je provozován výhradně dobrovolníky. Používáme nástroj Loomio k vyhodnocení názorů našich přispěvatelů ohledně myšlenek a návrhů k projektu. "
       voice_ex2: "Přidej se tam k nám"
       voice_ex3: ~
       meetup_link_text: ~
-      support_header: Podpora
-      support_ex1: "Pomož uvítat nové uživatele!"
+      support_header: "Poskytni podporu"
+      support_ex1: "Pomoz uvítat nové uživatele!"
       support_ex2: "Přihlaš se zde"
       support_ex3: "Piš uživatelský návod zde:%{tutorials_link}."
       support_ex4: ~
-      irc_channel_link_text: ~
+      irc_channel_link_text: "IRC kanál"
       support_ex5: "Přispěj k %{wiki_link}."
-      wiki_link_text: ~
-      run_header: "Uspořádej komunitní pod"
+      wiki_link_text: "diaspora* wiki"
+      run_header: "Provozuj komunitní pod"
       run_ex1: ~
       host_pod_link_text: ~
-      run_ex2: ~
+      run_ex2: "Můžeš hostovat kdekoliv chceš."
       run_ex3: ~
       contributors_header: "Podporovatelé diaspora*"
       contributors_byline: "Lidé, kteří dělají diaspora* tím co je"
@@ -196,8 +196,8 @@ cs:
       subline: "Veřejné sdělení"
       menu_title: Blog
     planet:
-      headline: ~
-      menu_title: ~
+      headline: Planeta
+      menu_title: Planeta
     tutorials:
       headline: ~
       byline: ~
@@ -499,8 +499,6 @@ cs:
       services: ~
       services_ex: ~
       finish1: ~
-      finish2: ~
-      finish3: ~
     formatting:
       byline: ~
       menu_title: ~

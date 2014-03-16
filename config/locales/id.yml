@@ -8,7 +8,7 @@ id:
     find_more: ~
   meta:
     footer:
-      copyleft: ~
+      copyleft: "CC-BY The diaspora* Foundation"
   title: "Proyek diaspora*"
   newsfeed: ~
   layouts:
@@ -495,8 +495,6 @@ id:
       services: ~
       services_ex: ~
       finish1: ~
-      finish2: ~
-      finish3: ~
     formatting:
       byline: ~
       menu_title: ~

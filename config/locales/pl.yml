@@ -136,27 +136,27 @@ pl:
       community: "Tworzone przez społeczność"
       community_byline: "diaspora* należy do Ciebie"
       meaning: "Co to wszystko znaczy?"
-      meaning_ex1: ~
-      meaning_ex2: ~
-      meaning_ex3: ~
+      meaning_ex1: "W Wolnym Oprogramowaniu chodzi o indywidualność, przejrzystość, kreatywność i cel. Chodzi o pomysł i jego realizację. diaspora* została stworzona z pasji i by uczynić internet lepszym miejscem. Wolne Oprogramowanie jest czymś, co pozwala nam zmieniać świat dla siebie i umożliwiać naszym przyjaciołom korzystać z naszych odkryć."
+      meaning_ex2: "Społeczności Wolnego Oprogramowania to wspaniałe rzeczy. W diasporze* wierzymy że ludzie powinni być doceniani za to co robią. Nie jest ważne to czy jesteś elitarnym programistą czy nigdy nie uczestniczyłeś w żadnym projekcie. Współtworzenie diaspory* oznacza rozwiązywanie trudnych problemów z uwzględnieniem rozwiązań które działają po stronie użytkownika."
+      meaning_ex3: "Dlatego gdy stworzysz coś ważnego dla diaspory*, damy ci możliwość dodawania zmian do kodu. Jesteśmy w tym razem i chcemy dać szansę robienia wielkich zmian wszystkim zainteresowanym ludziom."
       whereyou: "Gdzie zaczyna się Twoja rola"
       whereyou_ex1: "diasporę* tworzymy my wszyscy. Być może jeszcze się nie spotkaliśmy, ale z ogromną przyjemnością poznamy Cię i zobaczymy, w jaki sposób możesz przyłączyć się do zespołu zmieniającego przyszłość Sieci. Wszyscy mamy potencjał do zmiany świata, kiedy tylko nadarzy się ku temu okazja."
-      whereyou_ex2: ~
-      gi_header: ~
-      code_header: ~
-      code_byline: ~
-      code_ex1: ~
-      code_ex2: ~
-      code_ex3: ~
-      code_ex4: ~
+      whereyou_ex2: "Wspomaganie diaspory* ma wiele postaci. Czy jesteś użytkownikiem pomagającym nam znaleźć błędy, piszesz opinie na listach mailingowych, tworzysz kod lub oprawę graficzną, potrzebujemy cię."
+      gi_header: "Sposoby aby dołączyć do diaspory*"
+      code_header: "Tworzenie kodu"
+      code_byline: "Zdobycie kodu źródłowego jest proste"
+      code_ex1: "Sklonuj repozytorium i poszperaj: %{clone_code}"
+      code_ex2: "Zainstaluj swoje środowisko deweloperskie"
+      code_ex3: "Zacznij tworzyć kod!"
+      code_ex4: "Posiadamy dużą społeczność gotową by ci pomóc. Proponujemy przejrzeć %{get_started_guide_link}, dołączyć do %{mailing_list_link} i spotkać nas na %{irc_link}"
       get_started_guide_link_text: ~
       mailing_list_link_text: ~
       irc_link_text: ~
-      code_gh: ~
-      bugs_header: ~
-      bugs_ex1: ~
-      bugs_ex2: ~
-      bugs_ex3: ~
+      code_gh: "Przejrzyj kod źródłowy na GitHub"
+      bugs_header: "Eliminuj błędy"
+      bugs_ex1: "Nasz projekt używa Code Triage, dobrowolnego serwisu gdzie użytkownicy i deweloperzy mogą wspólnie pracować nad poprawianiem błędów na: %{github_link}"
+      bugs_ex2: "Pozbywanie się małych błędów pomaga wszystkim i pozwala nowym ludziom zdobyć wiedzę o tym jak działa diaspora*."
+      bugs_ex3: "Pomóż nam oczyścić kod"
       github_link_text: ~
       translate_header: "Pomóż w tłumaczeniu"
       translate_ex1: "Możesz pomóc tłumaczyć diasporę* na inne języki przyłączając się do %{translations_link}."
@@ -165,10 +165,10 @@ pl:
       translation_instructions_link_text: ~
       voice_header: "Podziel się swoją opinią"
       voice_ex1: "Nasz projekt jest tworzony w całości przez wolontariuszy. Używamy narzędzia nazywanego Loomio, aby dowiedzieć się, co inni sądzą o pomysłach i propozycjach w projekcie. "
-      voice_ex2: ~
-      voice_ex3: ~
+      voice_ex2: "Dołącz tam do nas"
+      voice_ex3: "Namów przyjaciół i rodzinę by dołączyli do diaspory* tworząc swój własny %{meetup_link} dla swojej społeczności."
       meetup_link_text: ~
-      support_header: ~
+      support_header: "Zapewnij wsparcie"
       support_ex1: "Pomóż nowym użytkownikom czuć się swobodnie!"
       support_ex2: "Zarejestruj się tutaj"
       support_ex3: "Pisz poradniki dla użytkowników na %{tutorials_link}."
@@ -495,8 +495,6 @@ pl:
       services: ~
       services_ex: ~
       finish1: ~
-      finish2: ~
-      finish3: ~
     formatting:
       byline: ~
       menu_title: ~

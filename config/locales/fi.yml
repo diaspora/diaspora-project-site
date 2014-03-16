@@ -3,13 +3,13 @@ fi:
     formats:
       blog_headline: ~
   buttons:
-    host_pod: ~
-    join_diaspora: ~
+    host_pod: "Ylläpidä kapselia"
+    join_diaspora: "Liity mukaan!"
     find_more: ~
   meta:
     footer:
-      copyleft: ~
-  title: "diaspora* projekti"
+      copyleft: "CC-BY The diaspora* Foundation"
+  title: diaspora*-projekti
   newsfeed: ~
   layouts:
     application:
@@ -67,56 +67,56 @@ fi:
     about:
       headline: "Kuinka diaspora* toimii?"
       byline: "diaspora* on helppokäyttöinen - katso ohjeet"
-      menu_title: ~
-      decentralize: "Mitä tarkoittaa hajauttaminen?"
-      decentralize_ex: ~
-      this: ~
-      this_ex: ~
-      notthis: ~
-      notthis_ex: ~
+      menu_title: Tietoa
+      decentralize: "Mitä hajauttaminen tarkoittaa?"
+      decentralize_ex: "Diaspora* on täysin erilainen kuin muut sosiaaliset verkostot joita käytät. Se on täysin hajautettu, eikä sillä ole keskuspalvelinta. Tästä huolimatta yhteydessä pysyminen ja ihmisten kanssa kommunikoiminen on helppoa. Toimi seuraavasti:"
+      this: TÄMÄ
+      this_ex: "Diaspora* on verkosto sanan varsinaisessa merkityksessä – sillä ei ole keskuspalvelinta. Pienempiä palvelimia (joita kutsutaan kapseleiksi tai podeiksi) on ympäri maailmaa. Jokainen niistä sisältää kyseiseen kapseliin rekisteröityjen käyttäjien tiedot. Kapselit ovat saumattomasti yhteydessä toisiinsa, joten voit rekisteröityä niistä mihin tahansa ja kommunikoida ystäviesi kanssa, vaikka he olisivatkin valinneet toisen palvelimen."
+      notthis: "EI TÄTÄ"
+      notthis_ex: "Useimpia sosiaalisia verkostoja pyöritetään keskitetyiltä palvelimilta kaupallisten yritysten toimesta. Ne sisältävät kaikkien käyttäjien tiedot. Nämä tiedot voivat hävitä tai ne voidaan anastaa. Verkkoliikenteen vakoileminen esimerkiksi valtioiden toimesta on myös mahdollista. Lisäksi pienikin ongelma keskuspalvelimessa voi kaataa koko verkoston."
       discl: ~
-      connect: ~
-      connect_ex: ~
-      find: ~
+      connect: "Kuinka olen yhteydessä?"
+      connect_ex: "Vaikka diaspora* koostuu monista kapseleista ympäri maailmaa, koet sen yhtenäisenä palveluna. Sinun ei tarvitse olla samassa kapselissa ystäviesi kanssa kommunikoidakseni heidän kanssaan, sillä kaikki kapselit ovat saumattomassa yhteydessä toisiinsa. Käyttäessäsi diasporaa* voit helposti unohtaa, että se itse asiassa koostuu monista kapseleista. Yhteyden saaminen toisiin on itse asiassa todella helppoa, seuraa vain ohjeita: "
+      find: "1. Löydä heidät"
       find_ex: ~
-      add: ~
+      add: "2. Lisää heidät"
       add_ex: ~
-      freedom: ~
-      freedom_byline: ~
-      fdm1: ~
-      fdm1_ex: ~
-      fdm2: ~
-      fdm2_ex: ~
-      fdm3: ~
-      fdm3_ex: ~
-      privacy: ~
-      privacy_byline: ~
-      priv1: ~
-      priv1_ex: ~
-      priv2: ~
-      priv2_ex: ~
-      priv3: ~
+      freedom: Vapaus
+      freedom_byline: "Diaspora* ei yritä rajoittaa sinua"
+      fdm1: "Ole kuka haluat olla"
+      fdm1_ex: "Monet sosiaalisen verkostot vaativat, että käytät oikeaa nimeäsi. Diasporassa* voit valita kuka olet ja jakaa itsestäsi juuri niin paljon (tai vähän) kun haluat. Saat vapaasti päättää, kuinka vuorovaikutat muiden kanssa."
+      fdm2: "Ole luova"
+      fdm2_ex: "Toimintaasi ei rajoiteta. Voit vain seurata kiinnostavia ihmisiä ja katsoa, mitä heillä on sanottavanaan. Voit myös jakaa kaiken maailmalle. Jaa kuvasi, taiteesi, musiikkisi tai sanasi – mitä sitten haluatkaan. Anna ajatustesi lentää."
+      fdm3: "Ilmainen – ihan oikeasti"
+      fdm3_ex: "Diaspora* on täysin ilmaista ohjelmistoa. Sen käyttöä ei ole rajoitettu. Voit toisin sanoen käyttää lähdekoodia ja muunnella sitä omiin tarkoituksiisi sekä auttaa meitä parantamaan palvelua. Toivomme sinut mukaan."
+      privacy: Yksityisyys
+      privacy_byline: "Täydellinen valta omaan sisältöön "
+      priv1: "Omista omat tietosi"
+      priv1_ex: "Monet sosiaaliset verkostot käyttävät tietojasi rikastuakseen analysoimalla toimintaasi ja käyttämällä saamiaan tietoja mainostamiseen. Diaspora* ei käytä tietojasi mihinkään muuhun kuin auttamaan sinua pysymään yhteydessä ystäviisi."
+      priv2: "Ylläpidä omaa kapseliasi"
+      priv2_ex: "Päätä missä tietojasi säilytetään valitsemalla kapseli, johon olet tyytyväinen. Jos haluat olla aivan varma yksityisyydestäsi, voit asentaa ja ylläpitää omaa kapseliasi omilla palvelimillasi, jolloin kukaan ei pääse käsiksi yksityisiin tietoihisi."
+      priv3: "Valitse yleisösi"
       priv3_ex: ~
       aspects: ~
-      aspects_byline: ~
+      aspects_byline: "Avain yksityisyyteen diasporassa*"
       asp1: ~
       asp1_ex: ~
-      asp2: ~
+      asp2: "Organisoi elämäsi"
       asp2_ex: ~
-      asp3: ~
+      asp3: "Kerro se koko maailmalle"
       asp3_ex: ~
-      features: ~
-      features_byline: ~
-      hashtags: ~
-      hashtags_ex: ~
-      reshare: ~
-      reshare_ex: ~
-      mentions: ~
-      mentions_ex: ~
-      love: ~
-      love_ex: ~
-      host: ~
-      host_byline: ~
+      features: "Ominaisuuksia, joita käyttäjämme rakastavat"
+      features_byline: "Uskomme sinunkin pitävän niistä"
+      hashtags: Risuaidat
+      hashtags_ex: "Risuaidat antavat mahdollisuuden ilmoittaa ja seurata omia mielenkiinnon kohteitasi ja löytää samanmielisiä ihmisiä. Ne ovat myös hyvä keino tavata mielenkiintoisia ja hauskoja uusia ihmisiä palvelussa."
+      reshare: Edelleenjakaminen
+      reshare_ex: "Miksi et jakaisi pitämääsi julkaisua eteenpäin muille? Diaspora* tekee ideoiden uudelleenjakamisen helpoksi. Paina vain nappia jakaaksesi viestin eteenpäin."
+      mentions: Maininnat
+      mentions_ex: "Haluat saada tietyn ihmisen huomion? Mainitse @hänet! Se on helppo tapa saada tietty kontaktisi huomaamaan mitä haluat kertoa."
+      love: Tykkäys
+      love_ex: "Näytä arvostuksesi julkaisua kohtaan tykkäämällä (♥) siitä. Joskus sanat eivät riitä kuvaamaan tunteitasi."
+      host: "Ylläpidä kaikille avointa kapselia"
+      host_byline: "Ole yksi diasporan* tähdistä"
       host_ex: ~
       hostinst1: ~
       instructions_link_text: ~
@@ -130,38 +130,38 @@ fi:
       mention_alt: ~
       heart_alt: ~
     get_involved:
-      headline: ~
-      byline: ~
-      menu_title: ~
-      community: ~
-      community_byline: ~
-      meaning: ~
+      headline: Osallistu!
+      byline: "Sosiaalisten verkostojen tulevaisuus alkaa sinusta"
+      menu_title: Osallistu
+      community: "Yhteisön pyörittämä"
+      community_byline: "Diaspora* kuuluu sinulle"
+      meaning: "Mitä se tarkoittaa?"
       meaning_ex1: ~
       meaning_ex2: ~
       meaning_ex3: ~
-      whereyou: ~
+      whereyou: "Mitä sinä voit tehdä"
       whereyou_ex1: ~
       whereyou_ex2: ~
-      gi_header: ~
-      code_header: ~
-      code_byline: ~
-      code_ex1: ~
-      code_ex2: ~
-      code_ex3: ~
+      gi_header: "Tapoja osallistua diaspora*-projektiin"
+      code_header: "Jaa koodia"
+      code_byline: "Lähdekoodin saaminen on helppoa"
+      code_ex1: "Kloonaa tietolähde ja ala virittämään %{clone_code}"
+      code_ex2: "Asenna kehitysympäristösi"
+      code_ex3: "Aloita koodin jakaminen!"
       code_ex4: ~
       get_started_guide_link_text: ~
       mailing_list_link_text: ~
       irc_link_text: ~
-      code_gh: ~
-      bugs_header: ~
+      code_gh: "Tutki lähdekoodia GitHubissa"
+      bugs_header: "Korjaa bugeja"
       bugs_ex1: ~
       bugs_ex2: ~
-      bugs_ex3: ~
+      bugs_ex3: "Auta meitä siistimään lähdekoodiamme"
       github_link_text: ~
-      translate_header: ~
-      translate_ex1: ~
+      translate_header: "Auta kääntämisessä"
+      translate_ex1: "Voit auttaa kääntämään diasporaa* kielellesi liittymällä kääntäjäryhmäämme %{translations_link}."
       translations_link_text: ~
-      translate_ex2: ~
+      translate_ex2: "Lue kääntämisohjeemme ennen aloittamista %{translation_instructions_link}."
       translation_instructions_link_text: ~
       voice_header: ~
       voice_ex1: ~
@@ -495,8 +495,6 @@ fi:
       services: ~
       services_ex: ~
       finish1: ~
-      finish2: ~
-      finish3: ~
     formatting:
       byline: ~
       menu_title: ~

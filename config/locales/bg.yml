@@ -495,8 +495,6 @@ bg:
       services: Услуги
       services_ex: ~
       finish1: "диаспора* "
-      finish2: " и "
-      finish3: ~
     formatting:
       byline: "Форматиране на текст"
       menu_title: "Форматиране на текст"

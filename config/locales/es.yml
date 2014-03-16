@@ -16,7 +16,7 @@ es:
       wiki: Wiki
       planet: Planeta
       useful_resources: "Recursos Útiles"
-      codebase: ~
+      codebase: "código base"
       documentation: Documentación
       report_bugs: "Encuentra fallos e informa"
       irc_general: "IRC - General"
@@ -35,35 +35,37 @@ es:
       register: "Regístrate »"
       key_philosophies: "diaspora* se basa en tres filosofías claves:"
       decentralization: Descentralización
-      decentralization_about: ~
+      decentralization_about: "En lugar de tener la información de todo mundo contenida en enormes servidores centrales propiedad de un gran corporación, servidores locales(\"pods\") pueden instalarse en cualquier parte del mundo. Tú eliges en cuál \"pod\" registrarte - quizás en un pod local - y conectarte de manera fluida con la comunidad de diaspora* alrededor del mundo."
       freedom: Libertad
-      freedom_about: ~
+      freedom_about: "Puedes ser quien tú quieras en diaspora*. A diferencia de otras redes, no tienes que usar tu identidad real. Puedes interactuar con quien quieras de la manera que quieras. El único límite es tu imaginación. diaspora* también es Software Libre, dándote la libertad de usarlo como desees"
       privacy: Privacidad
-      privacy_about: ~
+      privacy_about: |-
+          En diaspora* tú eres dueño de tu información. No tienes que renunciar ningún derecho a una corporación o interesés que pudieran utilizarla. ¡Con diaspora*, tus amigos, tus hábitos y lo que compartes es tuyo... no nuestro!
+          Además, tu eliges quién puede ver lo que compartes, por medio de Aspectos
       get_started: "¿Quieres empezar?"
       get_started_sub: "Es tan fácil como 1, 2, 3 ..."
       choose_pod: "1. Elige un pod"
-      choose_pod_exp: ~
+      choose_pod_exp: "Encuentra un \"pod\" justo para ti. Puede que prefieras un \"pod\" pequeño, o uno basado cerca de donde vives, o quizás en un país con buenas políticas de seguridad de datos. ¡La elección es tuya! Escoge entre nuestra comunidad de \"pods\", quizás uno basado en tu localidad."
       sign_up: "2. Regístrate"
-      sign_up_ex: ~
+      sign_up_ex: "Una vez que hayas decidido qué pod es el más adecuado para ti, basado en los ratings, en la información que hay en %{poduptime} y en recomendaciones de personas de confianza, regístrate y crea un perfil con cuanta información personal desees. Tú tienes el control de cuánto quieres compartir."
       join_convo: "3. ¡Únete a la conversación!"
-      join_convo_ex: ~
+      join_convo_ex: "Pudes comenzar siguiendo algunas #etiquetas relacionadas a tus intereses: puede ser  <span class=\"click\">#música</span>, <span class=\"click\">#fotografía</span>, <span class=\"click\">#privacidad</span> o <span class=\"click\">#linux</span> - lo que más te guste. Comparte un mensaje público con la etiqueta <span class=\"click\">#hola</span>  para presentarte, y diviértete. Ya eres parte de la fascinante comunidad de diaspora*."
       aspects: Aspectos
-      aspects_ex: ~
+      aspects_ex: "diaspora* es pionera en el concepto de aspectos, lo que quiere decir que puedes organizar tus contactos de acuerdo al papel que juegan en tu vida. Esto significa que tú eliges compartir algo sólo con familiares o colegas de trabajo, sabiendo que nadie que no quieras podrá ver lo que publicas"
       features: Características
-      features_ex: ~
+      features_ex: "Los Hashtags te dan la libertad de etiquetar y seguir tus intereses con facilidad. Puedes llamar la atención de la gente @mencionándola. Volver a compartir las publicaciones que te gustan para que otros puedan disfrutar y comentarlas también. Y mostrar tu aprecio por el trabajo de otras personas con un ♥"
       help: "¿Quieres ayudar?"
-      help_ex: ~
+      help_ex: "diaspora* necesita personas que escriban y prueben el código, den la bienvenida y ayuden a los nuevos miembros, instalen y mantengan pods comunitarias, y corran la voz sobre los beneficios de diaspora* a otros que quieran formar parte. ¿Te gustaría contribuir al proyecto?"
       socialint: "Integración de red social"
-      socialint_ex: ~
+      socialint_ex: "Usa diaspora* como tu plataforma principal para publicar en tus perfiles de otras redes sociales. De esta manera tus amigos podrán seguir en contacto contigo, incluso si aún no están en diaspora*. diaspora* actualmente soporta la publicación cruzada a tus cuentas de Facebook, Twitter y Tumblr, con muchas más por venir"
       earth_alt: ~
-      decentralized_alt: ~
-      freedom_alt: ~
-      keyhole_alt: ~
-      aspects_alt: ~
-      features_alt: ~
-      ways_to_help_alt: ~
-      services_alt: ~
+      decentralized_alt: Descentralizado
+      freedom_alt: Libertad
+      keyhole_alt: Cerradura
+      aspects_alt: Aspectos
+      features_alt: Características
+      ways_to_help_alt: "Maneras en que puedes ayudar"
+      services_alt: Servicios
     about:
       headline: "¿Cómo funciona diaspora*?"
       byline: "diaspora* es fácil de usar. He aquí cómo."
@@ -74,9 +76,9 @@ es:
       this_ex: "diaspora* es una red verdadera, sin ninguna base central. Hay múltiples servidores (llamados «pods») alrededor del mundo, cada uno conteniendo la información de aquellos usuarios que decidan registrarse en él. Estos pods se comunican entre sí de forma transparente, tal que puedas registrarte en cualquier pod y comunicarte libremente con tus contactos, sin importar en qué pod se encuentren."
       notthis: "ESTO NO"
       notthis_ex: "La mayoría de las redes sociales funcionan desde servidores centrales cómo propiedad administrada por una corporación. Éstas almacenan todos los datos privados de sus usuarios. Esta información puede perderse o ser hackeada, y como con cualquier sistema con un cuello de botella, cualquier problema en los servidores centrales puede hcer que la red funcione muy lentamente, o que deje de hacerlo. Es también mucho más fácil para los gobiernos \"escucharlas\"."
-      discl: ~
+      discl: "diaspora* usa estándares web abiertos tales como %{pubsubhubub} y %{webfinger} para hacer este tipo de conexiones posibles"
       connect: "¿Cómo me conecto?"
-      connect_ex: "Aunque diaspora* se compone de muchos \"pods\" al rededor del mundo, uno la percibe como una sola red integrada. No necesitas estar en el mismo \"pod\" que tus contctos, para que se puedan comunicar libremente el uno con el otro - la comunicación ocurre transparentemente a través de todos los \"pods\" en el universo de diaspora*. Cuando usas diaspora* a uno se le puede olvidar facilmente que está compuesta de muchos \"pods\". Conectarse con alguien en diaspora* es en realidad algo muy simple: "
+      connect_ex: "Aunque diaspora* se compone de muchos \"pods\" al rededor del mundo, uno la percibe como una sola red integrada. No necesitas estar en el mismo \"pod\" que tus contactos, para que se puedan comunicar libremente el uno con el otro - la comunicación ocurre transparentemente a través de todos los \"pods\" en el universo de diaspora*. Cuando usas diaspora* a uno se le puede olvidar facilmente que está compuesta de muchos \"pods\". Conectarse con alguien en diaspora* es en realidad algo muy simple: "
       find: "1. Encuéntralos"
       find_ex: "Todo lo que necesitas hacer para conectarte con alguien es encontrarlo y agregarlo a algún \"aspecto\". (Leer más adelante para saber más sobre los \"aspectos\".) Éncuentralo utilizando el campo de búsqueda en la barra negra, o coloca el puntero sobre su nombre en tu stream y aparecerá una tarjeta flotante. Si conoces su identificador en diaspora* (tunombre@nombredelpod.com), puedes usarlo."
       add: "2. Agrégalos"
@@ -94,7 +96,7 @@ es:
       priv1: "Sé el dueño de tus propios datos"
       priv1_ex: "Muchas redes utilizan tus datos para hacer dinero analizando tus interacciones y usando esta información para anunciarte cosas. diaspora* no usa tus datos para ningún otro propósito que permitir que te conectes y compartas on otros."
       priv2: "Alójalo tú mismo"
-      priv2_ex: "Elige donde se almacenan tus datos elogiendo un \"pod\" con el que estés a gusto. Si quieres estar seguro de verdad, puedes configurar y alojar tu propio \"pod\" en servidores que tú controles, para que nadie pueda llegar a tus datos personales."
+      priv2_ex: "Elige donde se almacenan tus datos eligiendo un «pod» con el que estés a gusto. Si quieres estar seguro de verdad, puedes configurar y alojar tu propio «pod» en servidores que tú controles, para que nadie pueda llegar a tus datos personales."
       priv3: "Elige tu audiencia"
       priv3_ex: "Los \"aspectos\" de diaspora* te permiten compartir sólamente con aquellas personas que quieres. Puedes ser tan público o privado como quieras. Comparte una foto graciosa con el mundo entero, o un obscuro secreto con tus amigos mas cercanos. Tú tienes el control."
       aspects: "Todo acerca de los \"aspectos\""
@@ -122,7 +124,7 @@ es:
       instructions_link_text: "Instrucciones para la instalación de pods"
       hostinst2: "Mira una lista de \"pods\" comunitarios en %{poduptime}"
       distributed_network: "Red distribuida"
-      centralized_network: ~
+      centralized_network: "Red centralizada"
       search_alt: Buscar
       add_a_contact_alt: "Añadir un contacto"
       hashtag_alt: Etiqueta
@@ -137,14 +139,14 @@ es:
       community_byline: "diaspora* te pertenece"
       meaning: "¿Qué significa todo esto?"
       meaning_ex1: "El Software Libre se trata de individualidad, transparencia, creatividad, y destino. Se trata de tener una idea, y hacerla realidad. diaspora* fue fundada para saciar una pasión por divertirse, y de paso hacer del internet un mejor lugar. El Software Libre es lo que nos permite cambiar el mundo para nosotros, y permite a nuestros amigos alrededor de la web beneficiarse de nuestra exploración"
-      meaning_ex2: "Las comunidades del Software Libre son algo asombroso. En diaspora* creemos que la gente debería ser valorada por lo que hace. No importa si eres un programador de élite o si no has contrinuido nunca antes a un proyecto. Contirbuir a diaspora* significa que estás dispuesto a grabajar en problemas difíciles, centrándote en soluciones que funcionen para los usuarios."
+      meaning_ex2: "Las comunidades del Software Libre son algo asombroso. En diaspora* creemos que la gente debería ser valorada por lo que hace. No importa si eres un programador de élite o si no has contribuido nunca antes a un proyecto. Contirbuir a diaspora* significa que estás dispuesto a trabajar en problemas difíciles, centrándote en soluciones que funcionen para los usuarios."
       meaning_ex3: "Por esto es por lo que si aportas algo significativo a diaspora* te daremos pleno acceso. Estamos en esto juntos, y queremos dar a la gente excitada la oportunidad de hacer grandes cambios."
-      whereyou: "Donde entras"
+      whereyou: "Dónde entras"
       whereyou_ex1: "Todos hacemos diaspora*. Podríamos no conocerte aún, pero nos encantaría conocerte y averiguar cómo puedes ajustarte al equipo que está construyendo el futuro de la web. Todos nosotros tenemos el potencial de cambiar el mundo si tenemos la oportunidad."
       whereyou_ex2: "Se puede contribuir a diaspora* de muchas maneras. Ya sea ayudando a encontrar fallos, aportando retroalimentación en nuestras listas de correo o aportando en código o diseño, te necesitamos."
       gi_header: "Modos de involucrarse en diaspora*"
       code_header: "Aporta código"
-      code_byline: "Grabar el código fuente es sencillo"
+      code_byline: "Obtener el código fuente es sencillo"
       code_ex1: "Clona el repositorio y espera tranquilo: %{clone_code}"
       code_ex2: "Instala tu entorno de desarrollo"
       code_ex3: "¡Empieza a aportar código!"
@@ -159,7 +161,7 @@ es:
       bugs_ex3: "Ayúdanos a limpiar nuestro código"
       github_link_text: ~
       translate_header: "Ayuda a traducir"
-      translate_ex1: "Puedes ayudar a traducir diaspora* a otras lenguas uniéndoe a %{translations_link}."
+      translate_ex1: "Puedes ayudar a traducir diaspora* a otras lenguas uniéndote a %{translations_link}."
       translations_link_text: "Grupo de Traducciones"
       translate_ex2: "Lee nuestras  %{translation_instructions_link} sobre cómo comenzar."
       translation_instructions_link_text: "Instrucciones de traducción "
@@ -195,62 +197,62 @@ es:
       headline: Planeta
       menu_title: Planeta
     tutorials:
-      headline: ~
-      byline: ~
-      menu_title: ~
-      tutorials_ex1: ~
-      tutorials_ex2: ~
-      started_head: ~
-      started1: ~
-      started2: ~
-      started3: ~
-      started4: ~
-      started5: ~
-      started6: ~
-      started7: ~
-      part1: ~
-      part2: ~
-      part3: ~
-      part4: ~
-      part5: ~
-      part6: ~
-      part7: ~
-      additional: ~
-      connecting: ~
-      tips: ~
-      formatting: ~
-      more_tutorials: ~
-      other_docs: ~
-      other_docs_link_text: ~
-      thanks: ~
+      headline: "tutoriales de diaspora*"
+      byline: "Guías paso a paso para ayudarte"
+      menu_title: Tutoriales
+      tutorials_ex1: "¡Bienvenid@ a la sección de tutoriales de diaspora*¡ En está página podrás encontrar un resumen de todos nuestros tutoriales, divididos entre series de \"Primeros pasos\" y tutoriales independientes para tareas específicas. Si eres nuev@ en diaspora* o aún no te has registrado, te recomendamos la serie de \"Primeros pasos\". Si estás buscando por opciones adicionales, echa un vistazo a los demás tutoriales."
+      tutorials_ex2: "Hacemos lo mejor que podemos para mantener estos tutoriales actualizados con los últimos desarrollos de diaspora*. Cómo tal, por favor considera el hecho de que tu \"pod\" podría no estar corriendo la última versión de diaspora*, lo cual puede variar el comportamiento de lo descrito en estos tutoriales. Encuentra tu \"pod\" en %{podup_link} para ver cuál versión del software está corriendo."
+      started_head: "Comenzando en diaspora*"
+      started1: Regístrate
+      started2: "La interfaz"
+      started3: Aspectos
+      started4: "Busca y conéctate con personas"
+      started5: "¡Empieza a compartir!"
+      started6: "Notificaciones y conversaciones"
+      started7: "Toques finales"
+      part1: "Parte 1"
+      part2: "Parte 2"
+      part3: "Parte 3"
+      part4: "Parte 4"
+      part5: "Parte 5"
+      part6: "Parte 6"
+      part7: "Parte 7"
+      additional: "Tutoriales adicionales"
+      connecting: "Conectando diaspora* a otros servicios"
+      tips: "Consejos y trucos"
+      formatting: "Formateando el texto"
+      more_tutorials: "¿Necesitas más ayuda?"
+      other_docs: "Visita nuestra página %{other_docs_link} para enlaces a otras series"
+      other_docs_link_text: "otra documentación"
+      thanks: "Un gran agradecimiento a Kevin Kleinman, quien creó las guías Diasporial originales en las cuales se basaron estos tutoriales."
     getting_started1:
-      byline: ~
-      menu_title: ~
-      welcome: ~
-      find_pod: ~
-      find_pod_ex1: ~
-      find_pod_ex2: ~
-      find_pod_ex3: ~
-      wiki_link_text: ~
-      find_pod_ex4: ~
+      byline: "Parte 1 - Registrarse"
+      menu_title: "Registrarse en diaspora*"
+      welcome: "Bienvenid@ a nuestra guía de \"primeros pasos\". Si has encontrado tu propio camino hasta esta página , probablemente ya te has registrado a diaspora* o estás pensando en hacerlo. En esta serie de tutoriales te guiaremos a través del proceso de registro y te familiarizaremos con los  conceptos básicos de cómo funciona diaspora*. ¡Esperamos que te se sea útil esta guía, y que disfrutes usando diaspora*!"
+      find_pod: "Buscar un pod"
+      find_pod_ex1: "A diferencia de la mayoría de sitios de redes sociales, los cuales tienen un nodo central de computadoras que almacena la información de todos sus usuarios, nosotros no podemos darte un enlace específico y decirte: \"regístrate aqui\". Diaspora* es diferente de esas redes en que es <em>descentralizada</em>, con muchos puntos de acceso distintos. Antes de empezar tendrás que decidir con cual proovedor de diaspora* quieres registrarte. Llamamos a estos proovedores \"pods\""
+      find_pod_ex2: "La palabra \"diaspora\" se refiere al dispersamiento de semillas (o personas) sobre un área amplia. Es por ello que nuestro motivo es el diente de león, y el asterisco en nuestro nombre representa una esponjosa semilla de diente de león. En diaspora* nos referimos a las cuentas individuales como “<strong>semillas</strong>\", y los servidores dónde están almacenadas como “<strong>vainas (pods)</strong>\". ¡Te acostumbrarás pronto!"
+      find_pod_ex3: "Para ayudarte a escoger cual \"pod\" es mejor para ti, checa nuestro %{wiki_link} para ayudarte"
+      wiki_link_text: "guía para elegir un pod"
+      find_pod_ex4: "Puedes haber recibido una invitación a diaspora* de alguien que conoces. si es así, esta contiene un enlace al pod de diapora* en el que está registrada la persona que te invitó. SI quieres unirte al mismo pod que él, puedes simplemente seguir el enlace en el mail. Sin embargo, no tienes que estar en el mismo pod que tu amigo para comunicarte con él."
       find_pod_ex5: ~
-      registration: ~
+      registration: Registro
       registration1: ~
       registration2: ~
-      registration3: ~
+      registration3: "Finaliza tu registro haciendo clic en <span class=\"click\">Continuar</span> para crear y acceder a tu nueva semilla en diaspora*"
       registration4: ~
       dhq_link_text: ~
       registration5: ~
       registration6: ~
-      registration7: ~
+      registration7: "Haz clic en el botón para cargar una foto de perfil desde tu computadora."
       registration8: ~
       registration9: ~
-      registration10: ~
+      registration10: "Clic <span class=\"click\">¡Llévame a diaspora*!</span>"
       profile1: ~
       profile2: ~
       profile3: ~
-      profile4: ~
-      finish: ~
+      profile4: "¡No olvides hacer clic en el botón de <span class=\"click\">Actualizar</span> cuando hayas terminado!"
+      finish: "¡Eso es todo!"
       finish_ex1: ~
       finish_ex2: ~
     getting_started2:
@@ -495,8 +497,6 @@ es:
       services: ~
       services_ex: ~
       finish1: ~
-      finish2: ~
-      finish3: ~
     formatting:
       byline: ~
       menu_title: ~

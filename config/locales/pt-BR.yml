@@ -30,7 +30,7 @@ pt-BR:
       license_link_text: "Licença Creative Commons 3.0 não adaptada"
   pages:
     index:
-      headline: "Benvindo ao diaspora*"
+      headline: "Bem-vindo ao diaspora*"
       byline: "O mundo social online em que você está no controle"
       register: "Cadastre-se »"
       key_philosophies: "diaspora* é baseado em três filosofias chave:"
@@ -169,7 +169,7 @@ pt-BR:
       voice_ex3: "Convença seus amigos e familiares a se juntarem ao diaspora* organizando sua própria diáspora* da vida real %{meetup_link} em sua própria comunidade."
       meetup_link_text: "encontro "
       support_header: "Forneça suporte"
-      support_ex1: "Ajude novos usuários a se sentirem benvindos!"
+      support_ex1: "Ajude novos usuários a se sentirem bem-vindos!"
       support_ex2: "Cadastre-se aqui"
       support_ex3: "Escreva um tutorial em %{tutorials_link}."
       support_ex4: "Responda as perguntas de usuarios no nosso %{irc_channel_link} ou no proprio diaspora*, seguindo os hashtags #ajuda, #pergunta e #feedback."
@@ -306,7 +306,7 @@ pt-BR:
       aspects1: "Pense sobre sua vida e sobre as pessoas que você conhece. Cada pessoa é uma parte de um ou mais aspectos de sua vida. Elas podem ser um membro de sua família, um amigo próximo, um colega de trabalho, ou alguém com quem você pratica esporte, ou com quem toca música, ou com quem você compartilha de um interesse particular. Ou elas podem ser parte de mais de um desses aspectos de sua vida."
       aspects2: "diaspora* funciona exatamente da mesma maneira. Você pode colocar os contatos dentro de um \"aspecto\" de sua conta diaspora* baseado em qual aspecto de sua vida eles fazem parte. Desta maneira, você controla quais dos seus contatos vê cada publicação que você faz em diaspora*, publicando em um aspecto particular ou em vários aspectos. Nos explicaremos mais a respeito do que isso significa nas três próximas partes desta série."
       aspects3: "Quando você se associa, você tem quatro aspectos: Família, Trabalho, Amigos e Conhecidos. É claro que você não será capaz de ordenar tudo se sua vida em apenas quatro aspectos padrões, então a primeira coisa que nós vamos fazer é adicionar alguns aspectos. Você pode também apagar os aspectos padrões se você quiser."
-      aspects4: ~
+      aspects4: "Clique <span class=\"click\">Meus Aspectos</span> na coluna da esquerda e sua lista de aspectos aparecerá. Para adicionar um aspecto, clique <span class=\"click\"><em>+ Adicionar um aspecto</em></span> sob a lista de apsectos na coluna da esquerda. Você verá uma janela pop-up."
       add_aspect1: ~
       add_aspect2: ~
       add_aspect3: ~
@@ -495,8 +495,6 @@ pt-BR:
       services: ~
       services_ex: ~
       finish1: ~
-      finish2: ~
-      finish3: ~
     formatting:
       byline: ~
       menu_title: ~

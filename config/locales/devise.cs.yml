@@ -1,50 +1,50 @@
 cs:
   devise:
     confirmations:
-      confirmed: ~
-      send_instructions: ~
-      send_paranoid_instructions: ~
+      confirmed: "Tvůj účet byl úspěšně aktivován. Nyní jsi zalogován."
+      send_instructions: "Během několika minut obdržíš email s instrukcemi, jak aktivovat svůj účet."
+      send_paranoid_instructions: "Pokud je tvá emailová adresa v naší databázi, obdržíš během několika email s instrukcemi, jak si zaktivovat svůj účet."
     failure:
-      already_authenticated: ~
-      inactive: ~
-      invalid: ~
-      invalid_token: ~
-      locked: ~
-      not_found_in_database: ~
-      timeout: ~
-      unauthenticated: ~
-      unconfirmed: ~
+      already_authenticated: "Již jsi zalogován."
+      inactive: "Tvůj účet nebyl zatím aktivován."
+      invalid: "Neplatný email či heslo."
+      invalid_token: "Neplatný autentikační token."
+      locked: "Tvůj účet je zablokován."
+      not_found_in_database: "Neplatný email či heslo."
+      timeout: "Tvé přihlášení vypršelo, prosím přihlaš se znovu."
+      unauthenticated: "Je potřeba se zalogovat nebo vytvořit účet, než se pustíš dál."
+      unconfirmed: "Nejprve je potřeba aktivovat svůj účet."
     mailer:
       confirmation_instructions:
-        subject: ~
+        subject: "Aktivační instrukce"
       reset_password_instructions:
-        subject: ~
+        subject: "Instrukce ke zresetování hesla"
       unlock_instructions:
-        subject: ~
+        subject: "Instrukce k odblokování účtu"
     omniauth_callbacks:
-      failure: ~
-      success: ~
+      failure: "Nelze ověřit %{kind} kvůli \"%{reason}\"."
+      success: "Úspěšně ověřen z účtu %{kind}."
     passwords:
-      no_token: ~
-      send_instructions: ~
-      send_paranoid_instructions: ~
-      updated: ~
+      no_token: "Tuto stránku můžeš otevřít pouze z odkazu v emailu s resetem hesla. Pokud jsi odkaz z tohoto mailu zkopíroval, ujisti se, že jsi jej zkopíroval celý."
+      send_instructions: "Během několika minut obdržíš email s instrukcemi, jak si zresetovat heslo."
+      send_paranoid_instructions: "Pokud je tvá emailová adresa v naší databázi, obdržíš během několika minut email s odkazem na obnovení hesla."
+      updated: "Heslo bylo úspěšně změněno. Nyní jsi zalogován."
       updated_not_active: "Tvé heslo bylo úspěšně změněno."
     registrations:
-      destroyed: "Sbohem! Tvůj účet byl úspěšně zrušen. Doufáme brzy nashledanou."
-      signed_up: "Vítáme! Úspěšně ses přihlásil."
-      signed_up_but_inactive: "Úspěšně ses přihlásil. Stejně tě nemůžeme připojit, nýbrž tvůj účet ještě nebyl aktivován."
-      signed_up_but_locked: "Úspěšně ses přihlásil. Stejně tě nemůžeme připojit, nýbrž tvůj účet je zamknutý."
-      signed_up_but_unconfirmed: ~
-      update_needs_confirmation: ~
-      updated: "Úspěšně si aktualizoval svůj účet."
+      destroyed: "Sbohem! Tvůj účet byl úspěšně smazán. Doufáme, že se brzy uvidíme."
+      signed_up: "Vítej! Úspěšně ses přihlásil."
+      signed_up_but_inactive: "Úspěšně ses zaregistroval, ale před dalším pokračováním je potřeba tvůj účet nejprve aktivovat."
+      signed_up_but_locked: "Úspěšně ses zaregistroval, ale tvůj účet je momentálně zablokován."
+      signed_up_but_unconfirmed: "Na tvou emailovou adresu byl odeslán email s potvrzujícím odkazem. K aktivování tvého účtu je potřeba tento odkaz otevřít."
+      update_needs_confirmation: "Úspěšně jsi zaktualizoval svůj účet, ale potřebujeme ověřit tvou novou emailovou adresu. K tomu je potřeba otevřít odkaz v emailu, který jsme ti zaslali."
+      updated: "Úspěšně jsi aktualizoval svůj účet."
     sessions:
       signed_in: "Přihlášení proběhlo úspěšně."
       signed_out: "Odhlášení proběhlo úspěšně."
     unlocks:
-      send_instructions: ~
-      send_paranoid_instructions: ~
-      unlocked: ~
+      send_instructions: "Během několika minut obdržíš email s instrukcemi, jak si odblokovat svůj účet."
+      send_paranoid_instructions: "Pokud tvůj účet existuje, obdržíš během několika minut email s instrukcemi, jak jej odblokovat."
+      unlocked: "Tvůj účet byl úspěšně odblokován. Pro další činnost se prosím přihlaš."
   errors:
     messages:
       already_confirmed: "už bylo potvrzeno, prosím zkoušej dál se přihlásit"
@@ -52,3 +52,7 @@ cs:
       expired: "vypršelo, požádej o nové"
       not_found: nenalezeno
       not_locked: "nebylo zamčeno"
+      not_saved:
+        one: "1 chyba zabránila uložení %{resource}"
+        few: "%{count} chyby zabránily uložení %{resource}"
+        other: "%{count} chyb zabránilo uložení %{resource}"

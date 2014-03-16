@@ -5,7 +5,7 @@ pt-PT:
   buttons:
     host_pod: "Hospede um \"Pod\""
     join_diaspora: "Junte-se a nós!"
-    find_more: "Descubra mais »"
+    find_more: "Saber mais »"
   meta:
     footer:
       copyleft: "CC-BY - A Fundação diaspora*"
@@ -19,14 +19,14 @@ pt-PT:
       codebase: "Código Fonte"
       documentation: Documentação
       report_bugs: "Encontrar & Comunicar Problemas"
-      irc_general: "IRC - Geral"
-      irc_development: "IRC - Desenvolvimento"
-      discussion_general: "Discussão - Geral"
-      discussion_development: "Discussão - Desenvolvimento"
-      choose_language: "Escolha o Idioma"
+      irc_general: "IRC Geral"
+      irc_development: "IRC do Desenvolvimento"
+      discussion_general: "Discussão Geral"
+      discussion_development: "Discussão sobre o Desenvolvimento"
+      choose_language: "Selecionar Idioma"
       translate: ~
       cc_license_alt: "Licença \"Creative Commons\""
-      licensed_under: "%{site_link} está licenciado sob %{license_link}"
+      licensed_under: "A %{site_link} está licenciada sob a %{license_link}"
       license_link_text: "Licença Não Suportada \"Creative Commons Attribution 3.0\""
   pages:
     index:
@@ -42,12 +42,12 @@ pt-PT:
       privacy_about: ~
       get_started: "Pretende iniciar?"
       get_started_sub: "É tão simples como, 1, 2, 3 ..."
-      choose_pod: "1. Escolha um \"Pod\""
+      choose_pod: "1. Escolha um 'Pod'"
       choose_pod_exp: ~
       sign_up: "2. Registar"
       sign_up_ex: ~
       join_convo: "3. Junte-se à conversa!"
-      join_convo_ex: ~
+      join_convo_ex: "Comece a seguir algumas #tags relacionadas com os seus interesses: este poderá ser <span class=\"click\">#music</span>, <span class=\"click\">#photography</span>, <span class=\"click\">#privacy</span> ou <span class=\"click\">#linux</span> - no que quer que esteja. Compartilhe uma mensagem pública com a etiqueta <span class=\"click\">#newhere</span> para se introduzir, e aí vai. Agora já faz parte  da comunidade vibrante do diaspora*."
       aspects: Aspetos
       aspects_ex: ~
       features: Recursos
@@ -71,10 +71,10 @@ pt-PT:
       decentralize: "O que é a descentralização?"
       decentralize_ex: "Diaspora* é completamente diferente da maioria das redes que utiliza. Este é completamente descentralizado, sem um 'hub' central. Ainda assim, é muito fácil para se conetar e comunicar com as pessoas. Veja como."
       this: ISTO
-      this_ex: ~
+      this_ex: "O diáspora* é uma rede verdadeira, sem nenhuma base central. Existem servidores (chamados de \"pods\") em todo o mundo, contendo cada um, os dados de todos os utilizadores que optarem por se registar nele. Estes \"pods\" comunicam facilmente uns com os outros, de modo que pode registar-se em qualquer \"pod\" e comunicar livremente com os seus contactos, onde quer que eles estejam na rede."
       notthis: "ISTO NÃO"
       notthis_ex: ~
-      discl: ~
+      discl: "(o diaspora* utiliza os padrões da web aberta, tais como, %{pubsubhubub} e %{webfinger} para tornar este tipo de conexão possível.)"
       connect: "Como é que eu coneto?"
       connect_ex: ~
       find: "1. Encontre-os"
@@ -83,16 +83,16 @@ pt-PT:
       add_ex: "Depois basta clicar em \"Adicionar Contacto\" e escolha o aspeto que pretende que as pessoas façam parte. Agora já está conetado e pode compartilhar com elas da maneira que faria em qualquer outra rede. Ou, se elas pertencem a diferentes aspetos da sua vida, adicione-as a múltiplos aspetos. Agora, já está conetado. É tão simples. "
       freedom: Liberdade
       freedom_byline: "O diaspora* não tenta limitá-lo"
-      fdm1: "Seja, quem pretende ser"
-      fdm1_ex: ~
+      fdm1: "Seja quem você pretende ser"
+      fdm1_ex: "Muitas das redes insistem em que utilize a sua identidade real. Não no diaspora*. Aqui, pode escolher quem deseja ser, e compartilhar muito ou pouco sobre si mesmo, como o desejar. Tudo depende de si, e do quanto pretende interagir com as outras pessoas."
       fdm2: "Seja criativo"
       fdm2_ex: ~
       fdm3: "Livre como em liberdade"
-      fdm3_ex: "O diaspora* é um programa completamente livre. Isto significa, que não existem limites em como este pode ser utilizado. Mesmo assim, pode usar o código fonte e alterá-lo para como o desejar, e ajudar-nos a melhorar a rede. Nós adorávamos tê-lo a bordo!"
+      fdm3_ex: "O diaspora* é um Programa completamente Livre. Isto significa, que não existem limites em como este pode ser utilizado. E até pode utilizar o código fonte e alterá-lo do modo que desejar, e ajudar-nos a melhorar a rede. Nós adorávamos tê-lo a bordo!"
       privacy: Privacidade
       privacy_byline: "Controlo total sobre o que é seu "
       priv1: "Seja dono dos seus próprios dados"
-      priv1_ex: "Muitas das redes utilizam os seus dados para fazerem dinheiro, analisando as suas interações e utilizam essa informação para publicitar anúncios para si. O diaspora* não utiliza os seus dados para qualquer fim, a não ser para permitir que se conecte e compartilhe com os outros."
+      priv1_ex: "Muitas redes utilizam os seus dados para fazerem dinheiro, analisando as suas interações e utilizam essa informação para lhe enviarem publicidade. O diaspora* não utiliza os seus dados para qualquer fim, a não ser, permitir que se conecte e compartilhe com os outros."
       priv2: "Seja o anfitrião"
       priv2_ex: ~
       priv3: "Escolha a sua audiência"
@@ -108,25 +108,25 @@ pt-PT:
       features: "Caraterísticas que a nossa comunidade adora"
       features_byline: "Nós pensamos que também vai se apaixonar"
       hashtags: Hashtags
-      hashtags_ex: ~
+      hashtags_ex: "Os 'hashtags' permitem-lhe marcar e seguir os seus interesses, e ajudar as suas publicações a chegar às pessoas. Elas também são uma boa maneira para encontrar diversão, novas pessoas e interessantes no diaspora*."
       reshare: "Volte a Partilhar"
-      reshare_ex: ~
+      reshare_ex: "Porque não volar a compartilhar uma publicação que gostou, com os outros? O diaspora* torna fácil a divulgação de ideias através do voltar a compartilhar. Basta clicar no botão para compartilhar a mensagem."
       mentions: Menções
-      mentions_ex: ~
+      mentions_ex: "Deseja chamar a atenção de alguém? Basta @mencioná-los! É uma forma fácil para alertar um dos seus contactos quando acha que possa haver algo que lhes seja útil."
       love: Amor
-      love_ex: ~
+      love_ex: "Mostre o seu apreço por algo que você goste, ♥agarre-o. Porque ás vezes as palavras não são suficientes para dizer o que sente."
       host: "Hospede um \"Pod\" Comunitário"
       host_byline: "Seja uma das estrelas do diasporas*"
       host_ex: ~
       hostinst1: "Lei-a %{instructions_link} e configure o seu próprio \"Pod\" comunitário."
       instructions_link_text: "Instruções da instalação do \"Pod\""
-      hostinst2: "Veja uma lista de pods comunitários em %{poduptime}"
+      hostinst2: "Veja uma lista de 'pods' comunitários em %{poduptime}"
       distributed_network: "Rede distribuída"
       centralized_network: "Rede centralizada"
       search_alt: Procurar
       add_a_contact_alt: "Adicionar um contacto"
       hashtag_alt: Hashtag
-      reshare_alt: "Volte a Partilhar"
+      reshare_alt: "Volte a Compartilhar"
       mention_alt: Mencionar
       heart_alt: Coração
     get_involved:
@@ -145,34 +145,34 @@ pt-PT:
       gi_header: "Modos sobre como se envolver com o diaspora*"
       code_header: "Código de Contribuição"
       code_byline: "É simples a obtenção do código fonte."
-      code_ex1: "Clone o repositório e poke à volta de: %{clone_code}"
+      code_ex1: "Clone o repositório e e vá até %{clone_code}"
       code_ex2: "Instale o seu ambiente de desenvolvimento"
-      code_ex3: "Inicie a sua contribuição do código!"
-      code_ex4: ~
-      get_started_guide_link_text: "Guia sobre como iniciar"
-      mailing_list_link_text: "lista de endereços"
-      irc_link_text: "Sala IRC diaspora*"
-      code_gh: "Ver a fonte no GitHub"
+      code_ex3: "Inicie a sua contribuição no código!"
+      code_ex4: "Nós temos uma grande comunidade pronta para o ajuda a iniciar. Nós sugerimos que consulte o nosso %{get_started_guide_link}. Adira à nossa %{mailing_list_link} e venha conhecer-nos na %{irc_link}."
+      get_started_guide_link_text: "Guia de iniciação"
+      mailing_list_link_text: "Lista de Endereços"
+      irc_link_text: "Sala de IRC do diaspora*"
+      code_gh: "Consultar a Fonte no GitHub"
       bugs_header: "Reduzir os Erros"
-      bugs_ex1: ~
+      bugs_ex1: "O nosso projeto utiliza o 'Code Triage', um serviço voluntário onde os utilizadores e os programadores podem trabalhar juntos para resolver os bugs no nosso %{github_link}."
       bugs_ex2: "Reduzindo os pequenos erros ajuda-nos a todos, e isto pode dar a um recém-chegado uma melhor perceção de como as partes do diaspora* funcionam."
       bugs_ex3: "Ajude-nos a melhorar o nosso código"
       github_link_text: "Gerenciamento de Problemas do GitHub"
       translate_header: "Ajude na tradução"
       translate_ex1: "Pode ajudar-nos a traduzir o diaspora* para outros idiomas, aderindo em %{translations_link}."
       translations_link_text: "Grupo de Traduções"
-      translate_ex2: "Leia as nossas %{translation_instructions_link} sobre como iniciar-se."
+      translate_ex2: "Leia as nossas %{translation_instructions_link}, sobre como iniciar-se."
       translation_instructions_link_text: "instruções de tradução "
       voice_header: "Faça-se Ouvir"
       voice_ex1: "O nosso projeto é totalmente gerido pela comunidade de voluntários. Nós utilizamos uma ferramenta denominada \"Loomio\" para determinar o que os nossos colaboradores pensam sobre as ideias e propostas para o projeto. "
       voice_ex2: "Junte-se a nós lá"
-      voice_ex3: ~
+      voice_ex3: "Convença os seus amigos e familia a aderir ao diaspora*, organizando o seu próprio diaspora* da vida real %{meetup_link}, na sua própria comunidade."
       meetup_link_text: encontro
       support_header: "Proporcione Suporte"
       support_ex1: "Ajude os novos utilizadores a sentirem-se bem-vindos!"
       support_ex2: "Registe-se aqui"
-      support_ex3: "Crie os tutoriais de utilizador em %{tutorials_link}."
-      support_ex4: ~
+      support_ex3: "Crie os tutoriais de utilizador na secção %{tutorials_link}."
+      support_ex4: "Responda a questões dos utilizadores no nosso %{irc_channel_link} ou responda às mesmas no próprio diaspora*, seguindo as \"hashtags\" <span class=\"click\">#help</span>, <span class=\"click\">#question</span> e as <span class=\"click\">#feedback</span>."
       irc_channel_link_text: "Canal IRC"
       support_ex5: "Contribua para %{wiki_link}."
       wiki_link_text: "wiki diaspora*"
@@ -180,16 +180,16 @@ pt-PT:
       run_ex1: ~
       host_pod_link_text: "hospedar os \"Pods\" de terceiros no diaspora*"
       run_ex2: "Pode hospedá-lo em qualquer lugar."
-      run_ex3: "Adicione o seu pod à lista de pods abertos em %{poduptime}."
+      run_ex3: "Adicione o seu 'pod' à lista de 'pods' abertos em %{poduptime}."
       contributors_header: "colaboradores do diaspora*"
-      contributors_byline: ~
+      contributors_byline: "As pessoas que tornam possível ao diáspora* ser o que é"
       globe_alt: Globo
       megaphone_alt: Megafone
       support_alt: Suporte
       pod_alt: Pod
     blog:
       headline: "O blogue diaspora*"
-      subline: "anúncios oficiais"
+      subline: "Anúncios Oficiais"
       menu_title: Blogue
     planet:
       headline: Planeta
@@ -198,14 +198,14 @@ pt-PT:
       headline: "Tutoriais do diaspora*"
       byline: "Guias passo-a-passo para o ajudar"
       menu_title: Tutoriais
-      tutorials_ex1: "Bem-vindo a secção de tutoriais do diaspora*. Nesta página, vai encontrar uma visão global de todos os nossos tutoriais, divididos em \"Iniciação ...\" e tutoriais autónomos para tarefas específicas. Se é novo no diaspora* ou ainda não se registou, nós recomendamos que leia \"Iniciação ...\". Se estiver à procura de opções adicionais, consulte os outros tutoriais."
+      tutorials_ex1: "Bem-vindo a secção dos tutoriais do diaspora*. Nesta página, irá encontrar um resumo de todos os nossos tutoriais, divididos em \"Iniciação ...\" e tutoriais autónomos para tarefas específicas. Se é novo no diaspora* ou ainda não se registou, nós recomendamos que leia \"Iniciação ...\". Se estiver à procura de opções adicionais, consulte os outros tutoriais."
       tutorials_ex2: ~
       started_head: "Iniciação ao diaspora*"
       started1: Registar-se
       started2: "A interface"
-      started3: Aspetos
-      started4: "Encontrar e conetar com as pessoas"
-      started5: "Iniciar Partilha!"
+      started3: Grupos
+      started4: "Encontrar e conetar com pessoas"
+      started5: "Comece a compartilhar!"
       started6: "Notificações e Conversações"
       started7: Terminar
       part1: "Parte 1"
@@ -249,7 +249,7 @@ pt-PT:
       profile1: ~
       profile2: ~
       profile3: ~
-      profile4: ~
+      profile4: "Não se esqueça de clicar em <span class=\"click\">'Atualizar'</span> assim que tiver terminado!"
       finish: ~
       finish_ex1: ~
       finish_ex2: ~
@@ -261,7 +261,7 @@ pt-PT:
       interface3: "A interface principal pode ser dividida em quatro partes."
       header: ~
       header2: "o logotipo do diaspora*, que o leva de volta à página stream;"
-      header3: ~
+      header3: "hiperligações para as suas páginas de Transmissão e Minha Atividade;"
       header4: ~
       header5: ~
       header6: ~
@@ -280,7 +280,7 @@ pt-PT:
       stream_ex: ~
       stream1: "publicações efetuadas pelos seus contactos;"
       stream2: "publicações públicas efetuadas, contendo as #tags que segue;"
-      stream3: ~
+      stream3: "publicações que o @mencionam."
       stream_ex2: ~
       activity: "A Minha Atividade"
       activity_ex: ~
@@ -428,7 +428,7 @@ pt-PT:
       how: ~
       try_out: ~
       make_post1: ~
-      make_post2: ~
+      make_post2: "Olá a todos, Eu sou #newhere no diaspora*. Eu gosto de #running, #literature e  #rabbits."
       make_post3: ~
       interact: ~
       interact_ex1: ~
@@ -494,15 +494,13 @@ pt-PT:
       privacy_ex: ~
       services: Serviços
       services_ex: ~
-      finish1: ~
-      finish2: " e "
-      finish3: ~
+      finish1: "Muito obrigado por ler este guia de iniciação! Nós esperamos que este lhe tenha sido útil e que agora se sinta confortável em utilizar o diaspora* como a sua nova casa on-line. Se tiver quaisquer questões, sinta-se à vontade para as colocar publicamente no diaspora*, incluindo o "
     formatting:
       byline: "Formatar Texto"
       menu_title: "Formatação de Texto"
       format1: ~
       format2: ~
-      format3: ~
+      format3: "É onde o botão <span class=\"click\">Pré-visualizar</span> dá jeito. Teste alguma formatação, pré-visualize-a, trabalhe no que não está correto, corrija-a e pré-visualize-a de novo, até estar satisfeito!"
       format4: ~
       headings: Cabeçalhos
       headings_ex1: ~
@@ -568,7 +566,7 @@ pt-PT:
       notepad_ex: ~
     other_docs:
       headline: "Outra documentação"
-      byline: "Onde encontrar mais ajuda e documentação"
+      byline: "Onde encontrar mais ajuda e informação"
       menu_title: "Outra documentação"
       intro1: ~
       intro2: ~
@@ -584,11 +582,11 @@ pt-PT:
       support: "Suporte do Utilizador"
       question: ~
       mail: ~
-      mail_link_text: "lista de endereços"
+      mail_link_text: "Lista de Endereços"
       irc: ~
       irc_link_text: "Canal IRC"
       progress: "Progresso do Projeto"
-      blog: ~
+      blog: "%{blog_link} – onde nós anunciamos os eventos mais importantes e atualizações"
       blog_link_text: "Blogue do Projeto"
       changelog: ~
       changelog_link_text: "O registo de alterações"
