@@ -123,7 +123,7 @@ GEM
       thor (>= 0.18.1, < 2.0)
     raindrops (0.13.0)
     rake (10.2.2)
-    redcarpet (3.0.0)
+    redcarpet (3.1.1)
     remotipart (1.2.1)
     rspec (2.14.1)
       rspec-core (~> 2.14.0)
@@ -195,7 +195,7 @@ DEPENDENCIES
   rails (~> 4.0.0)
   rails_admin
   rails_locale_detection (~> 2.0.0.pre)
-  redcarpet (~> 3.0.0)
+  redcarpet (~> 3.1)
   rspec-instafail (~> 0.2.4)
   rspec-rails (~> 2.14.0)
   sass-rails (~> 4.0.0)
