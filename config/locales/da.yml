@@ -3,107 +3,109 @@ da:
     formats:
       blog_headline: ~
   buttons:
-    host_pod: ~
-    join_diaspora: ~
-    find_more: ~
+    host_pod: "Driv din egen pod"
+    join_diaspora: "Være med!"
+    find_more: "Få mere at vide »"
   meta:
     footer:
-      copyleft: ~
-  title: ~
-  newsfeed: ~
+      copyleft: "CC-BY The diaspora* Foundation"
+  title: "diaspora* projektet"
+  newsfeed: Nyhedsfeed
   layouts:
     application:
-      wiki: ~
-      planet: ~
-      useful_resources: ~
+      wiki: Wiki
+      planet: Planeten
+      useful_resources: "Nyttige ressourcer"
       codebase: ~
-      documentation: ~
-      report_bugs: ~
-      irc_general: ~
-      irc_development: ~
-      discussion_general: ~
-      discussion_development: ~
-      choose_language: ~
-      translate: ~
+      documentation: Dokumentation
+      report_bugs: "Find og rapporter fejl"
+      irc_general: "IRC - Generelt"
+      irc_development: "IRC - Udvikling"
+      discussion_general: "Diskussion - Generelt"
+      discussion_development: "Diskussion - Udvikling"
+      choose_language: "Vælg sprog"
+      translate: "Tilføj en oversættelse"
       cc_license_alt: ~
       licensed_under: ~
       license_link_text: ~
   pages:
     index:
-      headline: ~
-      byline: ~
-      register: ~
-      key_philosophies: ~
-      decentralization: ~
+      headline: "Velkommen til diaspora*"
+      byline: "Det sociale netværk hvor du har kontrollen"
+      register: "Opret konto »"
+      key_philosophies: "diaspora* orienterer sig ved tre nøgle-begreber:"
+      decentralization: Decentralisering
       decentralization_about: ~
-      freedom: ~
+      freedom: Frihed
       freedom_about: ~
-      privacy: ~
+      privacy: Privatliv
       privacy_about: ~
-      get_started: ~
-      get_started_sub: ~
-      choose_pod: ~
-      choose_pod_exp: ~
-      sign_up: ~
+      get_started: "Vil du komme i gang?"
+      get_started_sub: "Det er nemt som 1, 2, 3 ..."
+      choose_pod: "1. Find en pod (server)"
+      choose_pod_exp: "Find en pod som passer til dig. Måske foretrækker du en mindre pod, eller en der geografisk er i nærheden af dig, eller du foretrækker en pod-server som står i et land med en god sikkerhedspolitik ift. privatliv og datasikkerhed. Det er dit valg! Vælg mellem en af vores community-pods, måske en i din region."
+      sign_up: "2. Opret konto"
       sign_up_ex: ~
-      join_convo: ~
+      join_convo: "Vær med i samtalen!"
       join_convo_ex: ~
-      aspects: ~
+      aspects: Aspekter
       aspects_ex: ~
-      features: ~
+      features: Funktioner
       features_ex: ~
-      help: ~
+      help: "Vil du hjælpe?"
       help_ex: ~
-      socialint: ~
+      socialint: "Social netværks integration"
       socialint_ex: ~
       earth_alt: ~
       decentralized_alt: ~
-      freedom_alt: ~
-      keyhole_alt: ~
-      aspects_alt: ~
-      features_alt: ~
-      ways_to_help_alt: ~
-      services_alt: ~
+      freedom_alt: Frihed
+      keyhole_alt: Nøglehul
+      aspects_alt: Aspekter
+      features_alt: Funktioner
+      ways_to_help_alt: Hjælpemuligheder
+      services_alt: Tjenester
     about:
-      headline: ~
-      byline: ~
-      menu_title: ~
-      decentralize: ~
-      decentralize_ex: ~
-      this: ~
-      this_ex: ~
-      notthis: ~
-      notthis_ex: ~
+      headline: "Hvordan fungerer diaspora*?"
+      byline: "diaspora* er enkelt at bruge - se hvordan"
+      menu_title: Om
+      decentralize: "Hvad er decentralisering?"
+      decentralize_ex: "diaspora* er fuldstændig forskellig fra de fleste sociale netværk du kender. Det er fuldstændig decentraliseret, uden en central \"hub\" eller \"server\". Trods det, er det meget enkelt at bruge det til at kontakte og kommunikere med folk. Se hvordan."
+      this: DETTE
+      this_ex: "diaspora* er et ægte netværk uden en central base. Der er servere (som kaldes \"pods\") som spænder over hele kloden, som indeholder de data af de brugere, som har valgt at registrere sig på en af disse servere. Disse \"pods\" kommunikerer med hinanden uden problemer, så du kan registrere dig på en hvilken som helst pod og frit kommunikere med dine virtuelle kontakter, hvor end de opholder sig på netværket."
+      notthis: "IKKE DETTE"
+      notthis_ex: "De fleste sociale netværk køres på centrale servere, som typisk eges af private virksomheder. Disse virksomheder  opbevarer samtlige brugerdata. Disse informationer kan gå tabt, eller kan blive kompromitteret af hackere. Som et hvert system med en flaskehals, kan et hvert problem på den centrale server være med til, at hele netværket hænger i bremsen, eller er fuldstændig ude af drift. Det er også nemmere for myndighederne at \"lytte med\"."
       discl: ~
-      connect: ~
-      connect_ex: ~
-      find: ~
-      find_ex: ~
-      add: ~
-      add_ex: ~
-      freedom: ~
-      freedom_byline: ~
-      fdm1: ~
-      fdm1_ex: ~
-      fdm2: ~
-      fdm2_ex: ~
-      fdm3: ~
-      fdm3_ex: ~
-      privacy: ~
-      privacy_byline: ~
-      priv1: ~
+      connect: "Hvordan tilslutter jeg mig?"
+      connect_ex: "På trods af at diaspora* er sammensat af mange forskellige pods verden over, vil du opleve det som et integreret og sammenhængende netværk. Du skal ikke være logget på samme pod, for at kunne kommunikere med kontakter som er registreret på andre pods - kommunikationen fungerer automatisk mellem samtlige pods i diaspora* universet. Når du bruger diaspora*, glemmer du hurtigt, at det er sammensat at mange pods. At kontakte andre på diaspora*, er faktisk lige til: "
+      find: "1. Find kontakter"
+      find_ex: "Det du bruger for at få kontakter, er at finde dem og knytte dem til et aspekt (se for neden for mere info om aspekter). Du kan finde kontakter ved hjælp af søgefeltet på den sorte bjælke for oven, eller du placerer musen over et navn i din stream og en lille info popper op om denne bruger. Hvis du kender folks diaspora*-ID (navn@podnavn.com), kan du bruge disse i søgefeltet."
+      add: "2. Tilføj kontakt"
+      add_ex: |-
+          Så er det kun om at trykke på "Tilføj kontakt" knappen og vælge en aspekt som vedkommende skal knyttes til. Du har nu forbindelse til dine nye kontakter og kan dele med dem, som du også ville gøre på andre sociale netværk. Eller, hvis dine kontakter er del af andre aspekter i dit liv, kan du tilføje dem til flere aspekter på en gang.
+          Du har nu tilføjet kontakter. Det er super nemt.
+      freedom: Frihed
+      freedom_byline: "diaspora* prøver ikke at begrænse dig."
+      fdm1: "Vær den, som du vil være."
+      fdm1_ex: "Mange sociale netværk insisterer på, at du angiver din ægte identitet. Ikke diaspora*. Her kan du vælge, hvem du vil være og dele lige så meget, eller så lidt om dig selv, som du har lyst. Det er virkeligt op til dig, hvordan du vil interagere med andre folk."
+      fdm2: "Vær kreativ"
+      fdm2_ex: "Du er ikke indskrænket i måden du interagerer med andre på. Du kan bare følge fascinerende mennesker og lytte til hvad de har at sige, eller du kan dele hele din verden med enhver. Del dine fotos, din kunst, dine videos, din musik, eller ord - alt det du vil. Bare giv slip."
+      fdm3: "Fri som i frihed"
+      fdm3_ex: "diaspora* er fuldstændig fri software. Det betyder, at der er ingen begrænsninger i hvad den kan bruges til. Du kan endda bruge kildekoden og forandre den lige så meget du vil og hjælpe os i at videreudvikle netværket. Du er så meget velkommen om bord hos os!"
+      privacy: Privatliv
+      privacy_byline: "Total kontrol over hvad der er dit "
+      priv1: "Vær i besiddelse af dine egne data"
       priv1_ex: ~
-      priv2: ~
+      priv2: "Kør det selv"
       priv2_ex: ~
-      priv3: ~
+      priv3: "Vælg dit publikum"
       priv3_ex: ~
-      aspects: ~
-      aspects_byline: ~
-      asp1: ~
+      aspects: "Alt om aspekter"
+      aspects_byline: "Nøglen til et privatliv på nettet er diaspora*"
+      asp1: "Aspekter i dit liv"
       asp1_ex: ~
-      asp2: ~
+      asp2: "Organiser dit liv"
       asp2_ex: ~
-      asp3: ~
+      asp3: "Fortæl det hele verden"
       asp3_ex: ~
       features: ~
       features_byline: ~
@@ -119,16 +121,16 @@ da:
       host_byline: ~
       host_ex: ~
       hostinst1: ~
-      instructions_link_text: ~
+      instructions_link_text: "Instruktioner til installation af en pod"
       hostinst2: ~
-      distributed_network: ~
-      centralized_network: ~
-      search_alt: ~
-      add_a_contact_alt: ~
-      hashtag_alt: ~
-      reshare_alt: ~
-      mention_alt: ~
-      heart_alt: ~
+      distributed_network: "Distribueret netværk"
+      centralized_network: "Centraliseret netværk"
+      search_alt: Søg
+      add_a_contact_alt: "Tilføj en kontakt"
+      hashtag_alt: Hashtag
+      reshare_alt: "Del igen"
+      mention_alt: Nævn
+      heart_alt: Hjerte
     get_involved:
       headline: ~
       byline: ~
@@ -149,15 +151,15 @@ da:
       code_ex2: ~
       code_ex3: ~
       code_ex4: ~
-      get_started_guide_link_text: ~
-      mailing_list_link_text: ~
-      irc_link_text: ~
+      get_started_guide_link_text: "Kom i gang guide"
+      mailing_list_link_text: "Mailing liste"
+      irc_link_text: "diaspora*s IRC kanal"
       code_gh: ~
       bugs_header: ~
       bugs_ex1: ~
       bugs_ex2: ~
       bugs_ex3: ~
-      github_link_text: ~
+      github_link_text: "GitHub Issue Tracker"
       translate_header: ~
       translate_ex1: ~
       translations_link_text: ~
@@ -165,73 +167,73 @@ da:
       translation_instructions_link_text: ~
       voice_header: ~
       voice_ex1: ~
-      voice_ex2: ~
-      voice_ex3: ~
+      voice_ex2: "Vær med her"
+      voice_ex3: "Overbevis dine venner og familie til at være med på diaspora*, ved at organisere din egen real-life diaspora* %{meetup_link} i dit eget fællesskab."
       meetup_link_text: ~
-      support_header: ~
-      support_ex1: ~
-      support_ex2: ~
-      support_ex3: ~
+      support_header: "Tilbyd support"
+      support_ex1: "Hjælp nye brugere, med at komme i gang!"
+      support_ex2: "Opret konto her"
+      support_ex3: "Skriv bruger-guides for %{tutorials_link} sektionen."
       support_ex4: ~
-      irc_channel_link_text: ~
-      support_ex5: ~
-      wiki_link_text: ~
-      run_header: ~
+      irc_channel_link_text: "IRC kanal"
+      support_ex5: "Bidrag til %{wiki_link}."
+      wiki_link_text: "diaspora*’s wiki"
+      run_header: "Kør en offentlig pod"
       run_ex1: ~
-      host_pod_link_text: ~
-      run_ex2: ~
+      host_pod_link_text: "kører deres egne pods på diaspora*"
+      run_ex2: "Du kan sætte programmet op, hvor du vil"
       run_ex3: ~
-      contributors_header: ~
-      contributors_byline: ~
-      globe_alt: ~
-      megaphone_alt: ~
-      support_alt: ~
-      pod_alt: ~
+      contributors_header: "diasporas*s bidragsydere"
+      contributors_byline: "Folk bag diaspora* - hvad er det"
+      globe_alt: Globus
+      megaphone_alt: Megaphone
+      support_alt: Support
+      pod_alt: Pod
     blog:
-      headline: ~
-      subline: ~
-      menu_title: ~
+      headline: "diaspora*s blog"
+      subline: "Officielle meddelelser"
+      menu_title: Blog
     planet:
-      headline: ~
-      menu_title: ~
+      headline: Planeten
+      menu_title: Planeten
     tutorials:
-      headline: ~
-      byline: ~
-      menu_title: ~
+      headline: "diaspora* guides"
+      byline: "Step-by-step guides som hjælp til dig"
+      menu_title: Guider
       tutorials_ex1: ~
       tutorials_ex2: ~
-      started_head: ~
-      started1: ~
+      started_head: "Kom i gang på diaspora*"
+      started1: "Registrer konto"
       started2: ~
-      started3: ~
-      started4: ~
-      started5: ~
-      started6: ~
-      started7: ~
-      part1: ~
-      part2: ~
-      part3: ~
-      part4: ~
-      part5: ~
-      part6: ~
-      part7: ~
-      additional: ~
-      connecting: ~
-      tips: ~
-      formatting: ~
-      more_tutorials: ~
+      started3: Aspekter
+      started4: "At finde og kontakte andre folk"
+      started5: "Start deling!"
+      started6: "Meddelelser og samtaler"
+      started7: Afslutter...
+      part1: "Part 1"
+      part2: "Part 2"
+      part3: "Part 3"
+      part4: "Part 4"
+      part5: "Part 5"
+      part6: "Part 6"
+      part7: "Part 7"
+      additional: "Yderligere guides"
+      connecting: "Forbind diaspora* med andre tjenester"
+      tips: "Tips og tricks"
+      formatting: Tekstformatering
+      more_tutorials: "Brug for mere hjælp?"
       other_docs: ~
-      other_docs_link_text: ~
+      other_docs_link_text: "anden dokumentation"
       thanks: ~
     getting_started1:
-      byline: ~
-      menu_title: ~
+      byline: "Part 1 - Registrer konto"
+      menu_title: "Registrer en konto på diaspora*"
       welcome: ~
-      find_pod: ~
+      find_pod: "Find en pod"
       find_pod_ex1: ~
       find_pod_ex2: ~
       find_pod_ex3: ~
-      wiki_link_text: ~
+      wiki_link_text: "Guide for at vælge en pod"
       find_pod_ex4: ~
       find_pod_ex5: ~
       registration: ~
@@ -239,7 +241,7 @@ da:
       registration2: ~
       registration3: ~
       registration4: ~
-      dhq_link_text: ~
+      dhq_link_text: "diaspora* HQ"
       registration5: ~
       registration6: ~
       registration7: ~
@@ -250,7 +252,7 @@ da:
       profile2: ~
       profile3: ~
       profile4: ~
-      finish: ~
+      finish: "Det var det!"
       finish_ex1: ~
       finish_ex2: ~
     getting_started2:
@@ -270,29 +272,29 @@ da:
       header9: ~
       header10: ~
       header11: ~
-      header12: ~
+      header12: "en log ud knap."
       columns: ~
       column1: ~
       column2: ~
       column3: ~
       views: ~
-      stream: ~
+      stream: Strømmen
       stream_ex: ~
-      stream1: ~
+      stream1: "Bidrag fra dine kontakter;"
       stream2: ~
       stream3: ~
       stream_ex2: ~
-      activity: ~
+      activity: "Min aktivitet"
       activity_ex: ~
       mentions: ~
       mentions_ex: ~
-      aspects: ~
+      aspects: "Mine aspekter"
       aspects_ex1: ~
       aspects_ex2: ~
       tags: ~
       tags_ex1: ~
       tags_ex2: ~
-      profile: ~
+      profile: "Profil visning"
       profile_ex1: ~
       profile_ex2: ~
       profile_ex3: ~
@@ -301,8 +303,8 @@ da:
       profile_ex6: ~
       finish: ~
     getting_started3:
-      byline: ~
-      menu_title: ~
+      byline: "Part 3 - Aspekter"
+      menu_title: "Alt om aspekter"
       aspects1: ~
       aspects2: ~
       aspects3: ~
@@ -316,35 +318,35 @@ da:
       my_aspects3: ~
       my_aspects4: ~
       my_aspects5: ~
-      my_aspects6: ~
+      my_aspects6: "Hvorfor ikke lege lidt med det et par sekunder?"
       my_aspects7: ~
       my_aspects8: ~
       my_aspects9: ~
-      contacts: ~
+      contacts: "Kontakt side"
       contact_ex1: ~
       contact_ex3: ~
       contact_ex4: ~
       contact_ex5: ~
       contact_ex6: ~
-      contact_ex7: ~
-      sharing_me: ~
+      contact_ex7: "Du kan også føje nye aspekter til via din kontakt side."
+      sharing_me: "Deler kun med mig"
       sharing_me_ex: ~
-      finish: ~
+      finish: "Nu hvor du ved om aspekter, lad os finde et par kontakter."
     getting_started4:
-      byline: ~
+      byline: "Part 4 - At finde og kontakte andre folk"
       menu_title: ~
       aspects1: ~
       sharing: ~
       sharing_ex: ~
       relationships: ~
-      followers: ~
+      followers: Følgere
       followers_ex1: ~
       followers_ex2: ~
       followers_ex3: ~
-      following: ~
+      following: Følger
       following_ex1: ~
       following_ex2: ~
-      mutual: ~
+      mutual: "Fælles deling"
       mutual_ex1: ~
       mutual_ex2: ~
       mutual_ls1: ~
@@ -352,25 +354,25 @@ da:
       mutual_ls3: ~
       mutual_ls4: ~
       mutual_ex3: ~
-      finding: ~
+      finding: "Find folk"
       finding_ex1: ~
-      finding_ex2: ~
-      search: ~
+      finding_ex2: "Der er forskellige muligheder at finde andre og tilføje dem til et aspekt."
+      search: Søg
       search_ex: ~
-      search_ls1: ~
-      search_ls2: ~
+      search_ls1: "Skriv et navn eller en diaspora*-ID. Forslag vil dukke op, så snart nu skriver."
+      search_ls2: "Pres enter, for at søge og du vil havne på en side med søgeresultater."
       search_ls3: ~
       search_ls4: ~
       search_ls5: ~
       search_ls6: ~
-      invite: ~
+      invite: "Sender en invitations mail"
       invite_ex: ~
-      profile: ~
+      profile: "Fra deres profil"
       profile_ex1: ~
       profile_ex2: ~
       tags: ~
       tags_ex: ~
-      removing: ~
+      removing: "Fjern en af dine kontakter"
       removing_ex1: ~
       removing_ex2: ~
       removing_ex3: ~
@@ -378,33 +380,33 @@ da:
       removing_ex5: ~
       finish: ~
     getting_started5:
-      byline: ~
-      menu_title: ~
+      byline: "Part 5 - Start deling!"
+      menu_title: "Start deling!"
       intro1: ~
       intro2: ~
-      publisher: ~
+      publisher: Udgiveren
       publisher_ex1: ~
       publisher_ex2: ~
       publisher_ex3: ~
       publisher_ex4: ~
-      buttons: ~
-      aspect_selector: ~
+      buttons: "OK, hvad betyder alle disse knapper?"
+      aspect_selector: "Aspekt valg-knappen"
       aspect_selector_ex1: ~
       aspect_selector_ex2: ~
-      photo: ~
+      photo: "Foto deling"
       photo_ex: ~
-      locator: ~
+      locator: Lokator
       locator_ex1: ~
       locator_ex2: ~
       locator_ex3: ~
-      connected: ~
+      connected: "Forbundene tjenester"
       connected_ex1: ~
       connected_ex2: ~
       connected_ex3: ~
-      preview: ~
+      preview: Forhåndsvisning
       preview_ex1: ~
       preview_ex2: ~
-      features: ~
+      features: "Bidrags funktioner"
       tags: ~
       tags_ex1: ~
       tags_ex2: ~
@@ -413,15 +415,15 @@ da:
       mentions_ex1: ~
       mentions_ex2: ~
       mentions_ex3: ~
-      format: ~
+      format: "Tekst formatering"
       format_ex: ~
-      format_link_text: ~
-      links: ~
+      format_link_text: "denne guide"
+      links: Links
       links_ex: ~
       embed: ~
       embed_ex1: ~
       embed_ex2: ~
-      services: ~
+      services: "Bidrag til andre tjenester"
       services_ex1: ~
       services_ex2: ~
       services_ex3: ~
@@ -433,18 +435,18 @@ da:
       interact: ~
       interact_ex1: ~
       interact_ex2: ~
-      comments: ~
+      comments: Kommentarer
       comments_ex: ~
-      likes: ~
+      likes: Likes
       likes_ex1: ~
       likes_ex2: ~
-      reshare: ~
+      reshare: "Videredel bidrag"
       reshare_ex: ~
-      delete: ~
+      delete: "Slet bidrag og kommentarer"
       delete_ex: ~
-      hide: ~
+      hide: "Skjul bidrag af en bestemt kontakt"
       hide_ex: ~
-      ignore: ~
+      ignore: "Ignorer en bruger"
       ignore_ex1: ~
       ignore_ex2: ~
       finish: ~
@@ -452,7 +454,7 @@ da:
       byline: ~
       menu_title: ~
       intro: ~
-      notify: ~
+      notify: Meddelelser
       notify_ex1: ~
       notify_ex2: ~
       notify_ls1: ~
@@ -460,7 +462,7 @@ da:
       notify_ls3: ~
       notify_ls4: ~
       notify_ex3: ~
-      convo: ~
+      convo: Samtaler
       convo_ex1: ~
       convo_ex2: ~
       convo_ex3: ~
@@ -473,42 +475,42 @@ da:
       finish: ~
     getting_started7:
       byline: ~
-      menu_title: ~
+      menu_title: Afslutter...
       intro: ~
       connect: ~
       connect_ex1: ~
       connect_ex2: ~
       connect_ex3: ~
       connect_ex4: ~
-      settings: ~
+      settings: "Konto indstillinger"
       settings_ex1: ~
       settings_ex3: ~
-      profile: ~
+      profile: Profil
       profile_ex: ~
-      account: ~
+      account: Konto
       account_ex1: ~
       account_ex2: ~
       account_ex3: ~
       account_ex4: ~
-      privacy: ~
+      privacy: Privatliv
       privacy_ex: ~
-      services: ~
+      services: Tjenester
       services_ex: ~
       finish1: ~
     formatting:
-      byline: ~
-      menu_title: ~
+      byline: Tekstformatering
+      menu_title: Tekstformatering
       format1: ~
       format2: ~
       format3: ~
       format4: ~
-      headings: ~
+      headings: Overskrift
       headings_ex1: ~
       headings_code1: ~
       headings_code2: ~
       headings_code3: ~
       headings_ex2: ~
-      lists: ~
+      lists: Lister
       lists_ex1: ~
       lists_ex2: ~
       lists_ex3: ~
@@ -542,7 +544,7 @@ da:
       link_code: ~
       link_ex2: ~
       inline_link_text: ~
-      images: ~
+      images: Billeder
       images_ex1: ~
       images_code: ~
       images_ex2: ~
@@ -554,46 +556,46 @@ da:
       symbols: ~
       symbols_ex: ~
       finish: ~
-      markdown_link_text: ~
+      markdown_link_text: "på denne side"
     tips:
-      headline: ~
-      byline: ~
-      menu_title: ~
+      headline: "Tips for brugen af diaspora*"
+      byline: "Nogle nyttige tricks som vi har fundet"
+      menu_title: "Tips for brugen af diaspora*"
       intro: ~
-      profile: ~
+      profile: "Yderligere profilfelter"
       profile_ex: ~
-      notepad: ~
+      notepad: "Brug diaspora* som en notesbog"
       notepad_ex: ~
     other_docs:
-      headline: ~
+      headline: "Anden dokumentation"
       byline: ~
-      menu_title: ~
+      menu_title: "Anden dokumentation"
       intro1: ~
-      intro2: ~
-      tutorials: ~
-      parfait: ~
-      about: ~
-      about1: ~
+      intro2: "På denne side finder du links til andre nyttige websider, som tilbyder guides og flere informationer."
+      tutorials: Guider
+      parfait: "en guide på Fransk for folk som er nye på diaspora*"
+      about: "Om diaspora*"
+      about1: "Selvfølgelig, der er masser af informationer om diaspora* her på vores projekt-side."
       wiki: ~
-      wiki_link_text: ~
+      wiki_link_text: "Den officielle projekt wiki"
       wikipedia: ~
-      wikipedia_link_text: ~
-      wikipedia_software_link_text: ~
-      support: ~
+      wikipedia_link_text: diaspora*
+      wikipedia_software_link_text: "diaspora* software"
+      support: "Bruger support"
       question: ~
       mail: ~
-      mail_link_text: ~
+      mail_link_text: "Mailing liste"
       irc: ~
-      irc_link_text: ~
-      progress: ~
+      irc_link_text: "IRC kanal"
+      progress: "Projektets fremgang"
       blog: ~
-      blog_link_text: ~
+      blog_link_text: "Projekt blog"
       changelog: ~
-      changelog_link_text: ~
+      changelog_link_text: Ændringsoversigt
       loomio: ~
-      communication: ~
+      communication: Kommunikation
       communicate: ~
-      communicate_link_text: ~
-      other: ~
+      communicate_link_text: "\"Hvordan vi kommunikerer\""
+      other: "Andre hjemmesider"
       manifesto: ~
-      manifesto_link_text: ~
+      manifesto_link_text: "Bruger data Manifest"

@@ -55,7 +55,7 @@ nl:
       help: "Wil je helpen?"
       help_ex: "diaspora* heeft behoefte aan mensen die kunnen programmeren en testen, om nieuwe deelnemers welkom te heten, om pods in te richten en draaiend te houden en om de mogelijkheden van diaspora* te promoten om het te laten groeien. Denk je dat je mee kunt helpen?"
       socialint: "Sociale netwerkintegratie"
-      socialint_ex: "diaspora* laat je communiceren met je vrienden, ook als ze nog niet op diaspora* zitten. Verbind gewoon je accounts op andere sociale netwerken en gebruik diaspora* om berichten op die andere netwerken te plaatsen. diaspora* ondersteunt momenteel het delen naar Facebook, Twitter en Tumblr. Anderen volgen misschien later. "
+      socialint_ex: "diaspora* laat je communiceren met je vrienden, ook als ze nog niet op diaspora* zitten. Verbind gewoon je accounts op andere sociale netwerken en gebruik diaspora* om berichten op die andere netwerken te plaatsen. diaspora* ondersteunt momenteel het delen naar Facebook, Twitter en Tumblr. Andere netwerken volgen misschien later."
       earth_alt: Earthd*
       decentralized_alt: Gedecentraliseerd
       freedom_alt: Vrijheid
@@ -88,7 +88,7 @@ nl:
       fdm2: "Wees creatief"
       fdm2_ex: "Er zitten geen grenzen aan je communicatie. Je kan gewoon interessante mensen volgen om te kijken wat die te zeggen hebben, of je kan jouw wereld delen met iedereen. Deel je foto's, kunst, video's, muziek, teksten - wat je maar wilt. Leef je uit."
       fdm3: "Vrij als in vrijheid"
-      fdm3_ex: "diaspora* is volledig vrije software. Hierdoor zijn de gebruiksmogelijkheden onbeperkt. Je kan zelfs de broncode aanpassen om het te laten functioneren zoals jij wilt, en ons te helpen het netwerk te verbeteren. We vinden het fijn als je mee doet."
+      fdm3_ex: "diaspora* is volledig vrije software. Hierdoor zijn de gebruiksmogelijkheden onbeperkt. Je kan zelfs de broncode aanpassen om het te laten functioneren zoals jij wilt en ons te helpen het netwerk te verbeteren. We vinden het fijn als je mee doet."
       privacy: Privacy
       privacy_byline: "Compleet beheer over wat van jou is "
       priv1: "Beheer je eigen data"
@@ -138,7 +138,7 @@ nl:
       meaning: "Waar gaat het over?"
       meaning_ex1: "Vrije Software gaat over individualiteit, transparantie, creativiteit en zelfredzaamheid. Het is het realiseren van ideeën. diaspora* is ontwikkeld om plezier te hebben en om van internet een betere plaats te maken. Met Vrije Software kunnen we de wereld voor onszelf veranderen, en onze vrienden op het web mee te laten profiteren van onze onderzoekingen."
       meaning_ex2: "Vrije Software gemeenschappen zijn een fantastisch ding. Wij op diaspora* geloven dat mensen gewaardeerd horen te worden voor wat ze doen. Daarbij maakt het niet uit of je een top programmeur bent of voor het eerst iets bijdraagt aan een project. Bijdragen aan diaspora* betekent problemen oplossen, met als doel bruikbare oplossingen voor de gebruikers te creëren."
-      meaning_ex3: "Vandaar dat we je toegang tot de broncode geven als je een zinvolle bijdrage aan diaspora* hebt. We doen dit samen, en we willen enthousiaste mensen de kans geven veel te veranderen."
+      meaning_ex3: "Vandaar dat we je toegang tot de broncode geven als je een zinvolle bijdrage aan diaspora* hebt. We doen dit samen en we willen enthousiaste mensen de kans geven veel te veranderen."
       whereyou: "Wat jij kunt doen"
       whereyou_ex1: "We maken diaspora* samen. Nu mogen we je dan nog niet kennen, maar we zouden het te gek vinden om kennis te maken en uit te vinden hoe jij mee zou kunnen helpen aan het bouwen van de toekomst van het web. We hebben ieder de potentie om de wereld te veranderen, als we er de gelegenheid maar voor krijgen."
       whereyou_ex2: "Op allerlei manieren kun je mee helpen diaspora verder te helpen. Of je nu als gebruiker bugs rapporteert, constructief reageert op onze maillijsten of code of designs produceert, jouw bijdrage maakt het verschil."
@@ -152,7 +152,7 @@ nl:
       get_started_guide_link_text: Inleiding
       mailing_list_link_text: mailinglijst
       irc_link_text: "diaspora* IRC rooom"
-      code_gh: "Bekijk de bron op GitHub"
+      code_gh: "Bekijk de broncode op GitHub"
       bugs_header: "Plet bugs"
       bugs_ex1: "Ons project maakt gebruik van Code Triage, een vrijwilligersproject waarbij gebruikers en ontwikkelaars samenwerken om bugs te verhelpen in onze GitHub Issue tracker"
       bugs_ex2: "Het elimineren van bugs helpt iedereen en kan nieuwkomers de werking van de verschillende onderdelen van diaspora* beter leren kennen."

@@ -1,26 +1,26 @@
 da:
   devise:
     confirmations:
-      confirmed: ~
-      send_instructions: ~
+      confirmed: "Din konto er blevet bekræftet. Du er nu logget ind."
+      send_instructions: "Du vil modtage en mail om et par minutter, med instruktioner om hvordan du aktiverer din konto."
       send_paranoid_instructions: ~
     failure:
-      already_authenticated: ~
-      inactive: ~
-      invalid: ~
-      invalid_token: ~
-      locked: ~
-      not_found_in_database: ~
-      timeout: ~
-      unauthenticated: ~
-      unconfirmed: ~
+      already_authenticated: "Du er allerede logget ind."
+      inactive: "Din konto er stadig ikke aktiveret."
+      invalid: "Forkert e-mail eller kodeord."
+      invalid_token: "Ugyldig token."
+      locked: "Din konto er låst."
+      not_found_in_database: "Forkert e-mail eller kodeord."
+      timeout: "Din session er udløbet; venligst log ind igen, for at fortsætte."
+      unauthenticated: "Enten logger du dig ind, eller du registrerer en ny bruger."
+      unconfirmed: "Du skal bekræfte din konto, før du kan fortsætte."
     mailer:
       confirmation_instructions:
-        subject: ~
+        subject: Bekræftelsesinstruktioner
       reset_password_instructions:
-        subject: ~
+        subject: "Instruktioner til nulstilling af kodeord"
       unlock_instructions:
-        subject: ~
+        subject: "Aktiverings instruktioner"
     omniauth_callbacks:
       failure: ~
       success: ~
@@ -29,26 +29,26 @@ da:
       send_instructions: ~
       send_paranoid_instructions: ~
       updated: ~
-      updated_not_active: ~
+      updated_not_active: "Dit kodeord er ændret nu."
     registrations:
-      destroyed: ~
-      signed_up: ~
+      destroyed: "Farvel! Din konto er blevet slettet nu. Vi håber, at se dig snart igen."
+      signed_up: "Velkommen! Du er nu logget på."
       signed_up_but_inactive: ~
       signed_up_but_locked: ~
       signed_up_but_unconfirmed: ~
       update_needs_confirmation: ~
-      updated: ~
+      updated: "Du har nu opdateret din konto."
     sessions:
-      signed_in: ~
-      signed_out: ~
+      signed_in: "Du er nu logget ind."
+      signed_out: "Du er nu logget ud."
     unlocks:
-      send_instructions: ~
-      send_paranoid_instructions: ~
-      unlocked: ~
+      send_instructions: "Du vil modtage en email i et par minutter, som indeholder instruktioner om hvordan du aktiverer din konto."
+      send_paranoid_instructions: "Hvis din konto eksisterer, vil du modtage en email i et par minutter, som indeholder instruktioner, til at aktivere din konto igen."
+      unlocked: "Din konto er blevet låst op. Venligst log ind for at fortsætte."
   errors:
     messages:
-      already_confirmed: ~
+      already_confirmed: "blev allerede bekræftet, prøv at logge ind"
       confirmation_period_expired: ~
-      expired: ~
-      not_found: ~
-      not_locked: ~
+      expired: "er udløbet, venligst anmod om ny"
+      not_found: "Ikke fundet"
+      not_locked: "blev ikke låst"
