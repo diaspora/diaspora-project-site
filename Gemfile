@@ -6,7 +6,7 @@ gem 'unicorn'
 
 gem 'mysql2'
 
-gem 'devise', '~> 3.0.0'
+gem 'devise', '~> 3.2.0'
 gem 'rails_admin'
 
 gem 'rails_locale_detection', '~> 2.0.0.pre'
