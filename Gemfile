@@ -24,6 +24,6 @@ group :development, :test do
   gem 'rspec-rails', '~> 2.14.0'
   gem 'capybara', '~> 2.2.0'
 
-  gem 'fuubar', '~> 1.1.1'
+  gem 'fuubar', '~> 1.3'
   gem 'rspec-instafail', '~> 0.2.4'
 end
