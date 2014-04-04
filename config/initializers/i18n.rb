@@ -31,7 +31,7 @@ AVAILABLE_LOCALES = {
   sv: "Svenska",
   :'sv-FI' => "Svenska (Finland)",
   ta: "தமிழ்",
-  tr: "Türk"
+  tr: "Türkçe"
 }
 
 I18n.default_locale = :en
