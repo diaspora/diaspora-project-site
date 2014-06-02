@@ -19,6 +19,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 
 gem 'redcarpet', '~> 3.1.2'
+gem 'paperclip', '~> 4.1'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0.1'
