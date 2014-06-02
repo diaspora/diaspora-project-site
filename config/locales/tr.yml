@@ -75,7 +75,7 @@ tr:
       notthis: "BÖYLE DEĞİL"
       notthis_ex: "Birçok sosyal ağ bir şirketin sahibi olduğu ve işlettiği bir sunucudan koşulurlar. Bunlar kullanıcının tüm özel verilerini saklarlar. Bu bilgi darboğazı olan her sistemde olduğu gibi kaybolabilir ya da kurcalanabilir, merkezî sunuculardaki bir sorun tüm ağı yavaşlatıp durdurabilir. Ayrıca kamu kurumlarının \"ortam dinlemesi\" yapması çok kolaydır."
       discl: ~
-      connect: ~
+      connect: "Ben nasıl bağlayabilirim?"
       connect_ex: ~
       find: ~
       find_ex: ~
@@ -95,18 +95,18 @@ tr:
       priv1_ex: "Birçok ağ etkileşimlerinizi analiz ederek ve bunu size reklam göstermek amaçlı kullanarak para kazanır. diaspora* verilerinizi bağlanmanıza ve paylaşmanıza izin vermek dışında kullanmaz."
       priv2: "Kendiniz sunun"
       priv2_ex: "Verilerinizi seçtiğiniz ve memnun olduğunuz podda saklayın. Gerçekten güvenli olmasını istiyorsanız, kendi kontrolünüz altında bir pod kurup sunabilirsiniz, böylece kimse kişisel verinize erişemez."
-      priv3: ~
+      priv3: "Hedef kitlenizi seçin"
       priv3_ex: ~
-      aspects: ~
+      aspects: "Yönleri hakkında herşey"
       aspects_byline: ~
-      asp1: ~
+      asp1: "Hayatınızın Yönleri"
       asp1_ex: ~
       asp2: ~
       asp2_ex: ~
       asp3: ~
       asp3_ex: ~
       features: ~
-      features_byline: ~
+      features_byline: "Biz onları çok seveceksiniz düşünüyorum"
       hashtags: ~
       hashtags_ex: ~
       reshare: ~

@@ -43,7 +43,7 @@ cs:
       get_started: "Chceš začít?"
       get_started_sub: "Je to lehké jako 1, 2, 3 ..."
       choose_pod: "1. Vyber si pod"
-      choose_pod_exp: ~
+      choose_pod_exp: "Najdi si pod, který ti bude vyhovovat. Můžeš preferovat menší pod nebo ten, který je blízko tvého bydliště, nebo ten, který je umístěn v zemi, o které víš, že má dobré zákony na ochranu dat. Je to na tobě! Vyber si z našich komunitních podů - třeba podle svého bydliště."
       sign_up: "2. Přihlaš se"
       sign_up_ex: ~
       join_convo: "3. Zapoj se do konverzace!"
@@ -51,7 +51,7 @@ cs:
       aspects: Aspekty
       aspects_ex: ~
       features: Prvky
-      features_ex: ~
+      features_ex: "Štítky ti dávají svobodu snadno označit a sledovat své zájmy. Můžeš upoutat něčí pozornost tím, že je @zmíniš. Sdílej příspěvky, které se ti líbí, ať je ostatní mohou také okomentovat. A ocenit práci jiných lidí můžeš pomocí ♥."
       help: "Chceš pomoci?"
       help_ex: ~
       socialint: "Integrace sociálních sítí"
@@ -122,7 +122,7 @@ cs:
       instructions_link_text: "Instrukce k instalaci podu"
       hostinst2: "Shlédni listinu community podů, zde: %{poduptime}"
       distributed_network: "Distribuovaná síť"
-      centralized_network: ~
+      centralized_network: "centralizovaná síť"
       search_alt: hledat
       add_a_contact_alt: "Přidat kontakt"
       hashtag_alt: Štítek
@@ -159,7 +159,7 @@ cs:
       bugs_ex1: ~
       bugs_ex2: "Opravování malých chyb pomáhá každému a nováčkovi umožní lépe pochopit, jak části diaspora* fungují."
       bugs_ex3: "Pomoz nám vyčistit náš kód."
-      github_link_text: ~
+      github_link_text: "Tracker problémů na GitHubu"
       translate_header: "Pomož přeložit"
       translate_ex1: |-
           Můžeš pomoci přeložit diaspora* do jiných řečí.
@@ -181,16 +181,16 @@ cs:
       support_ex5: "Přispěj k %{wiki_link}."
       wiki_link_text: "diaspora* wiki"
       run_header: "Provozuj komunitní pod"
-      run_ex1: ~
+      run_ex1: "Nyní nemusíš ukládat svá data na cizí server. Protože diaspora* je svobodný software, neustále zjednodušujeme %{host_pod_link}."
       host_pod_link_text: ~
       run_ex2: "Můžeš hostovat kdekoliv chceš."
-      run_ex3: ~
+      run_ex3: "Přidej svůj pod na seznam otevřených podů na %{poduptime}."
       contributors_header: "Podporovatelé diaspora*"
       contributors_byline: "Lidé, kteří dělají diaspora* tím co je"
       globe_alt: ~
       megaphone_alt: ~
       support_alt: Podpora
-      pod_alt: ~
+      pod_alt: Pod
     blog:
       headline: "diaspora* blog"
       subline: "Veřejné sdělení"
@@ -199,19 +199,19 @@ cs:
       headline: Planeta
       menu_title: Planeta
     tutorials:
-      headline: ~
+      headline: "diaspora* návody"
       byline: ~
-      menu_title: ~
+      menu_title: návody
       tutorials_ex1: ~
       tutorials_ex2: ~
-      started_head: ~
+      started_head: "Začínáme v diaspora*"
       started1: Přihlášení
-      started2: ~
+      started2: Rozhraní
       started3: ~
       started4: ~
-      started5: ~
-      started6: ~
-      started7: ~
+      started5: "Zační sdílet!"
+      started6: "Upozornění a konverzace"
+      started7: Dokončení
       part1: "Část 1."
       part2: "Část 2."
       part3: "Část 3."
@@ -219,10 +219,10 @@ cs:
       part5: "Část 5."
       part6: "Část 6."
       part7: "Část 7."
-      additional: ~
-      connecting: ~
-      tips: ~
-      formatting: ~
+      additional: "Další návody"
+      connecting: "Propojení diaspora* s dalšími weby"
+      tips: "Různé fígle"
+      formatting: "Formátování textu"
       more_tutorials: "Potřebuješ víc poradit?"
       other_docs: ~
       other_docs_link_text: "další dokumenty"

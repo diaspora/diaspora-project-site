@@ -35,9 +35,9 @@ pt-PT:
       register: "Registar »"
       key_philosophies: "O diaspora* é baseado em três chaves filosóficas:"
       decentralization: Descentralização
-      decentralization_about: ~
+      decentralization_about: "Em vez dos dados das pessoas estarem guardados em grandes centrais de servidores, controlados por uma enorme organização, os servidores locais (“pods”) podem ser configurados em qualquer lugar no mundo. Pode escolher qual o 'pod' a registar - talvez o seu 'pod' local - e conetar continuamente com a comunidade do diaspora* em todo o mundo."
       freedom: Liberdade
-      freedom_about: ~
+      freedom_about: "Pode ser quem desejar no diaspora*. Ao contrário de outras redes, não precisa de utilizar a sua identidade real. Pode interagir com qualquer um à sua escolha e como o desejar. O único limite é a sua imaginação. O diaspora* é também um \"Programa Livre\", dando-lhe a liberdade para o utilizar como o desejar."
       privacy: Privacidade
       privacy_about: "No diaspora* você é o dono dos seus próprios dados. Não está a entregar a qualquer empresa quaisque direitos ou outtros interesses que poderiam ser utilizados. Com o diaspora*, os seus amigos, os seus hábitos e o conteúdo só a si lhe dizem respeito ... não a nós! Em adição, você pode escolher quem vê o que compartilha, utilizandos o 'Aspetos'."
       get_started: "Pretende iniciar?"
@@ -51,7 +51,7 @@ pt-PT:
       aspects: Aspetos
       aspects_ex: "O diaspora* ´´e pioneiro no conceito de 'Aspetos', o que significa que você pode organizar os seus contactos de acordo com o que eles representam na sua vida. Isto significa que pode compartilhar qualquer coisa com os membros familiares ou colegas de trabalho, sabendo que só as pessoas no seu círculo poderão ver o que publica."
       features: Funções
-      features_ex: ~
+      features_ex: "As \"hashtags\" dão~lhe a liberdade para marcar e seguir facilmente os seus interesses. Pode chamar a atenção das pessoas @mencionando-as. Volte a compartilhar as publicações que gosta, e assim, os outros podem desfrutar e também comentá-las. E mostre a sua admiração pelo trabalho das outras pessoas, ao ♥."
       help: "Pretende ajudar?"
       help_ex: ~
       socialint: "Integração na Rede Social"
@@ -104,15 +104,15 @@ pt-PT:
       asp2: "Organize a sua vida"
       asp2_ex: "Por exemplo, poderá ter 'Aspetos' para a sua família, para os seus amigos mais chegados, para colegas de trabalho e para desporto ou um passatempo que esteja envolvido. Os sesu colegas de trabalho não precisam de saber sobre a sua família, será que precisam? Com 'Aspetos', eles não sabem."
       asp3: "Conte ao mundo"
-      asp3_ex: ~
+      asp3_ex: "Claro, algumas coisas são tão importantes que quer contar a todo o mundo. Pode compartilhar facilmente algo com todo o mundo, tornando-o público. Ao utilizar as \"hashtags\" apropriadas significa que vai chegar até às pessoas que provavelmente irão gostar disso."
       features: "Funções que a nossa comunidade adora"
       features_byline: "Nós pensamos que também as vai adorar"
       hashtags: Hashtags
-      hashtags_ex: "Os 'hashtags' permitem-lhe marcar e seguir os seus interesses, e ajudar as suas publicações a chegar às pessoas. Elas também são uma boa maneira para encontrar diversão, novas pessoas e interessantes no diaspora*."
+      hashtags_ex: "As \"hashtags\" permitem-lhe marcar e seguir os seus interesses, e ajudar as suas publicações a chegar às pessoas. Estas também são uma boa maneira para se divertir e conhecer novas pessoas e interessantes, no diaspora*."
       reshare: "Voltar a Compartilhar"
       reshare_ex: "Porque não voltar a compartilhar uma publicação que gostou com os outros? O diaspora* torna fácil a divulgação de ideias através desta opção. Basta clicar no botão para compartilhar a mensagem."
       mentions: Menções
-      mentions_ex: "Deseja chamar a atenção de alguém? Basta @mencioná-los! É uma forma fácil para alertar um dos seus contactos quando acha que possa haver algo que lhes seja útil."
+      mentions_ex: "Deseja chamar a atenção de alguém? Basta @mencioná-los! É uma forma fácil para alertar um dos seus contactos quando achar que há algo que eles deviam saber."
       love: Amor
       love_ex: "Mostre o seu apreço por algo que você goste, ♥agarre-o. Porque ás vezes as palavras não são suficientes para dizer o que sente."
       host: "Hospede um \"Pod\" Comunitário"
@@ -404,7 +404,7 @@ pt-PT:
       preview: "Pré-visualizar Publicação"
       preview_ex1: ~
       preview_ex2: ~
-      features: "Funções da Publicação"
+      features: "Funções de Publicação"
       tags: "#tags"
       tags_ex1: ~
       tags_ex2: ~
