@@ -4,6 +4,7 @@ class BlogController < ApplicationController
 
   def show
     @blogpost = Blogpost.find_by_id params[:id]
+    not_found unless @blogpost
   end
 
   def index
