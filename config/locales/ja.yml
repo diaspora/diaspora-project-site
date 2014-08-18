@@ -1,15 +1,15 @@
-tr:
+ja:
   time:
     formats:
       blog_headline: ~
   buttons:
-    host_pod: "Pod sun"
-    join_diaspora: "Bize katıl!"
+    host_pod: ~
+    join_diaspora: ~
     find_more: ~
   meta:
     footer:
-      copyleft: "CC-BY diaspora* Vakfı"
-  title: "diaspora* Projesi"
+      copyleft: ~
+  title: ~
   newsfeed: ~
   layouts:
     application:
@@ -17,7 +17,7 @@ tr:
       planet: ~
       useful_resources: ~
       codebase: ~
-      documentation: belgeleme
+      documentation: ~
       report_bugs: ~
       irc_general: ~
       irc_development: ~
@@ -65,48 +65,48 @@ tr:
       ways_to_help_alt: ~
       services_alt: ~
     about:
-      headline: "diaspora* nasıl çalışır?"
-      byline: "diaspora*yı kullanmak kolaydır – işte nasıl olduğu"
-      menu_title: Hakkında
-      decentralize: "Gayri merkezileştirme nedir?"
-      decentralize_ex: "diaspora* kullandığınız birçok ağdan farklıdır. Hiç bir şekilde merkezî değildir, merkez düğümü yoktur. Öyleyken bile, insanlarla bağlantı kurmak ve haberleşmek çok kolaydır. İşte nasıl olduğu."
-      this: BÖYLE
-      this_ex: "diaspora* merkez üssü olmayan gerçek bir ağdır. Dünya çapında (\"pod\" denilen) sunucular mevcuttur, her birinde kendisine kaydolmayı tercih eden kullanıcıların verileri vardır. Bu podlar birbirleriyle haberleşirler, böylece herhangi birine kayıtlıyken, diğer kullanıcı nerede olursa olsun, diğerleriyle serbestçe haberleşebilirsiniz."
-      notthis: "BÖYLE DEĞİL"
-      notthis_ex: "Birçok sosyal ağ bir şirketin sahibi olduğu ve işlettiği bir sunucudan koşulurlar. Bunlar kullanıcının tüm özel verilerini saklarlar. Bu bilgi darboğazı olan her sistemde olduğu gibi kaybolabilir ya da kurcalanabilir, merkezî sunuculardaki bir sorun tüm ağı yavaşlatıp durdurabilir. Ayrıca kamu kurumlarının \"ortam dinlemesi\" yapması çok kolaydır."
+      headline: ~
+      byline: ~
+      menu_title: ~
+      decentralize: ~
+      decentralize_ex: ~
+      this: ~
+      this_ex: ~
+      notthis: ~
+      notthis_ex: ~
       discl: ~
-      connect: "Ben nasıl bağlayabilirim?"
+      connect: ~
       connect_ex: ~
       find: ~
       find_ex: ~
       add: ~
       add_ex: ~
-      freedom: Özgürlük
-      freedom_byline: "diaspora* sizi sınırlamaya çalışmaz"
-      fdm1: "İstediğiniz gibi olun"
-      fdm1_ex: "Birçok ağ gerçek kimliğinizi kullanmayı gerektirir. diaspora* gerektirmez. Burada ne olmak istediğinizi ve ne kadar az ne kadar çok paylaşmak istediğinizi kendiniz belirlersiniz. Tamamen insanlarla nasıl haberleşeceğinize kalmıştır."
-      fdm2: "Yaratıcı olun"
-      fdm2_ex: "Nasıl etkileşebileceğinizle sınırlı değilsiniz. İlgi çekici bulduğunuz insanların söylediklerini görmek için onları takip edebilir, ya da dünyayı herkesle paylaşabilirsiniz. Fotoğrafınızı, zanaatinizi, videolarınızı, müziğinizi, sözcüklerinizi- ne isterseniz paylaşabilirsiniz. Akıma kapılın."
-      fdm3: Özgür
-      fdm3_ex: "diaspora* Özgür Yazılımdır. Bu, kullanımı üzerinde hiçbir sınırlama olmadığı anlamına gelir. Kaynak kodu alabilir ve hatta istediğiniz şekilde değiştirerek, ağı iyileştirmemize katkıda bulunabilirsiniz. Yönetimde sizi görmek isteriz."
-      privacy: Mahremiyet
-      privacy_byline: "Neyin size ait olduğuna dair tam denetim "
-      priv1: "Verinizi sahiplenin"
-      priv1_ex: "Birçok ağ etkileşimlerinizi analiz ederek ve bunu size reklam göstermek amaçlı kullanarak para kazanır. diaspora* verilerinizi bağlanmanıza ve paylaşmanıza izin vermek dışında kullanmaz."
-      priv2: "Kendiniz sunun"
-      priv2_ex: "Verilerinizi seçtiğiniz ve memnun olduğunuz podda saklayın. Gerçekten güvenli olmasını istiyorsanız, kendi kontrolünüz altında bir pod kurup sunabilirsiniz, böylece kimse kişisel verinize erişemez."
-      priv3: "Hedef kitlenizi seçin"
+      freedom: ~
+      freedom_byline: ~
+      fdm1: ~
+      fdm1_ex: ~
+      fdm2: ~
+      fdm2_ex: ~
+      fdm3: ~
+      fdm3_ex: ~
+      privacy: ~
+      privacy_byline: ~
+      priv1: ~
+      priv1_ex: ~
+      priv2: ~
+      priv2_ex: ~
+      priv3: ~
       priv3_ex: ~
-      aspects: "Yönleri hakkında herşey"
+      aspects: ~
       aspects_byline: ~
-      asp1: "Hayatınızın Yönleri"
+      asp1: ~
       asp1_ex: ~
-      asp2: "Hayatınızı düzenleyin"
+      asp2: ~
       asp2_ex: ~
       asp3: ~
       asp3_ex: ~
       features: ~
-      features_byline: "Biz onları çok seveceksiniz düşünüyorum"
+      features_byline: ~
       hashtags: ~
       hashtags_ex: ~
       reshare: ~

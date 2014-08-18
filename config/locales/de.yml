@@ -117,7 +117,7 @@ de:
       love_ex: "Zeige deine Anerkennung für etwas, das dir gefällt in dem du auf \"Gefällt mir\" klickst. Manchmal sind Worte einfach nicht genug um auszudrücken, was du fühlst."
       host: "Betreibe einen Community-Pod"
       host_byline: "Sei einer der diaspora* Stars"
-      host_ex: "diaspora* ist abhängig von der Community, die öffentliche Pods bereitstellt. Wenn du Serverkapazitäten und etwas technisches Grundwissen hast, würden wir uns freuen, wenn du einen Community-Pod erstellst. Je mehr Pods es gibt, desto besser funktioniert diaspora* - sei ein Teil der Zukunft des dezentralisierten sozialen Internets."
+      host_ex: "diaspora* ist abhängig von der Gemeinschaft, die öffentliche Pods bereitstellt. Wenn du Serverkapazitäten und etwas technisches Grundwissen hast, würden wir uns freuen, wenn du einen Gemeinschafts-Pod erstellst. Je mehr Pods es gibt, desto besser funktioniert diaspora* - sei ein Teil der Zukunft des dezentralisierten sozialen Internets."
       hostinst1: "Lies die %{instructions_link} und setze Deinen eigenen Community-Pod auf."
       instructions_link_text: "Installationsanleitung für einen Pod"
       hostinst2: "Eine Liste von Community-Pods findest du bei %{poduptime}"
@@ -494,7 +494,7 @@ de:
       privacy_ex: "Dies ist eine Liste von Nutzern, die du ignorierst. Du kannst sie aus dieser Liste entfernen, wenn du ihre Beiträge wieder zu sehen wünschst. Siehe %{part5_link} für mehr Informationen zum Ignorieren."
       services: Dienste
       services_ex: "Die Seite \"Dienste\" zeigt deine angeschlossenen Dienste (z.B. Facebook, Twitter, Tumblr) und ermöglicht dir, neue Dienste an deinen diaspora* Seed anzuschließen."
-      finish1: "Vielen Dank, dass du dir Zeit genommen hast, diaspora* durch diese Einleitung kennen zu lernen! Wir hoffen, dass es für dich hilfreich war, und du dich nun wohlfühlst bei diaspora*, deinem neuen Online-Zuhause. Falls du irgendwelche Fragen hast, fühle dich frei, einen öffentlichen Beitrag bei diaspora* zu erstellen und füge ein: "
+      finish1: "Vielen Dank, dass du dir Zeit genommen hast, diaspora* durch diese Einleitung kennen zu lernen! Wir hoffen, dass es für dich hilfreich war, und du dich nun wohlfühlst bei diaspora*, deinem neuen Online-Zuhause. Falls du irgendwelche Fragen hast, fühle dich frei, einen öffentlichen Beitrag bei diaspora* zu erstellen und füge ein:"
     formatting:
       byline: "Text formatieren"
       menu_title: "Text formatieren"

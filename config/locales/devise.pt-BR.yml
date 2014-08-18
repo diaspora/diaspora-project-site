@@ -1,7 +1,7 @@
 pt-BR:
   devise:
     confirmations:
-      confirmed: "Sua conta foi conrimada com sucesso. Agora você está registrado."
+      confirmed: "Sua conta foi confirmada com sucesso. Agora você está registrado."
       send_instructions: "Você receberá um email com instruções de como confirmar sua conta em alguns minutos."
       send_paranoid_instructions: "Se seu endereço de email existir em nosso banco de dados, você receberá um email com instruções de com confirmar sua conta em alguns minutos."
     failure:

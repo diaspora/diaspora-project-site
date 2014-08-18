@@ -24,7 +24,7 @@ pt-BR:
       discussion_general: "Discussão - Geral"
       discussion_development: "Discussão - Desenvolvimento"
       choose_language: "Escolha a língua"
-      translate: ~
+      translate: "Adicionar uma tradução"
       cc_license_alt: "Licença Creative Commons"
       licensed_under: "%{site_link} é licenciado com uma %{license_link}"
       license_link_text: "Licença Creative Commons 3.0 não adaptada"
@@ -118,7 +118,7 @@ pt-BR:
       host: "Hospede um pod comunitário"
       host_byline: "Seja uma das estrelas do diaspora*"
       host_ex: "diaspora* depende dos membros da comunidade para hospedar e manter os pods, que são abertos a qualquer um que queira fazer parte. Se voce tem algum espaco em servidor e conhecimento técnico, nós adoraríamos se voce montasse um pod da comunidade. Quanto mais pods, melhor o diaspora* funciona - seja parte do futuro da web descentralizada!"
-      hostinst1: "Leias as %{instructions_link} e crie seu próprio pod comunitário."
+      hostinst1: "Leia as %{instructions_link} e crie seu próprio pod comunitário."
       instructions_link_text: "Instruções de instalação de pod"
       hostinst2: "Veja uma lista de pods comunitários em %{poduptime}"
       distributed_network: "Rede distribuída"
@@ -274,7 +274,7 @@ pt-BR:
       columns: "Sob o cabeçalho existem três colunas:"
       column1: "No lado esquerdo você verá sua foto do perfil e o nome, e em seguida, links para os diferentes conteúdos disponíveis na diáspora*: <span class=\"click\">Minhas atividades</span>, <span class=\"click\">Fluxo</span>, <span class=\"click\">@Menções</span>, <span class=\"click\">meus aspectos< span> e <span class=\"click\"> #Tags seguidas</span>. Vamos explicar estes no próximo."
       column2: "A coluna central contém o fluxo de conteúdo com uma caixa \"editor\" no topo. Nós vamos abordar estes em %{part4_link}."
-      column3: "À direita estão os ícones de perfil das pessoas cujas publicações aparecem no seu fluxo, além de alguns links para ajudar a convidar amigos, dar boas vindas a novos usuários, encontrar ajuda, postar no diaspora* a partir de outras páginas na internet (o \"bookmarklet\" do diaspora*) e, em alguns servidores do diaspora*, informações sobre o administrador. (Nota: em alguns servidores as colunas laterais direita e esquerda são fundidas em uma, localizada em um dos lados da tela)"
+      column3: "À direita estão os ícones de perfil das pessoas cujas publicações aparecem no seu fluxo, além de alguns links para ajudar a convidar amigos, dar boas vindas a novos usuários, encontrar ajuda, publicar no diaspora* a partir de outras páginas na internet (o \"bookmarklet\" do diaspora*), e em alguns servidores do diaspora*, informação sobre o administrador do servidor. (Nota: em alguns servidores as colunas laterais esquerda e direita são fundidas em uma, localizada à esquerda ou à direita)"
       views: "As diferentes maneiras de ver disponíveis em diaspora* são:"
       stream: "O fluxo"
       stream_ex: "O fluxo é sua página principal em diaspora*. Ela agrega todas as publicações disponíveis para você. Isto é:"
@@ -283,21 +283,21 @@ pt-BR:
       stream3: "publicações que @mencionam você"
       stream_ex2: "Publicações no fluxo são ordenadas de acordo com o tempo da publicação original."
       activity: "Minha Atividade"
-      activity_ex: "O fluxo \"Minhas Atividades\" mostra as publicações que foram curtidas ou comentadas por você. É uma maneira prática de acessar todas as interações feitas recentemente por você no diaspora*. As publicações em \"Minhas Atividades\" são ordenadas de acordo com a última interação realizada (comentar ou curtir)."
+      activity_ex: "O fluxo \"Minhas Atividades\" mostra as publicações que foram curtidas ou comentadas por você. É uma maneira prática de acessar todas as interações feitas recentemente por você no diaspora*. As publicações em \"Minhas Atividades\" são ordenadas de acordo com a última interação realizada (comentar ou curtir) em cada publicação."
       mentions: "@Menções"
-      mentions_ex: "É uma lista de qualquer publicação feita por outra pessoa @mencionando você. Nos iremos discutir menções em %{part4_link}."
+      mentions_ex: "Isso lista qualquer publicação feita por outra pessoa @mencionando você. Nos discutiremos menções em %{part4_link}."
       aspects: "Meus Aspectos"
-      aspects_ex1: "Meus Aspectos mostram todas as publicações feitas por todas as pessoas com quem você está compartilhando - isto é, as pessoas que você salvou nos seus aspectos. Não se preocupe se você não sabe o que é um aspecto - nós vamos cobrir em detalhe na próxima parte."
+      aspects_ex1: "\"Meus Aspectos\" mostra todas as publicações feitas por todas as pessoas com quem você está compartilhando - isto é, as pessoas que você salvou nos seus aspectos. Não se preocupe se você não sabe o que é um aspecto - nós vamos cobrir em detalhe na próxima parte."
       aspects_ex2: "Clique em <span class=\"click\">Meus Aspectos</span> para ver a lista com seus aspectos. Você pode ver publicações feitas para todos os aspectos, ou apenas para um ou mais aspectos individuais, selecionando e desselecionando os aspectos na coluna à esquerda."
       tags: "#Seguindo Tags"
-      tags_ex1: "Esta lista mostra todas as publicações disponíveis (publicações de acesso público e publicações limitadas feitas para aspectos em que você tenha sido adicionado) contendo tags que você segue. Nós iremos dar uma olhada nas tags em %{part5_link}."
+      tags_ex1: "Esta lista mostra todas as publicações disponíveis (publicações de acesso público e publicações limitadas feitas para aspectos em que você tenha sido adicionado) contendo tags que você segue. Nós daremos uma olhada nas tags em %{part5_link}."
       tags_ex2: "Clique <span class=\"click\">#Seguindo Tags</span> para ver a lista de suas tags. Assim como Meus Aspectos, você pode filtrar o fluxo para mostrar publicações contendo um ou mais tags, selecionando e desselecionando estas na coluna da esquerda."
       profile: "Visão do perfil"
       profile_ex1: "Clicando em seu nome ou na foto de perfil em qualquer lugar que você a ver, te leva à sua página de perfil. Isso te mostra todas as publicações que você fez em diaspora*. Isso também mostra sua foto de perfil, seu nome para aparecer na tela, tags \"sobre mim\", e sua diaspora* ID (discutida em \"Registro\" em %{part1_link})."
       profile_ex2: "Sob sua foto de perfil você verá a informação privada de perfil que você adicionou, como aniversário, localização, sexo, biografia e assim por diante."
       profile_ex3: "Clique no botão azul <span class=\"click\">Editar meu perfil</span> se você quiser alterar qualquer informação do seu perfil."
       profile_ex4: "Você também pode visualizar o perfil de alguém clicando em seu nome ou foto. A quantidade de informação e de mensagens do perfil de uma pessoa que são disponibilizados para você depende da sua conexão com eles. No canto superior direito, você encontrará um botão aspectos: cinza, se a pessoa não está em um de seus aspectos; verde se eles são. Clique nele para adicioná-la a um aspecto."
-      profile_ex5: "Debaixo da foto de perfil deles, você verá um ícone em barra: cinza (com um círculo) se eles não estão compartilhando com você, verde (com um ✓) se eles são. Se você está ignorando a pessoa, a barra estará em vermelho. Ele irá conter os seguintes ícones, se eles estão disponíveis para você: um ícone @mencionar se está compartilhando com essa pessoa, e um ícone de mensagem se você tiver compartilhamento simultâneo com ela."
+      profile_ex5: "Debaixo da foto de perfil deles, você verá um ícone em barra: cinza (com um círculo) se eles não estão compartilhando com você, verde (com um ✓) se eles estão. Se você está ignorando aquela pessoa, a barra estará em vermelho. Ele conterá os seguintes ícones, se eles estiverem disponíveis para você: um ícone @mencionar se está compartilhando com aquela pessoa, e um ícone de mensagem se você tiver compartilhamento mútuo com ela."
       profile_ex6: "Também existe na coluna à esquerda um link para as fotos subidas pela pessoa, e quaisquer dos contatos dela que são visíveis para você (que é explicado na próxima parte, \"Aspectos\")."
       finish: "Isso é tudo o que você precisa conhecer sobre a interface por enquanto. A primeira coisa que você irá querer saber é como encontrar algumas pessoas para começar a compartilhar. No entanto, antes de nós fazermos isso, vamos focar em alguma coisa que aparece proeminentemente em diaspora*: aspectos."
     getting_started3:
@@ -306,45 +306,45 @@ pt-BR:
       aspects1: "Pense sobre sua vida e sobre as pessoas que você conhece. Cada pessoa é uma parte de um ou mais aspectos de sua vida. Elas podem ser um membro de sua família, um amigo próximo, um colega de trabalho, ou alguém com quem você pratica esporte, ou com quem toca música, ou com quem você compartilha de um interesse particular. Ou elas podem ser parte de mais de um desses aspectos de sua vida."
       aspects2: "diaspora* funciona exatamente da mesma maneira. Você pode colocar os contatos dentro de um \"aspecto\" de sua conta diaspora* baseado em qual aspecto de sua vida eles fazem parte. Desta maneira, você controla quais dos seus contatos vê cada publicação que você faz em diaspora*, publicando em um aspecto particular ou em vários aspectos. Nos explicaremos mais a respeito do que isso significa nas três próximas partes desta série."
       aspects3: "Quando você se associa, você tem quatro aspectos: Família, Trabalho, Amigos e Conhecidos. É claro que você não será capaz de ordenar tudo se sua vida em apenas quatro aspectos padrões, então a primeira coisa que nós vamos fazer é adicionar alguns aspectos. Você pode também apagar os aspectos padrões se você quiser."
-      aspects4: "Clique <span class=\"click\">Meus Aspectos</span> na coluna da esquerda e sua lista de aspectos aparecerá. Para adicionar um aspecto, clique <span class=\"click\"><em>+ Adicionar um aspecto</em></span> sob a lista de apsectos na coluna da esquerda. Você verá uma janela pop-up."
-      add_aspect1: ~
-      add_aspect2: ~
-      add_aspect3: ~
+      aspects4: "Clique <span class=\"click\">Meus Aspectos</span> na coluna da esquerda e sua lista de aspectos aparecerá. Para adicionar um aspecto, clique <span class=\"click\"><em>+ Adicionar um aspecto</em></span> sob a lista de aspectos na coluna da esquerda. Você verá uma janela pop-up."
+      add_aspect1: "Escolha um nome para o novo aspecto. Isso pode refletir na conexão comum entre essas pessoas, talvez \"Escrita criativa\", \"Futebol\", ou \"Ativistas\", mas você pode chamá-los da maneira que quiser. Ninguém mais será capaz de ver os nomes dos seus aspectos, e nem seus contatos saberão em qual aspecto eles estão. Para esse exercício, eu sugiro a criação de um aspecto chamado \"Diaspora\", dentro do qual você pode colocar pessoas que você encontra aqui."
+      add_aspect2: "Decida se você quer marcar \"Faça os contatos desse aspecto visíveis para cada um?\". Isso é útil se o aspecto é para um clube no qual todos os membros se conhecem entre si, uma vez que tornando cada um visível ajudará a conexão entre cada um deles. Entretanto, você deveria usar isso com cuidado, e considere a privacidade das outras pessoas antes de fazer isso."
+      add_aspect3: "Quando você finalizar, clique no botão <span class=\"click\">Criar</span> . O aspecto é então criado e selecionado no menu."
       add_aspect4: ~
       my_aspects1: ~
-      my_aspects2: ~
-      my_aspects3: ~
-      my_aspects4: ~
-      my_aspects5: ~
-      my_aspects6: ~
-      my_aspects7: ~
+      my_aspects2: "Agora todos seus aspectos devem estar selecionados, com marcações próximas a eles."
+      my_aspects3: "Você pode clicar em aspectos no menu para selecioná-los ou desselecioná-los."
+      my_aspects4: "Você pode selecionar apenas um aspecto, ou qualquer combinação deles."
+      my_aspects5: "Se todos os aspectos estão selecionados e você quer ver apenas um, clique <span class=\"click\">Desmarcar todos</span> e então selecione aquele que você quer."
+      my_aspects6: "Por que não brincar com isso por alguns segundos?"
+      my_aspects7: "Este sistema de seleção possui dois usos:"
       my_aspects8: ~
       my_aspects9: ~
-      contacts: ~
-      contact_ex1: ~
-      contact_ex3: ~
+      contacts: "Página de Contatos"
+      contact_ex1: "Nós mencionamos sua página de contatos em %{part2_link}. Para acessar sua página de contatos, clique na seta do lado direito no final da barra de cabeçalho e selecione  <span class=\"click\">Contatos</span> na lista drop-down."
+      contact_ex3: "A página de contatos mostra seus aspectos na coluna do lado esquerdo, e seus contatos naqueles aspectos mostrados no lado direito."
       contact_ex4: ~
       contact_ex5: ~
-      contact_ex6: ~
-      contact_ex7: ~
-      sharing_me: ~
-      sharing_me_ex: ~
-      finish: ~
+      contact_ex6: "Se você está vendo contatos em um aspecto individual, haverá uma cruz no lado direito de cada contato mostrado. Clicando nela irá remover a pessoa daquele aspecto."
+      contact_ex7: "Você também pode criar novos aspectos através de sua página de contatos."
+      sharing_me: "Só compartilhando comigo"
+      sharing_me_ex: "Exibe uma lista de pessoas que estão compartilhando com você, mas com as quais você não está compartilhando - seus \"seguidores\"."
+      finish: "Agora que você entende aspectos, vamos fazer algumas conexões."
     getting_started4:
-      byline: ~
-      menu_title: ~
-      aspects1: ~
-      sharing: ~
+      byline: "Parte 4 - Encontrando e se conectando com pessoas"
+      menu_title: "Como conectar com pessoas"
+      aspects1: "Agora é hora de adicionar alguns contatos ao aspecto \"Diaspora\" que você acabou de criar. Se você já conhece pessoas que estão utilizando diaspora*, você pode encontrá-las e adicioná-las a qualquer aspecto que você quiser."
+      sharing: Compartilhando
       sharing_ex: ~
-      relationships: ~
-      followers: ~
+      relationships: "Em diaspora* existem três tipos de relações entre usuários:"
+      followers: Seguidores
       followers_ex1: ~
-      followers_ex2: ~
+      followers_ex2: "Eles verão suas publicações do tipo públicas no fluxo deles, mas nenhuma de suas publicações limitadas."
       followers_ex3: ~
-      following: ~
+      following: Seguindo
       following_ex1: ~
       following_ex2: ~
-      mutual: ~
+      mutual: "Compartilhamento mútuo"
       mutual_ex1: ~
       mutual_ex2: ~
       mutual_ls1: ~
@@ -352,25 +352,25 @@ pt-BR:
       mutual_ls3: ~
       mutual_ls4: ~
       mutual_ex3: ~
-      finding: ~
+      finding: "Encontrando pessoas"
       finding_ex1: ~
-      finding_ex2: ~
-      search: ~
-      search_ex: ~
-      search_ls1: ~
+      finding_ex2: "Existem várias maneiras de encontrar alguém e adicioná-la a um aspecto."
+      search: Busca
+      search_ex: "O campo de busca está na barra de cabeçalho. Para adicionar alguém através da busca:"
+      search_ls1: "Digite um nome ou a diaspora* ID. Sugestões aparecerão assim que você começar a digitar."
       search_ls2: ~
-      search_ls3: ~
+      search_ls3: "Quando você tiver encontrado a pessoa que procura, clique no botão <span class=\"click\">Adicionar Contato</span>."
       search_ls4: ~
       search_ls5: ~
       search_ls6: ~
-      invite: ~
+      invite: "Enviando um email de convite"
       invite_ex: ~
-      profile: ~
+      profile: "Do perfil deles"
       profile_ex1: ~
       profile_ex2: ~
-      tags: ~
+      tags: "Seguindo #tags"
       tags_ex: ~
-      removing: ~
+      removing: "Removendo alguém de seus contatos"
       removing_ex1: ~
       removing_ex2: ~
       removing_ex3: ~
@@ -378,50 +378,50 @@ pt-BR:
       removing_ex5: ~
       finish: ~
     getting_started5:
-      byline: ~
-      menu_title: ~
-      intro1: ~
+      byline: "Parte 5 - Comece a compartilhar!"
+      menu_title: "Comece a compartilhar!"
+      intro1: "Agora que você já tem alguns contatos, é hora de começar a compartilhar conteúdo com eles."
       intro2: ~
-      publisher: ~
+      publisher: "O editor"
       publisher_ex1: ~
       publisher_ex2: ~
       publisher_ex3: ~
       publisher_ex4: ~
-      buttons: ~
-      aspect_selector: ~
+      buttons: "OK, então para que servem aqueles botões?"
+      aspect_selector: "Botão de seleção de Aspecto"
       aspect_selector_ex1: ~
       aspect_selector_ex2: ~
-      photo: ~
+      photo: "Compartilhamento de foto"
       photo_ex: ~
-      locator: ~
+      locator: Localizador
       locator_ex1: ~
-      locator_ex2: ~
+      locator_ex2: "Você pode editar esta localização clicando no texto que aparece sob a janela de publicação."
       locator_ex3: ~
-      connected: ~
+      connected: "Serviços conectados"
       connected_ex1: ~
       connected_ex2: ~
-      connected_ex3: ~
-      preview: ~
+      connected_ex3: "Nós vamos ver como conectar a outros serviços em %{part7_link}."
+      preview: "Pré-visualização da publicação"
       preview_ex1: ~
       preview_ex2: ~
-      features: ~
-      tags: ~
+      features: "Recursos de publicação"
+      tags: "#tags"
       tags_ex1: ~
       tags_ex2: ~
       tags_ex3: ~
-      mentions: ~
+      mentions: "@menções"
       mentions_ex1: ~
-      mentions_ex2: ~
-      mentions_ex3: ~
-      format: ~
+      mentions_ex2: "Do mesmo modo outras pessoas podem @mencionar você, e você receberá uma notificação na barra de cabeçalho (e por email se você tiver configurado aquela opção)."
+      mentions_ex3: "Note que você pode @mencionar somente pessoas em seus aspectos; e somente em publicações, não em comentários."
+      format: "Formatação do texto"
       format_ex: ~
-      format_link_text: ~
-      links: ~
+      format_link_text: "este tutorial"
+      links: Links
       links_ex: ~
-      embed: ~
+      embed: Integração
       embed_ex1: ~
       embed_ex2: ~
-      services: ~
+      services: "Publicando em outros serviços"
       services_ex1: ~
       services_ex2: ~
       services_ex3: ~
@@ -430,37 +430,37 @@ pt-BR:
       make_post1: ~
       make_post2: ~
       make_post3: ~
-      interact: ~
+      interact: "Interagindo com publicações no fluxo"
       interact_ex1: ~
       interact_ex2: ~
-      comments: ~
+      comments: Comentários
       comments_ex: ~
       likes: ~
       likes_ex1: ~
       likes_ex2: ~
-      reshare: ~
+      reshare: "Recompartilhar publicações"
       reshare_ex: ~
-      delete: ~
+      delete: "Apagando publicações e comentários"
       delete_ex: ~
-      hide: ~
+      hide: "Ocultando a publicação de alguém"
       hide_ex: ~
-      ignore: ~
+      ignore: "Ignorar um usuário"
       ignore_ex1: ~
       ignore_ex2: ~
       finish: ~
     getting_started6:
-      byline: ~
-      menu_title: ~
+      byline: "Parte 6 - Notificações e conversas"
+      menu_title: "Notificações e conversas"
       intro: ~
-      notify: ~
+      notify: Notificações
       notify_ex1: ~
       notify_ex2: ~
-      notify_ls1: ~
-      notify_ls2: ~
-      notify_ls3: ~
-      notify_ls4: ~
-      notify_ex3: ~
-      convo: ~
+      notify_ls1: "Clique no nome da pessoa para ver a página de perfil dela."
+      notify_ls2: "Clique <span class=\"click\">publicação</span> para ver aquela publicação."
+      notify_ls3: "Clique <span class=\"click\">Marcar tudo como lido</span>."
+      notify_ls4: "Clique <span class=\"click\">Ver tudo</span> para ir para a página de Notificações."
+      notify_ex3: "A página de notificações exibe todas as notificações prévias recebidas por você, sendo 25 por página."
+      convo: Conversas
       convo_ex1: ~
       convo_ex2: ~
       convo_ex3: ~
@@ -483,57 +483,57 @@ pt-BR:
       settings: ~
       settings_ex1: ~
       settings_ex3: ~
-      profile: ~
+      profile: Perfil
       profile_ex: ~
-      account: ~
+      account: Conta
       account_ex1: ~
       account_ex2: ~
       account_ex3: ~
       account_ex4: ~
-      privacy: ~
+      privacy: Privacidade
       privacy_ex: ~
-      services: ~
+      services: Serviços
       services_ex: ~
       finish1: ~
     formatting:
-      byline: ~
-      menu_title: ~
+      byline: "Formatando texto"
+      menu_title: "Formatando texto"
       format1: ~
       format2: ~
       format3: ~
       format4: ~
-      headings: ~
+      headings: Cabeçalhos
       headings_ex1: ~
-      headings_code1: ~
-      headings_code2: ~
-      headings_code3: ~
+      headings_code1: "Este é um cabeçalho extremamente grande"
+      headings_code2: "Metade do anterior"
+      headings_code3: "Dobro do tamanho do texto normal"
       headings_ex2: ~
-      lists: ~
+      lists: Listas
       lists_ex1: ~
       lists_ex2: ~
       lists_ex3: ~
       lists_code1: ~
-      lists_code2: ~
-      lists_code3: ~
-      lists_code4: ~
+      lists_code2: "item um;"
+      lists_code3: "item dois;"
+      lists_code4: "item três."
       lists_code5: ~
-      lists_code6: ~
-      code: ~
+      lists_code6: "E esta será uma lista numerada:"
+      code: "Blocos de código"
       code_ex1: ~
       code_ex2: ~
       code_ex3: ~
       code_code1: ~
-      code_code2: ~
-      code_code3: ~
-      code_code4: ~
-      code_code5: ~
-      line: ~
-      line_ex: ~
-      line_code1: ~
-      line_code2: ~
-      itals: ~
+      code_code2: "este será um bloco de código"
+      code_code3: "Depois mais um pouco de texto."
+      code_code4: "e então um pouco mais de código"
+      code_code5: "uma linha de código identada por dois espaços"
+      line: "Linha horizontal"
+      line_ex: "Para criar uma linha horizontal, use pelo menos três - - -, _ _ _ ou * * * em uma linha separada. Qualquer número acima de três fará o mesmo, e espaços entre os caracteres não fazem diferença."
+      line_code1: "Haverá uma linha horizontal entre esta linha de texto e a próxima."
+      line_code2: "E agora você pode iniciar a nova seção do seu texto."
+      itals: "Itálico e Negrito"
       itals_ex1: ~
-      itals_ex2: ~
+      itals_ex2: "<em>Itálico</em>: *palavra* ou _palavra_"
       itals_ex3: ~
       itals_ex4: ~
       itals_ex8: ~
@@ -542,58 +542,58 @@ pt-BR:
       link_code: ~
       link_ex2: ~
       inline_link_text: ~
-      images: ~
+      images: Imagens
       images_ex1: ~
       images_code: ~
-      images_ex2: ~
+      images_ex2: "Para isso funcionar, você deve fornecer um link direto para um arquivo de imagem válido, <em>não</em> para um site com uma imagem ou que contenha imagens."
       images_ex3: ~
       escape_ex1: ~
-      escape_code: ~
+      escape_code: "este \\_ é um subtraço"
       escape_ex2: ~
       escape_ex3: ~
-      symbols: ~
+      symbols: "Caracteres especiais"
       symbols_ex: ~
       finish: ~
-      markdown_link_text: ~
+      markdown_link_text: "nesta página"
     tips:
-      headline: ~
+      headline: "Dicas para utilizar diaspora*"
       byline: ~
-      menu_title: ~
+      menu_title: "Dicas para utilizar diaspora*"
       intro: ~
-      profile: ~
+      profile: "Campos extra do perfil"
       profile_ex: ~
       notepad: ~
       notepad_ex: ~
     other_docs:
       headline: ~
-      byline: ~
+      byline: "Onde encontrar mais ajuda e informação"
       menu_title: ~
       intro1: ~
       intro2: ~
-      tutorials: ~
+      tutorials: Tutoriais
       parfait: ~
       about: ~
       about1: ~
       wiki: ~
       wiki_link_text: ~
       wikipedia: ~
-      wikipedia_link_text: ~
+      wikipedia_link_text: diaspora*
       wikipedia_software_link_text: ~
       support: ~
       question: ~
       mail: ~
-      mail_link_text: ~
+      mail_link_text: "lista de emails"
       irc: ~
-      irc_link_text: ~
+      irc_link_text: "Canal IRC"
       progress: ~
       blog: ~
-      blog_link_text: ~
+      blog_link_text: "Blog do projeto"
       changelog: ~
       changelog_link_text: ~
       loomio: ~
       communication: ~
       communicate: ~
-      communicate_link_text: ~
-      other: ~
+      communicate_link_text: "\"Como nos comunicamos\""
+      other: "Outros sites"
       manifesto: ~
       manifesto_link_text: ~
