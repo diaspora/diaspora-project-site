@@ -30,8 +30,8 @@ ActiveRecord::Schema.define(version: 20140602222432) do
     t.string   "title",                      null: false
     t.boolean  "published",  default: false
     t.text     "content",                    null: false
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",                 null: false
+    t.datetime "updated_at",                 null: false
   end
 
   create_table "rails_admin_histories", force: true do |t|
@@ -41,8 +41,8 @@ ActiveRecord::Schema.define(version: 20140602222432) do
     t.string   "table"
     t.integer  "month",      limit: 2
     t.integer  "year",       limit: 8
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",           null: false
+    t.datetime "updated_at",           null: false
   end
 
   add_index "rails_admin_histories", ["item", "table", "month", "year"], name: "index_rails_admin_histories", using: :btree
@@ -58,8 +58,8 @@ ActiveRecord::Schema.define(version: 20140602222432) do
     t.datetime "last_sign_in_at"
     t.string   "current_sign_in_ip"
     t.string   "last_sign_in_ip"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",                          null: false
+    t.datetime "updated_at",                          null: false
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
