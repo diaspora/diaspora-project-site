@@ -31,4 +31,12 @@ RailsAdmin.config do |config|
     # history_index
     # history_show
   end
+
+  config.model 'User' do
+    show do
+      configure :reset_password_token do
+        show
+      end
+    end
+  end
 end
