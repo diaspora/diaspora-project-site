@@ -24,4 +24,44 @@
   li {
     color: rgb(64, 64, 64);
   }
+
+  .box {
+    position: relative;
+    width: 70%;
+    margin: 2em auto;
+
+    &:before {
+      content: "";
+      display: block;
+      padding-top: 100%;
+    }
+
+    .content {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    &.ratio2_1:before{
+      padding-top: 50%;
+    }
+
+    &.ratio1_2:before{
+      padding-top: 200%;
+    }
+
+    &.ratio4_3:before{
+      padding-top: 75%;
+    }
+
+    &.ratio16_9:before{
+      padding-top: 56.25%;
+    }
+  }
+
 }

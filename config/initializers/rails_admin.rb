@@ -32,6 +32,14 @@ RailsAdmin.config do |config|
     # history_show
   end
 
+  config.model 'Blogpost' do
+    edit do
+      configure :content do
+        html_attributes rows: 30, cols: 70
+      end
+    end
+  end
+
   config.model 'User' do
     show do
       configure :reset_password_token do
