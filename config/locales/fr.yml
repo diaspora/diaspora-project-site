@@ -46,8 +46,8 @@ fr:
       choose_pod_exp: "Trouvez un pod qui vous convient. Cela pourrait être un petit pod ou un situé près de là où vous vivez ou un situé dans un pays où les lois régissant les données privées vous conviennent. C'est vous qui choisissez. Une liste des pods de la communauté est disponible ici %{poduptime}."
       sign_up: "2. Inscrivez-vous"
       sign_up_ex: "Une fois que vous aurez décidé du pod qui vous convient (en vous basant sur les informations et le classement sur %{poduptime}, voire sur les recommandations de personnes en qui vous avez confiance), inscrivez-vous et créez un profil avec autant d'informations personnelles que vous le souhaitez. C'est vous qui contrôlez ce que vous partagez."
-      join_convo: "3. Rejoignez la conversation !"
-      join_convo_ex: "Commencez à suivre des #tags selon vos centres d'intérêt : cela peut être la <span class=\"click\">#musique</span>, la <span class=\"click\">#photographie</span>, la <span class=\"click\">#confidentialité</span> ou <span class=\"click\">#linux</span> (tout ce que vous voulez). Envoyez un message avec le tag  <span class=\"click\">#newhere</span> pour vous présenter et c'est parti. Vous faites maintenant partie de la communauté diaspora*."
+      join_convo: "3. Rejoignez la discussion !"
+      join_convo_ex: "Commencez à suivre des #tags selon vos centres d'intérêt : cela peut être la <span class=\"click\">#musique</span>, la <span class=\"click\">#photographie</span>, la <span class=\"click\">#confidentialité</span> ou <span class=\"click\">#linux</span> (tout ce que vous voulez). Envoyez un message avec le tag  <span class=\"click\">#nouveauici</span> pour vous présenter et c'est parti. Vous faites maintenant partie de la communauté diaspora*."
       aspects: Aspects
       aspects_ex: "Diaspora* a inventé l'usage des aspect. Ils vous permettent d'organiser vos contacts selon le rôle qu'ils jouent dans votre vie. Ainsi vous pouvez partager quelque chose en exclusivité avec votre famille ou vos collègues. Vous êtes assuré que seules les personnes que vous avez choisies pourront voir votre post."
       features: Fonctionnalités
@@ -252,7 +252,7 @@ fr:
       profile4: "N'oubliez pas de cliquer sur le bouton <span class=\"click\">Mettre à jour le profil</span> une fois que vous avez terminé !"
       finish: "C'est tout !"
       finish_ex1: "Vous êtes prêt(e) à utiliser diaspora* ! Cliquez sur le logo en astérisque ou sur <span class=\"click\">Flux</span> en haut à gauche de votre écran pour commencer."
-      finish_ex2: "Si vous souhaitez rencontrer et être accueilli(e) par la communauté diaspora* et si vous vous sentez suffisamment à l'aise, écrivez un message <strong>public</strong> pour vous présenter et incluez le tag <span class=\"click\">#newhere</span>. Écrire des messages publics contenant des tags est une excellente manière de vous faire de nouveaux amis sur diaspora*. Si vous ne vous sentez pas encore assez sûr(e), ne vous inquiétez pas ; nous vous aiderons pas-à-pas à publier votre premier message ici %{part5_link}."
+      finish_ex2: "Si vous souhaitez rencontrer et être accueilli(e) par la communauté diaspora* et si vous vous sentez suffisamment à l'aise, écrivez un message <strong>public</strong> pour vous présenter et incluez le tag <span class=\"click\">#nouveauici</span>. Écrire des messages publics contenant des tags est une excellente manière de vous faire de nouveaux amis sur diaspora*. Si vous ne vous sentez pas encore assez sûr(e), ne vous inquiétez pas ; nous vous aiderons pas-à-pas à publier votre premier message ici %{part5_link}."
     getting_started2:
       byline: "2ème partie - L'interface"
       menu_title: "Utilisation de l'interface"
