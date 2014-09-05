@@ -22,7 +22,7 @@ gem 'redcarpet', '~> 3.1.2'
 gem 'paperclip', '~> 4.1'
 
 group :development, :test do
-  gem 'rspec-rails', '~> 3.0.1'
+  gem 'rspec-rails', '~> 3.0'
   gem 'capybara', '~> 2.4.1'
 
   gem 'fuubar', '~> 2.0.0'
