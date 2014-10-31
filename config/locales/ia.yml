@@ -53,7 +53,7 @@ ia:
       features: Functionalitate
       features_ex: "Le #etiquettas te da le libertate de etiquettar e sequer tu interesses de maniera facile. Tu pote diriger le attention de un persona per @mentionar la. Repete le entratas que tu ama de sorta que alteres pote gauder de illos e commentar los tamben. E monstra tu amor pro le obra de alteres per ♥r lo."
       help: "Vole tu adjutar?"
-      help_ex: "diaspora* ha besonio de personas pro scriber e testar codice, dar le benvenita a nove membros e adjutar les, installar e mantener pods communitari, e diffunder le parola super le beneficios de diaspora* a alteres qui poterea voler prender parte. Pensa tu voler contribuer a iste projecto?"
+      help_ex: "diaspora* ha besonio de personas pro scriber e testar codice, accolliger nove membros e adjutar les, installar e mantener pods communitari, e diffunder le parola super le beneficios de diaspora* a altere participantes potential. Vole tu contribuer a iste projecto?"
       socialint: "Integration de rete social"
       socialint_ex: "Usa diaspora* como base de partita pro inviar cosas a tu profilos in altere grande servicios social. De iste maniera, tu amicos potera tener se al currente de tu activitates, mesmo si illes non es ancora in diaspora*. diaspora* supporta actualmente le duplication de tu entratas in contos de Facebook, Twitter e Tumblr, con alteres a venir."
       earth_alt: ~
@@ -66,7 +66,7 @@ ia:
       services_alt: Servicios
     about:
       headline: "Como functiona diaspora*?"
-      byline: "diaspora* es facile de usar - ecce como functiona"
+      byline: "diaspora* es simple a usar – ecce como"
       menu_title: "A proposito"
       decentralize: "Que es decentralisation?"
       decentralize_ex: "diaspora* es completemente differente del major parte del retes que tu usa. Illo es completemente decentralisate e non ha alcun centro de controlo. Nonobstante, es multo facile connecter se e communicar con le gente. Ecce como."
@@ -134,10 +134,10 @@ ia:
       byline: "Le futuro del web social comencia con te"
       menu_title: Participa
       community: "Sub gerentia communitari"
-      community_byline: "diaspora* vos pertine"
+      community_byline: "diaspora* pertine a vos"
       meaning: "Que significa tote isto?"
       meaning_ex1: "Software libere tracta de individualitate, transparentia, creativitate e destino; de haber un idea e de realisar lo. diaspora* ha essite fundate pro satisfacer un passion, pro divertimento e pro facer del internet un loco melior. Le software libere nos permitte cambiar le mundo pro nos mesme, e lassa nostre amicos in tote le web beneficiar de nostre exploration."
-      meaning_ex2: "Le communitates de software libere forma un phenomeno stupende. A diaspora* nos crede que on debe esser judicate secundo lo que on face. Non importa si tu es un programmator experte o nunquam ha contribuite a un projecto antea. Contribuer a diaspora* significa haber le privilegio de resolver problemas difficile, con focalisation a solutiones que functiona pro nostre usatores."
+      meaning_ex2: "Le communitates de software libere forma un phenomeno stupende. A diaspora* nos crede que on debe esser judicate secundo lo que on face. Non importa si tu es un programmator experte o nunquam ha contribuite a un projecto antea. Contribuer a diaspora* significa travaliar a problemas difficile, con particular attention a solutiones que functiona pro le usatores."
       meaning_ex3: "Ecce le ration proque, si tu contribue qualcosa de signification a diaspora*, nos te concedera un accesso integral al systema de controlo de codice-fonte. Nos perseque le mesme objecto, e nos vole dar a personas multo motivate le chance de facer grande cambiamentos."
       whereyou: "Como participa tu"
       whereyou_ex1: "Nos totes face diaspora*. Forsan nos non ancora te cognosce multo ben, ma nos amarea cognoscer te e determinar como tu pote participar in le equipa que construe le futuro del web. Nos ha totes le potential de cambiar le mundo, date le opportunitate juste."
@@ -252,60 +252,60 @@ ia:
       profile4: "Non oblida de cliccar sur le button <span class=\"click\">Actualisar</span> quando tu ha finite!"
       finish: "Es toto!"
       finish_ex1: "Tu es toto preste pro comenciar a usar diaspora*! Clicca sur le logo de asterisco o <span class=\"click\">Fluxo</span> in le parte superior al sinistra del schermo pro comenciar."
-      finish_ex2: ~
+      finish_ex2: "Si tu vole que le communitate de diaspora* te da le benvenita, e si tu te senti satis confidente, scribe ora un entrata <strong>public</strong> pro introducer te, includente le etiquetta <span class=\"click\">#newhere</span>. Scriber messages public con etiquettas es un optime maniera de cognoscer nove amicos in diaspora*. Si tu non es secur de voler facer isto ora, non te inquieta; nos te accompaniara passo a passo per tu prime message in %{part5_link}."
     getting_started2:
       byline: "Parte 2 - Le interfacie"
       menu_title: "Usar le interfacie"
-      interface1: ~
-      interface2: ~
-      interface3: ~
-      header: ~
-      header2: ~
-      header3: ~
-      header4: ~
-      header5: ~
-      header6: ~
-      header7: ~
-      header8: ~
-      header9: ~
-      header10: ~
-      header11: ~
+      interface1: "Tu reguarda ora un interfacie novelle. (Si tu es ancora in le pagina de modificar profilo, clicca sur le logo de asterisco o sur <span class=\"click\">Fluxo</span> al latere sinistre del barra superior nigre.) Jecta un oculo sur le disposition de iste schermo pro familiarisar te con illo."
+      interface2: "A causa del natura decentralisate e aperte de disaspora*, il es possibile pro administratores personalisar lor pods. Dunque, dependente del pod in que tu es, le aspecto del interfacie pote esser un poco differente del description presentate hic. Nonobstante, le elementos essential deberea totes esser presente, mesmo si lor arrangiamento pote differer un poco."
+      interface3: "Le interfacie principal pote esser dividite in quatro partes."
+      header: "In cyma del schermo se trova le barra superior, le qual remane sempre in su loco, mesmo si tu rola le pagina a basso. Iste barra superior contine:"
+      header2: "le logo de diaspora*, que te porta retro al pagina de fluxo;"
+      header3: "ligamines a tu paginas \"Fluxo\" e \"Mi activitate\";"
+      header4: "un icone de notificationes (nos describe isto in %{part6_link});"
+      header5: "un icone de conversationes (anque coperite in %{part6_link});"
+      header6: "le barra de recerca (lege plus sur isto in %{part4_link});"
+      header7: "un menu personal disrolante con:"
+      header8: " un ligamine a tu pagina de profilo (vide %{part1_link});"
+      header9: "un ligamine a tu lista de contactos (vide %{part4_link});"
+      header10: "un ligamine al pagina de configuration de tu conto (vide %{part7_link});"
+      header11: "un ligamine a un section de adjuta;"
       header12: ~
-      columns: ~
-      column1: ~
-      column2: ~
-      column3: ~
-      views: ~
+      columns: "Infra le barra superior il ha tres columnas:"
+      column1: "Al sinistra se trova le photo e nomine de tu profilo, e postea le ligamines al differente vistas de contento disponibile in diaspora*: <span class=\"click\">Mi activitate</span>, <span class=\"click\">Fluxo</span>, <span class=\"click\">@Mentiones</span>, <span class=\"click\">Mi aspectos</span> e <span class=\"click\">#Etiquettas sequite</span>. Nos explica istes postea."
+      column2: "Le columna central contine le fluxo de contento con un quadro pro scriber un nove entrata in le parte superior. Nos explica istes in %{part4_link}."
+      column3: "Al dextra se trova le icones de profilo del personas cuje entratas appare in tu fluxo. Il ha anque alcun ligamines pro invitar tu amicos, dar le benvenita a nove usatores, cercar adjuta, inviar cosas a diaspora* desde le resto del web (le “mini-marcapaginas” de diaspora*) e, in alcun pods, le information de contacto del administrator del pod. (Nota: in alcun pods, le columnas sinistre e dextre ha essite combinate e positionate o al sinistra o al dextra.)"
+      views: "Le differente vistas disponibile in diaspora* es:"
       stream: "Le fluxo"
       stream_ex: "Le fluxo es vostre pagina principal in diaspora*. Illo aggrega tote le entratas disponibile a te. Illo es:"
       stream1: "entratas scribite per tu contactos:"
-      stream2: ~
-      stream3: ~
-      stream_ex2: ~
-      activity: ~
-      activity_ex: ~
-      mentions: ~
-      mentions_ex: ~
-      aspects: ~
-      aspects_ex1: ~
-      aspects_ex2: ~
-      tags: ~
-      tags_ex1: ~
-      tags_ex2: ~
-      profile: ~
-      profile_ex1: ~
-      profile_ex2: ~
-      profile_ex3: ~
-      profile_ex4: ~
-      profile_ex5: ~
-      profile_ex6: ~
-      finish: ~
+      stream2: "entratas public que contine le #etiquettas que tu seque;"
+      stream3: "entratas que te @mentiona."
+      stream_ex2: "Le entratas in le fluxo es ordinate secundo le hora del entrata original."
+      activity: "Mi activitate"
+      activity_ex: "Le fluxo “Mi activitate” monstra omne entratas que tu ha appreciate o commentate. Isto es un maniera utile de tener te al currente con tote le interactiones que tu ha interprendite in diaspora*. Le entratas in “Mi activitate” es ordinate secundo le ultime activitate (commento o appreciation) in cata entrata."
+      mentions: "@Mentiones"
+      mentions_ex: "Isto monstra tote le entratas facite per altere personas que te @mentiona. Nos explica le mentiones in %{part4_link}."
+      aspects: "Mi aspectos"
+      aspects_ex1: "“Mi aspectos” monstra tote le entratas facite per tote le personas con qui tu divide cosas – isto vole dicer: le personas que tu ha addite a tu aspectos. Non te inquieta si tu non sape lo que un aspecto es; nos explica isto in detalio in le parte sequente."
+      aspects_ex2: "Clicca sur <span class=\"click\">Mi aspectos</span> pro vider le lista de tu aspectos. Tu pote vider entratas facite in tote le aspectos, o in solmente un o plure aspectos particular, per marcar e dismarcar los in le columna al sinistra."
+      tags: "#Etiquettas sequite"
+      tags_ex1: "Iste vista monstra tote le entratas disponibile (entratas public e entratas limitate que ha essite inviate a aspectos a que tu ha essite addite) que contine etiquettas que tu seque. Nos examina le etiquettas in detalio in %{part5_link}."
+      tags_ex2: "Clicca sur <span class=\"click\">#Etiquettas sequite</span> pro vider le lista de tu etiquettas. Como in “Mi aspectos”, tu pote filtrar iste fluxo pro monstrar entratas continente un o plure etiquettas per marcar e dismarcar los in le columna al sinistra."
+      profile: "Vista de profilo"
+      profile_ex1: "Un clic sur tu nomine o photo de profilo, non importa ubi tu lo vide, te porta a tu pagina de profilo. Iste te monstra tote le entratas que tu ha scribite in diaspora*. Illo anque monstra tu photo de profilo, pseudonymo, le etiquettas “a proposito de me” e tu ID de diaspora* (explicate sub “Registration” in %{part1_link})."
+      profile_ex2: "Infra tu photo de profilo se trova omne information de profilo private que tu ha addite, como le data de nascentia, position geographic, sexo, biographia, et cetera."
+      profile_ex3: "Clicca sur le button blau <span class=\"click\">Modificar mi profilo</span> si tu vole cambiar alcun information de tu profilo."
+      profile_ex4: "Tu pote anque vider le pagina de profilo de un altere persona per cliccar sur su nomine o imagine. Le quantitate de information de profilo e entratas de un persona que tu pote vider depende de tu connexion con illa. In cyma al dextra se trova un button de aspectos: gris si le persona non es in alcun de tu aspectos, verde si illa lo es. Clicca sur illo pro adder la a un aspecto."
+      profile_ex5: "Infra su photo de profilo tu vide un barra de icones: gris (con un circulo) si illa non divide cosas con te, verde (con un ✓) si illa lo face. Si tu ignora iste persona, le barra es rubie. Illo contine le sequente icones, si illos es disponibile pro te: un icone de @mention si tu divide cosas con iste persona, e un icone de message si vos divide cosas reciprocamente."
+      profile_ex6: "Anque in le columna al sinistra se trova un ligamine al photos que iste persona ha incargate, e alcunes de su contactos que illa ha rendite visibile pro te (isto se explica in le parte sequente, “Aspectos”)."
+      finish: "Isto es tote lo que tu debe saper sur le interfacie pro le momento. Le prime cosa que tu volera facer es cercar alcun personas con qui comenciar a divider cosas. Nonobstante, ante que nos arriva a iste puncto, vamos concentrar nos a un characteristica prominente de diaspora*: le aspectos."
     getting_started3:
-      byline: ~
-      menu_title: ~
-      aspects1: ~
-      aspects2: ~
-      aspects3: ~
+      byline: "Parte 3 – Aspectos"
+      menu_title: "A proposito de aspectos"
+      aspects1: "Considera tu vita e le personas que tu cognosce. Cata persona face parte de alcun aspecto de tu vita: pote esser un membro de tu familia, un amico intime, un collega de travalio, un consocio de sport o de musica, o simplemente un persona con qui tu ha un interesse particular in commun. Un persona poterea mesmo facer parte de plure tal aspectos de tu vita."
+      aspects2: "diaspora* functiona exactemente in iste maniera. Tu pote mitter cata contacto in un “aspecto” de tu grano de diaspora*, dependente de qual aspecto de tu vita ille face parte.  In iste maniera, tu determina qual de tu contactos pote vider cata entrata que tu scribe in diaspora*, per inviar lo a un certe aspecto o aspectos in particular. Nos explica isto in major detalio in le tres partes sequente de iste serie."
+      aspects3: "Al creation de tu conto, le systema te da quatro aspectos initial: Familia, Labor, Amicos e Cognoscitos. Naturalmente tu non potera categorisar tute tu vita in solmente quatro aspectos predefinite, dunque le prime cosa que nos va facer e adder altere aspectos. Tu pote anque deler le aspectos predefinite si tu vole."
       aspects4: ~
       add_aspect1: ~
       add_aspect2: ~

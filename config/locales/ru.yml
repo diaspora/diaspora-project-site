@@ -8,14 +8,14 @@ ru:
     find_more: "Узнать больше »"
   meta:
     footer:
-      copyleft: ~
+      copyleft: "CC-BY diaspora* Сообщество"
   title: "Проект diaspora*"
   newsfeed: ~
   layouts:
     application:
-      wiki: ~
+      wiki: Вики
       planet: ~
-      useful_resources: ~
+      useful_resources: "Полезные советы"
       codebase: ~
       documentation: Документация
       report_bugs: ~
@@ -23,7 +23,7 @@ ru:
       irc_development: ~
       discussion_general: ~
       discussion_development: ~
-      choose_language: ~
+      choose_language: "Выберите язык"
       translate: ~
       cc_license_alt: ~
       licensed_under: ~
@@ -63,7 +63,7 @@ ru:
       aspects_alt: ~
       features_alt: ~
       ways_to_help_alt: "Как вы можете помочь"
-      services_alt: ~
+      services_alt: Службы
     about:
       headline: "Как работает diaspora*?"
       byline: "диаспора* проста в использовании - и вот почему."
@@ -120,13 +120,13 @@ ru:
       host_ex: ~
       hostinst1: ~
       instructions_link_text: ~
-      hostinst2: ~
+      hostinst2: "Посмотреть лист \"стручков\" сообщества %{poduptime}"
       distributed_network: ~
       centralized_network: ~
-      search_alt: ~
-      add_a_contact_alt: ~
+      search_alt: Поиск
+      add_a_contact_alt: "Добавить контакт"
       hashtag_alt: ~
-      reshare_alt: ~
+      reshare_alt: Поделиться
       mention_alt: ~
       heart_alt: ~
     get_involved:
@@ -142,26 +142,26 @@ ru:
       whereyou: ~
       whereyou_ex1: ~
       whereyou_ex2: ~
-      gi_header: ~
-      code_header: ~
-      code_byline: ~
-      code_ex1: ~
-      code_ex2: ~
-      code_ex3: ~
-      code_ex4: ~
+      gi_header: "Как вы можете принять участие в проекте diaspora*"
+      code_header: "Привнести идею в код"
+      code_byline: "Получить исходный код - это просто"
+      code_ex1: "Клонировать репозиторий и поковыряться: %{clone_code}"
+      code_ex2: "Установить вашу рабочую среду"
+      code_ex3: "Начать улучшения!"
+      code_ex4: "У нас есть внушительное сообщество, готовое помочь вам освоиться. Мы предлагаем вам прочесть %{get_started_guide_link}, влиться в наш %{mailing_list_link} и встретиться с нами в %{irc_link}."
       get_started_guide_link_text: ~
       mailing_list_link_text: ~
       irc_link_text: ~
       code_gh: "Посмотреть исходный код на GitHub"
-      bugs_header: ~
-      bugs_ex1: ~
-      bugs_ex2: ~
-      bugs_ex3: ~
+      bugs_header: "Рассказать об ошибке"
+      bugs_ex1: "Наш проект использует Code Triage (Сортировка Кода), волонтерский сервис, где пользователи и разработчики совместно трудятся над решением проблем и ошибок в нашем %{github_link}."
+      bugs_ex2: "Сообщение о мелких ошибках поможет всем, а также даст возможность новичкам лучше разобраться в том, как работает diaspora* в целом и в деталях."
+      bugs_ex3: "Помогите нам сделать наш код чище"
       github_link_text: ~
       translate_header: "Помогите с переводом"
-      translate_ex1: ~
-      translations_link_text: ~
-      translate_ex2: ~
+      translate_ex1: "Вы можете помочь перевести diaspora* на другие языки, вступив в %{translations_link}."
+      translations_link_text: "Группа Переводчиков"
+      translate_ex2: "Прочтите %{translation_instructions_link}, чтобы понять, с чего начать."
       translation_instructions_link_text: ~
       voice_header: "Выскажите ваше мнение"
       voice_ex1: ~

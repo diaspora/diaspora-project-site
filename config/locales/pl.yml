@@ -14,20 +14,20 @@ pl:
   layouts:
     application:
       wiki: Wiki
-      planet: ~
+      planet: Planeta
       useful_resources: "Przydatne linki"
       codebase: "Kod źródłowy"
       documentation: Dokumentacja
       report_bugs: "Znajdź i zgłoś błędy"
       irc_general: "IRC - kanał główny"
       irc_development: "IRC - kanał deweloperski"
-      discussion_general: ~
-      discussion_development: ~
+      discussion_general: "Ogólna dyskusja"
+      discussion_development: "Dyskusje programistyczne"
       choose_language: "Wyberz język"
       translate: ~
       cc_license_alt: "Licencja Creative Commons"
       licensed_under: "%{site_link} jest na licencji %{license_link}"
-      license_link_text: ~
+      license_link_text: "Creative Commons Uznanie autorstwa 3.0 Unported"
   pages:
     index:
       headline: "Witaj na diasporze*"
@@ -35,35 +35,35 @@ pl:
       register: "Zarejestruj się »"
       key_philosophies: "diaspora* opiera się na trzech założeniach:"
       decentralization: Decentralizacja
-      decentralization_about: ~
+      decentralization_about: "Zamiast składować dane wszystkich użytkowników na olbrzymich centralnych serwerach wielkich organizacji, można zakładać lokalne serwery (\"pody\") na całym świecie. To Ty wybierasz, na którym podzie się zarejestrujesz, prawdopodobnie będzie to Twój lokalny, i połączysz się ze społecznością diaspory* z całego świata."
       freedom: Wolność
-      freedom_about: ~
+      freedom_about: "W diasporze* Możesz być kimkolwiek zechcesz. W przeciwieństwie do niektórych sieci, nie musisz używać swoich prawdziwych danych. Możesz komunikować się z kim tylko chcesz, w dowolny sposób. Ogranicza cię tylko wyobraźnia. diaspora* jest wolnym oprogramowaniem, co daje ci wolność używania jej jak uznasz za stosowne."
       privacy: Prywatność
-      privacy_about: ~
-      get_started: ~
-      get_started_sub: ~
-      choose_pod: ~
-      choose_pod_exp: ~
-      sign_up: ~
-      sign_up_ex: ~
-      join_convo: ~
-      join_convo_ex: ~
-      aspects: ~
-      aspects_ex: ~
-      features: ~
-      features_ex: ~
-      help: ~
-      help_ex: ~
-      socialint: ~
-      socialint_ex: ~
-      earth_alt: ~
-      decentralized_alt: ~
-      freedom_alt: ~
-      keyhole_alt: ~
-      aspects_alt: ~
-      features_alt: ~
-      ways_to_help_alt: ~
-      services_alt: ~
+      privacy_about: "W diasporze* to Ty jesteś właścicielem swoich danych. Nie podpisujesz się pod przekazaniem praw korporacji ani komukolwiek innemu, aby mógł ich używać. Z diasporą* Twoi znajomi, zwyczaje i treści są Twoją sprawą... nie naszą! Dodatkowo, dzięki aspektom. możesz wybrać, kto widzi, co udostępniasz."
+      get_started: "Chcesz spróbować?"
+      get_started_sub: "To proste, jak dwa razy dwa..."
+      choose_pod: "1. Wybierz pod"
+      choose_pod_exp: "Wybierz pod, który najbardziej Ci pasuje. Może wolisz jakiś mniejszy, albo położony blisko Twojego domu, ewentualnie w kraju, w którym wiesz, że mają dobre prawo bezpieczeństwa danych. Twoja wola! Wybierz z podów naszej społeczności, być może jakiś jest położony w Twojej lokalizacji."
+      sign_up: "2. Zarejestruj się"
+      sign_up_ex: "Jeśli już zdecydowałaś, który pod Ci pasuje na podstawie opinii i informacji z %{poduptime}, a może i zdania kogoś, komu ufasz, zarejestruj się tam i stwórz profil podając tak mało. lub tak wiele osobistych danych, jak tylko chcesz. To Ty kontrolujesz, ile udostępnisz."
+      join_convo: "3. Włącz się do dyskusji!"
+      join_convo_ex: "Zacznij obserwować jakieś #tagi związane z Twoimi zainteresowaniami: <span class=\"click\">#muzyka</span>, <span class=\"click\">#fotografia</span>, <span class=\"click\">#prywatność</span>, czy <span class=\"click\">#linux</span> - w czymkolwiek gustujesz. Napisz publiczną wiadomość z tagiem <span class=\"click\">#TutajOdNiedawna</span>, żeby się przedstawić i do dzieła. Od teraz jesteś częścią tętniącej życiem społeczności diaspory*."
+      aspects: Aspekty
+      aspects_ex: "diaspora* wypracowała koncepcję aspektów, co znaczy, że możesz organizować swoje kontakty odpowiednio do roli, jaką pełnią w Twoim życiu. Dzięki temu możesz udostępnić coś tylko swojej rodzinie, albo kolegom z pracy, będąc pewną, że nikt niepożądany nie zobaczy tego, co piszesz."
+      features: Funkcje
+      features_ex: "Hasztagi dają Ci wolność łatwego oznaczania i śledzenia swoich zainteresowań. Możesz też zwrócić czyjąś uwagę @wspominając o nim. Przekazuj dalej ulubione wpisy, żeby inni mogli się nimi nacieszyć i skomentować. Okaż uznanie dla czyjejś pracy ♥jąc ją."
+      help: "Chcesz pomóc?"
+      help_ex: "diaspora* potrzebuje ludzi przy pisaniu i testowaniu kodu, witaniu oraz pomaganiu nowym użytkownikom, uruchamianiu i obsłudze podów naszej społeczności, a także informowaniu o zaletach diaspory* wszystkich, którzy mogliby chcieć się przyłączyć. Myślisz, że byłbyś chętny wspomóc projekt?"
+      socialint: "Integracja z sieciami społecznościowymi"
+      socialint_ex: "Używaj diaspory* do pisania wpisów na swoje profile w innych wiodących sieciach społecznościowych. Dzięki temu Twoi znajomi będą mogli być na bieżąco z tym, co u Ciebie słychać mimo, że jeszcze nie ma ich na diasporze*. Aktualnie diaspora* umożliwia jednoczesne pisanie na Facebooka, Twittera i Tumblr, a w przyszłości też gdzie indziej."
+      earth_alt: Ziemiad*
+      decentralized_alt: Decentralizacja
+      freedom_alt: Wolność
+      keyhole_alt: "Dziurka od klucza"
+      aspects_alt: Aspekty
+      features_alt: Funkcje
+      ways_to_help_alt: "Sposoby pomocy"
+      services_alt: Usługi
     about:
       headline: "Jak działa diaspora* ?"
       byline: "Łatwo zacząć używać diaspory* – zobacz, jak"
@@ -74,7 +74,7 @@ pl:
       this_ex: "diaspora* jest prawdziwą siecią, bez jednego centrum. Serwery (\"pody\") położone są na całym świecie, a każdy z nich zawiera tylko dane użytkowników, którzy na nim się zarejestrowali. Te właśnie pody komunikują się między sobą - więc na którymkolwiek z nich się zarejestrujesz, będziesz miał dostęp do osób i treści ze wszystkich pozostałych."
       notthis: "NIE TO"
       notthis_ex: "Większość sieci społecznościowych działa w sposób scentralizowany - zwykle na serwerach będących własnością jakiejś korporacji. Znajdują się tam prywatne dane wszystkich ich użytkowników, tylko czekające na bycie skradzionymi lub straconymi w wyniku jakiejś awarii. Jak w każdym scentralizowanym systemie, występuje tu też problem \"wąskiego gardła\" - najmniejszy problem na centralnym serwerze może znacznie spowolnić całą sieć, a nawet spowodować całkowitą awarię. Rządom jest też o wiele łatwiej podsłuchać dane z jednego miejsca niż z rozproszonej sieci."
-      discl: ~
+      discl: "(diaspora* używa otwartych standardów sieciowych typu %{pubsubhubub}, czy %{webfinger}, aby umożliwić tego typu połączenie.)"
       connect: "Jak się podłączyć?"
       connect_ex: "Pomimo tego, że diaspora* składa się z wielu podów położonych w najróżniejszych miejscach świata, używa się jej jak jednej, połączonej sieci. Nie musisz korzystać z tego samego poda, co Twoi znajomi, aby móc się z nimi swobodnie dzielić - komunikacja przebiega bez najmniejszych problemów przez całą sieć diaspory*. Używając jej możesz zapomnieć, że składa się z wielu podów. Połączenie się z kimś na diasporze* jest bardzo proste: "
       find: "1. Znajdź ich"
@@ -119,16 +119,16 @@ pl:
       host_byline: "Bądź jedną z gwiazd diaspory*"
       host_ex: "diaspora* opiera się na członkach społeczności, którzy stawiają i utrzymują pody otwarte dla każdego, kto chce z nich skorzystać. Jeżeli masz trochę przestrzeni serwerowej i odrobinę umiejętności technicznych, spróbuj postawić własny! Im więcej podów, tym lepiej działa diaspora* - już dziś bądź częścią przyszłości zdecentralizowanej Sieci!"
       hostinst1: "Przeczytaj %{instructions_link} i postaw własny pod społecznościowy."
-      instructions_link_text: ~
+      instructions_link_text: "Instrukcja instalacji poda"
       hostinst2: "Zobacz listę podów społecznościowych na %{poduptime}"
-      distributed_network: ~
-      centralized_network: ~
-      search_alt: ~
-      add_a_contact_alt: ~
-      hashtag_alt: ~
-      reshare_alt: ~
-      mention_alt: ~
-      heart_alt: ~
+      distributed_network: "Sieć rozproszona"
+      centralized_network: "Sieć scentralizowana"
+      search_alt: Szukaj
+      add_a_contact_alt: "Dodaj kontakt"
+      hashtag_alt: Hashtag
+      reshare_alt: "Przekaż dalej"
+      mention_alt: Wzmianka
+      heart_alt: Serce
     get_involved:
       headline: "Zaangażuj się!"
       byline: "Przyszłość społecznościowej Sieci zaczyna się od Ciebie"
@@ -136,68 +136,68 @@ pl:
       community: "Tworzone przez społeczność"
       community_byline: "diaspora* należy do Ciebie"
       meaning: "Co to wszystko znaczy?"
-      meaning_ex1: "W Wolnym Oprogramowaniu chodzi o indywidualność, przejrzystość, kreatywność i cel. Chodzi o pomysł i jego realizację. diaspora* została stworzona z pasji i by uczynić internet lepszym miejscem. Wolne Oprogramowanie jest czymś, co pozwala nam zmieniać świat dla siebie i umożliwiać naszym przyjaciołom korzystać z naszych odkryć."
-      meaning_ex2: "Społeczności Wolnego Oprogramowania to wspaniałe rzeczy. W diasporze* wierzymy że ludzie powinni być doceniani za to co robią. Nie jest ważne to czy jesteś elitarnym programistą czy nigdy nie uczestniczyłeś w żadnym projekcie. Współtworzenie diaspory* oznacza rozwiązywanie trudnych problemów z uwzględnieniem rozwiązań które działają po stronie użytkownika."
-      meaning_ex3: "Dlatego gdy stworzysz coś ważnego dla diaspory*, damy ci możliwość dodawania zmian do kodu. Jesteśmy w tym razem i chcemy dać szansę robienia wielkich zmian wszystkim zainteresowanym ludziom."
+      meaning_ex1: "W Wolnym Oprogramowaniu chodzi o indywidualność, przejrzystość, kreatywność i cel. Chodzi o pomysł i wprowadzenie go w życie. diaspora* została stworzona z pasji i by uczynić internet lepszym miejscem. Wolne Oprogramowanie jest czymś, co pozwala nam zmieniać świat dla siebie i umożliwia naszym przyjaciołom korzystać z naszych odkryć."
+      meaning_ex2: "Społeczności Wolnego Oprogramowania są wspaniałe. W diasporze* wierzymy że ludzie powinni być doceniani za to co robią. Nie jest ważne to, czy jesteś elitarnym programistą czy nigdy nie uczestniczyłeś w żadnym projekcie. Współtworzenie diaspory* oznacza rozwiązywanie trudnych problemów z uwzględnieniem rozwiązań które działają po stronie użytkownika."
+      meaning_ex3: "Dlatego gdy stworzysz coś ważnego dla diaspory*, damy ci możliwość dodawania zmian do kodu. Uczestniczymy w tym razem i chcemy dać szansę robienia znaczących zmian wszystkim zainteresowanym ludziom."
       whereyou: "Gdzie zaczyna się Twoja rola"
       whereyou_ex1: "diasporę* tworzymy my wszyscy. Być może jeszcze się nie spotkaliśmy, ale z ogromną przyjemnością poznamy Cię i zobaczymy, w jaki sposób możesz przyłączyć się do zespołu zmieniającego przyszłość Sieci. Wszyscy mamy potencjał do zmiany świata, kiedy tylko nadarzy się ku temu okazja."
-      whereyou_ex2: "Wspomaganie diaspory* ma wiele postaci. Czy jesteś użytkownikiem pomagającym nam znaleźć błędy, piszesz opinie na listach mailingowych, tworzysz kod lub oprawę graficzną, potrzebujemy cię."
-      gi_header: "Sposoby aby dołączyć do diaspory*"
+      whereyou_ex2: "diasporę* można wspomóc na wiele sposobów. Nieistotne, czy jesteś użytkownikiem pomagającym nam znaleźć błędy, piszesz opinie na listach mailingowych, czy tworzysz kod lub oprawę graficzną, jesteś potrzebny."
+      gi_header: "Sposoby, aby pomóc przy diasporze*"
       code_header: "Tworzenie kodu"
       code_byline: "Zdobycie kodu źródłowego jest proste"
       code_ex1: "Sklonuj repozytorium i poszperaj: %{clone_code}"
       code_ex2: "Zainstaluj swoje środowisko deweloperskie"
       code_ex3: "Zacznij tworzyć kod!"
       code_ex4: "Posiadamy dużą społeczność gotową by ci pomóc. Proponujemy przejrzeć %{get_started_guide_link}, dołączyć do %{mailing_list_link} i spotkać nas na %{irc_link}"
-      get_started_guide_link_text: ~
-      mailing_list_link_text: ~
-      irc_link_text: ~
+      get_started_guide_link_text: "Poradnik dla początkujących"
+      mailing_list_link_text: "listy mailowej"
+      irc_link_text: "kanale IRC diaspory*"
       code_gh: "Przejrzyj kod źródłowy na GitHub"
       bugs_header: "Eliminuj błędy"
-      bugs_ex1: "Nasz projekt używa Code Triage, dobrowolnego serwisu gdzie użytkownicy i deweloperzy mogą wspólnie pracować nad poprawianiem błędów na: %{github_link}"
+      bugs_ex1: "Nasz projekt używa Code Triage, dobrowolnego serwisu, gdzie użytkownicy i deweloperzy mogą wspólnie pracować nad poprawianiem błędów na: %{github_link}."
       bugs_ex2: "Pozbywanie się małych błędów pomaga wszystkim i pozwala nowym ludziom zdobyć wiedzę o tym jak działa diaspora*."
       bugs_ex3: "Pomóż nam oczyścić kod"
-      github_link_text: ~
+      github_link_text: GitHubie
       translate_header: "Pomóż w tłumaczeniu"
       translate_ex1: "Możesz pomóc tłumaczyć diasporę* na inne języki przyłączając się do %{translations_link}."
-      translations_link_text: ~
+      translations_link_text: "Grupy Tłumaczy"
       translate_ex2: "Aby dowiedzieć się, jak to zrobić, przeczytaj nasze %{translation_instructions_link}."
-      translation_instructions_link_text: ~
+      translation_instructions_link_text: "instrukcje dla tłumaczy "
       voice_header: "Podziel się swoją opinią"
       voice_ex1: "Nasz projekt jest tworzony w całości przez wolontariuszy. Używamy narzędzia nazywanego Loomio, aby dowiedzieć się, co inni sądzą o pomysłach i propozycjach w projekcie. "
       voice_ex2: "Dołącz tam do nas"
       voice_ex3: "Namów przyjaciół i rodzinę by dołączyli do diaspory* tworząc swój własny %{meetup_link} dla swojej społeczności."
-      meetup_link_text: ~
+      meetup_link_text: wydarzenie
       support_header: "Zapewnij wsparcie"
       support_ex1: "Pomóż nowym użytkownikom czuć się swobodnie!"
       support_ex2: "Zarejestruj się tutaj"
       support_ex3: "Pisz poradniki dla użytkowników na %{tutorials_link}."
       support_ex4: "Odpowiadaj na pytania użytkowników na naszym %{irc_channel_link} lub w samej diasporze*, śledząc tagi <span class=\"click\">#pomoc</span>, <span class=\"click\">#pytanie</span> i <span class=\"click\">#feedback</span>."
-      irc_channel_link_text: ~
-      support_ex5: ~
-      wiki_link_text: ~
-      run_header: ~
+      irc_channel_link_text: "kanale IRC"
+      support_ex5: "Pomóż przy %{wiki_link}."
+      wiki_link_text: "wiki diaspory*"
+      run_header: "Uruchom publiczny pod"
       run_ex1: "Nie musisz udostępniać swoich danych komuś innemu! Jako, że diaspora* jest w pełni wolnym oprogramowaniem, wciąż pracujemy nad ułatwieniem zwykłym użytkownikom %{host_pod_link}."
-      host_pod_link_text: ~
-      run_ex2: ~
-      run_ex3: ~
-      contributors_header: ~
-      contributors_byline: ~
-      globe_alt: ~
-      megaphone_alt: ~
-      support_alt: ~
-      pod_alt: ~
+      host_pod_link_text: "uruchomienia swojego własnego poda"
+      run_ex2: "Możesz uruchomić go, gdzie tylko chcesz."
+      run_ex3: "Dodaj swój pod jako ogólnodostępny do listy %{poduptime}."
+      contributors_header: "współtwórcy diaspory*"
+      contributors_byline: "Ludzie, którzy sprawili, że diaspora* jest tym, czym jest"
+      globe_alt: "Kula Ziemska"
+      megaphone_alt: Megafon
+      support_alt: Wsparcie
+      pod_alt: Pod
     blog:
       headline: "Blog diaspory*"
       subline: "oficjalne ogłoszenia"
       menu_title: Blog
     planet:
-      headline: ~
-      menu_title: ~
+      headline: Planeta
+      menu_title: Planeta
     tutorials:
-      headline: ~
-      byline: ~
-      menu_title: ~
+      headline: "samouczki diaspory*"
+      byline: "poprowadzą Cię krok po kroku"
+      menu_title: Samouczki
       tutorials_ex1: ~
       tutorials_ex2: ~
       started_head: ~

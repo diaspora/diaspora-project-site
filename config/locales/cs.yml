@@ -60,8 +60,8 @@ cs:
       decentralized_alt: Decentralizováno
       freedom_alt: Svoboda
       keyhole_alt: "Klíčová dírka"
-      aspects_alt: ~
-      features_alt: ~
+      aspects_alt: Aspekty
+      features_alt: Vlastnosti
       ways_to_help_alt: Nápověda
       services_alt: Služby
     about:
@@ -126,7 +126,7 @@ cs:
       search_alt: hledat
       add_a_contact_alt: "Přidat kontakt"
       hashtag_alt: Štítek
-      reshare_alt: ~
+      reshare_alt: Sdílet
       mention_alt: Zmínit
       heart_alt: ~
     get_involved:
@@ -188,7 +188,7 @@ cs:
       contributors_header: "Podporovatelé diaspora*"
       contributors_byline: "Lidé, kteří dělají diaspora* tím co je"
       globe_alt: ~
-      megaphone_alt: ~
+      megaphone_alt: Megafon
       support_alt: Podpora
       pod_alt: Pod
     blog:
@@ -207,7 +207,7 @@ cs:
       started_head: "Začínáme v diaspora*"
       started1: Přihlášení
       started2: Rozhraní
-      started3: ~
+      started3: Aspekty
       started4: ~
       started5: "Zační sdílet!"
       started6: "Upozornění a konverzace"
@@ -290,10 +290,10 @@ cs:
       activity_ex: ~
       mentions: ~
       mentions_ex: ~
-      aspects: ~
+      aspects: "Moje aspekty"
       aspects_ex1: ~
       aspects_ex2: ~
-      tags: ~
+      tags: "#Odebírané tagy"
       tags_ex1: ~
       tags_ex2: ~
       profile: ~
@@ -306,7 +306,7 @@ cs:
       finish: ~
     getting_started3:
       byline: ~
-      menu_title: ~
+      menu_title: "Vše o aspektech"
       aspects1: ~
       aspects2: ~
       aspects3: ~
@@ -324,21 +324,21 @@ cs:
       my_aspects7: ~
       my_aspects8: ~
       my_aspects9: ~
-      contacts: ~
+      contacts: "Stránka kontaktů"
       contact_ex1: ~
       contact_ex3: ~
       contact_ex4: ~
       contact_ex5: ~
       contact_ex6: ~
       contact_ex7: ~
-      sharing_me: ~
+      sharing_me: "Sdílí pouze se mnou"
       sharing_me_ex: ~
       finish: ~
     getting_started4:
       byline: ~
-      menu_title: ~
+      menu_title: "Jak se spojit s ostatními lidmi"
       aspects1: ~
-      sharing: ~
+      sharing: Sdílení
       sharing_ex: ~
       relationships: ~
       followers: ~
@@ -348,7 +348,7 @@ cs:
       following: ~
       following_ex1: ~
       following_ex2: ~
-      mutual: ~
+      mutual: "Oboustranné sdílení"
       mutual_ex1: ~
       mutual_ex2: ~
       mutual_ls1: ~
@@ -356,14 +356,16 @@ cs:
       mutual_ls3: ~
       mutual_ls4: ~
       mutual_ex3: ~
-      finding: ~
+      finding: "Hledat lidi"
       finding_ex1: ~
       finding_ex2: ~
-      search: ~
+      search: Hledat
       search_ex: ~
       search_ls1: ~
       search_ls2: ~
-      search_ls3: ~
+      search_ls3: |-
+          Poté, co jste nalezli hledanou osobu, klikněte
+          na tlačítko <span class="click">Přidat kontakt</span>.
       search_ls4: ~
       search_ls5: ~
       search_ls6: ~
