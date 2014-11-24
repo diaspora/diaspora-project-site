@@ -49,10 +49,11 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.8.0)
-    devise (3.3.0)
+    devise (3.4.1)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
       railties (>= 3.2.6, < 5)
+      responders
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
     diff-lcs (1.2.5)
@@ -136,6 +137,8 @@ GEM
     rake (10.3.2)
     redcarpet (3.1.2)
     remotipart (1.2.1)
+    responders (1.1.2)
+      railties (>= 3.2, < 4.2)
     rspec (3.1.0)
       rspec-core (~> 3.1.0)
       rspec-expectations (~> 3.1.0)
@@ -201,7 +204,7 @@ DEPENDENCIES
   bootstrap-sass (~> 3.2.0)
   capybara (~> 2.4.1)
   coffee-rails (~> 4.0.0)
-  devise (~> 3.3.0)
+  devise (~> 3.4.0)
   fuubar (~> 2.0.0)
   jquery-rails
   mysql2
