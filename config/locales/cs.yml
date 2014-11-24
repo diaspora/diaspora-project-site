@@ -187,7 +187,7 @@ cs:
       run_ex3: "Přidej svůj pod na seznam otevřených podů na %{poduptime}."
       contributors_header: "Podporovatelé diaspora*"
       contributors_byline: "Lidé, kteří dělají diaspora* tím co je"
-      globe_alt: ~
+      globe_alt: Glób
       megaphone_alt: Megafon
       support_alt: Podpora
       pod_alt: Pod
@@ -231,7 +231,7 @@ cs:
       byline: ~
       menu_title: ~
       welcome: ~
-      find_pod: ~
+      find_pod: "Nalézt pod"
       find_pod_ex1: ~
       find_pod_ex2: ~
       find_pod_ex3: ~
@@ -288,7 +288,7 @@ cs:
       stream_ex2: ~
       activity: "Moje aktivity"
       activity_ex: ~
-      mentions: ~
+      mentions: "@Zmínky"
       mentions_ex: ~
       aspects: "Moje aspekty"
       aspects_ex1: ~

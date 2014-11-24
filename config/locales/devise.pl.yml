@@ -1,16 +1,16 @@
 pl:
   devise:
     confirmations:
-      confirmed: ~
+      confirmed: "Twoje konto zostało pomyślnie potwierdzone. Jesteś teraz zalogowany."
       send_instructions: ~
       send_paranoid_instructions: ~
     failure:
-      already_authenticated: ~
+      already_authenticated: "Już jesteś zalogowany."
       inactive: ~
-      invalid: ~
-      invalid_token: ~
-      locked: ~
-      not_found_in_database: ~
+      invalid: "Niewłaściwy email lub hasło."
+      invalid_token: "Nieprawidłowy token uwierzytelnienia."
+      locked: "Twoje konto jest zablokowane."
+      not_found_in_database: "Niewłaściwy email lub hasło."
       timeout: ~
       unauthenticated: ~
       unconfirmed: ~
@@ -18,7 +18,7 @@ pl:
       confirmation_instructions:
         subject: ~
       reset_password_instructions:
-        subject: ~
+        subject: "Instrukcja resetowania hasła"
       unlock_instructions:
         subject: ~
     omniauth_callbacks:
@@ -39,8 +39,8 @@ pl:
       update_needs_confirmation: ~
       updated: ~
     sessions:
-      signed_in: ~
-      signed_out: ~
+      signed_in: "Zalogowano pomyślnie."
+      signed_out: "Pomyślnie wylogowano."
     unlocks:
       send_instructions: ~
       send_paranoid_instructions: ~
@@ -48,7 +48,7 @@ pl:
   errors:
     messages:
       already_confirmed: ~
-      confirmation_period_expired: ~
+      confirmation_period_expired: "musi być potwierdzone w %{period}, proszę poprosić o nowy"
       expired: ~
       not_found: ~
       not_locked: ~

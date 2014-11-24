@@ -27,7 +27,7 @@ pt-PT:
       translate: ~
       cc_license_alt: "Licença \"Creative Commons\""
       licensed_under: "A %{site_link} está licenciada sob a %{license_link}"
-      license_link_text: "Licença Não Suportada \"Creative Commons Attribution 3.0\""
+      license_link_text: "\"Atribuição Comum Criativa 3.0\" - Licença Não Suportada"
   pages:
     index:
       headline: "Bem-vindo ao diaspora*"
@@ -40,7 +40,7 @@ pt-PT:
       freedom_about: "Pode ser quem desejar no diaspora*. Ao contrário de outras redes, não precisa de utilizar a sua identidade real. Pode interagir com qualquer um à sua escolha e como o desejar. O único limite é a sua imaginação. O diaspora* é também um \"Programa Livre\", dando-lhe a liberdade para o utilizar como o desejar."
       privacy: Privacidade
       privacy_about: "No diaspora* você é o dono dos seus próprios dados. Não está a entregar a qualquer empresa quaisque direitos ou outtros interesses que poderiam ser utilizados. Com o diaspora*, os seus amigos, os seus hábitos e o conteúdo só a si lhe dizem respeito ... não a nós! Em adição, você pode escolher quem vê o que compartilha, utilizandos o 'Aspetos'."
-      get_started: "Pretende iniciar?"
+      get_started: "Pretende iniciar-se?"
       get_started_sub: "É tão simples como, 1, 2, 3 ..."
       choose_pod: "1. Escolha um 'Pod'"
       choose_pod_exp: ~
@@ -55,7 +55,7 @@ pt-PT:
       help: "Pretende ajudar?"
       help_ex: ~
       socialint: "Integração na Rede Social"
-      socialint_ex: "utilize o diaspora* como a sua base principal, para publicar os seus perfis noutros serviços sociais mais importantes. Desta maneira, os seus amigos também terão a oportunidade de se manter em contacto com o que tem feito. mesmo que eles ainda não façam parte do diaspora*. O diaspora*, atualmente suporta publicações cruzadas com a sua conta do Facebook, Twitter, e Tumblr, e mais para breve."
+      socialint_ex: "Utilize o diaspora* como a sua base principal, para publicar os seus perfis noutros serviços sociais mais importantes. Deste modo, os seus amigos também terão a oportunidade de se manter em contacto com o que tem feito. mesmo que eles ainda não façam parte do diaspora*. O diaspora*, atualmente suporta publicações cruzadas com a sua conta do Facebook, Twitter, e Tumblr, e mais para breve."
       earth_alt: Earthd*
       decentralized_alt: Descentralizado
       freedom_alt: Liberdade
@@ -83,10 +83,10 @@ pt-PT:
       add_ex: "Depois basta clicar em \"Adicionar Contacto\" e escolha o aspeto que pretende que as pessoas façam parte. Agora já está conetado e pode compartilhar com elas da maneira que faria em qualquer outra rede. Ou, se elas pertencem a diferentes aspetos da sua vida, adicione-as a múltiplos aspetos. Agora, já está conetado. É tão simples. "
       freedom: Liberdade
       freedom_byline: "O diaspora* não tenta limitá-lo"
-      fdm1: "Seja quem você pretende ser"
+      fdm1: "Seja quem pretende ser"
       fdm1_ex: "Muitas das redes insistem em que utilize a sua identidade real. Não no diaspora*. Aqui, pode escolher quem deseja ser, e compartilhar muito ou pouco sobre si mesmo, como o desejar. Tudo depende de si, e do quanto pretende interagir com as outras pessoas."
       fdm2: "Seja criativo"
-      fdm2_ex: ~
+      fdm2_ex: "Não está limitado sobre como interagir. Pode seguir apenas pessoas que o fascinam para ver o que eles têm a dizer, ou pode partilhar a palavra com toda a gente. Compartilhe as suas fotografias, trabalhos de arte, vídeos, música, palavras - o que desejar. Seja livre."
       fdm3: "Livre como em liberdade"
       fdm3_ex: "O diaspora* é um Programa completamente Livre. Isto significa, que não existem limites em como este pode ser utilizado. E até pode utilizar o código fonte e alterá-lo do modo que desejar, e ajudar-nos a melhorar a rede. Nós adorávamos tê-lo a bordo!"
       privacy: Privacidade
@@ -114,7 +114,7 @@ pt-PT:
       mentions: Menções
       mentions_ex: "Deseja chamar a atenção de alguém? Basta @mencioná-los! É uma forma fácil para alertar um dos seus contactos quando achar que há algo que eles deviam saber."
       love: Amor
-      love_ex: "Mostre o seu apreço por algo que você goste, ♥agarre-o. Porque ás vezes as palavras não são suficientes para dizer o que sente."
+      love_ex: "Mostre o seu apreço por algo que goste, gostando(♥). Porque ás vezes as palavras não são suficientes para dizer o que sente."
       host: "Hospede um \"Pod\" Comunitário"
       host_byline: "Seja uma das estrelas do diasporas*"
       host_ex: ~
