@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140602222432) do
+ActiveRecord::Schema.define(version: 20141210000000) do
 
   create_table "assets", force: true do |t|
     t.string   "title"
@@ -30,8 +30,28 @@ ActiveRecord::Schema.define(version: 20140602222432) do
     t.string   "title",                      null: false
     t.boolean  "published",  default: false
     t.text     "content",                    null: false
-    t.datetime "created_at",                 null: false
-    t.datetime "updated_at",                 null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "planet_entries", force: true do |t|
+    t.string   "title"
+    t.string   "author"
+    t.string   "url",          limit: 800
+    t.string   "entry_id",     limit: 800
+    t.text     "body"
+    t.datetime "published_at"
+    t.integer  "feed_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "planet_feeds", force: true do |t|
+    t.string   "url",        limit: 800
+    t.string   "site_url",   limit: 800
+    t.string   "title"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "rails_admin_histories", force: true do |t|
@@ -41,8 +61,8 @@ ActiveRecord::Schema.define(version: 20140602222432) do
     t.string   "table"
     t.integer  "month",      limit: 2
     t.integer  "year",       limit: 8
-    t.datetime "created_at",           null: false
-    t.datetime "updated_at",           null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   add_index "rails_admin_histories", ["item", "table", "month", "year"], name: "index_rails_admin_histories", using: :btree
@@ -58,8 +78,8 @@ ActiveRecord::Schema.define(version: 20140602222432) do
     t.datetime "last_sign_in_at"
     t.string   "current_sign_in_ip"
     t.string   "last_sign_in_ip"
-    t.datetime "created_at",                          null: false
-    t.datetime "updated_at",                          null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree

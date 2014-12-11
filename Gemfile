@@ -21,7 +21,13 @@ gem 'turbolinks'
 gem 'redcarpet', '~> 3.2'
 gem 'paperclip', '~> 4.1'
 
+gem 'feedjira', github: 'feedjira/feedjira'
+gem 'trollop', '~> 2.0'
+
 group :development, :test do
+  gem 'pry'
+  gem 'awesome_print'
+
   gem 'rspec-rails', '~> 3.0'
   gem 'capybara', '~> 2.4.1'
 

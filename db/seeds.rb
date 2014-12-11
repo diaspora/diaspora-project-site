@@ -7,3 +7,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 Page.create(title: 'Home', content: 'home', published: true, url: 'home')
+
+[['Diaspora blog', 'http://blog.diasporafoundation.org/feed/atom']].each do |title, url|
+  Planet::Models::Feed.create! title: title, url: url
+end
