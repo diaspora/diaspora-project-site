@@ -1,5 +1,3 @@
-require 'logger'
-
 module Planet
   class Config
     attr_accessor :interval

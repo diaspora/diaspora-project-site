@@ -1,5 +1,3 @@
-require 'trollop'
-
 module Planet
   class CLI
     def initialize

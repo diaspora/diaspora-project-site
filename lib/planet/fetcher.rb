@@ -1,7 +1,3 @@
-require 'set'
-require 'feedjira'
-require 'active_support/core_ext/object/try'
-
 module Planet
   class Fetcher
     def initialize

@@ -1,5 +1,3 @@
-require 'active_record'
-
 module Planet
   module Models
     require 'planet/models/feed'

@@ -1,5 +1,3 @@
-require 'logger'
-
 module Planet
   require 'planet/cli'
   require 'planet/config'
