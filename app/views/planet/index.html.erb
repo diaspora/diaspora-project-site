@@ -1,0 +1,22 @@
+<%- content_for :page_title do %>
+  <%= t 'pages.planet.menu_title' %>
+<% end %>
+
+<div class="page-header">
+  <h1><%= t 'pages.planet.headline' %> <small><%= t 'pages.planet.subline' %></small></h1>
+</div>
+
+<%- @entries.each do |entry| %>
+  <div class="blogcontent bloglist-item">
+    <div class="page-header clearfix">
+      <h1>
+        <%= entry.feed.title %> - <%= link_to entry.title, entry.url %>
+        <small><%= l entry.published_at, format: :blog_headline %></small>
+      </h1>
+    </div>
+
+    <%= entry.sanitized_body.html_safe %>
+  </div>
+<% end %>
+
+<%= will_paginate @entries, renderer: BootstrapPagination::Rails %>
