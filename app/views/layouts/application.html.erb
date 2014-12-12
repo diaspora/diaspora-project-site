@@ -95,10 +95,11 @@
           </ul>
         </div>
         <div class="col-md-3">
-          <div class="btn-group">
-            <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+          <div class="dropdown">
+            <button class="btn btn-defalt dropdown-toggle" data-toggle="dropdown">
               <%= t '.choose_language' %>
-            </a>
+              <span class="caret"></span>
+            </button>
 
             <ul class="dropdown-menu">
               <%= locale_switcher_entries %>
