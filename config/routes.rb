@@ -36,6 +36,6 @@ DiasporaProjectSite::Application.routes.draw do
 
   constraints subdomain: /^planet$/i do
     get 'feed' => 'planet#feed', :as => :planet_feed, :defaults => {:format => :atom}
-    get '/' => 'planet#index'
+    get '/' => 'planet#index', :as => :planet_index
   end
 end

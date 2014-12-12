@@ -13,35 +13,34 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <div id="wrap">
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container-fluid">
-          <%= link_to root_url(subdomain: false), class: 'brand' do %>
-            <%= image_tag 'logo.png', alt: t('title'), title: t('title'), id: 'header-logo' %>
-          <% end %>
-
-          <div id="mainnav" class="pull-right">
-            <ul class="nav">
-              <!-- <li><%= link_to t('pages.about.menu_title'), about_url(subdomain: false) %></li> -->
-              <li><%= link_to t('pages.get_involved.menu_title'), get_involved_url(subdomain: false) %></li>
-              <li><%= link_to t('pages.blog.menu_title'), blog_index_url(subdomain: 'blog') %></li>
-              <li><%= link_to t('.wiki'), 'https://wiki.diasporafoundation.org' %></li>
-              <li><%= link_to t('pages.tutorials.menu_title'), tutorials_url(subdomain: false) %></li>
-              <!-- <li><%= link_to t('.planet'), 'http://planet.diasporafoundation.org' %></li> -->
-            </ul>
-            <%= link_to t('buttons.host_pod'), about_url(subdomain: false, anchor: "host"), class: 'btn primary' %>
-            <%= link_to t('buttons.join_diaspora'), root_url(subdomain: false, anchor: "get_started"), class: 'btn success' %>
-          </div>
-        </div>
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <%= link_to root_url(subdomain: false), class: 'navbar-brand' do %>
+          <%= image_tag 'logo.png', height: 30, alt: t('title'), title: t('title'), id: 'header-logo' %>
+        <% end %>
       </div>
+      <ul class="nav navbar-nav navbar-right">
+        <!-- <li><%= link_to t('pages.about.menu_title'), about_url(subdomain: false) %></li> -->
+        <li><%= link_to t('pages.get_involved.menu_title'), get_involved_url(subdomain: false) %></li>
+        <li><%= link_to t('pages.blog.menu_title'), blog_index_url(subdomain: 'blog') %></li>
+        <li><%= link_to t('.wiki'), 'https://wiki.diasporafoundation.org' %></li>
+        <li><%= link_to t('pages.tutorials.menu_title'), tutorials_url(subdomain: false) %></li>
+        <li><%= link_to t('pages.planet.menu_title'), planet_index_url(subdomain: 'planet') %></li>
+        <li>
+          <p class="navbar-btn">
+            <%= link_to t('buttons.host_pod'), about_url(subdomain: false, anchor: "host"), class: 'btn btn-primary' %>
+            <%= link_to t('buttons.join_diaspora'), root_url(subdomain: false, anchor: "get_started"), class: 'btn btn-success' %>
+          </p>
+        </li>
+      </ul>
     </div>
+  </nav>
 
-    <div id="main-container" class="container-fluid <%= yield :wrapper_class %>">
-      <%= yield %>
+  <div id="main-container" class="container-fluid <%= yield :wrapper_class %>">
+    <%= yield %>
 
-      <div id="pusher"></div>
-    </div>
+    <div id="pusher"></div>
   </div>
 
   <footer>
@@ -111,9 +110,9 @@
             <ul class="dropdown-menu">
               <%= locale_switcher_entries %>
               <li>
-              	<a href="https://wiki.diasporafoundation.org/Contribute_translations">
-              		<%= t '.translate' %>
-              	</a>
+                <a href="https://wiki.diasporafoundation.org/Contribute_translations">
+                  <%= t '.translate' %>
+                </a>
               </li>
             </ul>
           </div>

@@ -6,17 +6,26 @@
   <h1><%= t 'pages.planet.headline' %> <small><%= t 'pages.planet.subline' %></small></h1>
 </div>
 
-<%- @entries.each do |entry| %>
-  <div class="blogcontent bloglist-item">
-    <div class="page-header clearfix">
-      <h1>
-        <%= entry.feed.title %> - <%= link_to entry.title, entry.url %>
-        <small><%= l entry.published_at, format: :blog_headline %></small>
-      </h1>
-    </div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-8">
+      <%- @entries.each do |entry| %>
+        <div class="blogcontent bloglist-item planet-item">
+          <div class="page-header clearfix">
+            <h1>
+              <%= entry.feed.title %> - <%= link_to entry.title, entry.url %>
+              <small><%= l entry.published_at, format: :blog_headline %></small>
+            </h1>
+          </div>
 
-    <%= entry.sanitized_body.html_safe %>
+          <%= entry.sanitized_body.html_safe %>
+        </div>
+      <% end %>
+    </div>
+    <div class="col-md-4">
+      foo
+    </div>
   </div>
-<% end %>
+</div>
 
 <%= will_paginate @entries, renderer: BootstrapPagination::Rails %>
