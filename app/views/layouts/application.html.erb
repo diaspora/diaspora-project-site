@@ -39,69 +39,62 @@
 
   <div id="main-container" class="container-fluid <%= yield :wrapper_class %>">
     <%= yield %>
-
-    <div id="pusher"></div>
   </div>
 
   <footer>
     <div class="container">
       <div class="row">
-        <div class="span10" id="links">
+        <div class="col-md-12">
           <h4>
             <%= t '.useful_resources' %>
           </h4>
-          <div class="span3">
-            <ul>
-              <li>
-                <a href="http://github.com/diaspora/diaspora/">
-                  <%= t '.codebase' %>
-                </a>
-              </li>
-              <li>
-                <a href="https://wiki.diasporafoundation.org/">
-                  <%= t '.documentation' %>
-                </a>
-              </li>
-              <li>
-                <a href="http://github.com/diaspora/diaspora/issues">
-                  <%= t '.report_bugs' %>
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="span3">
-            <ul>
-              <li>
-                <a href="http://webchat.freenode.net/?channels=diaspora">
-                  <%= t '.irc_general' %>
-                </a>
-              </li>
-              <li>
-                <a href="http://webchat.freenode.net/?channels=diaspora-dev">
-                  <%= t '.irc_development' %>
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="span3">
-            <ul>
-              <li>
-                <a href="http://groups.google.com/group/diaspora-discuss">
-                  <%= t '.discussion_general' %>
-                </a>
-              </li>
-              <li>
-                <a href="http://groups.google.com/group/diaspora-dev">
-                  <%= t '.discussion_development' %>
-                </a>
-              </li>
-            </ul>
-          </div>
         </div>
-
-        <div id="locale-switcher" class="span4">
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <ul>
+            <li>
+              <a href="http://github.com/diaspora/diaspora/">
+                <%= t '.codebase' %>
+              </a>
+            </li>
+            <li>
+              <a href="https://wiki.diasporafoundation.org/">
+                <%= t '.documentation' %>
+              </a>
+            </li>
+            <li>
+              <a href="http://github.com/diaspora/diaspora/issues">
+                <%= t '.report_bugs' %>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <ul>
+            <li>
+              <a href="http://webchat.freenode.net/?channels=diaspora"><%= t '.irc_general' %></a>
+            </li>
+            <li>
+              <a href="http://webchat.freenode.net/?channels=diaspora-dev"><%= t '.irc_development' %></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <ul>
+            <li>
+              <a href="http://groups.google.com/group/diaspora-discuss">
+                <%= t '.discussion_general' %>
+              </a>
+            </li>
+            <li>
+              <a href="http://groups.google.com/group/diaspora-dev">
+                <%= t '.discussion_development' %>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3">
           <div class="btn-group">
             <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
               <%= t '.choose_language' %>
@@ -117,21 +110,22 @@
             </ul>
           </div>
         </div>
-
-        <div class="row" id="CC-licence">
-          <div class="span16">
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="license-text">
             <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">
               <%= image_tag '80x15.png', alt: t('.cc_license_alt') %>
             </a>
             <%= t('.licensed_under', site_link: '
-            <a href="https://diasporafoundation.org/" property="cc:attributionName"
-               rel="cc:attributionURL">
-              diasporafoundation.org
-            </a>', license_link: %Q{
-            <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">
-              #{t('.license_link_text')}
-            </a>.}).html_safe %>
-          </div>
+              <a href="https://diasporafoundation.org/" property="cc:attributionName"
+                 rel="cc:attributionURL">
+                diasporafoundation.org
+              </a>', license_link: %Q{
+              <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">
+                  #{t('.license_link_text')}
+              </a>}).html_safe %>
+            </p>
         </div>
       </div>
     </div>
