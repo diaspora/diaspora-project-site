@@ -24,6 +24,14 @@ nav.navbar-fixed-top {
     background-image: -o-radial-gradient(50% 50%, circle cover, #fcfcfc, #e6e6e6 100%);
     background-image: -ms-radial-gradient(50% 50%, circle cover, #fcfcfc, #e6e6e6 100%);
     background-image: radial-gradient(50% 50%, circle cover, #fcfcfc, #e6e6e6 100%);
+
+    h2 {
+      color: #347caa;
+      font-size: 1.7em;
+      font-weight: normal;
+      margin-top: 5px;
+      text-align: center;
+    }
   }
 }
 
