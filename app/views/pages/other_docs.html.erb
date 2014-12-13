@@ -1,55 +1,56 @@
 <% content_for :page_title, t('.menu_title') %>
-<% content_for :wrapper_class, "index_page" %>
+<% content_for :wrapper_class, 'index_page' %>
 
 <div id="masthead" class="hero">
   <div class="container">
     <h1><%= t '.headline' %></h1>
-    <h2><%= t '.byline' %></h2>
+    <h2 class="lead"><%= t '.byline' %></h2>
   </div>
 </div>
 
 <div class="container">
-  <div class="row top-spacing">
-    <div class="span2">&nbsp;
-    </div>
-    <div class="span12">       
-        <p><%= t '.intro1' %></p>
-        <p><%= t '.intro2' %></p>
-        <h3><%= t '.tutorials' %></h3>
-        <ul>
-	        <li><a href="http://fr.wikibooks.org/wiki/diaspora_:_Le_guide_du_parfait_d%C3%A9butant" target="_blank">diaspora* : Le guide du parfait débutant</a> – <%= t '.parfait' %></li>
-        </ul>
-        <h3><%= t '.about' %></h3>
-        <ul>
-            <li><%= t '.about1' %></li>
-            <li><%= t('.wiki', wiki_link: link_to(t('.wiki_link_text'), "https://wiki.diasporafoundation.org/")).html_safe %></li>
-            <li><%= t('.wikipedia', wikipedia_link: link_to('diaspora*', "http://en.wikipedia.org/wiki/Diaspora_%28social_network%29"), wikipedia_software_link: link_to(t('.wikipedia_software_link_text'), "http://en.wikipedia.org/wiki/Diaspora_%28software%29")).html_safe %></li>
-        </ul>
-        <h3><%= t '.support' %></h3>
-        <ul>
-            <li><%= t('.question').html_safe %></li>
-            <li><%= t('.mail', mail_link: link_to(t('.mail_link_text'), "http://groups.google.com/group/diaspora-discuss")).html_safe %></li>
-            <li><%= t('.irc', irc_link: link_to(t('.irc_link_text'), 'http://webchat.freenode.net/?channels=diaspora')).html_safe %>
-        </ul>
-        <h3><%= t '.progress' %></h3>
-        <ul>
-            <li><%= t('.blog', blog_link: link_to(t('.blog_link_text'), "http://blog.diasporafoundation.org/")).html_safe %></li>
-            <li><%= t('.changelog', changelog_link: link_to(t('.changelog_link_text'), "https://github.com/diaspora/diaspora/blob/develop/Changelog.md")).html_safe %></li>
-            <li><a href="https://www.loomio.org/groups/194" target="_blank">Loomio</a> – <%= t '.loomio' %></li>
-        </ul>
-        <h3><%= t '.communication' %></h3>
-        <ul>
-            <li><%= t('.communicate', communicate_link: link_to(t('.communicate_link_text'), "https://wiki.diasporafoundation.org/How_we_communicate")).html_safe %></li>
-        </ul>
-        <h3><%= t '.other' %></h3>
-        <ul>
-            <li><%= t('.manifesto', manifesto_link: link_to(t('.manifesto_link_text'), "http://userdatamanifesto.org/")).html_safe %></li>
-        </ul>
-        <p>&nbsp;</p>
-        <p align="center"><%= link_to t('pages.tutorials.headline'), tutorials_url %> | <%= link_to t('pages.tutorials.started_head'), sign_up_url %></p>
-       
- 	</div>
-    <div class="span2">
+  <div class="row minor-top-spacing">
+    <div class="col-md-12">
+      <p><%= t '.intro1' %></p>
+      <p><%= t '.intro2' %></p>
+
+      <h3><%= t '.tutorials' %></h3>
+      <ul>
+        <li><a href="http://fr.wikibooks.org/wiki/diaspora_:_Le_guide_du_parfait_d%C3%A9butant" target="_blank">diaspora* : Le guide du parfait débutant</a> – <%= t '.parfait' %></li>
+      </ul>
+
+      <h3><%= t '.about' %></h3>
+      <ul>
+        <li><%= t '.about1' %></li>
+        <li><%= t('.wiki', wiki_link: link_to(t('.wiki_link_text'), 'https://wiki.diasporafoundation.org/')).html_safe %></li>
+        <li><%= t('.wikipedia', wikipedia_link: link_to('diaspora*', 'http://en.wikipedia.org/wiki/Diaspora_%28social_network%29'), wikipedia_software_link: link_to(t('.wikipedia_software_link_text'), 'http://en.wikipedia.org/wiki/Diaspora_%28software%29')).html_safe %></li>
+      </ul>
+
+      <h3><%= t '.support' %></h3>
+      <ul>
+        <li><%= t('.question').html_safe %></li>
+        <li><%= t('.mail', mail_link: link_to(t('.mail_link_text'), 'http://groups.google.com/group/diaspora-discuss')).html_safe %></li>
+        <li><%= t('.irc', irc_link: link_to(t('.irc_link_text'), 'http://webchat.freenode.net/?channels=diaspora')).html_safe %></li>
+      </ul>
+
+      <h3><%= t '.progress' %></h3>
+      <ul>
+        <li><%= t('.blog', blog_link: link_to(t('.blog_link_text'), 'http://blog.diasporafoundation.org/')).html_safe %></li>
+        <li><%= t('.changelog', changelog_link: link_to(t('.changelog_link_text'), 'https://github.com/diaspora/diaspora/blob/develop/Changelog.md')).html_safe %></li>
+        <li><a href="https://www.loomio.org/groups/194" target="_blank">Loomio</a> – <%= t '.loomio' %></li>
+      </ul>
+
+      <h3><%= t '.communication' %></h3>
+      <ul>
+        <li><%= t('.communicate', communicate_link: link_to(t('.communicate_link_text'), 'https://wiki.diasporafoundation.org/How_we_communicate')).html_safe %></li>
+      </ul>
+
+      <h3><%= t '.other' %></h3>
+      <ul>
+        <li><%= t('.manifesto', manifesto_link: link_to(t('.manifesto_link_text'), 'http://userdatamanifesto.org/')).html_safe %></li>
+      </ul>
+
+      <p class="text-center minor-top-spacing"><%= link_to t('pages.tutorials.headline'), tutorials_url %> | <%= link_to t('pages.tutorials.started_head'), sign_up_url %></p>
     </div>
   </div>
 </div>
