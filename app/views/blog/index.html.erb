@@ -2,17 +2,25 @@
   <%= t 'pages.blog.menu_title' %>
 <% end %>
 
-<div class="page-header">
-  <h1><%= t 'pages.blog.headline' %> <small><%= t 'pages.blog.subline' %></small></h1>
+<div class="hero" id="masthead">
+  <div class="container">
+    <h1><%= t 'pages.blog.headline' %></h1>
+    <h2 class="lead"><%= t 'pages.blog.subline' %></h2>
+  </div>
 </div>
 
-<%- @blogposts.each do |blogpost| %>
-  <div class="blogcontent bloglist-item">
-    <div class="page-header clearfix">
-      <h1><%= link_to blogpost.title, blog_url(blogpost, subdomain: 'blog') %> <small><%= l blogpost.created_at, format: :blog_headline %></small></h1>
+<div class="container">
+  <%- @blogposts.each_with_index do |blogpost,index| %>
+    <div class="row">
+      <div class="col-md-12 blogcontent bloglist-item">
+        <div class="page-header clearfix <%- if index != 0 %>headline-only<%- end %>">
+          <h1><%= link_to blogpost.title, blog_url(blogpost, subdomain: 'blog') %> <small><%= l blogpost.created_at, format: :blog_headline %></small></h1>
+        </div>
+
+        <%- if index == 0 %>
+          <%= markdownify blogpost.content %>
+        <%- end %>
+      </div>
     </div>
-
-    <%= markdownify blogpost.content %>
-  </div>
-<% end %>
-
+  <% end %>
+</div>

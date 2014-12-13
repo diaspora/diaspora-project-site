@@ -1,15 +1,19 @@
 <%- content_for :page_title do %>
   <%= @blogpost.title %>
 <% end %>
+<% content_for :wrapper_class, 'blog-detail-page' %>
 
-<div class="page-header">
-  <h1><%= t 'pages.blog.headline' %> <small><%= t 'pages.blog.subline' %></small></h1>
+<div class="hero" id="masthead">
+  <div class="container">
+    <h1><%= @blogpost.title %></h1>
+    <h2 class="lead"><%= l @blogpost.created_at, format: :blog_headline %></h2>
+  </div>
 </div>
 
-<div class="blogcontent">
-  <div class="page-header clearfix">
-    <h1><%= @blogpost.title %> <small><%= l @blogpost.created_at, format: :blog_headline %></small></h1>
+<div class="container">
+  <div class="row minor-top-spacing">
+    <div class="col-md-12 blogcontent">
+      <%= markdownify @blogpost.content %>
+    </div>
   </div>
-
-  <%= markdownify @blogpost.content %>
 </div>

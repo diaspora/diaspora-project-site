@@ -1,6 +1,13 @@
 .blogcontent {
-  width: 75%;
-  margin: 50px auto 0;
+  .page-header {
+    &.headline-only {
+      margin: 10px 0 0;
+    }
+
+    h1 {
+      text-align: left;
+    }
+  }
 
   h1, h2, h3 {
     text-align: left;
@@ -63,5 +70,10 @@
       padding-top: 56.25%;
     }
   }
+}
 
+.blog-detail-page {
+  #masthead.hero h1 {
+    font-size: 35px;
+  }
 }
