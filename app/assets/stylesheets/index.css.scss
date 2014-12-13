@@ -1,12 +1,11 @@
-#earth_container {
-  margin: auto;
-  margin-top: 5em;
-}
-
-.index_page {
-
-  .top_spacing {
-    padding-top: 7em;
+.index-page {
+  .col-md-4 {
+    p.feature-description {
+      min-height: 130px;
+    }
   }
 
+  .services-teaser-image {
+    margin-top: 30px;
+  }
 }

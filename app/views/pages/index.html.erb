@@ -1,4 +1,4 @@
-<% content_for :wrapper_class, "index_page" %>
+<% content_for :wrapper_class, "index-page" %>
 
 <div id="masthead" class="hero">
   <div class="container">
@@ -7,152 +7,131 @@
   </div>
 </div>
 
-<div class="container" id="earth_container">
+<div class="container top-spacing" id="earth_container">
   <div class="row">
-    <div class="center">
-      <%= image_tag "pages/index/earthD2.png", alt: t('.earth_alt') %>
+    <%= image_tag "pages/index/earthD2.png", alt: t('.earth_alt'), class: 'img-responsive center-block' %>
+  </div>
+</div>
+
+<div class="page-header">
+  <h1><%= t '.key_philosophies' %></h1>
+</div>
+
+<div class="container">
+  <div class="row minor-top-spacing">
+    <div class="col-md-4">
+      <p class="text-center">
+        <%= image_tag "pages/index/decentralized-stamp.png", alt: t('.decentralized_alt') %>
+      </p>
+      <h3><%= t '.decentralization' %></h3>
+      <p class="feature-description"><%= t '.decentralization_about' %></p>
+      <p><%= link_to t('buttons.find_more'), about_path, class: "btn btn-primary" %></p>
+    </div>
+    <div class="col-md-4">
+      <p class="text-center">
+        <%= image_tag "pages/index/freedom-stamp.png", alt: t('.freedom_alt') %>
+      </p>
+      <h3><%= t '.freedom' %></h3>
+      <p class="feature-description"><%= t '.freedom_about' %></p>
+      <p><%= link_to t('buttons.find_more'), about_path(anchor: 'freedom'), class: "btn btn-primary" %></p>
+    </div>
+    <div class="col-md-4">
+      <p class="text-center">
+        <%= image_tag "pages/index/keyhole-stamp.png", alt: t('.keyhole_alt') %>
+      </p>
+      <h3><%= t '.privacy' %></h3>
+      <p class="feature-description"><%= t '.privacy_about' %></p>
+      <p><%= link_to t('buttons.find_more'), about_path(anchor: 'privacy'), class: "btn btn-primary" %></p>
+    </div>
+  </div>
+</div>
+
+<div class="page-header minor-top-spacing" id="get_started">
+  <h1>
+    <%= t '.get_started' %>
+    <small><%= t '.get_started_sub' %></small>
+  </h1>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <h3><%= t '.choose_pod' %></h3>
+      <p class="feature-description"><%= t '.choose_pod_exp' %></p>
+      <p>
+        <a href="https://wiki.diasporafoundation.org/Choosing_a_pod" class="btn btn-primary">
+          <%= t 'buttons.find_more' %>
+        </a>
+      </p>
+    </div>
+    <div class="col-md-4">
+      <h3><%= t '.sign_up' %></h3>
+      <p class="feature-description">
+        <%= t('.sign_up_ex', poduptime: link_to('Pod Uptime', 'http://podupti.me')).html_safe %>
+      </p>
+      <p>
+        <a href="http://podupti.me/" class="btn btn-success">
+          <%= t '.register' %>
+        </a>
+      </p>
+    </div>
+    <div class="col-md-4">
+      <h3><%= t '.join_convo' %></h3>
+      <p class="feature-description"><%= t('.join_convo_ex').html_safe %></p>
+      <p>
+        <a href="/getting_started/sign_up" class="btn btn-primary">
+          <%= t 'buttons.find_more' %>
+        </a>
+      </p>
     </div>
   </div>
 </div>
 
 <div class="container">
-  <div class="row top_spacing">
-    <h1><%= t '.key_philosophies' %></h1>
-  </div>
-  <div class="row minor_top_spacing">
-    <div class="span-one-third">
-      <%= image_tag "pages/index/decentralized-stamp.png", alt: t('.decentralized_alt') %>
-    </div>
-    <div class="span-one-third">
-      <%= image_tag "pages/index/freedom-stamp.png", alt: t('.freedom_alt') %>
-    </div>
-    <div class="span-one-third">
-      <%= image_tag "pages/index/keyhole-stamp.png", alt: t('.keyhole_alt') %>
-    </div>
-  </div>
-  <div class="row minor_top_spacing">
-    <div class="span-one-third">
-      <h2><%= t '.decentralization' %></h2>
-      <p><%= t '.decentralization_about' %></p>
-
-      <p class="find_out_more">
-        <%= link_to t('buttons.find_more'), about_path, class: "btn primary" %>
+  <div class="row top-spacing">
+    <div class="col-md-4">
+      <p class="text-center feature-header-image">
+        <%= image_tag "pages/index/aspects.png", alt: t('.aspects_alt') %>
       </p>
-    </div>
-    <div class="span-one-third">
-      <h2><%= t '.freedom' %></h2>
-      <p><%= t '.freedom_about' %></p>
-
-      <p class="find_out_more">
-        <%= link_to t('buttons.find_more'), about_path(anchor: 'freedom'), class: "btn primary" %>
-      </p>
-    </div>
-    <div class="span-one-third">
-      <h2><%= t '.privacy' %></h2>
-      <p><%= t '.privacy_about' %></p>
-
-      <p class="find_out_more">
-        <%= link_to t('buttons.find_more'), about_path(anchor: 'privacy'), class: "btn primary" %>
-      </p>
-    </div>
-  </div>
-
-  <div class="page-header top_spacing" id="get_started">
-    <h1>
-      <%= t '.get_started' %>
-      <small><%= t '.get_started_sub' %></small>
-    </h1>
-  </div>
-
-  <div class="row">
-    <div class="span-one-third">
-      <h2><%= t '.choose_pod' %></h2>
+      <h3><%= t '.aspects' %></h3>
+      <p class="feature-description"><%= t '.aspects_ex' %></p>
       <p>
-        <%= t '.choose_pod_exp' %>
-      </p>
-      <p class="find_out_more">
-        <a href="https://wiki.diasporafoundation.org/Choosing_a_pod" class="btn primary">
+        <a href="/about#aspects" class="btn btn-primary">
           <%= t 'buttons.find_more' %>
         </a>
       </p>
     </div>
-    <div class="span-one-third">
-      <h2><%= t '.sign_up' %></h2>
-      <p>
-        <%= t('.sign_up_ex', poduptime: link_to('Pod Uptime', 'http://podupti.me')).html_safe %>
+    <div class="col-md-4">
+      <p class="text-center feature-header-image">
+        <%= image_tag "pages/index/features.png", alt: t('.features_alt') %>
       </p>
-      <p class="find_out_more">
-        <a href="http://podupti.me/" class="btn success">
-          <%= t '.register' %>
+      <h3><%= t '.features' %></h3>
+      <p class="feature-description"><%= t '.features_ex' %></p>
+      <p>
+        <a href="/about#features" class="btn btn-primary">
+          <%= t 'buttons.find_more' %>
         </a>
       </p>
     </div>
-    <div class="span-one-third">
-      <h2>
-        <%= t '.join_convo' %>
-      </h2>
-      <p>
-        <%= t('.join_convo_ex').html_safe %>
+    <div class="col-md-4">
+      <p class="text-center feature-header-image">
+        <%= image_tag "pages/index/question-stamp.png", alt: t('.ways_to_help_alt') %>
       </p>
-      <p class="find_out_more">
-        <a href="/getting_started/sign_up" class="btn primary">
+      <h3><%= t '.help' %></h3>
+      <p class="feature-description"><%= t '.help_ex' %></p>
+      <p>
+        <a href="/get_involved#ways_to_help" class="btn btn-primary">
           <%= t 'buttons.find_more' %>
         </a>
       </p>
     </div>
   </div>
-
-  <div class="row top_spacing">
-    <div class="span-one-third">
-      <%= image_tag "pages/index/aspects.png", alt: t('.aspects_alt') %>
+  <div class="row top-spacing">
+    <div class="col-md-2">
+      <%= image_tag "pages/index/services.png", alt: t('.services_alt'), class: 'services-teaser-image' %>
     </div>
-    <div class="span-one-third">
-      <%= image_tag "pages/index/features.png", alt: t('.features_alt') %>
-    </div>
-    <div class="span-one-third">
-      <%= image_tag "pages/index/question-stamp.png", alt: t('.ways_to_help_alt') %>
-    </div>
-  </div>
-  <div class="row">
-    <div class="span-one-third">
-      <h2><%= t '.aspects' %></h2>
-      <p>
-        <%= t '.aspects_ex' %>
-      </p>
-      <p class="find_out_more">
-        <a href="/about#aspects" class="btn primary">
-          <%= t 'buttons.find_more' %>
-        </a>
-      </p>
-    </div>
-    <div class="span-one-third">
-      <h2><%= t '.features' %></h2>
-      <p>
-        <%= t '.features_ex' %>
-      </p>
-      <p class="find_out_more">
-        <a href="/about#features" class="btn primary">
-          <%= t 'buttons.find_more' %>
-        </a>
-      </p>
-    </div>
-    <div class="span-one-third">
-      <h2><%= t '.help' %></h2>
-      <p><%= t '.help_ex' %></p>
-      <p class="find_out_more">
-        <a href="/get_involved#ways_to_help" class="btn primary">
-          <%= t 'buttons.find_more' %>
-        </a>
-      </p>
-    </div>
-  </div>
-
-  <div class="row top_spacing">
-    <div class="span4">
-      <%= image_tag "pages/index/services.png", alt: t('.services_alt') %>
-    </div>
-    <div class="span12">
-      <h1><%= t '.socialint' %></h1>
+    <div class="col-md-10">
+      <h3><%= t '.socialint' %></h3>
       <p><%= t '.socialint_ex' %></p>
     </div>
   </div>

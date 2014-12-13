@@ -8,6 +8,12 @@ nav.navbar-fixed-top {
   }
 }
 
+.page-header {
+  h1 {
+    text-align: center;
+  }
+}
+
 #masthead, #footer {
   h1, p {
     color: #111;
@@ -83,6 +89,10 @@ footer {
   }
 }
 
+.feature-header-image {
+  min-height: 85px;
+}
+
 .more-info {
   color: #808080;
   font-style: italic;
@@ -91,3 +101,16 @@ footer {
 .center {
   text-align: center;
 }
+
+.top-spacing {
+  padding-top: 5em;
+}
+
+.minor-top-spacing {
+  margin-top: 3em;
+}
+
+.major-top-spacing {
+  margin-top: 8em;
+}
+
