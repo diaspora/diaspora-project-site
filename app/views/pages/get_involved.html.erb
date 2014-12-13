@@ -1,98 +1,103 @@
 <% content_for :page_title, t('.menu_title') %>
-<% content_for :wrapper_class, "get_involved_page" %>
+<% content_for :wrapper_class, 'get-involved-page' %>
 
 <div class="hero" id="masthead">
   <div class="container">
-    <div class="row">
-      <h1><%= t '.menu_title' %></h1>
-      <h2 class="lead"><%= t '.byline' %></h2>
-    </div>
+    <h1><%= t '.menu_title' %></h1>
+    <h2 class="lead"><%= t '.byline' %></h2>
   </div>
 </div>
 
+<div class="page-header">
+  <h1>
+    <%= t '.community' %>
+    <small><%= t '.community_byline' %></small>
+  </h1>
+</div>
 <div class="container">
-  <div class="page-header minor-top-spacing">
-    <h1>
-      <%= t '.community' %>
-      <small><%= t '.community_byline' %></small>
-    </h1>
-  </div>
   <div class="row">
-    <div class="span4">
-      <%= image_tag "agpl_logo.jpg", alt: "AGPL logo", size: "200x83", class: "minor-top-spacing" %>
-      <%= image_tag "osi_standard_logo.png", alt: "Osi_standard_logo", size: "166x190", class: "minor-top-spacing" %>
+    <div class="col-md-3">
+      <p class="text-center">
+        <%= image_tag 'pages/get_involved/agpl_logo.jpg', alt: 'AGPL logo', size: '200x83' %>
+        <%= image_tag 'pages/get_involved/osi_standard_logo.png', alt: 'Osi_standard_logo', size: '166x190', class: 'minor-top-spacing' %>
+      </p>
     </div>
-    <div class="span12">
-      <h4><%= t '.meaning' %></h4>
+    <div class="col-md-8">
+      <h3><%= t '.meaning' %></h3>
       <p><%= t '.meaning_ex1' %></p>
       <p><%= t '.meaning_ex2' %></p>
       <p><%= t '.meaning_ex3' %></p>
 
-      <h4><%= t '.whereyou' %></h4>
+      <h3><%= t '.whereyou' %></h3>
       <p><%= t '.whereyou_ex1' %></p>
       <p><%= t '.whereyou_ex2' %></p>
     </div>
   </div>
+</div>
 
-  <div id="ways_to_help" class="page-header top-spacing">
-    <h1><%= t '.gi_header' %></h1>
-  </div>
+<div id="ways_to_help" class="page-header">
+  <h1><%= t '.gi_header' %></h1>
+</div>
+<div class="container">
   <div class="row" id="code">
-    <div class="span4"><%= image_tag "octocats.png", alt: "Octocats" %></div>
-    <div class="span12">
-      <h4><%= t '.code_header' %>
+    <div class="col-md-3">
+      <p class="text-center">
+        <%= image_tag 'pages/get_involved/octocats.png', alt: 'Octocats' %>
+      </p>
+    </div>
+    <div class="col-md-8">
+      <h3>
+        <%= t '.code_header' %>
         <small><%= t '.code_byline' %></small>
-      </h4>
+      </h3>
       <ol>
         <li>
           <%= t('.code_ex1', clone_code: content_tag(:code, 'git clone git://github.com/diaspora/diaspora.git')).html_safe %>
         </li>
         <li>
-          <a href="https://wiki.diasporafoundation.org/Installation_guides">
-            <%= t '.code_ex2' %></a>.
+          <a href="https://wiki.diasporafoundation.org/Installation_guides"><%= t '.code_ex2' %></a>.
         </li>
         <li><%= t '.code_ex3' %></li>
       </ol>
-      <div class="row">
-        <div class="span6">
-          <p>
-            <%= t('.code_ex4',
-              get_started_guide_link: link_to(t('.get_started_guide_link_text'), 'https://wiki.diasporafoundation.org/Getting_Started_With_Contributing'),
-              mailing_list_link: link_to(t('.mailing_list_link_text'), 'http://groups.google.com/group/diaspora-dev'),
-              irc_link: link_to(t('.irc_link_text'), 'http://webchat.freenode.net/?channels=diaspora-dev')
-              ).html_safe %>
-          </p>
-        </div>
-        <div class="span6">
-          <p>
-            <a href="https://github.com/diaspora/diaspora" class="btn primary">
-              <%= t '.code_gh' %>
-            </a>
-          </p>
-        </div>
-      </div>
+      <p>
+        <%= t('.code_ex4',
+          get_started_guide_link: link_to(t('.get_started_guide_link_text'), 'https://wiki.diasporafoundation.org/Getting_Started_With_Contributing'),
+          mailing_list_link: link_to(t('.mailing_list_link_text'), 'http://groups.google.com/group/diaspora-dev'),
+          irc_link: link_to(t('.irc_link_text'), 'http://webchat.freenode.net/?channels=diaspora-dev')
+        ).html_safe %>
+      </p>
+      <p>
+        <a href="https://github.com/diaspora/diaspora" class="btn btn-primary"><%= t '.code_gh' %></a>
+      </p>
     </div>
   </div>
 
   <div class="row" id="bugs">
-    <div class="span4"><%= image_tag "tick.png", alt: t('.globe_alt') %></div>
-    <div class="span12">
-      <h4><%= t '.bugs_header' %></h4>
+    <div class="col-md-3">
+      <p class="text-center">
+        <%= image_tag 'pages/get_involved/tick.png', alt: t('.globe_alt') %>
+      </p>
+    </div>
+    <div class="col-md-8">
+      <h3><%= t '.bugs_header' %></h3>
       <ul>
-        <li><%= t('.bugs_ex1', github_link: link_to(t('.github_link_text'), "https://github.com/diaspora/diaspora/issues")).html_safe %></li>
+        <li><%= t('.bugs_ex1', github_link: link_to(t('.github_link_text'), 'https://github.com/diaspora/diaspora/issues')).html_safe %></li>
         <li>
           <%= t '.bugs_ex2' %>
-          <a href="http://www.codetriage.com/diaspora/diaspora">
-            <%= t '.bugs_ex3' %></a>.
+          <a href="http://www.codetriage.com/diaspora/diaspora"><%= t '.bugs_ex3' %></a>.
         </li>
       </ul>
     </div>
   </div>
 
   <div class="row" id="translate">
-    <div class="span4"><%= image_tag "globe.png", alt: t('.globe_alt') %></div>
-    <div class="span12">
-      <h4><%= t '.translate_header' %></h4>
+    <div class="col-md-3">
+      <p class="text-center">
+        <%= image_tag 'pages/get_involved/globe.png', alt: t('.globe_alt') %>
+      </p>
+    </div>
+    <div class="col-md-8">
+      <h3><%= t '.translate_header' %></h3>
       <ul>
         <li>
           <%= t('.translate_ex1', translations_link: link_to(t('.translations_link_text'), 'https://webtranslateit.com/en/projects/3020-Diaspora')).html_safe %>
@@ -105,14 +110,17 @@
   </div>
 
   <div class="row" id="spread_the_word">
-    <div class="span4"><%= image_tag "megaphone.png", alt: t('.megaphone_alt') %></div>
-    <div class="span12">
-      <h4><%= t '.voice_header' %></h4>
+    <div class="col-md-3">
+      <p class="text-center">
+        <%= image_tag 'pages/get_involved/megaphone.png', alt: t('.megaphone_alt') %>
+      </p>
+    </div>
+    <div class="col-md-8">
+      <h3><%= t '.voice_header' %></h3>
       <ul>
         <li>
           <%= t '.voice_ex1' %>
-          <a href="https://www.loomio.org/groups/194">
-            <%= t '.voice_ex2' %></a>.
+          <a href="https://www.loomio.org/groups/194"><%= t '.voice_ex2' %></a>.
         </li>
         <li>
           <%= t('.voice_ex3', meetup_link: link_to(t('.meetup_link_text'), 'http://www.meetup.com/Diaspora/')).html_safe %>
@@ -122,14 +130,17 @@
   </div>
 
   <div class="row" id="support">
-    <div class="span4"><%= image_tag "support.png", alt: t('.support_alt') %></div>
-    <div class="span12">
-      <h4><%= t '.support_header' %></h4>
+    <div class="col-md-3">
+      <p class="text-center">
+        <%= image_tag 'pages/get_involved/support.png', alt: t('.support_alt') %>
+      </p>
+    </div>
+    <div class="col-md-8">
+      <h3><%= t '.support_header' %></h3>
       <ul>
         <li>
           <%= t '.support_ex1' %>
-          <a href="https://docs.google.com/a/joindiaspora.com/spreadsheet/viewform?formkey=dG5RUHpMdlNidzRXN2twcXFRMDR0ZEE6MQ">
-            <%= t '.support_ex2' %></a>.
+          <a href="https://docs.google.com/a/joindiaspora.com/spreadsheet/viewform?formkey=dG5RUHpMdlNidzRXN2twcXFRMDR0ZEE6MQ"><%= t '.support_ex2' %></a>.
         </li>
         <li>
           <%= t('.support_ex3', tutorials_link: link_to('diaspora* tutorials', 'https://diasporafoundation.org/tutorials')).html_safe %>
@@ -145,17 +156,19 @@
   </div>
 
   <div class="row" id="pod">
-    <div class="span4"><%= image_tag "pod.png", alt: t('.pod_alt') %></div>
-    <div class="span12">
-      <h4><%= t '.run_header' %></h4>
+    <div class="col-md-3">
+      <p class="text-center">
+        <%= image_tag 'pages/get_involved/pod.png', alt: t('.pod_alt') %>
+      </p>
+    </div>
+    <div class="col-md-8">
+      <h3><%= t '.run_header' %></h3>
       <ul>
         <li>
           <%= t('.run_ex1', host_pod_link: link_to(t('.host_pod_link_text'), 'https://wiki.diasporafoundation.org/Installation_guides')).html_safe %>
         </li>
         <li><%= t '.run_ex2' %></li>
-        <li>
-          <%= t('.run_ex3', poduptime: link_to('Pod Uptime', 'http://podupti.me')).html_safe %>
-        </li>
+        <li><%= t('.run_ex3', poduptime: link_to('Pod Uptime', 'http://podupti.me')).html_safe %></li>
       </ul>
     </div>
   </div>
