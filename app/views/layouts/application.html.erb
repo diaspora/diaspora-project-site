@@ -4,7 +4,7 @@
   <title><%= page_title yield :page_title %></title>
 
   <meta charset="utf-8">
-  <%= favicon_link_tag "favicon.png" %>
+  <%= favicon_link_tag 'favicon.png' %>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <%= auto_discovery_link_tag :atom, news_feed_url(subdomain: 'blog'), {:title => t('newsfeed')} %>
@@ -33,8 +33,8 @@
         <li><%= link_to t('pages.planet.menu_title'), planet_index_url(subdomain: 'planet') %></li>
         <li>
           <p class="navbar-btn">
-            <%= link_to t('buttons.host_pod'), about_url(subdomain: false, anchor: "host"), class: 'btn btn-primary' %>
-            <%= link_to t('buttons.join_diaspora'), root_url(subdomain: false, anchor: "get_started"), class: 'btn btn-success' %>
+            <%= link_to t('buttons.host_pod'), about_url(subdomain: false, anchor: 'host'), class: 'btn btn-primary' %>
+            <%= link_to t('buttons.join_diaspora'), root_url(subdomain: false, anchor: 'get_started'), class: 'btn btn-success' %>
           </p>
         </li>
       </ul>

@@ -1,4 +1,4 @@
-<% content_for :wrapper_class, "index-page" %>
+<% content_for :wrapper_class, 'index-page' %>
 
 <div id="masthead" class="hero">
   <div class="container">
@@ -9,7 +9,7 @@
 
 <div class="container top-spacing">
   <div class="row">
-    <%= image_tag "pages/index/earthD2.png", alt: t('.earth_alt'), class: 'img-responsive center-block' %>
+    <%= image_tag 'pages/index/earthD2.png', alt: t('.earth_alt'), class: 'img-responsive center-block' %>
   </div>
 </div>
 
@@ -21,27 +21,27 @@
   <div class="row minor-top-spacing">
     <div class="col-md-4">
       <p class="text-center">
-        <%= image_tag "pages/index/decentralized-stamp.png", alt: t('.decentralized_alt') %>
+        <%= image_tag 'pages/index/decentralized-stamp.png', alt: t('.decentralized_alt') %>
       </p>
       <h3><%= t '.decentralization' %></h3>
       <p class="feature-description"><%= t '.decentralization_about' %></p>
-      <p><%= link_to t('buttons.find_more'), about_path, class: "btn btn-primary" %></p>
+      <p><%= link_to t('buttons.find_more'), about_path, class: 'btn btn-primary' %></p>
     </div>
     <div class="col-md-4">
       <p class="text-center">
-        <%= image_tag "pages/index/freedom-stamp.png", alt: t('.freedom_alt') %>
+        <%= image_tag 'pages/index/freedom-stamp.png', alt: t('.freedom_alt') %>
       </p>
       <h3><%= t '.freedom' %></h3>
       <p class="feature-description"><%= t '.freedom_about' %></p>
-      <p><%= link_to t('buttons.find_more'), about_path(anchor: 'freedom'), class: "btn btn-primary" %></p>
+      <p><%= link_to t('buttons.find_more'), about_path(anchor: 'freedom'), class: 'btn btn-primary' %></p>
     </div>
     <div class="col-md-4">
       <p class="text-center">
-        <%= image_tag "pages/index/keyhole-stamp.png", alt: t('.keyhole_alt') %>
+        <%= image_tag 'pages/index/keyhole-stamp.png', alt: t('.keyhole_alt') %>
       </p>
       <h3><%= t '.privacy' %></h3>
       <p class="feature-description"><%= t '.privacy_about' %></p>
-      <p><%= link_to t('buttons.find_more'), about_path(anchor: 'privacy'), class: "btn btn-primary" %></p>
+      <p><%= link_to t('buttons.find_more'), about_path(anchor: 'privacy'), class: 'btn btn-primary' %></p>
     </div>
   </div>
 </div>
@@ -91,7 +91,7 @@
   <div class="row top-spacing">
     <div class="col-md-4">
       <p class="text-center feature-header-image">
-        <%= image_tag "pages/index/aspects.png", alt: t('.aspects_alt') %>
+        <%= image_tag 'pages/index/aspects.png', alt: t('.aspects_alt') %>
       </p>
       <h3><%= t '.aspects' %></h3>
       <p class="feature-description"><%= t '.aspects_ex' %></p>
@@ -103,7 +103,7 @@
     </div>
     <div class="col-md-4">
       <p class="text-center feature-header-image">
-        <%= image_tag "pages/index/features.png", alt: t('.features_alt') %>
+        <%= image_tag 'pages/index/features.png', alt: t('.features_alt') %>
       </p>
       <h3><%= t '.features' %></h3>
       <p class="feature-description"><%= t '.features_ex' %></p>
@@ -115,7 +115,7 @@
     </div>
     <div class="col-md-4">
       <p class="text-center feature-header-image">
-        <%= image_tag "pages/index/question-stamp.png", alt: t('.ways_to_help_alt') %>
+        <%= image_tag 'pages/index/question-stamp.png', alt: t('.ways_to_help_alt') %>
       </p>
       <h3><%= t '.help' %></h3>
       <p class="feature-description"><%= t '.help_ex' %></p>
@@ -128,7 +128,7 @@
   </div>
   <div class="row top-spacing">
     <div class="col-md-2">
-      <%= image_tag "pages/index/services.png", alt: t('.services_alt'), class: 'services-teaser-image' %>
+      <%= image_tag 'pages/index/services.png', alt: t('.services_alt'), class: 'services-teaser-image' %>
     </div>
     <div class="col-md-10">
       <h3><%= t '.socialint' %></h3>
