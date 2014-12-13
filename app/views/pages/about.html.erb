@@ -1,212 +1,213 @@
 <% content_for :page_title, t('.menu_title') %>
-<% content_for :wrapper_class, "about_page" %>
+<% content_for :wrapper_class, "about-page" %>
 
 <div class="hero" id="masthead">
   <div class="container">
-    <div class="row">
-      <h1><%= t '.headline' %></h1>
-      <h2 class="lead"><%= t '.byline' %></h2>
+    <h1><%= t '.headline' %></h1>
+    <h2 class="lead"><%= t '.byline' %></h2>
+  </div>
+</div>
+
+<div class="page-header">
+  <h1><%= t '.decentralize' %></h1>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <p><%= t '.decentralize_ex' %></p>
+    </div>
+  </div>
+  <div class="row minor-top-spacing">
+    <div class="col-md-6">
+      <h3 class="lead"><%= t '.this' %></h3>
+      <p class="text-center">
+        <%= image_tag "pages/about/network-distributed.png", alt: t('.distributed_network') %>
+      </p>
+      <p><%= t '.this_ex' %></p>
+    </div>
+    <div class="col-md-6">
+      <h3 class="lead"><%= t '.notthis' %></h3>
+      <p class="text-center">
+        <%= image_tag "pages/about/network-centralized.png", alt: t('.centralized_network') %>
+      </p>
+      <p><%= t '.notthis_ex' %></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <p class="text-center">
+        <%= t('.discl', pubsubhubub: link_to('PubSubHubub', 'https://code.google.com/p/pubsubhubbub/'),
+            webfinger: link_to('Webfinger', 'http://webfinger.org')).html_safe %>
+      </p>
     </div>
   </div>
 </div>
 
+<div class="page-header">
+  <h1><%= t '.connect' %></h1>
+</div>
 <div class="container">
-  <div class="row top-spacing">
-    <div class="span4">&nbsp;</div>
-    <div class="span8">
-      <h1><%= t '.decentralize' %></h1>
-      <p><%= t '.decentralize_ex' %></p>
-    </div>
-    <div class="span4">&nbsp;</div>
-  </div>
-
-  <hr />
-
-  <div class="row minor-top-spacing">
-    <div class="span8">
-      <h2><%= t '.this' %></h2>
-    </div>
-    <div class="span8">
-      <h2><%= t '.notthis' %></h2>
-    </div>
-  </div>
-
-  <div class="row minor-top-spacing">
-    <div class="span8">
-      <%= image_tag "network-distributed.png", alt: t('.distributed_network') %>
-    </div>
-    <div class="span8">
-      <%= image_tag "network-centralized.png", alt: t('.centralized_network') %>
-    </div>
-  </div>
-
-  <div class="row minor-top-spacing">
-    <div class="span8">
-      <p><%= t '.this_ex' %></p>
-    </div>
-    <div class="span8">
-      <p><%= t '.notthis_ex' %></p>
-      <div id="connect"></div>
-    </div>
-    <p class="centre">
-      <%= t('.discl', pubsubhubub: link_to('PubSubHubub', 'https://code.google.com/p/pubsubhubbub/'),
-                      webfinger: link_to('Webfinger', 'http://webfinger.org')).html_safe %>
-    </p>
-  </div>
-
-
-  <div class="page-header top-spacing">
-    <h1><%= t '.connect' %></h1>
-    <p><%= t '.connect_ex' %></p>
-  </div>
-
   <div class="row">
-    <div class="span2">
-      <%= image_tag "search.png", alt: t('.search_alt') %>
+    <div class="col-md-12">
+      <p><%= t '.connect_ex' %></p>
     </div>
-    <div class="span6">
-      <h2><%= t '.find' %></h2>
+  </div>
+  <div class="row">
+    <div class="col-md-2">
+      <p class="text-center">
+        <%= image_tag "pages/about/search.png", alt: t('.search_alt') %>
+      </p>
+    </div>
+    <div class="col-md-4">
+      <h3><%= t '.find' %></h3>
       <p><%= t '.find_ex' %></p>
     </div>
-    <div class="span2">
-      <%= image_tag "plus.png", alt: t('.add_a_contact_alt') %>
+    <div class="col-md-2">
+      <p class="text-center">
+        <%= image_tag "pages/about/plus.png", alt: t('.add_a_contact_alt') %>
+      </p>
     </div>
-    <div class="span6">
-      <h2><%= t '.add' %></h2>
+    <div class="col-md-4">
+      <h3><%= t '.add' %></h3>
       <p><%= t '.add_ex' %></p>
     </div>
   </div>
+</div>
 
-  <div id="freedom" class="page-header top-spacing">
-    <h1><%= t '.freedom' %>
-      <small><%= t '.freedom_byline' %></small>
-    </h1>
-  </div>
+<div id="freedom" class="page-header">
+  <h1>
+    <%= t '.freedom' %>
+    <small><%= t '.freedom_byline' %></small>
+  </h1>
+</div>
+<div class="container">
   <div class="row">
-    <div class="span-one-third">
-      <h2><%= t '.fdm1' %></h2>
+    <div class="col-md-4">
+      <h3><%= t '.fdm1' %></h3>
       <p><%= t '.fdm1_ex' %></p>
     </div>
-    <div class="span-one-third">
-      <h2><%= t '.fdm2' %></h2>
+    <div class="col-md-4">
+      <h3><%= t '.fdm2' %></h3>
       <p><%= t '.fdm2_ex' %></p>
     </div>
-    <div class="span-one-third">
-      <h2><%= t '.fdm3' %></h2>
+    <div class="col-md-4">
+      <h3><%= t '.fdm3' %></h3>
       <p><%= t '.fdm3_ex' %></p>
-      <p class="find_out_more">
-        <%= link_to t('buttons.find_more'), get_involved_path, class: "btn primary" %>
+      <p>
+        <%= link_to t('buttons.find_more'), get_involved_path, class: "btn btn-primary" %>
       </p>
     </div>
   </div>
+</div>
 
-  <div id="privacy" class="page-header top-spacing">
-    <h1>
-      <%= t '.privacy' %>
-      <small><%= t '.privacy_byline' %></small>
-    </h1>
-  </div>
+<div id="privacy" class="page-header">
+  <h1>
+    <%= t '.privacy' %>
+    <small><%= t '.privacy_byline' %></small>
+  </h1>
+</div>
+<div class="container">
   <div class="row">
-    <div class="span-one-third">
-      <h2><%= t '.priv1' %></h2>
+    <div class="col-md-4">
+      <h3><%= t '.priv1' %></h3>
       <p><%= t '.priv1_ex' %></p>
     </div>
-    <div class="span-one-third">
-      <h2><%= t '.priv2' %></h2>
-      <p><%= t '.priv2_ex' %></p>
-      <p class="find_out_more">
-        <a href="#host" class="btn primary"><%= t('buttons.find_more') %></a>
+    <div class="col-md-4">
+      <h3><%= t '.priv2' %></h3>
+      <p class="desc-with-button"><%= t '.priv2_ex' %></p>
+      <p>
+        <a href="#host" class="btn btn-primary"><%= t('buttons.find_more') %></a>
       </p>
     </div>
-    <div class="span-one-third">
-      <h2><%= t '.priv3' %></h2>
-      <p><%= t '.priv3_ex' %></p>
-      <p class="find_out_more">
-        <a href="#aspects" class="btn primary"><%= t('buttons.find_more') %></a>
+    <div class="col-md-4">
+      <h3><%= t '.priv3' %></h3>
+      <p class="desc-with-button"><%= t '.priv3_ex' %></p>
+      <p>
+        <a href="#aspects" class="btn btn-primary"><%= t('buttons.find_more') %></a>
       </p>
     </div>
   </div>
+</div>
 
-  <div id="aspects" class="page-header top-spacing">
-    <h1>
-      <%= t '.aspects' %>
-      <small><%= t '.aspects_byline' %></small>
-    </h1>
-  </div>
-
+<div id="aspects" class="page-header">
+  <h1>
+    <%= t '.aspects' %>
+    <small><%= t '.aspects_byline' %></small>
+  </h1>
+</div>
+<div class="container">
   <div class="row">
-    <div class="span-one-third">
-      <h2>
-        <%= t '.asp1' %>
-      </h2>
+    <div class="col-md-4">
+      <h3><%= t '.asp1' %></h3>
       <p><%= t '.asp1_ex' %></p>
     </div>
-
-    <div class="span-one-third">
-      <h2><%= t '.asp2' %></h2>
+    <div class="col-md-4">
+      <h3><%= t '.asp2' %></h3>
       <p><%= t '.asp2_ex' %></p>
     </div>
-
-    <div class="span-one-third">
-      <h2><%= t '.asp3' %></h2>
+    <div class="col-md-4">
+      <h3><%= t '.asp3' %></h3>
       <p><%= t '.asp3_ex' %></p>
     </div>
   </div>
+</div>
 
-  <div id="features" class="page-header top-spacing">
-    <h1>
-      <%= t '.features' %>
-      <small><%= t '.features_byline' %></small>
-    </h1>
-  </div>
-  <div class='row'>
-    <div class='span4'><%= image_tag "hashtag.png", alt: t('.hashtag_alt') %></div>
-    <div class='span4'><%= image_tag "reshare.png", alt: t('.reshare_alt') %></div>
-    <div class='span4'><%= image_tag "mention.png", alt: t('.mention_alt') %></div>
-    <div class='span4'><%= image_tag "heart.png", alt: t('.heart_alt') %></div>
-  </div>
-
+<div id="features" class="page-header">
+  <h1>
+    <%= t '.features' %>
+    <small><%= t '.features_byline' %></small>
+  </h1>
+</div>
+<div class="container">
   <div class="row">
-    <div class="span4">
-      <h4><%= t '.hashtags' %></h4>
+    <div class="col-md-3">
+      <p class="text-center">
+        <%= image_tag "pages/about/hashtag.png", alt: t('.hashtag_alt') %>
+      </p>
+      <h3><%= t '.hashtags' %></h3>
       <p><%= t '.hashtags_ex' %></p>
     </div>
-
-    <div class="span4">
-      <h4><%= t '.reshare' %></h4>
+    <div class="col-md-3">
+      <p class="text-center">
+        <%= image_tag "pages/about/reshare.png", alt: t('.reshare_alt') %>
+      </p>
+      <h3><%= t '.reshare' %></h3>
       <p><%= t '.reshare_ex' %></p>
     </div>
-
-    <div class="span4">
-      <h4><%= t '.mentions' %></h4>
+    <div class="col-md-3">
+      <p class="text-center">
+        <%= image_tag "pages/about/mention.png", alt: t('.mention_alt') %>
+      </p>
+      <h3><%= t '.mentions' %></h3>
       <p><%= t '.mentions_ex' %></p>
     </div>
-
-    <div class="span4">
-      <h4><%= t '.love' %></h4>
+    <div class="col-md-3">
+      <p class="text-center">
+        <%= image_tag "pages/about/heart.png", alt: t('.heart_alt') %>
+      </p>
+      <h3><%= t '.love' %></h3>
       <p><%= t '.love_ex' %></p>
     </div>
   </div>
+</div>
 
-  <div id="host" class="page-header top-spacing">
-    <h1>
-      <%= t '.host' %>
-      <small><%= t '.host_byline' %></small>
-    </h1>
-  </div>
-
+<div id="host" class="page-header">
+  <h1>
+    <%= t '.host' %>
+    <small><%= t '.host_byline' %></small>
+  </h1>
+</div>
+<div class="container">
   <div class="row minor-top-spacing">
-    <div class="span7">
-      <%= image_tag "network-distributed.png", alt: t('.distributed_network'), size: "400x161" %>
+    <div class="col-md-5">
+      <%= image_tag "pages/about/network-distributed.png", alt: t('.distributed_network'), size: "400x161" %>
     </div>
-
-    <div class="span9">
+    <div class="col-md-7">
       <p><%= t '.host_ex' %></p>
       <ul>
         <li>
-          <%= t('.hostinst1',
-                instructions_link: link_to(t('.instructions_link_text'),
-                  'https://wiki.diasporafoundation.org/Installation_guides')).html_safe %>
+          <%= t('.hostinst1', instructions_link: link_to(t('.instructions_link_text'),
+                'https://wiki.diasporafoundation.org/Installation_guides')).html_safe %>
         </li>
         <li>
           <%= t('.hostinst2', poduptime: link_to('Pod Uptime', 'http://podupti.me')).html_safe %>
@@ -215,4 +216,3 @@
     </div>
   </div>
 </div>
-
