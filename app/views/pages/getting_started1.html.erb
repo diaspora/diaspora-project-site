@@ -1,62 +1,71 @@
 <% content_for :page_title, t('.menu_title') %>
-<% content_for :wrapper_class, "index_page" %>
+<% content_for :wrapper_class, 'index-page' %>
 
 <div id="masthead" class="hero">
   <div class="container">
     <h1><%= t 'pages.tutorials.started_head' %></h1>
-    <h2><%= t '.byline' %></h2>
+    <h2 class="lead"><%= t '.byline' %></h2>
   </div>
 </div>
 
 <div class="container">
-  <div class="row top-spacing">
-    <div class="span2">&nbsp;
-    </div>
-    <div class="span12">       
-        <p class="more-info"><%= t '.welcome' %></p>
-        <h3><%= t '.find_pod' %></h3>
-		<p><%= t('.find_pod_ex1').html_safe %></p>
-        <p class="more-info"><%= t('.find_pod_ex2').html_safe %></p>
-		<p><%= t('.find_pod_ex3', wiki_link: link_to(t('.wiki_link_text'), "https://wiki.diasporafoundation.org/Choosing_a_pod")).html_safe %></p>
-        <p><%= t '.find_pod_ex4' %></p>
-        <p class="more-info"><%= t '.find_pod_ex5' %></p>
-		<h3><%= t '.registration' %></h3>
-        <p><%= t('.registration1').html_safe %></p>
-        <p><%= t '.registration2' %></p>
+  <div class="row minor-top-spacing">
+    <div class="col-md-12">
+      <p class="more-info"><%= t '.welcome' %></p>
+      <h3><%= t '.find_pod' %></h3>
+      <p><%= t('.find_pod_ex1').html_safe %></p>
+      <p class="more-info"><%= t('.find_pod_ex2').html_safe %></p>
 
-		<div align="center"><%= image_tag "signup.png" %></div>
+      <p><%= t('.find_pod_ex3', wiki_link: link_to(t('.wiki_link_text'), "https://wiki.diasporafoundation.org/Choosing_a_pod")).html_safe %></p>
+      <p><%= t '.find_pod_ex4' %></p>
+      <p class="more-info"><%= t '.find_pod_ex5' %></p>
 
-		<p><%= t('.registration3').html_safe %></p>
-        <p class="more-info"><%= t('.registration4', dhq_link: link_to(t('.dhq_link_text'), "http://dia.so/diasporahq"), part4_link: link_to(t('pages.tutorials.part4'), connecting_path)).html_safe %></p>
-        <p><%= t '.registration5' %></p>
-        
-        <div align="center"><%= image_tag "gettingstarted.png" %></div>
-		<p>&nbsp;</p>
-	        <ol>
-    		    <li><%= t '.registration6' %></li>
-		        <li><%= t '.registration7' %></li>
-		        <li><%= t '.registration8' %></li>
-        		<li><%= t '.registration9' %></li>
-		        <li><%= t('.registration10').html_safe %></li>
-        	</ol>
+      <h3><%= t '.registration' %></h3>
+      <p><%= t('.registration1').html_safe %></p>
+      <p><%= t '.registration2' %></p>
 
-		<p><%= t('.profile1').html_safe %></p>
-        <p><%= t '.profile2' %></p>
-        <div align="center"><%= image_tag "profile-public.png" %></div>
-        <div align="center"><%= image_tag "profile-private.png" %></div>
-        <%= t('.profile3', part7_link: link_to(t('pages.tutorials.part7'), finishing_path)).html_safe %></p>
-        <p><%= t('.profile4').html_safe %></p>
-        
-        <h3><%= t '.finish' %></h3>
-        <p><%= t('.finish_ex1').html_safe %></p>
-        <p>&nbsp;</p>
-        <p class="more-info"><%= t('.finish_ex2', part5_link: link_to(t('pages.tutorials.part5'), sharing_path)).html_safe  %></p>
+      <p class="text-center"><%= image_tag 'pages/getting_started/sign_up/signup.png' %></p>
 
-        <p>&nbsp;</p>
- 
-        <p align="center"><%= link_to t('pages.getting_started2.byline'), interface_url %></p>
-	</div>
-    <div class="span2">
+      <p><%= t('.registration3').html_safe %></p>
+      <p class="more-info">
+        <%= t('.registration4',
+              dhq_link: link_to(t('.dhq_link_text'), 'http://dia.so/diasporahq'),
+              part4_link: link_to(t('pages.tutorials.part4'), connecting_path)
+        ).html_safe %>
+      </p>
+
+      <p><%= t '.registration5' %></p>
+
+      <p class="text-center"><%= image_tag 'pages/getting_started/sign_up/gettingstarted.png' %></p>
+
+      <ol>
+        <li><%= t '.registration6' %></li>
+        <li><%= t '.registration7' %></li>
+        <li><%= t '.registration8' %></li>
+        <li><%= t '.registration9' %></li>
+        <li><%= t('.registration10').html_safe %></li>
+      </ol>
+
+      <p><%= t('.profile1').html_safe %></p>
+      <p><%= t '.profile2' %></p>
+
+      <div class="row">
+        <div class="col-md-6">
+          <p class="text-center"><%= image_tag 'pages/getting_started/sign_up/profile-public.png', class: 'img-responsive' %></p>
+        </div>
+        <div class="col-md-6">
+          <p class="text-center"><%= image_tag 'pages/getting_started/sign_up/profile-private.png', class: 'img-responsive' %></p>
+        </div>
+      </div>
+
+      <p><%= t('.profile3', part7_link: link_to(t('pages.tutorials.part7'), finishing_path)).html_safe %></p>
+      <p><%= t('.profile4').html_safe %></p>
+
+      <h3><%= t '.finish' %></h3>
+      <p><%= t('.finish_ex1').html_safe %></p>
+      <p class="more-info"><%= t('.finish_ex2', part5_link: link_to(t('pages.tutorials.part5'), sharing_path)).html_safe  %></p>
+
+      <p class="text-center minor-top-spacing"><%= link_to t('pages.getting_started2.byline'), interface_url %></p>
     </div>
   </div>
 </div>
