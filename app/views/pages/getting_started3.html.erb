@@ -1,75 +1,64 @@
 <% content_for :page_title, t('.menu_title') %>
-<% content_for :wrapper_class, "index_page" %>
+<% content_for :wrapper_class, 'index-page' %>
 
 <div id="masthead" class="hero">
   <div class="container">
     <h1><%= t 'pages.tutorials.started_head' %></h1>
-    <h2><%= t '.byline' %></h2>
+    <h2 class="lead"><%= t '.byline' %></h2>
   </div>
 </div>
 
 <div class="container">
-  <div class="row top-spacing">
-    <div class="span2">&nbsp;
+  <div class="row minor-top-spacing">
+    <div class="col-md-12">
+      <p><%= t '.aspects1' %></p>
+      <p><%= t '.aspects2' %></p>
+      <p><%= t '.aspects3' %></p>
+      <p><%= t('.aspects4').html_safe %></p>
+      <p class="text-center"><%= image_tag 'pages/getting_started/aspects/add-aspect.png' %></p>
+      <ol>
+        <li><%= t '.add_aspect1' %></li>
+        <li><%= t '.add_aspect2' %></li>
+        <li><%= t('.add_aspect3').html_safe %></li>
+      </ol>
+      <p><%= t '.add_aspect4' %></p>
     </div>
-    <div class="span12">       
-        <p><%= t '.aspects1' %></p>
-		<p><%= t '.aspects2' %></p>
-        <p><%= t '.aspects3' %></p>
-        <p><%= t('.aspects4').html_safe %></p>
-        <div align="center"><%= image_tag "add-aspect.png" %></div>
-	        <ol>
-    		    <li><%= t '.add_aspect1' %></li>
-		        <li><%= t '.add_aspect2' %></li>
-		        <li><%= t('.add_aspect3').html_safe %></li>
-	        </ol>
-        <p><%= t '.add_aspect4' %></p>
-    </div>
-    <div class="span2">&nbsp;</div>
   </div>
-        
+
   <div class="row">
-    <div class="span2">&nbsp;</div>
-    <div class="span10">
-        <p><%=(t '.my_aspects1').html_safe %></p>
-        <ul>
-        	<li><%= t '.my_aspects2' %></li>
-            <li><%= t '.my_aspects3' %></li>
-            <li><%= t '.my_aspects4' %></li>
-            <li><%=(t '.my_aspects5').html_safe %></li>
-        </ul>
-        <p><%= t '.my_aspects6' %></p>
-        <p><%= t '.my_aspects7' %></p>
-	        <ol>
-    		    <li><%= t('.my_aspects8').html_safe %></li>
-		        <li><%= t '.my_aspects9' %></li>
-			</ol>
+    <div class="col-md-8">
+      <p><%=(t '.my_aspects1').html_safe %></p>
+      <ul>
+        <li><%= t '.my_aspects2' %></li>
+        <li><%= t '.my_aspects3' %></li>
+        <li><%= t '.my_aspects4' %></li>
+        <li><%=(t '.my_aspects5').html_safe %></li>
+      </ul>
+      <p><%= t '.my_aspects6' %></p>
+      <p><%= t '.my_aspects7' %></p>
+      <ol>
+        <li><%= t('.my_aspects8').html_safe %></li>
+        <li><%= t '.my_aspects9' %></li>
+      </ol>
     </div>
-    <div class="span4"><%= image_tag "aspect-list.png" %></div>
+    <div class="col-md-4"><%= image_tag 'pages/getting_started/aspects/aspect-list.png' %></div>
   </div>
-  
+
   <div class="row">
-	<div class="span2">&nbsp;</div>
-    <div class="span12">
-        <h3><%= t '.contacts' %></h3>
-        <p><%= t('.contact_ex1', part2_link: link_to(t('pages.tutorials.part2'), interface_path)).html_safe %></p>
-        <p><%= t '.contact_ex3' %></p>
-        <p><%= t('.contact_ex4').html_safe %></p>  
-        <p><%= t '.contact_ex5' %></p>
-        <p><%= t '.contact_ex6' %></p>
-        <p><%= t '.contact_ex7' %></p>
-        
-        <h5><%= t '.sharing_me' %></h5>
-        <p><%= t '.sharing_me_ex' %></p>
-        
-        <p>&nbsp;</p>
-        <p class="more-info"><%= t '.finish' %></p>
-        
-        <p>&nbsp;</p>
- 
-        <p align="center"><%= link_to t('pages.getting_started2.byline'), interface_url %> | <%= link_to t('pages.getting_started4.byline'), connecting_url %></p>
-       
-    <div class="span2">
+    <div class="col-md-12">
+      <h3><%= t '.contacts' %></h3>
+      <p><%= t('.contact_ex1', part2_link: link_to(t('pages.tutorials.part2'), interface_path)).html_safe %></p>
+      <p><%= t '.contact_ex3' %></p>
+      <p><%= t('.contact_ex4').html_safe %></p>
+      <p><%= t '.contact_ex5' %></p>
+      <p><%= t '.contact_ex6' %></p>
+      <p><%= t '.contact_ex7' %></p>
+
+      <h5><%= t '.sharing_me' %></h5>
+      <p><%= t '.sharing_me_ex' %></p>
+
+      <p class="more-info"><%= t '.finish' %></p>
+      <p class="text-center minor-top-spacing"><%= link_to t('pages.getting_started2.byline'), interface_url %> | <%= link_to t('pages.getting_started4.byline'), connecting_url %></p>
     </div>
   </div>
 </div>
