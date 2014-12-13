@@ -192,8 +192,7 @@ en:
       subline: "official announcements"
       menu_title: Blog
     planet:
-      headline: "The diaspora* planet"
-      subline: "blog posts by our community"
+      headline: Planet
       menu_title: Planet
     tutorials:
       headline: "diaspora* tutorials"
