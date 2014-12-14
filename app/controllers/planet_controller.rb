@@ -5,6 +5,7 @@ class PlanetController < ApplicationController
   def index
     @entries = Planet::Models::Entry.order(:published_at => :desc)
       .paginate(:page => params[:page], :per_page => 10)
+    @subscriptions = Planet::Models::Feed.order(:title => :asc)
   end
 
   def feed

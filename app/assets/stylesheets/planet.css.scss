@@ -3,3 +3,18 @@
     max-width: 100%;
   }
 }
+
+.planet-page {
+  .col-md-3 {
+    padding-top: 30px;
+
+    h4 {
+      font-weight: normal;
+      margin-top: 35px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+  }
+}

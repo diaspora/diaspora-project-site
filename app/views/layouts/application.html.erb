@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <%= auto_discovery_link_tag :atom, news_feed_url(subdomain: 'blog'), {:title => t('newsfeed')} %>
+  <%= auto_discovery_link_tag :atom, planet_feed_url(subdomain: 'planet'), {:title => t('planet_feed')} %>
   <%= stylesheet_link_tag 'application', :media => 'all' %>
   <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>

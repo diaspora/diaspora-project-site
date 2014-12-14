@@ -1,19 +1,23 @@
 <%- content_for :page_title do %>
   <%= t 'pages.planet.menu_title' %>
 <% end %>
+<% content_for :wrapper_class, 'planet-page' %>
 
-<div class="page-header">
-  <h1><%= t 'pages.planet.headline' %> <small><%= t 'pages.planet.subline' %></small></h1>
+<div class="hero" id="masthead">
+  <div class="container">
+    <h1><%= t 'pages.planet.headline' %></h1>
+    <h2 class="lead"><%= t 'pages.planet.subline' %></h2>
+  </div>
 </div>
 
-<div class="container-fluid">
+<div class="container">
   <div class="row">
-    <div class="col-md-8">
+    <div class="col-md-9">
       <%- @entries.each do |entry| %>
         <div class="blogcontent bloglist-item planet-item">
           <div class="page-header clearfix">
             <h1>
-              <%= entry.feed.title %> - <%= link_to entry.title, entry.url %>
+              <%= entry.feed.title %>: <%= link_to entry.title, entry.url %>
               <small><%= l entry.published_at, format: :blog_headline %></small>
             </h1>
           </div>
@@ -22,10 +26,27 @@
         </div>
       <% end %>
     </div>
-    <div class="col-md-4">
-      foo
+    <div class="col-md-3">
+      <h4><%= t 'pages.planet.disclaimer_headline' %></h4>
+      <p class="text-muted"><%= t 'pages.planet.disclaimer' %></p>
+
+      <h4><%= t 'pages.planet.subscribe_headline' %></h4>
+      <p class="text-muted"><%= t('pages.planet.subscribe', feed_link: link_to(t('pages.planet.feed_link_title'), planet_feed_path)).html_safe %></p>
+
+      <h4><%= t 'pages.planet.subscriptions_headline' %></h4>
+      <ul>
+        <%- @subscriptions.each do |subscription| %>
+          <li>
+            <%= link_to subscription.title, subscription.site_url %>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <%= will_paginate @entries, renderer: BootstrapPagination::Rails %>
     </div>
   </div>
 </div>
 
-<%= will_paginate @entries, renderer: BootstrapPagination::Rails %>
