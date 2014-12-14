@@ -25,6 +25,9 @@
           <%= entry.sanitized_body.html_safe %>
         </div>
       <% end %>
+      <div class="text-center">
+        <%= will_paginate @entries, renderer: BootstrapPagination::Rails %>
+      </div>
     </div>
     <div class="col-md-3">
       <h4><%= t 'pages.planet.disclaimer_headline' %></h4>
@@ -41,11 +44,6 @@
           </li>
         <% end %>
       </ul>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-12 text-center">
-      <%= will_paginate @entries, renderer: BootstrapPagination::Rails %>
     </div>
   </div>
 </div>
