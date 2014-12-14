@@ -9,6 +9,6 @@ class PlanetController < ApplicationController
   end
 
   def feed
-    # TODO implement me
+    @entries = Planet::Models::Entry.order(:published_at => :desc).limit 25
   end
 end
