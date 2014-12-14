@@ -10,7 +10,7 @@ atom_feed do |feed|
         author.name entry.author
       end
 
-      feeditem.content(entry.body, :type => 'html')
+      feeditem.content(entry.sanitized_body, :type => 'html')
     end
   end
 end
