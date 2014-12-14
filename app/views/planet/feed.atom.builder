@@ -2,7 +2,7 @@ atom_feed do |feed|
   feed.title(t 'pages.planet.headline')
   feed.updated(@entries.first.updated_at)
 
-  for entry in @entries
+  @entries.each do |entry|
     feed.entry(entry, :url => entry.url) do |feeditem|
       feeditem.title(entry.title)
 
