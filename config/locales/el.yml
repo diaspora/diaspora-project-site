@@ -11,6 +11,7 @@ el:
       copyleft: "CC-BY Ίδρυμα Diaspora*"
   title: "Το Πρότζεκτ Diaspora*"
   newsfeed: ~
+  planet_feed: ~
   layouts:
     application:
       wiki: Wiki
@@ -193,7 +194,14 @@ el:
       menu_title: Blog
     planet:
       headline: Πλανήτης
+      subline: ~
       menu_title: Πλανήτης
+      disclaimer_headline: ~
+      disclaimer: ~
+      subscribe_headline: ~
+      subscribe: ~
+      feed_link_title: ~
+      subscriptions_headline: ~
     tutorials:
       headline: "Μαθήματα για το Diaspora*"
       byline: "Οδηγοί βοήθειας βήμα-προς-βήμα"

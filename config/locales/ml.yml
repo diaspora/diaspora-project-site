@@ -11,6 +11,7 @@ ml:
       copyleft: "ഡയാസ്പൊറ* ഫൌണ്ടേഷനു് കടപ്പാടോടെ സിസി"
   title: "ഡയാസ്പൊറ* സംരംഭം"
   newsfeed: "വാര്‍ത്താ ഫീഡ്"
+  planet_feed: ~
   layouts:
     application:
       wiki: വിക്കി
@@ -195,7 +196,14 @@ ml:
       menu_title: ബ്ലോഗ്‌
     planet:
       headline: ഗ്രഹം
+      subline: ~
       menu_title: ഗ്രഹം
+      disclaimer_headline: ~
+      disclaimer: ~
+      subscribe_headline: ~
+      subscribe: ~
+      feed_link_title: ~
+      subscriptions_headline: ~
     tutorials:
       headline: "ഡയസ്പോറ* പരിശീലനങ്ങൾ"
       byline: "നിങ്ങൾക്കുവേണ്ടിയുള്ള പടി പടിയായുള്ള സഹായ നിർദേശങ്ങൾ"

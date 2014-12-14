@@ -11,6 +11,7 @@ nl:
       copyleft: "CC-BY The diaspora* Foundation"
   title: "Het diaspora* Project"
   newsfeed: Nieuwskanaal
+  planet_feed: ~
   layouts:
     application:
       wiki: Wiki
@@ -193,7 +194,14 @@ nl:
       menu_title: Blog
     planet:
       headline: Planeet
+      subline: ~
       menu_title: Planeet
+      disclaimer_headline: ~
+      disclaimer: ~
+      subscribe_headline: ~
+      subscribe: ~
+      feed_link_title: ~
+      subscriptions_headline: ~
     tutorials:
       headline: "diaspora* instructies"
       byline: "Stap-voor-stap gidsen om je te helpen"
@@ -314,7 +322,7 @@ nl:
           Niemand zal trouwens de naam van je aspecten kunnen zien en evenmin weten wie van jouw contacten in welk aspect  zitten.
           We stellen voor om in ieder geval een aspect "diaspora" te maken waar je iedereen die je hier ontmoet in kunt opnemen.
       add_aspect2: |-
-          Je kunt ervoor kiezen om de keuze "maak contacten in dit aspect zichtbaar voor elkaar?" aan te kruisen. Dat kan zinvol zijn als je een aspect hebt van een club waarvan de leden elkaar toch al kennen. Als ze elkaar binnen jouw aspect tegenkomen, kunnen ze makkelijker ook onderling contact maken.
+          Je kunt ervoor kiezen om de keuze "maak contacten in dit aspect zichtbaar voor elkaar?" aan te kruisen. Dat kan zinvol zijn als je een aspect hebt van een club waarvan de leden elkaar toch al kennen. Als ze elkaar binnen jouw aspect tegenkomen, kunnen ze makkelijker ook onderling contact maken. 
           Denk hier wel goed over na. Let niet alleen op je eigen privacy, maar ook op de privacy van anderen voordat je deze optie aankruist.
       add_aspect3: "Als je klaar bent, klik dan op de <span class=\"click\">Aanmaken</span> knop. Het aspect is dan aangemaakt en geselecteerd in het menu."
       add_aspect4: "Als het aspect is aangemaakt, word je meegenomen naar de lijst met contacten in dat aspect (daar staan nu dus nog geen namen in). Er is een link naar \"contacten toevoegen aan Diaspora\" of hoe je het aspect ook genoemd hebt,"

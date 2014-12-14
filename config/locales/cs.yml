@@ -11,6 +11,7 @@ cs:
       copyleft: "CC-BY The diaspora* Foundation"
   title: "diaspora* Project"
   newsfeed: ~
+  planet_feed: ~
   layouts:
     application:
       wiki: Wiki
@@ -197,7 +198,14 @@ cs:
       menu_title: Blog
     planet:
       headline: Planeta
+      subline: ~
       menu_title: Planeta
+      disclaimer_headline: ~
+      disclaimer: ~
+      subscribe_headline: ~
+      subscribe: ~
+      feed_link_title: ~
+      subscriptions_headline: ~
     tutorials:
       headline: "diaspora* návody"
       byline: ~

@@ -11,6 +11,7 @@ te:
       copyleft: ~
   title: "డయాస్పోరా* పరియోజన"
   newsfeed: ~
+  planet_feed: ~
   layouts:
     application:
       wiki: వికీ
@@ -193,7 +194,14 @@ te:
       menu_title: బ్లాగు
     planet:
       headline: ~
+      subline: ~
       menu_title: ~
+      disclaimer_headline: ~
+      disclaimer: ~
+      subscribe_headline: ~
+      subscribe: ~
+      feed_link_title: ~
+      subscriptions_headline: ~
     tutorials:
       headline: "డయాస్పోరా* ఉపశిక్షణ"
       byline: " "

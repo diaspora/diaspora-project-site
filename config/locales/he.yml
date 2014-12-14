@@ -11,6 +11,7 @@ he:
       copyleft: "מופץ תחת רישיון CC-BY ע\"י קרן דיאספורה"
   title: "פרויקט דיאספורה*"
   newsfeed: ~
+  planet_feed: ~
   layouts:
     application:
       wiki: וויקי
@@ -193,7 +194,14 @@ he:
       menu_title: "יומן רשת"
     planet:
       headline: כוכב
+      subline: ~
       menu_title: כוכב
+      disclaimer_headline: ~
+      disclaimer: ~
+      subscribe_headline: ~
+      subscribe: ~
+      feed_link_title: ~
+      subscriptions_headline: ~
     tutorials:
       headline: "מדריכים של דיאספורה*"
       byline: "הנחיות שלב־אחרי־שלב כדי לעזור לך"

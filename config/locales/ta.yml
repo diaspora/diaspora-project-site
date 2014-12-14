@@ -11,6 +11,7 @@ ta:
       copyleft: ~
   title: ~
   newsfeed: ~
+  planet_feed: ~
   layouts:
     application:
       wiki: ~
@@ -193,7 +194,14 @@ ta:
       menu_title: ~
     planet:
       headline: ~
+      subline: ~
       menu_title: ~
+      disclaimer_headline: ~
+      disclaimer: ~
+      subscribe_headline: ~
+      subscribe: ~
+      feed_link_title: ~
+      subscriptions_headline: ~
     tutorials:
       headline: ~
       byline: ~

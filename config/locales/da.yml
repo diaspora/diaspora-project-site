@@ -11,6 +11,7 @@ da:
       copyleft: "CC-BY The diaspora* Foundation"
   title: "diaspora* projektet"
   newsfeed: Nyhedsfeed
+  planet_feed: ~
   layouts:
     application:
       wiki: Wiki
@@ -82,7 +83,7 @@ da:
       add: "2. Tilføj kontakt"
       add_ex: |-
           Så er det kun om at trykke på "Tilføj kontakt" knappen og vælge en aspekt som vedkommende skal knyttes til. Du har nu forbindelse til dine nye kontakter og kan dele med dem, som du også ville gøre på andre sociale netværk. Eller, hvis dine kontakter er del af andre aspekter i dit liv, kan du tilføje dem til flere aspekter på en gang.
-          Du har nu tilføjet kontakter. Det er super nemt.
+          Du har nu tilføjet kontakter. Det er super nemt. 
       freedom: Frihed
       freedom_byline: "diaspora* prøver ikke at begrænse dig."
       fdm1: "Vær den, som du vil være."
@@ -195,7 +196,14 @@ da:
       menu_title: Blog
     planet:
       headline: Planeten
+      subline: ~
       menu_title: Planeten
+      disclaimer_headline: ~
+      disclaimer: ~
+      subscribe_headline: ~
+      subscribe: ~
+      feed_link_title: ~
+      subscriptions_headline: ~
     tutorials:
       headline: "diaspora* guides"
       byline: "Step-by-step guides som hjælp til dig"

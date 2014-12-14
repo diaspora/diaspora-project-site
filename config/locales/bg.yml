@@ -11,6 +11,7 @@ bg:
       copyleft: ~
   title: "Проекта на диаспора*"
   newsfeed: ~
+  planet_feed: ~
   layouts:
     application:
       wiki: Уики
@@ -193,7 +194,14 @@ bg:
       menu_title: Блог
     planet:
       headline: Планета
+      subline: ~
       menu_title: Планета
+      disclaimer_headline: ~
+      disclaimer: ~
+      subscribe_headline: ~
+      subscribe: ~
+      feed_link_title: ~
+      subscriptions_headline: ~
     tutorials:
       headline: "диаспора* ръководства"
       byline: ~

@@ -11,6 +11,7 @@ ru:
       copyleft: "CC-BY diaspora* Сообщество"
   title: "Проект diaspora*"
   newsfeed: ~
+  planet_feed: ~
   layouts:
     application:
       wiki: Вики
@@ -193,7 +194,14 @@ ru:
       menu_title: Блог
     planet:
       headline: Планета
+      subline: ~
       menu_title: Планета
+      disclaimer_headline: ~
+      disclaimer: ~
+      subscribe_headline: ~
+      subscribe: ~
+      feed_link_title: ~
+      subscriptions_headline: ~
     tutorials:
       headline: "диаспора* руководства"
       byline: "Пошаговые инструкции, чтобы помочь вам"

@@ -11,6 +11,7 @@ ro:
       copyleft: "CC-De catre Fundatia diaspora*"
   title: "Proiectul diaspora*"
   newsfeed: ~
+  planet_feed: ~
   layouts:
     application:
       wiki: Wiki
@@ -193,7 +194,14 @@ ro:
       menu_title: Blog
     planet:
       headline: Planeta
+      subline: ~
       menu_title: Planeta
+      disclaimer_headline: ~
+      disclaimer: ~
+      subscribe_headline: ~
+      subscribe: ~
+      feed_link_title: ~
+      subscriptions_headline: ~
     tutorials:
       headline: ~
       byline: ~

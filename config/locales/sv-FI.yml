@@ -11,6 +11,7 @@ sv-FI:
       copyleft: ~
   title: "Diaspora* projektet"
   newsfeed: ~
+  planet_feed: ~
   layouts:
     application:
       wiki: Wiki
@@ -193,7 +194,14 @@ sv-FI:
       menu_title: Blogg
     planet:
       headline: Planet
+      subline: ~
       menu_title: Planet
+      disclaimer_headline: ~
+      disclaimer: ~
+      subscribe_headline: ~
+      subscribe: ~
+      feed_link_title: ~
+      subscriptions_headline: ~
     tutorials:
       headline: ~
       byline: ~

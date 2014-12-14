@@ -11,6 +11,7 @@ af:
       copyleft: "CC-BY Die diaspora* Stigting"
   title: "Die diaspora* Projek"
   newsfeed: Nuusvoer
+  planet_feed: ~
   layouts:
     application:
       wiki: Wiki
@@ -193,7 +194,14 @@ af:
       menu_title: Blog
     planet:
       headline: Planeet
+      subline: ~
       menu_title: Planeet
+      disclaimer_headline: ~
+      disclaimer: ~
+      subscribe_headline: ~
+      subscribe: ~
+      feed_link_title: ~
+      subscriptions_headline: ~
     tutorials:
       headline: "diaspora* tutoriale"
       byline: "Stap-vir-stap-gidse om jou te help"

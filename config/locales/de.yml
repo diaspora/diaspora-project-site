@@ -11,6 +11,7 @@ de:
       copyleft: "CC-BY The diaspora* Foundation"
   title: "Das Projekt diaspora*"
   newsfeed: Newsfeed
+  planet_feed: "Der diaspora* Planet (Atom)"
   layouts:
     application:
       wiki: Wiki
@@ -192,8 +193,15 @@ de:
       subline: "Offizielle Ankündigungen"
       menu_title: Blog
     planet:
-      headline: Planet
+      headline: "Der diaspora* Planet"
+      subline: "blog-einträge unserer community"
       menu_title: Planet
+      disclaimer_headline: "Der diaspora* Planet"
+      disclaimer: "Der Planet ist eine Sammlung von Blog-Einträgen, die von Mitgliedern unserer Community geschrieben wurden. Sie spiegeln die Meinung einzelner Community-Mitglieder wieder. Alle Einträge gehören den entsprechenden Autoren, in den Ursprungs-Einträgen sollten sich weitere Informationen finden."
+      subscribe_headline: Abonieren
+      subscribe: "Aktuelle Einträge aus dem Planet können über den %{feed_link} abonniert werden."
+      feed_link_title: Atom-Feed
+      subscriptions_headline: Abonnements
     tutorials:
       headline: "diaspora* Anleitungen"
       byline: "Schritt-für-Schritt Anleitungen, die dir helfen"
