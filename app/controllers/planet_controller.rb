@@ -10,5 +10,8 @@ class PlanetController < ApplicationController
 
   def feed
     @entries = Planet::Models::Entry.order(:published_at => :desc).limit 25
+    respond_to do |format|
+      format.atom { headers["Content-Type"] = 'application/atom+xml; charset=utf-8'}
+    end
   end
 end
