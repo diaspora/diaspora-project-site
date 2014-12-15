@@ -11,7 +11,7 @@ ia:
       copyleft: "CC-BY Le fundation diaspora*"
   title: "Le projecto diaspora*"
   newsfeed: ~
-  planet_feed: ~
+  planet_feed: "Planeta diaspora* (Atom)"
   layouts:
     application:
       wiki: Wiki
@@ -194,14 +194,14 @@ ia:
       menu_title: Blog
     planet:
       headline: Planeta
-      subline: ~
+      subline: "articulos de blog de nostre communitate"
       menu_title: Planeta
-      disclaimer_headline: ~
-      disclaimer: ~
-      subscribe_headline: ~
-      subscribe: ~
-      feed_link_title: ~
-      subscriptions_headline: ~
+      disclaimer_headline: "Planeta diaspora*"
+      disclaimer: "Le planeta es un collection de articulos de blog scribite per membros de nostre communitate e representa le opiniones de membros individual del communitate. Tote le articulos es le proprietate de lor autores. Vide le articulos original pro ulterior information."
+      subscribe_headline: Subscriber
+      subscribe: "Pro tener te al currente, subscribe te al %{feed_link} del planeta."
+      feed_link_title: "syndication Atom"
+      subscriptions_headline: Subscriptiones
     tutorials:
       headline: "tutoriales de diaspora*"
       byline: "Guidas passo post passo pro adjutar te"

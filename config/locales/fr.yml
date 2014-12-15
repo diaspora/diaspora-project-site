@@ -11,7 +11,7 @@ fr:
       copyleft: "CC-BY La fondation diaspora*"
   title: "Le projet diaspora*"
   newsfeed: Actualités
-  planet_feed: ~
+  planet_feed: "Planète diaspora* (Atom)"
   layouts:
     application:
       wiki: Wiki
@@ -194,14 +194,14 @@ fr:
       menu_title: Blog
     planet:
       headline: Planète
-      subline: ~
+      subline: "messages postés par notre communauté"
       menu_title: Planète
-      disclaimer_headline: ~
-      disclaimer: ~
-      subscribe_headline: ~
+      disclaimer_headline: "Planète diaspora*"
+      disclaimer: "Planète diaspora* rassemble des publications écrites par des membres de notre communauté et représentent les points de vue individuels des membres de la communauté. Tous les messages sont la propriété de leurs auteurs. Pour plus d'informations, se référer aux premiers messages postés."
+      subscribe_headline: S'inscrire
       subscribe: ~
       feed_link_title: ~
-      subscriptions_headline: ~
+      subscriptions_headline: Inscriptions
     tutorials:
       headline: "Tutoriels diaspora*"
       byline: "Guides pas à pas pour vous aider"

@@ -10,7 +10,7 @@ nl:
     footer:
       copyleft: "CC-BY The diaspora* Foundation"
   title: "Het diaspora* Project"
-  newsfeed: Nieuwskanaal
+  newsfeed: "De diaspora* Blog (Atom feed)"
   planet_feed: ~
   layouts:
     application:
@@ -193,7 +193,7 @@ nl:
       subline: "officiële aankondigingen"
       menu_title: Blog
     planet:
-      headline: Planeet
+      headline: "De diaspora* planeet"
       subline: ~
       menu_title: Planeet
       disclaimer_headline: ~
