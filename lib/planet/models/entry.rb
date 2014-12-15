@@ -8,7 +8,9 @@ module Planet
       def sanitized_body
         Sanitize.fragment(self.body, Sanitize::Config.merge(
           Sanitize::Config::BASIC,
-          :elements => Sanitize::Config::BASIC[:elements] + ['img', 'table']
+          :elements => Sanitize::Config::BASIC[:elements] + %w[img table],
+          :attributes => {'img' => %w[alt src title style]},
+          :css => Sanitize::Config::RELAXED[:css]
         ))
       end
     end
