@@ -7,10 +7,8 @@ module Planet
 
       def sanitized_body
         Sanitize.fragment(self.body, Sanitize::Config.merge(
-          Sanitize::Config::RELAXED,
-          :add_attributes => {
-            'a' => {'rel' => 'nofollow'}
-          }
+          Sanitize::Config::BASIC,
+          :elements => Sanitize::Config::BASIC[:elements] + ['img', 'table']
         ))
       end
     end
