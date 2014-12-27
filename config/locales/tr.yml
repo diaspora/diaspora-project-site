@@ -78,7 +78,7 @@ tr:
       discl: ~
       connect: "Ben nasıl bağlayabilirim?"
       connect_ex: ~
-      find: ~
+      find: "onları bulmak"
       find_ex: ~
       add: ~
       add_ex: ~
