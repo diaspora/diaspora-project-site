@@ -11,7 +11,7 @@ nl:
       copyleft: "CC-BY The diaspora* Foundation"
   title: "Het diaspora* Project"
   newsfeed: "De diaspora* Blog (Atom feed)"
-  planet_feed: ~
+  planet_feed: "De diaspora* Planet (Atom)"
   layouts:
     application:
       wiki: Wiki
@@ -194,14 +194,14 @@ nl:
       menu_title: Blog
     planet:
       headline: "De diaspora* planeet"
-      subline: ~
+      subline: "blogsberichten vanuit de community"
       menu_title: Planeet
-      disclaimer_headline: ~
-      disclaimer: ~
-      subscribe_headline: ~
-      subscribe: ~
-      feed_link_title: ~
-      subscriptions_headline: ~
+      disclaimer_headline: "De diaspora* planet"
+      disclaimer: "De planet is een verzameling van blogberichten die zijn geschreven door leden van de community en die de mening van de afzonderlijke leden weergeven. Alle berichten zijn eigendom van de auteurs. Zie de originele berichten voor meer informatie."
+      subscribe_headline: Abonneren
+      subscribe: "Je kunt op de hoogte blijven door je te abonneren op de planets %{feed_link}"
+      feed_link_title: "Atom feed"
+      subscriptions_headline: Abonnementen
     tutorials:
       headline: "diaspora* instructies"
       byline: "Stap-voor-stap gidsen om je te helpen"
@@ -430,7 +430,7 @@ nl:
       tags_ex3: "ALs je bericht mogelijjk aanstootgevend voor iemand kan zijn, of als iemand op z'n werk last krijgt door het bekijken ervan, voeg dan de <span class=\"click\">#nsfw</span> (“not safe for work”) tag toe aan het bericht, zodat het niet getoond wordt, tenzij de kijker er bewust voor kiest om het zien. We behandelen dit verder in %{part7_link}."
       mentions: "@vermeldingen"
       mentions_ex1: "Wist je dat je iemands aandacht kunt trekken door hem of haar te \"vermelden\"? Type gewoon een @-teken gevolgd door de naam van een van je contacten. Als je begint te typen (de weergavenaam, niet de gebruikersnaam), dan zal diaspora* de naam automatisch aanvullen. Druk op Enter of klik op de naam in het automatisch aanvulveld en je zult zien dat de volledige naam wordt getoond en dat het @-teken is verdwenen. Geen zorgen, het wordt een @vermelding als jet het bericht hebt geplaatst. De persoon die je vermeld krijgt een notificatie op de notificatiepagina en via de e-mail als hij of zij dat zo heeft ingesteld."
-      mentions_ex2: "Zo kunnen ook anderen jou @vermelden en dan krijg jij een notificatie in de werkbalk (en via de mail als je dat zo het ingesteld)."
+      mentions_ex2: "Zo kunnen ook anderen jou @vermelden en dan krijg jij een notificatie in de werkbalk (en via de mail als je dat zo hebt ingesteld)."
       mentions_ex3: "Weet wel dat je alleen mensen die in je aspecten staan kunt @vermelden; en dan ook alleen in berichten, niet in de reacties."
       format: Tekstopmaak
       format_ex: "Er zijn verschillende dingen die je kunt doen om je tekst te variëren: vet, schuin, kopteksten enz. diaspra* gebruikt een simpele opmaak syntax, genaamd Markdown. Die zullen we niet in detail bespreken, we bespreken wel hoe je Markdown gebruikt in %{format_link}."
@@ -438,20 +438,20 @@ nl:
       links: Links
       links_ex: "Wil je een link in je bericht opnemen? Plak die gewoon in ke tekst en de link wordt automatisch omgezet naar een hyperlink. Je kunt ook de link invoeren met behulp van Markdown. Je kunt de <span class=\"click\">Voorbeeld</span> knop gebruiken om te controleren of je links werken."
       embed: Inbedden
-      embed_ex1: "Je kunt ook links naar mediasites als Youtube, Vimeo, Soundcloud en andere, waarna het video of audio wordt ingebed in je bericht. Probeer het eens!"
-      embed_ex2: "Weet wel dat audio/video pas wordt ingebed <en>nadat</em>  je het bericht hebt gepubliceerd. Je moet dus een refresh of F5 geven om het te zien. Soms kost het even wat tijd voordat de site waar je naar linkt de juiste reactie terugstuurt, dus soms moet je even wat langer wachten voordat je je stream ververst."
+      embed_ex1: "Je kunt ook links naar mediasites als Youtube, Vimeo, Soundcloud en andere plakken, waarna het video- of audiofragment wordt ingebed in je bericht. Probeer het eens!"
+      embed_ex2: "Let erop dat audio/video pas wordt ingebed <en>nadat</em> je het bericht hebt gepubliceerd. Je moet dus een refresh of F5 geven om het te zien. Soms kost het even wat tijd voordat de site waar je naar linkt de juiste reactie terugstuurt, dus soms moet je even wat langer wachten voordat je je stream ververst."
       services: "Berichten plaatsen op andere services"
       services_ex1: "Als je je diaspora* account hebt verbonden aan je accounts bij andere services, dan kun je je bericht automatisch op die services plaatsen door op één of meer van die pictogrammen te klikken."
       services_ex2: "Als je begint te typen terwijl één of meer van die pictogrammen geselecteerd is, zal een teller aangeven hoeveel tekens je nog kunt gebruiken: 140 voor Twitter, 1000 voor Tumblr, 63206 voor Facebook. In diaspora* heb je zelfs 65535 tekens beschikbaar. De teller laat altijd het laagste beschikbare aantal zien; dus als je Twitter en Facebook hebt geselecteerd, dan wordt afgeteld vanaf 140 tekens."
-      services_ex3: "Als je bericht langer is dan het aantal dat de aangesloten server aankan, dan wordt het daar gedeelde bericht ingekort met een link naar je bericht op diaspora*."
+      services_ex3: "Als je bericht langer is dan het aantal dat de aangesloten service aankan, dan wordt het daar gedeelde bericht ingekort met een link naar je bericht op diaspora*."
       how: "Hoe vind je dat? Je kunt dus heel veel doen met je berichten in diaspora*."
       try_out: "Om het eens te proberen, zullen we eens een openbare aankondiging plaatsen dat je binnen bent gekomen? Dat is een goede manier om welkom geheten te worden door de mensen in de gemeenschap en om relaties aan te gaan."
       make_post1: "Om een openbaar bericht te plaatsen hoef je alleen de aspect selector knop op <span class=\"click\">Openbaar</span> in te stellen en je bericht te typen. Als je dat nog niet eerder deed, introduceer jezelf dan bij de diaspora* gemeenschap door de <span class=\"click\">#nieuwhier</span> tag te gebruiken. Hierdoor zien de mensen die de #nieuwhier tag volgen jouw bericht en kunnen je dan welkom heten. Voeg ook een paar van je interesses als #tags toe en je zult zien dat meer mensen met soortgelijke interesses je vinden. Je bericht kan iets zijn als:"
-      make_post2: "Hoi iedereen, ik ben #newhere / #nieuwhier in diaspora*. Ik hou van #joggen, #literatuur en #konijnen."
+      make_post2: "Hoi iedereen, ik ben #newhere / #nieuwhier in diaspora*. Ik hou van #hardlopen, #literatuur en #konijnen."
       make_post3: "Je zou ook een niet openbaar bericht kunnen maken. Als dat zo is, prima, je weet nu in ieder geval hoe het kan."
       interact: "Interactie met berichten in de stream"
-      interact_ex1: "De stream is een real-time overzicht van statusberichten. Als iemand die je volgt een bericht plaatst, dan wordt dat in jouw stream getoond. En je kunt reageren op zowel je eigen berichten, als die van anderen. Je kunt ook berichten van anderen \"leuk\" vinden en verder \"delen\" en als iemand iets publiceert dat je niet leuk vindt, dan kun je dat verbergen. Dit gebeurt allemaal in de stream, die je vindt onder het tekstinvoerveld."
-      interact_ex2: "Vergeet niet dat er verschillende streams afhankelijk zijn van het overzicht dat je gebruikt: <span class=\"click\">Stream</span>, <span class=\"click\">Mijn activiteit</span>, <span class=\"click\">@Vermeldingen</span>, <span class=\"click\">Mijn Aspecten</span> of <span class=\"click\">#Gevolgde Tags</span>. Hoewel het overzicht bepaalt welke berichten je in je stream ziet, kun je toch altijd op dezelfde manier interacteren met elk van de berichten in elk van de overzichten."
+      interact_ex1: "De stream is een real-time overzicht van statusberichten. Als iemand die je volgt een bericht plaatst, dan wordt dat in jouw stream getoond. En je kunt reageren op zowel je eigen berichten, als op die van anderen. Je kunt ook berichten van anderen \"leuk\" vinden en verder \"delen\" en als iemand iets publiceert dat je niet leuk vindt, dan kun je dat verbergen. Dit gebeurt allemaal in de stream, die je vindt onder het tekstinvoerveld."
+      interact_ex2: "Vergeet niet dat er verschillende streams afhankelijk zijn van het selectie die je maakt: <span class=\"click\">Stream</span>, <span class=\"click\">Mijn activiteit</span>, <span class=\"click\">@Vermeldingen</span>, <span class=\"click\">Mijn Aspecten</span> of <span class=\"click\">#Gevolgde Tags</span>. Hoewel het overzicht bepaalt welke berichten je in je stream ziet, kun je toch altijd op dezelfde manier interacteren met elk van de berichten in elk van de overzichten."
       comments: Reacties
       comments_ex: "Als er nog geen reacties staan bij een bericht, klik dan op <span class=\"click\">Reageren</span> om het reactieveld te openen. Als er al reacties onder een bericht staan, wordt het reactieveld automatisch getoond. Als er meer dan drie reacties zijn geplaatst, dan worden alleen de drie laatste getoond. Je kunt de andere reacties wel laten weergeven door te klikken op "
       likes: "Leuk vinden"
@@ -475,7 +475,7 @@ nl:
       intro: "De laatste functie die je beslist moet kennen is \"gesprekken\". Maar voor we dat doen, leggen we eerst de \"Meldingen\"-functie uit."
       notify: Meldingen
       notify_ex1: "Door te klikken op het meldingenpictogram (dat lijkt op een satelliet) krijg je een uitklaplijst met de 5 meest recente meldingen. Als je ongelezen meldingen hebt, dan verschijnt er een rood gekleurd getalletje over het pictogram heen."
-      notify_ex2: "Meldingen zien eruit als \"Persoon A heeft gereageerd op Persoon B's bericht\", \"Persoon A deelt nu met jou\", of \"Persoon A heeft je vermeld in een bericht\". Vanuit deze uitklaplijst kun je:"
+      notify_ex2: "Meldingen zien eruit als \"Persoon A heeft gereageerd op Persoon B's bericht\", \"Persoon A deelt nu met jou\", of \"Persoon A heeft je vermeldt in een bericht\". Vanuit deze uitklaplijst kun je:"
       notify_ls1: "Klik op de naam van de persoon om de profielpagina te bekijken."
       notify_ls2: "Klik op <span class=\"click\">bericht</span> om het bericht te zien."
       notify_ls3: "Klik op <span class=\"click\">Markeer alles als gelezen</span>."
@@ -486,11 +486,13 @@ nl:
       convo_ex2: "De gesprekkenpagina bestaat uit twee kolommen: links staat een overzicht met de gesprekken waaraan je meedoet; rechts een overzicht met het momenteel geselecteerde gesprek (als dat speelt)."
       convo_ex3: "Gebruik de <span class=\"click\">Nieuw bericht</span> knop bovenaan de linkerkolom om een nieuw gesprek te voeren. De knop opent een venster waarin je de tekst kunt schrijven en de personen kunt toevoegen voor wie het bericht bestemd is."
       convo_ex4: "Je kunt alleen gesprekken voeren met personen met wie je over en weer deelt."
-      convo_ex5: "Als je een naam typt in het \"Aan\" veld, wordt de naam automatisch aangevuld, net als bij het vermelden in een bericht, Klik op de maam die je zoekt, voer een onderwerp in, tik je berichtje in en klaar is kees! Zo simpel is het. Je kunt natuurlijk ook tekstopmaak gebruiken, due voel je vrij om vette titels en kopteksten in je bericht op te nemen."
-      convo_ex6: ~
-      convo_ex7: ~
-      convo_ex8: ~
-      convo_ex9: ~
+      convo_ex5: "Als je een naam typt in het \"Aan\" veld, wordt de naam automatisch aangevuld, net als bij het vermelden in een bericht, Klik op de naam die je zoekt, voer een onderwerp in, tik je berichtje in en klaar is kees! Zo simpel is het. Je kunt natuurlijk ook tekstopmaak gebruiken, due voel je vrij om vette titels en kopteksten in je bericht op te nemen."
+      convo_ex6: "In de linkerkolom zie je een overzicht met gesprekken, met de titel, profielfoto van de persoon die het gesprek startte, de naam van de laatste persoon die reageerde; aan de rechterkant het aantal berichten binnen het gesprek (in grijs, ongelezen berichten zijn rood weergegeven), de tijd sinds de laatste reactie; en onderaan een \"meervoudige personen\" pictogram als er meer dan één persoon buiten jouzelf zijn betrokken. Verplaats je cursor over dit pictogram om de andere deelnemers te zien."
+      convo_ex7: "Je kunt het gesprek nalezen door er in de linkerkolom op te klikken, waarna het rechts getoond wordt. Linksboven zie je de lijst met deelnemers (inclusief de personen die nog niet hebben gereageerd). Let hier op, voordat je begint met roddelen! Er kunnen meer personen meedoen, die allemaal jouw reacties kunnen lezen."
+      convo_ex8: "Reageren op een gesprek wijst zichzelf. Als het wordt getoond, typ dan gewoon je reactie in het tekstveld onderaan het gesprek en druk op de <span class=\"click\">Reageren</span> knop."
+      convo_ex9: |-
+          Je kunt een gesprek uit het overzicht verwijderen. Dat kun je doen door het gesprek in de linkerkolom te selecteren en dan op de  <span class="click">x</span> rechtsboven te klikken.
+          Blokkeren van een gesprek betekent dat je het verwijdert uit het overzicht met gesprekken en dat je geen nieuwe reacties meer ontvangt. Het is dus wel mogelijk dat de andere deelnemers op elkaars berichten reageren - jij ziet die dan alleen niet meer.
       finish: "Meer is er eigenlijk niet te zeggen over gesprekken. Je bent nu ook bijna door de instructies heen. Tijd voor het laatste deel!"
     getting_started7:
       byline: "Deel 7 - Afronden"
@@ -502,27 +504,27 @@ nl:
       connect_ex3: "Om met een andere service te vebinden klik je op de pictogram van die dienst bij <span class=\"click\">Verbind diensten</span> in de rechterkolom van je stream. Als je binnen jezelfde browser ook al bent ingelogd op die service, dan ben je automatisch herkend. Als je nog niet bent ingelogd, dan vraagt de service om nu in te loggen. Als je bent ingelogd, dan vraagt de dienst of je dienst wilt koppelen. Accepteer dit en je kunt hierna berichten  vanaf diaspora direct ook naar die dienst publiceren*!"
       connect_ex4: "Als je nu klikt in het tekst invoerveld, dan zie je het pictogram van die dienst onder het tekstveld. Klik op dit pictogram om te activeren en je bericht verschijnt ook in de tijdlijn van die dienst. Slim, nietwaar? Zie %{part5_link} voor meer informatie over het publicere naar verbonden diensten."
       settings: Accountbeheer
-      settings_ex1: ~
+      settings_ex1: "Het laatste onderdeel waar we voor je begint aandacht aan moeten schenken is de instellingenpagina. Om daar te komen klik je op je profielafbeelding of je naam in de werkbalk en, daarna, kies je <span class=\"click\">Instellingen</span> uit het uitklapmenu. Hier zie je dan een overzicht met de account mogelijkheden."
       settings_ex3: "Bovenaan de account instellingen pagina staan vier links: Profiel, Account, Privacy en Diensten."
       profile: Profiel
-      profile_ex: ~
+      profile_ex: "Op deze pagina kun je je profielinformatie wijzigen, uitbreiden of verwijderen. Ga terug naar het eind van %{part1_link} als je wilt teruglezen hoe je dit bewerkt. Vergeet niet op de <span class=\"click\">Bijwerken</span> knop onderaan te drukken als je klaar bent!"
       account: Account
-      account_ex1: ~
-      account_ex2: ~
-      account_ex3: ~
+      account_ex1: "Hier kun je je e-mailadres en wachtwoord wijzigen, je taal instellen, je e-mailnotificaties configureren, je gegevens downloaden en je account beëindigen. Ons uiteindelijke doel is dat je je gegevens kunt downloaden om ze later te gebruiken om je account naar een andere server te migreren. Momenteel is dat nog niet mogelijk. Je zou wel regelmatig jouw gegevens kunnen downloaden als een back-up."
+      account_ex2: "diaspora* heeft een zelfbesturende community standaard genaamd NSFW (not safe for work - niet verstandig onder werktijd). Als je van plan bent regelmatig berichten te plaatsten die niet passend zijn om op kantoor te laten bekijken, overweeg dan om NSFW aan te vinken. Dat zorgt ervoor dat je berichten standaard verborgen blijven achter de NSFW melding in de stream van gebruikers. Ze kunnen dan zelf besluiten om hierop te klikken als ze je berichten willen zien."
+      account_ex3: "Als je dit niet aanvinkt, dan stem je ermee in dat je niet op voorhand materiaal plaatst dat als aanstootgevend zou kunnen worden beschouwd, of waardoor anderen in problemen zouden kunnen komen als ze het in het openbaar zouden bekijken. Als je slechts af en toe dergelijk materiaal plaatst, dan hoef je het niet aan te binden maar moet je de span class=\"click\">#nsfw</span> tag toevoegen aan het betreffende bericht, waardoor het standaard wordt verborgen in de streams."
       account_ex4: "Als je dat wilt, dan kun je automatisch delen met iemand die begint om met jou te delen, zodat je automatisch over en weer deelt."
       privacy: Privacy
       privacy_ex: "Dit is de lijst van gebruikers die je negeert. Je kunt ze van de lijst verwijderen als je hun berichten weer wilt zien. Zie %{part5_link} voor informatie over het negeren van mensen."
       services: Diensten
       services_ex: "De Diensten pagina toont je verbonden diensten (bijv. Facebook, Twitter, Tumblr) en maakt het mogelijk nieuwe diensten aan je diaspora* account toe te voegen."
-      finish1: ~
+      finish1: "Bedankt voor het lezen van deze instructies! We hopen dat ze een zinvolle bijdrage leveren en dat je nu met vertrouwen diaspora* kunt gebruiken als je nieuwe netwerk. Als je vragen hebt, aanzel niet om een openbaar in diaspora* te plaatsen met de span class=\"click\">#help</span> of <span class=\"click\">#question</click> tags, zodat andere community leden je kunnen helpen. Er staat een hulpvaardige gemeenschap om je heen."
     formatting:
       byline: "Tekst opmaken"
       menu_title: "Tekst opmaken"
-      format1: ~
-      format2: ~
-      format3: ~
-      format4: ~
+      format1: "Binnen diaspora* kun je de tekst in je berichten, reacties en gesprekken opmaken via een eenvoudig opmaaksysteem genaamd Markdown. Op deze pagina geven we een korte introductie in de meest gebruikte opmaakopties."
+      format2: "Het eerste wat je moet weten is dat je twee keer een nieuwe regel moet opgeven om paragrafen te scheiden (behalve in lijsten), anders worden de paragrafen samengevoegd. Als je echt maar één scheidingsregel wilt gebruiken, plaats dan twee spaties aan het eind van de eerste paragraaf."
+      format3: "Hierbij is de <span class=\"click\">Voorbeeld</span> knop uiterst handig. Probeer wat opmaakopties, bekijk het voorbeeld, zoek uit wat niet goed werkt, herstel het en bekijk opnieuw, totdat je tevreden bent!"
+      format4: "In de onderstaande voorbeelden kun je de tekst in de grijze gebieden kopiëren en plakken in het tekstveld in diaspora* en de <span class=\"click\">Voorbeeld</span> knop gebruiken om het resultaat te zien."
       headings: Kopteksten
       headings_ex1: "Je kunt eerste, tweede en derde niveau kopteksten aan je bericht toevoegen door een hekjessymbool (#) aan het begin van een regel te typen, dus zo:"
       headings_code1: "Dit is een hele grote koptekst"
@@ -553,29 +555,29 @@ nl:
       line_code1: "Er staat een horizontale lijn tussen deze regel en de volgende."
       line_code2: "En nu kun je met de volgende sectie van je tekst beginnen."
       itals: "Schuin en vet"
-      itals_ex1: ~
+      itals_ex1: "Zet asterisks of liggende streepjes voor en achter een woord of serie woorden om ze cursef, vet of vet cursief weer te laten geven."
       itals_ex2: "<em>Schuin</em>: *word* of _word_"
       itals_ex3: "<strong>Vet</strong>: **word** of __word__"
       itals_ex4: "<strong><em>vet schuin</em></strong>: ***word*** or ___word___"
-      itals_ex8: ~
-      links: ~
-      link_ex1: ~
-      link_code: ~
-      link_ex2: ~
-      inline_link_text: ~
-      images: ~
-      images_ex1: ~
-      images_code: ~
-      images_ex2: ~
-      images_ex3: ~
-      escape_ex1: ~
-      escape_code: ~
-      escape_ex2: ~
-      escape_ex3: ~
-      symbols: ~
-      symbols_ex: ~
-      finish: ~
-      markdown_link_text: ~
+      itals_ex8: "Je moet natuurlijk wel een overeenkomstige aantal asterisks en liggende streepjes aan beide zijden plaatsen om de opmaak te laten lukken. Invoeren van “Ik wil dit als een **vet* woord tonen” laat het woord niet in vet weergeven."
+      links: "Inline links"
+      link_ex1: "Om een %{inline_link} te maken gebruik je de volgende code:"
+      link_code: "[weergegeven tekst hier](http://link.adres.hier \"alt tekst\")"
+      link_ex2: "De \"alt tekst\" is optioneel en wordt weergegeven als een pop-up tekst als de muiscursor over de link beweegt."
+      inline_link_text: "inline link"
+      images: Afbeeldingen
+      images_ex1: "Om externe afbeeldingen aan je bericht, reactie of provébericht toe te voegen, gebruik je dezelfde code als voor een link, maar met een uitroepteken vooraan:"
+      images_code: "![Alt tekst](http://website.com/afbeeldig.jpg \"optionele titel\")"
+      images_ex2: "Om dit te laten werken moet je een directie link naar een geldig afbeeldingsbestand opgeven, <em>niet</em> naar een webpagine met een of meer afbeeldingen."
+      images_ex3: "De alternatieve tekst in de vierkante haken wordt getoond als de afbeelding niet kan worden geladen en de optionele titel wordt als pop-up tekst getoond als de muiscursor over de afbeelding beweegt; beide kunnen handig zijn maar zijn niet noodzakelijk."
+      escape_ex1: "Als je in je bericht ook een teken wilt weergen dat ook in de Markdown opmaaktaal wordt gebruikt, dan kun je voorkomen dat Markdown het als opmaakcommando beschouwt door te 'escapen'. Doe dit door een 'backslash'( \\ ) voor het teken te plaatsen. Bijvoorbeeld ingeven van"
+      escape_code: "dit \\_ is een liggend streepje"
+      escape_ex2: "voorkomt dat Markdown het liggende streepje als een Markdown commando siet en laat diaspora* een liggend streepje plaatsen in plaats van er cursieve tekst achter weer te geven."
+      escape_ex3: "Je kunt wel \"diaspora*\" of \"D*\" typen zonder dat de asterisk als een opmaakopdracht wordt beschouwd."
+      symbols: "Speciale tekens"
+      symbols_ex: "Je kunt de volgende symbolen en andere speciale tekens maken door gebruik te maken van een combinatie van tekens:"
+      finish: "Er is een meer gedetailleerde beschrijving van de Markdown syntax %{markdown_link}"
+      markdown_link_text: "on deze pagina"
     tips:
       headline: "Tips voor het gebruik van diaspora*"
       byline: "Leuke trucjes die we hebben ontdekt"
@@ -589,29 +591,29 @@ nl:
       headline: "Overige documentatie"
       byline: "Meer hulp en informatie"
       menu_title: "Overige documentie"
-      intro1: ~
-      intro2: ~
+      intro1: "We hebben geprobeerd om in deze instructie de meest noodzakelijke informatie om met diaspora* te kunnen werken duidelijk te beschrijven. Maar je zult best nog wel eens een vraag hebben, of iets willen weten wat niet is beproken. Er zijn ook nog meer technische aspecten die hier niet zijn behandeld, zoals het opzetten van je eigen diaspora* server."
+      intro2: "Op deze pagina vind je links naar nuttige sites met instructies en meer informatie."
       tutorials: Instructies
-      parfait: ~
+      parfait: "een Franstalige instructie voor nieuwe diaspora* gebruikers"
       about: "Over diaspora*"
-      about1: ~
-      wiki: ~
+      about1: "Natuurlijk is er heel veel informatie over diaspora* hier op onze projectsite"
+      wiki: "%{wiki_link} - alles wat je moet weten over gebruik, ontwikkeling en installatie van diaspora*"
       wiki_link_text: "De officiële projectwiki"
-      wikipedia: ~
+      wikipedia: "Er zijn pagina's over %{wikipedia_link} en de %{wikipedia_software_link} op Wikipedia"
       wikipedia_link_text: diaspora*
       wikipedia_software_link_text: "diaspora* software"
-      support: ~
-      question: ~
-      mail: ~
-      mail_link_text: ~
-      irc: ~
-      irc_link_text: ~
-      progress: ~
-      blog: ~
-      blog_link_text: ~
-      changelog: ~
-      changelog_link_text: ~
-      loomio: ~
+      support: Gebruikersondersteuning
+      question: "Je kunt een <span class=\"click\">#question</span> stellen over diaspora*, om <span class=\"click\">#help</span> vragen, of een <span class=\"click\">#bug</span> melden in openbare berichten binnen diaspora* zelf"
+      mail: "Heb je een probleem dat je niet op kunt lossen? Bespreek het met ons via %{mail_link}"
+      mail_link_text: distributielijst
+      irc: "Of spreek met de diaspora* ontwikkelaars op onze %{irc_link}. Als je niet meteen een reactie krijgt, probeer het dan later nog eens."
+      irc_link_text: "IRC kanaal"
+      progress: "Project voortgang"
+      blog: "%{blog_link} - waar we belangrijke gebeurtenissen en updates aankondigen"
+      blog_link_text: "Project blog"
+      changelog: "%{changelog_link} - een overzicht van diaspora* ontwikkeling, inclusief nog niet officieel gepubliceerde mogelijkheden"
+      changelog_link_text: "Het wijzigingenlogboek"
+      loomio: "de online samenwerkingstool die we gebruiken om wijzigingen te bespreken en selecteren om diaspora* te verbeteren"
       communication: Communicatie
       communicate: "De %{communicate_link} op onze wiki geeft de details van al onze communicatiekanalen die we gebruiken."
       communicate_link_text: "\"Hoe we communiceren\""
