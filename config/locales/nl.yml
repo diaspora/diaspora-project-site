@@ -517,7 +517,7 @@ nl:
       privacy_ex: "Dit is de lijst van gebruikers die je negeert. Je kunt ze van de lijst verwijderen als je hun berichten weer wilt zien. Zie %{part5_link} voor informatie over het negeren van mensen."
       services: Diensten
       services_ex: "De Diensten pagina toont je verbonden diensten (bijv. Facebook, Twitter, Tumblr) en maakt het mogelijk nieuwe diensten aan je diaspora* account toe te voegen."
-      finish1: "Bedankt voor het lezen van deze instructies! We hopen dat ze een zinvolle bijdrage leveren en dat je nu met vertrouwen diaspora* kunt gebruiken als je nieuwe netwerk. Als je vragen hebt, aanzel niet om een openbaar in diaspora* te plaatsen met de span class=\"click\">#help</span> of <span class=\"click\">#question</click> tags, zodat andere community leden je kunnen helpen. Er staat een hulpvaardige gemeenschap om je heen."
+      finish1: "Bedankt voor het lezen van deze instructies! We hopen dat ze een zinvolle bijdrage leveren en dat je nu met vertrouwen diaspora* kunt gebruiken als je nieuwe netwerk. Als je vragen hebt, aanzel niet om een openbaar in diaspora* te plaatsen met de <span class=\"click\">#help</span> of <span class=\"click\">#question</click> tags, zodat andere community leden je kunnen helpen. Er staat een hulpvaardige gemeenschap om je heen."
     formatting:
       byline: "Tekst opmaken"
       menu_title: "Tekst opmaken"
