@@ -48,7 +48,7 @@ pl:
   errors:
     messages:
       already_confirmed: ~
-      confirmation_period_expired: "musi być potwierdzone w %{period}, proszę poprosić o nowy"
+      confirmation_period_expired: "musi być potwierdzone w przeciągu %{period}, proszę poprosić o nowy"
       expired: ~
       not_found: ~
       not_locked: ~

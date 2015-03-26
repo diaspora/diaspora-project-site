@@ -557,7 +557,7 @@ de:
       images_ex3: "Der alternative Text in den eckigen Klammern wird angezeigt, wenn das Bild nicht geladen werden kann, und der optionale Titel wird als Tooltip angezeigt, sofern der Mauszeiger über das Bild bewegt wird. Beides ist nützlich aber nicht unerlässlich."
       escape_ex1: "Wenn deine Nachricht ein Zeichen enthalten soll, dass auch im Markdown Code verwendet wird, kannst du die Umwandlung in eine Formatierung verhindern, indem du ein sogenanntes \"Escaping\" hinzufügst. Um dies zu tun, tippe einfach einen Backslash ( \\ ) vor das Zeichen. Zum Beispiel, die Eingabe von"
       escape_code: "dies \\_ zeigt einen Unterstrich an"
-      escape_ex2: "hindert Markdown daran, den Unterstrich als Markdown Code zu interpretieren und erlaubt diaspora* den Unterstrich darzustellen statt kursiven Text zu erzeugen."
+      escape_ex2: "verhindert das Markdown den Unterstrich als Code interpretiert und erlaubt diaspora* so den Unterstrich darzustellen, anstatt kursiven Text zu erzeugen."
       escape_ex3: "Jedoch kannst du \"diaspora*\" oder \"D*\" eingeben, ohne dass das Sternchen als Formatierungscode verwendet wird!"
       symbols: "Spezielle Zeichen"
       symbols_ex: "Die folgenden Symbole und andere Sonderzeichen kannst du erzeugen, indem du eine Kombination von Zeichen eingibst:"
@@ -576,7 +576,7 @@ de:
       headline: "Andere Unterlagen"
       byline: "Wo mehr Hilfe und Informationen zu finden sind"
       menu_title: "Andere Unterlagen"
-      intro1: "Wir haben versucht, alles Hauptsächliche für das Benutzen von diaspora* in dieser Bedienungsanleitung so klar wie möglich abzudecken. Trotzdem kann es sein, dass dir etwas immer noch unklar ist, oder du etwas wissen willst, was hier nicht erwähnt wurde. Es gibt auch mehr technische Einzelheiten, wie z.B. das Aufsetzen deines eigenen Pods, welche hier nicht erklärt sind."
+      intro1: "Wir haben versucht, das wesentliche zur Benutzung von diaspora* in dieser Bedienungsanleitung so klar wie möglich zu erklären. Trotzdem kann es sein, dass dir etwas immer noch unklar ist, oder du etwas wissen willst, was hier nicht erwähnt wurde. Es gibt auch mehr technische Einzelheiten, wie z.B. das Aufsetzen deines eigenen Pods, welche hier nicht erklärt sind."
       intro2: "Auf dieser Seite findest du Verweise zu anderen hilfreichen Seiten, die Anleitungen und mehr Informationen beinhalten."
       tutorials: Anleitungen
       parfait: "eine Anleitung in Französisch, für die, die neu bei diaspora* sind."

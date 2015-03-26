@@ -232,25 +232,25 @@ hu:
       other_docs_link_text: "egyéb dokumentumok"
       thanks: ~
     getting_started1:
-      byline: ~
-      menu_title: ~
+      byline: "1. Szakasz - Regisztráció"
+      menu_title: "Regisztráció a diaspora*-a"
       welcome: ~
       find_pod: ~
-      find_pod_ex1: ~
+      find_pod_ex1: "A legtöbb közösségi oldallal ellentétben, melyeknek központi szerverparkjuk van arra a célra, higy tárolják mindenki adatait mi nem tudunk egy specifikus linket megadni és azt mondani: regisztráljon itt. A diaspora* különbözik azoktól az oldalaktól azáltal, hogy <em>decentralizált</em>, megannyi hozzáférési ponttal. Mielőtt elkezdené, el kell döntenie, hogy melyik diaspora* szolgáltatóra regisztrál. Ezeket a kiszolgálókat pod-oknak hívjuk."
       find_pod_ex2: ~
       find_pod_ex3: ~
       wiki_link_text: ~
       find_pod_ex4: ~
       find_pod_ex5: ~
-      registration: ~
+      registration: Regisztráció
       registration1: ~
       registration2: ~
       registration3: ~
       registration4: ~
-      dhq_link_text: ~
+      dhq_link_text: "diaspora* HQ"
       registration5: ~
-      registration6: ~
-      registration7: ~
+      registration6: "Írja be a nevét az első mezőbe amit meg akar jeleníteni."
+      registration7: "Kattintson a gombra, hogy feltöltsön profilképet a számítógépéről."
       registration8: ~
       registration9: ~
       registration10: "<span class=\"click\">Irány a diaspora*!</span>"
@@ -258,17 +258,17 @@ hu:
       profile2: ~
       profile3: ~
       profile4: ~
-      finish: ~
+      finish: "Ez az!"
       finish_ex1: ~
       finish_ex2: ~
     getting_started2:
-      byline: ~
-      menu_title: ~
+      byline: "2. rész - a felület."
+      menu_title: "A felület használata"
       interface1: ~
       interface2: ~
       interface3: ~
       header: ~
-      header2: ~
+      header2: "a diaspora* logó ami vissza visz a hírolyamhoz."
       header3: ~
       header4: ~
       header5: ~

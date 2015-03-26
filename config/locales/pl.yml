@@ -193,7 +193,7 @@ pl:
       subline: "oficjalne ogłoszenia"
       menu_title: Blog
     planet:
-      headline: Planeta
+      headline: "Planeta diaspory*"
       subline: ~
       menu_title: Planeta
       disclaimer_headline: ~
@@ -208,7 +208,7 @@ pl:
       menu_title: Samouczki
       tutorials_ex1: ~
       tutorials_ex2: ~
-      started_head: "Wprowadzenie do diaspora*"
+      started_head: "Wprowadzenie do diaspory*"
       started1: Rejestracja
       started2: Interfejs
       started3: Aspekty
@@ -230,7 +230,7 @@ pl:
       more_tutorials: "Potrzebujesz więcej pomocy?"
       other_docs: "Sprawdź naszą stronę %{other_docs_link}, aby zobaczyć linki do innych stron."
       other_docs_link_text: "pozostała dokumentacja"
-      thanks: "Wielkie podziękowania dla Kevina Kleinmana, który stworzył oryginalne Diasporalne przewodniki, na których opierają się te samouczki"
+      thanks: "Wielkie podziękowania dla Kevina Kleinmana, który stworzył oryginalne przewodniki na Diasporial, na których opierają się te samouczki"
     getting_started1:
       byline: "Część 1 - Rejestracja"
       menu_title: "Rejestracja w diaspora*"
@@ -245,11 +245,11 @@ pl:
       registration: Rejestracja
       registration1: ~
       registration2: ~
-      registration3: "Zakończ rejestrację przez kliknięcie <span class=\"click\">Kontynuuj</span> by utworzyć i uzyskać dostęp do Twojego nowiutkiego zalążka diaspora*!"
+      registration3: "Zakończ rejestrację przez kliknięcie <span class=\"click\">Kontynuuj</span> by utworzyć i uzyskać dostęp do Twojego nowiutkiego konta diaspora*!"
       registration4: ~
-      dhq_link_text: "siedziba główna diaspora*"
+      dhq_link_text: "kwatera główna diaspory*"
       registration5: ~
-      registration6: "Wprowadź nazwę, którą chcesz wyświetlać na ekranie w pierwszym polu."
+      registration6: "W pierwszym polu wprowadź nazwę, którą chcesz wyświetlać na ekranie."
       registration7: "Kliknij przycisk by przesłać zdjęcie profilowe z Twojego komputera."
       registration8: ~
       registration9: ~
@@ -269,31 +269,31 @@ pl:
       interface3: "Główny interfejs może być podzielony na cztery części."
       header: ~
       header2: "logo diaspora*, które przekierowuje Cię z powrotem do strony strumienia;"
-      header3: "linki do stron Twojego Strumienia i Mojej aktywności"
+      header3: "linki do stron Strumienia i Mojej aktywności;"
       header4: "ikona powiadomień (zajmiemy się tym w %{part6_link});"
-      header5: "ikona rozmów (zajmiemy się tym również w %{part6_link});"
+      header5: "ikona rozmów (również opisana w %{part6_link});"
       header6: "pasek wyszukiwania (więcej o nim w %{part4_link});"
-      header7: "personalne menu rozwijane z:"
+      header7: "osobiste menu rozwijane zawierające:"
       header8: " link do strony Twojego profilu (zobacz %{part1_link});"
       header9: "link do listy Twoich kontaktów (zobacz %{part4_link});"
       header10: "link do strony Twoich ustawień konta (zobacz %{part7_link});"
-      header11: "link do sekcji pomocy"
+      header11: "link do sekcji pomocy;"
       header12: "przycisk wylogowywania."
       columns: "Pod nagłówkiem znajdują się trzy kolumny:"
       column1: ~
-      column2: "Centralna kolumna zawiera strumień treści z oknem \"publikujący\". Zajmiemy się tym w %{part4_link}."
+      column2: "Środkowa kolumna zawiera strumień treści z oknem \"publikacji\" na górze. Zajmiemy się tym w %{part4_link}."
       column3: ~
-      views: "Różne widoki dostępne w diaspora* to:"
+      views: "Różne widoki dostępne w diasporze* to:"
       stream: Strumień
-      stream_ex: "Strumień to Twoja strona domowa w diaspora*. Agreguje on wszystkie wpisy dostępne dla Ciebie. To znaczy:"
+      stream_ex: "Strumień to Twoja strona domowa w diasporze*. Zbiera on wszystkie wpisy dostępne dla Ciebie. To znaczy:"
       stream1: "wpisy utworzone przez Twoje kontakty;"
       stream2: "publiczne wpisy zawierające #tagi które obserwujesz;"
-      stream3: "wpisy które Cię @wzmiankują."
-      stream_ex2: "Wpisy w strumieniu są posortowane względem czasu oryginalnego wpisu."
+      stream3: "wpisy które o Tobie @wspominają."
+      stream_ex2: "Wpisy w strumieniu są posortowane według czasu oryginalnego wpisu."
       activity: "Moja aktywność"
       activity_ex: ~
       mentions: "@Wzmianki"
-      mentions_ex: "Te listy wpisów utworzonych przez inne osoby @wzmiankujące Cię. Przedyskutujemy wzmianki w %{part4_link}."
+      mentions_ex: "Te listy wpisów utworzonych przez inne osoby @wspominające o Tobie. Przedyskutujemy wzmianki w %{part4_link}."
       aspects: "Moje aspekty"
       aspects_ex1: ~
       aspects_ex2: ~
@@ -309,7 +309,7 @@ pl:
       profile_ex6: ~
       finish: ~
     getting_started3:
-      byline: "Część 3 - Aspekty"
+      byline: "Część 3 – Aspekty"
       menu_title: "Wszystko o aspektach"
       aspects1: ~
       aspects2: ~
@@ -322,10 +322,10 @@ pl:
       my_aspects1: ~
       my_aspects2: "Teraz wszystkie Twoje aspekty powinny być zaznaczone, z ptaszkami obok nich."
       my_aspects3: "Możesz klikać aspekty w menu by je zaznaczyć lub odznaczyć."
-      my_aspects4: "Możesz wybrać tylko jeden aspekt lub jakąkolwiek ich kombinację."
+      my_aspects4: "Możesz wybrać tylko jeden aspekt lub jakikolwiek ich zestaw."
       my_aspects5: ~
       my_aspects6: ~
-      my_aspects7: "Ten system wyboru ma zastosowania:"
+      my_aspects7: "Ten system wyboru ma dwa zastosowania:"
       my_aspects8: ~
       my_aspects9: ~
       contacts: ~
@@ -337,14 +337,14 @@ pl:
       contact_ex7: ~
       sharing_me: ~
       sharing_me_ex: ~
-      finish: "Teraz kiedy rozumiesz aspekty, zróbmy kilka powiązań."
+      finish: "Teraz kiedy rozumiesz aspekty, ustanówmy kilka powiązań."
     getting_started4:
-      byline: "Część 4 - Szukanie i łączenie się z ludźmi"
+      byline: "Część 4 – Szukanie i łączenie się z ludźmi"
       menu_title: "Jak połączyć się z ludźmi"
       aspects1: ~
       sharing: Udostępnianie
       sharing_ex: ~
-      relationships: "W diaspora* istnieją trzy typy relacji pomiędzy użytkownikami:"
+      relationships: "W diasporze* istnieją trzy typy powiązań pomiędzy użytkownikami:"
       followers: Obserwujący
       followers_ex1: ~
       followers_ex2: ~
@@ -564,13 +564,13 @@ pl:
       finish: ~
       markdown_link_text: ~
     tips:
-      headline: "Wskazówki korzystania z diaspora*"
+      headline: "Wskazówki jak korzystać z diaspory*"
       byline: "Kilka użytecznych trików, które odkryliśmy"
-      menu_title: "Wskazówki korzystania z diaspora*"
+      menu_title: "Wskazówki jak korzystać z diaspory*"
       intro: ~
       profile: ~
       profile_ex: ~
-      notepad: "Używaj diaspora* jako notatnika"
+      notepad: "Używaj diaspory* jako notatnika"
       notepad_ex: ~
     other_docs:
       headline: "Pozostała dokumentacja"
@@ -580,7 +580,7 @@ pl:
       intro2: ~
       tutorials: ~
       parfait: ~
-      about: "O diaspora*"
+      about: "O diasporze*"
       about1: ~
       wiki: ~
       wiki_link_text: "Oficjalna strona wiki projektu"
@@ -589,7 +589,7 @@ pl:
       wikipedia_software_link_text: "oprogramowanie diaspora*"
       support: ~
       question: ~
-      mail: "Masz problem, którego nie umiesz rozwiązać? Odezwij się do na naszej %{mail_link}"
+      mail: "Masz problem, którego nie umiesz rozwiązać? Odezwij się do nas na naszej %{mail_link}"
       mail_link_text: ~
       irc: ~
       irc_link_text: ~

@@ -3,7 +3,7 @@ pt-PT:
     formats:
       blog_headline: "%d %B %Y"
   buttons:
-    host_pod: "Hospede um \"Pod\""
+    host_pod: "Hospede um \"Servidor\""
     join_diaspora: "Junte-se a nós!"
     find_more: "Saber mais »"
   meta:
@@ -43,7 +43,7 @@ pt-PT:
       privacy_about: "No diaspora* você é o dono dos seus próprios dados. Não está a entregar a qualquer empresa quaisque direitos ou outtros interesses que poderiam ser utilizados. Com o diaspora*, os seus amigos, os seus hábitos e o conteúdo só a si lhe dizem respeito ... não a nós! Em adição, você pode escolher quem vê o que compartilha, utilizandos o 'Aspetos'."
       get_started: "Pretende iniciar-se?"
       get_started_sub: "É tão simples como, 1, 2, 3 ..."
-      choose_pod: "1. Escolha um 'Pod'"
+      choose_pod: "1. Escolha um servidor"
       choose_pod_exp: ~
       sign_up: "2. Registar"
       sign_up_ex: "Assim que tiver decidido qual o 'pod' correto para si, baseado nas classificações e informação em %{poduptime} e talvez recomendações de pessoas que confia, registe-se lá e crie um perfil com a informação pessoal que desejar. Está em controle sobre o que pretende compartilhar."
@@ -63,16 +63,16 @@ pt-PT:
       keyhole_alt: Privado
       aspects_alt: Aspetos
       features_alt: Funções
-      ways_to_help_alt: "Como pode ajudar"
+      ways_to_help_alt: "Modos para ajudar"
       services_alt: Serviços
     about:
       headline: "Como é que o diaspora* funciona?"
-      byline: "O Diaspora* é simples de usar – aqui tem como"
-      menu_title: "Sobre o Programa"
+      byline: "O diaspora* é simples de usar – aqui tem como"
+      menu_title: Sobre
       decentralize: "O que é a descentralização?"
       decentralize_ex: "Diaspora* é completamente diferente da maioria das redes que utiliza. Este é completamente descentralizado, sem um 'hub' central. Ainda assim, é muito fácil para se conetar e comunicar com as pessoas. Veja como."
       this: ISTO
-      this_ex: "O diáspora* é uma rede verdadeira, sem nenhuma base central. Existem servidores (chamados de \"pods\") em todo o mundo, contendo cada um, os dados de todos os utilizadores que optarem por se registar nele. Estes \"pods\" comunicam facilmente uns com os outros, de modo que pode registar-se em qualquer \"pod\" e comunicar livremente com os seus contactos, onde quer que eles estejam na rede."
+      this_ex: "O diaspora* é uma rede verdadeira, sem nenhuma base central. Existem servidores (chamados de \"pods\") em todo o mundo, contendo os dados de todos os utilizadores que optaram por se registar nele. Estes \"pods\" comunicam facilmente uns com os outros, de modo que pode registar-se em qualquer \"pod\" e comunicar livremente com os seus contactos, onde quer que eles estejam na rede."
       notthis: "ISTO NÃO"
       notthis_ex: "A maior parte das redes sociais são geridas em servidores centralizados, controladas e geridas por corporações. Estas guardam todos os dados privados de todos os seus utilizadores. Esta informação pode ser perdida ou piratiada, e tal como qualquer sistema com um 'bottleneck', qualquer problema nos servidores centrais pode fazer com que toda a rede fique muito lenta, ou nem por isso. E também é muito fácil para os governos as “vigiarem.”"
       discl: "(o diaspora* utiliza os padrões da web aberta, tais como, %{pubsubhubub} e %{webfinger} para tornar este tipo de conexão possível.)"
@@ -116,12 +116,12 @@ pt-PT:
       mentions_ex: "Deseja chamar a atenção de alguém? Basta @mencioná-los! É uma forma fácil para alertar um dos seus contactos quando achar que há algo que eles deviam saber."
       love: Amor
       love_ex: "Mostre o seu apreço por algo que goste, gostando(♥). Porque ás vezes as palavras não são suficientes para dizer o que sente."
-      host: "Hospede um \"Pod\" Comunitário"
+      host: "Hospede um servidor comunitário"
       host_byline: "Seja uma das estrelas do diasporas*"
       host_ex: ~
-      hostinst1: "Consulte as %{instructions_link}, e configure o seu próprio \"Pod\" Comunitário."
-      instructions_link_text: "Instruções da instalação do \"Pod\""
-      hostinst2: "Veja uma lista de 'pods' comunitários em %{poduptime}"
+      hostinst1: "Consulte as %{instructions_link}, e configure o seu próprio servidor comunitário."
+      instructions_link_text: "Instruções da instalação do servidor"
+      hostinst2: "Veja uma lista de servidores comunitários em %{poduptime}"
       distributed_network: "Rede distribuída"
       centralized_network: "Rede centralizada"
       search_alt: Procurar
@@ -177,23 +177,23 @@ pt-PT:
       irc_channel_link_text: "Canal IRC"
       support_ex5: "Contribua para %{wiki_link}."
       wiki_link_text: "wiki diaspora*"
-      run_header: "Mantenha um \"Pod\" público"
+      run_header: "Mantenha um servidor público"
       run_ex1: ~
-      host_pod_link_text: "hospedar os \"Pods\" de terceiros no diaspora*"
+      host_pod_link_text: "hospedar os servidores de terceiros no diaspora*"
       run_ex2: "Pode hospedá-lo em qualquer lugar."
-      run_ex3: "Adicione o seu 'pod' à lista de 'pods' abertos em %{poduptime}."
+      run_ex3: "Adicione o seu servidor à lista de servidores abertos em %{poduptime}."
       contributors_header: "colaboradores do diaspora*"
       contributors_byline: "As pessoas que tornam possível ao diáspora* ser o que é"
       globe_alt: Globo
       megaphone_alt: Megafone
       support_alt: Suporte
-      pod_alt: Pod
+      pod_alt: Servidor
     blog:
       headline: "O blogue diaspora*"
       subline: "Anúncios Oficiais"
       menu_title: Blogue
     planet:
-      headline: Planeta
+      headline: "O Planeta diaspora*"
       subline: ~
       menu_title: Planeta
       disclaimer_headline: ~
@@ -235,11 +235,11 @@ pt-PT:
       byline: "Parte 1 - Registo"
       menu_title: "Registo no diaspora*"
       welcome: "Bem-vindo ao nosso guia de “Iniciação ...”. Se está nesta página, é porque provavelmente já se registou no diaspora* ou está a pensar fazê-lo. Nesta série de tutoriais, nós iremos guiá-lo no processo de registo e prepará-lo com o básico sobre como é que o diaspora* funciona. Nós esperamos que isto lhe seja útil e que aproveite a utilização do diaspora*!"
-      find_pod: "Encontrar um \"Pod\""
+      find_pod: "Encontrar um servidor"
       find_pod_ex1: ~
       find_pod_ex2: ~
-      find_pod_ex3: "Para o ajudar a escolher qual o melhor \"Pod\" para si, vá até %{wiki_link} para ajuda."
-      wiki_link_text: "guia para escolher um \"Pod\""
+      find_pod_ex3: "Para o ajudar a escolher qual o melhor servidor para si, consulte o nosso %{wiki_link} para ajuda."
+      wiki_link_text: "guia para escolher um servidor"
       find_pod_ex4: ~
       find_pod_ex5: ~
       registration: Registo
@@ -268,7 +268,7 @@ pt-PT:
       interface2: ~
       interface3: "A interface principal pode ser dividida em quatro partes."
       header: ~
-      header2: "o logótipo do diaspora*, que o leva de volta à página stream;"
+      header2: "o logótipo do diaspora*, que o leva de volta à página de transmissão;"
       header3: "hiperligações para as suas páginas de Transmissão e Minha Atividade;"
       header4: ~
       header5: ~
@@ -567,7 +567,7 @@ pt-PT:
       headline: "Dicas sobre como utilizar o diaspora*"
       byline: "Alguns truques úteis que nós descobrimos"
       menu_title: "Dicas para utilizar o diaspora*"
-      intro: "Há muito mais que pode efetuar como o diaspora*. Aqui tem uma pequena seleção de dicas que poderá gostar."
+      intro: "Há muito mais que pode efetuar com o diaspora*. Aqui tem uma pequena seleção de dicas que poderá gostar."
       profile: "Campos extra do perfil"
       profile_ex: ~
       notepad: ~
