@@ -32,24 +32,24 @@ sk:
   pages:
     index:
       headline: "Vitaj v diaspora*"
-      byline: ~
+      byline: "On-line sociálny svet kde kontrolu máte vy"
       register: "Registrácia »"
-      key_philosophies: ~
+      key_philosophies: "diaspora* je založená na troch kľúčových filozofiách:"
       decentralization: Decentralizácia
-      decentralization_about: ~
+      decentralization_about: "Namiesto toho aby dáta každého boli obsiahnuté v obrovských centrálnych serveroch vlastnené veľkou organizáciou, miestne servery (\"pody\") môžu byť spustené hocikde na svete. Môžete si vybrať na ktorom pode sa registrujete - možno aj na vašom miestnom pode - a bezproblémovo sa spájať s diaspora* komunitou po celom svete."
       freedom: Sloboda
-      freedom_about: ~
+      freedom_about: "Môžete byť hocikým chcete na diaspore*. Na rozdiel od niektorých sietí, nemusíte používať vašu pravú identitu. Môžete komunikovať s hocikým si vyberiete hocakým spôsobom chcete. Jediná hranica je vaša predstavivosť. diaspora* je takisto Slobodný Softvér, dávajúci vám slobodu používať ju ako si len prajete."
       privacy: Súkromie
-      privacy_about: ~
+      privacy_about: "Na diaspore* vy vlastníte vaše dáta. Neprenášate svoje práva korporácii alebo iným záujemcom, ktorí by to mohli využiť. S diasporou* vaši priatelia, vaše zvyky, a váš obsah sú vaša vec... nie naša! Navyše vy si vyberáte kto vidí čo zdieľate, pomocou kategórii."
       get_started: "Chcete začať?"
-      get_started_sub: ~
-      choose_pod: ~
-      choose_pod_exp: ~
-      sign_up: ~
-      sign_up_ex: ~
+      get_started_sub: "Je to ľahké ako 1, 2, 3..."
+      choose_pod: "1. Vyberte si pod"
+      choose_pod_exp: "Nájdite si pod ktorý vám sedí. Možno uprednostníte menší pod, alebo nejaký blízko miesta kde bývate, alebo nejaký v krajine kde viete že sú dobré zásady zabezpečenia dát. Výber je váš! Vyberte si spomedzi našich komunitných podov, trebárs nejaký blízko vašej lokality."
+      sign_up: "2. Zaregistrujte sa"
+      sign_up_ex: "Akonáhle sa rozhodnete ktorý pod je pre vás ten pravý, na základe hodnotení a informácií na %{poduptime} a možno odporučení od ľudí ktorím dôverujete, zaregistrujte sa tam a vytvorte si profil s toľko veľa alebo toľko málo informáciami ako sa vám páči. Vy máte pod kontrolou to o koľko veľa sa podelíte."
       join_convo: "3. Pripojiť sa do konverzácie"
-      join_convo_ex: ~
-      aspects: ~
+      join_convo_ex: "Začnite pridaním nejakých #štítkov týkajúcich sa vašich záujmov: môže to byť <span class=\"click\">#hudba</span>, <span class=\"click\">#fotografovanie</span>, <span class=\"click\">#súkromie</span> alebo <span class=\"click\">#linux</span> - hocičo v čom máte záľubu. Zdielajte verejný príspevok so štítkom <span class=\"click\">#nováčik</span> aby ste sa predstavili, a ste pripravený. Teraz ste súčasťou pulzujúcej diaspora* komunity."
+      aspects: Kategórie
       aspects_ex: ~
       features: ~
       features_ex: ~
@@ -79,13 +79,13 @@ sk:
       connect: "Ako sa pripojiť?"
       connect_ex: "Hoci je diaspora* tvorená množstvom podov po celom svete, budete ju vnímať ako jedinu integrovanú sieť. Nepotrebujete byť na rovnakom pode ako vaše kontakty, aby ste s nimi mohli voľne komunikovať - komunikácia prebieha plynule prostredníctvom všetkých podov v diaspora* \"vesmíre\" . Pri používaní siete diaspora* ľahko zabudnete, že sa v skutočnosti skladá z mnohých podov. Spojiť sa s niekym v sieti diaspora* je naozaj veľmi jednoduché: "
       find: "1. Nájdite ich"
-      find_ex: ~
+      find_ex: "Všetko čo potrebuješ na to aby si sa s niekym spojil je nájsť ich a pridať si ich do jedného zo svojich kategórii. (Pozri dole pre viac o kategóriach.) Nájdite ich pomocou poľa na vyhľadávanie v čiernej lište, alebo podržte kurzor nad ich menom na vašej nástenke a ukáže sa vám ich vizitka. Ak viete ich diaspora* ID (vašemeno@menopodu.com), môžete použiť to."
       add: "2. Pridajte si ich"
-      add_ex: ~
+      add_ex: "Potom to už je len otázka stlačenie tlačítka \"Pridať kontakt\" a vybranie súčasťou ktorej kategórie chcete aby boli. Teraz ste spojení a môžete s nimi zdieľať ako na hocakej inej sieti. Alebo, ak sú súčasťou rôznych sfér vášho života, môžete si ich pridať do viacerých kategórií. Teraz ste spojení. Je to takto jednoduché. "
       freedom: Sloboda
       freedom_byline: "diaspora* sa nepokúša obmedzovať vás"
       fdm1: "Buďte tým, kým chcete"
-      fdm1_ex: ~
+      fdm1_ex: "Veľa sietí trvá na tom, aby ste použili vašu pravú identitu. Nie však diaspora*. Tu si môžete vybrať kým chcete byť, a podeliť sa o tak veľa alebo tak málo o sebe ako chcete. Je to vážne na vás ako budete komunikovať s inými ľuďmi."
       fdm2: "Buďte kreatívni"
       fdm2_ex: ~
       fdm3: "Slobodný ako na slobode."

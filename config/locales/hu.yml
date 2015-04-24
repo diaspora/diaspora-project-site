@@ -9,7 +9,7 @@ hu:
   meta:
     footer:
       copyleft: "CC-BY diaspora* Alapítvány"
-  title: "diaspora* projekt"
+  title: "A diaspora* projekt"
   newsfeed: ~
   planet_feed: ~
   layouts:
@@ -84,25 +84,25 @@ hu:
       add_ex: "Ezek után nincs más teendőd, mint a \"Hozzáadás\" gombra kattintani és kiválasztani, hogy mely aspektusba tartozzon az adott személy. Innentől fogva kapcsolatba kerültök és megoszthatsz vele bármit, ahogyan más közösségi oldalakon is. Vagy, ha életedhez több szálon kötődik, akkor add őt akár több különböző aspektushoz is. Ilyen egyszerű kapcsolatba kerülni egymással. "
       freedom: Szabadság
       freedom_byline: "a disapora* nem állít korlátokat eléd"
-      fdm1: "Legyél, aki szeretnél!"
-      fdm1_ex: "Sok közösségi hálózat ragaszkodik ahhoz, hogy a valódi identitásod használd. De a diaspora* nem. Itt az lehetsz, aki csak akarsz, és te döntöd el, hogy mennyi információt osztasz meg magadról. Itt tényleg rajtad áll a döntés, hogyan lépsz kapcsolatba másokkal."
+      fdm1: "Legyél, aki szeretnél lenni!"
+      fdm1_ex: "Sok közösségi hálózat ragaszkodik ahhoz, hogy a valódi identitásod használd. A diaspora* nem. Itt az lehetsz, aki csak akarsz, és te döntöd el, hogy mennyi információt osztasz meg magadról. Itt tényleg rajtad áll a döntés, hogyan lépsz kapcsolatba másokkal."
       fdm2: "Legyél kreatív!"
       fdm2_ex: "Korlátok nélkül léphetsz interakcióba másokkal. Dönthetsz úgy, hogy csak követed a számodra érdekes emberek gondolatait, de meg is oszthatod azokat a nagyvilággal. Ossz meg fotókat, műalkotásokat, videókat, zenét, szavakat - amit csak szeretnél. Szárnyalj!"
       fdm3: "Szabad minden tekintetben"
       fdm3_ex: "A diaspora* teljes mértékben Szabad Szoftver. Ez azt jelenti, hogy használatának nincsenek korlátai. Még a forráskódhoz is hozzáférhetsz és módosíthatod, hogy neked megfelelően működjön, vagy hogy segíts nekünk a hálózat tökéletesítésében. Tárt karokkal várunk!"
       privacy: Adatvédelem
       privacy_byline: "Teljes ellenőrzés afelett, ami a tiéd "
-      priv1: "Adataid birtokosa te vagy"
+      priv1: "Az adataid birtokosa te vagy"
       priv1_ex: "Sok közösségi hálózat abból profitál, hogy kielemzi online tevékenységed és ez alapján céloz meg hirdetésekkel. A diaspora* viszont kizárólag csak arra használja az adataid, hogy kapcsolatba léphess másokkal és tartalmat oszthass meg velük."
       priv2: "Te is tárolhatod adataid"
       priv2_ex: "Döntsd el te, hogy hol tárolod adataid egy számodra megfelelő pod kiválasztásával. Ha igazán biztosra szeretnél menni, te is tudsz podot működteti a saját szervereiden, így biztosítva azt, hogy más nem férhet hozzá az adataidhoz."
-      priv3: "Közönségedet te választod meg"
-      priv3_ex: "A diaspora* aspektusok segítenek abban, hogy csak bizonyos személyekkel oszthass meg valamit. Annyira lehetsz publikus vagy titkolózó, amennyire csak szeretnél. Ossz meg egy vicces fotót az egész világgal, vagy egy komoly titkot csupán a legközelebbi barátaiddal."
-      aspects: "Az aspektusokról"
+      priv3: "Válaszd meg közönséged"
+      priv3_ex: "A diaspora* szempontjai segítenek abban, hogy csak bizonyos személyekkel oszthass meg valamit. Annyira lehetsz publikus vagy titkolózó, amennyire csak szeretnél. Ossz meg egy vicces fotót az egész világgal, vagy egy komoly titkot csupán a legközelebbi barátaiddal."
+      aspects: "A szempontokról"
       aspects_byline: "A diaspora* adatvédelmének kulcsa"
-      asp1: "Életed aspektusai"
-      asp1_ex: "Életednek sok aspektusa, oldala van, melyhez különböző emberek tartoznak. Miért lenne más az online életed? A diaspora* aspektusokkal neked tetsző módon rendszerezheted online életed és csak azokkal oszthatsz meg tartalmat, akikkel valóban szeretnél."
-      asp2: Rendszerezz!
+      asp1: "Életed szempontjai"
+      asp1_ex: "Életed sok nézőpont alapján épül fel, melyekhez különböző emberek tartoznak. Miért lenne más az online életed? A diaspora* szempontokkal neked tetsző módon rendszerezheted online életed és csak azokkal oszthatsz meg tartalmat, akikkel valóban szeretnél."
+      asp2: "Rendszerezd életed!"
       asp2_ex: "Lehet például egy aspektusod a családtagjaidnak, egy a közeli barátaidnak, egy a kollégáidnak és egy a kedvenc szabadidős tevékenységednek. A kollégáidnak nem kell tudni a családi eseményekről, nem igaz? Aspektusok segítségével nem is fognak."
       asp3: "Kürtöld világgá!"
       asp3_ex: "Természetesen néhány dolog annyira fontos, hogy az egész világgal tudatni szeretnéd. Ennél mi sem egyszerűbb, csupán jelöld meg publikusként a tartalmat. A megfelelő címkék használatával biztosíthatod, hogy azokat érje majd el, akik értékelni fogják."
@@ -134,7 +134,7 @@ hu:
       headline: Segíts!
       byline: "A közösségi háló jövője veled kezdődik"
       menu_title: Segíts!
-      community: "Közösségben az erő"
+      community: "Közösség által üzemeltetett"
       community_byline: "A diaspora* a tiéd is"
       meaning: "Mit jelent mindez?"
       meaning_ex1: "A Szabad Szoftver lényege az egyediség, átláthatóság, kreativitás és egy cél. Egy ötlet megvalósításáról szól. A diaspora* azért jött létre, hogy szenvedélyünk segítségével egy jobb hellyé tegyük az internetet. Szabad Szoftverrel a magunk javára változtathatjuk meg a világot, s ebből barátaink is szerte a világhálón részesülhetnek."
@@ -166,12 +166,12 @@ hu:
       translation_instructions_link_text: "fordítási irányelvek "
       voice_header: Véleményformálással
       voice_ex1: "A projektet kizárólag önkéntesek működtetik. Az egyes ötletek és javaslatok elfogadottságát a Loomio nevű eszközzel mérjük fel. "
-      voice_ex2: "Itt csatlakozhatsz a csoporthoz"
+      voice_ex2: "Itt csatlakozhatsz a csapathoz"
       voice_ex3: "Egy diaspora* %{meetup_link} szervezésével a saját közösségedben csatlakozásra inspirálhatod barátaid, családtagjaid."
       meetup_link_text: találkozó
       support_header: "Mások kisegítésével"
       support_ex1: "Segítsd az új felhasználókat!"
-      support_ex2: "További információk itt találhatók"
+      support_ex2: "Itt jelentkezz"
       support_ex3: "Írj felhasználói útmutatókat a %{tutorials_link} oldalain!"
       support_ex4: "Az %{irc_channel_link} kiváló hely a többi felhasználó kérdéseinek megválaszolására, továbbá követheted a <span class=\"click\">#segítség</span>, <span class=\"click\">#kérdés</span> és <span class=\"click\">#visszajelzés</span> címkéket is (a címkék angol megfelelője sorrendben a következő: <span class=\"click\">#help</span>, <span class=\"click\">#question</span>, <span class=\"click\">#feedback</span>)."
       irc_channel_link_text: "IRC szoba"
@@ -207,7 +207,7 @@ hu:
       byline: "Segítség lépésről lépésre"
       menu_title: Útmutatók
       tutorials_ex1: "Üdvözlünk a diaspora* útmutatóinak listáján! Ezen az oldalon gyűjtöttünk össze minden diaspora* útmutatót, amelyek vagy a \"Kezdeti lépések\" sorozat részei, vagy különálló útmutatók egy-egy adott feladathoz kapcsolódóan. Ha új vagy a diasporán* vagy esetleg még nem is csatlakoztál, akkor javasoljuk, hogy olvasd el a \"Kezdeti lépések\" részt. Ha az alapoknál többet szeretnél tudni, akkor kukkants bele a további útmutatókba is!"
-      tutorials_ex2: ~
+      tutorials_ex2: "A lehető legjobbat hozzuk ki magunkból, hogy ezeket a leírásokat naprakészen tartsuk a disapora* fejlesztésekkel. Amennyire lehet, vedd számításba a tényt, hogy a podod nem biztos, hogy a legújabb verziójú diaspora*-t használja. Ez a mi videóinktól eltérő viselkedést eredményezhet a leírásainkkal szemben. Ellenőrizd a podod itt: %{podup_link} , hogy lásd melyik verziót futtatod."
       started_head: "Kezdeti lépések"
       started1: Regisztráció
       started2: "A kezelőfelület"
@@ -230,22 +230,22 @@ hu:
       more_tutorials: "Több segítségre van szükséged?"
       other_docs: "Az %{other_docs_link} oldalán további forrásokat találhatsz."
       other_docs_link_text: "egyéb dokumentumok"
-      thanks: ~
+      thanks: "Hatalmas köszönet Kevin Kleinmannek aki létrehozta az eredeti Diasporiális útmutatásokat amire ezek a leírások alapulnak."
     getting_started1:
       byline: "1. Szakasz - Regisztráció"
       menu_title: "Regisztráció a diaspora*-a"
       welcome: ~
-      find_pod: ~
+      find_pod: "Pod választása"
       find_pod_ex1: "A legtöbb közösségi oldallal ellentétben, melyeknek központi szerverparkjuk van arra a célra, higy tárolják mindenki adatait mi nem tudunk egy specifikus linket megadni és azt mondani: regisztráljon itt. A diaspora* különbözik azoktól az oldalaktól azáltal, hogy <em>decentralizált</em>, megannyi hozzáférési ponttal. Mielőtt elkezdené, el kell döntenie, hogy melyik diaspora* szolgáltatóra regisztrál. Ezeket a kiszolgálókat pod-oknak hívjuk."
       find_pod_ex2: ~
-      find_pod_ex3: ~
-      wiki_link_text: ~
-      find_pod_ex4: ~
+      find_pod_ex3: "Hogy segítsünk melyik pod a legalkalmasabb számodra, látogatsd meg ezt az oldalt: %{wiki_link}"
+      wiki_link_text: "útmutatás a pod választáshoz"
+      find_pod_ex4: "Lehet hogy meghívót kaptál a diaspora*-ra valakitől akit ismersz. Ha igen, ez tartalmazza a linket a diaspora* podra, ahova a meghívó ismerősöd is regisztrált. Ha ugyanoda szeretnél csatlakozni, mint ő, egyszerűen kövesd a linket az emailből. Nem kötelező ugyanarra a podra regisztrálnod ahol a barátod regisztrálva van, anélkül is tudsz vele kommunikálni."
       find_pod_ex5: ~
       registration: Regisztráció
       registration1: ~
       registration2: ~
-      registration3: ~
+      registration3: "Fejezd be a regisztrációt azzal, hogy a <span class=\"click\">Folytatás</span> gombra kattintasz, hogy létrehozd és elérd a zsír új diaspora* magod!"
       registration4: ~
       dhq_link_text: "diaspora* HQ"
       registration5: ~
@@ -257,7 +257,7 @@ hu:
       profile1: ~
       profile2: ~
       profile3: ~
-      profile4: ~
+      profile4: "Ne felejts el a <span class=\"click\">Frissítés</span> gombra kattintani ha végeztél."
       finish: "Ez az!"
       finish_ex1: ~
       finish_ex2: ~
