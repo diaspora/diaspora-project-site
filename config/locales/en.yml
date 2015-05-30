@@ -527,7 +527,7 @@ en:
       lists_code5: "This will become another bulleted list:"
       lists_code6: "And this will be a numbered list:"
       quote: "Quotation"
-      quote_ex1: "When you want to quote an extract of an article or another comment, you can conveniently format your text by starting the line or the  paragraph by the “>”" character:"
+      quote_ex1: "When you want to quote an extract of an article or another comment, you can conveniently format your text by starting the line or the  paragraph by the “>” character:"
       quote_code1: "This is normal text introducing your quotation:"
       quote_code2: "This is a quotation."
       quote_code3: "This is the text following the quotation."
