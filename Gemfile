@@ -19,7 +19,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'will_paginate-bootstrap'
 
-gem 'redcarpet', '~> 3.2'
+gem 'redcarpet', '~> 3.3'
 gem 'paperclip', '~> 4.3'
 
 gem 'feedjira', github: 'feedjira/feedjira'
