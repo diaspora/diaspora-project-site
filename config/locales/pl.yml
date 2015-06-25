@@ -206,7 +206,7 @@ pl:
       headline: "samouczki diaspory*"
       byline: "poprowadzą Cię krok po kroku"
       menu_title: Samouczki
-      tutorials_ex1: ~
+      tutorials_ex1: "Witaj w dziale samouczków diaspory*. Znajdziesz tu opisy wszystkich naszych samouczków podzielone na serię \"Na początek\" i samodzielne samouczki dotyczące poszczególnych czynności. Jeśli jesteś nowa w diasporze*, albo nawet jeszcze się nie zarejestrowałaś, polecamy poczytać serię \"Na początek\". Jeśli rozglądasz się za dodatkowymi opcjami, rzuć okiem na inne samouczki."
       tutorials_ex2: ~
       started_head: "Wprowadzenie do diaspory*"
       started1: Rejestracja
@@ -526,6 +526,11 @@ pl:
       lists_code4: ~
       lists_code5: ~
       lists_code6: "A to będzie lista numerowana:"
+      quote: ~
+      quote_ex1: ~
+      quote_code1: ~
+      quote_code2: ~
+      quote_code3: ~
       code: ~
       code_ex1: ~
       code_ex2: ~

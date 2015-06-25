@@ -526,6 +526,11 @@ fr:
       lists_code4: "troisième élément ;"
       lists_code5: "Ceci va devenir une autre liste à puces :"
       lists_code6: "Et voilà une liste numérotée :"
+      quote: Citation
+      quote_ex1: "Lorsque vous souhaitez citer un extrait d'un article ou d'un autre commentaire, vous pouvez formater facilement votre texte en commençant la ligne ou le paragraphe avec le caractère \">\" :"
+      quote_code1: "Ceci est un texte normal introduisant votre citation :"
+      quote_code2: "Ceci est une citation."
+      quote_code3: "Ceci est le texte qui suit la citation."
       code: "Blocs de code"
       code_ex1: "Si vous êtes un développeur, vous pouvez être intéressé(e) par les blocs de code. Pour définir un bloc de code, commencez votre texte/code avec quatre apostrophes inversées (````). Pour revenir à du texte normal, terminez le bloc de code avec, à nouveau, quatre apostrophes inversées."
       code_ex2: "Une autre façon de faire ceci est de commencer chaque ligne de votre code avec quatre espaces. Les espaces supplémentaires serviront à l'indentation."

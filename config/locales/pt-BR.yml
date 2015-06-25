@@ -526,6 +526,11 @@ pt-BR:
       lists_code4: "item três."
       lists_code5: ~
       lists_code6: "E esta será uma lista numerada:"
+      quote: ~
+      quote_ex1: ~
+      quote_code1: ~
+      quote_code2: ~
+      quote_code3: ~
       code: "Blocos de código"
       code_ex1: ~
       code_ex2: ~

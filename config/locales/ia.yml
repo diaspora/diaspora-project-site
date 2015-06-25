@@ -526,6 +526,11 @@ ia:
       lists_code4: ~
       lists_code5: ~
       lists_code6: ~
+      quote: Citation
+      quote_ex1: "Pro citar un parte de un articulo o altere commento, il es facile formatar le texto per le insertion de un character \">\" al initio del linea o paragrapho."
+      quote_code1: "Isto es texto normal que introduce le citation:"
+      quote_code2: "Isto es un citation."
+      quote_code3: "Isto es le texto post le citation."
       code: ~
       code_ex1: ~
       code_ex2: ~

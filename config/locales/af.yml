@@ -526,6 +526,11 @@ af:
       lists_code4: "item drie."
       lists_code5: "Dit sal nog 'n kolpuntlys word:"
       lists_code6: "En dit sal 'n genommerde lys wees:"
+      quote: ~
+      quote_ex1: ~
+      quote_code1: ~
+      quote_code2: ~
+      quote_code3: ~
       code: "Kode blokke"
       code_ex1: "As jy 'n ontwikkelaar is sal jy miskien in kode blokke belangstel. Om 'n kode blok te skep, begin jou teks/kode met vier backticks (````). Om terug na normale teks te keer, sluit die kode blok met nog 'n vier."
       code_ex2: "Nog 'n manier om dit te doen, is om elkeen van jou reëls van die kode te begin met vier ruimtes. Toevoeging van meer ruimte sal verdere inkeping verlaat."

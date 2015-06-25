@@ -443,7 +443,7 @@ de:
       interact_ex2: "Vergiss nicht, dass es unterschiedliche Streams mit Inhalten gibt, je nach dem, welche Ansicht du gerade benutzt: <span class=\"click\">Stream</span>, <span class=\"click\">Meine Aktivitäten</span>, <span class=\"click\">@Erwähnungen</span>, <span class=\"click\">Meine Aspekte</span> oder <span class=\"click\">Tags, denen du folgst</span>. Während sich dort zwar verändert, was du in deinem Stream siehst, kannst du mit den Beiträgen trotzdem in jeder Ansicht gleich verfahren."
       comments: Kommentare
       comments_ex: "Wenn ein Beitrag noch keine Kommentare hat, klicke auf <span class=\"click\">Kommentar</span> um das Kommentarfeld zu öffnen. Falls es bereits Kommentare zu einem Beitrag gibt, ist das Kommentarfeld schon da. Wenn bereits mehr als drei Kommentare da sind, sind die letzten drei zu sehen. Alle Kommentare kannst du durch Klicken einblenden. "
-      likes: Herzchen
+      likes: gefällt
       likes_ex1: "Neben der Schaltfläche <span class=\"click\">Kommentar</span> ist die Schaltfläche <span class=\"click\">Gefällt mir</span>. Hiermit kannst du, ohne zu kommentieren, dem Ersteller eines Inhalts zeigen, dass du seinen Beitrag gelesen hast und schätzt. Tust du dies, wird dein \"Like\" mitgezählt. Wenn du auf dieses klickst, bekommst du alle angezeigt, die den Beitrag bereits mit \"Gefällt mir\" bewertet haben."
       likes_ex2: "Änderst du deine Meinung, kannst du dein \"Gefällt mir\" entfernen, indem du auf den Link <span class=\"click\">Gefällt mir nicht mehr</span> klickst, der nun sichtbar ist. Sei dir bewusst, dass die Person, deren Beitrag du mit \"Gefällt mir\" markiert hattest, dazu bereits eine Nachricht erhalten hat!"
       reshare: "Weitergesagte Beiträge"
@@ -526,6 +526,11 @@ de:
       lists_code4: "Eintrag drei."
       lists_code5: "Dies wird eine weitere Aufzählungsliste:"
       lists_code6: "Und dies wird eine nummerierte Liste:"
+      quote: Zitat
+      quote_ex1: "Wenn du einen anderen Beitragsteil zitieren willst, kannst du ihn normal formatieren und startest den Absatz mit dem \">\" Zeichen:"
+      quote_code1: "Dieser normale Text enthält deine Zitat:"
+      quote_code2: "Dies ist ein Zitat."
+      quote_code3: "Dies ist der Text der dem Zitat folgt."
       code: code-Blöcke
       code_ex1: "Wenn du ein Entwickler bist, könntest du an code-Blocks interessiert sein. Um einen code-Block zu erzeugen, stelle deinem Text/code vier Backticks ( ` ` ` ` ) voran. Schließe den code-Block mit weiteren vier Backticks, damit du zu normalem Text zurückkehrst."
       code_ex2: "Ein anderer Weg, um dies zu tun, ist es, jeder deiner code-Zeilen vier Leerzeichen voranzustellen. Das Hinzufügen weiterer Leerzeichen sorgt für noch mehr Einrückung."

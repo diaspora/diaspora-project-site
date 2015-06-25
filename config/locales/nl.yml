@@ -541,6 +541,11 @@ nl:
       lists_code4: "onderdeel drie."
       lists_code5: "Dit wordt een andere bulletlijst:"
       lists_code6: "En dit wordt een genummerde lijst:"
+      quote: Quote
+      quote_ex1: "Als je een samenvatting van een artikel of van een andere reactie wilt aanhalen, kun je de tekst makkelijk opmaken door de regel of alinea te beginnen met het \">\" teken:..."
+      quote_code1: "Dit is normale tekst om je quote te beginnen:"
+      quote_code2: "Dit is een quote."
+      quote_code3: "Deze tekst volgt op de quote."
       code: Codeblokken
       code_ex1: "Als je een ontwikkelaar bent, dan zou je misschien wel eens een codeblok willen gebruiken. On dat te doen begin je de tekst met vier achterwaartse accentjes (` ` ` ` ). Om het codeblok af te sluiten doen je dat opnieuw."
       code_ex2: "Je kunt dat ook doen door elk van je regels code vooraf te laten gaan door vier spaties. Met extra spaties wordt verder ingesprongen."
