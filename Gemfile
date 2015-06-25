@@ -20,7 +20,7 @@ gem 'turbolinks'
 gem 'will_paginate-bootstrap'
 
 gem 'redcarpet', '~> 3.2'
-gem 'paperclip', '~> 4.1'
+gem 'paperclip', '~> 4.3'
 
 gem 'feedjira', github: 'feedjira/feedjira'
 gem 'trollop', '~> 2.0'
