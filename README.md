@@ -1,5 +1,7 @@
 # The diaspora\* Project Site
 
+[![Join the chat at https://gitter.im/diaspora/diaspora-project-site](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/diaspora/diaspora-project-site?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Dependency Status](https://gemnasium.com/diaspora/diaspora-project-site.png)](https://gemnasium.com/diaspora/diaspora-project-site)
 
 This is the repository of the official diaspora\* project site hosted on [diasporafoundation.org](https://diasporafoundation.org/).
