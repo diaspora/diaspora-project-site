@@ -4,12 +4,12 @@ gem 'rails', '~> 4.2.0'
 
 gem 'unicorn'
 
-gem 'mysql2'
+gem 'mysql2', '~> 0.3.0'
 
-gem 'devise', '3.5.1'
+gem 'devise', '~> 3.5.0'
 gem 'rails_admin'
 
-gem 'rails_locale_detection', '~> 2.0.0.pre'
+gem 'rails_locale_detection', '~> 2.0.0'
 
 gem 'sass-rails', '~> 5.0.0'
 gem 'bootstrap-sass', '~> 3.3.0'
@@ -31,8 +31,8 @@ group :development, :test do
   gem 'awesome_print'
 
   gem 'rspec-rails', '~> 3.0'
-  gem 'capybara', '~> 2.4.1'
+  gem 'capybara', '~> 2.5.0'
 
   gem 'fuubar', '~> 2.0.0'
-  gem 'rspec-instafail', '~> 0.2.4'
+  gem 'rspec-instafail', '~> 0.2'
 end
