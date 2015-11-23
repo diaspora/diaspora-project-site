@@ -7,7 +7,8 @@ gem 'unicorn'
 gem 'mysql2', '~> 0.3.0'
 
 gem 'devise', '~> 3.5.0'
-gem 'rails_admin'
+# See https://github.com/sferik/rails_admin/issues/2481
+gem 'rails_admin', github: 'sferik/rails_admin', tag: 'v0.8.0'
 
 gem 'rails_locale_detection', '~> 2.0.0'
 
