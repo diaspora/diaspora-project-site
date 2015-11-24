@@ -8,26 +8,6 @@ GIT
       loofah (~> 2.0)
       sax-machine (~> 1.0)
 
-GIT
-  remote: git://github.com/sferik/rails_admin.git
-  revision: 894bf8554761179bccd9c3ec9eb63b7bbdbc880e
-  tag: v0.8.0
-  specs:
-    rails_admin (0.8.0)
-      builder (~> 3.1)
-      coffee-rails (~> 4.0)
-      font-awesome-rails (>= 3.0, < 5)
-      haml (~> 4.0)
-      jquery-rails (>= 3.0, < 5)
-      jquery-ui-rails (~> 5.0)
-      kaminari (~> 0.14)
-      nested_form (~> 0.3)
-      rack-pjax (~> 0.7)
-      rails (~> 4.0)
-      remotipart (~> 1.0)
-      safe_yaml (~> 1.0)
-      sass-rails (>= 4.0, < 6)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -183,6 +163,20 @@ GEM
       rails-deprecated_sanitizer (>= 1.0.1)
     rails-html-sanitizer (1.0.2)
       loofah (~> 2.0)
+    rails_admin (0.8.1)
+      builder (~> 3.1)
+      coffee-rails (~> 4.0)
+      font-awesome-rails (>= 3.0, < 5)
+      haml (~> 4.0)
+      jquery-rails (>= 3.0, < 5)
+      jquery-ui-rails (~> 5.0)
+      kaminari (~> 0.14)
+      nested_form (~> 0.3)
+      rack-pjax (~> 0.7)
+      rails (~> 4.0)
+      remotipart (~> 1.0)
+      safe_yaml (~> 1.0)
+      sass-rails (>= 4.0, < 6)
     rails_locale_detection (2.0.0)
       http_accept_language (~> 2.0.5)
       rails (>= 3.2.0)
@@ -280,7 +274,7 @@ DEPENDENCIES
   paperclip (~> 4.3)
   pry
   rails (~> 4.2.0)
-  rails_admin!
+  rails_admin
   rails_locale_detection (~> 2.0.0)
   redcarpet (~> 3.3)
   rspec-instafail (~> 0.2)
