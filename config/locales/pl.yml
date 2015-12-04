@@ -75,7 +75,7 @@ pl:
       this_ex: "diaspora* jest prawdziwą siecią, bez jednego centrum. Serwery (\"pody\") położone są na całym świecie, a każdy z nich zawiera tylko dane użytkowników, którzy na nim się zarejestrowali. Te właśnie pody komunikują się między sobą - więc na którymkolwiek z nich się zarejestrujesz, będziesz miał dostęp do osób i treści ze wszystkich pozostałych."
       notthis: "NIE TO"
       notthis_ex: "Większość sieci społecznościowych działa w sposób scentralizowany - zwykle na serwerach będących własnością jakiejś korporacji. Znajdują się tam prywatne dane wszystkich ich użytkowników, tylko czekające na bycie skradzionymi lub straconymi w wyniku jakiejś awarii. Jak w każdym scentralizowanym systemie, występuje tu też problem \"wąskiego gardła\" - najmniejszy problem na centralnym serwerze może znacznie spowolnić całą sieć, a nawet spowodować całkowitą awarię. Rządom jest też o wiele łatwiej podsłuchać dane z jednego miejsca niż z rozproszonej sieci."
-      discl: "(diaspora* używa otwartych standardów sieciowych typu %{pubsubhubub}, czy %{webfinger}, aby umożliwić tego typu połączenie.)"
+      discl: "(diaspora* używa otwartych standardów sieciowych typu %{pubsubhubbub}, czy %{webfinger}, aby umożliwić tego typu połączenie.)"
       connect: "Jak się podłączyć?"
       connect_ex: "Pomimo tego, że diaspora* składa się z wielu podów położonych w najróżniejszych miejscach świata, używa się jej jak jednej, połączonej sieci. Nie musisz korzystać z tego samego poda, co Twoi znajomi, aby móc się z nimi swobodnie dzielić - komunikacja przebiega bez najmniejszych problemów przez całą sieć diaspory*. Używając jej możesz zapomnieć, że składa się z wielu podów. Połączenie się z kimś na diasporze* jest bardzo proste: "
       find: "1. Znajdź ich"

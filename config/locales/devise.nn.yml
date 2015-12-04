@@ -1,16 +1,16 @@
 nn:
   devise:
     confirmations:
-      confirmed: ~
-      send_instructions: ~
-      send_paranoid_instructions: ~
+      confirmed: "Kontoen din er stadfesta. Du er logga på no."
+      send_instructions: "Om ei lita stund vil du få ei e-postmelding med rettleiing om korleis du stadfestar kontoen din."
+      send_paranoid_instructions: "Om e-postadressa di allereie eksisterar i databasane våre vil du motta ei e-postmelding med instruksjonar om korleis du stadfestar kontoen din om ei lita stund."
     failure:
-      already_authenticated: ~
-      inactive: ~
-      invalid: ~
-      invalid_token: ~
-      locked: ~
-      not_found_in_database: ~
+      already_authenticated: "Du er allereie logga på."
+      inactive: "Kontoen din er ikkje aktivert enno."
+      invalid: "E-postadressa eller passordet er ugyldig."
+      invalid_token: "Ugyldig aktiveringkode."
+      locked: "Kontoen din er låst."
+      not_found_in_database: "E-postadressa eller passordet er ugyldig."
       timeout: ~
       unauthenticated: ~
       unconfirmed: ~

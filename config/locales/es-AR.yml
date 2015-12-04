@@ -75,7 +75,7 @@ es-AR:
       this_ex: "diaspora* es una verdadera red, sin un nodo central. Hay servidores (llamados \"pods\") por todo el mundo, cada uno conteniendo los datos de los usuarios que han escogido registrarse en él. Estos pods se comunican entre sí de forma transparente, tal que puedes registrarte con cualquier pod y comunicarte libremente con tus contactos, sin importar en qué pod se encuentren."
       notthis: "ESTO NO"
       notthis_ex: "La mayoría de las redes sociales funcionan desde servidores centrales pertenecientes a una empresa. Éstas almacenan todos los datos privados de sus usuarios. Esta información puede perderse o ser hackeada, y como con cualquier sistema con un cuello de botella, cualquier problema en los servidores centrales puede hacer que la red funcione muy lentamente, o que deje de hacerlo. Es también mucho más fácil para los gobiernos \"escucharlas\"."
-      discl: "(diaspora* usa estándares web abiertos como %{pubsubhubub} y %{webfinger} para hacer posible este tipo de conexiones.)"
+      discl: "(diaspora* usa estándares web abiertos como %{pubsubhubbub} y %{webfinger} para hacer posible este tipo de conexiones.)"
       connect: "¿Cómo me conecto?"
       connect_ex: "Aunque diaspora* se compone de muchos \"pods\" alrededor del mundo, uno la percibe como una sola red integrada. No necesitas estar en el mismo \"pod\" que tus contactos para que se puedan comunicar libremente el uno con el otro - la comunicación ocurre transparentemente a través de todos los \"pods\" en el universo de diaspora*. Cuando la usás, a uno se le puede olvidar fácilmente que está compuesta de muchos servidores. Conectarse con alguien en diaspora* es en realidad algo muy simple: "
       find: "1. Encuéntralos"

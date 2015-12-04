@@ -3,13 +3,13 @@ nb:
     formats:
       blog_headline: ~
   buttons:
-    host_pod: ~
-    join_diaspora: ~
+    host_pod: "Driv en pod"
+    join_diaspora: "Bli med"
     find_more: ~
   meta:
     footer:
       copyleft: ~
-  title: ~
+  title: Diaspora*-prosjektet
   newsfeed: ~
   planet_feed: ~
   layouts:
@@ -66,18 +66,18 @@ nb:
       ways_to_help_alt: ~
       services_alt: ~
     about:
-      headline: ~
-      byline: ~
-      menu_title: ~
-      decentralize: ~
+      headline: "Hvordan virker Diaspora*?"
+      byline: "Diaspora* er enkelt å bruke. Her er grunnen"
+      menu_title: Om
+      decentralize: "Hva er desentralisering?"
       decentralize_ex: ~
-      this: ~
+      this: DETTE
       this_ex: ~
-      notthis: ~
+      notthis: "IKKE DETTE"
       notthis_ex: ~
       discl: ~
       connect: ~
-      connect_ex: "Selv om diaspora* utgjøres av mange pod-er over hele verden, vil du oppleve det som ett integrert nettverk. Du behøver ikke være på samme pod some dine kontakter for at det skal gå an å kommunisere fritt med hverandre – kommunikasjon foregår sømløst over alle pod-ene i diaspora*-universet. Når du bruker diaspora*, kan du enkelt glemme at det faktisk er dannet av mange pod-er. Å få kontakt med noen på diaspora* er faktisk veldig enkelt: "
+      connect_ex: "Selv om diaspora* utgjøres av mange pod-er over hele verden, vil du oppleve det som et integrert nettverk. Du behøver ikke være på samme pod som dine kontakter for at dere skal kunne kommunisere fritt med hverandre – kommunikasjonen foregår sømløst over alle pod-ene i diaspora*-universet. Når du bruker diaspora* kan du enkelt glemme at det er et nettverk av mange pod-er. Å få kontakt med noen på diaspora* er faktisk veldig enkelt: "
       find: ~
       find_ex: ~
       add: ~
@@ -526,11 +526,11 @@ nb:
       lists_code4: ~
       lists_code5: ~
       lists_code6: ~
-      quote: ~
+      quote: Sitat
       quote_ex1: ~
-      quote_code1: ~
-      quote_code2: ~
-      quote_code3: ~
+      quote_code1: "Dette er vanlig tekst i forkant av sitatet ditt:"
+      quote_code2: "Dette er et sitat."
+      quote_code3: "Dette er teksten etter sitatet."
       code: ~
       code_ex1: ~
       code_ex2: ~

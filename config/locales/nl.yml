@@ -75,7 +75,7 @@ nl:
       this_ex: "diaspora* is een echt netwerk, zonder hoofdkwartier. Er zijn servers ('pods') verspreid over de hele wereld, waarvan elke de gegevens bevat van gebruikers die zelf voor die server gekozen hebben. Deze pods communiceren naadloos met elkaar waardoor je op een willekeurige pod een account kunt aanmaken en moeiteloos kunt communiceren met je contacten op welke andere pod dan ook in het netwerk."
       notthis: "NIET ZO"
       notthis_ex: "De meeste sociale netwerken worden gerund vanaf centrale servers die eigendom zijn van (grote) bedrijven. Deze bedrijven slaan alle privégegevens van hun gebruikers op. Deze informatie kan gehackt worden of verloren gaan, en zoals elk systeem met een flessenhals, kan elk probleem(pje) op de centrale servers de snelheid van het systeem verlagen, of het systeem zelfs platleggen. Ook is het voor de overheid veel makkelijker om 'mee te luisteren'."
-      discl: "(diaspora* gebruikt open webstandaarden zoals %{pubsubhubub} en %{webfinger} om dit soort verbindingen mogelijk te maken.)"
+      discl: "(diaspora* gebruikt open webstandaarden zoals %{pubsubhubbub} en %{webfinger} om dit soort verbindingen mogelijk te maken.)"
       connect: "Hoe kan ik communiceren met anderen?"
       connect_ex: "Hoewel diaspora* bestaat uit veel verschillende pods overal op de wereld, doet het aan als één geïntegreerd netwerk. Je hoeft niet op dezelfde pod als je contacten te zitten om gewoon met ze te kunnen communiceren - de communicatie verloopt naadloos tussen alle pods in het diaspora* universum. Als je diaspora* gebruikt vergeet je daarom makkelijk dat het bestaat uit verschillende pods. Het is heel eenvoudig om een verbinding te leggen met iemand op diaspora*: "
       find: "1. Vind iemand"

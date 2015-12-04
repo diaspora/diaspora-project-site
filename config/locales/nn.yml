@@ -1,7 +1,7 @@
 nn:
   time:
     formats:
-      blog_headline: ~
+      blog_headline: "%d %B %Y"
   buttons:
     host_pod: "Driv ein pod"
     join_diaspora: "Bli med!"
@@ -76,11 +76,11 @@ nn:
       notthis: "IKKJE DETTE"
       notthis_ex: ~
       discl: ~
-      connect: ~
+      connect: "Korleid koplar eg meg til?"
       connect_ex: ~
-      find: ~
+      find: "1. Finn dei"
       find_ex: ~
-      add: ~
+      add: "2. Legg dei til"
       add_ex: ~
       freedom: Fridom
       freedom_byline: "Diaspora forsøker ikkje å begrensa deg"
@@ -88,17 +88,17 @@ nn:
       fdm1_ex: ~
       fdm2: "Ver kreativ"
       fdm2_ex: ~
-      fdm3: ~
+      fdm3: "Fri som i fridom"
       fdm3_ex: ~
-      privacy: ~
-      privacy_byline: ~
-      priv1: ~
+      privacy: Personvern
+      privacy_byline: "Fullstendig kontroll over kva som er ditt "
+      priv1: "Eig di eiga informasjon"
       priv1_ex: ~
       priv2: ~
       priv2_ex: ~
-      priv3: ~
+      priv3: "Vel ditt eige publikum"
       priv3_ex: ~
-      aspects: ~
+      aspects: "Alt om aspekt"
       aspects_byline: ~
       asp1: ~
       asp1_ex: ~

@@ -75,7 +75,7 @@ de:
       this_ex: "diaspora* ist ein echtes Netzwerk ohne zentrale Basis. Es gibt Server (“Pods” genannt), die über die ganze Welt verteilt sind. Jeder einzelne enthält die Daten jener Nutzer, die sich auf dem jeweiligen Server registriert haben. Diese Pods kommunizieren nahtlos miteinander, sodass du dich auf einem beliebigen Pod registrieren und frei mit jedem deiner Kontakte unterhalten kannst, wo auch immer sie sich im Netzwerk befinden."
       notthis: "DAS NICHT"
       notthis_ex: "Die meisten sozialen Netzwerke werden von zentralisierten Servern eines Unternehmens betrieben. Sie speichern alle privaten Daten ihrer Nutzer an einem Punkt. Diese Daten können verloren gehen oder gestohlen werden und, wie bei jedem System mit einem Flaschenhals, kann jede Störung der zentralen Server das ganze Netzwerk stark verlangsamen oder unerreichbar machen. Außerdem erleichtert es den Regierungen das Abhören."
-      discl: "(diaspora* benutzt offene Webstandards wie %{pubsubhubub} und %{webfinger} um diese Art der Verbindung möglich zu machen.)"
+      discl: "(diaspora* benutzt offene Webstandards wie %{pubsubhubbub} und %{webfinger} um diese Art der Verbindung möglich zu machen.)"
       connect: "Wie verbinde ich mich?"
       connect_ex: "Obwohl diaspora* aus vielen über die ganze Welt verteilten Pods besteht, wird es dir so vorkommen, als ob es ein einziges integriertes Netzwerk sei. Du musst nicht auf dem gleichen Pod wie deine Kontakte sein, um dich mit ihnen austauschen zu können. Kommunikation geschieht nahtlos über alle Pods im diaspora* Universum. Wenn Du diaspora* nutzt, kannst du vergessen, dass es aus vielen Pods besteht. Sich mit jemandem in diaspora* in Verbindung zu setzen, ist eigentlich sehr leicht: "
       find: "1. Finde jemanden"
@@ -446,7 +446,7 @@ de:
       likes: gefällt
       likes_ex1: "Neben der Schaltfläche <span class=\"click\">Kommentar</span> ist die Schaltfläche <span class=\"click\">Gefällt mir</span>. Hiermit kannst du, ohne zu kommentieren, dem Ersteller eines Inhalts zeigen, dass du seinen Beitrag gelesen hast und schätzt. Tust du dies, wird dein \"Like\" mitgezählt. Wenn du auf dieses klickst, bekommst du alle angezeigt, die den Beitrag bereits mit \"Gefällt mir\" bewertet haben."
       likes_ex2: "Änderst du deine Meinung, kannst du dein \"Gefällt mir\" entfernen, indem du auf den Link <span class=\"click\">Gefällt mir nicht mehr</span> klickst, der nun sichtbar ist. Sei dir bewusst, dass die Person, deren Beitrag du mit \"Gefällt mir\" markiert hattest, dazu bereits eine Nachricht erhalten hat!"
-      reshare: "Weitergesagte Beiträge"
+      reshare: "Beitrag weiterteilen"
       reshare_ex: "Öffentliche Beiträge anderer können weitergesagt werden. Um einen Beitrag weiterzusagen, klicke auf die Schaltfläche <span class=\"click\">Weitersagen</span>, die du zwischen den Feldern \"Gefällt mir\" und \"Kommentar\" findest. Durch Weitersagen zeigst du denen, die dir folgen, dass du dabei behilflich bist, eine wertvolle Nachricht einem neuen Publikum zu unterbreiten."
       delete: "Beiträge und Kommentare löschen"
       delete_ex: "Wenn du deinen Mauszeiger über einen eigenen Beitrag oder Kommentar bewegst, erscheint ein <span class=\"click\">x</span> in der oberen rechten Ecke, damit kannst du den Beitrag oder Kommentar löschen. So löscht du auch eigene Kommentare in den Beiträgen von anderen."
@@ -502,7 +502,7 @@ de:
       privacy_ex: "Dies ist eine Liste von Nutzern, die du ignorierst. Du kannst sie aus dieser Liste entfernen, wenn du ihre Beiträge wieder zu sehen wünschst. Siehe %{part5_link} für mehr Informationen zum Ignorieren."
       services: Dienste
       services_ex: "Die Seite \"Dienste\" zeigt deine angeschlossenen Dienste (z.B. Facebook, Twitter, Tumblr) und ermöglicht dir, neue Dienste an deinen diaspora* Seed anzuschließen."
-      finish1: "Vielen Dank, dass du dir Zeit genommen hast, diaspora* durch diese Einleitung kennen zu lernen! Wir hoffen, dass es für dich hilfreich war, und du dich nun wohlfühlst bei diaspora*, deinem neuen Online-Zuhause. Falls du irgendwelche Fragen hast, fühle dich frei, einen öffentlichen Beitrag bei diaspora* zu erstellen und füge ein:"
+      finish1: "Vielen Dank, dass du dir Zeit genommen hast, diaspora* durch diese Einleitung kennen zu lernen! Wir hoffen, dass es für dich hilfreich war, und du dich nun wohlfühlst bei diaspora*, deinem neuen Online-Zuhause. Falls du irgendwelche Fragen hast, fühle dich frei, einen öffentlichen Beitrag bei diaspora* zu erstellen und füge die Hashtags <span class=\"click\">#Hilfe</span> and <span class=\"click\">#Frage</click>, in deinen Beitrag ein, damit andere diaspora* Nutzer dir helfen können. Denn es gibt hier eine wirklich wundervolle und hilfsbereite Gemeinschaft!"
     formatting:
       byline: "Text formatieren"
       menu_title: "Text formatieren"
@@ -527,10 +527,10 @@ de:
       lists_code5: "Dies wird eine weitere Aufzählungsliste:"
       lists_code6: "Und dies wird eine nummerierte Liste:"
       quote: Zitat
-      quote_ex1: "Wenn du einen anderen Beitragsteil zitieren willst, kannst du ihn normal formatieren und startest den Absatz mit dem \">\" Zeichen:"
-      quote_code1: "Dieser normale Text enthält deine Zitat:"
+      quote_ex1: "Wenn du eines anderen Beitragsteil zitieren willst, kannst du ihn normal formatieren und startest den Absatz mit dem \">\" Zeichen:"
+      quote_code1: "Dieser normale Text leitet deine Zitat ein:"
       quote_code2: "Dies ist ein Zitat."
-      quote_code3: "Dies ist der Text der dem Zitat folgt."
+      quote_code3: "Dies ist der dem Zitat folgende Text."
       code: code-Blöcke
       code_ex1: "Wenn du ein Entwickler bist, könntest du an code-Blocks interessiert sein. Um einen code-Block zu erzeugen, stelle deinem Text/code vier Backticks ( ` ` ` ` ) voran. Schließe den code-Block mit weiteren vier Backticks, damit du zu normalem Text zurückkehrst."
       code_ex2: "Ein anderer Weg, um dies zu tun, ist es, jeder deiner code-Zeilen vier Leerzeichen voranzustellen. Das Hinzufügen weiterer Leerzeichen sorgt für noch mehr Einrückung."

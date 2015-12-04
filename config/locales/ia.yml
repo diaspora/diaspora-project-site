@@ -75,7 +75,7 @@ ia:
       this_ex: "diaspora* es un ver rete sin base central. Il ha servitores, appellate \"pods\", in tote le mundo. Cata pod contine le datos del usatores que se ha inscribite in illo. Le pods intercommunica de maniera transparente. Isto vole dicer que tu pote inscriber te in un certe pod e communicar liberemente con tu contactos in non importa qual pod del rete."
       notthis: "NON ISTO"
       notthis_ex: "In general, le retes social se trova in servitores centralisate in possession e sub gerentia de un interprisa commercial. Istes immagazina tote le datos private de lor usatores. Tal information pote esser perdite o furate. In ultra, como omne systema con un \"collo de bottilia\", un problema in le servitores central pote facer que tote le rete functiona lentemente o non del toto. Il anque es plus facile pro governamentos ascoltar le activitates del usatores."
-      discl: "(diaspora* usa standards web public como %{pubsubhubub} e %{webfinger} pro render iste typo de connexion possibile.)"
+      discl: "(diaspora* usa standards web public como %{pubsubhubbub} e %{webfinger} pro render iste typo de connexion possibile.)"
       connect: "Como me connecte io?"
       connect_ex: "Ben que diaspora* se compone de multe pods in tote le mundo, tu habera le experientia de un rete integrate. Non es necessari esser inscribite in le mesme pod que tu contactos pro poter intercommunicar in libertate; le communication se produce de maniera transparente inter tote le pods in le universo de diaspora*. Quando tu usa diaspora*, es facile oblidar que illo in realitate se compone de multe pods. De facto il es multo simple connecter se a un persona in diaspora*: "
       find: "1. Trova la"
@@ -314,8 +314,8 @@ ia:
       aspects1: "Considera tu vita e le personas que tu cognosce. Cata persona face parte de alcun aspecto de tu vita: pote esser un membro de tu familia, un amico intime, un collega de travalio, un consocio de sport o de musica, o simplemente un persona con qui tu ha un interesse particular in commun. Un persona poterea mesmo facer parte de plure tal aspectos de tu vita."
       aspects2: "diaspora* functiona exactemente in iste maniera. Tu pote mitter cata contacto in un “aspecto” de tu grano de diaspora*, dependente de qual aspecto de tu vita ille face parte.  In iste maniera, tu determina qual de tu contactos pote vider cata entrata que tu scribe in diaspora*, per inviar lo a un certe aspecto o aspectos in particular. Nos explica isto in major detalio in le tres partes sequente de iste serie."
       aspects3: "Al creation de tu conto, le systema te da quatro aspectos initial: Familia, Labor, Amicos e Cognoscitos. Naturalmente tu non potera categorisar tute tu vita in solmente quatro aspectos predefinite, dunque le prime cosa que nos va facer e adder altere aspectos. Tu pote anque deler le aspectos predefinite si tu vole."
-      aspects4: ~
-      add_aspect1: ~
+      aspects4: "Clicca sur <span class=\"click\">Mi aspectos</span> in le columna sinistre e tu lista de aspectos apparera. Pro adder un aspecto, clicca sur <span class=\"click\"><em>+ Adder un aspecto</em></span> sub le lista de aspectos in le columna sinistre. Un fenestra pop-up se presentara."
+      add_aspect1: "Selige un nomine pro le nove aspecto. Iste pote reflecter le connexion commun inter iste personas, p.ex. \"Scriptura creative\", \"Football\" o \"Activistas\", ma tu pote usar qualcunque nomine. Nemo altere pote jammais vider le nomines de tu aspectos, e tu contactos non sapera in qual aspectos illes es inserite. Pro iste exercitio, io suggere crear un aspecto con le nomine \"Diaspora\", in le qual tu pote inserer personas que tu incontra hic."
       add_aspect2: ~
       add_aspect3: ~
       add_aspect4: ~

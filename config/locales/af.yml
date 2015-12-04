@@ -75,7 +75,7 @@ af:
       this_ex: "diaspora * is 'n egte netwerk, met geen sentrale basis. Daar is servers (\"peule\" genoem) die hele wêreld oor, elk met die data van die gebruikers wat gekies het om met dit te registreer. Hierdie peule kommunikeer met mekaar moeiteloos, sodat jy met 'n peul kan registreer en vrylik met jou kontakte kommunikeer, waarookal hulle op die netwerk is."
       notthis: "NIE DIT NIE"
       notthis_ex: "Meeste van die sosiale netwerke loop van gesentraliseerde bedieners besit en bestuur deur 'n korporasie. Hulle stoor al die private data van hul gebruikers. Hierdie informasie kan verloor of gekompromitteer wees, en soos enige stelsel met 'n bottelnek, probleme by die sentrale servers kan die hele netwerk baie stadig laat loop, of heeltemal sluit. Dit is ook meer maklik vir regerings om \"in te luister.\""
-      discl: "(diaspora* gebruik oop web standaarde soos %{pubsubhubub} en %{webfinger} om hierdie soort verband moontlik te maak.)"
+      discl: "(diaspora* gebruik oop web standaarde soos %{pubsubhubbub} en %{webfinger} om hierdie soort verband moontlik te maak.)"
       connect: "Hoe sluit ek aan?"
       connect_ex: "Alhoewel diaspora * saamgestel uit baie peule oor die hele wêreld is, sal jy dit ervaar as 'n geïntegreerde netwerk. Jy hoef nie op dieselfde peul as jou kontakte te wees nie om vrylik met mekaar te kommunikeer – kommunikasie gebeur moeiteloos oor al die peule in die diaspora * heelal. Wanneer jy diaspora * gebruik, kan jy maklik vergeet dat dit eintlik ​​uit baie peule bestaan. Om to verbind met iemand in diaspora * is eintlik baie eenvoudig:  "
       find: "1. Vind hulle"

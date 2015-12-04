@@ -75,7 +75,7 @@ pt-PT:
       this_ex: "O diaspora* é uma rede verdadeira, sem nenhuma base central. Existem servidores (chamados de \"pods\") em todo o mundo, contendo os dados de todos os utilizadores que optaram por se registar nele. Estes \"pods\" comunicam facilmente uns com os outros, de modo que pode registar-se em qualquer \"pod\" e comunicar livremente com os seus contactos, onde quer que eles estejam na rede."
       notthis: "ISTO NÃO"
       notthis_ex: "A maior parte das redes sociais são geridas em servidores centralizados, controladas e geridas por corporações. Estas guardam todos os dados privados de todos os seus utilizadores. Esta informação pode ser perdida ou piratiada, e tal como qualquer sistema com um 'bottleneck', qualquer problema nos servidores centrais pode fazer com que toda a rede fique muito lenta, ou nem por isso. E também é muito fácil para os governos as “vigiarem.”"
-      discl: "(o diaspora* utiliza os padrões da web aberta, tais como, %{pubsubhubub} e %{webfinger} para tornar este tipo de conexão possível.)"
+      discl: "(o diaspora* utiliza os padrões da web aberta, tais como, %{pubsubhubbub} e %{webfinger} para tornar este tipo de conexão possível.)"
       connect: "Como é que eu coneto?"
       connect_ex: ~
       find: "1. Encontre-os"

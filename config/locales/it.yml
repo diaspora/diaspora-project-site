@@ -77,7 +77,7 @@ it:
       this_ex: "diaspora* è una vera rete, senza una base centrale. Ci sono dei server (chiamati 'pod' - semi, baccelli) in tutto il mondo, ognuno dei quali contiene i dati di coloro che hanno deciso di registrarsi ad esso. Questi pod comunicano tra di loro ininterrottamente, così è possibile registrarsi in qualsiasi pod e comunicare liberamente con i propri contatti, ovunque siano nella rete."
       notthis: "NON QUESTO"
       notthis_ex: "La maggior parte delle reti sociali gira su server centralizzati, gestiti e detenuti da una grande azienda. Essi immagazzinano tutti i dati privati dei loro utenti. Queste informazioni possono essere perse o trafugate, e come qualsiasi sistema con un collo di bottiglia, qualunque problema ai server centrali può rendere l'intera rete molto lenta o completamente inutilizzabile. È anche più facile per i governi 'origliare'."
-      discl: "(diaspora* utilizza standard di rete aperti come %{pubsubhubub} e %{webfinger} per rendere questo tipo di connessione possibile.)"
+      discl: "(diaspora* utilizza standard di rete aperti come %{pubsubhubbub} e %{webfinger} per rendere questo tipo di connessione possibile.)"
       connect: "Come faccio a collegarmi?"
       connect_ex: "Anche se diaspora* è composta da vari pod in tutto il mondo, vivrai l'esperienza di una rete integrata. Non hai bisogno di essere sullo stesso pod dei tuoi contatti per essere in grado di comunicare liberamente con gli altri - la comunicazione avverrà continuamente da una parte all'altra dei pod dell'universo diaspora*. Quando stai usando diaspora*, puoi facilmente dimenticarti che poggia effettivamente su molti semi. Connettersi con qualcuno in diaspora* è effettivamente molto semplice: "
       find: "1. Cercali"

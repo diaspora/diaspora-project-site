@@ -1,70 +1,70 @@
 tr:
   time:
     formats:
-      blog_headline: ~
+      blog_headline: "%d %B %Y"
   buttons:
     host_pod: "Pod sun"
     join_diaspora: "Bize katıl!"
-    find_more: ~
+    find_more: "Bilinmesi gerekenler »"
   meta:
     footer:
       copyleft: "CC-BY diaspora* Vakfı"
   title: "diaspora* Projesi"
-  newsfeed: ~
-  planet_feed: ~
+  newsfeed: "diaspora* Blog (Atom)"
+  planet_feed: "diaspora* Planet (Atom)"
   layouts:
     application:
-      wiki: ~
-      planet: ~
-      useful_resources: ~
-      codebase: ~
+      wiki: wiki
+      planet: planet
+      useful_resources: "Faydalı Kaynaklar"
+      codebase: codebase
       documentation: belgeleme
-      report_bugs: ~
-      irc_general: ~
-      irc_development: ~
-      discussion_general: ~
-      discussion_development: ~
-      choose_language: ~
-      translate: ~
+      report_bugs: "Arattır ve bir hata rapor"
+      irc_general: "IRC - General"
+      irc_development: "IRC - Geliştirme"
+      discussion_general: "Tartışma - General"
+      discussion_development: "Tartışma - Geliştirme"
+      choose_language: "bir dil seçip"
+      translate: "Bir çeviri ekle"
       cc_license_alt: ~
       licensed_under: ~
       license_link_text: ~
   pages:
     index:
-      headline: ~
+      headline: "diaspora* Hoşgeldiniz"
       byline: ~
-      register: ~
-      key_philosophies: ~
-      decentralization: ~
+      register: "Kaydol »"
+      key_philosophies: "diaspora* üç anahtar felsefeler dayanmaktadır:"
+      decentralization: "ademi merkeziyet"
       decentralization_about: ~
-      freedom: ~
+      freedom: özgürlük
       freedom_about: ~
-      privacy: ~
+      privacy: mahremiyet
       privacy_about: ~
-      get_started: ~
-      get_started_sub: ~
-      choose_pod: ~
+      get_started: "Başlamak için ister misiniz?"
+      get_started_sub: "Bu 1, 2, 3 gibi kolaydır ..."
+      choose_pod: "1. Seçin bir pod"
       choose_pod_exp: ~
-      sign_up: ~
+      sign_up: "2. kaydol"
       sign_up_ex: ~
-      join_convo: ~
+      join_convo: "3. Konuşmaya katılın!"
       join_convo_ex: ~
-      aspects: ~
+      aspects: bakış
       aspects_ex: ~
-      features: ~
+      features: Özellikler
       features_ex: ~
-      help: ~
+      help: "Yardım ister misiniz?"
       help_ex: ~
-      socialint: ~
+      socialint: "Sosyal ağ entegrasyonu"
       socialint_ex: ~
-      earth_alt: ~
-      decentralized_alt: ~
-      freedom_alt: ~
-      keyhole_alt: ~
+      earth_alt: Topraklı*
+      decentralized_alt: "ademi merkeziyetçi"
+      freedom_alt: özgürlük
+      keyhole_alt: "anahtar deliği"
       aspects_alt: ~
-      features_alt: ~
-      ways_to_help_alt: ~
-      services_alt: ~
+      features_alt: Özellikler
+      ways_to_help_alt: "Yardım Yolları"
+      services_alt: Hizmetler
     about:
       headline: "diaspora* nasıl çalışır?"
       byline: "diaspora*yı kullanmak kolaydır – işte nasıl olduğu"
@@ -78,9 +78,9 @@ tr:
       discl: ~
       connect: "Ben nasıl bağlayabilirim?"
       connect_ex: ~
-      find: "onları bulmak"
+      find: "1. onları bulmak"
       find_ex: ~
-      add: ~
+      add: "2. Onlar eklemek"
       add_ex: ~
       freedom: Özgürlük
       freedom_byline: "diaspora* sizi sınırlamaya çalışmaz"
@@ -99,7 +99,7 @@ tr:
       priv3: "Hedef kitlenizi seçin"
       priv3_ex: ~
       aspects: "Yönleri hakkında herşey"
-      aspects_byline: ~
+      aspects_byline: "gizlilik anahtarıdır diaspora*"
       asp1: "Hayatınızın Yönleri"
       asp1_ex: ~
       asp2: "Hayatınızı düzenleyin"
@@ -108,141 +108,141 @@ tr:
       asp3_ex: ~
       features: ~
       features_byline: "Biz onları çok seveceksiniz düşünüyorum"
-      hashtags: ~
+      hashtags: hashtags
       hashtags_ex: ~
-      reshare: ~
+      reshare: "Yeniden paylaşma"
       reshare_ex: ~
-      mentions: ~
+      mentions: bahseder
       mentions_ex: ~
       love: ~
       love_ex: ~
-      host: ~
+      host: "Bir topluluk sunucusu barındırmak"
       host_byline: ~
       host_ex: ~
-      hostinst1: ~
-      instructions_link_text: ~
-      hostinst2: ~
+      hostinst1: "%{instructions_link} okuyun ve kendi topluluk pod kurmak."
+      instructions_link_text: "Pod kurulum bilgileri"
+      hostinst2: "Da topluluk pods listesini görüntülemek %{poduptime}"
       distributed_network: ~
       centralized_network: ~
-      search_alt: ~
+      search_alt: Arama
       add_a_contact_alt: ~
-      hashtag_alt: ~
-      reshare_alt: ~
+      hashtag_alt: Hashtag
+      reshare_alt: "Yeniden paylaşma"
       mention_alt: ~
       heart_alt: ~
     get_involved:
-      headline: ~
-      byline: ~
-      menu_title: ~
-      community: ~
-      community_byline: ~
-      meaning: ~
+      headline: "Yer alın!"
+      byline: "Sosyal ağın geleceği seninle başlar"
+      menu_title: "Yer alın"
+      community: "güçlü Topluluk"
+      community_byline: "diaspora* de size ait"
+      meaning: "Her şey ne anlama geliyor?"
       meaning_ex1: ~
       meaning_ex2: ~
       meaning_ex3: ~
-      whereyou: ~
+      whereyou: "Eğer gelip nereye"
       whereyou_ex1: ~
       whereyou_ex2: ~
-      gi_header: ~
-      code_header: ~
+      gi_header: "Yolları yer almak için"
+      code_header: "kod Katkıda"
       code_byline: ~
       code_ex1: ~
-      code_ex2: ~
-      code_ex3: ~
+      code_ex2: "Geliştirme ortamı kurun"
+      code_ex3: "katkıda başlamak kod!"
       code_ex4: ~
       get_started_guide_link_text: ~
-      mailing_list_link_text: ~
+      mailing_list_link_text: "mail listesi"
       irc_link_text: ~
-      code_gh: ~
-      bugs_header: ~
+      code_gh: "GitHub üzerinde kaynak İnceleme"
+      bugs_header: "hataların giderilmesi"
       bugs_ex1: ~
       bugs_ex2: ~
-      bugs_ex3: ~
+      bugs_ex3: "Bizim kodunu temizlemeye yardımcı"
       github_link_text: ~
-      translate_header: ~
+      translate_header: "çevrilmesine yardımcı"
       translate_ex1: ~
       translations_link_text: ~
       translate_ex2: ~
-      translation_instructions_link_text: ~
+      translation_instructions_link_text: "çeviri talimati "
       voice_header: ~
       voice_ex1: ~
-      voice_ex2: ~
+      voice_ex2: "bize katılın"
       voice_ex3: ~
-      meetup_link_text: ~
-      support_header: ~
-      support_ex1: ~
-      support_ex2: ~
+      meetup_link_text: "gayri resmi toplantısı"
+      support_header: "destek sağlamak"
+      support_ex1: "Yeni kullanıcılar edilir hissediyorum Yardım!"
+      support_ex2: "Buradan kayıt olun"
       support_ex3: ~
       support_ex4: ~
-      irc_channel_link_text: ~
-      support_ex5: ~
-      wiki_link_text: ~
-      run_header: ~
+      irc_channel_link_text: "IRC channel"
+      support_ex5: "katkıda %{wiki_link}."
+      wiki_link_text: "diaspora*’s wiki"
+      run_header: "Bir kamuoyuna başlat pod"
       run_ex1: ~
       host_pod_link_text: ~
-      run_ex2: ~
-      run_ex3: ~
-      contributors_header: ~
+      run_ex2: "Istediğiniz yere Bunu barındırabilir."
+      run_ex3: "%{poduptime} açık listesine pod ekleyin."
+      contributors_header: "diaspora*'s contribution"
       contributors_byline: ~
       globe_alt: ~
       megaphone_alt: ~
-      support_alt: ~
-      pod_alt: ~
+      support_alt: Destek
+      pod_alt: Pod
     blog:
-      headline: ~
-      subline: ~
-      menu_title: ~
+      headline: "diaspora* Blog"
+      subline: "resmi duyurular"
+      menu_title: Blog
     planet:
-      headline: ~
-      subline: ~
-      menu_title: ~
-      disclaimer_headline: ~
+      headline: "Diaspora * gezegen"
+      subline: "Bizim toplum tarafından günlüğü gönderileri"
+      menu_title: planet
+      disclaimer_headline: "diaspora* planet"
       disclaimer: ~
-      subscribe_headline: ~
+      subscribe_headline: Abone
       subscribe: ~
-      feed_link_title: ~
-      subscriptions_headline: ~
+      feed_link_title: "Atom besleme"
+      subscriptions_headline: Abonelikleri
     tutorials:
       headline: ~
-      byline: ~
-      menu_title: ~
+      byline: "Adım adım size yardımcı olmak için kılavuzluk"
+      menu_title: Öğreticiler
       tutorials_ex1: ~
       tutorials_ex2: ~
-      started_head: ~
-      started1: ~
-      started2: ~
+      started_head: "diaspora* ile başlarken"
+      started1: kaydolarak
+      started2: arayüzey
       started3: ~
-      started4: ~
-      started5: ~
-      started6: ~
-      started7: ~
-      part1: ~
-      part2: ~
-      part3: ~
-      part4: ~
-      part5: ~
-      part6: ~
-      part7: ~
-      additional: ~
-      connecting: ~
-      tips: ~
-      formatting: ~
-      more_tutorials: ~
-      other_docs: ~
-      other_docs_link_text: ~
+      started4: "Bulgu ve insanlarla bağlantı"
+      started5: "Paylaşmaya başlayın!"
+      started6: "Bildirimler ve ileti dizileri"
+      started7: bitirme
+      part1: "kısım 1"
+      part2: "kısım 2"
+      part3: "kısım 3"
+      part4: "kısım 4"
+      part5: "kısım 5"
+      part6: "kısım 6"
+      part7: "kısım 7"
+      additional: "Ek öğreticiler"
+      connecting: "Diğer hizmetlere \"diaspora\" bağlayın"
+      tips: "Ipuçları ve Püf noktaları"
+      formatting: "biçimlendirmek için metin"
+      more_tutorials: "Daha fazla yardım mı istiyorsunuz?"
+      other_docs: "Diğer sitelere bağlantılar için %{other_docs_link} sayfasını kontrol edin."
+      other_docs_link_text: "diğer belgeler"
       thanks: ~
     getting_started1:
-      byline: ~
-      menu_title: ~
+      byline: "1 Kısım - İmza kadar"
+      menu_title: "diaspora* kadar imzalanması"
       welcome: ~
-      find_pod: ~
+      find_pod: "Bir pod bularak"
       find_pod_ex1: ~
       find_pod_ex2: ~
       find_pod_ex3: ~
-      wiki_link_text: ~
+      wiki_link_text: "Bir \"pod\" seçerek için rehber"
       find_pod_ex4: ~
       find_pod_ex5: ~
-      registration: ~
+      registration: "Giriş kayıt"
       registration1: ~
       registration2: ~
       registration3: ~
@@ -258,49 +258,49 @@ tr:
       profile2: ~
       profile3: ~
       profile4: ~
-      finish: ~
+      finish: "Bu kadar!"
       finish_ex1: ~
       finish_ex2: ~
     getting_started2:
-      byline: ~
-      menu_title: ~
+      byline: "2 Kısım - arayüzü"
+      menu_title: "arabirimini kullanma"
       interface1: ~
       interface2: ~
-      interface3: ~
+      interface3: "Ana arayüzü dört ana bölüme bölünebilen."
       header: ~
       header2: ~
       header3: ~
-      header4: ~
-      header5: ~
-      header6: ~
-      header7: ~
-      header8: ~
-      header9: ~
-      header10: ~
-      header11: ~
-      header12: ~
-      columns: ~
+      header4: "Bir bildirim simgesi (ayrıca bakınız %{part6_link});"
+      header5: "Bir ileti dizisi simgesi (ayrıca bakınız %{part6_link});"
+      header6: "arama çubuğunun (ayrıca bakınız %{part4_link});"
+      header7: "kişisel bir açilir menüsü ile birlikte:"
+      header8: " profiliniz sayfa için bir bağlantı (ayrıca bakınız %{part1_link});"
+      header9: "Rehber listenizde bir bağlantı (ayrıca bakınız %{part4_link});"
+      header10: "senin hesap ayarları sayfa için bir bağlantı (ayrıca bakınız %{part7_link});"
+      header11: "Bir yardım bölümüne bir bağlantı;"
+      header12: "Bir düğme dışarı oturum açın."
+      columns: "Başlığının altında üç sütun vardır:"
       column1: ~
       column2: ~
       column3: ~
       views: ~
-      stream: ~
+      stream: dere
       stream_ex: ~
-      stream1: ~
+      stream1: "kişileriniz tarafından yapılan mesajlar;"
       stream2: ~
       stream3: ~
       stream_ex2: ~
-      activity: ~
+      activity: "Benim Etkinlik"
       activity_ex: ~
       mentions: ~
       mentions_ex: ~
       aspects: ~
       aspects_ex1: ~
       aspects_ex2: ~
-      tags: ~
+      tags: "izlenen #tags"
       tags_ex1: ~
       tags_ex2: ~
-      profile: ~
+      profile: "Profil bakış"
       profile_ex1: ~
       profile_ex2: ~
       profile_ex3: ~
@@ -325,10 +325,10 @@ tr:
       my_aspects4: ~
       my_aspects5: ~
       my_aspects6: ~
-      my_aspects7: ~
+      my_aspects7: "Bu seçim Bu sistem iki amaçlarla kullanılan:"
       my_aspects8: ~
       my_aspects9: ~
-      contacts: ~
+      contacts: "İletişim bilgileri sayfası"
       contact_ex1: ~
       contact_ex3: ~
       contact_ex4: ~
@@ -340,19 +340,19 @@ tr:
       finish: ~
     getting_started4:
       byline: ~
-      menu_title: ~
+      menu_title: "Insanlarla nasıl bağlanacağı"
       aspects1: ~
       sharing: ~
       sharing_ex: ~
       relationships: ~
-      followers: ~
+      followers: takipçiler
       followers_ex1: ~
       followers_ex2: ~
       followers_ex3: ~
-      following: ~
+      following: aşağıdaki
       following_ex1: ~
       following_ex2: ~
-      mutual: ~
+      mutual: "karşılıklı paylaşım"
       mutual_ex1: ~
       mutual_ex2: ~
       mutual_ls1: ~
@@ -360,25 +360,27 @@ tr:
       mutual_ls3: ~
       mutual_ls4: ~
       mutual_ex3: ~
-      finding: ~
+      finding: "insanları bularak"
       finding_ex1: ~
       finding_ex2: ~
-      search: ~
-      search_ex: ~
-      search_ls1: ~
-      search_ls2: ~
-      search_ls3: ~
+      search: Arama
+      search_ex: "Arama alanında başlık çubuğunda olduğunu. Arama birisini eklemek:"
+      search_ls1: |-
+          Bir ad veya diaspora* ID yazın.
+          Yazmaya başladığınız Öneri görünecektir.
+      search_ls2: "Arama yeterlidir vurmak girmek ve sonuçları ile bir sayfada ineceğim."
+      search_ls3: "Eğer are seyir kişinin eğer bulduğunuzda, <span class=\"click\"> İletişim Ekle </span> düğmesini tıklatın."
       search_ls4: ~
       search_ls5: ~
       search_ls6: ~
-      invite: ~
+      invite: "Bir davetiye mail yollama"
       invite_ex: ~
-      profile: ~
+      profile: "Onların profilden"
       profile_ex1: ~
       profile_ex2: ~
-      tags: ~
+      tags: "aşağıdaki #tags"
       tags_ex: ~
-      removing: ~
+      removing: "Senin kişilerden gelen birisi sökülmesi"
       removing_ex1: ~
       removing_ex2: ~
       removing_ex3: ~
@@ -386,20 +388,22 @@ tr:
       removing_ex5: ~
       finish: ~
     getting_started5:
-      byline: ~
-      menu_title: ~
-      intro1: ~
+      byline: "Parça 5 - paylaşım başlama!"
+      menu_title: "paylaşım başlama!"
+      intro1: |-
+          Şimdi bazı kişiler var,
+          onlarla birlikte içerik paylaşımı başlamak için zamanı geldi.
       intro2: ~
       publisher: ~
       publisher_ex1: ~
       publisher_ex2: ~
       publisher_ex3: ~
       publisher_ex4: ~
-      buttons: ~
+      buttons: "Tamam, bu yüzden bu düğmeler tüm hakkında nelerdir?"
       aspect_selector: ~
       aspect_selector_ex1: ~
       aspect_selector_ex2: ~
-      photo: ~
+      photo: "Fotoğraf paylaşımı"
       photo_ex: ~
       locator: ~
       locator_ex1: ~
@@ -413,7 +417,7 @@ tr:
       preview_ex1: ~
       preview_ex2: ~
       features: ~
-      tags: ~
+      tags: "#etiketler"
       tags_ex1: ~
       tags_ex2: ~
       tags_ex3: ~
@@ -421,15 +425,15 @@ tr:
       mentions_ex1: ~
       mentions_ex2: ~
       mentions_ex3: ~
-      format: ~
+      format: "Metin biçimlendirme"
       format_ex: ~
       format_link_text: ~
       links: ~
       links_ex: ~
-      embed: ~
+      embed: gömerek
       embed_ex1: ~
       embed_ex2: ~
-      services: ~
+      services: "Diğer hizmetler için ilanıyla"
       services_ex1: ~
       services_ex2: ~
       services_ex3: ~
@@ -441,26 +445,26 @@ tr:
       interact: ~
       interact_ex1: ~
       interact_ex2: ~
-      comments: ~
+      comments: "Yorumlar yorum"
       comments_ex: ~
       likes: ~
       likes_ex1: ~
       likes_ex2: ~
-      reshare: ~
+      reshare: "Yeniden paylaşma mesajlar"
       reshare_ex: ~
-      delete: ~
+      delete: "Mesajlar ve yorumlar silme"
       delete_ex: ~
-      hide: ~
+      hide: "Birinin Mesaja gizlenmesi"
       hide_ex: ~
-      ignore: ~
+      ignore: "Bir kullanıcının göz ardı"
       ignore_ex1: ~
       ignore_ex2: ~
       finish: ~
     getting_started6:
-      byline: ~
-      menu_title: ~
+      byline: "Kısım 6 - Bildirimler ve ileti dizisi"
+      menu_title: "Bildirimler ve ileti dizisi"
       intro: ~
-      notify: ~
+      notify: Bildirimler
       notify_ex1: ~
       notify_ex2: ~
       notify_ls1: ~
@@ -468,7 +472,7 @@ tr:
       notify_ls3: ~
       notify_ls4: ~
       notify_ex3: ~
-      convo: ~
+      convo: Oturumlar
       convo_ex1: ~
       convo_ex2: ~
       convo_ex3: ~
@@ -480,71 +484,71 @@ tr:
       convo_ex9: ~
       finish: ~
     getting_started7:
-      byline: ~
-      menu_title: ~
+      byline: "Kısmı 7 - Binaların tamamlanması"
+      menu_title: "Binaların tamamlanması"
       intro: ~
-      connect: ~
+      connect: "Diğer hizmetler için diaspora* seed Bağlama"
       connect_ex1: ~
       connect_ex2: ~
       connect_ex3: ~
       connect_ex4: ~
-      settings: ~
+      settings: "Hesap Yönetimi"
       settings_ex1: ~
       settings_ex3: ~
-      profile: ~
+      profile: profil
       profile_ex: ~
-      account: ~
+      account: Hesap
       account_ex1: ~
       account_ex2: ~
       account_ex3: ~
       account_ex4: ~
-      privacy: ~
+      privacy: Gizlilik
       privacy_ex: ~
-      services: ~
+      services: Hizmetler
       services_ex: ~
       finish1: ~
     formatting:
-      byline: ~
-      menu_title: ~
+      byline: "metin biçimlendirme"
+      menu_title: "metin biçimlendirme"
       format1: ~
       format2: ~
       format3: ~
       format4: ~
-      headings: ~
+      headings: Başlıklar
       headings_ex1: ~
-      headings_code1: ~
-      headings_code2: ~
-      headings_code3: ~
+      headings_code1: "Bu, son derece büyük bir başlıktır"
+      headings_code2: "Yukarıdaki gibi büyük Yarım"
+      headings_code3: "Normal metin iki katı büyüklüğünde"
       headings_ex2: ~
-      lists: ~
-      lists_ex1: ~
+      lists: Listeler
+      lists_ex1: "Her satırın önünde listenin bir parçası olarak istiyoruz - bir madde işaretli liste oluşturmak için, ya *, + veya yerleştirin."
       lists_ex2: ~
       lists_ex3: ~
-      lists_code1: ~
-      lists_code2: ~
-      lists_code3: ~
-      lists_code4: ~
-      lists_code5: ~
-      lists_code6: ~
-      quote: ~
+      lists_code1: "Bu madde işaretli liste oluşturmak için nasıl:"
+      lists_code2: "öğe bir tane;"
+      lists_code3: "Ürünü ikisi;"
+      lists_code4: "öğe üç;"
+      lists_code5: "Bu da başka bir madde işaretli liste olacak:"
+      lists_code6: "Ve bu bir numaralı liste olacak:"
+      quote: alıntı
       quote_ex1: ~
       quote_code1: ~
-      quote_code2: ~
+      quote_code2: "Bu alıntı olduğunu."
       quote_code3: ~
-      code: ~
+      code: "Kod blokları"
       code_ex1: ~
       code_ex2: ~
       code_ex3: ~
-      code_code1: ~
-      code_code2: ~
-      code_code3: ~
-      code_code4: ~
-      code_code5: ~
-      line: ~
+      code_code1: "Bu normal metin bir çizgidir."
+      code_code2: "Bu bir kod bloğu olacak"
+      code_code3: "O zaman biraz daha normal bir metin."
+      code_code4: "ve daha sonra biraz daha fazla kod"
+      code_code5: "ikisi boşluklarla girintili bir kod satırı"
+      line: "Yatay çizgi"
       line_ex: ~
-      line_code1: ~
-      line_code2: ~
-      itals: ~
+      line_code1: "This will be a horizontal line of text and a rule in the next."
+      line_code2: "Ve şimdi size metnin bir sonraki bölüme başlayabilirsiniz."
+      itals: "İtalik ve kalın"
       itals_ex1: ~
       itals_ex2: ~
       itals_ex3: ~
@@ -555,58 +559,58 @@ tr:
       link_code: ~
       link_ex2: ~
       inline_link_text: ~
-      images: ~
+      images: Resimleri
       images_ex1: ~
       images_code: ~
       images_ex2: ~
       images_ex3: ~
       escape_ex1: ~
-      escape_code: ~
+      escape_code: "Budur \\_ alt çizgi gibi bir"
       escape_ex2: ~
       escape_ex3: ~
-      symbols: ~
+      symbols: "Özel karakterler"
       symbols_ex: ~
       finish: ~
-      markdown_link_text: ~
+      markdown_link_text: "Bu sayfada"
     tips:
-      headline: ~
-      byline: ~
-      menu_title: ~
+      headline: "diaspora* kullanma ipuçları"
+      byline: "Biz fark ettik bazı yararlı hileler"
+      menu_title: "diaspora* kullanma ipuçları"
       intro: ~
-      profile: ~
+      profile: "Ekstra profil alanları"
       profile_ex: ~
-      notepad: ~
+      notepad: "Bir not defteri olarak kullanın diaspora*"
       notepad_ex: ~
     other_docs:
-      headline: ~
-      byline: ~
-      menu_title: ~
+      headline: "Diğer belgeler"
+      byline: "Nerede daha fazla yardım ve bilgi bulmak için"
+      menu_title: "Diğer belgeler"
       intro1: ~
       intro2: ~
-      tutorials: ~
-      parfait: ~
-      about: ~
+      tutorials: Öğreticiler
+      parfait: "diaspora* yeni insanlar için Fransız bir rehber"
+      about: "diaspora* Hakkında"
       about1: ~
       wiki: ~
-      wiki_link_text: ~
+      wiki_link_text: "Resmi proje wiki"
       wikipedia: ~
-      wikipedia_link_text: ~
-      wikipedia_software_link_text: ~
-      support: ~
+      wikipedia_link_text: diaspora*
+      wikipedia_software_link_text: "diaspora* yazılım"
+      support: "Kullanıcı desteği"
       question: ~
       mail: ~
-      mail_link_text: ~
+      mail_link_text: "mail listesi"
       irc: ~
       irc_link_text: ~
-      progress: ~
+      progress: "Proje ilerleme"
       blog: ~
-      blog_link_text: ~
+      blog_link_text: "Proje blog"
       changelog: ~
-      changelog_link_text: ~
+      changelog_link_text: "Değişiklik günlüğü"
       loomio: ~
-      communication: ~
+      communication: haberleşme
       communicate: ~
-      communicate_link_text: ~
-      other: ~
+      communicate_link_text: "\"Nasıl haberleşmek\""
+      other: "Diğer siteler"
       manifesto: ~
-      manifesto_link_text: ~
+      manifesto_link_text: "Kullanıcı Veri Manifestosu"
