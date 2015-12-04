@@ -75,7 +75,7 @@ en:
       this_ex: "diaspora* is a true network, with no central base. There are servers (called “pods”) all over the world, each containing the data of those users who have chosen to register with it. These pods communicate with each other seamlessly, so that you can register with any pod and communicate freely with your contacts, wherever they are on the network."
       notthis: "NOT THIS"
       notthis_ex: "Most social networks are run from centralized servers owned and run by a corporation. These store all the private data of their users. This information can be lost or hacked, and like any system with a bottleneck, any problem at the central servers can make the whole network run very slowly, or not at all. It is also more easy for governments to “listen in.”"
-      discl: "(diaspora* uses open web standards such as %{pubsubhubub} and %{webfinger} to make this kind of connection possible.)"
+      discl: "(diaspora* uses open web standards such as %{pubsubhubbub} and %{webfinger} to make this kind of connection possible.)"
       connect: "How do I connect?"
       connect_ex: "Even though diaspora* is made up of many pods all over the world, you will experience it as one integrated network. You don’t need to be on the same pod as your contacts in order to communicate freely with each other - communication happens seamlessly across all the pods in the diaspora* universe. When you’re using diaspora*, you can easily forget that it’s actually made up of many pods. Connecting with someone in diaspora* is actually really simple: "
       find: "1. Find them"
