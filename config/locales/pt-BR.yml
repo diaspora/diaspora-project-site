@@ -108,7 +108,7 @@ pt-BR:
       asp3_ex: "Claro, algumas coisas são tão importantes que você quer contar ao mundo inteiro. Você pode facilmente compartilhar algo com o mundo todo, tornando-o público. Usar hashtags apropriadas significa que vai chegar ate pessoas que provavelmente vão gostar disso."
       features: "Características que nossa comunidade adora"
       features_byline: "Nós achamos que você também vai se apaixonar"
-      hashtags: ""
+      hashtags: Hashtags
       hashtags_ex: "Hashtags permitem que voce marque e siga seus interesses, a ajuda suas postagens chegar a pessoas que pensam como você. Tambem são uma otima maneira de se divertir e encontrar novas pessoas interessantes no diaspora*."
       reshare: Recompartilhe
       reshare_ex: "Por que não recompartilhar um post que você ama com os outros? diaspora* torna fácil espalhar idéias através do reshare. Basta apertar o botão para compartilhar a mensagem."
@@ -193,7 +193,7 @@ pt-BR:
       subline: "anúncios oficiais"
       menu_title: Blog
     planet:
-      headline: Planeta
+      headline: "Planeta diaspora*"
       subline: ~
       menu_title: Planeta
       disclaimer_headline: ~
@@ -318,21 +318,21 @@ pt-BR:
       add_aspect1: "Escolha um nome para o novo aspecto. Isso pode refletir na conexão comum entre essas pessoas, talvez \"Escrita criativa\", \"Futebol\", ou \"Ativistas\", mas você pode chamá-los da maneira que quiser. Ninguém mais será capaz de ver os nomes dos seus aspectos, e nem seus contatos saberão em qual aspecto eles estão. Para esse exercício, eu sugiro a criação de um aspecto chamado \"Diaspora\", dentro do qual você pode colocar pessoas que você encontra aqui."
       add_aspect2: "Decida se você quer marcar \"Faça os contatos desse aspecto visíveis para cada um?\". Isso é útil se o aspecto é para um clube no qual todos os membros se conhecem entre si, uma vez que tornando cada um visível ajudará a conexão entre cada um deles. Entretanto, você deveria usar isso com cuidado, e considere a privacidade das outras pessoas antes de fazer isso."
       add_aspect3: "Quando você finalizar, clique no botão <span class=\"click\">Criar</span> . O aspecto é então criado e selecionado no menu."
-      add_aspect4: ~
-      my_aspects1: ~
+      add_aspect4: "Criado o aspecto, você verá a lista dos contatos que podem ser incluídos nele. Clique no ícone de '+' ao lado dos nomes das pessoas que você quer adicionar ao aspecto."
+      my_aspects1: "Agora, volte para página principal e clique em <span class=\"click\">Meus Aspectos</span>. Você verá que apenas as publicações de pessoas incluídas nos aspectos marcados com um tique aparecem no seu fluxo."
       my_aspects2: "Agora todos seus aspectos devem estar selecionados, com marcações próximas a eles."
       my_aspects3: "Você pode clicar em aspectos no menu para selecioná-los ou desselecioná-los."
       my_aspects4: "Você pode selecionar apenas um aspecto, ou qualquer combinação deles."
       my_aspects5: "Se todos os aspectos estão selecionados e você quer ver apenas um, clique <span class=\"click\">Desmarcar todos</span> e então selecione aquele que você quer."
       my_aspects6: "Por que não brincar com isso por alguns segundos?"
       my_aspects7: "Este sistema de seleção possui dois usos:"
-      my_aspects8: ~
-      my_aspects9: ~
+      my_aspects8: "Filtrar conteúdo do fluxo. Você pode escolher ver apenas as publicações feitas pela \"Família\"; ou todas as outras, <em>e não</em> essas."
+      my_aspects9: "Publicar uma mensagem para certos aspectos. Se você iniciar uma conversa a partir da página dos Aspectos, a opção de compartilhar com os aspectos ticados no menu à esquerda será imediatamente selecionada no editor. Por exemplo, se \"Amigos\", \"Família\" e \"Trabalho\" estiverem marcados, ao clicar no editor para escrever sua mensagem, o botão de compartilhamento mostrará o texto \"Em três aspectos\"."
       contacts: "Página de Contatos"
       contact_ex1: "Nós mencionamos sua página de contatos em %{part2_link}. Para acessar sua página de contatos, clique na seta do lado direito no final da barra de cabeçalho e selecione  <span class=\"click\">Contatos</span> na lista drop-down."
       contact_ex3: "A página de contatos mostra seus aspectos na coluna do lado esquerdo, e seus contatos naqueles aspectos mostrados no lado direito."
-      contact_ex4: ~
-      contact_ex5: ~
+      contact_ex4: "Se os contatos de todos os aspectos forem exibidos (clique em<span class=\"click\">Meus Contatos</span> na coluna à esquerda), ao lado do nome de cada um haverá um botão verde que mostra a quais aspectos ele foi adicionado. Se um contato pertencer a mais de um aspecto, o texto será \"Em <em>n</em> aspectos\". Clique no botão para ver quais são."
+      contact_ex5: "Clicando aí, você pode marcar ou desmarcar, na lista suspensa, os aspectos que incluem essa pessoa. Se você removê-la de todos os aspectos, o botão ficará cinza. Você deixará de compartilhar com ela."
       contact_ex6: "Se você está vendo contatos em um aspecto individual, haverá uma cruz no lado direito de cada contato mostrado. Clicando nela irá remover a pessoa daquele aspecto."
       contact_ex7: "Você também pode criar novos aspectos através de sua página de contatos."
       sharing_me: "Só compartilhando comigo"
@@ -343,48 +343,48 @@ pt-BR:
       menu_title: "Como conectar com pessoas"
       aspects1: "Agora é hora de adicionar alguns contatos ao aspecto \"Diaspora\" que você acabou de criar. Se você já conhece pessoas que estão utilizando diaspora*, você pode encontrá-las e adicioná-las a qualquer aspecto que você quiser."
       sharing: Compartilhando
-      sharing_ex: ~
+      sharing_ex: "Nós dizemos que as pessoas \"compartilham\" conteúdo. Como isso funciona pode parecer confuso à primeira vista, porque o nível em que você compartilha com outras pessoas na diaspora* provavelmente não é o mesmo em que elas compartilham com você. Tentamos explicar isso melhor a seguir."
       relationships: "Em diaspora* existem três tipos de relações entre usuários:"
       followers: Seguidores
-      followers_ex1: ~
+      followers_ex1: "Alguém adiciona você a um aspecto, mas você não faz o mesmo. Você receberá notificação de que essa pessoa \"começou a compartilhar com você\", mas não notará nenhuma outra mudança."
       followers_ex2: "Eles verão suas publicações do tipo públicas no fluxo deles, mas nenhuma de suas publicações limitadas."
-      followers_ex3: ~
+      followers_ex3: "Não há como saber a qual aspecto ela adicionou você, por respeito a sua privacidade – como alguém organiza seus aspectos é somente da sua conta."
       following: Seguindo
-      following_ex1: ~
-      following_ex2: ~
+      following_ex1: "Você compartilha com uma pessoa que não compartilha com você. Isto é, você a adicionou a um ou mais aspectos, mas ela não reciprocou o gesto."
+      following_ex2: "Quem você segue poderá ver suas publicações públicas, além das feitas nos aspectos aos quais pertence. Você verá as publicações públicas dessa pessoa no seu fluxo."
       mutual: "Compartilhamento mútuo"
-      mutual_ex1: ~
-      mutual_ex2: ~
-      mutual_ls1: ~
-      mutual_ls2: ~
-      mutual_ls3: ~
-      mutual_ls4: ~
-      mutual_ex3: ~
+      mutual_ex1: "Quando as duas pessoas compartilham, tudo fica mais interessante, e mais complicado também! É comparável a uma \"amizade\" no Facebook, embora existam diferenças importantes."
+      mutual_ex2: "Em uma conexão mútua, uma pessoa vê as publicações limitadas feitas pela outra no aspecto ao qual a segunda adicionou a primeira. Porém a maneira da primeira compartilhar com a segunda pode ser muito diversa. Considere a situação descrita abaixo:"
+      mutual_ls1: "Para Carlos, Júlia é uma conhecida, e ele adiciona-a ao aspecto correspondente."
+      mutual_ls2: "Júlia, porém, considera-o um amigo próximo, e coloca-o no aspecto \"Melhores amigos\"."
+      mutual_ls3: "Carlos costuma publicar somente para a \"Família\" e os \"Amigos\", então Júlia não vê muitas de suas publicações."
+      mutual_ls4: "Como ele é, por sua vez, um dos \"Melhores amigos\" de Júlia, Carlos pode ver quase tudo que ela publica."
+      mutual_ex3: "Não esqueça que <span class=\"click\">ninguém</span> vê uma publicação que não seja nem pública, nem destinada a um aspecto que contém o \"destinatário\"."
       finding: "Encontrando pessoas"
-      finding_ex1: ~
+      finding_ex1: "Para começar a compartilhar, siga algumas pessoas. Elas podem seguir você de volta! Continue a ler para saber como."
       finding_ex2: "Existem várias maneiras de encontrar alguém e adicioná-la a um aspecto."
       search: Busca
       search_ex: "O campo de busca está na barra de cabeçalho. Para adicionar alguém através da busca:"
       search_ls1: "Digite um nome ou a diaspora* ID. Sugestões aparecerão assim que você começar a digitar."
-      search_ls2: ~
+      search_ls2: "Tecle Enter para buscar. Será mostrada uma página com os resultados."
       search_ls3: "Quando você tiver encontrado a pessoa que procura, clique no botão <span class=\"click\">Adicionar Contato</span>."
-      search_ls4: ~
-      search_ls5: ~
-      search_ls6: ~
+      search_ls4: "Se a pessoa buscada estiver listada, clique no nome para abrir seu perfil. Lá, clique em <span class=\"click\">Adicionar contato</span>."
+      search_ls5: "No menu suspenso aberto, selecione aspectos para colocá-la. Também é possível criar um novo aspecto em <span class=\"click\"><em>+ Adicionar aspecto</em></span>."
+      search_ls6: "Selecionados os aspectos, o botão ficará verde. Você poderá então compartilhar com a pessoa através dos aspectos escolhidos e passará a ver as publicações públicas dela."
       invite: "Enviando um email de convite"
-      invite_ex: ~
+      invite_ex: "Outra maneira de seguir alguém é mandando-lhe um convite por e-mail. Você pode enviar um convite pela página de resultados da busca, clicando em <span class=\"click\">\"Por e-mail\"</span>, ou pela página principal, na seção \"Convide seus amigos\". Assim que a pessoa convidada aceitar o convite, ela será guiada através do mesmo processo de cadastro pelo qual você acabou de passar."
       profile: "Do perfil deles"
-      profile_ex1: ~
-      profile_ex2: ~
+      profile_ex1: "Você pode adicionar alguém a partir de qualquer lugar de diaspora*. Clique no nome da pessoa para visitar seu perfil, onde você poderá adicioná-la a um ou mais aspectos usando o botão no canto superior direito da página."
+      profile_ex2: "Alternativamente, simplesmente passe o mouse sobre seu nome ou foto do perfil, e um pequeno \"cartão de visita\" será mostrado. Você pode adicioná-la a aspectos diretamente daí."
       tags: "Seguindo #tags"
-      tags_ex: ~
+      tags_ex: "As três opções acima dizem respeito a conectar-se com quem já se conhece. Mas, às vezes, pessoas desconhecidas podem ser tão, ou mais, interessantes que as conhecidas. Seguindo #tags de assuntos que você gosta, você vai poder encontrar pessoas interessantes para seguir, incluindo-as em um dos seus aspectos."
       removing: "Removendo alguém de seus contatos"
-      removing_ex1: ~
-      removing_ex2: ~
-      removing_ex3: ~
-      removing_ex4: ~
-      removing_ex5: ~
-      finish: ~
+      removing_ex1: "Para remover um contato e, portanto, deixar de compartilhar com ele, basta removê-lo de todos os aspectos nos quais o incluiu. Faça o seguinte:"
+      removing_ex2: "Vá para seu perfil; ou passe o cursor sobre seu nome e espere pelo aparecimento do cartão de visita."
+      removing_ex3: "Clique no botão de seleção e desmarque todos os aspectos ticados."
+      removing_ex4: "Pronto! Como esse contato não pertence mais a nenhum dos seus aspectos, você deixou de compartilhar com ele."
+      removing_ex5: "Você também pode remover uma pessoa dos seus aspectos pela página de contatos, como explicamos no final da %{part3_link}."
+      finish: "Você já aprendeu a compartilhar; e, se já adicionou alguns contatos, verá suas publicações no seu fluxo. Quem compartilhar com você passará a compor seu \"corpo de leitores\" - <strong>e será hora de começar a publicar.</strong>"
     getting_started5:
       byline: "Parte 5 - Comece a compartilhar!"
       menu_title: "Comece a compartilhar!"

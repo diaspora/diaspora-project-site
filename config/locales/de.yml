@@ -4,7 +4,7 @@ de:
       blog_headline: "%d.%m.%Y"
   buttons:
     host_pod: "Betreibe einen Pod"
-    join_diaspora: "Trete bei!"
+    join_diaspora: "Tritt bei!"
     find_more: "Erfahre mehr »"
   meta:
     footer:

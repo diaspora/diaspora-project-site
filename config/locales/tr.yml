@@ -247,10 +247,10 @@ tr:
       registration2: ~
       registration3: ~
       registration4: ~
-      dhq_link_text: ~
+      dhq_link_text: "diaspora* HQ"
       registration5: ~
-      registration6: ~
-      registration7: ~
+      registration6: "İlk alanında ekranda görüntülenir edilmesini istediğiniz adı girin."
+      registration7: "Bilgisayarınızdan bir profil fotoğrafı yüklemek için düğmesine tıklayın."
       registration8: ~
       registration9: ~
       registration10: ~
@@ -283,7 +283,7 @@ tr:
       column1: ~
       column2: ~
       column3: ~
-      views: ~
+      views: "diaspora* mevcut farklı görünümler şunlardır:"
       stream: dere
       stream_ex: ~
       stream1: "kişileriniz tarafından yapılan mesajlar;"
@@ -324,7 +324,7 @@ tr:
       my_aspects3: ~
       my_aspects4: ~
       my_aspects5: ~
-      my_aspects6: ~
+      my_aspects6: "Neden birkaç saniye onunla oynamak değil?"
       my_aspects7: "Bu seçim Bu sistem iki amaçlarla kullanılan:"
       my_aspects8: ~
       my_aspects9: ~
@@ -335,19 +335,19 @@ tr:
       contact_ex5: ~
       contact_ex6: ~
       contact_ex7: ~
-      sharing_me: ~
+      sharing_me: "Sadece benimle paylaşan"
       sharing_me_ex: ~
       finish: ~
     getting_started4:
-      byline: ~
+      byline: "Kısım 4 - Bulma ve insanlarla bağlantı"
       menu_title: "Insanlarla nasıl bağlanacağı"
       aspects1: ~
-      sharing: ~
+      sharing: paylaşarak
       sharing_ex: ~
-      relationships: ~
+      relationships: "diasporasına* kullanıcılar arasındaki ilişkilerin üç tipi vardır:"
       followers: takipçiler
       followers_ex1: ~
-      followers_ex2: ~
+      followers_ex2: "Onlar kendi akışında genel mesajları görüyorsunuz, ama sınırlı mesajların hiçbiri olacaktır."
       followers_ex3: ~
       following: aşağıdaki
       following_ex1: ~
@@ -394,7 +394,7 @@ tr:
           Şimdi bazı kişiler var,
           onlarla birlikte içerik paylaşımı başlamak için zamanı geldi.
       intro2: ~
-      publisher: ~
+      publisher: yayımcı
       publisher_ex1: ~
       publisher_ex2: ~
       publisher_ex3: ~
@@ -413,10 +413,10 @@ tr:
       connected_ex1: ~
       connected_ex2: ~
       connected_ex3: ~
-      preview: ~
+      preview: "Mesaj önizleme"
       preview_ex1: ~
       preview_ex2: ~
-      features: ~
+      features: "deftere nakil özellikleri"
       tags: "#etiketler"
       tags_ex1: ~
       tags_ex2: ~
@@ -427,7 +427,7 @@ tr:
       mentions_ex3: ~
       format: "Metin biçimlendirme"
       format_ex: ~
-      format_link_text: ~
+      format_link_text: "Bu öğretici"
       links: ~
       links_ex: ~
       embed: gömerek
@@ -437,7 +437,7 @@ tr:
       services_ex1: ~
       services_ex2: ~
       services_ex3: ~
-      how: ~
+      how: "Buna nedersiniz? Eğer mesaj yapabileceğiniz şeyler bol diaspora* olarak var."
       try_out: ~
       make_post1: ~
       make_post2: ~
@@ -469,20 +469,20 @@ tr:
       notify_ex2: ~
       notify_ls1: ~
       notify_ls2: ~
-      notify_ls3: ~
+      notify_ls3: "Tıklayın <span class=\"click\">Tümünü işaretle okundu olarak</span>."
       notify_ls4: ~
       notify_ex3: ~
       convo: Oturumlar
       convo_ex1: ~
       convo_ex2: ~
       convo_ex3: ~
-      convo_ex4: ~
+      convo_ex4: "Yalnızca karşılıklı paylaşımı var kime insanlarla konuşmaları başlayabilirsiniz."
       convo_ex5: ~
       convo_ex6: ~
       convo_ex7: ~
       convo_ex8: ~
       convo_ex9: ~
-      finish: ~
+      finish: "Hepsi konuşmaları hakkında söylenecek olmasıdır. Neredeyse öğretici ile var! Bu son bölümünü okumak için zamanı!"
     getting_started7:
       byline: "Kısmı 7 - Binaların tamamlanması"
       menu_title: "Binaların tamamlanması"
@@ -550,9 +550,9 @@ tr:
       line_code2: "Ve şimdi size metnin bir sonraki bölüme başlayabilirsiniz."
       itals: "İtalik ve kalın"
       itals_ex1: ~
-      itals_ex2: ~
-      itals_ex3: ~
-      itals_ex4: ~
+      itals_ex2: "<em>kalın italik</em>: *kelime* _kelime_"
+      itals_ex3: "<strong>kalın</strong>: **kelime** __kelime__"
+      itals_ex4: "<strong><em>kalın italik</em></strong>: ***kelime*** ___kelime___"
       itals_ex8: ~
       links: ~
       link_ex1: ~
@@ -561,7 +561,7 @@ tr:
       inline_link_text: ~
       images: Resimleri
       images_ex1: ~
-      images_code: ~
+      images_code: "![Alt text](http://website.com/image.jpg \"isteğe bağlı başlıkta\")"
       images_ex2: ~
       images_ex3: ~
       escape_ex1: ~
@@ -569,8 +569,8 @@ tr:
       escape_ex2: ~
       escape_ex3: ~
       symbols: "Özel karakterler"
-      symbols_ex: ~
-      finish: ~
+      symbols_ex: "Aşağıdaki semboller ve karakterler bir arada kullanarak diğer özel karakterleri oluşturabilirsiniz:"
+      finish: "Markdown sözdizimi ilişkin daha ayrıntılı bir açıklama yoktur %{markdown_link}."
       markdown_link_text: "Bu sayfada"
     tips:
       headline: "diaspora* kullanma ipuçları"
