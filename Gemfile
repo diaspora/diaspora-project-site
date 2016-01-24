@@ -24,7 +24,7 @@ gem 'paperclip', '~> 4.3'
 
 gem 'feedjira', github: 'feedjira/feedjira'
 gem 'trollop', '~> 2.0'
-gem 'sanitize', '~> 4.0.0'
+gem 'sanitize', '4.0.1'
 
 group :development, :test do
   gem 'pry'
