@@ -12,7 +12,7 @@ gem 'rails_admin'
 gem 'rails_locale_detection', '~> 2.0.0'
 
 gem 'sass-rails', '~> 5.0.0'
-gem 'bootstrap-sass', '~> 3.3.0'
+gem 'bootstrap-sass', '3.3.6'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0'
 gem 'jquery-rails'
