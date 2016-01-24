@@ -4,7 +4,7 @@ gem 'rails', '~> 4.2.0'
 
 gem 'unicorn'
 
-gem 'mysql2', '~> 0.3.0'
+gem 'mysql2', '0.4.2'
 
 gem 'devise', '3.5.5'
 gem 'rails_admin'

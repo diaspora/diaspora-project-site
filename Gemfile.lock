@@ -121,7 +121,7 @@ GEM
     mini_portile2 (2.0.0)
     minitest (5.8.4)
     multipart-post (2.0.0)
-    mysql2 (0.3.20)
+    mysql2 (0.4.2)
     nested_form (0.3.2)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
@@ -270,7 +270,7 @@ DEPENDENCIES
   feedjira!
   fuubar (~> 2.0.0)
   jquery-rails (= 4.1.0)
-  mysql2 (~> 0.3.0)
+  mysql2 (= 0.4.2)
   paperclip (~> 4.3)
   pry
   rails (~> 4.2.0)
