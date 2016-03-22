@@ -131,7 +131,7 @@ GEM
     nokogumbo (1.4.7)
       nokogiri
     orm_adapter (0.5.0)
-    paperclip (4.3.2)
+    paperclip (4.3.6)
       activemodel (>= 3.2.0)
       activesupport (>= 3.2.0)
       cocaine (~> 0.5.5)
@@ -275,7 +275,7 @@ DEPENDENCIES
   fuubar (= 2.0.0)
   jquery-rails (= 4.1.0)
   mysql2 (= 0.4.2)
-  paperclip (= 4.3.2)
+  paperclip (= 4.3.6)
   pry
   rails (= 4.2.5.2)
   rails_admin
