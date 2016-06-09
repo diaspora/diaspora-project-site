@@ -13,7 +13,7 @@ gem "rails_locale_detection", "2.0.0"
 
 gem "sass-rails",             "5.0.4"
 gem "bootstrap-sass",         "3.3.6"
-gem "uglifier",               "2.7.2"
+gem "uglifier",               "3.0.0"
 gem "coffee-rails",           "4.1.1"
 gem "jquery-rails",           "4.1.1"
 gem "turbolinks"
