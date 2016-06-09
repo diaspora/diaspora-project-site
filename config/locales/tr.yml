@@ -26,9 +26,9 @@ tr:
       discussion_development: "Tartışma - Geliştirme"
       choose_language: "bir dil seçip"
       translate: "Bir çeviri ekle"
-      cc_license_alt: ~
-      licensed_under: ~
-      license_link_text: ~
+      cc_license_alt: "Creative Commons"
+      licensed_under: "%{site_link}, %{license_link} lisansına tabidir."
+      license_link_text: "Creative Commons Attribution 3.0 Bağımsız"
   pages:
     index:
       headline: "diaspora* Hoşgeldiniz"
@@ -77,9 +77,9 @@ tr:
       notthis_ex: "Birçok sosyal ağ bir şirketin sahibi olduğu ve işlettiği bir sunucudan koşulurlar. Bunlar kullanıcının tüm özel verilerini saklarlar. Bu bilgi darboğazı olan her sistemde olduğu gibi kaybolabilir ya da kurcalanabilir, merkezî sunuculardaki bir sorun tüm ağı yavaşlatıp durdurabilir. Ayrıca kamu kurumlarının \"ortam dinlemesi\" yapması çok kolaydır."
       discl: ~
       connect: "Ben nasıl bağlayabilirim?"
-      connect_ex: ~
+      connect_ex: "diaspora* bir sürü poddan oluştuğu halde bütünleşik bir ağ izlenimi yaşayacaksınız. Özgürce diğerleriyle haberleşmek için onlarla aynı podda olmanız gerekmez - haberleşme diaspora* evrenindeki tüm podlar arasında kesintisiz gerçekleşir. diapora* kullandığınızda, onun birçok poddan oluştuğunun farkına varmayabilirsiniz. diaspora*daki biri ile haberleşmek aslında çok kolaydır: "
       find: "1. onları bulmak"
-      find_ex: ~
+      find_ex: "Birisiyle bağlantı kurmak için tüm yapmanız gereken onu bir bakışa eklemektir. (daha fazla bilgi için aşağıya bakınız) Siyah çubuktaki arama kutusu ile onları bulun, veya akışınızda üzerine geldiğinizde çıkan kartı kullanın. Onun diaspora* kimliğini (adınız@podadı.tr) biliyorsanız, onu da kullanabilirsiniz."
       add: "2. Onlar eklemek"
       add_ex: ~
       freedom: Özgürlük
@@ -106,7 +106,7 @@ tr:
       asp2_ex: ~
       asp3: "Tüm dünyayı söyle"
       asp3_ex: ~
-      features: ~
+      features: "Toplulukça sevilen özellikler"
       features_byline: "Biz onları çok seveceksiniz düşünüyorum"
       hashtags: hashtags
       hashtags_ex: ~
@@ -117,7 +117,7 @@ tr:
       love: ~
       love_ex: ~
       host: "Bir topluluk sunucusu barındırmak"
-      host_byline: ~
+      host_byline: "diaspora*nın yıldızlarından biri olun"
       host_ex: ~
       hostinst1: "%{instructions_link} okuyun ve kendi topluluk pod kurmak."
       instructions_link_text: "Pod kurulum bilgileri"
@@ -145,8 +145,8 @@ tr:
       whereyou_ex2: ~
       gi_header: "Yolları yer almak için"
       code_header: "kod Katkıda"
-      code_byline: ~
-      code_ex1: ~
+      code_byline: "Kaynak kodu elde etmek çok kolay"
+      code_ex1: "Depoyu klonlayıp içine dalın: %{clone_code}"
       code_ex2: "Geliştirme ortamı kurun"
       code_ex3: "katkıda başlamak kod!"
       code_ex4: ~
@@ -158,7 +158,7 @@ tr:
       bugs_ex1: ~
       bugs_ex2: ~
       bugs_ex3: "Bizim kodunu temizlemeye yardımcı"
-      github_link_text: ~
+      github_link_text: "GitHub sorun izleyicisi"
       translate_header: "çevrilmesine yardımcı"
       translate_ex1: ~
       translations_link_text: ~
@@ -203,7 +203,7 @@ tr:
       feed_link_title: "Atom besleme"
       subscriptions_headline: Abonelikleri
     tutorials:
-      headline: ~
+      headline: "diaspora* eğiticisi"
       byline: "Adım adım size yardımcı olmak için kılavuzluk"
       menu_title: Öğreticiler
       tutorials_ex1: ~
@@ -237,7 +237,7 @@ tr:
       welcome: ~
       find_pod: "Bir pod bularak"
       find_pod_ex1: ~
-      find_pod_ex2: ~
+      find_pod_ex2: "\"Diaspora\" tohumların bir tarladaki dağılışına işaret eder. Bu, motifimizin bir karahindiba olması ve adımızdaki asteriskin karahindiba tohumunu andırmasının nedenidir. Tek tek hesaplara \"<strong>tohum</strong>\", ve bunların toplandıkları sunuculara da“<strong>pod</strong>” diyoruz. Bunlara alışacaksınız."
       find_pod_ex3: ~
       wiki_link_text: "Bir \"pod\" seçerek için rehber"
       find_pod_ex4: ~
