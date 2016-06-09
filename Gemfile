@@ -30,7 +30,7 @@ group :development, :test do
   gem "pry"
   gem "awesome_print",   "1.7.0"
 
-  gem "rspec-rails",     "3.4.0"
+  gem "rspec-rails",     "3.4.2"
   gem "capybara",        "2.7.1"
 
   gem "fuubar",          "2.0.0"
