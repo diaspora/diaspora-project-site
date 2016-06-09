@@ -31,7 +31,7 @@ group :development, :test do
   gem "awesome_print",   "1.7.0"
 
   gem "rspec-rails",     "3.4.0"
-  gem "capybara",        "2.6.0"
+  gem "capybara",        "2.7.1"
 
   gem "fuubar",          "2.0.0"
   gem "rspec-instafail", "0.4.0"
