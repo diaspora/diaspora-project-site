@@ -28,7 +28,7 @@ gem "sanitize",               "4.0.1"
 
 group :development, :test do
   gem "pry"
-  gem "awesome_print"
+  gem "awesome_print",   "1.7.0"
 
   gem "rspec-rails",     "3.4.0"
   gem "capybara",        "2.6.0"

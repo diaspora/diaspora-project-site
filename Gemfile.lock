@@ -51,7 +51,7 @@ GEM
     autoprefixer-rails (6.2.2)
       execjs
       json
-    awesome_print (1.6.1)
+    awesome_print (1.7.0)
     bcrypt (3.1.11)
     bootstrap-sass (3.3.6)
       autoprefixer-rails (>= 5.2.1)
@@ -267,7 +267,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  awesome_print
+  awesome_print (= 1.7.0)
   bootstrap-sass (= 3.3.6)
   capybara (= 2.6.0)
   coffee-rails (= 4.1.1)
