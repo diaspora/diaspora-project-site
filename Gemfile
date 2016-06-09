@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 gem "rails",                  "4.2.6"
 
-gem "unicorn"
+gem "unicorn",                "5.1.0"
 
 gem "mysql2",                 "0.4.4"
 
