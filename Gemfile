@@ -15,7 +15,7 @@ gem "sass-rails",             "5.0.4"
 gem "bootstrap-sass",         "3.3.6"
 gem "uglifier",               "2.7.2"
 gem "coffee-rails",           "4.1.1"
-gem "jquery-rails",           "4.1.0"
+gem "jquery-rails",           "4.1.1"
 gem "turbolinks"
 gem "will_paginate-bootstrap"
 
