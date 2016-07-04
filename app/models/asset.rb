@@ -1,4 +1,4 @@
-class Asset < ActiveRecord::Base
+class Asset < ApplicationRecord
   has_attached_file :file, {
     :path => ":rails_root/public/:class/:style/:filename",
     :url => "/:class/:style/:filename",

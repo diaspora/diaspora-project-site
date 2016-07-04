@@ -1,4 +1,4 @@
-DiasporaProjectSite::Application.routes.draw do
+Rails.application.routes.draw do
   devise_for :users
 
   get 'switch_locale/:locale' => 'i18n#switch_locale', as: :switch_locale
