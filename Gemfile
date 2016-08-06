@@ -36,3 +36,7 @@ group :development, :test do
   gem "fuubar",          "2.0.0"
   gem "rspec-instafail", "1.0.0"
 end
+
+group :development do
+  gem "web_translate_it"
+end

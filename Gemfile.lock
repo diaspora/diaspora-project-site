@@ -122,6 +122,7 @@ GEM
     mimemagic (0.3.0)
     mini_portile2 (2.1.0)
     minitest (5.9.0)
+    multi_json (1.12.1)
     multipart-post (2.0.0)
     mysql2 (0.4.4)
     nested_form (0.3.2)
@@ -252,6 +253,10 @@ GEM
       execjs (>= 0.3.0, < 3)
     warden (1.2.6)
       rack (>= 1.0)
+    web_translate_it (2.4.1)
+      multi_json
+      multipart-post (~> 2.0)
+      trollop (~> 2.0)
     will_paginate (3.1.0)
     will_paginate-bootstrap (1.0.1)
       will_paginate (>= 3.0.3)
@@ -285,7 +290,8 @@ DEPENDENCIES
   trollop (= 2.1.2)
   turbolinks
   uglifier (= 3.0.0)
+  web_translate_it
   will_paginate-bootstrap
 
 BUNDLED WITH
-   1.11.2
+   1.12.5
