@@ -17,6 +17,7 @@ DiasporaProjectSite::Application.routes.draw do
         get :conversations, action: 'getting_started6'
         get :finishing, action: 'getting_started7'
         get :interface, action: 'getting_started2'
+        get :interface_mobile, action: 'getting_started2_mobile'
         get :sharing, action: 'getting_started5'
         get :sign_up, action: 'getting_started1'
       end

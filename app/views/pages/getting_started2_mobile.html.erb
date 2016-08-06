@@ -1,0 +1,117 @@
+<% content_for :page_title, t('pages.getting_started2.menu_title_mobile') %>
+<% content_for :wrapper_class, 'index-page' %>
+
+<div id="masthead" class="hero">
+  <div class="container">
+    <h1><%= t 'pages.tutorials.started_head' %></h1>
+    <h2 class="lead"><%= t 'pages.getting_started2.byline' %></h2>
+  </div>
+</div>
+<div class="container">
+  <div class="row top_spacing">
+    <div class="span2">&nbsp;
+    </div>
+    <div class="span12">       
+        <h4 class="more-info"><%= t('pages.getting_started2.interface_desktop', desktop_link: link_to(t('pages.getting_started2.click_here_text'), interface_path)).html_safe %></h4>
+        <p>&nbsp;</p>
+        <p><%= t('pages.getting_started2.interface1').html_safe %></p>
+        <p class="more-info"><%= t 'pages.getting_started2.interface2' %></p>
+        
+        <p><%= t 'pages.getting_started2.header' %></p>
+        <div align="center"><%= image_tag 'pages/getting_started/interface/header_mobile.png', class: 'img-responsive' %></div>
+        <ol>
+          <li><%= t('pages.getting_started2.header_asterisk').html_safe %></li>
+          <li><%= t('pages.getting_started2.header_notify', part6_link: link_to(t('pages.tutorials.part6'), conversations_path)).html_safe %></li>
+          <li><%= t('pages.getting_started2.header_conversations', part6_link: link_to(t('pages.tutorials.part6'), conversations_path)).html_safe %></li>
+          <li><%= t('pages.getting_started2.header_newpost').html_safe %></li>
+          <li><%= t('pages.getting_started2.header_drawer').html_safe %></li>
+        </ol>
+        <p><%= t 'pages.getting_started2.header_mobile' %></p>
+        <div class="row">
+          <div class="col-md-4">
+            <div align="center"><%= image_tag 'pages/getting_started/interface/drawer_open.png', class: 'img-responsive' %></div>
+          </div>
+          <div class="col-md-8">
+	        <ol start ="6">
+    	      <li><%= t('pages.getting_started2.header_search', part4_link: link_to(t('pages.tutorials.part4'), connecting_path)).html_safe %></li>
+        	  <li><%= t('pages.getting_started2.header_streams').html_safe %></li>
+        	  <li><%= t('pages.getting_started2.header_profile', part1_link: link_to(t('pages.tutorials.part1'), sign_up_path)).html_safe %></li>
+	          <li><%= t('pages.getting_started2.header_contacts', part4_link: link_to(t('pages.tutorials.part4'), connecting_path)).html_safe %></li>
+    	      <li><%= t('pages.getting_started2.header_settings', part7_link: link_to(t('pages.tutorials.part7'), finishing_path)).html_safe %></li>
+	          <li><%= t('pages.getting_started2.header_toggle').html_safe %></li>
+    	      <li><%= t('pages.getting_started2.header_logout').html_safe %></li> 
+	        </ol>
+          </div>
+		</div>
+		        
+    <div class="span12">       
+        <p>&nbsp;</p>
+        <p><%= t 'pages.getting_started2.stream_mobile' %></p>
+        <div align="center"><%= image_tag 'pages/getting_started/interface/stream_mobile.jpg', class: 'img-responsive' %></div>
+        <p>&nbsp;</p>
+        <p><%= t 'pages.getting_started2.views' %></p>
+        
+        <h4><%= t 'pages.getting_started2.stream' %></h4>
+        <p><%= t 'pages.getting_started2.stream_ex1' %></p>
+            <ol>
+                <li><%= t('pages.getting_started2.stream_contents1').html_safe %></li>
+                <li><%= t('pages.getting_started2.stream_contents2').html_safe %></li>
+                <li><%= t('pages.getting_started2.stream_contents3').html_safe %></li>
+                <li><%= t('pages.getting_started2.stream_contents4', part7_link: link_to(t('pages.tutorials.part7'), finishing_path)).html_safe %></li>
+            </ol>
+        <p><%= t 'pages.getting_started2.stream_ex2' %></p>
+
+        <h4><%= t 'pages.getting_started2.activity' %></h4>
+        <p><%= t('pages.getting_started2.activity_ex').html_safe %></p>
+
+        <h4><%= t 'pages.getting_started2.mentions' %></h4>
+        <p><%= t('pages.getting_started2.mentions_ex', part4_link: link_to(t('pages.tutorials.part4'), connecting_path)).html_safe %></p>
+
+        <h4><%= t 'pages.getting_started2.aspects' %></h4>
+        <p><%= t('pages.getting_started2.aspects_ex1').html_safe %></p>
+        <p><%= t('pages.getting_started2.aspects_ex2').html_safe %></p>
+
+        <h4><%= t 'pages.getting_started2.tags' %></h4>
+        <p><%= t('pages.getting_started2.tags_ex1', part5_link: link_to(t('pages.tutorials.part5'), sharing_path)).html_safe %></p>
+        <p><%= t('pages.getting_started2.tags_ex2').html_safe %></p>
+
+        <h4><%= t 'pages.getting_started2.public' %></h4>
+        <p><%= t('pages.getting_started2.public_ex').html_safe %></p>
+        
+        <h3><%= t 'pages.getting_started2.other_views' %></h3>
+        <p><%= t('pages.getting_started2.other_views_ex').html_safe %></p>
+        
+        <h4><%= t 'pages.getting_started2.tag_stream' %></h4>
+        <p><%= t('pages.getting_started2.tag_stream_ex').html_safe %></p>
+        
+        <h4><%= t 'pages.getting_started2.spv' %></h4>
+        <p><%= t('pages.getting_started2.spv_ex').html_safe %></p>
+        
+        <h4><%= t 'pages.getting_started2.profile' %></h4>
+        <p><%= t('pages.getting_started2.profile_ex1').html_safe %></p>
+        <p><%= t('pages.getting_started2.profile_ex3_mobile').html_safe %></p>
+        <p><%= t('pages.getting_started2.profile_ex4').html_safe %></p>
+        <p><%= t('pages.getting_started2.profile_ex6').html_safe %></p>
+        
+        <h4><%= t 'pages.getting_started2.themes' %></h4>
+        <p><%= t('pages.getting_started2.themes_ex1', part7_link: link_to(t('pages.tutorials.part7'), finishing_path)).html_safe %></p>
+        <ul>
+          <li><%= t('pages.getting_started2.themes_list1').html_safe %></li>
+          <li><%= t('pages.getting_started2.themes_list2').html_safe %></li>
+          <li><%= t('pages.getting_started2.themes_list3').html_safe %></li>
+          <li><%= t('pages.getting_started2.themes_list4').html_safe %></li>
+          <li><%= t('pages.getting_started2.themes_list5').html_safe %></li>
+        </ul>
+        <p><%= t('pages.getting_started2.themes_ex2').html_safe %></p>
+        
+        <p>&nbsp;</p>
+        <p class="more-info"><%= t('pages.getting_started2.finish').html_safe %></p>
+        <p class="more-info"><%= t('pages.getting_started2.finish_mobile').html_safe %></p>
+        
+        <p>&nbsp;</p>
+ 
+        <p align="center"><%= link_to t('pages.getting_started1.byline'), sign_up_url %> | <%= link_to t('pages.getting_started3.byline'), aspects_url %></div>
+    <div class="span2">
+    </div>
+  </div>
+</div>

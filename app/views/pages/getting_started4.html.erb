@@ -16,16 +16,16 @@
       <p><%= t '.sharing_ex' %></p>
       <p><%= t '.relationships' %></p>
 
-      <h5><%= t '.followers' %></h5>
+      <h4><%= t '.followers' %></h4>
       <p><%= t '.followers_ex1' %></p>
       <p><%= t '.followers_ex2' %></p>
       <p class="more-info"><%= t '.followers_ex3' %></p>
 
-      <h5><%= t '.following' %></h5>
+      <h4><%= t '.following' %></h4>
       <p><%= t '.following_ex1' %></p>
       <p><%= t '.following_ex2' %></p>
 
-      <h5><%= t '.mutual' %></h5>
+      <h4><%= t '.mutual' %></h4>
       <p><%= t '.mutual_ex1' %></p>
       <p><%= t '.mutual_ex2' %></p>
       <ul>
@@ -44,7 +44,7 @@
 
   <div class="row">
     <div class="col-md-8">
-      <h5><%= t '.search' %></h5>
+      <h4><%= t '.search' %></h4>
       <p><%= t '.search_ex' %></p>
       <ul>
         <li><%= t '.search_ls1' %></li>
@@ -52,27 +52,29 @@
         <li><%= t('.search_ls3').html_safe %></li>
         <li><%= t('.search_ls4').html_safe %></li>
         <li><%= t('.search_ls5').html_safe%></li>
-        <li><%= t '.search_ls6' %></li>
       </ul>
-
-      <h5><%= t '.invite' %></h5>
+    </div>
+    <div class="col-md-4">
+      <p class="text-center"><%= image_tag 'pages/getting_started/connecting/add-contact.png' %></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-8">
+      <h4><%= t '.invite' %></h4>
       <p><%= t('.invite_ex').html_safe %></p>
     </div>
     <div class="col-md-4">
-      <p class="text-center">
-        <%= image_tag 'pages/getting_started/connecting/add-contact.png' %>
-        <%= image_tag 'pages/getting_started/connecting/invite.png' %>
-      </p>
+      <p class="text-center"><%= image_tag 'pages/getting_started/connecting/invite.png' %></p>
     </div>
   </div>
 
   <div class="row">
     <div class="col-md-12">
-      <h5><%= t '.profile' %></h5>
+      <h4><%= t '.profile' %></h4>
       <p><%= t '.profile_ex1' %></p>
       <p><%= t '.profile_ex2' %></p>
 
-      <h5><%= t '.tags' %></h5>
+      <h4><%= t '.tags' %></h4>
       <p><%= t '.tags_ex' %></p>
 
       <h3><%= t '.removing' %></h3>
