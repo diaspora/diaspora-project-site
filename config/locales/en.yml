@@ -504,6 +504,7 @@ en:
       services: 'Services'
       services_ex: 'The Services page shows your connected services (e.g. Facebook, Twitter, Tumblr) and allows you to connect new services to your diaspora* seed.'
       finish1: 'Thanks a lot for reading this getting started guide! We hope it has been useful to you and that you now feel comfortable using diaspora* as your new online home. If you have any questions, feel free to make a public post on diaspora* including the <span class="click">#help</span> and <span class="click">#question</click> tags so that other community members can try to help you. There’s a wonderful, generous community out there!'
+    formatting:
       byline: "Formatting text"
       menu_title: "Formatting text"
       format1: "On diaspora* it’s possible to format your text in status messages, comments and conversations using a simplified mark-up system called Markdown. This page gives an introduction to the codes used to create this formatting."
