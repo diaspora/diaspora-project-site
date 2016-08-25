@@ -504,6 +504,9 @@ es-AR:
       services: ~
       services_ex: ~
       finish1: ~
+    formatting:
+      byline: ~
+      menu_title: ~
       format1: ~
       format2: ~
       format3: ~

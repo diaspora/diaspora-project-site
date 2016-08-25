@@ -504,16 +504,19 @@ de:
       services: Dienste
       services_ex: "Die Seite \"Dienste\" zeigt deine angeschlossenen Dienste (z.B. Facebook, Twitter, Tumblr) und ermöglicht dir, neue Dienste an deinen diaspora* Seed anzuschließen."
       finish1: "Vielen Dank, dass du dir Zeit genommen hast, diaspora* durch diese Einleitung kennen zu lernen! Wir hoffen, dass es für dich hilfreich war, und du dich nun wohlfühlst bei diaspora*, deinem neuen Online-Zuhause. Falls du irgendwelche Fragen hast, fühle dich frei, einen öffentlichen Beitrag bei diaspora* zu erstellen und füge die Hashtags <span class=\"click\">#Hilfe</span> and <span class=\"click\">#Frage</click>, in deinen Beitrag ein, damit andere diaspora* Nutzer dir helfen können. Denn es gibt hier eine wirklich wundervolle und hilfsbereite Gemeinschaft!"
+    formatting:
+      byline: "Text formatieren"
+      menu_title: "Text formatieren"
       format1: "Bei diaspora* ist es möglich, den Text deiner Statusnachrichten, Kommentare und Konversationen, mit Hilfe eines einfachen mark-up Systems namens Markdown, zu formatieren. Diese Seite enthält eine Einführung zu den codes die für diese Formatierung genutzt werden."
       format2: "Wichtig ist, dass zwischen Absätzen (außer bei Listenelementen) immer zwei Zeilenumbrüche stehen. Sonsten werden Absätze zusammengefasst. Soll unbedingt nur ein Zeilenumbruch zwischen den Absätzen stehen, müssen zwei Leerzeichen am Ende des ersten Absatzes stehen."
-      format3: "Das ist die Stelle an der sich die <span class=\"click\">Vorschau</span> Schaltfläche als besonders praktisch erweist. Probiere ein bisschen mit der Formatierung, lass dir die Vorschau anzeigen, verbessere was nicht passt und lass dir eine neue Vorschau anzeigen, solange bis du zufrieden bist."
+      format3: "Das ist die Stelle an der sich die <span class=\"click\">Vorschau</span> Schaltfläche als besonders praktisch erweist. Probiere ein bisschen mit der Formatierung, lass dir die Vorschau anzeigen, verbessere was nicht passt, lass dir eine neue Vorschau anzeigen, solange bis du zufrieden bist."
       format4: "In den Beispielen unten, kannst du den Text aus den grauen Feldern kopieren, in den Publisher in diaspora* einfügen und die <span class=\"click\">Vorschau</span> Schaltfläche drücken, um die Formatierung ein bisschen auszuprobieren."
       headings: Überschriften
       headings_ex1: "Um Überschriften, der ersten, zweiten oder dritten Ebene, in deinem Beitrag zu nutzen, setze ein Raute-Zeichen (Hash #) an den Zeilenanfang, so wie hier im Beispiel:"
       headings_code1: "Dies ist eine extrem große Überschrift"
       headings_code2: "Halb so groß wie die obere"
       headings_code3: "Doppelt so groß wie normaler Text"
-      headings_ex2: "Achte darauf, jeweils ein Leerzeichen zwischen der Raute und der Überschrift zu belassen, damit daraus kein #Tag wird. Die Überschrift endet mit einem Return."
+      headings_ex2: "Achte darauf, jeweils ein Leerzeichen zwischen der Raute und der Überschrift zu belassen, damit daraus kein #Schlagwort (#Tag) wird. Die Überschrift endet mit einem Zeilenumbruch (Return)."
       lists: Listen
       lists_ex1: "Um eine unsortierte Auflistung zu erzeugen, setze ein * (Stern), + (Plus) oder - (Minus), vor jeden Teil der Auflistung."
       lists_ex2: "Es ist ebenfalls möglich, nummerierte Listen zu erstellen, indem man den Listeninhalten \"1.\", \"2.\", usw. voranstellt. Um auf diese Weise eine nummerierte Liste zu erzeugen, müssen die Zahlen einen nachgestellten Punkt haben."

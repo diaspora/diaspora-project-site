@@ -504,68 +504,71 @@ fr:
       services: Services
       services_ex: "La page des services indique les services auxquels vous êtes connecté(e) (ex: Facebook, Twitter, Tumblr) et vous permet de connecter de nouveaux services à votre graine diaspora*."
       finish1: "Merci infiniment d'avoir lu ce guide de démarrage ! Nous espérons qu'il vous a été utile et que vous vous sentez maintenant suffisamment à l'aise pour utiliser diaspora* comme votre nouvelle \"maison sur internet\". Si vous avez la moindre question, n'hésitez pas à envoyer un message public sur diaspora en incluant les tags "
-      format1: ~
-      format2: ~
-      format3: ~
-      format4: ~
-      headings: ~
-      headings_ex1: ~
-      headings_code1: ~
-      headings_code2: ~
-      headings_code3: ~
-      headings_ex2: ~
-      lists: ~
-      lists_ex1: ~
-      lists_ex2: ~
-      lists_ex3: ~
-      lists_code1: ~
-      lists_code2: ~
-      lists_code3: ~
-      lists_code4: ~
-      lists_code5: ~
-      lists_code6: ~
-      quote: ~
-      quote_ex1: ~
-      quote_code1: ~
-      quote_code2: ~
-      quote_code3: ~
-      code: ~
-      code_ex1: ~
-      code_ex2: ~
-      code_ex3: ~
-      code_code1: ~
-      code_code2: ~
-      code_code3: ~
-      code_code4: ~
-      code_code5: ~
-      line: ~
-      line_ex: ~
-      line_code1: ~
-      line_code2: ~
-      itals: ~
-      itals_ex1: ~
-      itals_ex2: ~
-      itals_ex3: ~
-      itals_ex4: ~
-      itals_ex8: ~
-      links: ~
-      link_ex1: ~
-      link_code: ~
-      link_ex2: ~
-      inline_link_text: ~
-      images: ~
-      images_ex1: ~
-      images_code: ~
-      images_ex2: ~
-      images_ex3: ~
-      escape_ex1: ~
-      escape_code: ~
-      escape_ex2: ~
-      escape_ex3: ~
-      symbols: ~
-      symbols_ex: ~
-      finish: ~
-      markdown_link_text: ~
+    formatting:
+      byline: "Mise en forme du texte"
+      menu_title: "Mise en forme du texte"
+      format1: "Sur diaspora* il est possible de mettre en forme votre texte des messages de statut, des commentaires et des conversations en utilisant un système de balises simple nommé Markdown. Cette page est une introduction aux codes utilisés pour créer ce formatage."
+      format2: "La première chose à savoir c'est qu'il faut utiliser deux sauts de ligne pour séparer les paragraphes (sauf pour les éléments d'une liste), sinon les paragraphes seront mis bout-à-bout. Si vous souhaitez un simple retour à la ligne entre deux paragraphes, ajoutez deux espaces à la fin du premier paragraphe."
+      format3: "C'est là que le bouton <span class=\"click\">Aperçu</span> devient vraiment utile. Essayez différents formatages, prévisualisez-les, corrigez ce qui ne va pas, prévisualisez encore... jusqu'à être satisfait(e) du résultat !"
+      format4: "Dans les exemples ci-dessous, vous pouvez copier le texte situé dans les zones grisées, le coller dans l'éditeur de diaspora* et cliquer sur le bouton <span class=\"click\">Aperçu</span> pour essayer un formatage."
+      headings: En-têtes
+      headings_ex1: "Vous pouvez ajouter des en-têtes de premier, second et troisième niveau à votre message en plaçant un symbole dièse (#) au début d'une ligne ainsi :"
+      headings_code1: "Ceci est un très grand titre"
+      headings_code2: "Moitié moins grand que le précédent"
+      headings_code3: "Deux fois la taille d'un texte normal"
+      headings_ex2: "Faites attention à laisser un espace entre les dièses et votre texte sinon vous créeriez un #tag au lieu d'un en-tête. L'en-tête s'arrête dès que vous appuyez sur Entrée pour passer à la ligne suivante."
+      lists: Listes
+      lists_ex1: "Pour créer une liste à puces, placez des *, + ou - devant chaque ligne que vous souhaitez voir faire partie de la liste."
+      lists_ex2: "Il est également possible de créer des listes numérotées en plaçant \"1.\", \"2.\", etc. au début de chaque ligne de la liste. Pour créer une liste numérotée, les nombres doivent être suivis d'une virgule ou d'un point."
+      lists_ex3: "Encore une fois, prenez soin de bien ajouter un espace entre le caractère de \"puce\" et le texte de la ligne et de laisser une ligne vide entre la liste et les paragraphes suivants et précédents sinon ça ne fonctionnera pas."
+      lists_code1: "Voilà comment créer une liste à puces :"
+      lists_code2: "premier élément ;"
+      lists_code3: "second élément ;"
+      lists_code4: "troisième élément ;"
+      lists_code5: "Ceci va devenir une autre liste à puces :"
+      lists_code6: "Et voilà une liste numérotée :"
+      quote: Citation
+      quote_ex1: "Lorsque vous souhaitez citer un extrait d'un article ou d'un autre commentaire, vous pouvez formater facilement votre texte en commençant la ligne ou le paragraphe avec le caractère \">\" :"
+      quote_code1: "Ceci est un texte normal introduisant votre citation :"
+      quote_code2: "Ceci est une citation."
+      quote_code3: "Ceci est le texte qui suit la citation."
+      code: "Blocs de code"
+      code_ex1: "Si vous êtes un développeur, vous pouvez être intéressé(e) par les blocs de code. Pour définir un bloc de code, commencez votre texte/code avec quatre apostrophes inversées (````). Pour revenir à du texte normal, terminez le bloc de code avec, à nouveau, quatre apostrophes inversées."
+      code_ex2: "Une autre façon de faire ceci est de commencer chaque ligne de votre code avec quatre espaces. Les espaces supplémentaires serviront à l'indentation."
+      code_ex3: "Il est également possible d'afficher du code in situ, `<code>en débutant et terminant le bout de code avec une apostrophe inversée</code>`."
+      code_code1: "Ceci est une ligne de texte normal."
+      code_code2: "ceci sera un bloc de code"
+      code_code3: "À nouveau du texte normal."
+      code_code4: "et encore un peu de code"
+      code_code5: "une ligne de code indentée par deux espaces"
+      line: "Ligne horizontale"
+      line_ex: "Pour créer une ligne horizontale, utilisez au moins trois ---, ___ ou *** sur une ligne à part. N'importe quel nombre au-delà de trois aura le même résultat et les espaces entre les caractères n'ont pas d'importance."
+      line_code1: "Il y aura une ligne horizontale entre cette ligne de texte et la suivante."
+      line_code2: "Maintenant vous pouvez démarrer la prochaine section de votre texte."
+      itals: "Italique et gras"
+      itals_ex1: "Placez soit des astérisques soit des tirets-bas (underscores) de chaque côté d'un ou plusieurs mots pour les mettre en italique, gras ou gras-italique."
+      itals_ex2: "<em>Italiques</em> : *mot* ou _mot_"
+      itals_ex3: "<strong>Gras</strong> : **mot** ou __mot__"
+      itals_ex4: "<strong><em>Gras italique</em></strong> : ***mot*** ou ___mot___"
+      itals_ex8: "Bien sûr, vous devez avoir un nombre égal d'astérisques/tirets bas de part et d'autre des mots pour que le formatage fonctionne. Taper \"Je veux afficher ceci comme un mot en **gras* \" n'affichera pas le mot en gras."
+      links: "Liens intégrés"
+      link_ex1: "Pour créer un %{inline_link}, utilisez le code suivant :"
+      link_code: "[Texte à afficher](http://link.address.here \"texte alternatif\")"
+      link_ex2: "Le \"texte alternatif\" est facultatif et affiché lorsque la souris survole le lien."
+      inline_link_text: "lien intégré"
+      images: Images
+      images_ex1: "Pour ajouter des images externes à vos messages, commentaires ou messages privés, utilisez le même code que pour un lien mais avec un point d'exclamation devant :"
+      images_code: "![Texte alternatif](http://siteweb.com/image.jpg \"titre facultatif\")"
+      images_ex2: "Pour que cela fonctionne, vous devez fournir un lien direct et valide vers une image, <em>pas</em> vers une page web contenant une ou plusieurs images."
+      images_ex3: "Le texte alternatif entre crochets est affiché si l'image ne peut pas être chargée et le titre optionnel est affiché lorsque la souris survole l'image ; les deux sont utiles mais pas essentiels."
+      escape_ex1: "Si vous voulez inclure dans votre message un caractère aussi utilisé dans le codage Markdown, vous pouvez empêcher qu'il soit interprété en l'\"échappant\". Pour cela, placez un backslash (\\) devant le caractère. Par exemple, tapez"
+      escape_code: "ceci \\_ est un tiret bas (underscore)"
+      escape_ex2: "empêche Markdown d'interpréter le tiret bas (underscore) comme un code de formatage et permet à diaspora* d'afficher le tiret bas plutôt qu'un texte en italique."
+      escape_ex3: "Vous pouvez toutefois écrire \"diaspora*\" ou \"D*\" sans que l'astérisque devienne un code de formatage !"
+      symbols: "Caractères spéciaux"
+      symbols_ex: "Vous pouvez créez les symboles et autres caractères spéciaux suivants en utilisant une combinaison de caractères :"
+      finish: "Vous trouverez une description plus complète de la syntaxe de Markdown ici %{markdown_link}"
+      markdown_link_text: "sur cette page"
     tips:
       headline: "Astuces pour utiliser diaspora*"
       byline: "Voici quelques ficelles utiles que nous avons découverts"

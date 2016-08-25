@@ -504,24 +504,27 @@ bg:
       services: Услуги
       services_ex: ~
       finish1: "диаспора* "
+    formatting:
+      byline: "Форматиране на текст"
+      menu_title: "Форматиране на текст"
       format1: ~
       format2: ~
       format3: ~
       format4: ~
-      headings: ~
-      headings_ex1: ~
+      headings: Заглавия
+      headings_ex1: хеш
       headings_code1: ~
       headings_code2: ~
       headings_code3: ~
       headings_ex2: ~
-      lists: ~
+      lists: Списъци
       lists_ex1: ~
       lists_ex2: ~
       lists_ex3: ~
       lists_code1: ~
-      lists_code2: ~
-      lists_code3: ~
-      lists_code4: ~
+      lists_code2: "точка едно;"
+      lists_code3: "точка две;"
+      lists_code4: "точка три."
       lists_code5: ~
       lists_code6: ~
       quote: ~
@@ -529,7 +532,7 @@ bg:
       quote_code1: ~
       quote_code2: ~
       quote_code3: ~
-      code: ~
+      code: "Код блокчета"
       code_ex1: ~
       code_ex2: ~
       code_ex3: ~
@@ -538,14 +541,14 @@ bg:
       code_code3: ~
       code_code4: ~
       code_code5: ~
-      line: ~
+      line: "Хоризонтална линия"
       line_ex: ~
       line_code1: ~
       line_code2: ~
-      itals: ~
+      itals: "Курсив и получер"
       itals_ex1: ~
-      itals_ex2: ~
-      itals_ex3: ~
+      itals_ex2: "<em>Курсив</em>: *дума* или _word_"
+      itals_ex3: "<strong>Получер</ силен>: **дума** или __word__"
       itals_ex4: ~
       itals_ex8: ~
       links: ~
@@ -553,19 +556,19 @@ bg:
       link_code: ~
       link_ex2: ~
       inline_link_text: ~
-      images: ~
+      images: Изображения
       images_ex1: ~
-      images_code: ~
+      images_code: "![Алтернативен текст](http://уебсайт.com/изображение.jpg \"незадължително заглавие\")"
       images_ex2: ~
       images_ex3: ~
       escape_ex1: ~
       escape_code: ~
       escape_ex2: ~
       escape_ex3: ~
-      symbols: ~
+      symbols: "Специални знаци"
       symbols_ex: ~
       finish: ~
-      markdown_link_text: ~
+      markdown_link_text: "на тази страница"
     tips:
       headline: "Съвети за използване на диаспора*"
       byline: ~

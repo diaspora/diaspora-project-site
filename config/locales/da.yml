@@ -506,17 +506,20 @@ da:
       services: Tjenester
       services_ex: ~
       finish1: ~
+    formatting:
+      byline: Tekstformatering
+      menu_title: Tekstformatering
       format1: ~
       format2: ~
       format3: ~
       format4: ~
-      headings: ~
+      headings: Overskrift
       headings_ex1: ~
       headings_code1: ~
       headings_code2: ~
       headings_code3: ~
       headings_ex2: ~
-      lists: ~
+      lists: Lister
       lists_ex1: ~
       lists_ex2: ~
       lists_ex3: ~
@@ -555,7 +558,7 @@ da:
       link_code: ~
       link_ex2: ~
       inline_link_text: ~
-      images: ~
+      images: Billeder
       images_ex1: ~
       images_code: ~
       images_ex2: ~
@@ -567,7 +570,7 @@ da:
       symbols: ~
       symbols_ex: ~
       finish: ~
-      markdown_link_text: ~
+      markdown_link_text: "på denne side"
     tips:
       headline: "Tips for brugen af diaspora*"
       byline: "Nogle nyttige tricks som vi har fundet"
