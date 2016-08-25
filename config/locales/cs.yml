@@ -286,7 +286,6 @@ cs:
       columns: ~
       column1: ~
       column2: ~
-      column3: ~
       views: ~
       stream: Proud
       stream_ex: ~
@@ -304,6 +303,8 @@ cs:
       tags: "#Odebírané tagy"
       tags_ex1: ~
       tags_ex2: ~
+      public: ~
+      public_ex1: ~
       profile: ~
       profile_ex1: ~
       profile_ex2: ~
@@ -509,9 +510,6 @@ cs:
       services: ~
       services_ex: ~
       finish1: ~
-    formatting:
-      byline: ~
-      menu_title: ~
       format1: ~
       format2: ~
       format3: ~

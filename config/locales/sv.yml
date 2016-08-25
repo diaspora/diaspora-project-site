@@ -95,11 +95,11 @@ sv:
       priv1: "Äg din egen data"
       priv1_ex: "Många nätverk använder din data för att tjäna pengar, genom att analysera dina interaktioner, och använda informationen för att marknadsföra saker till dig. diaspora* använder inte din data för någon annat än att låta dig koppla upp dig, och dela med andra."
       priv2: "Var din egen värd!"
-      priv2_ex: ~
+      priv2_ex: "Välj var din data är lagrad någonstans, genom en pod som du är nöjd med. Om du vill vara fullständigt säker, så kan du sätta upp och hosta din egen pod på en server som du själv kontrollerar, så att ingen kan få kontroll över din personliga data."
       priv3: "Välj din publik"
       priv3_ex: ~
       aspects: "Allt om aspekter"
-      aspects_byline: ~
+      aspects_byline: "Nyckeln till integritet i diaspora*"
       asp1: "Aspekter av ditt liv"
       asp1_ex: ~
       asp2: "Organisera ditt liv"
@@ -132,9 +132,9 @@ sv:
       heart_alt: Hjärta
     get_involved:
       headline: "Bli involverad!"
-      byline: ~
+      byline: "Sociala webbens framtid börjar med dig"
       menu_title: "Involvera dig"
-      community: ~
+      community: "Drivet av gemenskapen"
       community_byline: "diaspora* tillhör dig"
       meaning: "Vad betyder allt detta?"
       meaning_ex1: ~
@@ -143,7 +143,7 @@ sv:
       whereyou: "Var du kommer in"
       whereyou_ex1: ~
       whereyou_ex2: ~
-      gi_header: ~
+      gi_header: "Sätt att bli involverad med Diaspora*"
       code_header: ~
       code_byline: ~
       code_ex1: ~
@@ -154,7 +154,7 @@ sv:
       mailing_list_link_text: ~
       irc_link_text: ~
       code_gh: ~
-      bugs_header: ~
+      bugs_header: "Fixa buggar"
       bugs_ex1: ~
       bugs_ex2: ~
       bugs_ex3: "Hjälp oss att städa upp i koden"
@@ -164,12 +164,12 @@ sv:
       translations_link_text: ~
       translate_ex2: ~
       translation_instructions_link_text: ~
-      voice_header: ~
+      voice_header: "Bidra med din röst"
       voice_ex1: ~
       voice_ex2: "Anslut dig med oss där"
       voice_ex3: ~
       meetup_link_text: ~
-      support_header: ~
+      support_header: "Ebjud stöd"
       support_ex1: ~
       support_ex2: ~
       support_ex3: ~
@@ -282,7 +282,6 @@ sv:
       columns: ~
       column1: ~
       column2: ~
-      column3: ~
       views: ~
       stream: ~
       stream_ex: ~
@@ -300,6 +299,8 @@ sv:
       tags: ~
       tags_ex1: ~
       tags_ex2: ~
+      public: ~
+      public_ex1: ~
       profile: ~
       profile_ex1: ~
       profile_ex2: ~
@@ -503,9 +504,6 @@ sv:
       services: ~
       services_ex: ~
       finish1: ~
-    formatting:
-      byline: ~
-      menu_title: ~
       format1: ~
       format2: ~
       format3: ~
@@ -516,7 +514,7 @@ sv:
       headings_code2: ~
       headings_code3: ~
       headings_ex2: ~
-      lists: Listor
+      lists: ~
       lists_ex1: ~
       lists_ex2: ~
       lists_ex3: ~
@@ -555,7 +553,7 @@ sv:
       link_code: ~
       link_ex2: ~
       inline_link_text: ~
-      images: Bilder
+      images: ~
       images_ex1: ~
       images_code: ~
       images_ex2: ~

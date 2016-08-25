@@ -122,13 +122,13 @@ tr:
       hostinst1: "%{instructions_link} okuyun ve kendi topluluk pod kurmak."
       instructions_link_text: "Pod kurulum bilgileri"
       hostinst2: "Da topluluk pods listesini görüntülemek %{poduptime}"
-      distributed_network: ~
-      centralized_network: ~
+      distributed_network: "dağıtık ağ"
+      centralized_network: "merkezi ağ"
       search_alt: Arama
-      add_a_contact_alt: ~
+      add_a_contact_alt: "Ekle İletişim"
       hashtag_alt: Hashtag
       reshare_alt: "Yeniden paylaşma"
-      mention_alt: ~
+      mention_alt: bahsetmek
       heart_alt: ~
     get_involved:
       headline: "Yer alın!"
@@ -150,9 +150,9 @@ tr:
       code_ex2: "Geliştirme ortamı kurun"
       code_ex3: "katkıda başlamak kod!"
       code_ex4: ~
-      get_started_guide_link_text: ~
+      get_started_guide_link_text: "kolay geçiş imkânı veren"
       mailing_list_link_text: "mail listesi"
-      irc_link_text: ~
+      irc_link_text: "diaspora* IRC oda"
       code_gh: "GitHub üzerinde kaynak İnceleme"
       bugs_header: "hataların giderilmesi"
       bugs_ex1: ~
@@ -161,7 +161,7 @@ tr:
       github_link_text: "GitHub sorun izleyicisi"
       translate_header: "çevrilmesine yardımcı"
       translate_ex1: ~
-      translations_link_text: ~
+      translations_link_text: "çeviri grubu"
       translate_ex2: ~
       translation_instructions_link_text: "çeviri talimati "
       voice_header: ~
@@ -179,13 +179,13 @@ tr:
       wiki_link_text: "diaspora*’s wiki"
       run_header: "Bir kamuoyuna başlat pod"
       run_ex1: ~
-      host_pod_link_text: ~
+      host_pod_link_text: "kendi işletmek diaspora* Pod"
       run_ex2: "Istediğiniz yere Bunu barındırabilir."
       run_ex3: "%{poduptime} açık listesine pod ekleyin."
       contributors_header: "diaspora*'s contribution"
-      contributors_byline: ~
-      globe_alt: ~
-      megaphone_alt: ~
+      contributors_byline: "Bunun ne olduğunu kadar diaspora* haline getiren insanlar"
+      globe_alt: Globe
+      megaphone_alt: megaphone
       support_alt: Destek
       pod_alt: Pod
     blog:
@@ -282,7 +282,6 @@ tr:
       columns: "Başlığının altında üç sütun vardır:"
       column1: ~
       column2: ~
-      column3: ~
       views: "diaspora* mevcut farklı görünümler şunlardır:"
       stream: dere
       stream_ex: ~
@@ -300,6 +299,8 @@ tr:
       tags: "izlenen #tags"
       tags_ex1: ~
       tags_ex2: ~
+      public: ~
+      public_ex1: ~
       profile: "Profil bakış"
       profile_ex1: ~
       profile_ex2: ~
@@ -507,71 +508,68 @@ tr:
       services: Hizmetler
       services_ex: ~
       finish1: ~
-    formatting:
-      byline: "metin biçimlendirme"
-      menu_title: "metin biçimlendirme"
       format1: ~
       format2: ~
       format3: ~
       format4: ~
-      headings: Başlıklar
+      headings: ~
       headings_ex1: ~
-      headings_code1: "Bu, son derece büyük bir başlıktır"
-      headings_code2: "Yukarıdaki gibi büyük Yarım"
-      headings_code3: "Normal metin iki katı büyüklüğünde"
+      headings_code1: ~
+      headings_code2: ~
+      headings_code3: ~
       headings_ex2: ~
-      lists: Listeler
-      lists_ex1: "Her satırın önünde listenin bir parçası olarak istiyoruz - bir madde işaretli liste oluşturmak için, ya *, + veya yerleştirin."
+      lists: ~
+      lists_ex1: ~
       lists_ex2: ~
       lists_ex3: ~
-      lists_code1: "Bu madde işaretli liste oluşturmak için nasıl:"
-      lists_code2: "öğe bir tane;"
-      lists_code3: "Ürünü ikisi;"
-      lists_code4: "öğe üç;"
-      lists_code5: "Bu da başka bir madde işaretli liste olacak:"
-      lists_code6: "Ve bu bir numaralı liste olacak:"
-      quote: alıntı
+      lists_code1: ~
+      lists_code2: ~
+      lists_code3: ~
+      lists_code4: ~
+      lists_code5: ~
+      lists_code6: ~
+      quote: ~
       quote_ex1: ~
       quote_code1: ~
-      quote_code2: "Bu alıntı olduğunu."
+      quote_code2: ~
       quote_code3: ~
-      code: "Kod blokları"
+      code: ~
       code_ex1: ~
       code_ex2: ~
       code_ex3: ~
-      code_code1: "Bu normal metin bir çizgidir."
-      code_code2: "Bu bir kod bloğu olacak"
-      code_code3: "O zaman biraz daha normal bir metin."
-      code_code4: "ve daha sonra biraz daha fazla kod"
-      code_code5: "ikisi boşluklarla girintili bir kod satırı"
-      line: "Yatay çizgi"
+      code_code1: ~
+      code_code2: ~
+      code_code3: ~
+      code_code4: ~
+      code_code5: ~
+      line: ~
       line_ex: ~
-      line_code1: "This will be a horizontal line of text and a rule in the next."
-      line_code2: "Ve şimdi size metnin bir sonraki bölüme başlayabilirsiniz."
-      itals: "İtalik ve kalın"
+      line_code1: ~
+      line_code2: ~
+      itals: ~
       itals_ex1: ~
-      itals_ex2: "<em>kalın italik</em>: *kelime* _kelime_"
-      itals_ex3: "<strong>kalın</strong>: **kelime** __kelime__"
-      itals_ex4: "<strong><em>kalın italik</em></strong>: ***kelime*** ___kelime___"
+      itals_ex2: ~
+      itals_ex3: ~
+      itals_ex4: ~
       itals_ex8: ~
       links: ~
       link_ex1: ~
       link_code: ~
       link_ex2: ~
       inline_link_text: ~
-      images: Resimleri
+      images: ~
       images_ex1: ~
-      images_code: "![Alt text](http://website.com/image.jpg \"isteğe bağlı başlıkta\")"
+      images_code: ~
       images_ex2: ~
       images_ex3: ~
       escape_ex1: ~
-      escape_code: "Budur \\_ alt çizgi gibi bir"
+      escape_code: ~
       escape_ex2: ~
       escape_ex3: ~
-      symbols: "Özel karakterler"
-      symbols_ex: "Aşağıdaki semboller ve karakterler bir arada kullanarak diğer özel karakterleri oluşturabilirsiniz:"
-      finish: "Markdown sözdizimi ilişkin daha ayrıntılı bir açıklama yoktur %{markdown_link}."
-      markdown_link_text: "Bu sayfada"
+      symbols: ~
+      symbols_ex: ~
+      finish: ~
+      markdown_link_text: ~
     tips:
       headline: "diaspora* kullanma ipuçları"
       byline: "Biz fark ettik bazı yararlı hileler"
@@ -586,7 +584,7 @@ tr:
       byline: "Nerede daha fazla yardım ve bilgi bulmak için"
       menu_title: "Diğer belgeler"
       intro1: ~
-      intro2: ~
+      intro2: "Auf dieser Seite gibt es links zu anderen hilfreichen Seiten mit Beschreibungen und weiteren Informationen."
       tutorials: Öğreticiler
       parfait: "diaspora* yeni insanlar için Fransız bir rehber"
       about: "diaspora* Hakkında"
@@ -601,7 +599,7 @@ tr:
       mail: ~
       mail_link_text: "mail listesi"
       irc: ~
-      irc_link_text: ~
+      irc_link_text: "IRC channel"
       progress: "Proje ilerleme"
       blog: ~
       blog_link_text: "Proje blog"

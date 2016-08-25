@@ -282,7 +282,6 @@ ia:
       columns: "Infra le barra superior il ha tres columnas:"
       column1: "Al sinistra se trova le photo e nomine de tu profilo, e postea le ligamines al differente vistas de contento disponibile in diaspora*: <span class=\"click\">Mi activitate</span>, <span class=\"click\">Fluxo</span>, <span class=\"click\">@Mentiones</span>, <span class=\"click\">Mi aspectos</span> e <span class=\"click\">#Etiquettas sequite</span>. Nos explica istes postea."
       column2: "Le columna central contine le fluxo de contento con un quadro pro scriber un nove entrata in le parte superior. Nos explica istes in %{part4_link}."
-      column3: "Al dextra se trova le icones de profilo del personas cuje entratas appare in tu fluxo. Il ha anque alcun ligamines pro invitar tu amicos, dar le benvenita a nove usatores, cercar adjuta, inviar cosas a diaspora* desde le resto del web (le “mini-marcapaginas” de diaspora*) e, in alcun pods, le information de contacto del administrator del pod. (Nota: in alcun pods, le columnas sinistre e dextre ha essite combinate e positionate o al sinistra o al dextra.)"
       views: "Le differente vistas disponibile in diaspora* es:"
       stream: "Le fluxo"
       stream_ex: "Le fluxo es vostre pagina principal in diaspora*. Illo aggrega tote le entratas disponibile a te. Illo es:"
@@ -300,6 +299,8 @@ ia:
       tags: "#Etiquettas sequite"
       tags_ex1: "Iste vista monstra tote le entratas disponibile (entratas public e entratas limitate que ha essite inviate a aspectos a que tu ha essite addite) que contine etiquettas que tu seque. Nos examina le etiquettas in detalio in %{part5_link}."
       tags_ex2: "Clicca sur <span class=\"click\">#Etiquettas sequite</span> pro vider le lista de tu etiquettas. Como in “Mi aspectos”, tu pote filtrar iste fluxo pro monstrar entratas continente un o plure etiquettas per marcar e dismarcar los in le columna al sinistra."
+      public: ~
+      public_ex1: ~
       profile: "Vista de profilo"
       profile_ex1: "Un clic sur tu nomine o photo de profilo, non importa ubi tu lo vide, te porta a tu pagina de profilo. Iste te monstra tote le entratas que tu ha scribite in diaspora*. Illo anque monstra tu photo de profilo, pseudonymo, le etiquettas “a proposito de me” e tu ID de diaspora* (explicate sub “Registration” in %{part1_link})."
       profile_ex2: "Infra tu photo de profilo se trova omne information de profilo private que tu ha addite, como le data de nascentia, position geographic, sexo, biographia, et cetera."
@@ -503,9 +504,6 @@ ia:
       services: ~
       services_ex: ~
       finish1: ~
-    formatting:
-      byline: ~
-      menu_title: ~
       format1: ~
       format2: ~
       format3: ~
@@ -526,11 +524,11 @@ ia:
       lists_code4: ~
       lists_code5: ~
       lists_code6: ~
-      quote: Citation
-      quote_ex1: "Pro citar un parte de un articulo o altere commento, il es facile formatar le texto per le insertion de un character \">\" al initio del linea o paragrapho."
-      quote_code1: "Isto es texto normal que introduce le citation:"
-      quote_code2: "Isto es un citation."
-      quote_code3: "Isto es le texto post le citation."
+      quote: ~
+      quote_ex1: ~
+      quote_code1: ~
+      quote_code2: ~
+      quote_code3: ~
       code: ~
       code_ex1: ~
       code_ex2: ~

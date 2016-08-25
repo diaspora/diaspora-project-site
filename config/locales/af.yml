@@ -282,7 +282,6 @@ af:
       columns: "Onder die opskrif is daar drie kolomme:"
       column1: "Aan die linkerkant sal jy jou profiel foto en skerm naam sien, en dan skakels na die verskillende inhoud aansigte wat beskikbaar is in diaspora*: <span class=\"click\">My Aktiwiteit</span>, <span class=\"click\">Stroom</span>, <span class=\"click\">@Oproepe</span>, <span class=\"click\">My Aspekte</span> en <span class=\"click\">#Gevolg Etikette</span>. Ons verduidelik hierdie volgende."
       column2: "Die middelste kolom bevat die inhoud stroom met 'n \"publiseerder\" boks aan die bokant. Meer inligting oor dit in %{part4_link}."
-      column3: "Aan die regterkant is die profiel ikone van die mense wie se plasings in jou stroom verskyn asook 'n paar skakels om jou te help om jou vriende te nooi, nuwe gebruikers te welkom, hulp te kry, op diaspora* plasings van die res van die web te skep (die diaspora* \"boekmerking\") en, op sommige peule, kontak inligting vir die peul se administrateur. (Let wel: op sommige peule is die linker- en regterkant kolomme saamgesmelt en hetsy geplaas op die linker- of regterkant.)"
       views: "Die verskillende aansigte beskikbaar in diaspora* is:"
       stream: "Die stroom"
       stream_ex: "Die stroom is jou tuisblad in diaspora*. Dit versamel al die poste wat beskikbaar is vir jou. Dit is:"
@@ -300,6 +299,8 @@ af:
       tags: "#Volgd Etikette"
       tags_ex1: "Dié aansig vertoon al die beskikbare plasings (openbare plasings en beperkte plasings wat geskep is in aspekte) met etikette wat jy volg. Ons sal oor etikette meer verduidelik in %{part5_link}."
       tags_ex2: "Kliek <span class=\"click\">#Gevolgd Etikette</span> om die lys van jou etikette te sien. Soos My Aspekte, kan jy hierdie stroom filter om plasings te wys wat een of meer etikette het, deur die etikette te kies en ontkies in die linkerkantste kolom."
+      public: ~
+      public_ex1: ~
       profile: "Profiel aansig"
       profile_ex1: "Waarookal hulle is, as jy jou naam of profiel foto kliek neem dit na jou profiel bladsy. Dit wys vir jou al die plasings wat jy in diaspora* geskep het. Dit vertoon ook jou profiel foto, skerm naam, \"oor my\" etikette en ​​jou diaspora* ID (verduidelik onder \"Registrasie\" in %{part1_link})."
       profile_ex2: "Onder jou profiel foto sal jy enige private profiel inligting sien wat jy bygevoeg het, soos verjaardag, ligging, geslag, biografie en so aan."
@@ -503,71 +504,68 @@ af:
       services: Dienste
       services_ex: "Die Dienste bladsy wys jou verbinde dienste (bv. Facebook, Twitter, Tumblr) en laat jou nuwe dienste aan te sluit by jou met diaspora* saad."
       finish1: "Baie dankie vir die lees van hierdie Begin gids! Ons hoop dit is nuttig vir jou en dat jy nou gemaklik voel met diaspora* soos jou nuwe aanlyn tuiste. As jy enige vrae het, voel vry om 'n openbare pos te maak op diaspora* insluitend die "
-    formatting:
-      byline: Teksformatering
-      menu_title: Teksformatering
-      format1: "Op diaspora* is dit moontlik om jou teks te formateer in status boodskappe, kommentare, en gesprekke met behulp van 'n eenvoudige opmerk stelsel wat Markdown genoem is. Hierdie bladsy gee 'n inleiding tot die kodes wat gebruik word om hierdie formatering te skep."
-      format2: "Die eerste ding om daarop te let is dat jy twee lyn breke tussen paragrawe moet gebruik (behalwe items in 'n lys), anders sal die paragrawe saam hardloop. As jy regtig net een lyn breek tussen twee paragrawe wil hê, voeg twee spasies aan die einde van die eerste paragraaf."
-      format3: "Dit is waar die <span class=\"click\">Voorskou</span> knoppie handig te pas is. Probeer sommige formaat, voorskou dit, besluit wat verkeerd is, maak dit reg, en voorskou dit weer, totdat jy tevrede is!"
-      format4: "In die voorbeelde hieronder, kan jy die teks kopieer in die grys gebiede en dit in die uitgewer plak in diaspora* en die <span class=\"click\">Voorskou</span> knoppie gebruik om teksformatering te probeer."
-      headings: Opskrifte
-      headings_ex1: "Jy kan eerste-, tweede- en derde-vlak opskrifte byvoeg aan jou boodskap deur die plasing van 'n allegaartjie simbool (#) aan die begin van 'n lyn, soos volg:"
-      headings_code1: "Dit is 'n baie groot opskrift"
-      headings_code2: "Helfte so groot soos die een hierbo"
-      headings_code3: "Twee keer die grootte van normale teks"
-      headings_ex2: "Maak seker om 'n ruimte te laat tussen die twee allegaartjies en jou teks, om te verhoed dat jy 'n #etiket skep in plaas van 'n opskrif. Die opskrif eindig wanneer jy Enter tik om voort te gaan na die volgende lyn."
-      lists: Lyse
-      lists_ex1: "Om 'n kolpuntlys te skep, plaas óf *, + of - in die voorkant van elke lyn wat jy deel van die lys wil maak."
-      lists_ex2: "Dit is ook moontlik om genommerde lyste te maak deur die plasing van \"1.\" \"2.\", ens voor die lys items. Om 'n genommerde lys te skep, moet die getalle tydperke/punte na hulle hê."
-      lists_ex3: "Weereens, maak seker dat 'n ruimte verlaat is tussen die \"koeël\" simbool en die teks op elke lyn, en om 'n lyn spasie tussen die lys en enige vorige / volgende teks te verlaat, anders sal dit nie werk nie."
-      lists_code1: "Dit is hoe 'n kolpuntlys te skep:"
-      lists_code2: "item een;"
-      lists_code3: "item twee;"
-      lists_code4: "item drie."
-      lists_code5: "Dit sal nog 'n kolpuntlys word:"
-      lists_code6: "En dit sal 'n genommerde lys wees:"
+      format1: ~
+      format2: ~
+      format3: ~
+      format4: ~
+      headings: ~
+      headings_ex1: ~
+      headings_code1: ~
+      headings_code2: ~
+      headings_code3: ~
+      headings_ex2: ~
+      lists: ~
+      lists_ex1: ~
+      lists_ex2: ~
+      lists_ex3: ~
+      lists_code1: ~
+      lists_code2: ~
+      lists_code3: ~
+      lists_code4: ~
+      lists_code5: ~
+      lists_code6: ~
       quote: ~
       quote_ex1: ~
       quote_code1: ~
       quote_code2: ~
       quote_code3: ~
-      code: "Kode blokke"
-      code_ex1: "As jy 'n ontwikkelaar is sal jy miskien in kode blokke belangstel. Om 'n kode blok te skep, begin jou teks/kode met vier backticks (````). Om terug na normale teks te keer, sluit die kode blok met nog 'n vier."
-      code_ex2: "Nog 'n manier om dit te doen, is om elkeen van jou reëls van die kode te begin met vier ruimtes. Toevoeging van meer ruimte sal verdere inkeping verlaat."
-      code_ex3: "Dit is ook moontlik om kode inlyn te vertoon, `<code>deur die uittreksel te begin en einde met 'n backtick</ code>`."
-      code_code1: "Dit is 'n lyn normale teks."
-      code_code2: "dan sal daar 'n kode blok wees"
-      code_code3: "Dan 'n bietjie meer normale teks."
-      code_code4: "en dan 'n bietjie meer kode"
-      code_code5: "'n lyn kode ingekeep deur twee ruimtes"
-      line: "Horisontale lyn"
-      line_ex: "Om 'n horisontale lyn te skep, gebruik ten minste drie ---, ___ of *** op 'n aparte lyn. Enige aantal bogenoemde drie sal dieselfde ding doen en spasies tussen die karakters maak nie saak nie."
-      line_code1: "Daar sal 'n horisontale reël tussen hierdie lyn teks en die volgende een wees."
-      line_code2: "En nou kan jy die volgende artikel van jou teks begin."
-      itals: "Skuinsdruk en vet"
-      itals_ex1: "Plaas óf sterretjies of onderstreep weerskante van 'n woord of woorde om hulle skuinsdruk, vet of vet skuinsdrukte maak."
-      itals_ex2: "<em>Skuinsdruk</em>: *woord* of _woord_"
-      itals_ex3: "<strong>Vet</strong>: **woord** of __woord__"
-      itals_ex4: "<strong><em>Vet skuinsdruk</em></strong>: ***woord*** of ___woord___"
-      itals_ex8: "Jy moet natuurlik ooreen met die sterre / onderstrepe in pare aan weerskante van die woorde vir die formatering te werk. As jy \"Ek wil dit vertoon soos 'n **vet* woord\" tik sal dit nie in vet vertoon word nie."
-      links: "inlyn skakels"
-      link_ex1: "Om 'n %{inline_link} te skep, gebruik die volgende kode:"
-      link_code: "[vertone teks hier](http://link.adress.hier \"alternatiewe teks\")"
-      link_ex2: "Die \"alternatiewe text\" is opsioneel, en word vertoon as 'n instrument-wenk wanneer die muis oor die skakel beweeg is."
-      inline_link_text: "inlyn skakel"
-      images: Beelde
-      images_ex1: "Om eksterne beelde toe te voeg aan jou plasing, kommentaar, of private boodskap, gebruik dieselfde kode soos vir 'n skakel, maar met 'n uitroepteken aan die voorkant:"
-      images_code: "![Alternatiewe tekst](http://webbladsy.com/beeld.jpg \"opsionele titel\")"
-      images_ex2: "Vir hierdie te werk, moet jy 'n direkte skakel na 'n geldige beeld-lêer verskaf, <em>nie</em> 'n web bladsy met 'n beeld of beelde op dit nie."
-      images_ex3: "Die alternatiewe teks in die vierkantige hakies word vertoon as die beeld nie gelaai kan word nie, en die opsionele titel word vertoon as 'n instrument-punt wanneer die wyser beweeg is oor die beeld; albei is nuttig, maar nie noodsaaklik nie."
-      escape_ex1: "As jy in jou boodskap 'n teken wat ook gebruik word in Markdown kodering wil in sluit, kan jy verhoed dat dit gelees word deur Markdown as 'n opmaak kode as jy dit \"ontsnap\". Om dit te doen, plaas 'n agteroorskuisstreep ( \\ ) voor die simbool. Byvoorbeeld, as jy"
-      escape_code: "dit \\_ is 'n onderstreep"
-      escape_ex2: "tik sal diaspora* die onderstreep vertoon, want die agteroorskuisstreep keer  dat die onderstreep nie soos Markdown behandel word nie."
-      escape_ex3: "maar jy kan \"diaspora*\" of \"D*\" tik sonder die asterisk 'n opmaak kode te maak!"
-      symbols: "Spesiale simbole"
-      symbols_ex: "Jy kan die volgende simbole en ander spesiale simbole gebruik met behulp van gekombineerde simbole:"
-      finish: "Daar is 'n meer omvattende beskrywing van Markdown se sintaksis %{markdown_link}."
-      markdown_link_text: "op hierdie bladsy"
+      code: ~
+      code_ex1: ~
+      code_ex2: ~
+      code_ex3: ~
+      code_code1: ~
+      code_code2: ~
+      code_code3: ~
+      code_code4: ~
+      code_code5: ~
+      line: ~
+      line_ex: ~
+      line_code1: ~
+      line_code2: ~
+      itals: ~
+      itals_ex1: ~
+      itals_ex2: ~
+      itals_ex3: ~
+      itals_ex4: ~
+      itals_ex8: ~
+      links: ~
+      link_ex1: ~
+      link_code: ~
+      link_ex2: ~
+      inline_link_text: ~
+      images: ~
+      images_ex1: ~
+      images_code: ~
+      images_ex2: ~
+      images_ex3: ~
+      escape_ex1: ~
+      escape_code: ~
+      escape_ex2: ~
+      escape_ex3: ~
+      symbols: ~
+      symbols_ex: ~
+      finish: ~
+      markdown_link_text: ~
     tips:
       headline: "Wenke vir die gebruik van diaspora*"
       byline: "'n Paar nuttige toertjies wat ons ontdek het"

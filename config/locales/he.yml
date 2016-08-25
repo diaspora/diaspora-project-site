@@ -282,7 +282,6 @@ he:
       columns: ~
       column1: ~
       column2: ~
-      column3: ~
       views: ~
       stream: ~
       stream_ex: ~
@@ -300,6 +299,8 @@ he:
       tags: ~
       tags_ex1: ~
       tags_ex2: ~
+      public: ~
+      public_ex1: ~
       profile: ~
       profile_ex1: ~
       profile_ex2: ~
@@ -503,9 +504,6 @@ he:
       services: ~
       services_ex: ~
       finish1: ~
-    formatting:
-      byline: ~
-      menu_title: ~
       format1: ~
       format2: ~
       format3: ~

@@ -282,7 +282,6 @@ pl:
       columns: "Pod nagłówkiem znajdują się trzy kolumny:"
       column1: ~
       column2: "Środkowa kolumna zawiera strumień treści z oknem \"publikacji\" na górze. Zajmiemy się tym w %{part4_link}."
-      column3: ~
       views: "Różne widoki dostępne w diasporze* to:"
       stream: Strumień
       stream_ex: "Strumień to Twoja strona domowa w diasporze*. Zbiera on wszystkie wpisy dostępne dla Ciebie. To znaczy:"
@@ -300,6 +299,8 @@ pl:
       tags: "#Obserwowane tagi"
       tags_ex1: ~
       tags_ex2: ~
+      public: ~
+      public_ex1: ~
       profile: "Widok profilu"
       profile_ex1: ~
       profile_ex2: ~
@@ -503,16 +504,13 @@ pl:
       services: ~
       services_ex: ~
       finish1: ~
-    formatting:
-      byline: "Formatowanie tekstu"
-      menu_title: "Formatowanie tekstu"
       format1: ~
       format2: ~
       format3: ~
       format4: ~
       headings: ~
       headings_ex1: ~
-      headings_code1: "To jest bardzo duży nagłówek"
+      headings_code1: ~
       headings_code2: ~
       headings_code3: ~
       headings_ex2: ~
@@ -520,12 +518,12 @@ pl:
       lists_ex1: ~
       lists_ex2: ~
       lists_ex3: ~
-      lists_code1: "Tak tworzy się listę wypunktowaną:"
+      lists_code1: ~
       lists_code2: ~
       lists_code3: ~
       lists_code4: ~
       lists_code5: ~
-      lists_code6: "A to będzie lista numerowana:"
+      lists_code6: ~
       quote: ~
       quote_ex1: ~
       quote_code1: ~
@@ -535,20 +533,20 @@ pl:
       code_ex1: ~
       code_ex2: ~
       code_ex3: ~
-      code_code1: "To jest linia normalnego tekstu."
+      code_code1: ~
       code_code2: ~
-      code_code3: "Następnie trochę więcej bardziej normalnego tekstu."
-      code_code4: "i następnie trochę więcej kodu"
-      code_code5: "linia kodu z wcięciem wielkości dwóch spacji"
+      code_code3: ~
+      code_code4: ~
+      code_code5: ~
       line: ~
       line_ex: ~
       line_code1: ~
       line_code2: ~
       itals: ~
       itals_ex1: ~
-      itals_ex2: "<em>Kursywa</em>: *słowo* lub _słowo_"
+      itals_ex2: ~
       itals_ex3: ~
-      itals_ex4: "<strong><em>Pogrubiona kursywa</em></strong>: ***słowo*** lub ___słowo___"
+      itals_ex4: ~
       itals_ex8: ~
       links: ~
       link_ex1: ~
@@ -561,10 +559,10 @@ pl:
       images_ex2: ~
       images_ex3: ~
       escape_ex1: ~
-      escape_code: "to \\_ jest znak podkreślenia"
+      escape_code: ~
       escape_ex2: ~
       escape_ex3: ~
-      symbols: "Znaki specjalne"
+      symbols: ~
       symbols_ex: ~
       finish: ~
       markdown_link_text: ~

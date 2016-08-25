@@ -5,18 +5,18 @@ ru:
       send_instructions: ~
       send_paranoid_instructions: ~
     failure:
-      already_authenticated: ~
-      inactive: ~
+      already_authenticated: "Вы уже вошли в систему"
+      inactive: "Ваш аккаунт ещё не активирован"
       invalid: "Неверный адрес электронной почты или пароль."
-      invalid_token: ~
-      locked: ~
+      invalid_token: "Неверный код аутентификации"
+      locked: "Ваш аккаунт заблокирован"
       not_found_in_database: "Неверный адрес электронной почты или пароль."
-      timeout: ~
+      timeout: "Время сессии истекло, пожалуйста, войдите в систему ещё раз, чтобы продолжить."
       unauthenticated: ~
-      unconfirmed: ~
+      unconfirmed: "Вам необходимо подтвердить ваш аккаунт, прежде чем продолжить."
     mailer:
       confirmation_instructions:
-        subject: ~
+        subject: "Инструкции по подтверждению"
       reset_password_instructions:
         subject: "Инструкции по сбросу пароля"
       unlock_instructions:
@@ -26,7 +26,7 @@ ru:
       success: ~
     passwords:
       no_token: ~
-      send_instructions: ~
+      send_instructions: "Вы получите письмо с инструкцией по сбросу пароля в течение нескольких минут."
       send_paranoid_instructions: "Если ваш электронный адрес есть в нашей базе данных, то через несколько минут вы получите ссылку для восстановления пароля."
       updated: "Ваш пароль успешно изменен. Теперь вы в системе."
       updated_not_active: "Ваш пароль был успешно изменен."

@@ -284,7 +284,6 @@ nl:
       columns: "Onder de werkbalk zie je drie kolommen:"
       column1: "In de linkerkolom zie je jouw profielfoto en weergavenaam en links naar de verschillende schermen die in diaspora* beschikbaar zijn: <span class=\"click\">Mijn activiteit</span>, <span class=\"click\">Stream</span>, <span class=\"click\">@Mij</span>, <span class=\"click\">Mijn aspecten</span> en <span class=\"click\">#Gevolgde tags</span>. We leggen dit hierna uit."
       column2: "De centrale kolom toont alle berichten in de Stream met een invoerveld bovenaan. We behandelen dit in %{part4_link}."
-      column3: "Aan de rechterkant vind je de profielafbeeldingen van de mensen van wie je de berichten ziet verschijnen in je stream. Daarboven vind je hier links die je helpen om vrienden uit te nodigen, nieuwe gebruikers te verwelkomen, vanaf andere sites berichten te plaatsen op diaspora* (de diaspora* \"bookmarklet\") en op sommige pods, contactinformatie voor de podbeheerder. (Let op: op sommige pods zijn de linker- en rechterkolom samengevoegd langs één zijde geplaatst.)"
       views: "De verschillende soorten pagina's in diaspora* zijn:"
       stream: "De stream"
       stream_ex: "De stream is je startpagina in diaspora*. Het verzamelt alle berichten die voor jou beschikbaar zijn. Dat betekent:"
@@ -302,12 +301,14 @@ nl:
       tags: "#Gevolgde tags"
       tags_ex1: "Dit overzicht toont alle beschikbare berichten (openbare berichten en de beperkt zichtbare berichten als jij in een aspect staat) waar de door jou gevolgde tags staan. We behandelen tags in %{part5_link}."
       tags_ex2: "Klik op <span class=\"click\">#Gevolgde tags</span> om een overzicht van jouw tags te zien. Net als bij Mijn aspecten kun je deze stream filteren om alleen de berichten die één of meer van de tags bevatten door de tags in de linkerkolom te selecteren of deselecteren."
+      public: ~
+      public_ex1: ~
       profile: Profielpagina
       profile_ex1: "Klik op je naam of profielfoto, waar die ook staat, om naar je profielpagina te gaan. Die toont alle door jou geplaatste berichten in diaspora* en je profielfoto, je weergavenaam, de \"over mij\" tags en je diaspora* ID (behandeld onder Aanmelding in %{part1_link})."
       profile_ex2: "Onder je profielfoto zie je privé profiel informatie die je hebt toegevoegd zoals verjaardag, locatie, geslacht, biografie en zo verder."
       profile_ex3: "Klik op de blauwe <span class=\"click\">Bewerk mijn profiel</span> knop als je je profielinformatie wilt wijzigen."
       profile_ex4: "Je kan iemand anders zijn profielpagina zien door op hun naam of foto te klikken. Hoeveel je van die persoon zijn profielinformatie te zien krijgt hangt af van de verbinding die je met hem of haar hebt. Rechtsboven vind je een aspecten knop: die is grijs als deze persoon niet in één van je aspecten zit; groen als je die persoon wel in een aspect hebt. Klik erop om ze toe te voegen tot een aspect."
-      profile_ex5: ""
+      profile_ex5: ~
       profile_ex6: "In de linkerkolom staat ook een link naar de geüploade foto's van die persoon en de contactpersonen die ze openbaar hebben gemaakt (dit staat uitgelegd in het volgende deel, \"Aspecten\")."
       finish: "Meer hoef je nu even niet van de interface te weten. Het eerste wat je moet doen is mensen vinden met wie je iets wilt delen. Maar voordat je dat kunt doen, moeten we ons eerst richten op iets dat prominent in diaspora* aanwezig is: Aspecten."
     getting_started3:
@@ -518,71 +519,68 @@ nl:
       services: Diensten
       services_ex: "De Diensten pagina toont je verbonden diensten (bijv. Facebook, Twitter, Tumblr) en maakt het mogelijk nieuwe diensten aan je diaspora* account toe te voegen."
       finish1: "Bedankt voor het lezen van deze instructies! We hopen dat ze een zinvolle bijdrage leveren en dat je nu met vertrouwen diaspora* kunt gebruiken als je nieuwe netwerk. Als je vragen hebt, aanzel niet om een openbaar in diaspora* te plaatsen met de <span class=\"click\">#help</span> of <span class=\"click\">#question</click> tags, zodat andere community leden je kunnen helpen. Er staat een hulpvaardige gemeenschap om je heen."
-    formatting:
-      byline: "Tekst opmaken"
-      menu_title: "Tekst opmaken"
-      format1: "Binnen diaspora* kun je de tekst in je berichten, reacties en gesprekken opmaken via een eenvoudig opmaaksysteem genaamd Markdown. Op deze pagina geven we een korte introductie in de meest gebruikte opmaakopties."
-      format2: "Het eerste wat je moet weten is dat je twee keer een nieuwe regel moet opgeven om paragrafen te scheiden (behalve in lijsten), anders worden de paragrafen samengevoegd. Als je echt maar één scheidingsregel wilt gebruiken, plaats dan twee spaties aan het eind van de eerste paragraaf."
-      format3: "Hierbij is de <span class=\"click\">Voorbeeld</span> knop uiterst handig. Probeer wat opmaakopties, bekijk het voorbeeld, zoek uit wat niet goed werkt, herstel het en bekijk opnieuw, totdat je tevreden bent!"
-      format4: "In de onderstaande voorbeelden kun je de tekst in de grijze gebieden kopiëren en plakken in het tekstveld in diaspora* en de <span class=\"click\">Voorbeeld</span> knop gebruiken om het resultaat te zien."
-      headings: Kopteksten
-      headings_ex1: "Je kunt eerste, tweede en derde niveau kopteksten aan je bericht toevoegen door een hekjessymbool (#) aan het begin van een regel te typen, dus zo:"
-      headings_code1: "Dit is een hele grote koptekst"
-      headings_code2: "Half zo groot als de voorgaande"
-      headings_code3: "Twee keer de grootte van normale tekst"
-      headings_ex2: "Let erop dat je een spatie tussen de hekjes en jouw tekst laat staan om de hekjes van kopteksten niet te verwarren met #tags. De koptekst eindigt als je op de enter-knop drukt om naar de volgende regel te gaan."
-      lists: Lijsten
-      lists_ex1: "Om een lijst met bullets te maken zet je ofwel een *, of een - voor elke regel die deel van de lijst is."
-      lists_ex2: "Je kunt ook een genummerde lijst maken door \"1.\", \"2.\", etc vooraan de regels te zetten. Om een genummerde lijst te maken moet je wel een punt direct na het cijfer zetten."
-      lists_ex3: "Let er ook hierbij op dat er een spatie achter het \"bullet\" teken en de rest van de tekst staat en dat er een lege regel boven en onder de lijst staat, anders werkt het niet."
-      lists_code1: "Zo maak je een bullet lijst:"
-      lists_code2: "onderdeel een;"
-      lists_code3: "onderdeel twee;"
-      lists_code4: "onderdeel drie."
-      lists_code5: "Dit wordt een andere bulletlijst:"
-      lists_code6: "En dit wordt een genummerde lijst:"
-      quote: Quote
-      quote_ex1: "Als je een samenvatting van een artikel of van een andere reactie wilt aanhalen, kun je de tekst makkelijk opmaken door de regel of alinea te beginnen met het \">\" teken:..."
-      quote_code1: "Dit is normale tekst om je quote te beginnen:"
-      quote_code2: "Dit is een quote."
-      quote_code3: "Deze tekst volgt op de quote."
-      code: Codeblokken
-      code_ex1: "Als je een ontwikkelaar bent, dan zou je misschien wel eens een codeblok willen gebruiken. On dat te doen begin je de tekst met vier achterwaartse accentjes (` ` ` ` ). Om het codeblok af te sluiten doen je dat opnieuw."
-      code_ex2: "Je kunt dat ook doen door elk van je regels code vooraf te laten gaan door vier spaties. Met extra spaties wordt verder ingesprongen."
-      code_ex3: "Je kunt ook code inline tonen door '<code>door te beginnen en te eindigen met een achterwaarts accentteken</code>`."
-      code_code1: "Dit is een normale tekstregel."
-      code_code2: "dit wordt een codeblok"
-      code_code3: "Dan nog wat normale tekst."
-      code_code4: "en meer code in een codeblok"
-      code_code5: "een regel code die inspringt met twee spaties"
-      line: "Horizontale lijn"
-      line_ex: "Om een horizontale lijn te maken gebruik je minimaal drie - - -, _ _ _ of * * * op een afzonderlijke regel. Meer dan drie tekens, of spaties ertussen, maakt voor de functie niet uit."
-      line_code1: "Er staat een horizontale lijn tussen deze regel en de volgende."
-      line_code2: "En nu kun je met de volgende sectie van je tekst beginnen."
-      itals: "Schuin en vet"
-      itals_ex1: "Zet asterisks of liggende streepjes voor en achter een woord of serie woorden om ze cursef, vet of vet cursief weer te laten geven."
-      itals_ex2: "<em>Schuin</em>: *word* of _word_"
-      itals_ex3: "<strong>Vet</strong>: **word** of __word__"
-      itals_ex4: "<strong><em>vet schuin</em></strong>: ***word*** or ___word___"
-      itals_ex8: "Je moet natuurlijk wel een overeenkomstige aantal asterisks en liggende streepjes aan beide zijden plaatsen om de opmaak te laten lukken. Invoeren van “Ik wil dit als een **vet* woord tonen” laat het woord niet in vet weergeven."
-      links: "Inline links"
-      link_ex1: "Om een %{inline_link} te maken gebruik je de volgende code:"
-      link_code: "[weergegeven tekst hier](http://link.adres.hier \"alt tekst\")"
-      link_ex2: "De \"alt tekst\" is optioneel en wordt weergegeven als een pop-up tekst als de muiscursor over de link beweegt."
+      format1: ~
+      format2: ~
+      format3: ~
+      format4: ~
+      headings: ~
+      headings_ex1: ~
+      headings_code1: ~
+      headings_code2: ~
+      headings_code3: ~
+      headings_ex2: ~
+      lists: ~
+      lists_ex1: ~
+      lists_ex2: ~
+      lists_ex3: ~
+      lists_code1: ~
+      lists_code2: ~
+      lists_code3: ~
+      lists_code4: ~
+      lists_code5: ~
+      lists_code6: ~
+      quote: ~
+      quote_ex1: ~
+      quote_code1: ~
+      quote_code2: ~
+      quote_code3: ~
+      code: ~
+      code_ex1: ~
+      code_ex2: ~
+      code_ex3: ~
+      code_code1: ~
+      code_code2: ~
+      code_code3: ~
+      code_code4: ~
+      code_code5: ~
+      line: ~
+      line_ex: ~
+      line_code1: ~
+      line_code2: ~
+      itals: ~
+      itals_ex1: ~
+      itals_ex2: ~
+      itals_ex3: ~
+      itals_ex4: ~
+      itals_ex8: ~
+      links: ~
+      link_ex1: ~
+      link_code: ~
+      link_ex2: ~
       inline_link_text: "inline link"
       images: Afbeeldingen
-      images_ex1: "Om externe afbeeldingen aan je bericht, reactie of provébericht toe te voegen, gebruik je dezelfde code als voor een link, maar met een uitroepteken vooraan:"
-      images_code: "![Alt tekst](http://website.com/afbeeldig.jpg \"optionele titel\")"
-      images_ex2: "Om dit te laten werken moet je een directie link naar een geldig afbeeldingsbestand opgeven, <em>niet</em> naar een webpagine met een of meer afbeeldingen."
-      images_ex3: "De alternatieve tekst in de vierkante haken wordt getoond als de afbeelding niet kan worden geladen en de optionele titel wordt als pop-up tekst getoond als de muiscursor over de afbeelding beweegt; beide kunnen handig zijn maar zijn niet noodzakelijk."
-      escape_ex1: "Als je in je bericht ook een teken wilt weergen dat ook in de Markdown opmaaktaal wordt gebruikt, dan kun je voorkomen dat Markdown het als opmaakcommando beschouwt door te 'escapen'. Doe dit door een 'backslash'( \\ ) voor het teken te plaatsen. Bijvoorbeeld ingeven van"
-      escape_code: "dit \\_ is een liggend streepje"
-      escape_ex2: "voorkomt dat Markdown het liggende streepje als een Markdown commando siet en laat diaspora* een liggend streepje plaatsen in plaats van er cursieve tekst achter weer te geven."
-      escape_ex3: "Je kunt wel \"diaspora*\" of \"D*\" typen zonder dat de asterisk als een opmaakopdracht wordt beschouwd."
-      symbols: "Speciale tekens"
-      symbols_ex: "Je kunt de volgende symbolen en andere speciale tekens maken door gebruik te maken van een combinatie van tekens:"
-      finish: "Er is een meer gedetailleerde beschrijving van de Markdown syntax %{markdown_link}"
-      markdown_link_text: "on deze pagina"
+      images_ex1: ~
+      images_code: ~
+      images_ex2: ~
+      images_ex3: ~
+      escape_ex1: ~
+      escape_code: ~
+      escape_ex2: ~
+      escape_ex3: ~
+      symbols: ~
+      symbols_ex: ~
+      finish: ~
+      markdown_link_text: "op deze pagina"
     tips:
       headline: "Tips voor het gebruik van diaspora*"
       byline: "Leuke trucjes die we hebben ontdekt"

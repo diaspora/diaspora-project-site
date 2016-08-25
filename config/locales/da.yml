@@ -284,7 +284,6 @@ da:
       columns: ~
       column1: ~
       column2: ~
-      column3: ~
       views: ~
       stream: Strømmen
       stream_ex: ~
@@ -302,6 +301,8 @@ da:
       tags: ~
       tags_ex1: ~
       tags_ex2: ~
+      public: ~
+      public_ex1: ~
       profile: "Profil visning"
       profile_ex1: ~
       profile_ex2: ~
@@ -505,20 +506,17 @@ da:
       services: Tjenester
       services_ex: ~
       finish1: ~
-    formatting:
-      byline: Tekstformatering
-      menu_title: Tekstformatering
       format1: ~
       format2: ~
       format3: ~
       format4: ~
-      headings: Overskrift
+      headings: ~
       headings_ex1: ~
       headings_code1: ~
       headings_code2: ~
       headings_code3: ~
       headings_ex2: ~
-      lists: Lister
+      lists: ~
       lists_ex1: ~
       lists_ex2: ~
       lists_ex3: ~
@@ -557,7 +555,7 @@ da:
       link_code: ~
       link_ex2: ~
       inline_link_text: ~
-      images: Billeder
+      images: ~
       images_ex1: ~
       images_code: ~
       images_ex2: ~
@@ -569,7 +567,7 @@ da:
       symbols: ~
       symbols_ex: ~
       finish: ~
-      markdown_link_text: "på denne side"
+      markdown_link_text: ~
     tips:
       headline: "Tips for brugen af diaspora*"
       byline: "Nogle nyttige tricks som vi har fundet"

@@ -282,7 +282,6 @@ nb:
       columns: ~
       column1: ~
       column2: ~
-      column3: "Til høyre vises profilikonene til de menneskene som det vises poster fra i stream-en din, og noen linker som hjelper deg med å invitere vennene dine, ønske nye brukere velkommen, finne hjelp, poste til diaspora* fra resten av nettet (diaspora* «bookmarklet-en») og på noen pod-er, kontaktinforasjon til pod-ens administrator. (Merk: på noen pod-er er venstre og høyre kolonne slått sammen og plassert enten til venstre eller til høyre.)"
       views: ~
       stream: ~
       stream_ex: ~
@@ -300,6 +299,8 @@ nb:
       tags: ~
       tags_ex1: ~
       tags_ex2: ~
+      public: ~
+      public_ex1: ~
       profile: ~
       profile_ex1: ~
       profile_ex2: ~
@@ -503,9 +504,6 @@ nb:
       services: ~
       services_ex: ~
       finish1: ~
-    formatting:
-      byline: ~
-      menu_title: ~
       format1: ~
       format2: ~
       format3: ~
@@ -526,11 +524,11 @@ nb:
       lists_code4: ~
       lists_code5: ~
       lists_code6: ~
-      quote: Sitat
+      quote: ~
       quote_ex1: ~
-      quote_code1: "Dette er vanlig tekst i forkant av sitatet ditt:"
-      quote_code2: "Dette er et sitat."
-      quote_code3: "Dette er teksten etter sitatet."
+      quote_code1: ~
+      quote_code2: ~
+      quote_code3: ~
       code: ~
       code_ex1: ~
       code_ex2: ~
