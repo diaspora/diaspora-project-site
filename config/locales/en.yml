@@ -36,11 +36,11 @@ en:
       register: "Sign up »"
       key_philosophies: "diaspora* is based on three key philosophies:"
       decentralization: Decentralization
-      decentralization_about: "Instead of everyone’s data being contained on huge central servers owned by a large organization, local servers (“pods”) can be set up anywhere in the world. You choose which pod to register with - perhaps your local pod - and seamlessly connect with the diaspora* community worldwide."
+      decentralization_about: "Instead of everyone’s data being held on huge central servers owned by a large organization, diaspora* exists on independently run servers (“pods”) all over the world. You choose which pod to register with, and you can then connect seamlessly with the diaspora* community worldwide."
       freedom: Freedom
-      freedom_about: "You can be whoever you want to be in diaspora*. Unlike some networks, you don’t have to use your real identity. You can interact with whomever you choose in whatever way you want. The only limit is your imagination. diaspora* is also Free Software, giving you liberty to use it as you wish."
+      freedom_about: "You can be whoever you want to be in diaspora*. Unlike some networks, you don’t have to use your real identity. You can interact with people in whatever way you choose. The only limit is your imagination. diaspora* is also Free Software, giving you liberty over how you use it."
       privacy: Privacy
-      privacy_about: "In diaspora* you own your data. You do not sign over any rights to a corporation or other interest who could use it. With diaspora*, your friends, your habits, and your content is your business ... not ours! In addition, you choose who sees what you share, using Aspects."
+      privacy_about: "In diaspora* you own your data. You don’t sign over rights to a corporation or other interest who could use it. In addition, you choose who sees what you share, using Aspects. With diaspora*, your friends, your habits, and your content is your business ... not ours!"
       get_started: "Want to get started?"
       get_started_sub: "It’s as easy as 1, 2, 3 ..."
       choose_pod: "1. Choose a pod"
@@ -93,9 +93,9 @@ en:
       privacy: Privacy
       privacy_byline: "Total control over what is yours "
       priv1: "Own your own data"
-      priv1_ex: "Many networks use your data to make money by analysing your interactions and using this information to advertise things to you. diaspora* doesn’t use your data for any purpose other than allowing you to connect and share with others."
+      priv1_ex: "Many networks make money by analysing your interactions and using this to advertise things to you. diaspora* doesn’t use your data for any purpose other than allowing you to connect and share with others. Only the admins of pods you interact with can access your data, and you can choose which pods you interact with."
       priv2: "Host it yourself"
-      priv2_ex: "Choose where your data are stored by choosing a pod you’re happy with. If you want to be really secure, you can set up and host your own pod on servers you control, so no one can get at your personal data."
+      priv2_ex: "Choose where your data are stored by choosing a pod you’re happy with. If you want to be really secure, you can set up and host your own pod on servers you control, and interact only with pods you trust, so no one can get at your personal data."
       priv3: "Choose your audience"
       priv3_ex: "diaspora*’s aspects allow you to share with just those people you want to. You can be as public or as private as you like. Share a funny photo with the whole world, or a deep secret just with your closest friends. You’re in control."
       aspects: "All about aspects"
