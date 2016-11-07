@@ -12,10 +12,11 @@
   <div class="row minor-top-spacing">
     <div class="col-md-12">
       <p class="more-info"><%= t '.welcome' %></p>
+      
       <h3><%= t '.find_pod' %></h3>
+      <p class="more-info"><%= t('.find_pod_intro', part2_link: link_to(t('pages.tutorials.part2'), interface_path)).html_safe %></p>
       <p><%= t('.find_pod_ex1').html_safe %></p>
       <p class="more-info"><%= t('.find_pod_ex2').html_safe %></p>
-
       <p><%= t('.find_pod_ex3', wiki_link: link_to(t('.wiki_link_text'), "https://wiki.diasporafoundation.org/Choosing_a_pod")).html_safe %></p>
       <p><%= t '.find_pod_ex4' %></p>
       <p class="more-info"><%= t '.find_pod_ex5' %></p>
@@ -39,22 +40,21 @@
       <p class="text-center"><%= image_tag 'pages/getting_started/sign_up/gettingstarted.png' %></p>
 
       <ol>
-        <li><%= t '.registration6' %></li>
-        <li><%= t '.registration7' %></li>
-        <li><%= t '.registration8' %></li>
-        <li><%= t '.registration9' %></li>
-        <li><%= t('.registration10').html_safe %></li>
+        <li><%= t('.registration6').html_safe %></li>
+        <li><%= t('.registration7').html_safe %></li>
+        <li><%= t('.registration8').html_safe %></li>
+        <li><%= t('.registration9').html_safe %></li>
       </ol>
 
       <p><%= t('.profile1').html_safe %></p>
-      <p><%= t '.profile2' %></p>
+      <p><%= t('.profile2').html_safe %></p>
 
       <div class="row">
         <div class="col-md-6">
-          <p class="text-center"><%= image_tag 'pages/getting_started/sign_up/profile-public.png', class: 'img-responsive' %></p>
+          <p class="text-center"><%= image_tag 'pages/getting_started/sign_up/profile-basic.png', class: 'img-responsive' %></p>
         </div>
         <div class="col-md-6">
-          <p class="text-center"><%= image_tag 'pages/getting_started/sign_up/profile-private.png', class: 'img-responsive' %></p>
+          <p class="text-center"><%= image_tag 'pages/getting_started/sign_up/profile-extended.png', class: 'img-responsive' %></p>
         </div>
       </div>
 

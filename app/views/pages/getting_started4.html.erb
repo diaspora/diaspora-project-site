@@ -11,23 +11,23 @@
 <div class="container">
   <div class="row minor-top-spacing">
     <div class="col-md-12">
-      <p class="more-info"><%= t '.aspects1' %></p>
+      <p class="more-info"><%= t('.aspects1').html_safe %></p>
       <h3><%= t '.sharing' %></h3>
-      <p><%= t '.sharing_ex' %></p>
-      <p><%= t '.relationships' %></p>
+      <p><%= t('.sharing_ex').html_safe %></p>
+      <p><%= t('.relationships').html_safe %></p>
 
-      <h5><%= t '.followers' %></h5>
-      <p><%= t '.followers_ex1' %></p>
-      <p><%= t '.followers_ex2' %></p>
-      <p class="more-info"><%= t '.followers_ex3' %></p>
+      <h4><%= t '.followers' %></h4>
+      <p><%= t('.followers_ex1').html_safe %></p>
+      <p><%= t('.followers_ex2').html_safe %></p>
+      <p class="more-info"><%= t('.followers_ex3').html_safe %></p>
 
-      <h5><%= t '.following' %></h5>
-      <p><%= t '.following_ex1' %></p>
-      <p><%= t '.following_ex2' %></p>
+      <h4><%= t '.following' %></h4>
+      <p><%= t('.following_ex1').html_safe %></p>
+      <p><%= t('.following_ex2').html_safe %></p>
 
-      <h5><%= t '.mutual' %></h5>
-      <p><%= t '.mutual_ex1' %></p>
-      <p><%= t '.mutual_ex2' %></p>
+      <h4><%= t '.mutual' %></h4>
+      <p><%= t('.mutual_ex1').html_safe %></p>
+      <p><%= t('.mutual_ex2').html_safe %></p>
       <ul>
         <li><%= t '.mutual_ls1' %></li>
         <li><%= t '.mutual_ls2' %></li>
@@ -37,51 +37,53 @@
       <p><%= t('.mutual_ex3').html_safe %></p>
 
       <h3><%= t '.finding' %></h3>
-      <p><%= t '.finding_ex1' %></p>
-      <p><%= t '.finding_ex2' %></p>
+      <p><%= t('.finding_ex1').html_safe %></p>
+      <p><%= t('.finding_ex2').html_safe %></p>
     </div>
   </div>
 
   <div class="row">
     <div class="col-md-8">
-      <h5><%= t '.search' %></h5>
-      <p><%= t '.search_ex' %></p>
+      <h4><%= t '.search' %></h4>
+      <p><%= t('.search_ex').html_safe %></p>
       <ul>
         <li><%= t '.search_ls1' %></li>
         <li><%= t '.search_ls2' %></li>
         <li><%= t('.search_ls3').html_safe %></li>
         <li><%= t('.search_ls4').html_safe %></li>
         <li><%= t('.search_ls5').html_safe%></li>
-        <li><%= t '.search_ls6' %></li>
       </ul>
-
-      <h5><%= t '.invite' %></h5>
+    </div>
+    <div class="col-md-4">
+      <p class="text-center"><%= image_tag 'pages/getting_started/connecting/add-contact.png' %></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-8">
+      <h4><%= t '.invite' %></h4>
       <p><%= t('.invite_ex').html_safe %></p>
     </div>
     <div class="col-md-4">
-      <p class="text-center">
-        <%= image_tag 'pages/getting_started/connecting/add-contact.png' %>
-        <%= image_tag 'pages/getting_started/connecting/invite.png' %>
-      </p>
+      <p class="text-center"><%= image_tag 'pages/getting_started/connecting/invite.png' %></p>
     </div>
   </div>
 
   <div class="row">
     <div class="col-md-12">
-      <h5><%= t '.profile' %></h5>
-      <p><%= t '.profile_ex1' %></p>
-      <p><%= t '.profile_ex2' %></p>
+      <h4><%= t '.profile' %></h4>
+      <p><%= t('.profile_ex1').html_safe %></p>
+      <p><%= t('.profile_ex2').html_safe %></p>
 
-      <h5><%= t '.tags' %></h5>
-      <p><%= t '.tags_ex' %></p>
+      <h4><%= t '.tags' %></h4>
+      <p><%= t('.tags_ex').html_safe %></p>
 
       <h3><%= t '.removing' %></h3>
-      <p><%= t '.removing_ex1' %></p>
+      <p><%= t('.removing_ex1').html_safe %></p>
       <ol>
         <li><%= t '.removing_ex2' %></li>
         <li><%= t '.removing_ex3' %></li>
       </ol>
-      <%= t '.removing_ex4' %></p>
+      <p><%= t('.removing_ex4').html_safe %></p>
       <p><%= t('.removing_ex5', part3_link: link_to(t('pages.tutorials.part3'), aspects_path)).html_safe %></p>
       <p class="more-info"><%= t('.finish').html_safe %></p>
 
