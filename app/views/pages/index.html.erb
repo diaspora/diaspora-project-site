@@ -57,7 +57,7 @@
   <div class="row">
     <div class="col-md-4">
       <h3><%= t '.choose_pod' %></h3>
-      <p class="feature-description"><%= t '.choose_pod_exp' %></p>
+      <p class="feature-description"><%= t('.choose_pod_exp', host_yourself_link: link_to(t('.host_yourself'), 'https://wiki.diasporafoundation.org/Installation')).html_safe %></p>
       <p>
         <a href="https://wiki.diasporafoundation.org/Choosing_a_pod" class="btn btn-primary">
           <%= t 'buttons.find_more' %>
