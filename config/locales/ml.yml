@@ -506,26 +506,29 @@ ml:
       services: സേവനങ്ങൾ
       services_ex: ~
       finish1: ~
+    formatting:
+      byline: "പദാവലി രൂപീകരിക്കൽ"
+      menu_title: "പദാവലി രൂപീകരിക്കൽ"
       format1: ~
       format2: ~
       format3: ~
       format4: ~
-      headings: ~
+      headings: ശീർഷകങ്ങൾ
       headings_ex1: ~
-      headings_code1: ~
+      headings_code1: "ഇത് വളരെ വലിയ ഒരു ശീർഷകമാണ്"
       headings_code2: ~
-      headings_code3: ~
+      headings_code3: "സാധാരണ അക്ഷരത്തേക്കാൾ ഇരട്ടി വലുപ്പം"
       headings_ex2: ~
-      lists: ~
+      lists: പട്ടികകൾ
       lists_ex1: ~
       lists_ex2: ~
       lists_ex3: ~
-      lists_code1: ~
-      lists_code2: ~
-      lists_code3: ~
-      lists_code4: ~
-      lists_code5: ~
-      lists_code6: ~
+      lists_code1: "ഒരു ബുള്ളെറ്റ് ലിസ്റ്റ് ഉണ്ടാക്കുന്ന വിധം:"
+      lists_code2: "തരം ഒന്ന്‌;"
+      lists_code3: "തരം രണ്ട്‌;"
+      lists_code4: "തരം മൂന്ന്‌."
+      lists_code5: "ഇത് മറ്റൊരു ബുള്ളറ്റെട് പട്ടികയാകും:"
+      lists_code6: "കൂടാതെ ഇതൊരു എണ്ണമിട്ട പട്ടികയായിരിക്കും:"
       quote: ~
       quote_ex1: ~
       quote_code1: ~
@@ -540,22 +543,22 @@ ml:
       code_code3: ~
       code_code4: ~
       code_code5: ~
-      line: ~
+      line: "തിരശ്ചീന രേഖ"
       line_ex: ~
       line_code1: ~
       line_code2: ~
-      itals: ~
+      itals: "ഇറ്റാലിക്സും ബോൾഡും"
       itals_ex1: ~
-      itals_ex2: ~
-      itals_ex3: ~
-      itals_ex4: ~
+      itals_ex2: "<em>ഇറ്റാലിക്സ്‌</em>: *വാക്യം* അല്ലെങ്കിൽ _വാക്യം_"
+      itals_ex3: "<strong>ബോൾഡ് </strong>: **വാക്യം** അല്ലെങ്കിൽ __വാക്യം__"
+      itals_ex4: "<strong><em>ബോൾഡ് ഇറ്റാലിക്സ്‌</em></strong>: ***വാക്യം*** അല്ലെങ്കിൽ ___വാക്യം___"
       itals_ex8: ~
-      links: ~
+      links: "അന്തർലീന കണ്ണികൾ"
       link_ex1: ~
       link_code: ~
       link_ex2: ~
-      inline_link_text: ~
-      images: ~
+      inline_link_text: "അന്തർലീന കണ്ണി"
+      images: ചിത്രങ്ങൾ
       images_ex1: ~
       images_code: ~
       images_ex2: ~
@@ -564,10 +567,10 @@ ml:
       escape_code: ~
       escape_ex2: ~
       escape_ex3: ~
-      symbols: ~
+      symbols: "പ്രത്യേക ചിഹ്നങ്ങൾ"
       symbols_ex: ~
       finish: ~
-      markdown_link_text: ~
+      markdown_link_text: "ഈ താളിൽ"
     tips:
       headline: "ഡയസ്പോറ* ഉപയോഗിക്കാനുള്ള നുറുങ്ങുവിദ്യകൾ"
       byline: "ഞങ്ങൾ കണ്ടെത്തിയ ഉപയോഗപ്രദമായ കുറച്ചു സൂത്രപ്പണികൾ"

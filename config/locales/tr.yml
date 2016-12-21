@@ -114,11 +114,11 @@ tr:
       reshare_ex: ~
       mentions: bahseder
       mentions_ex: ~
-      love: ~
-      love_ex: ~
+      love: Sevgi
+      love_ex: "Birisine değer verdiğinizi ♥erek belirtin. Bazen sözcükler yetmez."
       host: "Bir topluluk sunucusu barındırmak"
       host_byline: "diaspora*nın yıldızlarından biri olun"
-      host_ex: ~
+      host_ex: "diaspora* topluluk üyelerinin herkesin katılımına açık podları sunup işletmesine dayalıdır. Biraz teknik bilginiz ve sunucu alanınız varsa, sizin de katılıma açık bir pod kurmanızı dileriz. Podlar çoğaldıkça, diaspora* daha iyi çalışır - gayrimerkezî sosyal ağın geleceğinin bir parçası olun!"
       hostinst1: "%{instructions_link} okuyun ve kendi topluluk pod kurmak."
       instructions_link_text: "Pod kurulum bilgileri"
       hostinst2: "Da topluluk pods listesini görüntülemek %{poduptime}"
@@ -137,12 +137,12 @@ tr:
       community: "güçlü Topluluk"
       community_byline: "diaspora* de size ait"
       meaning: "Her şey ne anlama geliyor?"
-      meaning_ex1: ~
-      meaning_ex2: ~
-      meaning_ex3: ~
+      meaning_ex1: "Özgür Yazılım, bireysellik, saydamlık, yaratıcılık, ve hedefe bağlılıkla ilgilidir. diaspora* bir keyif arzusunu yerine getirmek ve interneti daha iyi bir yer haline getirmek için kuruldu. Özgür Yazılım dünyayı değiştirmemize ve dostlarımızın bu keşiften faydalanmasına olanak verir."
+      meaning_ex2: "Özgür Yazılım toplulukları muhteşem şeylerdir. diaspora*da, biz insanlara yaptıkları için değer verilmesinden yanayız. Elit bir kodlayıcı olmanız ya da daha önce hiçbir projeye katkıda bulunmamanız fark etmez. diaspora*ya katkıda bulunmanız, kullanıcıların işine yararlık odaklı bir çözüm anlayışıyla zor problemler üzerinde uğraştığınız anlamına gelir."
+      meaning_ex3: "Bu yüzden, diaspora*ya anlamlı bir katkınız olursa, size işlem erişimi vereceğiz. Bunda kararlıyız, ve istekli kişilere büyük değişiklikler yapma olanağı tanımak istiyoruz."
       whereyou: "Eğer gelip nereye"
-      whereyou_ex1: ~
-      whereyou_ex2: ~
+      whereyou_ex1: "diaspora*yı bizler yapıyoruz. Sizi henüz tanımayabiliriz, ama tanışmayı ve web'in geleceğini tasarlayan bir takıma nasıl uyacağınızı görmeyi çok isteriz. Fırsat verildiğinde hepimizin dünyayı değiştirme potansiyeli mevcuttur."
+      whereyou_ex2: "diaspora*ya katkı değişik yol ve ölçülerde olur. Hataları bulmada yardımcı olmanız olsun, mektup listelerinde geri dönüş olsun, ya da bizzat koda veya tasarıma katkıda bulunmak olsun, size ihtiyacımız var."
       gi_header: "Yolları yer almak için"
       code_header: "kod Katkıda"
       code_byline: "Kaynak kodu elde etmek çok kolay"
@@ -160,9 +160,9 @@ tr:
       bugs_ex3: "Bizim kodunu temizlemeye yardımcı"
       github_link_text: "GitHub sorun izleyicisi"
       translate_header: "çevrilmesine yardımcı"
-      translate_ex1: ~
+      translate_ex1: "diaspora*nın diğer dillere çevirisine %{translations_link} üzerinden yardımcı olabilirsiniz. (Asıl metinler İngilizce'dir)"
       translations_link_text: "çeviri grubu"
-      translate_ex2: ~
+      translate_ex2: "Başlamak için %{translation_instructions_link} adresindeki komutları okuyun."
       translation_instructions_link_text: "çeviri talimati "
       voice_header: ~
       voice_ex1: ~
@@ -289,7 +289,7 @@ tr:
       stream2: ~
       stream3: ~
       stream_ex2: ~
-      activity: "Benim Etkinlik"
+      activity: Etkinliklerim
       activity_ex: ~
       mentions: ~
       mentions_ex: ~
@@ -508,68 +508,71 @@ tr:
       services: Hizmetler
       services_ex: ~
       finish1: ~
+    formatting:
+      byline: "metin biçimlendirme"
+      menu_title: "metin biçimlendirme"
       format1: ~
       format2: ~
       format3: ~
       format4: ~
-      headings: ~
+      headings: Başlıklar
       headings_ex1: ~
-      headings_code1: ~
-      headings_code2: ~
-      headings_code3: ~
+      headings_code1: "Bu, son derece büyük bir başlıktır"
+      headings_code2: "Yukarıdaki gibi büyük Yarım"
+      headings_code3: "Normal metin iki katı büyüklüğünde"
       headings_ex2: ~
-      lists: ~
-      lists_ex1: ~
+      lists: Listeler
+      lists_ex1: "Her satırın önünde listenin bir parçası olarak istiyoruz - bir madde işaretli liste oluşturmak için, ya *, + veya yerleştirin."
       lists_ex2: ~
       lists_ex3: ~
-      lists_code1: ~
-      lists_code2: ~
-      lists_code3: ~
-      lists_code4: ~
-      lists_code5: ~
-      lists_code6: ~
-      quote: ~
+      lists_code1: "Bu madde işaretli liste oluşturmak için nasıl:"
+      lists_code2: "öğe bir tane;"
+      lists_code3: "Ürünü ikisi;"
+      lists_code4: "öğe üç;"
+      lists_code5: "Bu da başka bir madde işaretli liste olacak:"
+      lists_code6: "Ve bu bir numaralı liste olacak:"
+      quote: alıntı
       quote_ex1: ~
       quote_code1: ~
-      quote_code2: ~
+      quote_code2: "Bu alıntı olduğunu."
       quote_code3: ~
-      code: ~
+      code: "Kod blokları"
       code_ex1: ~
       code_ex2: ~
       code_ex3: ~
-      code_code1: ~
-      code_code2: ~
-      code_code3: ~
-      code_code4: ~
-      code_code5: ~
-      line: ~
+      code_code1: "Bu normal metin bir çizgidir."
+      code_code2: "Bu bir kod bloğu olacak"
+      code_code3: "O zaman biraz daha normal bir metin."
+      code_code4: "ve daha sonra biraz daha fazla kod"
+      code_code5: "ikisi boşluklarla girintili bir kod satırı"
+      line: "Yatay çizgi"
       line_ex: ~
-      line_code1: ~
-      line_code2: ~
-      itals: ~
+      line_code1: "This will be a horizontal line of text and a rule in the next."
+      line_code2: "Ve şimdi size metnin bir sonraki bölüme başlayabilirsiniz."
+      itals: "İtalik ve kalın"
       itals_ex1: ~
-      itals_ex2: ~
-      itals_ex3: ~
-      itals_ex4: ~
+      itals_ex2: "<em>kalın italik</em>: *kelime* _kelime_"
+      itals_ex3: "<strong>kalın</strong>: **kelime** __kelime__"
+      itals_ex4: "<strong><em>kalın italik</em></strong>: ***kelime*** ___kelime___"
       itals_ex8: ~
       links: ~
       link_ex1: ~
       link_code: ~
       link_ex2: ~
       inline_link_text: ~
-      images: ~
+      images: Resimleri
       images_ex1: ~
-      images_code: ~
+      images_code: "![Alt text](http://website.com/image.jpg \"isteğe bağlı başlıkta\")"
       images_ex2: ~
       images_ex3: ~
       escape_ex1: ~
-      escape_code: ~
+      escape_code: "Budur \\_ alt çizgi gibi bir"
       escape_ex2: ~
       escape_ex3: ~
-      symbols: ~
-      symbols_ex: ~
-      finish: ~
-      markdown_link_text: ~
+      symbols: "Özel karakterler"
+      symbols_ex: "Aşağıdaki semboller ve karakterler bir arada kullanarak diğer özel karakterleri oluşturabilirsiniz:"
+      finish: "Markdown sözdizimi ilişkin daha ayrıntılı bir açıklama yoktur %{markdown_link}."
+      markdown_link_text: "Bu sayfada"
     tips:
       headline: "diaspora* kullanma ipuçları"
       byline: "Biz fark ettik bazı yararlı hileler"

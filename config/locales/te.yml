@@ -504,17 +504,20 @@ te:
       services: సేవలు
       services_ex: ~
       finish1: ~
+    formatting:
+      byline: ~
+      menu_title: ~
       format1: ~
       format2: ~
       format3: ~
       format4: ~
-      headings: ~
+      headings: పీఠికలు
       headings_ex1: ~
       headings_code1: ~
       headings_code2: ~
       headings_code3: ~
       headings_ex2: ~
-      lists: ~
+      lists: జాబితాలు
       lists_ex1: ~
       lists_ex2: ~
       lists_ex3: ~
@@ -538,7 +541,7 @@ te:
       code_code3: ~
       code_code4: ~
       code_code5: ~
-      line: ~
+      line: "అడ్డ గీత"
       line_ex: ~
       line_code1: ~
       line_code2: ~
@@ -553,7 +556,7 @@ te:
       link_code: ~
       link_ex2: ~
       inline_link_text: ~
-      images: ~
+      images: బొమ్మలు
       images_ex1: ~
       images_code: ~
       images_ex2: ~
@@ -562,7 +565,7 @@ te:
       escape_code: ~
       escape_ex2: ~
       escape_ex3: ~
-      symbols: ~
+      symbols: "ప్రత్యేక అక్షరాలు"
       symbols_ex: ~
       finish: ~
       markdown_link_text: ~

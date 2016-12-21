@@ -504,6 +504,9 @@ nb:
       services: ~
       services_ex: ~
       finish1: ~
+    formatting:
+      byline: ~
+      menu_title: ~
       format1: ~
       format2: ~
       format3: ~
@@ -524,11 +527,11 @@ nb:
       lists_code4: ~
       lists_code5: ~
       lists_code6: ~
-      quote: ~
+      quote: Sitat
       quote_ex1: ~
-      quote_code1: ~
-      quote_code2: ~
-      quote_code3: ~
+      quote_code1: "Dette er vanlig tekst i forkant av sitatet ditt:"
+      quote_code2: "Dette er et sitat."
+      quote_code3: "Dette er teksten etter sitatet."
       code: ~
       code_ex1: ~
       code_ex2: ~

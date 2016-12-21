@@ -504,24 +504,27 @@ pt-PT:
       services: Serviços
       services_ex: ~
       finish1: "Muito obrigado por ler este guia de iniciação! Nós esperamos que este lhe tenha sido útil e que agora se sinta confortável em utilizar o diaspora* como a sua nova página principal on-line. Se tiver quaisquer questões, sinta-se à vontade para as colocar publicamente no diaspora*, incluindo as etiquetas <span class=\"click\">#help</span> e <span class=\"click\">#question</click>, e assim os membros de outras comunidades podem tentar ajudá-lo. Por essa Internet existe uma comunidade excelente e colaboradora!"
+    formatting:
+      byline: "Formatar Texto"
+      menu_title: "Formatação de Texto"
       format1: ~
       format2: ~
-      format3: ~
+      format3: "É onde o botão <span class=\"click\">Pré-visualizar</span> dá jeito. Teste alguma formatação, pré-visualize-a, trabalhe no que não está correto, corrija-a e pré-visualize-a de novo, até estar satisfeito!"
       format4: ~
-      headings: ~
+      headings: Cabeçalhos
       headings_ex1: ~
       headings_code1: ~
       headings_code2: ~
       headings_code3: ~
       headings_ex2: ~
-      lists: ~
+      lists: Listas
       lists_ex1: ~
       lists_ex2: ~
       lists_ex3: ~
       lists_code1: ~
-      lists_code2: ~
-      lists_code3: ~
-      lists_code4: ~
+      lists_code2: "item um;"
+      lists_code3: "item dois;"
+      lists_code4: "item três."
       lists_code5: ~
       lists_code6: ~
       quote: ~
@@ -538,11 +541,11 @@ pt-PT:
       code_code3: ~
       code_code4: ~
       code_code5: ~
-      line: ~
+      line: "Linha Horizontal"
       line_ex: ~
       line_code1: ~
       line_code2: ~
-      itals: ~
+      itals: "Itálico e Negrito"
       itals_ex1: ~
       itals_ex2: ~
       itals_ex3: ~
@@ -553,7 +556,7 @@ pt-PT:
       link_code: ~
       link_ex2: ~
       inline_link_text: ~
-      images: ~
+      images: Imagens
       images_ex1: ~
       images_code: ~
       images_ex2: ~
@@ -565,7 +568,7 @@ pt-PT:
       symbols: ~
       symbols_ex: ~
       finish: ~
-      markdown_link_text: ~
+      markdown_link_text: "nesta página"
     tips:
       headline: "Dicas sobre como utilizar o diaspora*"
       byline: "Alguns truques úteis que nós descobrimos"

@@ -481,8 +481,8 @@ de:
       convo_ex9: "Es ist möglich, eine Konversation aus deiner Bestandsliste zu löschen. Dies kannst du tun, indem du im Menü links eine Konversation auswählst und dann rechts oben in der Ecke das <span class=\"click\">x</span> anklickst. Eine Konversation abzublocken bedeutet, dass du sie aus der Liste löschst und somit aufhörst, neue Nachrichten zu bekommen. Bedenke bitte, dass es für andere immer noch möglich ist, Antworten an die übrigen Teilnehmer der Konversation zu senden - du wirst sie nur nicht mehr erhalten."
       finish: "Das ist alles, was es über Konversationen zu sagen gibt. Du bist mit der Bedienungsanleitung fast durch! Es ist Zeit den letzten Teil zu lesen!"
     getting_started7:
-      byline: "Text formatieren"
-      menu_title: "Text formatieren"
+      byline: "Teil 7 - Abschließende Einstellungen"
+      menu_title: Abschließendes
       intro: "Wir haben die wesentlichen Merkmale von diaspora* behandelt. Der letzte Teil dieser Anleitung widmet sich weiteren Kleinigkeiten, über die du Bescheid wissen solltest."
       connect: "Verbinde deinen diaspora* Seed mit anderen Diensten"
       connect_ex1: "Du kannst deinen diaspora* Seed mit einigen anderen Diensten, wie Facebook, Twitter und Tumblr verbinden. Natürlich ist dazu ein Konto bei diesen Diensten Voraussetzung."

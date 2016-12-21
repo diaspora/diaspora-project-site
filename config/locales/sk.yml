@@ -504,6 +504,9 @@ sk:
       services: Služby
       services_ex: ~
       finish1: ~
+    formatting:
+      byline: "Formátovanie textu"
+      menu_title: "Formátovanie textu"
       format1: ~
       format2: ~
       format3: ~

@@ -71,9 +71,9 @@ fr:
       menu_title: "À propos"
       decentralize: "Qu'est-ce qu'un réseau décentralisé?"
       decentralize_ex: "diaspora* est tout à fait différent de la plupart des réseaux que vous utilisez. Il est complètement décentralisé, sans concentrateur central. Mais il est très facile de se connecter et de communiquer avec d'autres personnes. Voici comment."
-      this: ÇA
+      this: CECI
       this_ex: "diaspora* est un vrai réseau, sans nœud central. Chacun des nombreux serveurs («pods») répartis un peu partout dans le monde, contient les données des utilisateurs qui ont choisi de s'y enregistrer. Ces pods communiquent entre eux naturellement, ce qui vous permet de vous enregistrer dans n'importe quel pod et de communiquer avec vos contacts, où qu'ils se trouvent sur le réseau."
-      notthis: "PAS ÇA"
+      notthis: "PAS CELA"
       notthis_ex: "La plupart des réseaux sociaux fonctionnent sur des serveurs centralisés qui appartiennent à des entreprises. Celles-ci stockent toutes les données privées de leurs utilisateurs. Ces informations peuvent être perdues ou piratées et, comme n'importe quel système ayant un goulot d'étranglement, tout problème sur l'un des serveurs centraux peut énormément ralentir, voire bloquer l'ensemble du réseau. Il est également plus facile pour les gouvernements d'\"écouter\" ce qui se passe."
       discl: "diaspora* utilise les standards ouverts du web tels que %{pubsubhubbub} et %{webfinger} pour permettre ce type de connexions."
       connect: "Comment se connecter ?"
@@ -117,7 +117,7 @@ fr:
       love: Aimer
       love_ex: "Montrez que vous aimez quelque-chose en l'♥ant. Parce que parfois les mots ne suffisent pas à exprimer ce que l'on ressent."
       host: "Hébergez un pod communautaire"
-      host_byline: "Devenez une des stars de diaspora*"
+      host_byline: "Devenez l'une des stars de diaspora*"
       host_ex: "Diaspora* dépend des membres de la communauté pour héberger et gérer des pods ouverts à tous. Si vous avez quelques connaissances techniques et un peu d'espace sur votre serveur, nous serons très heureux si vous configurez un pod communautaire. Plus il y a de pods, et mieux diaspora* fonctionne - participez à l'avenir du web social décentralisé!"
       hostinst1: "Lisez les %{instructions_link} et configurez votre propre pod communautaire."
       instructions_link_text: "Comment installer un pod"
@@ -281,7 +281,7 @@ fr:
       header12: "un bouton pour se déconnecter."
       columns: "Sous l'en-tête, on distingue trois colonnes :"
       column1: "Sur la gauche, vous verrez votre photo de profil ainsi que votre nom d'utilisateur, suivis de liens vers les contenus spéciaux disponibles dans diaspora* :<span class=\"click\">Mon activité</span>, <span class=\"click\">Flux</span>, <span class=\"click\">@Mentions</span>, <span class=\"click\">Mes aspects</span> et <span class=\"click\">Tags #suivis</span>. Nous allons vous expliquer tout cela."
-      column2: "La colonne centrale présente le flux de contenu avec une \"boîte de publication\" au-dessus. Nous détaillerons cela dans la %{part4_link}."
+      column2: "La colonne centrale présente le flux de contenu avec une \"boîte de publication\" au-dessus. Nous détaillerons cela dans la %{part5_link}."
       views: "Les différentes vues disponibles dans diaspora* sont :"
       stream: "Le flux"
       stream_ex: "Le flux est votre page d'accueil sur diaspora*. Il regroupe tous les messages disponibles pour vous, c'est à dire :"
@@ -299,8 +299,8 @@ fr:
       tags: "Tags #suivis"
       tags_ex1: "Cette vue affiche tous les messages disponibles, qu'ils soient publics ou qu'ils aient été publiés dans des aspects dans lesquels vous avez été placé(e), contenant les #tags que vous suivez. Nous aborderons les #tags en détail dans la %{part5_link}."
       tags_ex2: "Cliquez sur <span class=\"click\">#tags suivis</span> pour voir la liste de vos tags. Tout comme Mes aspects, vous pouvez filtrer le flux pour n'afficher que les articles qui contiennent un ou plusieurs tags en les (dé)sélectionnant dans la colonne de gauche."
-      public: ~
-      public_ex1: ~
+      public: "Activité publique"
+      public_ex1: "Le fil d'activité publique regroupe tous les messages accessible sur votre pod, y compris les messages créés par des personnes qui n'ont pas accès à votre fil, et ne contenant aucun des tags que vous suivez. Ça représente beaucoup de contenu !"
       profile: "Vue du profil"
       profile_ex1: "En cliquant sur votre photo ou votre nom partout où vous le voyez vous reviendrez à votre page de profil . Y sont présentés tous les messages que vous avez publié sur diaspora*. Vous verrez également votre photo de profil, votre nom d'utilisateur, les tags \"à propos de moi\" et votre ID diaspora* (dont il est question à la rubrique \"Inscription\" dans la %{part1_link})."
       profile_ex2: "Sous votre photo de profil vous verrez toutes les informations personnelles que vous avez indiquées telles que votre date d'anniversaire, l'endroit où vous habitez, votre genre, votre biographie, etc."

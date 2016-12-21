@@ -504,6 +504,9 @@ ru:
       services: ~
       services_ex: ~
       finish1: ~
+    formatting:
+      byline: ~
+      menu_title: ~
       format1: ~
       format2: ~
       format3: ~
@@ -553,7 +556,7 @@ ru:
       link_code: ~
       link_ex2: ~
       inline_link_text: ~
-      images: ~
+      images: Картинки
       images_ex1: ~
       images_code: ~
       images_ex2: ~
@@ -565,7 +568,7 @@ ru:
       symbols: ~
       symbols_ex: ~
       finish: ~
-      markdown_link_text: ~
+      markdown_link_text: "на этой странице"
     tips:
       headline: ~
       byline: ~
