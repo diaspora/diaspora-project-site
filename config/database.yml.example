@@ -1,4 +1,12 @@
-common: &common
+postgresql: &postgresql
+  adapter: postgresql
+  host: localhost
+  port: 5432
+  username: postgres
+  password:
+  encoding: unicode
+
+mysql: &mysql
   adapter: mysql2
   host: localhost
   username:
@@ -6,6 +14,14 @@ common: &common
   encoding: utf8
   reconnect: true
   pool: 5
+
+
+# Comment the the mysql line and uncomment the postgres line
+# if you want to use postgres
+common: &common
+  # Choose one of the following
+  #<<: *postgresql
+  <<: *mysql
 
 development:
   <<: *common
