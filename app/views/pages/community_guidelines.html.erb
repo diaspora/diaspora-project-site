@@ -1,0 +1,30 @@
+<% content_for :page_title, t('.menu_title') %>
+<% content_for :wrapper_class, 'index-page' %>
+
+<div id="masthead" class="hero">
+  <div class="container text-center">
+    <h1><%= t '.headline' %></h1>
+    <h2 class="lead"><%= t '.byline' %></h2>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row minor-top-spacing">
+    <div class="col-md-8 col-md-offset-2">
+      <p class="text-justify"><%= t('.statement1') %></p>
+      <p class="text-justify"><%= t('.statement2') %></p>
+      <p><strong><%= t('.be_excellent') %></strong></p>
+      <p><%= t('.howto') %></p>
+      <ul>
+        <li><%= t('.howto_language') %></li>
+        <li><%= t('.howto_viewpoints_experiences') %></li>
+        <li><%= t('.howto_constructive_criticism') %></li>
+        <li><%= t('.howto_empathy') %></li>
+        <li><%= t('.howto_sexualized_language') %></li>
+        <li><%= t('.howto_troll') %></li>
+        <li><%= t('.howto_harassment') %></li>
+        <li><%= t('.howto_benefit_of_doubt') %></li>
+      </ul>
+    </div>
+  </div>
+</div>
