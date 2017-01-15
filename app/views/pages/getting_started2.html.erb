@@ -85,7 +85,7 @@
         <h4><%= t '.profile' %></h4>
         <p><%= t('.profile_ex1').html_safe %></p>
         <p><%= t('.profile_ex2').html_safe %></p>
-        <p><%= t('.profile_ex3').html_safe %></p>
+        <p><%= t('.profile_ex3', part1_link: link_to(t('pages.tutorials.part1'), sign_up_path)).html_safe %></p>
         <p><%= t('.profile_ex4').html_safe %></p>
         <ul>
           <li><%= t('.profile_ex5').html_safe %></li>
