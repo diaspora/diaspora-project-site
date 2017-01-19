@@ -9,6 +9,7 @@ DiasporaProjectSite::Application.routes.draw do
       get :formatting
       get :get_involved
       get :other_docs
+      get :community_guidelines
       get :tips
       get :tutorials
       scope 'getting_started' do
