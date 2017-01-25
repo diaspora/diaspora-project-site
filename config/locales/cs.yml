@@ -510,72 +510,72 @@ cs:
       services: ~
       services_ex: ~
       finish1: ~
-    formatting:
-      byline: ~
-      menu_title: ~
-      format1: ~
-      format2: ~
-      format3: ~
-      format4: ~
-      headings: ~
-      headings_ex1: ~
-      headings_code1: ~
-      headings_code2: ~
-      headings_code3: ~
-      headings_ex2: ~
-      lists: ~
-      lists_ex1: ~
-      lists_ex2: ~
-      lists_ex3: ~
-      lists_code1: ~
-      lists_code2: ~
-      lists_code3: ~
-      lists_code4: ~
-      lists_code5: ~
-      lists_code6: ~
-      quote: ~
-      quote_ex1: ~
-      quote_code1: ~
-      quote_code2: ~
-      quote_code3: ~
-      code: ~
-      code_ex1: ~
-      code_ex2: ~
-      code_ex3: ~
-      code_code1: ~
-      code_code2: ~
-      code_code3: ~
-      code_code4: ~
-      code_code5: ~
-      line: ~
-      line_ex: ~
-      line_code1: ~
-      line_code2: ~
-      itals: ~
-      itals_ex1: ~
-      itals_ex2: ~
-      itals_ex3: ~
-      itals_ex4: ~
-      itals_ex8: ~
-      links: ~
-      link_ex1: ~
-      link_code: ~
-      link_ex2: ~
-      inline_link_text: ~
-      images: ~
-      images_ex1: ~
-      images_code: ~
-      images_ex2: ~
-      images_ex3: ~
-      escape_ex1: ~
-      escape_code: ~
-      escape_ex2: ~
-      escape_ex3: ~
-      symbols: ~
-      symbols_ex: ~
-      finish: ~
-      markdown_link_text: ~
-    tips:
+ formatting:
+      byline: "Formátování textu"
+      menu_title: "Formátování textu"
+      format1: "Na diaspora* je možné formátovat text ve zprávách, komentářích a konverzacích s použitím zjednodušeného značkovacího systému Markdown. Tato stránka poskytuje úvod do kódů použitých k vytvoření tohoto formátování."
+      format2: "První věc, kterou je třeba si uvědomit, je, že musíte použít dvě zalomení mezi odstavci (kromě položky v seznamu), jinak se odstavce spojí. Pokud opravdu chcete jen jeden konec řádku mezi dvěma odstavci, přidejte dvě mezery na konec prvního odstavce."
+      format3: "To je chvíle, kdy tlačítko <span class=\"click\">Náhled</span> přijde opravdu vhod. Zkuste nějaké formátování, prohlédněte si ho, zjistěte, co není v pořádku, opravte to a znovu použíjte náhled, dokud nebudete spokojeni!"
+      format4: "V níže uvedených příkladech, můžete zkopírovat text v šedých oblastech a vložte jej do pole pro příspěvky v diaspoře* a pomocí tlačítka <span class=\"click\">Náhled</span> můžete formátování vyzkoušet"
+      headings: Headings
+      headings_ex1: "Můžete přidat první, druhou a třetí úrovně nadpisů do zprávy umístěním symbolu křížku (#) na začátek řádku, a to následovně:"
+      headings_code1: "Tohle je extrémně velký nadpis"
+      headings_code2: "Z poloviny tak velký jako je výše"
+      headings_code3: "Dvakrát větší než normální text"
+      headings_ex2: "Ujistěte se, že ponecháte mezeru mezi křížkem a textem, aby se zabránilo vytvoření #štítku namísto nadpisu. Nadpis končí, jakmile stisknete enter a pokračujete na další řádek."
+      lists: Lists
+      lists_ex1: "Chcete-li vytvořit seznam s odrážkami, umístěte buď *, + nebo - před každým řádkem který chcete jako součást seznamu."
+      lists_ex2: "Je také možné vytvořit číslované seznamy umístěním "1.", "2." atd před položkami seznamu. Chcete-li vytvořit číslovaný seznam, čísla musí mít tečky."
+      lists_ex3: "Opět platí, že je třeba nechat mezeru mezi "odrážkami" a textem na každém řádku, a nechat řádku mezeru mezi seznamem a předcházejícím/následujícím textem, jinak to nebude fungovat."
+      lists_code1: "Takto lze vytvořit seznam s odrážkami:"
+      lists_code2: "první položka;"
+      lists_code3: "druhá položka;"
+      lists_code4: "třetí položka."
+      lists_code5: "Tohle bude další seznam s odrážkami:"
+      lists_code6: "A toto bude číslovaný seznam:"
+      quote: "Citace"
+      quote_ex1: "Chcete-li citovat výňatek článku nebo jiný komentář, můžete text pohodlně formátovat uvozením řádku nebo odstavec znakem ">":"
+      quote_code1: "Toto je normální text uvozující vaši citaci:"
+      quote_code2: "Tohle je citace."
+      quote_code3: "Tohle je text následující za citací"
+      code: "Bloky kódu"
+      code_ex1: "Pokud jste vývojář, můžete mít zájem o bloky kódu. Chcete-li vytvořit blok kódu, začněte text/kód čtyřmi obráceným čárkami (````). Pro návrat k normálnímu textu, zavřete blok kódu další čtveřicí."
+      code_ex2: "Dalším způsobem, jak to udělat, je začít každý z řádků kódu čtyřmi mezerami. Přidání více mezer umožní další odsazení."
+      code_ex3: "Je také možné zobrazit kód v řádku, `<code zahájením a ukončením úryvku pomocí obrácené čárky</ code>`."
+      code_code1: "Tohle je řádek normálního textu"
+      code_code2: "tohle bude blok kódu"
+      code_code3: "Pak nějaký další normální text."
+      code_code4: "a pak další kousek kódu"
+      code_code5: "řádek kódu oddělený dvěma mezerami"
+      line: "Vodorovná čára"
+      line_ex: "Chcete-li vytvořit vodorovnou čáru, použijt alespoň tři - - -, _ _ _ nebo * * * na samostatný řádek. Libovolný počet výše uvedených tří udělá totéž, mezery mezi znaky nevadí."
+      line_code1: "Zde bude vodorovná čára mezi touto řádku textu a další."
+      line_code2: "A nyní můžete začít další část textu."
+      itals: "Kurzíva a tučný řez"
+      itals_ex1: "Umístěte buď hvězdičky nebo podtržítka po obou stranách slova nebo slovaby byly kurzívou, tučné nebo tučnou kurzívou."
+      itals_ex2: "<em>Kurzíva</em>: *slovo* nebo _slovo_"
+      itals_ex3: "<strong>Tučně</strong>: **slovo** nebo __slovo__"
+      itals_ex4: "<strong><em>Tučná kurzíva</em></strong>: ***slovo*** nebo ___slovo___"
+      itals_ex8: "Musíte samozřejmě použít hvězdičky/podtržítka o stejném počtu po obou stranách slova. Zadáním "Tohle chci zobrazit jako **tučné* slovo" nezobrazí slovo tučně."
+      links: "Odkazy v textu"
+      link_ex1: "Pro vytvoření %{odkazu v textu}, použíjte následující kód:"
+      link_code: "[zobrazený text zde](http://odkazovana.adresa.zde \"alt text\")"
+      link_ex2: "“alt text” je volitelný, je zobrazen jako nápověda při najetí kurzoru myši.."
+      inline_link_text: "odkaz v textu"
+      images: Images
+      images_ex1: "Chcete-li přidat externí obrázky do vašeho příspěvku, komentáře nebo soukromé zprávy, použít stejný kód jako pro odkaz, ale s vykřičníkem na začátku:"
+      images_code: "![Alt text](http://website.com/image.jpg \"volitelný popisek\")"
+      images_ex2: "Aby to fungovalo, musíte poskytnout přímý odkaz na platný soubor s obrázkem, <em>ne</em> odkaz na webovou stránku na které je obrázek obsažen."
+      images_ex3: "Alternativní text v hranatých závorkách se zobrazí v případě, že obrázek nelze načíst, a volitelný popisek je zobrazen jako nápověda, pokud je kurzor přesunut na obrázek; oba jsou užitečné, ale nikoli nezbytné."
+      escape_ex1: "Pokud chcete, aby vaše zpráva obsahovala znak, který se používá také v Markdown kódování, můžete zabránit jeho interpretaci jako Markdown kódu jeho "únikem". Chcete-li to provést, umístěte zpětné lomítko (\\) před daný znak. Například zadáním"
+      escape_code: "tohle \\_ je podtržítko"
+      escape_ex2: "zabrání Markdownu čtení podtržítka jako Markdown kódu a umožňuje diaspoře* zobrazit podtržení namísto vytváření kurzívy."
+      escape_ex3: "Můžete však napsat "diaspora*" nebo "D*", aniž by se hvězdička stala formátováním kódu!"
+      symbols: "Speciální znaky"
+      symbols_ex: "Můžete vytvořit následující symboly a další speciální znaky pomocí kombinace znaků:"
+      finish: "Podrobnější popis syntaxe Markdownu na %{markdown_link}."
+      markdown_link_text: "této stránce"
+      tips:
       headline: ~
       byline: ~
       menu_title: ~
