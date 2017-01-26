@@ -202,6 +202,23 @@ af:
       subscribe: ~
       feed_link_title: ~
       subscriptions_headline: ~
+    community_guidelines:
+      headline: ~
+      byline: ~
+      menu_title: ~
+      statement1: ~
+      statement2: ~
+      statement3: ~
+      be_excellent: ~
+      howto: ~
+      howto_language: ~
+      howto_viewpoints_experiences: ~
+      howto_constructive_criticism: ~
+      howto_empathy: ~
+      howto_sexualized_language: ~
+      howto_troll: ~
+      howto_harassment: ~
+      howto_benefit_of_doubt: ~
     tutorials:
       headline: "diaspora* tutoriale"
       byline: "Stap-vir-stap-gidse om jou te help"
@@ -236,6 +253,7 @@ af:
       menu_title: "Registrasie by diaspora*"
       welcome: "Welkom by ons \"Begin\" gids. As jy jou pad na hierdie bladsy gevind het, het jy waarskynlik óf net registreer by diaspora* of jy dink om dit te doen. In hierdie reeks tutoriale sal ons jou deur die registrering proses neem en jou met die basiese beginsels van diaspora* vergewis. Ons hoop dat jy dit nuttig vind, en dat jy diaspora* geniet!"
       find_pod: "Vind 'n peul"
+      find_pod_intro: ~
       find_pod_ex1: "In teenstelling tot baie sosiale netwerk-webwerwe, wat 'n sentrale punt van rekenaars het wat almal se data stoor, kan ons nie vir jou 'n spesifieke skakel gee nie en sê: registreer hier. diaspora* verskil van daardie netwerke in dat dit <em>gedesentraliseer</em>, met baie verskillende punte van toegang. Voordat jy begin, sal jy moet besluit met watter diaspora* verskaffer jy wil registreer. Ons noem hierdie verskaffers \"peule.\""
       find_pod_ex2: "Die woord \"diaspora\" verwys na die verspreiding van sade (of mense) oor 'n wye gebied. Dit is hoekom ons motief die paardebloem is, en die sterretjie in ons naam verteenwoordig 'n wollerige paardebloem saad. Ons verwys na individuele rekeninge op diaspora* as \"<strong>sade</ strong>\", en die servers waarop die rekeninge ingesamel is as \"<strong>peule</strong>.\" Jy sal daaraan gou gewoond raak!"
       find_pod_ex3: "Vir help om te kies watter peul is die beste vir jou, bekyk ons %{wiki_link}."
@@ -253,7 +271,6 @@ af:
       registration7: "Klik die knoppie om 'n profiel foto van jou rekenaar te laai."
       registration8: "As jy jou diaspora* saad met jou Facebook-rekening wil verbind, kliek op die skakel om dit te doen wat sommige van die prosesse outomatiseer; byvoorbeeld trek dit jou naam en profiel foto van jou Facebook rekening."
       registration9: "Voeg 'n paar woorde van die dinge wat jou interesseer. Dit mag dalk musiek, aktivisme, miskien die dorp waar jy woon wees. Die sal omskep word in #etikette, wat jou help om inhoud te ontdek en help ander mense jou te vind. Ons sal later in hierdie handleiding meer verduidelik oor #etikette."
-      registration10: "Kliek <span class=\"click\">Neem my na diaspora* toe!</Span>"
       profile1: "Voordat jy enigiets anders doen, neem 'n minuut om jou profiel in te vul. Op die skerm waar je geneem is, kliek jou naam of foto aan die regterkant einde van die swart hooftralie en kies <span class=\"click\">Profiel</span> uit die lys. Klik dan op die blou <span class=\"click\">Wysig my profiel</span> knoppie in die regte boonste hoek."
       profile2: "Daar is twee dele van jou profiel: die openbare profiel en die private profiel. Jou openbare profiel is sigbaar aan almal; jou private profiel is net sigbaar aan mense met wie jy kies om te deel. Jy kan so veel of so min van jou profiel vul as wat jy wil, en jy hoef nie jou regte naam te gebruik as jy nie wil nie."
       profile3: "Die meeste van die profiel data kassies is selfverduidelikend. NSFW staan ​​vir \"not safe for work\" (nie veilig vir werk nie). Ons sal dit meer verduidelik in %{part7_link}, so moenie bekommerd oor dit nou wees nie. ."
@@ -264,30 +281,43 @@ af:
     getting_started2:
       byline: "Deel 2 – Die interface"
       menu_title: "Gebruik die interface"
+      menu_title_mobile: ~
+      interface_mobile: ~
+      interface_desktop: ~
+      click_here_text: ~
       interface1: "Tans sien jy 'n onbekende interface. (As jy nog steeds op die profiel wysig bladsy is, kliek op die asterisk logo of <span class=\"click\">Stroom</span> by op die linkerkantste end van die swart hoeftralie.) Laat ons die uitleg sien en met dit vertroud kry."
       interface2: "As gevolg van die gedesentraliseerde en openbronnige aard van diaspora*, is dit moontlik vir peul administrateurs hul peule aan te pas. Daarom, afhangende van watter peul jy gebruik, kan die interface lyk effens anders lyk as hoe dit hier beskryf is. Maar die noodsaaklike elemente moet almal teenwoordig wees, selfs al is hulle effens anders gereël."
       interface3: "Die hoof-interface kan in vier dele verdeel word."
       header: "Aan die bokant van die skerm is die hoeftralie, wat altyd in plek bly, selfs wanneer jy blaai. Dié hoeftralie bevat:"
-      header2: "die diaspora* logo, wat jou terug neem na die stroom bladsy;"
-      header3: "skakels na jou Stroom en My Aktiwiteit bladsye;"
-      header4: "'n kennisgewings ikoon (meer inligting oor hierdie in %{part6_link});"
-      header5: "'n gesprekke ikoon (ook in %{part6_link});"
-      header6: "die soek tralie (meer inligting oor dit in %{part4_link});"
-      header7: "'n persoonlike keuselys met:"
-      header8: " 'n skakel na jou profiel bladsy (sien %{part1_link});"
-      header9: "'n skakel na jou kontak lys (sien %{part4_link});"
-      header10: "'n skakel na jou rekening verstellings bladsy (sien %{part7_link});"
-      header11: "a skakel na 'n help afdeling;"
-      header12: "'n uitteken knoppie."
+      header_mobile: ~
+      header_podname: ~
+      header_asterisk: ~
+      header_stream: ~
+      header_notify: ~
+      header_conversations: ~
+      header_newpost: ~
+      header_drawer: ~
+      header_search: ~
+      header_streams: ~
+      header_dropdown: ~
+      header_profile: ~
+      header_contacts: ~
+      header_settings: ~
+      header_help: ~
+      header_toggle: ~
+      header_logout: ~
+      interface_mobile_old: ~
       columns: "Onder die opskrif is daar drie kolomme:"
       column1: "Aan die linkerkant sal jy jou profiel foto en skerm naam sien, en dan skakels na die verskillende inhoud aansigte wat beskikbaar is in diaspora*: <span class=\"click\">My Aktiwiteit</span>, <span class=\"click\">Stroom</span>, <span class=\"click\">@Oproepe</span>, <span class=\"click\">My Aspekte</span> en <span class=\"click\">#Gevolg Etikette</span>. Ons verduidelik hierdie volgende."
-      column2: "Die middelste kolom bevat die inhoud stroom met 'n \"publiseerder\" boks aan die bokant. Meer inligting oor dit in %{part4_link}."
+      column2: "Die middelste kolom bevat die inhoud stroom met 'n \"publiseerder\" boks aan die bokant. Meer inligting oor dit in %{part5_link}."
+      stream_mobile: ~
       views: "Die verskillende aansigte beskikbaar in diaspora* is:"
       stream: "Die stroom"
-      stream_ex: "Die stroom is jou tuisblad in diaspora*. Dit versamel al die poste wat beskikbaar is vir jou. Dit is:"
-      stream1: "plasings geskep deur jou kontakte;"
-      stream2: "openbare plasings met #etikette wat jy volg;"
-      stream3: "plasings wat jou @roep."
+      stream_ex1: ~
+      stream_contents1: ~
+      stream_contents2: ~
+      stream_contents3: ~
+      stream_contents4: ~
       stream_ex2: "Plasings in die stroom word bestel volgens die tyd van die oorspronklike plasing."
       activity: "My Aktiwiteit"
       activity_ex: "Jou My Aktiwiteit stroom toon enige plasings wat jy óf hou of op wie jy kommentaar. Dit is 'n goeie manier om op enige wisselwerkings te haal. Plasings in My Aktiwiteit word bestel volgens die nuutste aktiwiteit (kommentaar of hou) op elke plasing."
@@ -300,26 +330,39 @@ af:
       tags_ex1: "Dié aansig vertoon al die beskikbare plasings (openbare plasings en beperkte plasings wat geskep is in aspekte) met etikette wat jy volg. Ons sal oor etikette meer verduidelik in %{part5_link}."
       tags_ex2: "Kliek <span class=\"click\">#Gevolgd Etikette</span> om die lys van jou etikette te sien. Soos My Aspekte, kan jy hierdie stroom filter om plasings te wys wat een of meer etikette het, deur die etikette te kies en ontkies in die linkerkantste kolom."
       public: ~
-      public_ex1: ~
+      public_ex: ~
+      other_views: ~
+      other_views_ex: ~
+      tag_stream: ~
+      tag_stream_ex: ~
+      spv: ~
+      spv_ex: ~
       profile: "Profiel aansig"
       profile_ex1: "Waarookal hulle is, as jy jou naam of profiel foto kliek neem dit na jou profiel bladsy. Dit wys vir jou al die plasings wat jy in diaspora* geskep het. Dit vertoon ook jou profiel foto, skerm naam, \"oor my\" etikette en ​​jou diaspora* ID (verduidelik onder \"Registrasie\" in %{part1_link})."
       profile_ex2: "Onder jou profiel foto sal jy enige private profiel inligting sien wat jy bygevoeg het, soos verjaardag, ligging, geslag, biografie en so aan."
       profile_ex3: "Kliek op die blou <span class=\"click\">Wysig my profiel</span> knoppie as jy enige van jou profiel data wil verander."
+      profile_ex3_mobile: ~
       profile_ex4: "Jy kan ook iemand anders se profiel-bladsy sien deur op hul naam of foto te kliek. Hoeveel van 'n persoon se profiel inligting en plasings word aan u beskikbaar gestel is afhanklik van jou verbinding met hulle. Bo aan die regterkant sal jy 'n aspekte knoppie vind: as dit grys is, is die persoon nie in een van jou aspekte nie; as dit groen is, is hulle. Klik dit om hulle by 'n aspek te voeg."
       profile_ex5: "Onder hul profiel foto sal jy 'n ikoon tralie sien: grys (met 'n sirkel) as hulle nie met jou deel nie, groen (met 'n ✓) aan indien hulle doen. As jy ignoreer daardie persoon, sal die tralie rooi wees. Dit sal die volgende ikone bevat, as dit beskikbaar is vir jou: 'n @ noem ikoon as jy met daardie persoon deel, en 'n boodskap ikoon as jy wedersydse met hulle deel."
       profile_ex6: "Ook in die linker kolom is 'n skakel na die persoon se foto's, en enige van hul kontakte wat hulle vir julle sigbaar gemaak het (wat in die volgende deel, \"Aspekte\" verduidelik word)."
+      profile_ex7: ~
+      profile_ex8: ~
+      themes: ~
+      themes_ex1: ~
+      themes_list1: ~
+      themes_list2: ~
+      themes_list3: ~
+      themes_list4: ~
+      themes_list5: ~
+      themes_ex2: ~
       finish: "Dit is al wat jy nodig het te weet oor die interface vir nou. Die eerste ding wat jy sal wil doen, is om 'n paar mense vind met wie jy kan begin te deel. Maar eers , laat ons op 'n verskynsel fokus wat prominent in al van diaspora* is: aspekte."
+      finish_mobile: ~
     getting_started3:
       byline: "Deel 3 – Aspekte"
       menu_title: "Alles oor aspekte"
       aspects1: "Dink aan jou lewe en die mense wat jy ken. Elke persoon is 'n deel van een of meer aspekte van jou lewe. Hulle mag 'n lid van jou familie, 'n goeie vriend, 'n kollega of iemand met wie jy sport of musiek speel of met wie jy 'n besondere belangstelling deel het. Of hulle is miskien deel van meer as een van hierdie aspekte van jou lewe."
       aspects2: "diaspora* works in exactly the same way. You can place contacts into an “aspect” of your diaspora* seed based on which aspect of your life they are part of. In this way, you control which of your contacts sees each post you make to diaspora*, by posting to a particular aspect or aspects. We’ll explain more about what this means over the next three parts of this series."
-      aspects3: "Wanneer jy inteken word vier aspekte aan u gegee: Gesin, Werk, Vriende en Kennisse. Natuurlik sal jy nie in staat wees om al van jou lewe uit te sorteer in net vier standaard aspekte nie, so die eerste ding wat ons gaan doen, is om 'n paar aspekte by te voeg. Jy kan ook die standaard aspekte verwyder as jy wil."
-      aspects4: "Kliek <span class=\"click\">My Aspekte</span> in die linker kolom en jou lys van aspekte sal verskyn. Om 'n aspek by by te voeg, kliek <span class=\"click\"><em>+ Voeg 'n aspek by</em></span> onder die lys van aspekte in die linkerkolom. Jy sal wees aangebied met 'n opspring venster."
-      add_aspect1: "Kies 'n naam vir die nuwe aspek. Dit kan die algemene verband tussen hierdie mense weerspieël, miskien \"Kreatiewe Skryfwerk,\" \"Sokker\", of \"Aktiviste ,\" maar jy kan dit noem wat jy wil. Niemand anders sal ooit in staat wees om die name van jou aspekte te sien of te weet in watter aspek hulle is geplaas nie. Vir hierdie oefening, stel ek voor die skepping van 'n aspek genoem \"Diaspora,\" waarin jy die mense wat jy hier ontmoet kan plaas."
-      add_aspect2: "Besluit of \"Maak plaas in hierdie aspek sigbaar vir mekaar?\" af of aan te skakel. Dit is nuttig as hierdie aspek is vir 'n klub waar al die lede mekaar ken, want as hulle sigbaar aan mekaar is sal hulle beter met mekaar kan verbind. Sorg dat jy noukeurig is met hierdie funksie, en neem ander mense se privaatheid in ag voordat jy dit doen."
-      add_aspect3: "Wanneer jy klaar is, kliek op die <span class=\"click\"> Skep </ span> knoppie. Die aspek word dan geskep en gekies in die menu."
-      add_aspect4: "Sodra die aspek geskep is, sal jy na 'n lys van kontakte (niemand, so ver) geneem word in daardie aspek. Daar is 'n skakel na \"voeg kontakte by Diaspora\" (of wat ook al jy die nuwe aspek genoem het)."
+      my_aspects: ~
       my_aspects1: "Volgende, laat ons kyk na die My Aspekte kieslys in die linkerkantste kolom. Kom terug na jou stroom en klik <span class=\"click\">My Aspekte</span>. Jou lys van aspekte sal drup, en jy sal 'n stroom sien wat slegs plasings deur mense van die geselekteerde aspekte bevat."
       my_aspects2: "Nou moet al jou aspekte gekies wees, met bosluise langs hulle."
       my_aspects3: "Jy kan aspekte kliek in die keuselys om hulle te kies of ontkies."
@@ -329,6 +372,15 @@ af:
       my_aspects7: "Hierdie seleksie stelsel het twee gebruike:"
       my_aspects8: "Dit filtreer die inhoud stroom. Jy wil dalk net plasings geskep deur mense in jou familie aspek lees. Of dalk wil jy alles geplaas deur jou kontakte <em>behalwe</em> familielede lees."
       my_aspects9: "As jy 'n status boodskap van die Aspekte bladsy plaas, sal die aspekte in die linker menu outomaties gekies word in die uitgewer. Byvoorbeeld, as die Vriende, Familie en Werk aspekte in die lys gekies is, wanneer jy in die uitgewer venster kliek sal jy sien dat die Aspekte keuse knoppie vertoon: \"In 3 aspekte.\""
+      add_aspect: ~
+      add_aspect1: "Kies 'n naam vir die nuwe aspek. Dit kan die algemene verband tussen hierdie mense weerspieël, miskien \"Kreatiewe Skryfwerk,\" \"Sokker\", of \"Aktiviste ,\" maar jy kan dit noem wat jy wil. Niemand anders sal ooit in staat wees om die name van jou aspekte te sien of te weet in watter aspek hulle is geplaas nie. Vir hierdie oefening, stel ek voor die skepping van 'n aspek genoem \"Diaspora,\" waarin jy die mense wat jy hier ontmoet kan plaas."
+      aspects_mobile: ~
+      add_aspect2: "Besluit of \"Maak plaas in hierdie aspek sigbaar vir mekaar?\" af of aan te skakel. Dit is nuttig as hierdie aspek is vir 'n klub waar al die lede mekaar ken, want as hulle sigbaar aan mekaar is sal hulle beter met mekaar kan verbind. Sorg dat jy noukeurig is met hierdie funksie, en neem ander mense se privaatheid in ag voordat jy dit doen."
+      add_aspect3: "Wanneer jy klaar is, kliek op die <span class=\"click\"> Skep </ span> knoppie. Die aspek word dan geskep en gekies in die menu."
+      add_aspect4: "Sodra die aspek geskep is, sal jy na 'n lys van kontakte (niemand, so ver) geneem word in daardie aspek. Daar is 'n skakel na \"voeg kontakte by Diaspora\" (of wat ook al jy die nuwe aspek genoem het)."
+      add_aspect5: ~
+      add_aspect6: ~
+      add_aspect7: ~
       contacts: "Kontakte bladsy"
       contact_ex1: "Ons het jou kontakte bladsy %{part2_link} al verduidelik. Om jou kontakte bladsy te beryk, kliek op die pyltjie aan die regterkant einde van die opskrift en kies <span class=\"click\">Kontakte</span> van die keuselys."
       contact_ex3: "Die kontakte bladsy wys vir jou aspekte in die linkerkolom en jou kontakte in daardie aspekte vertoon op die regterkant."
@@ -397,9 +449,22 @@ af:
       publisher_ex3: "Sodra die uitgewer boks \"aan die lewe gekom\" het, sal jy 'n verskeidenheid van knoppies en ikone sien. Voordat ons hulle inspekteer , laat ons hulle ignoreer en 'n eenvoudige status boodskap plaas wat slegs beskikbaar vir jou volgelinge en wedersydse kontakte is."
       publisher_ex4: "Om dit te doen, al wat jy hoef te doen is om jou boodskap te tik – wat ook al jy aan hulle wil sê, miskien \"Dit is my eerste plasing in Diaspora\" – en kliek dan die <span class=\"click\">Deel</span> knoppie. Jy het 'n boodskap met jou kontakte gedeel!"
       buttons: "So wat is die knoppies alles oor?"
+      top_buttons: ~
+      top_buttons_ex1: ~
+      top_buttons_list1: ~
+      top_buttons_list2: ~
+      top_buttons_list3: ~
+      top_buttons_list4: ~
+      top_buttons_list5: ~
+      top_buttons_list6: ~
+      top_buttons_list7: ~
+      top_buttons_list8: ~
+      top_buttons_list9: ~
       aspect_selector: "Aspek keurder knoppie"
       aspect_selector_ex1: "Hierdie knoppie is hoe jy kies wie sal in staat sal wees om jou plasings kan lees. Dit gestel op \"alle aspekte\" by verstek: dit wil sê, almal wat jy by een van jou aspekte gevoeg het, sal in staat sal wees om die boodskap te lees, maar niemand anders nie. In die eenvoudige boodskap wat jy net gestuur het, was daar geen behoefte om enige verstellings te verander voordat jy jou boodskap geplaas het nie, want jy wou dit sigbaar hê slegs vir jou volgelinge en die standaard is \"Alle aspekte\"."
       aspect_selector_ex2: "Met hierdie knoppie selekteur jy enige individuele aspek met wat jy wil deel, of enige kombinasie van jou aspekte, deur die kies of ontkies van aspekte in die lys deur op hulle te kliek. In hierdie manier het jy volle beheer oor wie jou boodskappe kan lees, soos ons verduidelik het in %{part3_link}. Indien, aan die ander kant, jy iets aan die hele wêreld wil kondig, kies \"Openbare\", en daar sal geen beperkings op wie jou boodskap kan lees wees nie."
+      poll: ~
+      poll_ex: ~
       photo: "Foto deling"
       photo_ex: "Aan die regterkant einde van die teks veld is 'n kamera ikoon waarmee jy fotos by jou boodskap kan voeg. Jy kan óf op dit kliek en 'n paar fotos van jou rekenaar kies, of die beelde sleep direk uit 'n gids tot die knoppie."
       locator: Sporer
@@ -413,6 +478,7 @@ af:
       preview: "Plasing voorskou"
       preview_ex1: "Tussen die aspekte en deel knoppies is die laaste knoppie - 'n baie nuttige een! Dit laat jou toe om te sien how jou plasing sal lyk, sodat jy seker kan wees dat jy tevrede is met dit voordat jy dit plaas. Dit kan regtig met die regstelling van foute help, en veral met teks formatering. Meer oor hierdie hieronder."
       preview_ex2: "Dit is al wat daar is om te weet oor die knoppies en ikone op die uitgewer. Die ware towery gebeur binne die uitgewer self. Sowel as gewone teks, kan jy #etikette, @oproepe, en skakels byvoeg, jou teks formaat en fotos, videos en audio insluit. Sjoe!"
+      buttons_finish: ~
       features: "Plasing funksies"
       tags: "#etikette"
       tags_ex1: "Plaas 'n # (allegaartjie) simbool voor 'n woord, en dit word 'n #etiket. Wat is die gebruik van hierdie? Wel, #etikette is 'n goeie manier om die inhoud wat jou interesseer te vind, en om kennis te gee aan mense wat waarskynlik daarin geïnteresseerd is. Jy kan vir etikette soek deur hulle in die soekkassie te tik. Jy kan ook etikette volg, sodat enige plasings wat in daardie etikette geskep word in jou stroom sal vertoon – werklikheid, as jy die \"Beskryf jouself in 5 woorde\" deel van jou profiel bladsy ingevul het, volg jy reeds dié etikette!"
@@ -423,9 +489,17 @@ af:
       mentions_ex2: "Net so kan ander mense jou @roep, en jy sal 'n kennisgewing ontvang in die hooftralie (en per e-pos as jy daardie opsie gestel het)."
       mentions_ex3: "Let daarop dat jy kan net mense wat in jou aspekte is @roep; en net in plasings, nie in kommentare nie."
       format: Teksformatering
-      format_ex: "Daar is baie wat jy kan doen om jou teks meer te verskil: gebruik vet, skuinsdruk, groot opskrifte, en so aan. diaspora* gebruik 'n eenvoudige opmerk stelsel wat Markdown genoem is. Dit is nie in die bestek van hierdie inleiding nie, so koms ons ondersoek eerder hoe om Markdown te gebruik in %{format_link}."
-      format_link_text: "hierdie tutoriaal"
+      format_ex1: ~
+      format_ex2: ~
+      format_ex3: ~
       links: Skakels
+      links_ex1: ~
+      links_ex2: ~
+      images: ~
+      images_ex1: ~
+      images_ex2: ~
+      format_note: ~
+      format_link_text: "hierdie tutoriaal"
       links_ex: "Wil jy 'n skakel in jou plasing sluit? Plak dit net in jou boodskap en dit sal outomaties verwerk word na 'n geïntegreerde skakel. Jy kan ook 'n skakel in jou teks plaas deur die gebruik van Markdown. Jy kan die <span class=\"click\">Voorskou</span> knoppie gebruik om seker te maak dat jou skakels behoorlik werk voordat jy jou boodskap plaas."
       embed: Insluiting
       embed_ex1: "Jy kan ook skakels plak na media-webwerwe soos YouTube, Vimeo, Soundcloud, en andere, en die video/audio lêer wat jy skakel sal in jou plasing \"insluit\" word. Probeer dit!"
@@ -442,6 +516,7 @@ af:
       interact: "Gebruik plasings in die stroom"
       interact_ex1: "Die inhoud stroom is 'n egter-tyd vertoon van status boodskappe. Wanneer iemand wat jy volg 'n status boodskap plaas, word dit by die stroom gevoeg. Natuurlik kan jy kommentaar lewer op jou eie poste en dié wat deur ander mense geskep is. Jy kan ook ander mense se boodskappe \"hou\" en \"herdeel\", en as iemand iets plaas wat jy regtig wil nie sien nie, kan jy dit wegsteek. Dit gebeur alles in die inhoud stroom, wat gevind kan word net onder die uitgewer."
       interact_ex2: "Moenie vergeet dat daar verskillende inhoud strome is nie, afhangende van watter \"aansig\" jy gebruik: <span class=\"click\">Stroom</span>, <span class=\"click\">My Aktiwiteit</span>, <span class=\"click\">@Oproepe</span>, <span class=\"click\">My Aspekte</span> of <span class=\"click\">#Gevolgd Etikette</span>. Hoewel dit verander watter plasings in jou stroom verskyn, kan jy dié plasings in dieselfde manier gebruik in enige van dié sienings."
+      interact_ex3: ~
       comments: Kommentare
       comments_ex: "As daar geen kommentare op 'n plasing is nie, kliek <span class=\"click\">Kommentaar</span> om 'n komment kassie oop te maak. Wanneer daar reeds kommentaar onder die pos is, sal die kommentaar kassie outomaties daar wees. Indien meer as drie kommentare bygevoeg is, sal die laaste drie kommentare getoon word. Jy kan die volledige draad uitbrei deur op dit te kliek "
       likes: Houe
@@ -449,13 +524,18 @@ af:
       likes_ex2: "As jy van gedagte verander, kan jy jou \"hou\" verwyder jou \"hou\" deur op die <span class=\"click\">Onhou</span> skakel wat nou sigbaar is te kliek. Maar wees bewus daarvan dat die persoon wie se pos jy oorspronklik gehou reeds 'n kennisgewing gestuur is!"
       reshare: "Herdeel plasings"
       reshare_ex: "Openbare plasings gemaak deur ander mense kan herdeel wees. Ten einde 'n pos te herdeel, kliek op die <span class=\"click\">Herdeel</span> skakel, wat tussen die Hou en Kommentaar skakels gevind word. Wanneer jy herdeel 'n plasing maak jy dit sigbaar vir jou volgelinge, en dit kan help versprei 'n goeie boodskap aan 'n nuwe gehoor."
+      post_icons: ~
       delete: "Verwyder plasings en kommentare"
       delete_ex: "Wanneer jy jou muis beweeg oor een van jou eie poste of een van die kommentare, 'n <span class=\"click\">x</ span> sal verskyn in die regter boonste hoek, waarmee jy 'n plasing of kommentaar kan verwyder. Jy kan ook jou eie kommentare op ander mense se plasings verwyder."
       hide: "Steek iemand se plasings weg"
       hide_ex: "As jy nie iemand anders se plasing weer wil sien nie, kan jy dit wegsteek van jou stroom deur op die <span class=\"click\">x</span>te kliek, net soos jy jou eie plasings verwyder."
+      notifications: ~
+      notifications_ex: ~
       ignore: "Ignoreer 'n gebruiker"
       ignore_ex1: "Indien jy agterkom dat 'n persoon se plasings vir jou irriterend, vervelig of beledigend is, kan jy daardie persoon ignoreer. Dit beteken dat hul plasings nie meer in jou stroom vertoon sal wees nie, maar hulle sal steeds in staat wees om kommentaar te lewer, om jou plasings te hou of herdeel, en hul kommentare sal nog steeds op jou en ander mense se plasings verskyn. Om iemand te ignoreer, muis oor een van hul plasings en kliek op die ikoon langs die klein \"x\" in die regter boonste hoek – dit lyk soos 'n mannetjie met 'n lyn deur hom. Wanneer jy iemand ignoreer, sal hul plasings nie onmiddellik verdwyn nie; jy moet die skerm verfris."
       ignore_ex2: "ŉ Lys van die mense wat jy verontagsaam, kan gevind word in jou rekening instellings onder <span class=\"click\">Privaatheid</span>. As jy nie meer iemand wil ignoreer nie, kan jy hulle verwyder van die bladsy. Ons verduidelik hoe om by jou rekening instellings bladsy te kom in "
+      report: ~
+      report_ex: ~
       finish: "Jy het nou geleer van die aktiwiteit wat jy sal optree die meeste op diaspora*: hoe om status boodskappe te skep, hoe om kommentaar te lewer, en hoe om ander persone se plasings to herdeel. In die volgende deel van hierdie tutoriaal sal ons gesprekke verduidelik: private boodskappe wat met een of meer kontakte gedeel is."
     getting_started6:
       byline: "Deel 6 – Kennisgewings en ​​gesprekke"
@@ -491,19 +571,25 @@ af:
       connect_ex4: "Wanneer jy weer in die uitgewer kliek, sal jy die ikoon sien vir daardie diens onder die uitgewer. Klik op die ikoon om dit te aktiveer, en jou plasing sal ook in jou stroom op daardie diens verskyn. Nuttig, nê? Sien %{part5_link} vir meer inligting op die plasing te verbind dienste."
       settings: "Rekening bestuur"
       settings_ex1: "Die finale ding wat ons nodig het om te verduidelik, sodat jy kan begin, is die gebruiker verstellings bladsy. Om dit te bereik, kliek op die foto of die naam in die opskrif, en uit die keuselys kies <span class=\"click\">Verstellings</span>. Hier vind u 'n oorsig van die rekening opsies."
-      settings_ex3: "Op die top van die rekening instellings bladsy is vier skakels: Profiel, Rekening, Privaatheid, en Dienste."
+      settings_ex2: ~
       profile: Profiel
-      profile_ex: "Op hierdie bladsy kan jy enige profiel data verander, byvoeg of verwyder. Gaan terug na die einde van %{part1_link} as jy 'n herinnering wil hê hoe om dit te wysig. Moenie vergeet om die <span class=\"click\">Opdateer</ span> knoppie aan die onderkant te kliek nie sodra jy klaar is!"
+      profile_ex1: ~
+      nsfw: ~
+      profile_ex2: ~
+      profile_ex3: ~
       account: Rekening
       account_ex1: "Hier kan jy jou e-posadres en wagwoord verander, jou taal stel, jou e-pos voorkeure kies, en jou data laai of jou saad sluit. Ons doel is dat jy in staat sal wees om die afeglaaie data sal gebruik om jou saad te migreer na 'n ander peul, maar dit is nog nie moontlik nie. Jy mag dalk jou data gereeld wil laai soos 'n back-up, egter."
       account_ex2: "diaspora* het 'n self-regerende gemeenskap standaard, wat NSFW (\"not safe for work\": nie veilig vir werk nie) genoem is. As jy waarskynlik baie materiaal sal plaas wat dalk nie geskik vir almal te sien by hul kantoor lessenaar (miskien met hul baas agter hulle) is nie, oorweeg dit asseblief om die NSFW boks te aansluit. Dit sal jou boodskappe verberg van mense se strome agter 'n kennisgewing dat die pos NSFW gemerk is. Hulle kan dan op hierdie kennisgewing kliek om jou plasing te sien as hulle wil."
-      account_ex3: "Deur hierdie boks leë (sonder a vinkje) te los boks leë los, pleeg jy jouself nie enige materiaal te plaas wat moontlik aanstoot afgee of iemand in die moeilikheid sal kry vir besigtiging by die werk . Indien, aan die ander kant, jy sulke materiaal wil plaas net soms , kan jy hierdie boks leë los en die <span class=\"click\">#NSFW</span> etiket byvoeg vir diegene individuele plasings, wat hulle sal wegsteek van ander mense se strome."
-      account_ex4: "As jy wil, kan jy jou saad stel om outomaties met iemand te begin te deel wanneer enigiemand met jou begin te deel, sodat julle wedersydse kontakte sal wees."
+      spotlight: ~
+      spotlight_ex: ~
       privacy: Privaatheid
       privacy_ex: "Hierdie is 'n lys van gebruikers wat jy verontagsaam. Jy kan hulle verwyder uit die lys as jy wil hul plasings weer begin te sien . Sien %{part5_link} vir meer oor geïgnorere mense."
       services: Dienste
       services_ex: "Die Dienste bladsy wys jou verbinde dienste (bv. Facebook, Twitter, Tumblr) en laat jou nuwe dienste aan te sluit by jou met diaspora* saad."
+      applications: ~
+      applications_ex: ~
       finish1: "Baie dankie vir die lees van hierdie Begin gids! Ons hoop dit is nuttig vir jou en dat jy nou gemaklik voel met diaspora* soos jou nuwe aanlyn tuiste. As jy enige vrae het, voel vry om 'n openbare pos te maak op diaspora* insluitend die "
+      finish2: " en "
     formatting:
       byline: Teksformatering
       menu_title: Teksformatering

@@ -202,6 +202,23 @@ nb:
       subscribe: ~
       feed_link_title: ~
       subscriptions_headline: ~
+    community_guidelines:
+      headline: ~
+      byline: ~
+      menu_title: ~
+      statement1: ~
+      statement2: ~
+      statement3: ~
+      be_excellent: ~
+      howto: ~
+      howto_language: ~
+      howto_viewpoints_experiences: ~
+      howto_constructive_criticism: ~
+      howto_empathy: ~
+      howto_sexualized_language: ~
+      howto_troll: ~
+      howto_harassment: ~
+      howto_benefit_of_doubt: ~
     tutorials:
       headline: ~
       byline: ~
@@ -236,6 +253,7 @@ nb:
       menu_title: ~
       welcome: ~
       find_pod: ~
+      find_pod_intro: ~
       find_pod_ex1: ~
       find_pod_ex2: ~
       find_pod_ex3: ~
@@ -253,7 +271,6 @@ nb:
       registration7: ~
       registration8: ~
       registration9: ~
-      registration10: ~
       profile1: ~
       profile2: ~
       profile3: ~
@@ -264,30 +281,43 @@ nb:
     getting_started2:
       byline: ~
       menu_title: ~
+      menu_title_mobile: ~
+      interface_mobile: ~
+      interface_desktop: ~
+      click_here_text: ~
       interface1: ~
       interface2: ~
       interface3: ~
       header: ~
-      header2: ~
-      header3: ~
-      header4: ~
-      header5: ~
-      header6: ~
-      header7: ~
-      header8: ~
-      header9: ~
-      header10: ~
-      header11: ~
-      header12: ~
+      header_mobile: ~
+      header_podname: ~
+      header_asterisk: ~
+      header_stream: ~
+      header_notify: ~
+      header_conversations: ~
+      header_newpost: ~
+      header_drawer: ~
+      header_search: ~
+      header_streams: ~
+      header_dropdown: ~
+      header_profile: ~
+      header_contacts: ~
+      header_settings: ~
+      header_help: ~
+      header_toggle: ~
+      header_logout: ~
+      interface_mobile_old: ~
       columns: ~
       column1: ~
       column2: ~
+      stream_mobile: ~
       views: ~
       stream: ~
-      stream_ex: ~
-      stream1: ~
-      stream2: ~
-      stream3: ~
+      stream_ex1: ~
+      stream_contents1: ~
+      stream_contents2: ~
+      stream_contents3: ~
+      stream_contents4: ~
       stream_ex2: ~
       activity: ~
       activity_ex: ~
@@ -300,26 +330,39 @@ nb:
       tags_ex1: ~
       tags_ex2: ~
       public: ~
-      public_ex1: ~
+      public_ex: ~
+      other_views: ~
+      other_views_ex: ~
+      tag_stream: ~
+      tag_stream_ex: ~
+      spv: ~
+      spv_ex: ~
       profile: ~
       profile_ex1: ~
       profile_ex2: ~
       profile_ex3: ~
+      profile_ex3_mobile: ~
       profile_ex4: "Du kan også se en annens profilside ved å klikke på navnet eller bildet deres. Hvor mye av en persons profilinformasjon og poster du får tilgang til avhenger av hvordan du er forbundet med de. Oppe til høyre finner du en aspektknapp: gråfarget hvis personen ikke er i noen av aspektene dine; grønnfarget dersom de er. Klikk på den for å legge de til et aspekt."
       profile_ex5: ~
       profile_ex6: ~
+      profile_ex7: ~
+      profile_ex8: ~
+      themes: ~
+      themes_ex1: ~
+      themes_list1: ~
+      themes_list2: ~
+      themes_list3: ~
+      themes_list4: ~
+      themes_list5: ~
+      themes_ex2: ~
       finish: ~
+      finish_mobile: ~
     getting_started3:
       byline: ~
       menu_title: ~
       aspects1: ~
       aspects2: "diaspora* fungerer på akkurat samme måte. Du kan plassere kontakter i «aspekter» basert på hvilke aspekter av livet ditt de er del av. På denne måten kontrollerer du hvilke av dine kontakter som ser den enkelte post du lager på diaspora*, ved å poste til et spesifikt aspekt eller aspekter. Vi vil forklare mer om hva dette betyr over de neste tre delene av denne serien."
-      aspects3: ~
-      aspects4: ~
-      add_aspect1: "Velg et navn for det nye aspektet. Det kunne gjenspeile den felles forbindelsen mellom disse folkene, for eksempel «kreativ skriving», «fotball», eller «aktivister»; men du kan kalle det akkurat det du ønsker. Ingen vil noen noen gang kunne se navnene på aspektene dine, og kontaktene dine vil heller ikke komme til å vite hvilke aspekter de er i. I denne øvelsen foreslår jeg å lage et aspekt kalt «Diaspora», der du kan legge inn folk du møter her."
-      add_aspect2: ~
-      add_aspect3: ~
-      add_aspect4: ~
+      my_aspects: ~
       my_aspects1: ~
       my_aspects2: ~
       my_aspects3: ~
@@ -329,6 +372,15 @@ nb:
       my_aspects7: ~
       my_aspects8: ~
       my_aspects9: ~
+      add_aspect: ~
+      add_aspect1: "Velg et navn for det nye aspektet. Det kunne gjenspeile den felles forbindelsen mellom disse folkene, for eksempel «kreativ skriving», «fotball», eller «aktivister»; men du kan kalle det akkurat det du ønsker. Ingen vil noen noen gang kunne se navnene på aspektene dine, og kontaktene dine vil heller ikke komme til å vite hvilke aspekter de er i. I denne øvelsen foreslår jeg å lage et aspekt kalt «Diaspora», der du kan legge inn folk du møter her."
+      aspects_mobile: ~
+      add_aspect2: ~
+      add_aspect3: ~
+      add_aspect4: ~
+      add_aspect5: ~
+      add_aspect6: ~
+      add_aspect7: ~
       contacts: ~
       contact_ex1: ~
       contact_ex3: ~
@@ -397,9 +449,22 @@ nb:
       publisher_ex3: ~
       publisher_ex4: ~
       buttons: ~
+      top_buttons: ~
+      top_buttons_ex1: ~
+      top_buttons_list1: ~
+      top_buttons_list2: ~
+      top_buttons_list3: ~
+      top_buttons_list4: ~
+      top_buttons_list5: ~
+      top_buttons_list6: ~
+      top_buttons_list7: ~
+      top_buttons_list8: ~
+      top_buttons_list9: ~
       aspect_selector: ~
       aspect_selector_ex1: "Denne knappen bruker du til å velge hvem som skal være istand til å lese posten din. Den er i utgangspunktet satt til «Alle aspekter»: det vil si, alle du har lagt til i et av dine aspekter vil være istand til å lese innlegget, men ingen andre vil kunne lese det. I det enkle innlegget du nettopp sendte, på grunn av at du ønsker å gjøre det synlig kun for de som følger deg og innstillingen i utgangspunktet er «Alle aspekter», var det ikke nødvendig å gjøre noen endringer i innstillingene før du delte innlegget."
       aspect_selector_ex2: ~
+      poll: ~
+      poll_ex: ~
       photo: ~
       photo_ex: ~
       locator: ~
@@ -413,6 +478,7 @@ nb:
       preview: ~
       preview_ex1: ~
       preview_ex2: ~
+      buttons_finish: ~
       features: ~
       tags: ~
       tags_ex1: "Plasser et #-symbol («hash») foran et ord og det blir til en #tag. Hva poenget er med dette? Vel, #tag-er er en super metode for å finne innhold som interesserer deg, og for å gjøre folk oppmerksom på innhold, som antagelig vil være interessert i det. Du kan søke etter tag-er ved å taste de inn i søkefeltet i overskriftslinjen. Du kan også følge tag-er, sånn at alle poster som inneholder de tag-ene dukker opp i stream-en din – faktisk, hvis du har fylt ut «Deg: i 5 #tagger»-delen av profilsiden din, følger du allerede de tag-ene!"
@@ -423,9 +489,17 @@ nb:
       mentions_ex2: ~
       mentions_ex3: ~
       format: ~
-      format_ex: ~
-      format_link_text: ~
+      format_ex1: ~
+      format_ex2: ~
+      format_ex3: ~
       links: ~
+      links_ex1: ~
+      links_ex2: ~
+      images: ~
+      images_ex1: ~
+      images_ex2: ~
+      format_note: ~
+      format_link_text: ~
       links_ex: ~
       embed: ~
       embed_ex1: ~
@@ -442,6 +516,7 @@ nb:
       interact: ~
       interact_ex1: "Innholds-streamen er en fremvisning i sanntid for statusmeldinger. Når noen du følger poster en statusmelding, blir den lagt inn i stream-en. Du kan naturligvis kommentere på dine egne poster og de som er laget av andre folk. Du kan også «like» og «videredele» andre folk sine meldinger og, dersom noen poster onen du virkelig ikke ønsker å se, kan du skjule det. Alt dette foregår i innholds-streamen, som er å finne rett under publisereren."
       interact_ex2: ~
+      interact_ex3: ~
       comments: ~
       comments_ex: ~
       likes: ~
@@ -449,13 +524,18 @@ nb:
       likes_ex2: ~
       reshare: ~
       reshare_ex: ~
+      post_icons: ~
       delete: ~
       delete_ex: ~
       hide: ~
       hide_ex: ~
+      notifications: ~
+      notifications_ex: ~
       ignore: ~
       ignore_ex1: "Hvis du opplever at en persons poster er irriterende, kjedelige eller krenker deg,kan du ignorere den personen. Det betyr at postene deres ikke lenger vil vises i stream-en din; men, de vil fremdeles kunne kommentere på, like eller videredele postene dine, og kommentarene deres på dine og andres poster som vises i stream-en din vil være synlige for deg. For å ignorere noen, hold musepekeren over en av postene deres og klikk på ikonet ved siden av den lille «x»-en i øverste høyre hjørne – det ser ut som en person med en strek over. Når du ignorerer noen vil ikke postene deres forsvinne med en gang, du må først oppdatere skjermbildet."
       ignore_ex2: ~
+      report: ~
+      report_ex: ~
       finish: ~
     getting_started6:
       byline: ~
@@ -491,19 +571,25 @@ nb:
       connect_ex4: ~
       settings: ~
       settings_ex1: ~
-      settings_ex3: ~
+      settings_ex2: ~
       profile: ~
-      profile_ex: ~
+      profile_ex1: ~
+      nsfw: ~
+      profile_ex2: ~
+      profile_ex3: ~
       account: ~
       account_ex1: ~
       account_ex2: "diaspora* har i miljøet en selvstyrende standard kalt NSFW (forkortelse for det engelske uttrykket «not safe for work», som betyr omtrent «upassende i jobbsitasjoner»). Hvis du antakelig kommer til å poster mye materiale som muligens ikke er egnet for å alle å se på ved kontorpulten (kanskje med sjefen stående bak dem), vennligst vurder å krysse av i NSFW-boksen. Dette vil skjule postene dine i folk sine stream-er bak en melding om at posten er markert som NSFW. De kan så klikke på denne meldingen for å se posten din dersom de ønsker."
-      account_ex3: ~
-      account_ex4: ~
+      spotlight: ~
+      spotlight_ex: ~
       privacy: ~
       privacy_ex: ~
       services: ~
       services_ex: ~
+      applications: ~
+      applications_ex: ~
       finish1: ~
+      finish2: ~
     formatting:
       byline: ~
       menu_title: ~

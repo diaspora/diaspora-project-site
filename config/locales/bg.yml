@@ -202,6 +202,23 @@ bg:
       subscribe: ~
       feed_link_title: ~
       subscriptions_headline: ~
+    community_guidelines:
+      headline: ~
+      byline: ~
+      menu_title: ~
+      statement1: ~
+      statement2: ~
+      statement3: ~
+      be_excellent: ~
+      howto: ~
+      howto_language: ~
+      howto_viewpoints_experiences: ~
+      howto_constructive_criticism: ~
+      howto_empathy: ~
+      howto_sexualized_language: ~
+      howto_troll: ~
+      howto_harassment: ~
+      howto_benefit_of_doubt: ~
     tutorials:
       headline: "диаспора* ръководства"
       byline: ~
@@ -236,6 +253,7 @@ bg:
       menu_title: "Подписване до диаспора*"
       welcome: диаспора*
       find_pod: "Намиране на шушулка"
+      find_pod_intro: ~
       find_pod_ex1: диаспора*
       find_pod_ex2: диаспора*
       find_pod_ex3: ~
@@ -253,7 +271,6 @@ bg:
       registration7: ~
       registration8: диаспора*
       registration9: ~
-      registration10: ~
       profile1: ~
       profile2: ~
       profile3: ~
@@ -264,30 +281,43 @@ bg:
     getting_started2:
       byline: "Част 2 – Интерфейсът"
       menu_title: "Използване на интерфейса"
+      menu_title_mobile: ~
+      interface_mobile: ~
+      interface_desktop: ~
+      click_here_text: ~
       interface1: ~
       interface2: диаспора*
       interface3: ~
       header: ~
-      header2: ~
-      header3: ~
-      header4: "икона уведомленя (ние ще разгледаме това в %{part6_link});"
-      header5: ~
-      header6: ~
-      header7: "лично падащто меню с:"
-      header8: ~
-      header9: ~
-      header10: ~
-      header11: ~
-      header12: "Бутон за отписане."
+      header_mobile: ~
+      header_podname: ~
+      header_asterisk: ~
+      header_stream: ~
+      header_notify: ~
+      header_conversations: ~
+      header_newpost: ~
+      header_drawer: ~
+      header_search: ~
+      header_streams: ~
+      header_dropdown: ~
+      header_profile: ~
+      header_contacts: ~
+      header_settings: ~
+      header_help: ~
+      header_toggle: ~
+      header_logout: ~
+      interface_mobile_old: ~
       columns: ~
       column1: диаспора*
       column2: ~
+      stream_mobile: ~
       views: ~
       stream: Потокът
-      stream_ex: ~
-      stream1: "известие, направени от вашите контакти;"
-      stream2: ~
-      stream3: "известие, които те @споменават."
+      stream_ex1: ~
+      stream_contents1: ~
+      stream_contents2: ~
+      stream_contents3: ~
+      stream_contents4: ~
       stream_ex2: ~
       activity: "Моята Дейност"
       activity_ex: диаспора*
@@ -300,26 +330,39 @@ bg:
       tags_ex1: ~
       tags_ex2: ~
       public: ~
-      public_ex1: ~
+      public_ex: ~
+      other_views: ~
+      other_views_ex: ~
+      tag_stream: ~
+      tag_stream_ex: ~
+      spv: ~
+      spv_ex: ~
       profile: "Профил оглед"
       profile_ex1: "диаспора* %{part1_link}"
       profile_ex2: ~
       profile_ex3: ~
+      profile_ex3_mobile: ~
       profile_ex4: ~
       profile_ex5: "Под снимката на профила ще види бар с икони: сив (с кръг), ако те не споделят с тев, зелено (с ✓) ако споделят. Ако игнорираш човека, барът ще бъди червен. Той съдържа следните икони, ако човека е на разположение с тев: икона @спомен, ако споделяш с човека, и икона на Съобщение, ако имате взаимно споделяне."
       profile_ex6: ~
+      profile_ex7: ~
+      profile_ex8: ~
+      themes: ~
+      themes_ex1: ~
+      themes_list1: ~
+      themes_list2: ~
+      themes_list3: ~
+      themes_list4: ~
+      themes_list5: ~
+      themes_ex2: ~
       finish: диаспора*
+      finish_mobile: ~
     getting_started3:
       byline: "Част 3 – Аспекти"
       menu_title: "Всичко за аспекти"
       aspects1: ~
       aspects2: диаспора*
-      aspects3: ~
-      aspects4: ~
-      add_aspect1: ~
-      add_aspect2: ~
-      add_aspect3: ~
-      add_aspect4: ~
+      my_aspects: ~
       my_aspects1: ~
       my_aspects2: ~
       my_aspects3: ~
@@ -329,6 +372,15 @@ bg:
       my_aspects7: ~
       my_aspects8: ~
       my_aspects9: ~
+      add_aspect: ~
+      add_aspect1: ~
+      aspects_mobile: ~
+      add_aspect2: ~
+      add_aspect3: ~
+      add_aspect4: ~
+      add_aspect5: ~
+      add_aspect6: ~
+      add_aspect7: ~
       contacts: "Контакти страница"
       contact_ex1: "@Споменавки %{part2_link}"
       contact_ex3: ~
@@ -397,9 +449,22 @@ bg:
       publisher_ex3: ~
       publisher_ex4: ~
       buttons: ~
+      top_buttons: ~
+      top_buttons_ex1: ~
+      top_buttons_list1: ~
+      top_buttons_list2: ~
+      top_buttons_list3: ~
+      top_buttons_list4: ~
+      top_buttons_list5: ~
+      top_buttons_list6: ~
+      top_buttons_list7: ~
+      top_buttons_list8: ~
+      top_buttons_list9: ~
       aspect_selector: "Бутон за избор на аспекти"
       aspect_selector_ex1: ~
       aspect_selector_ex2: ~
+      poll: ~
+      poll_ex: ~
       photo: "Споделяне на снимки"
       photo_ex: ~
       locator: ~
@@ -413,6 +478,7 @@ bg:
       preview: "Визуализирането на известие"
       preview_ex1: ~
       preview_ex2: "@Споменавки"
+      buttons_finish: ~
       features: "Функции за публикуване"
       tags: ~
       tags_ex1: (хеш)
@@ -423,9 +489,17 @@ bg:
       mentions_ex2: "По същия начин могат други хора да те @споменават, и ти ще получиш уведомление в заглавната лента (и по имейл, ако сте задали тази опция)."
       mentions_ex3: "@Споменавки"
       format: "Форматиране на текста"
-      format_ex: "диаспора* %{format_link}"
-      format_link_text: "това ръководство"
+      format_ex1: ~
+      format_ex2: ~
+      format_ex3: ~
       links: Връзки
+      links_ex1: ~
+      links_ex2: ~
+      images: ~
+      images_ex1: ~
+      images_ex2: ~
+      format_note: ~
+      format_link_text: "това ръководство"
       links_ex: ~
       embed: ~
       embed_ex1: ~
@@ -442,6 +516,7 @@ bg:
       interact: ~
       interact_ex1: ~
       interact_ex2: "@Споменавки"
+      interact_ex3: ~
       comments: Коментари
       comments_ex: ~
       likes: ~
@@ -449,13 +524,18 @@ bg:
       likes_ex2: "Ако си промениш мнението, можеш да премахнеш \"Харесвам\" ако кликнеш върху <span class=\"click\">Не Харесвам</span> линк, който сега се вижда. Но имай предвид, че човека, чието мнение първоначално хареса вече е бил изпратен уведомление!"
       reshare: "Сподели известие"
       reshare_ex: ~
+      post_icons: ~
       delete: "Изтриване на известие и коментари"
       delete_ex: ~
       hide: "Скриването на някой известие"
       hide_ex: ~
+      notifications: ~
+      notifications_ex: ~
       ignore: "Игнориране на потребител"
       ignore_ex1: ~
       ignore_ex2: ~
+      report: ~
+      report_ex: ~
       finish: диаспора*
     getting_started6:
       byline: "Част 6 – Уведомления и разговори"
@@ -491,19 +571,25 @@ bg:
       connect_ex4: ~
       settings: "Управление на сметката"
       settings_ex1: ~
-      settings_ex3: ~
+      settings_ex2: ~
       profile: Профил
-      profile_ex: ~
+      profile_ex1: ~
+      nsfw: ~
+      profile_ex2: ~
+      profile_ex3: ~
       account: Сметка
       account_ex1: "Тука можеш да се промениш твоя имейл адрес и парола, да задайш твоя език, да избереш твоите предпочитания за имейл уведоменя и да изтегляш твоите данни или да се затвориш семето. Нашта цел е, че потребителите ще бъдат в състояние да използват свалените данни да мигрират към друга шушулка, но това все още не е възможно. Обаче, може да искаш да се изтегляш твоите данни периодично като резервно копия."
       account_ex2: диаспора*
-      account_ex3: ~
-      account_ex4: ~
+      spotlight: ~
+      spotlight_ex: ~
       privacy: Частност
       privacy_ex: ~
       services: Услуги
       services_ex: ~
+      applications: ~
+      applications_ex: ~
       finish1: "диаспора* "
+      finish2: " и "
     formatting:
       byline: "Форматиране на текст"
       menu_title: "Форматиране на текст"

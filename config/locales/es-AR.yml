@@ -109,7 +109,7 @@ es-AR:
       features: "Características que nuestra comunidad ama"
       features_byline: "Creemos que también te va a encantar"
       hashtags: Etiquetas
-      hashtags_ex: ~
+      hashtags_ex: "Los Hashtags te permiten marcar y seguir tus intereses, y ayudan a que tus publicaciones alcancen a personas afines. También son una gran manera de conocer gente interesante y divertida en diaspora*."
       reshare: "Volver a compartir"
       reshare_ex: "¿Por qué no re-compartir una publicación que te gusta con otros? diaspora* hace fácil esparcir ideas por medio del \"compartir\". Sólo presiona el botón para volver a compartir el mensaje."
       mentions: Menciones
@@ -118,7 +118,7 @@ es-AR:
       love_ex: "Muestra tu aprecio por algo que te gusta con ♥. Porque algunas veces las palabras simplemente no son suficientes para decir lo que sientes."
       host: "Aloja un \"pod\" comunitario"
       host_byline: "Sé una de las estrellas de diaspora*"
-      host_ex: ~
+      host_ex: "diaspora* depende de los miembros de su comunidad para alojar y correr \"pods\" que estén abiertos a cualquiera que quiera participar. Si tienes un poco de espacio de servidor y un poco de conocimiento técnico, nos encantaría que configurases un \"pod\" que esté abierto para recibir personas que se quieran registrar. Mientras más \"pods\" haya, diaspora* funcionará mejor - ¡sé parte del futuro de la web social descentralizada!"
       hostinst1: "Lée las %{instructions_link} para configurar tu propio pod comunitario."
       instructions_link_text: "Instrucciones para la instalación de pods"
       hostinst2: "Ver un listado de pods comunitarios en %{poduptime}"
@@ -138,10 +138,10 @@ es-AR:
       community_byline: "diaspora* te pertenece"
       meaning: "¿Qué significa todo esto?"
       meaning_ex1: "El Software Libre se trata de transparencia, creatividad y destino. Se trata de tener una idea y hacerla realidad. diaspora* fue fundada para saciar una pasión por divertirse y de paso hacer de Internet un mejor lugar. El Software Libre es lo que nos permite cambiar el mundo para el beneficio de todos y de nuestros amigos alrededor de la web."
-      meaning_ex2: ~
+      meaning_ex2: "Las comunidades del Software Libre son algo asombroso. En diaspora* creemos que la gente debería ser valorada por lo que hace. No importa si eres un programador de élite o si no has contribuido nunca antes a un proyecto. Contribuir a diaspora* significa que estás dispuesto a trabajar en problemas difíciles, centrándote en soluciones que funcionen para los usuarios."
       meaning_ex3: "Por lo que si aportas algo significativo a diaspora* te daremos pleno acceso al núcleo. Estamos en esto juntos, y queremos dar a la gente entusiasmada la oportunidad de hacer grandes cambios."
       whereyou: "Donde entras tú"
-      whereyou_ex1: ~
+      whereyou_ex1: "Todos hacemos diaspora*. Podríamos no conocerte aún, pero nos encantaría conocerte y averiguar cómo puedes ajustarte al equipo que está construyendo el futuro de la web. Todos nosotros tenemos el potencial de cambiar el mundo si tenemos la oportunidad."
       whereyou_ex2: ~
       gi_header: "Maneras de involucrarse en diaspora*"
       code_header: "Contribuye al código"
@@ -202,6 +202,23 @@ es-AR:
       subscribe: ~
       feed_link_title: ~
       subscriptions_headline: ~
+    community_guidelines:
+      headline: ~
+      byline: ~
+      menu_title: ~
+      statement1: ~
+      statement2: ~
+      statement3: ~
+      be_excellent: ~
+      howto: ~
+      howto_language: ~
+      howto_viewpoints_experiences: ~
+      howto_constructive_criticism: ~
+      howto_empathy: ~
+      howto_sexualized_language: ~
+      howto_troll: ~
+      howto_harassment: ~
+      howto_benefit_of_doubt: ~
     tutorials:
       headline: "tutoriales de diaspora*"
       byline: "Guías paso a paso para ayudarte"
@@ -236,6 +253,7 @@ es-AR:
       menu_title: "Registrarse en diaspora*"
       welcome: "Bienvenid@ a nuestra guía de \"primeros pasos\". Si has encontrado tu propio camino hasta esta página, probablemente sea porque ya te has registrado en diaspora* o estás pensando en hacerlo. En esta serie de tutoriales te guiaremos a través del proceso de registro y te familiarizaremos con los  conceptos básicos de cómo funciona diaspora*. ¡Esperamos que te sea útil y que disfrutes diaspora*!"
       find_pod: "Buscar un pod"
+      find_pod_intro: ~
       find_pod_ex1: "A diferencia de la mayoría de sitios de redes sociales, los cuales tienen un nodo central de computadoras que almacena la información de todos sus usuarios, nosotros no podemos darte un enlace específico y decirte: \"regístrate aqui\". Diaspora* es diferente de esas redes en que es <em>descentralizada</em>, con muchos puntos de acceso distintos. Antes de empezar tendrás que decidir con cual proveedor de diaspora* quieres registrarte. Llamamos a estos proveedores como \"pods\""
       find_pod_ex2: "La palabra \"diaspora\" se refiere al dispersamiento de semillas (o personas) sobre un área amplia. Es por ello que nuestro motivo es el diente de león, y el asterisco en nuestro nombre representa una esponjosa semilla de diente de león. En diaspora* nos referimos a las cuentas individuales como \"<strong>semillas</strong>\", y los servidores dónde están almacenadas como \"<strong>vainas (pods)</strong>\". ¡Te acostumbrarás pronto!"
       find_pod_ex3: "Para ayudarte a elegir qué pod es más adecuado para vos, mirá nuestra %{wiki_link}."
@@ -253,7 +271,6 @@ es-AR:
       registration7: "Haz clic en el botón para cargar una foto de perfil desde tu computadora."
       registration8: ~
       registration9: ~
-      registration10: ~
       profile1: ~
       profile2: ~
       profile3: ~
@@ -264,30 +281,43 @@ es-AR:
     getting_started2:
       byline: "Parte 2 - La Interfaz"
       menu_title: ~
+      menu_title_mobile: ~
+      interface_mobile: ~
+      interface_desktop: ~
+      click_here_text: ~
       interface1: ~
       interface2: ~
       interface3: ~
       header: ~
-      header2: ~
-      header3: ~
-      header4: ~
-      header5: ~
-      header6: ~
-      header7: ~
-      header8: ~
-      header9: ~
-      header10: ~
-      header11: ~
-      header12: ~
+      header_mobile: ~
+      header_podname: ~
+      header_asterisk: ~
+      header_stream: ~
+      header_notify: ~
+      header_conversations: ~
+      header_newpost: ~
+      header_drawer: ~
+      header_search: ~
+      header_streams: ~
+      header_dropdown: ~
+      header_profile: ~
+      header_contacts: ~
+      header_settings: ~
+      header_help: ~
+      header_toggle: ~
+      header_logout: ~
+      interface_mobile_old: ~
       columns: ~
       column1: ~
       column2: ~
+      stream_mobile: ~
       views: ~
       stream: ~
-      stream_ex: ~
-      stream1: ~
-      stream2: ~
-      stream3: ~
+      stream_ex1: ~
+      stream_contents1: ~
+      stream_contents2: ~
+      stream_contents3: ~
+      stream_contents4: ~
       stream_ex2: ~
       activity: ~
       activity_ex: ~
@@ -300,26 +330,39 @@ es-AR:
       tags_ex1: ~
       tags_ex2: ~
       public: ~
-      public_ex1: ~
+      public_ex: ~
+      other_views: ~
+      other_views_ex: ~
+      tag_stream: ~
+      tag_stream_ex: ~
+      spv: ~
+      spv_ex: ~
       profile: ~
       profile_ex1: ~
       profile_ex2: ~
       profile_ex3: ~
+      profile_ex3_mobile: ~
       profile_ex4: ~
       profile_ex5: ~
       profile_ex6: ~
+      profile_ex7: ~
+      profile_ex8: ~
+      themes: ~
+      themes_ex1: ~
+      themes_list1: ~
+      themes_list2: ~
+      themes_list3: ~
+      themes_list4: ~
+      themes_list5: ~
+      themes_ex2: ~
       finish: ~
+      finish_mobile: ~
     getting_started3:
       byline: ~
       menu_title: ~
       aspects1: ~
       aspects2: ~
-      aspects3: ~
-      aspects4: ~
-      add_aspect1: ~
-      add_aspect2: ~
-      add_aspect3: ~
-      add_aspect4: ~
+      my_aspects: ~
       my_aspects1: ~
       my_aspects2: ~
       my_aspects3: ~
@@ -329,6 +372,15 @@ es-AR:
       my_aspects7: ~
       my_aspects8: ~
       my_aspects9: ~
+      add_aspect: ~
+      add_aspect1: ~
+      aspects_mobile: ~
+      add_aspect2: ~
+      add_aspect3: ~
+      add_aspect4: ~
+      add_aspect5: ~
+      add_aspect6: ~
+      add_aspect7: ~
       contacts: ~
       contact_ex1: ~
       contact_ex3: ~
@@ -397,9 +449,22 @@ es-AR:
       publisher_ex3: ~
       publisher_ex4: ~
       buttons: ~
+      top_buttons: ~
+      top_buttons_ex1: ~
+      top_buttons_list1: ~
+      top_buttons_list2: ~
+      top_buttons_list3: ~
+      top_buttons_list4: ~
+      top_buttons_list5: ~
+      top_buttons_list6: ~
+      top_buttons_list7: ~
+      top_buttons_list8: ~
+      top_buttons_list9: ~
       aspect_selector: ~
       aspect_selector_ex1: ~
       aspect_selector_ex2: ~
+      poll: ~
+      poll_ex: ~
       photo: ~
       photo_ex: ~
       locator: ~
@@ -413,6 +478,7 @@ es-AR:
       preview: ~
       preview_ex1: ~
       preview_ex2: ~
+      buttons_finish: ~
       features: ~
       tags: ~
       tags_ex1: ~
@@ -423,9 +489,17 @@ es-AR:
       mentions_ex2: ~
       mentions_ex3: ~
       format: ~
-      format_ex: ~
-      format_link_text: ~
+      format_ex1: ~
+      format_ex2: ~
+      format_ex3: ~
       links: ~
+      links_ex1: ~
+      links_ex2: ~
+      images: ~
+      images_ex1: ~
+      images_ex2: ~
+      format_note: ~
+      format_link_text: ~
       links_ex: ~
       embed: ~
       embed_ex1: ~
@@ -442,6 +516,7 @@ es-AR:
       interact: ~
       interact_ex1: ~
       interact_ex2: ~
+      interact_ex3: ~
       comments: ~
       comments_ex: ~
       likes: ~
@@ -449,13 +524,18 @@ es-AR:
       likes_ex2: ~
       reshare: ~
       reshare_ex: ~
+      post_icons: ~
       delete: ~
       delete_ex: ~
       hide: ~
       hide_ex: ~
+      notifications: ~
+      notifications_ex: ~
       ignore: ~
       ignore_ex1: ~
       ignore_ex2: ~
+      report: ~
+      report_ex: ~
       finish: ~
     getting_started6:
       byline: ~
@@ -491,19 +571,25 @@ es-AR:
       connect_ex4: ~
       settings: ~
       settings_ex1: ~
-      settings_ex3: ~
+      settings_ex2: ~
       profile: ~
-      profile_ex: ~
+      profile_ex1: ~
+      nsfw: ~
+      profile_ex2: ~
+      profile_ex3: ~
       account: ~
       account_ex1: ~
       account_ex2: ~
-      account_ex3: ~
-      account_ex4: ~
+      spotlight: ~
+      spotlight_ex: ~
       privacy: ~
       privacy_ex: ~
       services: ~
       services_ex: ~
+      applications: ~
+      applications_ex: ~
       finish1: ~
+      finish2: ~
     formatting:
       byline: ~
       menu_title: ~

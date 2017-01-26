@@ -202,6 +202,23 @@ ia:
       subscribe: "Pro tener te al currente, subscribe te al %{feed_link} del planeta."
       feed_link_title: "syndication Atom"
       subscriptions_headline: Subscriptiones
+    community_guidelines:
+      headline: ~
+      byline: ~
+      menu_title: ~
+      statement1: ~
+      statement2: ~
+      statement3: ~
+      be_excellent: ~
+      howto: ~
+      howto_language: ~
+      howto_viewpoints_experiences: ~
+      howto_constructive_criticism: ~
+      howto_empathy: ~
+      howto_sexualized_language: ~
+      howto_troll: ~
+      howto_harassment: ~
+      howto_benefit_of_doubt: ~
     tutorials:
       headline: "tutoriales de diaspora*"
       byline: "Guidas passo post passo pro adjutar te"
@@ -236,6 +253,7 @@ ia:
       menu_title: "Inscription a diaspora*"
       welcome: "Benvenite a nostre guida “Prime passos”. Si tu ha trovate iste pagina, tu probabilemente te ha justo inscribite a diaspora* o tu actualmente considera de facer lo. In iste serie de tutoriales nos te accompaniara per le processo de inscription e te familiarisara con le functionamento basic de diaspora*. Nos spera que tu lo trovara utile e que tu gaudera de usar diaspora*!"
       find_pod: "Cercar un pod"
+      find_pod_intro: ~
       find_pod_ex1: "In contrasto con altere sitos de rete social, que ha un infrastructura centralisate que immagazina le datos de tote le usatores, nos non pote dar te un ligamine specific e dicer: inscribe te hic. diaspora* es differente de iste retes in que illo es <em>decentralisate</em>, con multe differente punctos de accesso. Ante de comenciar, tu debe decider in qual fornitor de diaspora* tu vole inscriber te. Nos appella iste fornitores \"pods\"."
       find_pod_ex2: "Le parola \"diaspora\" refere al dispersion de contos (o personas) in un area large. Isto es le ration proque nostre motivo es le dente de leon, e le asterisco in nostre nomine representa un grana lanuginose de dente de leon. Nos appella un conto individual sur diaspora* “<strong>seed</strong>” (grana), e cata un del servitores in que iste contos es colligite se appella “<strong>pod</strong>” (siliqua). Es un question de accostumar se!"
       find_pod_ex3: "Pro adjutar te a eliger le pod que es optime pro te, consulta nostre %{wiki_link}."
@@ -253,7 +271,6 @@ ia:
       registration7: "Clicca sur le button pro incargar un photo de profilo de tu computator."
       registration8: "Si tu vole connecter tu conto de diaspora* a tu conto de Facebook, iste ligamine pote automatisar un parte de iste processo, p.ex. obtener tu nomine e photo de profilo de tu conto de Facebook."
       registration9: "Insere alcun parolas de cosas que te interessa. Pote esser musica, activismo, forsan le citate in que tu habita. Istes essera convertite in #etiquettas, le quales te adjuta a trovar contento e adjuta alteros a discoperir te. Nos explicara plus sur #etiquettas plus tarde in iste tutorial."
-      registration10: "Clicca sur <span class=\"click\">Conduce me a diaspora*!</span>"
       profile1: "Ante de facer altere cosa, prende un minuta pro completar tu profilo. Sur le schermo in que tu arriva, clicca sur tu nomine al latere dextra del barra superior nigre, e selige <span class=\"click\">Profilo</span> del lista disrolante. Postea clicca sur le button blau <span class=\"click\">Modificar mi profilo</span> in le angulo dextre superior."
       profile2: "Tu profilo es dividite in duo partes: public e private. Le profilo public es visibile a tote le mundo; le profilo private es visibile solmente al personas con qui tu lo ha dividite. Tu pote completar si multo o si pauco de tu profilo como tu vole, e il non es obligatori usar tu nomine real."
       profile3: "Le major parte del campos de information de profilo es obvie. NSFW significa \"not safe for work\", non secur pro le empleo. Nos explicara isto in detalio in %{part7_link}, dunque non preoccupa te de isto pro le momento."
@@ -264,30 +281,43 @@ ia:
     getting_started2:
       byline: "Parte 2 - Le interfacie"
       menu_title: "Usar le interfacie"
+      menu_title_mobile: ~
+      interface_mobile: ~
+      interface_desktop: ~
+      click_here_text: ~
       interface1: "Tu reguarda ora un interfacie novelle. (Si tu es ancora in le pagina de modificar profilo, clicca sur le logo de asterisco o sur <span class=\"click\">Fluxo</span> al latere sinistre del barra superior nigre.) Jecta un oculo sur le disposition de iste schermo pro familiarisar te con illo."
       interface2: "A causa del natura decentralisate e aperte de disaspora*, il es possibile pro administratores personalisar lor pods. Dunque, dependente del pod in que tu es, le aspecto del interfacie pote esser un poco differente del description presentate hic. Nonobstante, le elementos essential deberea totes esser presente, mesmo si lor arrangiamento pote differer un poco."
       interface3: "Le interfacie principal pote esser dividite in quatro partes."
       header: "In cyma del schermo se trova le barra superior, le qual remane sempre in su loco, mesmo si tu rola le pagina a basso. Iste barra superior contine:"
-      header2: "le logo de diaspora*, que te porta retro al pagina de fluxo;"
-      header3: "ligamines a tu paginas \"Fluxo\" e \"Mi activitate\";"
-      header4: "un icone de notificationes (nos describe isto in %{part6_link});"
-      header5: "un icone de conversationes (anque coperite in %{part6_link});"
-      header6: "le barra de recerca (lege plus sur isto in %{part4_link});"
-      header7: "un menu personal disrolante con:"
-      header8: " un ligamine a tu pagina de profilo (vide %{part1_link});"
-      header9: "un ligamine a tu lista de contactos (vide %{part4_link});"
-      header10: "un ligamine al pagina de configuration de tu conto (vide %{part7_link});"
-      header11: "un ligamine a un section de adjuta;"
-      header12: ~
+      header_mobile: ~
+      header_podname: ~
+      header_asterisk: ~
+      header_stream: ~
+      header_notify: ~
+      header_conversations: ~
+      header_newpost: ~
+      header_drawer: ~
+      header_search: ~
+      header_streams: ~
+      header_dropdown: ~
+      header_profile: ~
+      header_contacts: ~
+      header_settings: ~
+      header_help: ~
+      header_toggle: ~
+      header_logout: ~
+      interface_mobile_old: ~
       columns: "Infra le barra superior il ha tres columnas:"
       column1: "Al sinistra se trova le photo e nomine de tu profilo, e postea le ligamines al differente vistas de contento disponibile in diaspora*: <span class=\"click\">Mi activitate</span>, <span class=\"click\">Fluxo</span>, <span class=\"click\">@Mentiones</span>, <span class=\"click\">Mi aspectos</span> e <span class=\"click\">#Etiquettas sequite</span>. Nos explica istes postea."
-      column2: "Le columna central contine le fluxo de contento con un quadro pro scriber un nove entrata in le parte superior. Nos explica istes in %{part4_link}."
+      column2: "Le columna central contine le fluxo de contento con un quadro pro scriber un nove entrata in le parte superior. Nos explica istes in %{part5_link}."
+      stream_mobile: ~
       views: "Le differente vistas disponibile in diaspora* es:"
       stream: "Le fluxo"
-      stream_ex: "Le fluxo es vostre pagina principal in diaspora*. Illo aggrega tote le entratas disponibile a te. Illo es:"
-      stream1: "entratas scribite per tu contactos:"
-      stream2: "entratas public que contine le #etiquettas que tu seque;"
-      stream3: "entratas que te @mentiona."
+      stream_ex1: ~
+      stream_contents1: ~
+      stream_contents2: ~
+      stream_contents3: ~
+      stream_contents4: ~
       stream_ex2: "Le entratas in le fluxo es ordinate secundo le hora del entrata original."
       activity: "Mi activitate"
       activity_ex: "Le fluxo “Mi activitate” monstra omne entratas que tu ha appreciate o commentate. Isto es un maniera utile de tener te al currente con tote le interactiones que tu ha interprendite in diaspora*. Le entratas in “Mi activitate” es ordinate secundo le ultime activitate (commento o appreciation) in cata entrata."
@@ -300,26 +330,39 @@ ia:
       tags_ex1: "Iste vista monstra tote le entratas disponibile (entratas public e entratas limitate que ha essite inviate a aspectos a que tu ha essite addite) que contine etiquettas que tu seque. Nos examina le etiquettas in detalio in %{part5_link}."
       tags_ex2: "Clicca sur <span class=\"click\">#Etiquettas sequite</span> pro vider le lista de tu etiquettas. Como in “Mi aspectos”, tu pote filtrar iste fluxo pro monstrar entratas continente un o plure etiquettas per marcar e dismarcar los in le columna al sinistra."
       public: ~
-      public_ex1: ~
+      public_ex: ~
+      other_views: ~
+      other_views_ex: ~
+      tag_stream: ~
+      tag_stream_ex: ~
+      spv: ~
+      spv_ex: ~
       profile: "Vista de profilo"
       profile_ex1: "Un clic sur tu nomine o photo de profilo, non importa ubi tu lo vide, te porta a tu pagina de profilo. Iste te monstra tote le entratas que tu ha scribite in diaspora*. Illo anque monstra tu photo de profilo, pseudonymo, le etiquettas “a proposito de me” e tu ID de diaspora* (explicate sub “Registration” in %{part1_link})."
       profile_ex2: "Infra tu photo de profilo se trova omne information de profilo private que tu ha addite, como le data de nascentia, position geographic, sexo, biographia, et cetera."
       profile_ex3: "Clicca sur le button blau <span class=\"click\">Modificar mi profilo</span> si tu vole cambiar alcun information de tu profilo."
+      profile_ex3_mobile: ~
       profile_ex4: "Tu pote anque vider le pagina de profilo de un altere persona per cliccar sur su nomine o imagine. Le quantitate de information de profilo e entratas de un persona que tu pote vider depende de tu connexion con illa. In cyma al dextra se trova un button de aspectos: gris si le persona non es in alcun de tu aspectos, verde si illa lo es. Clicca sur illo pro adder la a un aspecto."
       profile_ex5: "Infra su photo de profilo tu vide un barra de icones: gris (con un circulo) si illa non divide cosas con te, verde (con un ✓) si illa lo face. Si tu ignora iste persona, le barra es rubie. Illo contine le sequente icones, si illos es disponibile pro te: un icone de @mention si tu divide cosas con iste persona, e un icone de message si vos divide cosas reciprocamente."
       profile_ex6: "Anque in le columna al sinistra se trova un ligamine al photos que iste persona ha incargate, e alcunes de su contactos que illa ha rendite visibile pro te (isto se explica in le parte sequente, “Aspectos”)."
+      profile_ex7: ~
+      profile_ex8: ~
+      themes: ~
+      themes_ex1: ~
+      themes_list1: ~
+      themes_list2: ~
+      themes_list3: ~
+      themes_list4: ~
+      themes_list5: ~
+      themes_ex2: ~
       finish: "Isto es tote lo que tu debe saper sur le interfacie pro le momento. Le prime cosa que tu volera facer es cercar alcun personas con qui comenciar a divider cosas. Nonobstante, ante que nos arriva a iste puncto, vamos concentrar nos a un characteristica prominente de diaspora*: le aspectos."
+      finish_mobile: ~
     getting_started3:
       byline: "Parte 3 – Aspectos"
       menu_title: "A proposito de aspectos"
       aspects1: "Considera tu vita e le personas que tu cognosce. Cata persona face parte de alcun aspecto de tu vita: pote esser un membro de tu familia, un amico intime, un collega de travalio, un consocio de sport o de musica, o simplemente un persona con qui tu ha un interesse particular in commun. Un persona poterea mesmo facer parte de plure tal aspectos de tu vita."
       aspects2: "diaspora* functiona exactemente in iste maniera. Tu pote mitter cata contacto in un “aspecto” de tu grano de diaspora*, dependente de qual aspecto de tu vita ille face parte.  In iste maniera, tu determina qual de tu contactos pote vider cata entrata que tu scribe in diaspora*, per inviar lo a un certe aspecto o aspectos in particular. Nos explica isto in major detalio in le tres partes sequente de iste serie."
-      aspects3: "Al creation de tu conto, le systema te da quatro aspectos initial: Familia, Labor, Amicos e Cognoscitos. Naturalmente tu non potera categorisar tute tu vita in solmente quatro aspectos predefinite, dunque le prime cosa que nos va facer e adder altere aspectos. Tu pote anque deler le aspectos predefinite si tu vole."
-      aspects4: "Clicca sur <span class=\"click\">Mi aspectos</span> in le columna sinistre e tu lista de aspectos apparera. Pro adder un aspecto, clicca sur <span class=\"click\"><em>+ Adder un aspecto</em></span> sub le lista de aspectos in le columna sinistre. Un fenestra pop-up se presentara."
-      add_aspect1: "Selige un nomine pro le nove aspecto. Iste pote reflecter le connexion commun inter iste personas, p.ex. \"Scriptura creative\", \"Football\" o \"Activistas\", ma tu pote usar qualcunque nomine. Nemo altere pote jammais vider le nomines de tu aspectos, e tu contactos non sapera in qual aspectos illes es inserite. Pro iste exercitio, io suggere crear un aspecto con le nomine \"Diaspora\", in le qual tu pote inserer personas que tu incontra hic."
-      add_aspect2: ~
-      add_aspect3: ~
-      add_aspect4: ~
+      my_aspects: ~
       my_aspects1: ~
       my_aspects2: ~
       my_aspects3: ~
@@ -329,6 +372,15 @@ ia:
       my_aspects7: ~
       my_aspects8: ~
       my_aspects9: ~
+      add_aspect: ~
+      add_aspect1: "Selige un nomine pro le nove aspecto. Iste pote reflecter le connexion commun inter iste personas, p.ex. \"Scriptura creative\", \"Football\" o \"Activistas\", ma tu pote usar qualcunque nomine. Nemo altere pote jammais vider le nomines de tu aspectos, e tu contactos non sapera in qual aspectos illes es inserite. Pro iste exercitio, io suggere crear un aspecto con le nomine \"Diaspora\", in le qual tu pote inserer personas que tu incontra hic."
+      aspects_mobile: ~
+      add_aspect2: ~
+      add_aspect3: ~
+      add_aspect4: ~
+      add_aspect5: ~
+      add_aspect6: ~
+      add_aspect7: ~
       contacts: ~
       contact_ex1: ~
       contact_ex3: ~
@@ -397,9 +449,22 @@ ia:
       publisher_ex3: ~
       publisher_ex4: ~
       buttons: ~
+      top_buttons: ~
+      top_buttons_ex1: ~
+      top_buttons_list1: ~
+      top_buttons_list2: ~
+      top_buttons_list3: ~
+      top_buttons_list4: ~
+      top_buttons_list5: ~
+      top_buttons_list6: ~
+      top_buttons_list7: ~
+      top_buttons_list8: ~
+      top_buttons_list9: ~
       aspect_selector: ~
       aspect_selector_ex1: ~
       aspect_selector_ex2: ~
+      poll: ~
+      poll_ex: ~
       photo: ~
       photo_ex: ~
       locator: ~
@@ -413,6 +478,7 @@ ia:
       preview: ~
       preview_ex1: ~
       preview_ex2: ~
+      buttons_finish: ~
       features: ~
       tags: ~
       tags_ex1: ~
@@ -423,9 +489,17 @@ ia:
       mentions_ex2: ~
       mentions_ex3: ~
       format: ~
-      format_ex: ~
-      format_link_text: ~
+      format_ex1: ~
+      format_ex2: ~
+      format_ex3: ~
       links: ~
+      links_ex1: ~
+      links_ex2: ~
+      images: ~
+      images_ex1: ~
+      images_ex2: ~
+      format_note: ~
+      format_link_text: ~
       links_ex: ~
       embed: ~
       embed_ex1: ~
@@ -442,6 +516,7 @@ ia:
       interact: ~
       interact_ex1: ~
       interact_ex2: ~
+      interact_ex3: ~
       comments: ~
       comments_ex: ~
       likes: ~
@@ -449,13 +524,18 @@ ia:
       likes_ex2: ~
       reshare: ~
       reshare_ex: ~
+      post_icons: ~
       delete: ~
       delete_ex: ~
       hide: ~
       hide_ex: ~
+      notifications: ~
+      notifications_ex: ~
       ignore: ~
       ignore_ex1: ~
       ignore_ex2: ~
+      report: ~
+      report_ex: ~
       finish: ~
     getting_started6:
       byline: ~
@@ -491,19 +571,25 @@ ia:
       connect_ex4: ~
       settings: ~
       settings_ex1: ~
-      settings_ex3: ~
+      settings_ex2: ~
       profile: ~
-      profile_ex: ~
+      profile_ex1: ~
+      nsfw: ~
+      profile_ex2: ~
+      profile_ex3: ~
       account: ~
       account_ex1: ~
       account_ex2: ~
-      account_ex3: ~
-      account_ex4: ~
+      spotlight: ~
+      spotlight_ex: ~
       privacy: ~
       privacy_ex: ~
       services: ~
       services_ex: ~
+      applications: ~
+      applications_ex: ~
       finish1: ~
+      finish2: ~
     formatting:
       byline: ~
       menu_title: ~

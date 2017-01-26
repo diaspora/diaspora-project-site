@@ -202,6 +202,23 @@ fr:
       subscribe: "Vous pouvez rester au courant en vous inscrivant au planète %{feed_link}"
       feed_link_title: "Flux Atom"
       subscriptions_headline: Inscriptions
+    community_guidelines:
+      headline: ~
+      byline: ~
+      menu_title: ~
+      statement1: ~
+      statement2: ~
+      statement3: ~
+      be_excellent: ~
+      howto: ~
+      howto_language: ~
+      howto_viewpoints_experiences: ~
+      howto_constructive_criticism: ~
+      howto_empathy: ~
+      howto_sexualized_language: ~
+      howto_troll: ~
+      howto_harassment: ~
+      howto_benefit_of_doubt: ~
     tutorials:
       headline: "Tutoriels diaspora*"
       byline: "Guides pas à pas pour vous aider"
@@ -236,6 +253,7 @@ fr:
       menu_title: "Se connecter à diaspora*"
       welcome: "Bienvenue sur notre guide de \"Démarrage\". Si vous êtes arrivés ici, c'est que vous venez juste de vous inscrire sur diaspora* ou que vous pensez à le faire. Dans cette série de tutoriels nous allons vous guider dans le processus d'inscription et vous aider à vous familiariser avec les bases de fonctionnement de diaspora*. Nous espérons que vous le trouverez utile et que vous prendrez plaisir à utiliser diaspora* !"
       find_pod: "Trouver un pod"
+      find_pod_intro: ~
       find_pod_ex1: "Contrairement à la plupart des sites de réseaux sociaux gérés par une concentration d'ordinateurs qui stockent les données de tout le monde, nous ne pouvons pas vous donner un simple lien et vous dire : inscrivez-vous ici. diaspora* est différent de ces réseaux car il est <em>décentralisé</em> : vous pouvez vous y connecter depuis un grand nombre de points d'accès et, avant de commencer, vous allez devoir choisir auprès duquel vous inscrire. On appelle ces points d'accès des \"pods\"."
       find_pod_ex2: "Le mot \"diaspora\" fait référence à la dispersion de graines (ou de personnes) à travers une large zone. C'est pourquoi notre motif est le pissenlit et l'astérisque représente une aigrette de pissenlit. On appelle les comptes individuels sur diaspora* des \"<strong>graines</strong>\" et les serveurs qui hébergent ces comptes des \"<strong>pods</strong>\". Vous vous y habituerez rapidement !"
       find_pod_ex3: "Pour vous aider à trouver le pod qui vous conviendra le mieux, jetez un oeil à notre %{wiki_link}."
@@ -253,7 +271,6 @@ fr:
       registration7: "Cliquez sur le bouton pour télécharger une photo de profil à partir de votre ordinateur."
       registration8: "Si vous voulez connecter votre graine diaspora* à votre compte Facebook, cliquer sur le lien vous permettra d'automatiser une partie du processus comme récupérer votre nom et votre photo de profil depuis votre compte Facebook."
       registration9: "Ajoutez quelques mots qui représentent des choses qui vous intéressent. Cela peut être la musique, l'activisme, peut-êtrela ville où vous habitez. Ces mots seront convertis en #tags qui vous aideront à trouver du contenu et à d'autres personnes de vous découvrir. Nous expliquerons les #tags plus en détail dans la suite de ce tutoriel."
-      registration10: "Cliquez sur <span class=\"click\">Emmenez-moi sur diaspora* !</span>"
       profile1: "Avant de faire quoique ce soit, prenez une minute pour compléter votre profil. Sur la page où vous avez été amené(e) cliquez sur votre nom ou votre photo sur le côté droit de la barre d'en-tête noire et sélectionnez <span class=\"click\">Profil</span> dans la liste qui apparaît. Cliquez ensuite sur le bouton bleu <span class=\"click\">Modifier mon profil</span> en haut à droite."
       profile2: "Il y a deux parties dans votre profil : le profil public et le profil privé. Votre profil public est visible de tout le monde ; votre profil privé n'est visible que par les personnes avec qui vous avez choisi de partager. Vous pouvez remplir autant ou aussi peu votre profil que vous le voulez, et vous n'êtes pas obligé(e) d'utiliser votre vrai nom si vous ne le souhaitez pas."
       profile3: "La plupart des champs d'information du profil sont explicites. NSFW signifie \"not safe for work\". Nous parlerons de cela plus en détail dans %{part7_link}, ne vous en ennuyez pas trop avec cela pour l'instant."
@@ -264,30 +281,43 @@ fr:
     getting_started2:
       byline: "2ème partie - L'interface"
       menu_title: "Utilisation de l'interface"
+      menu_title_mobile: ~
+      interface_mobile: ~
+      interface_desktop: ~
+      click_here_text: ~
       interface1: "Vous voilà maintenant devant une interface que vous ne connaissez pas encore. (si vous êtes toujours sur la page de modification de profil, cliquez sur le logo \"astérisque\" ou sur <span class=\"click\">Flux</span>, tout à gauche de la barre d'en-tête noire). Examinons la disposition et familiarisons-nous avec."
       interface2: "De par la nature décentralisée et open-source de diaspora*, les administrateurs de pods peuvent personnaliser leurs pods. Ainsi, selon le pod sur lequel vous vous connectez, l'interface peut être légèrement différente de ce que vous trouverez décrit ici. Toutefois, les éléments essentiels devraient être tous présents, même s'ils sont visuellement organisés légèrement différemment."
       interface3: "L'interface principale est divisée en quatre parties."
       header: "En haut de l'écran se trouve la barre d'en-tête restant visible lorsque vous faites défiler la page. Celle-ci contient :"
-      header2: "le logo de diaspora*, qui vous ramène vers la page Flux ;"
-      header3: "des liens vers vos pages Flux et Mon activité ;"
-      header4: "une icône de notifications (nous verrons cela plus en détail dans %{part6_link}) ;"
-      header5: "une icône de conversations (aussi vu sur %{part6_link}) ;"
-      header6: "la barre de recherche (plus d'informations à ce sujet dans %{part4_link}) ;"
-      header7: "un menu personnel déroulant avec :"
-      header8: " un lien vers votre page de profil (voir %{part1_link}) ;"
-      header9: "un lien vers votre liste de contacts (voir %{part4_link}) ;"
-      header10: "un lien vers la page des paramètres de votre compte (voir %{part7_link}) ;"
-      header11: "un lien vers la section d'aide ;"
-      header12: "un bouton pour se déconnecter."
+      header_mobile: ~
+      header_podname: ~
+      header_asterisk: ~
+      header_stream: ~
+      header_notify: ~
+      header_conversations: ~
+      header_newpost: ~
+      header_drawer: ~
+      header_search: ~
+      header_streams: ~
+      header_dropdown: ~
+      header_profile: ~
+      header_contacts: ~
+      header_settings: ~
+      header_help: ~
+      header_toggle: ~
+      header_logout: ~
+      interface_mobile_old: ~
       columns: "Sous l'en-tête, on distingue trois colonnes :"
       column1: "Sur la gauche, vous verrez votre photo de profil ainsi que votre nom d'utilisateur, suivis de liens vers les contenus spéciaux disponibles dans diaspora* :<span class=\"click\">Mon activité</span>, <span class=\"click\">Flux</span>, <span class=\"click\">@Mentions</span>, <span class=\"click\">Mes aspects</span> et <span class=\"click\">Tags #suivis</span>. Nous allons vous expliquer tout cela."
       column2: "La colonne centrale présente le flux de contenu avec une \"boîte de publication\" au-dessus. Nous détaillerons cela dans la %{part5_link}."
+      stream_mobile: ~
       views: "Les différentes vues disponibles dans diaspora* sont :"
       stream: "Le flux"
-      stream_ex: "Le flux est votre page d'accueil sur diaspora*. Il regroupe tous les messages disponibles pour vous, c'est à dire :"
-      stream1: "les publications de vos contacts ;"
-      stream2: "les messages publics qui contiennent les #tags que vous suivez ;"
-      stream3: "les messages qui vous @mentionnent."
+      stream_ex1: ~
+      stream_contents1: ~
+      stream_contents2: ~
+      stream_contents3: ~
+      stream_contents4: ~
       stream_ex2: "Les messages de votre flux sont triés selon la date du message d'origine."
       activity: "Mon activité"
       activity_ex: "Votre flux \"Mon activité\" montre tous les messages que vous avez aimés ou commentés. C'est une façon pratique de garder un lien avec toutes les interactions que vous avez pu avoir sur diaspora*. Les messages y sont triés en fonction de la dernière activité (commentaire ou \"j'aime\") sur chacun d'eux."
@@ -300,26 +330,39 @@ fr:
       tags_ex1: "Cette vue affiche tous les messages disponibles, qu'ils soient publics ou qu'ils aient été publiés dans des aspects dans lesquels vous avez été placé(e), contenant les #tags que vous suivez. Nous aborderons les #tags en détail dans la %{part5_link}."
       tags_ex2: "Cliquez sur <span class=\"click\">#tags suivis</span> pour voir la liste de vos tags. Tout comme Mes aspects, vous pouvez filtrer le flux pour n'afficher que les articles qui contiennent un ou plusieurs tags en les (dé)sélectionnant dans la colonne de gauche."
       public: "Activité publique"
-      public_ex1: "Le fil d'activité publique regroupe tous les messages accessible sur votre pod, y compris les messages créés par des personnes qui n'ont pas accès à votre fil, et ne contenant aucun des tags que vous suivez. Ça représente beaucoup de contenu !"
+      public_ex: ~
+      other_views: ~
+      other_views_ex: ~
+      tag_stream: ~
+      tag_stream_ex: ~
+      spv: ~
+      spv_ex: ~
       profile: "Vue du profil"
       profile_ex1: "En cliquant sur votre photo ou votre nom partout où vous le voyez vous reviendrez à votre page de profil . Y sont présentés tous les messages que vous avez publié sur diaspora*. Vous verrez également votre photo de profil, votre nom d'utilisateur, les tags \"à propos de moi\" et votre ID diaspora* (dont il est question à la rubrique \"Inscription\" dans la %{part1_link})."
       profile_ex2: "Sous votre photo de profil vous verrez toutes les informations personnelles que vous avez indiquées telles que votre date d'anniversaire, l'endroit où vous habitez, votre genre, votre biographie, etc."
       profile_ex3: "Cliquez sur le bouton bleu <span class=\"click\">Modifier mon profil</span> si vous souhaitez changer une information de votre profil."
+      profile_ex3_mobile: ~
       profile_ex4: "Vous pouvez également consulter la page de profil de quelqu'un en cliquant sur son nom ou sa photo. La quantité d'informations auxquelles vous aurez accès dépend de votre relation avec cette personne. En haut à droit, vous verrez un bouton \"aspects\" : gris si la personne n'est pas dans vos aspects, vert si elle s'y trouve. Cliquez dessus pour ajouter la personne à un aspect."
       profile_ex5: "Sous leur photo de profil, vous pouvez voir une barre d'icônes : grise (avec un cercle) s'ils ne partagent pas avec vous, verte (avec une ✓) s'ils partagent, rouge si vous ignorez cette personne. La barre contiendra les icônes suivantes, si elles vous sont disponibles : une icône @mention si vous partagez avec cette personne et une icône de message si vous partagez mutuellement."
       profile_ex6: "De plus, dans la colonne de gauche se trouve un lien vers les photos envoyées par cette personne ainsi que tous ses contacts qu'elle vous aura rendu visibles (ceci est expliqué dans la section suivante \"Aspects\")."
+      profile_ex7: ~
+      profile_ex8: ~
+      themes: ~
+      themes_ex1: ~
+      themes_list1: ~
+      themes_list2: ~
+      themes_list3: ~
+      themes_list4: ~
+      themes_list5: ~
+      themes_ex2: ~
       finish: "C'est tout ce que vous avez besoin de savoir concernant l'interface pour le moment. La première chose que vous voudrez faire c'est de trouver des personnes avec lesquelles partager. Toutefois, avant cela, concentrons-nous sur une fonctionnalité importante sur diaspora* : les aspects."
+      finish_mobile: ~
     getting_started3:
       byline: "3ème partie - Les aspects"
       menu_title: "Tout savoir sur les aspects"
       aspects1: "Réfléchissez à votre vie et aux personnes que vous connaissez. Chaque personne fait partie d'un ou plusieurs aspects de votre vie. Ils peuvent être un membre de votre famille, un(e) ami(e) proche, un(e) collègue de travail ou quelqu'un avec qui vous faites du sport ou de la musique ou avec qui vous partagez un centre d'intérêt. Ou ils peuvent faire partie de plusieurs de ces aspects de votre vie."
       aspects2: "diaspora* fonctionne exactement de la même manière. Vous pouvez placer vos contacts dans des \"aspects\" de votre graine diaspora* selon les aspects de votre vie dont ils font partie. Ainsi, vous contrôlez lesquels, parmi vos contacts, voient chacune des publications que vous effectuez sur diaspora* en publiant sur un ou plusieurs de vos aspects. Nous expliquerons plus en détail ce que cela signifie dans les trois sections suivantes."
-      aspects3: "Quand vous vous inscrivez, quatre aspects vous sont créés : famille, travail, amis et connaissances. Bien sûr, vous ne pourrez pas répartir toute votre vie dans seulement quatre aspects standards donc la première chose que nous allons faire c'est créer quelques aspects. Vous pouvez également supprimer les aspects par défaut si vous le souhaitez."
-      aspects4: "Cliquez sur <span class=\"click\">Mes aspects</span> dans la colonne de gauche pour faire apparaître vos aspects. Pour ajouter un aspect, cliquez sur <span class=\"click\"><em>Ajouter un aspect</em></span> sous la liste des aspects dans la colonne de gauche. Une fenêtre pop-up va s'afficher."
-      add_aspect1: "Choisissez un nom pour cet aspect. Il peut exprimer la relation qui existe entre ces personnes, par exemple \"Écriture créative\", \"Football\" ou \"Activistes\" but vous pouvez les nommez comme bon vous semble. Personne d'autre que vous ne verra jamais les noms de vos aspects, pas plus que vos contacts ne sauront dans quel(s) aspect(s) ils se trouvent. Pour cet exercice, je vous suggère de créer un aspect nommé \"Diaspora\" dans lequel vous placerez les personnes que vous rencontrez ici."
-      add_aspect2: "Décidez ensuite de cocher ou non la case \"permettre aux contacts de cet aspect de se voir entre eux ?\". Ceci est utile si l'aspect est dédié à un club où tous les membres se connaissent car faire en sorte qu'ils se voient, les aidera à se connecter ensemble. Attention toutefois aux respect de la vie privée de vos contacts lorsque vous utilisez cette fonctionnalité."
-      add_aspect3: "Quand vous avez terminé, cliquez sur le bouton <span class=\"click\">Créer</span>. L'aspect sera alors créé et sélectionné dans le menu."
-      add_aspect4: "Une fois que l'aspect est créé, vous serez conduit(e) à une liste de contacts associés à cet aspect (qui sera vide). Vous trouverez un lien pour ajouter un ou plusieurs contact(s) à cet aspect."
+      my_aspects: ~
       my_aspects1: "Ensuite, jetons un œil au menu Mes aspects dans la colonne de gauche. Revenez à votre flux et cliquez sur <span class=\"click\">Mes aspects</span>. La liste de vos aspects va s'afficher et vous verrez un flux ne contenant que les articles publiés par les membres de l'aspect sur lequel vous cliquerez dans la liste."
       my_aspects2: "Maintenant, tous vos aspects devraient être sélectionnés, avec une petite coche à côté de chacun d'eux."
       my_aspects3: "Vous pouvez cliquer sur les aspects dans le menu pour les (dé)sélectionner."
@@ -329,6 +372,15 @@ fr:
       my_aspects7: "Ce système de sélection a deux usages :"
       my_aspects8: "Cela filtre le contenu du flux. Vous pouvez ne vouloir lire que les articles publiés par les personnes de votre aspect Famille. Ou vous pourriez vouloir lire tout ce que vos contacts ont posté <em>sauf</em> les membres de votre famille."
       my_aspects9: "Si vous publiez une activité depuis la page des Aspects, les aspects sélectionnés dans le menu de gauche le seront automatiquement lors de la publication. Par exemple, si les aspects Amis, Famille et Travail sont sélectionnés dans la liste, quand vous cliquerez dans la fenêtre de publication, vous verrez que le bouton de sélection d'Aspects indiquera \"3 aspects\"."
+      add_aspect: ~
+      add_aspect1: "Choisissez un nom pour cet aspect. Il peut exprimer la relation qui existe entre ces personnes, par exemple \"Écriture créative\", \"Football\" ou \"Activistes\" but vous pouvez les nommez comme bon vous semble. Personne d'autre que vous ne verra jamais les noms de vos aspects, pas plus que vos contacts ne sauront dans quel(s) aspect(s) ils se trouvent. Pour cet exercice, je vous suggère de créer un aspect nommé \"Diaspora\" dans lequel vous placerez les personnes que vous rencontrez ici."
+      aspects_mobile: ~
+      add_aspect2: "Décidez ensuite de cocher ou non la case \"permettre aux contacts de cet aspect de se voir entre eux ?\". Ceci est utile si l'aspect est dédié à un club où tous les membres se connaissent car faire en sorte qu'ils se voient, les aidera à se connecter ensemble. Attention toutefois aux respect de la vie privée de vos contacts lorsque vous utilisez cette fonctionnalité."
+      add_aspect3: "Quand vous avez terminé, cliquez sur le bouton <span class=\"click\">Créer</span>. L'aspect sera alors créé et sélectionné dans le menu."
+      add_aspect4: "Une fois que l'aspect est créé, vous serez conduit(e) à une liste de contacts associés à cet aspect (qui sera vide). Vous trouverez un lien pour ajouter un ou plusieurs contact(s) à cet aspect."
+      add_aspect5: ~
+      add_aspect6: ~
+      add_aspect7: ~
       contacts: "Page des contacts"
       contact_ex1: "Nous avons mentionné votre page des contacts dans la %{part2_link}. Pour vous rendre sur votre page des contacts, cliquez sur la flèche tout à droite de la barre d'en-tête noire et sélectionnez <span class=\"click\">Contacts</span> dans la liste déroulante."
       contact_ex3: "La page des contacts indique vos aspects dans la colonne de gauche et vos contacts se trouvant dans ces aspects dans la colonne de droite."
@@ -397,9 +449,22 @@ fr:
       publisher_ex3: "Dès que la boîte de l'éditeur est activée, vous pouvez y voir un ensemble de boutons et d'icônes. Avant de les examiner dans le détail, ignorons-les et publions un simple message de statut qui ne sera disponible que par ceux qui vous suivent et vos contacts mutuels."
       publisher_ex4: "Pour cela, tout ce que vous avez à faire est de taper votre message – quoique vous ayez envie de leur dire, par exemple \"Ceci est mon premier message sur Diaspora\" – et d'appuyer sur le bouton <span class=\"click\">Partager</span>. Ça y est, vous avez partagé un message avec vos contacts."
       buttons: "ALORS, que-ce que c'est que tous ces boutons ?"
+      top_buttons: ~
+      top_buttons_ex1: ~
+      top_buttons_list1: ~
+      top_buttons_list2: ~
+      top_buttons_list3: ~
+      top_buttons_list4: ~
+      top_buttons_list5: ~
+      top_buttons_list6: ~
+      top_buttons_list7: ~
+      top_buttons_list8: ~
+      top_buttons_list9: ~
       aspect_selector: "Bouton de sélection des aspects"
       aspect_selector_ex1: "C'est avec ce bouton que vous pouvez choisir qui pourra lire votre message. Il est réglé sur \"Tous les aspects\" par défaut : toutes les personnes que vous avez ajoutées à l'un de vos aspects sera susceptible de lire le message et personne d'autre. Dans le message tout simple que vous venez d'envoyer, il n'était pas nécessaire de changer le moindre réglage puisque vous le destiniez à vos suiveurs et que le réglage par défaut est \"Tous les aspects\"."
       aspect_selector_ex2: "Ce bouton vous permet de choisir le ou les aspect(s) avec lesquels vous souhaitez partager en cliquant sur les aspects de la liste pour les (dé)sélectionner. De cette façon, vous contrôlez totalement qui peut avoir accès à vos messages, comme nous l'avons vu dans la %{part3_link}. Si, en revanche, vous souhaitez annoncer quelque chose au monde entier, choisissez \"Public\" et il n'y aura aucune restriction quant aux personnes susceptible de lire votre message."
+      poll: ~
+      poll_ex: ~
       photo: "Partage de photos"
       photo_ex: "En bas à droite du champ de saisie, se trouve une icône d'appareil photo qui vous permet d'ajouter des photos à votre message. Vous pouvez soit cliquer dessus et choisir des photos présentes sur votre ordinateur soit faire glisser des images depuis un dossier vers ce bouton."
       locator: Localisateur
@@ -413,6 +478,7 @@ fr:
       preview: Prévisualisation
       preview_ex1: "Entre le bouton des aspects et le bouton de partage, se trouve un dernier bouton – et il est très utile ! Grâce à lui, vous pouvez voir à quoi ressemblera votre message et être sûr(e) qu'il vous convient avant de le publier pour de bon. Cela peut vraiment vous aider à corriger les erreurs, notamment en ce qui concerne le formatage du texte. Nous allons y revenir."
       preview_ex2: "Voilà tout ce qu'il y a à savoir sur les boutons, les icônes et l'éditeur. Toute la magie est liée à l'éditeur lui-même. Vous pouvez, en plus du texte brut, ajouter des #tags, des @mentions, des liens, formater votre texte et insérer des photos, des vidéos et de l'audio. Wow !"
+      buttons_finish: ~
       features: "Fonctionnalités de publication"
       tags: "#tags"
       tags_ex1: "Placez un symbole # (dièse) devant un mot et il devient un #tag. À quoi cela sert-il ? Eh bien, les #tags sont un excellent moyen de trouver du contenu qui vous intéresse et d'attirer l'attention des personnes qui sont susceptibles de s'y intéresser. Vous pouvez effectuer une recherche par tags en les tapant dans la zone de recherche, dans la zone d'en-tête. Vous pouvez aussi suivre des tags de sorte que n'importe quel message qui contiendra ce tag apparaîtra dans votre flux – de fait, si vous avez renseigné la partie \"Décrivez-vous en 5 mots\" de votre page de profil, vous suivez déjà ces tags !"
@@ -423,9 +489,17 @@ fr:
       mentions_ex2: "De même, d'autres personnes peuvent vous @mentionner et vous recevrez une notification dans votre barre d'en-tête (et par email si vous avez réglé cette option)."
       mentions_ex3: "Notez que vous ne pouvez @mentionner que des personnes présentes dans vos aspects et uniquement dans des messages, pas dans des commentaires."
       format: "Formatage du texte"
-      format_ex: "Vous pouvez faire beaucoup de choses pour mettre votre texte en valeur : gras, italique, gros titres, etc. diaspora* utilise un langage de balisage simple nommé Markdown. Cela sort du cadre de cette introduction, toutefois nous explorerons comment utiliser Markdown ici : %{format_link}."
-      format_link_text: "ce tutoriel"
+      format_ex1: ~
+      format_ex2: ~
+      format_ex3: ~
       links: Liens
+      links_ex1: ~
+      links_ex2: ~
+      images: ~
+      images_ex1: ~
+      images_ex2: ~
+      format_note: ~
+      format_link_text: "ce tutoriel"
       links_ex: "Vous souhaitez inclure un lien dans votre message ? Collez-le simplement et il sera automatiquement converti en lien cliquable. Vous pouvez aussi l'intégrer à votre texte en utilisant Markdown. Vous pouvez utiliser le bouton <span class=\"click\">Aperçu</span> pour vérifier que vos liens fonctionnent correctement avant de publier votre message."
       embed: Intégration
       embed_ex1: "Vous pouvez également coller des liens vers des sites de médias comme YouTube, Vimeo, Soundcloud et autres et la cible video/audio de votre lien apparaîtra comme intégrée à votre message. Essayez !"
@@ -442,6 +516,7 @@ fr:
       interact: "Interagir avec les messages dans le flux"
       interact_ex1: "Le flux est un affichage temps-réel de messages de statut. Dès qu'une personne que vous suivez publie un message de statut, il s'ajoute à votre flux. Naturellement, vous pouvez commenter vos propres messages ainsi que ceux publiés par d'autres personnes. Vous pouvez également \"aimer\" et \"repartager\" les messages d'autres personnes et, si quelqu'un publie quelque-chose que vous ne voulez vraiment pas voir, vous pouvez le masquer. Tout ceci se passe dans le flux qui se trouve juste en-dessous de l'éditeur."
       interact_ex2: "N'oubliez pas qu'il y a différents flux de contenu en fonction de la \"vue\" que vous utilisez : <span class=\"click\">Flux</span>, <span class=\"click\">Mon activité</span>, <span class=\"click\">@Mentions</span>, <span class=\"click\">Mes aspects</span> ou <span class=\"click\">#tags suivis</span>. Bien que cette vue altère quels messages apparaissent dans votre flux, vous pouvez interagir avec ces messages de la même façon, quelle que soit la vue."
+      interact_ex3: ~
       comments: Commentaires
       comments_ex: "S'il n'y a pas encore de commentaire sur un message, cliquez sur <span class=\"click\">Commenter</span> pour ouvrir un champ de commentaire. Lorsqu'il y a déjà des commentaires sous le message, ce champ est automatiquement affiché. Si plus de trois commentaires existent seul les trois derniers sont présentés. Vous pouvez déployer l'ensemble du fil de discussion en cliquant "
       likes: J'aimes
@@ -449,13 +524,18 @@ fr:
       likes_ex2: "Si vous changez d'avis, vous pouvez retirer votre \"J'aime\" en cliquant sur le lien <span class=\"click\">Je n'aime plus</span> qui sera apparu. Mais sachez que la personne qui a publié le message que vous aviez aimé a déjà reçu la notification de votre \"J'aime\"."
       reshare: "Repartager des messages"
       reshare_ex: "Les billets publics envoyés par d'autres personnes peuvent être repartagés. Pour ce faire, cliquez sur le lien <span class=\"click\">Repartager</span> qui se trouve en-dessous des liens \"J'aime\" et \"Commenter\". Repartager un message le rend public aux gens qui vous suivent et peut aider à diffuser un bon message à une plus large audience."
+      post_icons: ~
       delete: "Effacer des messages et des commentaires"
       delete_ex: "Quand votre souris survole l'un de vos messages ou l'un de vos commentaires, un <span class=\"click\">x</span> apparaît dans le coin supérieur droit et vous permet de supprimer votre message ou commentaire. Vous pouvez également effacer vos propres commentaires sur les messages d'autres personnes."
       hide: "Cacher la publication de quelqu'un"
       hide_ex: "Si vous ne souhaitez plus voir les publications de quelqu'un, vous pouvez les masquer de votre flux en cliquant sur le <span class=\"click\">x</span>, de la même façon que vous supprimeriez votre propre message."
+      notifications: ~
+      notifications_ex: ~
       ignore: "Ignorer un utilisateur"
       ignore_ex1: "Si vous trouvez que les messages de quelqu'un sont dérangeants, ennuyeux ou vous offensent, vous pouvez ignorer cette personne. Cela signifie que ses messages n'apparaîtront plus dans votre flux ; toutefois, il sera toujours en mesure de commenter, aimer ou partager vos messages et ses commentaires sur vos messages et ceux des autres personnes vous seront toujours visibles. Pour ignorer quelqu'un, passez votre souris sur l'un de ses messages et cliquez sur l'icône à côté du petit \"x\" dans le coin supérieur droit – elle ressemble à une personne avec une ligne en travers. Quand vous ignorez quelqu'un, ses messages ne disparaissent pas immédiatement ; vous devez actualiser la page."
       ignore_ex2: "Vous pouvez trouver une liste des personnes que vous ignorez dans les paramètres de votre compte, dans la section <span class=\"click\">Vie privée</span>. Si vous souhaitez arrêter d'ignorer quelqu'un, vous pouvez l'enlever depuis cette page. Pour savoir comment accéder aux paramètres de votre compte, voyez ici : "
+      report: ~
+      report_ex: ~
       finish: "Vous avez maintenant appris ce qu'il y a à savoir sur votre activité principale sur diaspora* : publier des messages de statut et commenter ceux d'autres personnes. Dans la partie suivante de ce tutoriel, nous allons nous intéresser aux conversations : les messages privés échangés avec un ou plusieurs contacts."
     getting_started6:
       byline: "Sixième partie - Notifications et conversations"
@@ -491,19 +571,25 @@ fr:
       connect_ex4: "La prochaine fois que vous cliquerez dans l'éditeur, vous verrez l'icône de ce service sous l'éditeur. Cliquez sur cette icône pour l'activer et votre message apparaîtra également dans le flux de cet autre service. Sympa non ? Pour plus d'informations à propos de la publication de messages sur d'autres services, voyez la %{part5_link}."
       settings: "Gestion du compte"
       settings_ex1: "La dernière chose que nous devons voir pour vous aider à démarrer est la page des paramètres de l'utilisateur. Pour l'atteindre, cliquez sur votre photo ou votre nom dans la barre d'en-tête et, depuis le menu déroulant, cliquez sur <span class=\"click\">Paramètres</span>. Vous obtenez une vue d'ensemble des options de votre compte."
-      settings_ex3: "En haut de la page des paramètres du compte se trouvent quatre liens : Profil, Compte, Vie privée et Services."
+      settings_ex2: ~
       profile: Profil
-      profile_ex: "Sur cette page, vous pouvez changer, ajouter ou retirer n'importe quelle information relative à votre profil. Retournez à la fin de la %{part1_link} pour vous remémorer comment les modifier. N'oubliez pas de cliquer sur le bouton <span class=\"click\">Mettre à jour le profil</span> en bas quand vous avez fini !"
+      profile_ex1: ~
+      nsfw: ~
+      profile_ex2: ~
+      profile_ex3: ~
       account: Compte
       account_ex1: "Ici, vous pouvez changer votre adresse email et votre mot de passe, définir votre langue, choisir vos préférences de notification par email et télécharger vos données ou fermer votre graine. Notre objectif est que vous puissiez utiliser les données téléchargées pour migrer votre graine vers un autre pod, bien que cela ne soit pas encore possible. Vous pouvez toutefois télécharger vos données périodiquement à titre de sauvegarde."
       account_ex2: "diaspora* dispose d'un standard auto-régulé par la communauté nommé NSFW (Not Safe For Work - Pas Sûr Au Travail). Si vous êtes susceptible de publier du matériel qui pourrait ne pas convenir à quiconque le regarde au bureau (peut-être parce-que leur patron se tient derrière eux), veuillez envisager de cocher la case NSFW. Cela masquera vos publications dans le flux des autres personnes derrière un bouton qui préviendra que le message est marqué comme NSFW. Ils pourront cliquer sur le bouton pour faire apparaître le message s'ils le souhaitent."
-      account_ex3: "En laissant la case décochée, vous vous engagez à ne pas publier de matériel qui pourrait potentiellement offenser ou mettre dans l'embarras une personne qui le consulterait depuis son travail. Si, d'un autre côté, vous vouliez publier de tels matériels seulement occasionnellement, vous pouvez laisser cette case décochée et ajouter le tag <span class=\"click\">#nsfw</span> à ces messages individuels, ce qui les masquera dans le flux des autres personnes."
-      account_ex4: "Si vous le souhaitez, vous pouvez définir votre graine pour commencer à partager automatiquement avec quiconque commencera à partager avec vous et être ainsi contacts mutuels."
+      spotlight: ~
+      spotlight_ex: ~
       privacy: "Vie privée"
       privacy_ex: "Ceci est la liste des personnes que vous ignorez. Vous pouvez les supprimer de cette liste si vous souhaitez à nouveau voir leurs publications. Voyez la %{part5_link} pour en savoir plus sur le fait d'ignorer des gens."
       services: Services
       services_ex: "La page des services indique les services auxquels vous êtes connecté(e) (ex: Facebook, Twitter, Tumblr) et vous permet de connecter de nouveaux services à votre graine diaspora*."
+      applications: ~
+      applications_ex: ~
       finish1: "Merci infiniment d'avoir lu ce guide de démarrage ! Nous espérons qu'il vous a été utile et que vous vous sentez maintenant suffisamment à l'aise pour utiliser diaspora* comme votre nouvelle \"maison sur internet\". Si vous avez la moindre question, n'hésitez pas à envoyer un message public sur diaspora en incluant les tags "
+      finish2: " et "
     formatting:
       byline: "Mise en forme du texte"
       menu_title: "Mise en forme du texte"

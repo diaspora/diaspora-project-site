@@ -202,6 +202,23 @@ hu:
       subscribe: ~
       feed_link_title: ~
       subscriptions_headline: ~
+    community_guidelines:
+      headline: ~
+      byline: ~
+      menu_title: ~
+      statement1: ~
+      statement2: ~
+      statement3: ~
+      be_excellent: ~
+      howto: ~
+      howto_language: ~
+      howto_viewpoints_experiences: ~
+      howto_constructive_criticism: ~
+      howto_empathy: ~
+      howto_sexualized_language: ~
+      howto_troll: ~
+      howto_harassment: ~
+      howto_benefit_of_doubt: ~
     tutorials:
       headline: "diaspora* útmutatók"
       byline: "Segítség lépésről lépésre"
@@ -236,6 +253,7 @@ hu:
       menu_title: "Regisztráció a diaspora*-a"
       welcome: ~
       find_pod: "Pod választása"
+      find_pod_intro: ~
       find_pod_ex1: "A legtöbb közösségi oldallal ellentétben, melyeknek központi szerverparkjuk van arra a célra, higy tárolják mindenki adatait mi nem tudunk egy specifikus linket megadni és azt mondani: regisztráljon itt. A diaspora* különbözik azoktól az oldalaktól azáltal, hogy <em>decentralizált</em>, megannyi hozzáférési ponttal. Mielőtt elkezdené, el kell döntenie, hogy melyik diaspora* szolgáltatóra regisztrál. Ezeket a kiszolgálókat pod-oknak hívjuk."
       find_pod_ex2: ~
       find_pod_ex3: "Hogy segítsünk melyik pod a legalkalmasabb számodra, látogatsd meg ezt az oldalt: %{wiki_link}"
@@ -253,7 +271,6 @@ hu:
       registration7: "Kattintson a gombra, hogy feltöltsön profilképet a számítógépéről."
       registration8: ~
       registration9: ~
-      registration10: "<span class=\"click\">Irány a diaspora*!</span>"
       profile1: ~
       profile2: ~
       profile3: ~
@@ -264,30 +281,43 @@ hu:
     getting_started2:
       byline: "2. rész - a felület."
       menu_title: "A felület használata"
+      menu_title_mobile: ~
+      interface_mobile: ~
+      interface_desktop: ~
+      click_here_text: ~
       interface1: ~
       interface2: ~
       interface3: ~
       header: ~
-      header2: "a diaspora* logó ami vissza visz a hírolyamhoz."
-      header3: ~
-      header4: ~
-      header5: ~
-      header6: ~
-      header7: ~
-      header8: ~
-      header9: ~
-      header10: ~
-      header11: ~
-      header12: ~
+      header_mobile: ~
+      header_podname: ~
+      header_asterisk: ~
+      header_stream: ~
+      header_notify: ~
+      header_conversations: ~
+      header_newpost: ~
+      header_drawer: ~
+      header_search: ~
+      header_streams: ~
+      header_dropdown: ~
+      header_profile: ~
+      header_contacts: ~
+      header_settings: ~
+      header_help: ~
+      header_toggle: ~
+      header_logout: ~
+      interface_mobile_old: ~
       columns: ~
       column1: ~
       column2: ~
+      stream_mobile: ~
       views: ~
       stream: ~
-      stream_ex: ~
-      stream1: ~
-      stream2: ~
-      stream3: ~
+      stream_ex1: ~
+      stream_contents1: ~
+      stream_contents2: ~
+      stream_contents3: ~
+      stream_contents4: ~
       stream_ex2: ~
       activity: ~
       activity_ex: ~
@@ -300,26 +330,39 @@ hu:
       tags_ex1: ~
       tags_ex2: ~
       public: ~
-      public_ex1: ~
+      public_ex: ~
+      other_views: ~
+      other_views_ex: ~
+      tag_stream: ~
+      tag_stream_ex: ~
+      spv: ~
+      spv_ex: ~
       profile: "Adatlap megtekintése"
       profile_ex1: ~
       profile_ex2: ~
       profile_ex3: ~
+      profile_ex3_mobile: ~
       profile_ex4: ~
       profile_ex5: ~
       profile_ex6: ~
+      profile_ex7: ~
+      profile_ex8: ~
+      themes: ~
+      themes_ex1: ~
+      themes_list1: ~
+      themes_list2: ~
+      themes_list3: ~
+      themes_list4: ~
+      themes_list5: ~
+      themes_ex2: ~
       finish: ~
+      finish_mobile: ~
     getting_started3:
       byline: ~
       menu_title: "Mindent az aspektusokról"
       aspects1: ~
       aspects2: ~
-      aspects3: ~
-      aspects4: ~
-      add_aspect1: ~
-      add_aspect2: ~
-      add_aspect3: ~
-      add_aspect4: ~
+      my_aspects: ~
       my_aspects1: ~
       my_aspects2: ~
       my_aspects3: ~
@@ -329,6 +372,15 @@ hu:
       my_aspects7: ~
       my_aspects8: ~
       my_aspects9: ~
+      add_aspect: ~
+      add_aspect1: ~
+      aspects_mobile: ~
+      add_aspect2: ~
+      add_aspect3: ~
+      add_aspect4: ~
+      add_aspect5: ~
+      add_aspect6: ~
+      add_aspect7: ~
       contacts: "Kapcsolatok oldala"
       contact_ex1: ~
       contact_ex3: ~
@@ -397,9 +449,22 @@ hu:
       publisher_ex3: ~
       publisher_ex4: ~
       buttons: ~
+      top_buttons: ~
+      top_buttons_ex1: ~
+      top_buttons_list1: ~
+      top_buttons_list2: ~
+      top_buttons_list3: ~
+      top_buttons_list4: ~
+      top_buttons_list5: ~
+      top_buttons_list6: ~
+      top_buttons_list7: ~
+      top_buttons_list8: ~
+      top_buttons_list9: ~
       aspect_selector: ~
       aspect_selector_ex1: ~
       aspect_selector_ex2: ~
+      poll: ~
+      poll_ex: ~
       photo: "Fotók megosztása"
       photo_ex: ~
       locator: ~
@@ -413,6 +478,7 @@ hu:
       preview: "Bejegyzés előnézete"
       preview_ex1: ~
       preview_ex2: ~
+      buttons_finish: ~
       features: ~
       tags: "#címkék"
       tags_ex1: ~
@@ -423,9 +489,17 @@ hu:
       mentions_ex2: ~
       mentions_ex3: ~
       format: Szövegformázás
-      format_ex: ~
-      format_link_text: ~
+      format_ex1: ~
+      format_ex2: ~
+      format_ex3: ~
       links: Hivatkozások
+      links_ex1: ~
+      links_ex2: ~
+      images: ~
+      images_ex1: ~
+      images_ex2: ~
+      format_note: ~
+      format_link_text: ~
       links_ex: ~
       embed: Beágyazás
       embed_ex1: ~
@@ -442,6 +516,7 @@ hu:
       interact: ~
       interact_ex1: ~
       interact_ex2: ~
+      interact_ex3: ~
       comments: ~
       comments_ex: ~
       likes: ~
@@ -449,13 +524,18 @@ hu:
       likes_ex2: ~
       reshare: ~
       reshare_ex: ~
+      post_icons: ~
       delete: ~
       delete_ex: ~
       hide: ~
       hide_ex: ~
+      notifications: ~
+      notifications_ex: ~
       ignore: ~
       ignore_ex1: ~
       ignore_ex2: ~
+      report: ~
+      report_ex: ~
       finish: ~
     getting_started6:
       byline: ~
@@ -491,19 +571,25 @@ hu:
       connect_ex4: ~
       settings: ~
       settings_ex1: ~
-      settings_ex3: ~
+      settings_ex2: ~
       profile: ~
-      profile_ex: ~
+      profile_ex1: ~
+      nsfw: ~
+      profile_ex2: ~
+      profile_ex3: ~
       account: ~
       account_ex1: ~
       account_ex2: ~
-      account_ex3: ~
-      account_ex4: ~
+      spotlight: ~
+      spotlight_ex: ~
       privacy: ~
       privacy_ex: ~
       services: ~
       services_ex: ~
+      applications: ~
+      applications_ex: ~
       finish1: ~
+      finish2: ~
     formatting:
       byline: ~
       menu_title: ~
