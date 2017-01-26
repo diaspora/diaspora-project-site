@@ -4,7 +4,12 @@ gem "rails",                  "4.2.7.1"
 
 gem "puma",                   "3.4.0"
 
-gem "mysql2",                 "0.4.4"
+group :mysql, optional: true do
+  gem "mysql2", "0.4.4"
+end
+group :postgresql, optional: true do
+  gem "pg",     "0.19.0"
+end
 
 gem "devise",                 "4.1.1"
 gem "rails_admin"

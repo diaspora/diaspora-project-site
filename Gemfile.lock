@@ -138,6 +138,7 @@ GEM
       cocaine (~> 0.5.5)
       mime-types
       mimemagic (= 0.3.0)
+    pg (0.19.0)
     pkg-config (1.1.7)
     pry (0.10.3)
       coderay (~> 1.1.0)
@@ -277,6 +278,7 @@ DEPENDENCIES
   jquery-rails (= 4.1.1)
   mysql2 (= 0.4.4)
   paperclip (= 4.3.6)
+  pg (= 0.19.0)
   pry
   puma (= 3.4.0)
   rails (= 4.2.7.1)
@@ -294,4 +296,4 @@ DEPENDENCIES
   will_paginate-bootstrap
 
 BUNDLED WITH
-   1.12.5
+   1.13.7
