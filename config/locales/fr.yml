@@ -44,8 +44,8 @@ fr:
       get_started: "Envie de commencer ?"
       get_started_sub: "C'est tout simple."
       choose_pod: "1. Choisissez un pod"
-      choose_pod_exp: "Trouvez un pod qui vous convient. Cela pourrait être un petit pod ou un situé près de là où vous vivez ou un situé dans un pays où les lois régissant les données privées vous conviennent. C'est vous qui choisissez. Une liste des pods de la communauté est disponible ici %{poduptime}."
-      host_yourself: ~
+      choose_pod_exp: "Trouvez un pod qui vous convient. Cela pourrait être un petit pod, un qui permet de poster vers des services externes (comme Twitter), un situé près de là où vous vivez ou un situé dans un pays où les lois régissant les données privées vous conviennent. C'est vous qui choisissez. Vous pouvez même %{host_yourself_link} si vous avez des connaissances en administration de système."
+      host_yourself: "en héberger un vous même"
       sign_up: "2. Inscrivez-vous"
       sign_up_ex: "Une fois que vous aurez décidé du pod qui vous convient (en vous basant sur les informations et le classement sur %{poduptime}, voire sur les recommandations de personnes en qui vous avez confiance), inscrivez-vous et créez un profil avec autant d'informations personnelles que vous le souhaitez. C'est vous qui contrôlez ce que vous partagez."
       join_convo: "3. Rejoignez la discussion !"
@@ -131,6 +131,7 @@ fr:
       reshare_alt: Repartager
       mention_alt: "Symbole arobase"
       heart_alt: Cœur
+      centralibzed_network: "Réseau centralisé"
     get_involved:
       headline: Participez !
       byline: "Le futur du web social commence avec vous"
