@@ -45,6 +45,7 @@ sk:
       get_started_sub: "Je to ľahké ako 1, 2, 3..."
       choose_pod: "1. Vyberte si pod"
       choose_pod_exp: "Nájdite si pod ktorý vám sedí. Možno uprednostníte menší pod, alebo nejaký blízko miesta kde bývate, alebo nejaký v krajine kde viete že sú dobré zásady zabezpečenia dát. Výber je váš! Vyberte si spomedzi našich komunitných podov, trebárs nejaký blízko vašej lokality."
+      host_yourself: ~
       sign_up: "2. Zaregistrujte sa"
       sign_up_ex: "Akonáhle sa rozhodnete ktorý pod je pre vás ten pravý, na základe hodnotení a informácií na %{poduptime} a možno odporučení od ľudí ktorím dôverujete, zaregistrujte sa tam a vytvorte si profil s toľko veľa alebo toľko málo informáciami ako sa vám páči. Vy máte pod kontrolou to o koľko veľa sa podelíte."
       join_convo: "3. Pripojiť sa do konverzácie"

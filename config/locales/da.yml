@@ -45,6 +45,7 @@ da:
       get_started_sub: "Det er nemt som 1, 2, 3 ..."
       choose_pod: "1. Find en pod (server)"
       choose_pod_exp: "Find en pod som passer til dig. Måske foretrækker du en mindre pod, eller en der geografisk er i nærheden af dig, eller du foretrækker en pod-server som står i et land med en god sikkerhedspolitik ift. privatliv og datasikkerhed. Det er dit valg! Vælg mellem en af vores community-pods, måske en i din region."
+      host_yourself: ~
       sign_up: "2. Opret konto"
       sign_up_ex: ~
       join_convo: "Vær med i samtalen!"

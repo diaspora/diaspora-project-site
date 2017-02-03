@@ -45,6 +45,7 @@ tr:
       get_started_sub: "Bu 1, 2, 3 gibi kolaydır ..."
       choose_pod: "1. Seçin bir pod"
       choose_pod_exp: ~
+      host_yourself: ~
       sign_up: "2. kaydol"
       sign_up_ex: ~
       join_convo: "3. Konuşmaya katılın!"

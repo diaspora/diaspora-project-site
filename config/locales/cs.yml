@@ -45,6 +45,7 @@ cs:
       get_started_sub: "Je to lehké jako 1, 2, 3 ..."
       choose_pod: "1. Vyber si pod"
       choose_pod_exp: "Najdi si pod, který ti bude vyhovovat. Můžeš preferovat menší pod nebo ten, který je blízko tvého bydliště, nebo ten, který je umístěn v zemi, o které víš, že má dobré zákony na ochranu dat. Je to na tobě! Vyber si z našich komunitních podů - třeba podle svého bydliště."
+      host_yourself: ~
       sign_up: "2. Přihlaš se"
       sign_up_ex: ~
       join_convo: "3. Zapoj se do konverzace!"

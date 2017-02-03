@@ -45,6 +45,7 @@ hu:
       get_started_sub: "Egyszerű, mint háromig számolni..."
       choose_pod: "1. Válassz podot!"
       choose_pod_exp: "Találj egy számodra megfelelő podot, ami talán kicsi, esetleg közel van hozzád, vagy éppen olyan országban működik, melynek adatvédelmi törvényeiben megbízol. A választás a tiéd! Keress egyet a közösség nyilvános podjai között, esetleg egy hozzád közel működőt."
+      host_yourself: ~
       sign_up: "2. Regisztrálj!"
       sign_up_ex: "Ha eldöntötted, melyik pod a legmegfelelőbb számodra (a %{poduptime} értékeléseinek segítségével vagy esetleg ismerőseid ajánlása alapján), akkor regisztrálj ott és töltsd ki az adatlapod olyan sok vagy éppen olyan kevés személyes adattal, amennyivel szeretnéd. Rajtad áll, hogy mennyit fedsz fel magadról."
       join_convo: "3. Beszélgess másokkal!"

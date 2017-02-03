@@ -45,6 +45,7 @@ ia:
       get_started_sub: "Es facile como 1, 2, 3 …"
       choose_pod: "1. Selige un pod"
       choose_pod_exp: "Cerca un pod que te conveni. Tu poterea preferer un pod minus grande, o un pod in le vicinitate de tu casa, o un pod basate in un pais le qual tu sape que ha bon politicas de securitate de datos. Le option es tue! Elige inter nostre pods communitari, forsan un pod basate in tu localitate."
+      host_yourself: ~
       sign_up: "2. Inscribe te"
       sign_up_ex: "Un vice que tu ha seligite un pod, a base del classification e information a %{poduptime} e forsan del recommendationes de personas a qui tu te fide, inscribe te in illo e crea un profilo con tanto multe o tanto pauc information personal como tu vole. Tu controla quanto tu divide."
       join_convo: "3. Participa al conversation!"

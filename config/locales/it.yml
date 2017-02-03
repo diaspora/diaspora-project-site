@@ -47,6 +47,7 @@ it:
       get_started_sub: "È facile come contare 1, 2, 3 ..."
       choose_pod: "Scegli un pod."
       choose_pod_exp: "Trova un pod che rispecchi le tue esigenze. Potresti preferire un pod piccolo, uno collocato vicino a dove vivi oppure uno collocato in un paese che sai avere buone politiche di sicurezza sui dati. La scelta è tua! Scegli fra i nostri pod, magari uno basato nella tua località."
+      host_yourself: ~
       sign_up: Registrati
       sign_up_ex: ~
       join_convo: "Partecipa alle discussioni!"

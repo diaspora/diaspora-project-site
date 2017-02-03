@@ -45,6 +45,7 @@ pt-PT:
       get_started_sub: "É tão simples como, 1, 2, 3 ..."
       choose_pod: "1. Escolha um servidor"
       choose_pod_exp: ~
+      host_yourself: ~
       sign_up: "2. Registar"
       sign_up_ex: "Assim que tiver decidido qual o 'pod' correto para si, baseado nas classificações e informação em %{poduptime} e talvez recomendações de pessoas que confia, registe-se lá e crie um perfil com a informação pessoal que desejar. Está em controle sobre o que pretende compartilhar."
       join_convo: "3. Junte-se à conversa!"

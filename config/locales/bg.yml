@@ -45,6 +45,7 @@ bg:
       get_started_sub: ~
       choose_pod: "1. Избери шушулка"
       choose_pod_exp: ~
+      host_yourself: ~
       sign_up: "2. Регистрирайте се"
       sign_up_ex: ~
       join_convo: "3. Присъединете се към разговора!"

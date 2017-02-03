@@ -45,6 +45,7 @@ af:
       get_started_sub: "Dit is so maklik soos 1, 2, 3 ..."
       choose_pod: "1. Kies a peul"
       choose_pod_exp: "Vind 'n peul wat jou pas. Jy kan verkies om 'n kleiner peul te gebruik, of een wat gebaseer is naby waar jy woon, of een wat gebaseer is in 'n land wat jy weet het goeie data sekuriteitsbeleide. Die keuse is joune! Kies uit ons gemeenskaplike peule, miskien een wat gebaseer is naby jou."
+      host_yourself: ~
       sign_up: "2. Registreer"
       sign_up_ex: "Sodra jy besluit het watter peul jou pas, gebaseer op %{poduptime} en miskien aanbevelings van mense wat jy vertrou, registreer daar en skep 'n profiel met so veel of so min persoonlike inligting soos jy wil. Jy is in beheer oor hoeveel jy deel."
       join_convo: "3. Sluit aan by die gesprek!"

@@ -45,6 +45,7 @@ sv-FI:
       get_started_sub: "Enkelt som 1, 2, 3 ..."
       choose_pod: "1. Välj en pod"
       choose_pod_exp: ~
+      host_yourself: ~
       sign_up: ~
       sign_up_ex: ~
       join_convo: "3. Delta i konversationen!"

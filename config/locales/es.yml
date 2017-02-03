@@ -47,6 +47,7 @@ es:
       get_started_sub: "Es tan fácil como 1, 2, 3 ..."
       choose_pod: "1. Elige un pod"
       choose_pod_exp: "Encuentra un \"pod\" justo para ti. Puede que prefieras un \"pod\" pequeño, o uno basado cerca de donde vives, o quizás en un país con buenas políticas de seguridad de datos. ¡La elección es tuya! Escoge entre nuestra comunidad de \"pods\", quizás uno basado en tu localidad."
+      host_yourself: ~
       sign_up: "2. Regístrate"
       sign_up_ex: "Una vez que hayas decidido qué pod es el más adecuado para ti, basado en los ratings, en la información que hay en %{poduptime} y en recomendaciones de personas de confianza, regístrate y crea un perfil con cuanta información personal desees. Tú tienes el control de cuánto quieres compartir."
       join_convo: "3. ¡Únete a la conversación!"

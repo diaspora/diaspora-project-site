@@ -45,6 +45,7 @@ pl:
       get_started_sub: "To proste, jak dwa razy dwa..."
       choose_pod: "1. Wybierz pod"
       choose_pod_exp: "Wybierz pod, który najbardziej Ci pasuje. Może wolisz jakiś mniejszy, albo położony blisko Twojego domu, ewentualnie w kraju, w którym wiesz, że mają dobre prawo bezpieczeństwa danych. Twoja wola! Wybierz z podów naszej społeczności, być może jakiś jest położony w Twojej lokalizacji."
+      host_yourself: ~
       sign_up: "2. Zarejestruj się"
       sign_up_ex: "Jeśli już zdecydowałaś, który pod Ci pasuje na podstawie opinii i informacji z %{poduptime}, a może i zdania kogoś, komu ufasz, zarejestruj się tam i stwórz profil podając tak mało. lub tak wiele osobistych danych, jak tylko chcesz. To Ty kontrolujesz, ile udostępnisz."
       join_convo: "3. Włącz się do dyskusji!"
