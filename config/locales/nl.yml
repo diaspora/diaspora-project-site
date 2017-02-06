@@ -44,7 +44,7 @@ nl:
       get_started: "Wil je beginnnen?"
       get_started_sub: "Simpeler kan het niet ..."
       choose_pod: "1. Kies een pod"
-      choose_pod_exp: "Kies een pod die bij jou past. Je kunt een kleine pod kiezen, of een pod bij jou in de buurt, of een in een land met goede privacy wetgeving, of juist in een ander land. De keus is aan jou! Kies uit de pods in de diaspora* gemeenschap (gesorteerd volgens %{poduptime})."
+      choose_pod_exp: ~
       host_yourself: ~
       sign_up: "2. Schrijf je in"
       sign_up_ex: "Als je besloten hebt welke pod het beste past, bijvoorbeeld gebaseerd op %{poduptime}, of op basis van aanbevelingen van mensen die je vertrouwt, meld je daar dan aan en creëer een profiel met net zo veel of weinig persoonlijke informatie als je wilt. Jij bepaalt wat je wilt delen!"

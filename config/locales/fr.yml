@@ -17,7 +17,7 @@ fr:
       wiki: Wiki
       planet: Planète
       useful_resources: "Ressources utiles"
-      codebase: "Code base"
+      codebase: "Base de code"
       documentation: Documentation
       report_bugs: "Trouver et signaler des bugs"
       irc_general: "IRC - Général"
@@ -104,7 +104,7 @@ fr:
       asp1: "Aspects de votre vie"
       asp1_ex: "Votre vie est constituée de plusieurs facettes qui impliquent différentes personnes. Pourquoi votre vie \"connectée\" devrait-elle être différente ? Avec les aspects de diaspora*, vous pouvez organiser aussi précisément que vous le souhaitez votre vie \"connectée\" et ainsi ne partager qu'avec les personnes spécifiquement concernées."
       asp2: "Organisez votre vie"
-      asp2_ex: "Par exemple, vous pourriez créer des aspects pour votre famille, vos amis proches, vos collègues de travail et le sport ou le hobby que vous pratiquez. Vos collègues n'ont pas à connaître les détails de vos réunions de famille, n'est-ce pas? Grâce aux aspects, ils n'en auront pas connaissance."
+      asp2_ex: "Par exemple, vous pourriez créer des aspects pour votre famille, vos amis proches, vos collègues de travail et le sport ou le hobby que vous pratiquez. Vos collègues n'ont pas à connaître les détails de vos réunions de famille, n'est-ce pas ? Grâce aux aspects, ils n'en auront pas connaissance."
       asp3: "Adressez-vous au monde entier"
       asp3_ex: "Bien sûr, certaines choses sont tellement importantes que vous avez envie d'en parler au monde entier. Il vous suffit de le partager en mode public. En utilisant des hashtags appropriés, vous atteindrez les personnes qui sont le plus susceptibles d'être concernées."
       features: "Nos fonctionnalités préférées"
@@ -205,21 +205,21 @@ fr:
       feed_link_title: "Flux Atom"
       subscriptions_headline: Inscriptions
     community_guidelines:
-      headline: ~
+      headline: "Principes directifs"
       byline: ~
       menu_title: ~
       statement1: ~
       statement2: ~
-      statement3: ~
+      statement3: "La communauté diaspora* est contre toute forme de discrimination et d'exclusion. Nous n'acceptons pas la communication basé sur les principes du chauvinisme et du nationalisme. Nous désapprouvons les remarques racistes et la minimisation des violences fascistes, qu'elles soient historiques ou actuelles. Nous nous opposons à toute forme d'exclusion et à toutes les formes de violence physique qui y sont liées."
       be_excellent: ~
-      howto: ~
-      howto_language: ~
-      howto_viewpoints_experiences: ~
-      howto_constructive_criticism: ~
+      howto: "Comment faire ?"
+      howto_language: "Utilisez un langage accueillant et inclusif."
+      howto_viewpoints_experiences: "Soyez respectueux des points de vue et des expériences différentes."
+      howto_constructive_criticism: "Acceptez les critiques constructives."
       howto_empathy: ~
       howto_sexualized_language: ~
       howto_troll: ~
-      howto_harassment: ~
+      howto_harassment: "Ne harcelez pas les autres, que ce soit en public ou en privé."
       howto_benefit_of_doubt: ~
     tutorials:
       headline: "Tutoriels diaspora*"
@@ -286,18 +286,18 @@ fr:
       menu_title_mobile: ~
       interface_mobile: ~
       interface_desktop: ~
-      click_here_text: ~
+      click_here_text: "Cliquez ici"
       interface1: "Vous voilà maintenant devant une interface que vous ne connaissez pas encore. (si vous êtes toujours sur la page de modification de profil, cliquez sur le logo \"astérisque\" ou sur <span class=\"click\">Flux</span>, tout à gauche de la barre d'en-tête noire). Examinons la disposition et familiarisons-nous avec."
       interface2: "De par la nature décentralisée et open-source de diaspora*, les administrateurs de pods peuvent personnaliser leurs pods. Ainsi, selon le pod sur lequel vous vous connectez, l'interface peut être légèrement différente de ce que vous trouverez décrit ici. Toutefois, les éléments essentiels devraient être tous présents, même s'ils sont visuellement organisés légèrement différemment."
       interface3: "L'interface principale est divisée en quatre parties."
       header: "En haut de l'écran se trouve la barre d'en-tête restant visible lorsque vous faites défiler la page. Celle-ci contient :"
       header_mobile: ~
       header_podname: ~
-      header_asterisk: ~
+      header_asterisk: "une icône en forme d'astérisque, qui vous ramènera à la page de votre flux ;"
       header_stream: ~
       header_notify: ~
       header_conversations: ~
-      header_newpost: ~
+      header_newpost: "une icône pour écrire un nouveau message ;"
       header_drawer: ~
       header_search: ~
       header_streams: ~
@@ -307,7 +307,7 @@ fr:
       header_settings: ~
       header_help: ~
       header_toggle: ~
-      header_logout: ~
+      header_logout: "un bouton pour se déconnecter."
       interface_mobile_old: ~
       columns: "Sous l'en-tête, on distingue trois colonnes :"
       column1: "Sur la gauche, vous verrez votre photo de profil ainsi que votre nom d'utilisateur, suivis de liens vers les contenus spéciaux disponibles dans diaspora* :<span class=\"click\">Mon activité</span>, <span class=\"click\">Flux</span>, <span class=\"click\">@Mentions</span>, <span class=\"click\">Mes aspects</span> et <span class=\"click\">Tags #suivis</span>. Nous allons vous expliquer tout cela."

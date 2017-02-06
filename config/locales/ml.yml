@@ -52,7 +52,7 @@ ml:
       join_convo_ex: |-
           നിങ്ങൾക്കിഷ്ടമുള്ള കുറച്ചു #ടാഗുഗൾ പിന്തുടരാൻ തുടങ്ങൂ: ചിലപ്പോൾ
           <span class="click">#music</span>, <span class="click">#photography</span>, <span class="click">#privacy</span> or <span class="click">#linux</span> - നിങ്ങൾക്കിമ്പമുള്ളതെന്തും. നിങ്ങളെത്തന്നെ പരിചയപ്പെടുത്താൻ ഒരു പൊതു സന്ദേശം <span class="click">#newhere</span> ടാഗോടുകൂടി പങ്കിടൂ. നിങ്ങളിപ്പോൾ ആകര്‍ഷകമായ ഡയസ്പോറ* സമൂഹത്തിന്റെ ഭാഗമാണ്.
-      aspects: വീക്ഷണം
+      aspects: കാഴ്ചപ്പാടുകൾ
       aspects_ex: ~
       features: സവിശേഷതകൾ
       features_ex: ~
@@ -64,7 +64,7 @@ ml:
       decentralized_alt: വികേന്ദ്രീകൃതം
       freedom_alt: സ്വാതന്ത്ര്യം
       keyhole_alt: താക്കോല്‍ദ്വാരം
-      aspects_alt: വീക്ഷണം
+      aspects_alt: കാഴ്ചപ്പാടുകൾ
       features_alt: സവിശേഷതകൾ
       ways_to_help_alt: "സഹായിക്കാനുള്ള വഴികൾ"
       services_alt: സേവനങ്ങൾ
@@ -143,7 +143,7 @@ ml:
       meaning_ex1: ~
       meaning_ex2: ~
       meaning_ex3: ~
-      whereyou: ~
+      whereyou: "നിങ്ങൾ എവിടെ വരും"
       whereyou_ex1: ~
       whereyou_ex2: ~
       gi_header: "ഡയാസ്പൊറയില്‍ പങ്കാളിയാവാനുള്ള വഴികള്‍"
@@ -167,7 +167,7 @@ ml:
       translations_link_text: "പരിഭാഷ വിഭാഗം"
       translate_ex2: "%{translation_instructions_link} ൽ എങ്ങനെ ആരംഭിക്കാം എന്നതിനെക്കുറിച്ചുള്ള ഞങ്ങളുടെ നിർദേശങ്ങൾ വായിക്കുക."
       translation_instructions_link_text: "പരിഭാഷ നിര്‍ദ്ദേശങ്ങൾ "
-      voice_header: ~
+      voice_header: "നിങ്ങളുടെ നിലപാട് കുറിക്കുക"
       voice_ex1: ~
       voice_ex2: "അവിടേക്ക് ഞങ്ങളോടൊപ്പം ചെരൂ"
       voice_ex3: ~
@@ -186,7 +186,7 @@ ml:
       run_ex2: "ഈ സംരംഭം എവിടെവേണമെങ്കിലും നിങ്ങൾക്ക് തുടങ്ങാം."
       run_ex3: "%{poduptime} എന്ന തുറന്ന പ്രവേശനമുള്ള പോഡുകളുടെ പട്ടികയിലേക്ക് നിങ്ങളുടെ പോഡ് ചേർക്കുക."
       contributors_header: "ഡയാസ്പൊറ*ക്ക് സഹായ സഹകരണങ്ങൾ നൽകുന്നവർ"
-      contributors_byline: ~
+      contributors_byline: "ഡയസ്പോറയെ ഡയസ്പോറയാക്കുന്നവർ."
       globe_alt: ഭൂഗോളം
       megaphone_alt: ഉച്ചഭാഷിണി
       support_alt: പിന്താങ്ങുക
@@ -232,10 +232,10 @@ ml:
       started1: "സൈൻ അപ്പ്‌"
       started2: പ്രവര്‍ത്തിമുഖം
       started3: പരിചയങ്ങൾ
-      started4: ~
+      started4: "മനുഷ്യരെ കണ്ടെത്തു, അവരോട് ഇടപഴകൂ"
       started5: "പങ്കിടൽ തുടങ്ങൂ!"
       started6: "അറിയിപ്പുകളും സംഭാഷണങ്ങളും"
-      started7: ~
+      started7: പൂർത്തിയാക്കുക
       part1: "ഭാഗം 1"
       part2: "ഭാഗം 2"
       part3: "ഭാഗം 3"

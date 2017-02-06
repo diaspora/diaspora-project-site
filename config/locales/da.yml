@@ -4,12 +4,12 @@ da:
       blog_headline: ~
   buttons:
     host_pod: "Driv din egen pod"
-    join_diaspora: "Være med!"
+    join_diaspora: "Vær med!"
     find_more: "Få mere at vide »"
   meta:
     footer:
       copyleft: "CC-BY The diaspora* Foundation"
-  title: "diaspora* projektet"
+  title: "Diaspora* projektet"
   newsfeed: Nyhedsfeed
   planet_feed: ~
   layouts:
@@ -73,11 +73,11 @@ da:
       decentralize: "Hvad er decentralisering?"
       decentralize_ex: "diaspora* er fuldstændig forskellig fra de fleste sociale netværk du kender. Det er fuldstændig decentraliseret, uden en central \"hub\" eller \"server\". Trods det, er det meget enkelt at bruge det til at kontakte og kommunikere med folk. Se hvordan."
       this: DETTE
-      this_ex: "diaspora* er et ægte netværk uden en central base. Der er servere (som kaldes \"pods\") som spænder over hele kloden, som indeholder de data af de brugere, som har valgt at registrere sig på en af disse servere. Disse \"pods\" kommunikerer med hinanden uden problemer, så du kan registrere dig på en hvilken som helst pod og frit kommunikere med dine virtuelle kontakter, hvor end de opholder sig på netværket."
+      this_ex: "diaspora* er et ægte netværk uden en central base. Der er servere (som kaldes \"pods\") som spænder over hele kloden, som indeholder data fra de brugere, som har valgt at registrere sig på en af disse servere. Disse \"pods\" kommunikerer gnidningsløst med hinanden, så du kan registrere dig på en hvilken som helst pod og frit kommunikere med dine virtuelle kontakter, hvor end de opholder sig på netværket."
       notthis: "IKKE DETTE"
-      notthis_ex: "De fleste sociale netværk køres på centrale servere, som typisk eges af private virksomheder. Disse virksomheder  opbevarer samtlige brugerdata. Disse informationer kan gå tabt, eller kan blive kompromitteret af hackere. Som et hvert system med en flaskehals, kan et hvert problem på den centrale server være med til, at hele netværket hænger i bremsen, eller er fuldstændig ude af drift. Det er også nemmere for myndighederne at \"lytte med\"."
+      notthis_ex: "De fleste sociale netværk køres på centrale servere, som typisk eges af private virksomheder. Disse virksomheder opbevarer samtlige brugerdata. Disse informationer kan gå tabt, eller kan blive kompromitteret af hackere. Som et hvert system med en flaskehals, kan et hvert problem på den centrale server være med til, at hele netværket hænger i bremsen, eller er fuldstændig ude af drift. Det er også nemmere for myndighederne at \"lytte med\"."
       discl: ~
-      connect: "Hvordan tilslutter jeg mig?"
+      connect: "Hvordan forbinder jeg mig?"
       connect_ex: "På trods af at diaspora* er sammensat af mange forskellige pods verden over, vil du opleve det som et integreret og sammenhængende netværk. Du skal ikke være logget på samme pod, for at kunne kommunikere med kontakter som er registreret på andre pods - kommunikationen fungerer automatisk mellem samtlige pods i diaspora* universet. Når du bruger diaspora*, glemmer du hurtigt, at det er sammensat at mange pods. At kontakte andre på diaspora*, er faktisk lige til: "
       find: "1. Find kontakter"
       find_ex: "Det du bruger for at få kontakter, er at finde dem og knytte dem til et aspekt (se for neden for mere info om aspekter). Du kan finde kontakter ved hjælp af søgefeltet på den sorte bjælke for oven, eller du placerer musen over et navn i din stream og en lille info popper op om denne bruger. Hvis du kender folks diaspora*-ID (navn@podnavn.com), kan du bruge disse i søgefeltet."
@@ -96,35 +96,35 @@ da:
       privacy: Privatliv
       privacy_byline: "Total kontrol over hvad der er dit "
       priv1: "Vær i besiddelse af dine egne data"
-      priv1_ex: ~
+      priv1_ex: "Mange sociale netværk tjener penge på dine data ved at analysere din opførsel og derefter bruge informationen til at sælge reklameplads på sider du ser, til firmaer som 'passer til din opførsel'. Diaspora bruger ikke dine data til noget, men står til rådighed så du kan kommunikere og dele med andre."
       priv2: "Kør det selv"
-      priv2_ex: ~
+      priv2_ex: "Vælg hvor dine data gemmes, ved at vælge en pod du har tillid til. Hvis du vil have endnu mere kontrol med dine data, kan du vælge selv at køre en pod på en server du kontrollere, og så konfigurere den til kun at kommunikere med de pods du har tillid til, så ingen andre få adgang til dine data."
       priv3: "Vælg dit publikum"
-      priv3_ex: ~
+      priv3_ex: "Diasporas 'aspekter' giver dig mulighed for at at vælge hvilke mennesker du vil dele med. Du kan dele privat eller offentlig som du har lyst til. Del et sjovt foto med hele verden, eller en dyb hemmelighed kun med dine nærmeste. Du bestemmer."
       aspects: "Alt om aspekter"
       aspects_byline: "Nøglen til et privatliv på nettet er diaspora*"
       asp1: "Aspekter i dit liv"
-      asp1_ex: ~
+      asp1_ex: "Din fysiske tilværelse er sammensat af mange aspekter, som involvere forskellige mennesker. Hvorfor skal din online tilværelse være anderledes? Ved hjælp af diaspora*'s 'aspekter' kan du organisere din online tilværelse præcis som du ønsker, og derved dele ting med de mennesker du har lyst til."
       asp2: "Organiser dit liv"
-      asp2_ex: ~
-      asp3: "Fortæl det hele verden"
-      asp3_ex: ~
-      features: ~
-      features_byline: ~
-      hashtags: ~
-      hashtags_ex: ~
-      reshare: ~
-      reshare_ex: ~
-      mentions: ~
-      mentions_ex: ~
-      love: ~
-      love_ex: ~
-      host: ~
-      host_byline: ~
-      host_ex: ~
-      hostinst1: ~
+      asp2_ex: "Du kan eksempelvis have aspekter for din familie, dine nærmeste venner, for kolleger og for en sport eller hobby du bruger tid på. Dine kolleger behøver ikke at høre om jeres familie fest, gør de? Ved hjælp af aspekter kommer de ikke til det."
+      asp3: "Fortæl det til hele verden"
+      asp3_ex: "Der er selvfølgelig ting som er så vigtige at det er nødvendigt at fortælle hele verden om dem. Det kan du nemt gøre ved at dele et opslag offentligt. Og ved at bruge passende hashtags vil opslaget nå ud til mennesker som rent faktisk vil bryde sig om at se det."
+      features: "Funktionaliteter som diaspora* samfundet elsker"
+      features_byline: "Vi tror også at du vil elske dem"
+      hashtags: Hashtags
+      hashtags_ex: "Hashtags giver dig mulighed for at finde og følge emner der interessere dig, og at nå andre mennesker med samme interesser som dig. De er en god måde at møde sjove og interessante mennesker på diaspora*."
+      reshare: Videredel
+      reshare_ex: "Hvorfor ikke videredele, et opslag du synes er godt, med andre? diaspora* gør det nemt at sprede ideer ved hjælp af videredeling. bare tryk på knappen for at videredele opslaget."
+      mentions: Omtaler
+      mentions_ex: "Ønsker du at fange en anden brugers opmærksomhed? Bare @omtal dem! Det er en nem måde at gøre en af dine kontakter opmærksom på noget du tror de har brug for at vide."
+      love: Love
+      love_ex: "Vis din affektion for noget ved at ♥ det. Fordi nogen gange slår ord ikke til..."
+      host: "Host en diaspora* pod"
+      host_byline: "Bliv en af diaspora*'s stjerner"
+      host_ex: "diaspora* er afhængig af at brugere køre pods som er åbne og derved tillader alle at deltage på diaspora*. Hvis du har serverplads og en smule teknisk snilde, vil vi elske hvis du kunne køre en pod som er åben for alle. Jo flere pods, jo bedre vil diaspora* virke - kom og vær en del af fremtidens decentrale sociale netværk!"
+      hostinst1: "Læs %{instructions_link} og start din egen diaspora* pod"
       instructions_link_text: "Instruktioner til installation af en pod"
-      hostinst2: ~
+      hostinst2: "Se en liste af diaspora* pods på siden %{poduptime}"
       distributed_network: "Distribueret netværk"
       centralized_network: "Centraliseret netværk"
       search_alt: Søg
@@ -134,20 +134,20 @@ da:
       mention_alt: Nævn
       heart_alt: Hjerte
     get_involved:
-      headline: ~
-      byline: ~
-      menu_title: ~
-      community: ~
-      community_byline: ~
-      meaning: ~
-      meaning_ex1: ~
-      meaning_ex2: ~
-      meaning_ex3: ~
-      whereyou: ~
-      whereyou_ex1: ~
-      whereyou_ex2: ~
-      gi_header: ~
-      code_header: ~
+      headline: "Bliv involveret!"
+      byline: "Fremtidens sociale netværk starter med dig"
+      menu_title: "Bliv involveret"
+      community: "Fællesskabs drevet"
+      community_byline: "diaspora* tilhøre dig"
+      meaning: "Hvad er meningen med det hele?"
+      meaning_ex1: "Fri software handler om individualitet, åbenhed, kreativitet og skæbne. Det handler om at have en idé, og gøre den til virkelighed. diaspora * blev grundlagt for at opfylde en passion for sjov, og for at gøre internettet til et bedre sted. Fri software er, hvad der gør os i stand til at ændre verden for os selv, og lader vores venner på tværs af internettet få gavn af vores udforskning."
+      meaning_ex2: "Fri software fællesskaber er fantastiske. Hos diaspora *, mener vi, at mennesker skal værdsættes for det, de gør. Det er ligegyldigt, om du er super programmør eller aldrig har bidraget til et projekt før. At bidrage til diaspora * betyder, at du kommer til at arbejde med hårde problemer, med fokus på løsninger, der virker for brugerne."
+      meaning_ex3: "Vi vil derfor, hvis du bidrager med noget meningsfuldt til diaspora*, give dig core commit adgang. Vi er i samme båd, og vi ønsker at give begejstrede folk mulighed for at foretage store ændringer."
+      whereyou: "Hvor du kommer ind"
+      whereyou_ex1: "Vi bygger alle på diaspora*. Da vi ikke kender dig endnu, vil vi meget gerne møde dig og finde ud af hvordan du kan passe ind i teamet, der bygger fremtiden for internettet. Vi har alle potentiale til at ændre verden, hvis vi får de rette vilkår og muligheder."
+      whereyou_ex2: "At bidrage til diaspora* foregår i mange forskellige former og størrelser. Uanset om du hjælper os med finde fejl, giver feedback på vores postlister, eller bidrager md kode eller design, så vi har brug for dig."
+      gi_header: "Måder at blive involveret i diaspora*"
+      code_header: "Bidrage kode"
       code_byline: ~
       code_ex1: ~
       code_ex2: ~

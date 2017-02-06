@@ -157,11 +157,11 @@ es:
       mailing_list_link_text: "Lista de correo"
       irc_link_text: "Sala de IRC de diaspora*"
       code_gh: "Mira la fuente en GitHub"
-      bugs_header: ~
+      bugs_header: "Aplasta bichos"
       bugs_ex1: "Nuestro proyecto utiliza Code Triage, un servicio voluntario donde usuarios y desarrolladores pueden colaborar para afrontar los fallos en nuestro %{github_link}."
-      bugs_ex2: ~
+      bugs_ex2: "Aplastar bichos ayuda a todos y todas. Puede darle a los nuevos usuarios conocimiento acerca de como las diferentes partes de diaspora* funcionan."
       bugs_ex3: "Ayúdanos a limpiar nuestro código"
-      github_link_text: ~
+      github_link_text: "Rastreador de Problemas de Github"
       translate_header: "Ayuda a traducir"
       translate_ex1: "Puedes ayudar a traducir diaspora* a otras lenguas uniéndote a %{translations_link}."
       translations_link_text: "Grupo de Traducciones"
@@ -181,7 +181,7 @@ es:
       support_ex5: "Contribuye a %{wiki_link}."
       wiki_link_text: "wiki de diaspora*"
       run_header: "Mantener un pod público"
-      run_ex1: ~
+      run_ex1: "Ahora, no deberías comformarte con almacenar tu información en el servidor de alguien más. Ya que diaspora* es software completamente libre, estamos siempre facilitando que la gente pueda %{host_pod_link}."
       host_pod_link_text: "alojar pods propios en diaspora*"
       run_ex2: "Lo puedes alojar donde quieras."
       run_ex3: "Añade tu \"pod\" a las lista de \"pods\" abiertos en %{poduptime}."
@@ -270,7 +270,7 @@ es:
       registration4: ~
       dhq_link_text: ~
       registration5: ~
-      registration6: ~
+      registration6: "Escribe el nombre que quieres que se muestre en el primer campo."
       registration7: "Haz clic en el botón para cargar una foto de perfil desde tu computadora."
       registration8: ~
       registration9: ~
@@ -280,17 +280,17 @@ es:
       profile4: "¡No olvides hacer clic en el botón de <span class=\"click\">Actualizar</span> cuando hayas terminado!"
       finish: "¡Eso es todo!"
       finish_ex1: ~
-      finish_ex2: ~
+      finish_ex2: "Si quieres conocer ser recibido por la comunidad de diaspora*, y te sientes con suficiente confianza, haz ahora un post <strong>público</strong> para presentarte e incluye el tag <span class=\"click\">#nuevoaquí</span>. Hacer post públicos que contengan tags es una muy buena manera de hacer amigos en diaspora*. Si no estás seguro sobre hacer esto ahora, no te preocupes. En %{part5_link} nosotros te ayudaremos en cada paso de tu primer post."
     getting_started2:
-      byline: ~
-      menu_title: ~
+      byline: "Parte 2 -- La interfaz"
+      menu_title: "Usando la interfaz"
       menu_title_mobile: ~
       interface_mobile: ~
       interface_desktop: ~
       click_here_text: ~
       interface1: ~
-      interface2: ~
-      interface3: ~
+      interface2: "Dada la naturaleza descentralizada y de código abierto de diaspora*, los administradores de pods pueden customizar sus pods. Por lo tanto, dependiendo de en que pod estás, la interfaz puede verse muy diferente a la descrita acá. Sin embargo, los elementos esenciales deberían estar todos presentes, aunque pueden estar ordenados de manera ligeramente diferente."
+      interface3: "Esta inferfaz principal puede ser dividida en cuatro partes."
       header: ~
       header_mobile: ~
       header_podname: ~
@@ -324,7 +324,7 @@ es:
       stream_ex2: ~
       activity: ~
       activity_ex: ~
-      mentions: ~
+      mentions: "@Menciones"
       mentions_ex: ~
       aspects: ~
       aspects_ex1: ~
@@ -361,15 +361,15 @@ es:
       finish: ~
       finish_mobile: ~
     getting_started3:
-      byline: ~
-      menu_title: ~
+      byline: "Parte 3 -- Aspectos"
+      menu_title: "Todo sobre los aspectos"
       aspects1: ~
       aspects2: ~
       my_aspects: ~
       my_aspects1: ~
       my_aspects2: ~
       my_aspects3: ~
-      my_aspects4: ~
+      my_aspects4: "Puedes elegir solo un aspecto, o cualquier combinación de ellos."
       my_aspects5: ~
       my_aspects6: ~
       my_aspects7: ~
@@ -384,24 +384,24 @@ es:
       add_aspect5: ~
       add_aspect6: ~
       add_aspect7: ~
-      contacts: ~
+      contacts: "Página de contactos"
       contact_ex1: ~
       contact_ex3: ~
       contact_ex4: ~
       contact_ex5: ~
       contact_ex6: ~
       contact_ex7: ~
-      sharing_me: ~
+      sharing_me: "Solo compartiendo conmigo"
       sharing_me_ex: ~
       finish: ~
     getting_started4:
       byline: ~
       menu_title: ~
       aspects1: ~
-      sharing: ~
+      sharing: Compartiendo
       sharing_ex: ~
       relationships: ~
-      followers: ~
+      followers: Seguidores
       followers_ex1: ~
       followers_ex2: ~
       followers_ex3: ~
