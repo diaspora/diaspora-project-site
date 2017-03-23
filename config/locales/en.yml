@@ -15,6 +15,7 @@ en:
   layouts:
     application:
       wiki: Wiki
+      discourse: "Discussions and Support"
       planet: Planet
       useful_resources: "Useful Resources"
       codebase: Codebase
@@ -693,7 +694,7 @@ en:
       blog_link_text: "Project blog"
       changelog: "%{changelog_link} – a record of diaspora*’s development, including features not yet released in the stable version"
       changelog_link_text: "The changelog"
-      discourse: "the platform we use to discuss about ideas and improvements for diaspora*"
+      discourse: "the platform we use to discuss ideas and improvements for diaspora*"
       communication: Communication
       communicate: "%{communicate_link} on our wiki gives details of all the different channels of communication we have open"
       communicate_link_text: "“How we communicate”"
