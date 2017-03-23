@@ -15,6 +15,7 @@ cs:
   layouts:
     application:
       wiki: Wiki
+      discourse: ~
       planet: Planeta
       useful_resources: "Užitečné odkazy"
       codebase: ~
@@ -170,7 +171,7 @@ cs:
       translate_ex2: "Přečti si naše %{translation_instructions_link}, jak začít."
       translation_instructions_link_text: "instrukce k překladu "
       voice_header: "Podpoř svým hlasem"
-      voice_ex1: "Náš projekt je provozován výhradně dobrovolníky. Používáme nástroj Loomio k vyhodnocení názorů našich přispěvatelů ohledně myšlenek a návrhů k projektu. "
+      voice_ex1: ~
       voice_ex2: "Přidej se tam k nám"
       voice_ex3: ~
       meetup_link_text: ~
@@ -697,7 +698,7 @@ cs:
       blog_link_text: ~
       changelog: ~
       changelog_link_text: ~
-      loomio: ~
+      discourse: ~
       communication: ~
       communicate: ~
       communicate_link_text: ~

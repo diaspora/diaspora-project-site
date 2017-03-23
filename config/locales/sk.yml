@@ -15,6 +15,7 @@ sk:
   layouts:
     application:
       wiki: Wiki
+      discourse: ~
       planet: ~
       useful_resources: "Užitočné zdroje"
       codebase: ~
@@ -691,7 +692,7 @@ sk:
       blog_link_text: ~
       changelog: ~
       changelog_link_text: ~
-      loomio: ~
+      discourse: ~
       communication: ~
       communicate: ~
       communicate_link_text: ~

@@ -15,6 +15,7 @@ bg:
   layouts:
     application:
       wiki: Уики
+      discourse: ~
       planet: Планета
       useful_resources: "Полезни Ресурси"
       codebase: "Програмния код"
@@ -691,7 +692,7 @@ bg:
       blog_link_text: "Блог на проекта"
       changelog: ~
       changelog_link_text: "За промените"
-      loomio: ~
+      discourse: ~
       communication: Комуникация
       communicate: ~
       communicate_link_text: "\"Как общуваме\""

@@ -15,6 +15,7 @@ ml:
   layouts:
     application:
       wiki: വിക്കി
+      discourse: ~
       planet: ഗ്രഹം
       useful_resources: "പ്രയോജനകരമായ ഉപാധികള്‍"
       codebase: "കോഡ്‌ സംഹിത"
@@ -693,7 +694,7 @@ ml:
       blog_link_text: "പ്രോജെക്റ്റ്‌ ബ്ലോഗ്"
       changelog: ~
       changelog_link_text: ~
-      loomio: ~
+      discourse: ~
       communication: ആശയവിനിമയം
       communicate: ~
       communicate_link_text: "എങ്ങനെയാണു നമ്മളുടെ വിവരകൈമാറ്റം"

@@ -15,6 +15,7 @@ es:
   layouts:
     application:
       wiki: Wiki
+      discourse: ~
       planet: Planeta
       useful_resources: "Recursos Útiles"
       codebase: "código base"
@@ -168,7 +169,7 @@ es:
       translate_ex2: "Lee nuestras  %{translation_instructions_link} sobre cómo comenzar."
       translation_instructions_link_text: "Instrucciones de traducción "
       voice_header: "Aporta tu voz"
-      voice_ex1: "Nuestro proyecto es llevado enteramente por voluntarios de la comunidad. Utilizamos una herramienta llamada Loomio para evaluar cómo se sienten nuestros contribuyentes sobre ideas y proposiciones para el proyecto. "
+      voice_ex1: ~
       voice_ex2: "Únete a nosotros allí"
       voice_ex3: "Convence a tus familiares y amigos a unirse a diaspora* organizando tu propia %{meetup_link} de diaspora* en la vida real dentro de tu propia comunidad."
       meetup_link_text: Encuentro
@@ -693,7 +694,7 @@ es:
       blog_link_text: ~
       changelog: ~
       changelog_link_text: ~
-      loomio: ~
+      discourse: ~
       communication: ~
       communicate: ~
       communicate_link_text: ~

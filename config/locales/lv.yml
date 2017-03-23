@@ -15,6 +15,7 @@ lv:
   layouts:
     application:
       wiki: ~
+      discourse: ~
       planet: ~
       useful_resources: ~
       codebase: ~
@@ -691,7 +692,7 @@ lv:
       blog_link_text: ~
       changelog: ~
       changelog_link_text: ~
-      loomio: ~
+      discourse: ~
       communication: ~
       communicate: ~
       communicate_link_text: ~

@@ -15,6 +15,7 @@ de:
   layouts:
     application:
       wiki: Wiki
+      discourse: "Diskussionen und Support"
       planet: Planet
       useful_resources: "Nützliche Hilfsmittel"
       codebase: Quellcode
@@ -166,7 +167,7 @@ de:
       translate_ex2: "Lese unsere %{translation_instructions_link}, um herauszufinden wie du anfangen kannst."
       translation_instructions_link_text: Übersetzungsanleitung
       voice_header: "Gib deine Stimme"
-      voice_ex1: "Unser Projekt wird komplett von Freiwilligen aus der Community betrieben. Wir benutzen eine Webseite namens Loomio, um festzustellen, was die Mitwirkenden von Ideen und Vorschlägen für das Projekt halten. "
+      voice_ex1: "Unser Projekt wird komplett von Freiwilligen aus der Community betrieben. Wir benutzen ein Tool namens Discourse, um gemeinsam mit der Community über Ideen und Vorschlägen für das Projekt zu diskutieren."
       voice_ex2: "Mach mit"
       voice_ex3: "Zeige deinen Freunden und deiner Familie, wie sie bei diaspora* mitmachen können, indem du dich mit ihnen triffst und dein eigenes diaspora* %{meetup_link} veranstaltest."
       meetup_link_text: "Meetup "
@@ -691,7 +692,7 @@ de:
       blog_link_text: Projekt-Blog
       changelog: "%{changelog_link} - ein Verlauf der Entwicklung von diaspora*, der Funktionen beinhaltet, die noch nicht in der stabilen Version vorhanden sind"
       changelog_link_text: "Das Change Log"
-      loomio: "ein online Hilfsprogramm, das wir benutzen, um Vorschläge zum Verbessern von diaspora* zu diskutieren und abzustimmen"
+      discourse: "die Plattform, die wir benutzen, um Vorschläge zum Verbessern von diaspora* zu diskutieren"
       communication: Kommunikation
       communicate: "%{communicate_link} in unserem Wiki listet die verschiedenen Kanäle auf, über die wir kommunizieren"
       communicate_link_text: "„Wie wir kommunizieren“"

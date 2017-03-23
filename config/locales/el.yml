@@ -15,6 +15,7 @@ el:
   layouts:
     application:
       wiki: Wiki
+      discourse: ~
       planet: Πλανήτης
       useful_resources: "Χρήσιμες πηγές"
       codebase: "Βάση με τον κώδικα"
@@ -166,7 +167,7 @@ el:
       translate_ex2: "Διάβασε τις %{translation_instructions_link} για το πώς να ξεκινήσεις."
       translation_instructions_link_text: "Οδηγίες μετάφρασης "
       voice_header: "Δώσε την φωνή σου"
-      voice_ex1: "Το πρότζεκτ μας διοικείται αποκλειστικά από εθελοντές της κοινότητας. Χρησιμοποιούμε ένα εργαλείο που ονομάζεται Loomio για να μετράμε την ανταπόκριση από τους συνεισφέροντες σχετικά με τις ιδέες και τις προτάσεις για το πρότζεκτ. "
+      voice_ex1: ~
       voice_ex2: "Η συμμετοχή σου εκεί"
       voice_ex3: "Πείσε τους φίλους σου και την οικογένειά σου να συμμετέχουν στο Diaspora* οργανώνοντας τη δική σας πραγματική ζωή στο Diaspora* %{meetup_link} στη δική σας κοινότητα."
       meetup_link_text: Συνάντηση
@@ -691,7 +692,7 @@ el:
       blog_link_text: ~
       changelog: ~
       changelog_link_text: ~
-      loomio: ~
+      discourse: ~
       communication: ~
       communicate: ~
       communicate_link_text: ~

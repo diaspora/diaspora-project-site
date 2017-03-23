@@ -15,6 +15,7 @@ tr:
   layouts:
     application:
       wiki: wiki
+      discourse: ~
       planet: planet
       useful_resources: "Faydalı Kaynaklar"
       codebase: codebase
@@ -695,7 +696,7 @@ tr:
       blog_link_text: "Proje blog"
       changelog: ~
       changelog_link_text: "Değişiklik günlüğü"
-      loomio: ~
+      discourse: ~
       communication: haberleşme
       communicate: ~
       communicate_link_text: "\"Nasıl haberleşmek\""

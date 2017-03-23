@@ -15,6 +15,7 @@ he:
   layouts:
     application:
       wiki: וויקי
+      discourse: ~
       planet: כוכב
       useful_resources: "קישורים שימושיים"
       codebase: "מאגר הקוד"
@@ -166,7 +167,7 @@ he:
       translate_ex2: "קראי את ‎%{translation_instructions_link}‎ כדי להתחיל."
       translation_instructions_link_text: "הוראות תרגום "
       voice_header: "להשמיע את קולך"
-      voice_ex1: "הפרויקט שלנו מונע כולו על־ידי קהילה של מתנדבים. אנחנו משתמשים בכלי שנקרא Loomio כדי לקבל משוב מה התורמים שלנו חושבים על רעיונות והצעות לגבי הפרויקט. "
+      voice_ex1: ~
       voice_ex2: "הצטרף אלינו שם"
       voice_ex3: "שכנע את חבריך ואת משפחתך להצטרף לדיאספורה* על־ידי ארגון ‎%{meetup_link}‎ משלך בקהילה שלך."
       meetup_link_text: מפגש
@@ -691,7 +692,7 @@ he:
       blog_link_text: ~
       changelog: ~
       changelog_link_text: ~
-      loomio: ~
+      discourse: ~
       communication: ~
       communicate: ~
       communicate_link_text: ~

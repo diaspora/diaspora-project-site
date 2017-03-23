@@ -15,6 +15,7 @@ te:
   layouts:
     application:
       wiki: వికీ
+      discourse: ~
       planet: ~
       useful_resources: "ఉపయోగపడే వనరులు"
       codebase: ~
@@ -691,7 +692,7 @@ te:
       blog_link_text: "పరియోజన బ్లాగు"
       changelog: ~
       changelog_link_text: ~
-      loomio: ~
+      discourse: ~
       communication: సమాచారం
       communicate: ~
       communicate_link_text: ~

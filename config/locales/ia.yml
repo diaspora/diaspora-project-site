@@ -15,6 +15,7 @@ ia:
   layouts:
     application:
       wiki: Wiki
+      discourse: ~
       planet: Planeta
       useful_resources: "Ressources utile"
       codebase: "Base de codice"
@@ -166,7 +167,7 @@ ia:
       translate_ex2: "Lege nostre %{translation_instructions_link} pro saper como comenciar."
       translation_instructions_link_text: "instructiones de traduction "
       voice_header: "Forni tu voce"
-      voice_ex1: "Nostre projecto es gerite integremente per voluntarios del communitate. Nos usa un instrumento appellate Loomio pro sondar le opinion del communitate sur ideas e propositiones pro le projecto. "
+      voice_ex1: ~
       voice_ex2: "Trova nos ibi"
       voice_ex3: "Persuade tu amicos e familia a venir a diaspora* per organisar tu proprie %{meetup_link} de diaspora* in vita real in tu proprie communitate."
       meetup_link_text: Incontro
@@ -691,7 +692,7 @@ ia:
       blog_link_text: ~
       changelog: ~
       changelog_link_text: ~
-      loomio: ~
+      discourse: ~
       communication: ~
       communicate: ~
       communicate_link_text: ~

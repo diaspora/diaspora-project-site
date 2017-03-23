@@ -15,6 +15,7 @@ ru:
   layouts:
     application:
       wiki: Вики
+      discourse: ~
       planet: Планета
       useful_resources: "Полезные советы"
       codebase: "Исходный код"
@@ -166,7 +167,7 @@ ru:
       translate_ex2: "Прочтите %{translation_instructions_link}, чтобы понять, с чего начать."
       translation_instructions_link_text: "инструкции по переводу "
       voice_header: "Выскажите ваше мнение"
-      voice_ex1: "Наш проект запускается исключительно добровольцами из сообщества. Мы используем инструмент под названием Loomio чтобы оценивать, как наши авторы относятся к идеям и предложениям для проекта. "
+      voice_ex1: ~
       voice_ex2: "Свяжитесь с нами"
       voice_ex3: "Убедите своих друзей и близких присоединиться к сети диаспора*, для организации собственной реальной жизни диаспора* %{meetup_link} в вашем сообществе."
       meetup_link_text: встречу
@@ -691,7 +692,7 @@ ru:
       blog_link_text: ~
       changelog: ~
       changelog_link_text: ~
-      loomio: ~
+      discourse: ~
       communication: ~
       communicate: ~
       communicate_link_text: ~

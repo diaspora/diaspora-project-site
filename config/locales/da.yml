@@ -15,6 +15,7 @@ da:
   layouts:
     application:
       wiki: Wiki
+      discourse: ~
       planet: Planeten
       useful_resources: "Nyttige ressourcer"
       codebase: ~
@@ -693,7 +694,7 @@ da:
       blog_link_text: "Projekt blog"
       changelog: ~
       changelog_link_text: Ændringsoversigt
-      loomio: ~
+      discourse: ~
       communication: Kommunikation
       communicate: ~
       communicate_link_text: "\"Hvordan vi kommunikerer\""

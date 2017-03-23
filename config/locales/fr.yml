@@ -15,6 +15,7 @@ fr:
   layouts:
     application:
       wiki: Wiki
+      discourse: ~
       planet: Planète
       useful_resources: "Ressources utiles"
       codebase: "Base de code"
@@ -131,7 +132,6 @@ fr:
       reshare_alt: Repartager
       mention_alt: "Symbole arobase"
       heart_alt: Cœur
-      centralibzed_network: "Réseau centralisé"
     get_involved:
       headline: Participez !
       byline: "Le futur du web social commence avec vous"
@@ -167,7 +167,7 @@ fr:
       translate_ex2: "Lisez notre  %{translation_instructions_link} pour savoir comment commencer."
       translation_instructions_link_text: "Instructions pour la traduction "
       voice_header: "Utiliser votre voix"
-      voice_ex1: "Notre projet fonctionne entièrement sur la base du volontariat. Nous utilisons un outil nommé Loomio pour recenser les avis des contributeurs sur les nouvelles idées et propositions liées au projet. "
+      voice_ex1: ~
       voice_ex2: "Rejoignez-nous ici"
       voice_ex3: "Persuadez vos amis et votre famille de rejoindre diaspora* en organisant des %{meetup_link} dans la vraie vie."
       meetup_link_text: "rencontre "
@@ -692,7 +692,7 @@ fr:
       blog_link_text: "Blog du projet"
       changelog: "%{changelog_link} – une liste des développements effectués sur diaspora*, y compris des fonctionnalités qui ne sont pas encore diffusées dans la version stable."
       changelog_link_text: "Journal des modifications"
-      loomio: "l'outil de collaboration en ligne que nous utilisons pour discuter et voter les propositions d'améliorations de diaspora*"
+      discourse: "l'outil de collaboration en ligne que nous utilisons pour discuter et voter les propositions d'améliorations de diaspora*"
       communication: Communication
       communicate: "%{communicate_link} sur notre wiki apporte des précisions sur tous les différents canaux de communication que nous avons ouverts"
       communicate_link_text: "\"Comment nous communiquons\""

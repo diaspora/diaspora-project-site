@@ -15,6 +15,7 @@ pt-PT:
   layouts:
     application:
       wiki: Wiki
+      discourse: ~
       planet: Planeta
       useful_resources: "Recursos Úteis"
       codebase: "Código Fonte"
@@ -166,7 +167,7 @@ pt-PT:
       translate_ex2: "Leia as nossas %{translation_instructions_link}, sobre como iniciar-se."
       translation_instructions_link_text: "instruções de tradução "
       voice_header: "Faça-se Ouvir"
-      voice_ex1: "O nosso projeto é totalmente gerido pela comunidade de voluntários. Nós utilizamos uma ferramenta denominada \"Loomio\" para determinar o que os nossos colaboradores pensam sobre as ideias e propostas para o projeto. "
+      voice_ex1: ~
       voice_ex2: "Junte-se a nós lá"
       voice_ex3: "Convença os seus amigos e familia a aderir ao diaspora*, organizando o seu próprio diaspora* da vida real %{meetup_link}, na sua própria comunidade."
       meetup_link_text: encontro
@@ -691,7 +692,7 @@ pt-PT:
       blog_link_text: "Blogue do Projeto"
       changelog: ~
       changelog_link_text: "O registo de alterações"
-      loomio: ~
+      discourse: ~
       communication: Comunicação
       communicate: ~
       communicate_link_text: "\"Como Comunicar\""

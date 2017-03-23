@@ -15,6 +15,7 @@ hu:
   layouts:
     application:
       wiki: Wiki
+      discourse: ~
       planet: Bolygó
       useful_resources: "Hasznos segédanyagok"
       codebase: Kódbázis
@@ -166,7 +167,7 @@ hu:
       translate_ex2: "Az első lépésekről itt olvashatsz: %{translation_instructions_link}."
       translation_instructions_link_text: "fordítási irányelvek "
       voice_header: Véleményformálással
-      voice_ex1: "A projektet kizárólag önkéntesek működtetik. Az egyes ötletek és javaslatok elfogadottságát a Loomio nevű eszközzel mérjük fel. "
+      voice_ex1: ~
       voice_ex2: "Itt csatlakozhatsz a csapathoz"
       voice_ex3: "Egy diaspora* %{meetup_link} szervezésével a saját közösségedben csatlakozásra inspirálhatod barátaid, családtagjaid."
       meetup_link_text: találkozó
@@ -691,7 +692,7 @@ hu:
       blog_link_text: ~
       changelog: ~
       changelog_link_text: ~
-      loomio: ~
+      discourse: ~
       communication: ~
       communicate: ~
       communicate_link_text: ~

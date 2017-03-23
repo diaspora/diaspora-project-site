@@ -15,6 +15,7 @@ es-AR:
   layouts:
     application:
       wiki: Wiki
+      discourse: ~
       planet: Planeta
       useful_resources: "Recursos Útiles"
       codebase: "código base"
@@ -166,7 +167,7 @@ es-AR:
       translate_ex2: "Lée nuestras %{translation_instructions_link} para saber cómo empezar."
       translation_instructions_link_text: "Instrucciones para traducir "
       voice_header: "Aporta tu voz"
-      voice_ex1: "Nuestro proyecto es llevado adelante enteramente por voluntarios de la comunidad. Utilizamos una herramienta llamada Loomio para evaluar cómo se sienten nuestros contribuyentes sobre ideas y proposiciones para el proyecto. "
+      voice_ex1: ~
       voice_ex2: "Únete a nosotros allí"
       voice_ex3: ~
       meetup_link_text: Encuentro
@@ -268,7 +269,7 @@ es-AR:
       registration4: ~
       dhq_link_text: "Cuartel General de diaspora*"
       registration5: ~
-      registration6: ~
+      registration6: "Escribe el nombre que quieres que se muestre en el primer campo."
       registration7: "Haz clic en el botón para cargar una foto de perfil desde tu computadora."
       registration8: ~
       registration9: ~
@@ -691,7 +692,7 @@ es-AR:
       blog_link_text: ~
       changelog: ~
       changelog_link_text: ~
-      loomio: ~
+      discourse: ~
       communication: ~
       communicate: ~
       communicate_link_text: ~

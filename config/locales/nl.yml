@@ -15,6 +15,7 @@ nl:
   layouts:
     application:
       wiki: Wiki
+      discourse: ~
       planet: Planeet
       useful_resources: "Nuttige bronnen"
       codebase: Codebase
@@ -166,7 +167,7 @@ nl:
       translate_ex2: "Lees onze  %{translation_instructions_link} over hoe te beginnen."
       translation_instructions_link_text: "vertaalinstructies "
       voice_header: "Laat je mening horen."
-      voice_ex1: "Ons project wordt volledig door vrijwilligers gerund. Daarbij gebruiken we 'Loomio' als tool om de mening van de deelnemers te peilen over ideeën en voorstellen voor het project. "
+      voice_ex1: ~
       voice_ex2: "Doe hier mee"
       voice_ex3: "Je kunt natuurlijk ook je vrienden en familie overhalen om op diaspora* te komen door je eigen %{meetup_link} voor je eigen kennissenkring te organiseren."
       meetup_link_text: "meetup "
@@ -706,7 +707,7 @@ nl:
       blog_link_text: "Project blog"
       changelog: "%{changelog_link} - een overzicht van diaspora* ontwikkeling, inclusief nog niet officieel gepubliceerde mogelijkheden"
       changelog_link_text: "Het wijzigingenlogboek"
-      loomio: "de online samenwerkingstool die we gebruiken om wijzigingen te bespreken en selecteren om diaspora* te verbeteren"
+      discourse: "de online samenwerkingstool die we gebruiken om wijzigingen te bespreken en selecteren om diaspora* te verbeteren"
       communication: Communicatie
       communicate: "De %{communicate_link} op onze wiki geeft de details van al onze communicatiekanalen die we gebruiken."
       communicate_link_text: "\"Hoe we communiceren\""
