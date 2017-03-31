@@ -126,9 +126,8 @@ GEM
     multipart-post (2.0.0)
     mysql2 (0.4.4)
     nested_form (0.3.2)
-    nokogiri (1.6.8)
+    nokogiri (1.6.8.1)
       mini_portile2 (~> 2.1.0)
-      pkg-config (~> 1.1.7)
     nokogumbo (1.4.7)
       nokogiri
     orm_adapter (0.5.0)
@@ -139,7 +138,6 @@ GEM
       mime-types
       mimemagic (= 0.3.0)
     pg (0.19.0)
-    pkg-config (1.1.7)
     pry (0.10.3)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -296,4 +294,4 @@ DEPENDENCIES
   will_paginate-bootstrap
 
 BUNDLED WITH
-   1.13.7
+   1.14.5
