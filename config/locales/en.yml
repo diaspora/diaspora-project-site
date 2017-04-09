@@ -546,7 +546,7 @@ en:
       menu_title: "Notifications and conversations"
       intro: "The last big feature you should definitely know about is “conversations.” Before we do that, however, let’s mention notifications."
       notify: Notifications
-      notify_ex1: "Clicking the notifications icon (which looks like a satellite) in the header bar brings down a drop-down list showing the five most recent notifications. If you have unread notifications, this will appear as a number in red over the icon."
+      notify_ex1: "Clicking the notifications icon (which looks like a bell) in the header bar brings down a drop-down list showing the five most recent notifications. If you have unread notifications, this will appear as a number in red over the icon."
       notify_ex2: "Notifications tend to take the form “Person A has commented on Person B’s post,” “Person A started sharing with you,” or “Person A has mentioned you in a post.” From this drop-down, you can:"
       notify_ls1: "Click the person’s name to view their profile page."
       notify_ls2: "Click <span class=\"click\">post</span> to view that post."
