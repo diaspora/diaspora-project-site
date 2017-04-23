@@ -23,7 +23,7 @@ en:
       report_bugs: "Find & report bugs"
       irc_general: "IRC - General"
       irc_development: "IRC - Development"
-      discussion_general: "Discussion - General"
+      discussion_general: "Discussion & support"
       discussion_development: "Discussion - Development"
       choose_language: "Choose language"
       translate: "Add a translation"
@@ -496,10 +496,10 @@ en:
       format_ex2: "To add <em>italic</em>, <strong>bold</strong>, or inline code, highlight the text you want to format and click the relevant button from the row above the publisher window. The Markdown code for this formatting will be placed around this portion of text."
       format_ex3: "To create a heading, list or quotation, place your cursor on the line you want to format, and press the relevant button."
       links: "Links"
-      links_ex1: 'Want to include a link in your post? Just click the <span class="click">link</span> button and paste the link URL into the pop-up which appears. This will enter the URL into your post, wrapped in Markdown link code. Type the text you want to appear in your message over the highlighted text in square brackets.'
+      links_ex1: "Want to include a link in your post? Just click the <span class=\"click\">link</span> button and paste the link URL into the pop-up which appears. This will enter the URL into your post, wrapped in Markdown link code. Type the text you want to appear in your message over the highlighted text in square brackets."
       links_ex2: "If you want to include a bare link into your message, simply paste the URL into the publisher and it will automatically be converted into an inline link. You don’t need to use Markdown unless you want the link to look fancy!"
       images: "Images"
-      images_ex1: 'Embedding an image from the web into your message is similar to including a link. Click the <span class="click">image</span> button above the publisher window, and paste the URL of the image into the pop-up which appears.  This will enter the URL into your post, wrapped in Markdown image code. Type some “alt text” (the text you want to appear in your message if the image can’t be displayed) over the highlighted text in square brackets. You can also add an optional title, which will be displayed as a tool-tip when the cursor is moved over the image.'
+      images_ex1: "Embedding an image from the web into your message is similar to including a link. Click the <span class=\"click\">image</span> button above the publisher window, and paste the URL of the image into the pop-up which appears.  This will enter the URL into your post, wrapped in Markdown image code. Type some “alt text” (the text you want to appear in your message if the image can’t be displayed) over the highlighted text in square brackets. You can also add an optional title, which will be displayed as a tool-tip when the cursor is moved over the image."
       images_ex2: "Note: For this to work, you must provide a direct link to a valid image file (ending in .jpg, .gif, .png or similar), <em>not</em> to a web page with an image or images on it."
       format_note: "diaspora* uses a simple mark-up system called Markdown. If you want to do anything not covered by the formatting buttons, you can find more about how to use Markdown in %{format_link}."
       format_link_text: "this tutorial"
@@ -528,7 +528,7 @@ en:
       likes_ex2: "If you change your mind, you can remove your “like” by clicking the <span class=\"click\">Unlike</span> link which is now visible. But be aware that the person whose post you originally liked has already been sent a notification!"
       reshare: "Reshare posts"
       reshare_ex: "Public posts made by other people can be reshared. In order to reshare a post, click the <span class=\"click\">Reshare</span> link, which can be found between the Like and Comment links. Resharing a post makes it visible to your followers, and can help spread a good message to a new audience."
-      post_icons: 'When you hover over any post in the stream, several icons will appear at the top right-hand corner of the post. These allow you to do some useful things:'
+      post_icons: "When you hover over any post in the stream, several icons will appear at the top right-hand corner of the post. These allow you to do some useful things:"
       delete: "Deleting posts and comments"
       delete_ex: "When you hover your mouse pointer over one of your own posts or one of the comments, an <span class=\"click\">x</span> will appear in the top right corner, which allows you to delete the post or comment. You can also delete your own comments on other people’s posts."
       hide: "Hiding someone’s post"
@@ -537,7 +537,7 @@ en:
       notifications_ex: "Next to the x is a little bell icon. If the bell is gray, that means you aren’t currently receiving notifications of activity on this post. Click it to turn the bell black, and you will now receive notifications for this post. If you’re already receiving notifications and no longer want them, click the bell to turn it from black to gray."
       ignore: "Ignore a user"
       ignore_ex1: "If you find that a person’s posts are annoying, boring or offending you, you can ignore that person. This means that their posts will no longer appear in your stream; however, they will still be able to comment on, like or reshare your posts, and their comments on posts which appear in your stream will still be visible to you. To ignore someone, click the ignore icon (a circle with a diagonal line through it). Their posts will magically disappear from your screen."
-      ignore_ex2: 'A list of people you are ignoring can be found in your account settings under <span class="click">Privacy</span>. If you want to stop ignoring someone, you can remove them from the list on that page. We cover how to change your account settings page in %{part7_link}.'
+      ignore_ex2: "A list of people you are ignoring can be found in your account settings under <span class=\"click\">Privacy</span>. If you want to stop ignoring someone, you can remove them from the list on that page. We cover how to change your account settings page in %{part7_link}."
       report: "Report someone’s post"
       report_ex: "If you believe a post contravenes your pod’s code of conduct, for instance if you believe it is abusive or is spam, you can click the report icon (an exclamation point in a triangle). This will bring up a report form, which will be sent to your pod’s admin. Please make sure you’re aware of your pod’s <strong>Terms of use</strong> before reporting a post. You can find a link to your pod’s Terms of use in the sidebar."
       finish: "You’ve now learned about the activity you’ll be spending most of your time in diaspora* doing: posting status messages and commenting on and sharing those made by others. In the next part of this tutorial we will take a look at “conversations:” private messages shared with one or more contacts."
