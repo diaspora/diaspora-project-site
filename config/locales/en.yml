@@ -190,6 +190,19 @@ en:
       megaphone_alt: Megaphone
       support_alt: Support
       pod_alt: Pod
+    supporters:
+      headline: "diaspora*’s Supporters"
+      menu_title: Supporters
+      byline: "People and organizations who have backed diaspora*"
+      supporters: "diaspora* wouldn’t exist without the support of many people and organizations around the world who have helped out with expertise and resources. We want to thank them all!"
+      github: GitHub
+      github_ex: "%{github_link} is where our code is hosted. The service offers full version control and enables contributors from all over the world to work on improving the software which runs our network."
+      travis: Travis
+      travis_ex: "%{travis_link} is the software we use for continuous integration (CI). This means that changes to the software can be tested for compatibility with our code base before they are merged. This helps ensure that new code works seamlessly with existing code."
+      lets_encrypt: "Let’s Encrypt"
+      lets_encrypt_ex: "%{lets_encrypt_link} has revolutionized the hosting of secure websites. diaspora* relies on the SSL secure protocol, and the Let’s Encrypt project has made SSL certificates freely available."
+      webtranslateit: WebTranslateIt
+      webtranslateit_ex: "%{webtranslateit_link} enables our multi-lingual community to collaborate on translating all parts of our app and website."
     blog:
       headline: "The diaspora* blog"
       subline: "official announcements"

@@ -8,6 +8,7 @@ DiasporaProjectSite::Application.routes.draw do
       get :about
       get :formatting
       get :get_involved
+      get :supporters
       get :other_docs
       get :community_guidelines
       get :tips
