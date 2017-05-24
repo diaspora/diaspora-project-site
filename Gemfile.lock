@@ -126,7 +126,7 @@ GEM
     multipart-post (2.0.0)
     mysql2 (0.4.4)
     nested_form (0.3.2)
-    nokogiri (1.7.1)
+    nokogiri (1.7.2)
       mini_portile2 (~> 2.1.0)
     nokogumbo (1.4.7)
       nokogiri
@@ -294,4 +294,4 @@ DEPENDENCIES
   will_paginate-bootstrap
 
 BUNDLED WITH
-   1.14.5
+   1.14.6
