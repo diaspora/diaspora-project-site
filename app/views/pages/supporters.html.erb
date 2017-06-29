@@ -54,3 +54,45 @@
     </div>
   </div>
 </div>
+
+<div class="minor-top-spacing" />
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <h3 class="text-center"><%= t '.kickstarter' %></h3>
+      <p class="text-center">
+        <%= link_to image_tag('pages/supporters/kickstarter.jpg', alt: 'Kickstarter logo', size: '300x144'), 'https://kickstarter.com/' %>
+      </p>
+      <p><%= t('.kickstarter_ex', kickstarter_link: link_to(t('.kickstarter'), 'https://kickstarter.com/')).html_safe %></p>
+    </div>
+    <div class="col-md-6">
+      <h3 class="text-center"><%= t '.pivotallabs' %></h3>
+      <p class="text-center minor-top-spacing">
+        <%= link_to image_tag('pages/supporters/pivotallabs.png', alt: 'Pivotal Labs logo', size: '223x81'), 'https://pivotal.io/' %>
+      </p>
+      <p class="minor-top-spacing"><%= t('.pivotallabs_ex', pivotallabs_link: link_to(t('.pivotallabs'), 'https://pivotal.io/')).html_safe %></p>
+    </div>
+  </div>
+</div>
+
+<div class="minor-top-spacing" />
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <h3 class="text-center"><%= t '.sflc' %></h3>
+      <p class="text-center">
+        <%= link_to image_tag('pages/supporters/sflc.png', alt: 'Software Freedom Law Center logo', size: '180x180'), 'https://softwarefreedom.org/' %>
+      </p>
+      <p><%= t('.sflc_ex', sflc_link: link_to(t('.sflc'), 'https://softwarefreedom.org/')).html_safe %></p>
+    </div>
+    <div class="col-md-6">
+      <h3 class="text-center"><%= t '.pivotallabs' %></h3>
+      <p class="text-center minor-top-spacing">
+        <%= link_to image_tag('pages/supporters/pivotallabs.png', alt: 'Pivotal Labs logo', size: '223x81'), 'https://pivotal.io/' %>
+      </p>
+      <p class="minor-top-spacing"><%= t('.pivotallabs_ex', pivotallabs_link: link_to(t('.pivotallabs'), 'https://pivotal.io/')).html_safe %></p>
+    </div>
+  </div>
+</div>
