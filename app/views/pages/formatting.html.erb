@@ -20,69 +20,224 @@
 
       <h3><%= t '.headings' %></h3>
       <p><%= t '.headings_ex1' %></p>
-      <pre># <%= t '.headings_code1' %>
+    </div>
+  </div>
+</div>
 
-## <%= t '.headings_code2' %>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <p>&nbsp;</p>
+	  <pre># 1. <%= t '.headings_code1' %>
 
-### <%= t '.headings_code3' %></pre>
+
+## 2. <%= t '.headings_code2' %>
+
+
+### 3. <%= t '.headings_code3' %></pre>
+	</div>
+	<div class="col-md-6">
+      <h1>1. <%= t '.headings_code1' %></h1>
+	  <h2>2. <%= t '.headings_code2' %></h2>
+	  <h4>3. <%= t '.headings_code3' %></h4>
+	</div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <p></p>
       <p class="more-info"><%= t '.headings_ex2' %></p>
 
       <h3><%= t '.lists' %></h3>
       <p><%= t '.lists_ex1' %></p>
       <p><%= t '.lists_ex2' %></p>
       <p class="more-info"><%= t '.lists_ex3' %></p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
       <pre><%= t '.lists_code1' %>
 
-* <%= t '.lists_item1' %>
-* <%= t '.lists_item2' %>
-* <%= t '.lists_item3' %>
+* <%= t '.lists_code2' %>
+* <%= t '.lists_code3' %>
+* <%= t '.lists_code4' %>
 
-<%= t '.lists_code2' %>
+<%= t '.lists_code5' %>
 
-- <%= t '.lists_item1' %>
-- <%= t '.lists_item2' %>
-- <%= t '.lists_item3' %>
+- <%= t '.lists_code2' %>
+- <%= t '.lists_code3' %>
+- <%= t '.lists_code4' %>
 
-<%= t '.lists_code3' %>
+<%= t '.lists_code6' %>
 
-1. <%= t '.lists_item1' %>
-2. <%= t '.lists_item2' %>
-3. <%= t '.lists_item3' %></pre>
+1. <%= t '.lists_code2' %>
+2. <%= t '.lists_code3' %>
+3. <%= t '.lists_code4' %></pre>
+    </div>
+    <div class="col-md-6">
+      <p></p>
+      <p><%= t '.lists_code1' %></p>
+	  <ul>
+	    <li><%= t '.lists_code2' %></li>
+	    <li><%= t '.lists_code3' %></li>
+	    <li><%= t '.lists_code4' %></li>
+	  </ul>
+	  <p><%= t '.lists_code5' %></p>
+	  <ul>
+	    <li><%= t '.lists_code2' %></li>
+	    <li><%= t '.lists_code3' %></li>
+	    <li><%= t '.lists_code4' %></li>
+	  </ul>
+	  <p><%= t '.lists_code6' %></p>
+	  <ol>
+	    <li><%= t '.lists_code2' %></li>
+	    <li><%= t '.lists_code3' %></li>
+	    <li><%= t '.lists_code4' %></li>
+	  </ol>
+	</div>
+  </div>
+</div>
 
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
       <h3><%= t '.quote' %></h3>
       <p><%= t '.quote_ex1' %></p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
       <pre><%= t '.quote_code1' %>
       
-&gt; <code><%= t '.quote_code2' %></code>
+&gt; <%= t '.quote_code2' %>
+&gt; <%= t '.quote_code2a' %>
 
 <%= t '.quote_code3' %></pre>
+    </div>
+    <div class="col-md-6">
+      <p></p>
+      <p><%= t '.quote_code1' %></p>
+      <blockquote><%= t '.quote_code2' %><br />
+<%= t '.quote_code2a' %></blockquote>
+      <p><%= t '.quote_code3' %></p>
+    </div>
+  </div>
+</div>
 
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h3><%= t '.pre' %></h3>
+      <p><%= t '.pre_ex' %></p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <pre><%= t('.pre_code1') %>
+
+    <%= t '.pre_code2' %>
+    <%= t '.pre_code3' %>
+      <%= t '.pre_code4' %>
+
+<%= t '.pre_code5' %></pre>
+    </div>
+    <div class="col-md-6">
+      <p></p>
+      <p><%= t'.pre_code1' %></p>
+      <p><pre><%= t '.pre_code2' %>
+<%= t '.pre_code3' %>
+  <%= t '.pre_code4' %></pre></p>
+      <p><%= t '.pre_code5' %></p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
       <h3><%= t '.code' %></h3>
       <p><%= t '.code_ex1' %></p>
       <p><%= t '.code_ex2' %></p>
-      <p><%= t('.code_ex3').html_safe %></p>
-      <pre><%= t '.code_code1' %>
+    </div>
+  </div>
+</div>
 
-````<code><%= t '.code_code2' %></code>````
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <pre><%= t('.code_code1', code_snippet: t('.code_snippet_text')) %>
+
+````<%= t '.code_code2' %>````
 
 <%= t '.code_code3' %>
 
-    <code><%= t '.code_code4' %></code>
-      <code><%= t '.code_code5' %></code></pre>
+````<%= t '.code_code4' %>
+  <%= t '.code_code5' %>````
 
+<%= t('.code_code6', code_snippet: t('.code_snippet_text_a')).html_safe %></pre>
+    </div>
+    <div class="col-md-6">
+      <p></p>
+      <p><%= t'.code_code1' %></p>
+      <p><code><%= t '.code_code2' %></code></p>
+      <p></p>
+      <p><%= t '.code_code3' %></p>
+      <p></p>
+      <p><code><%= t '.code_code4' %></code><br />
+      <code>&nbsp;&nbsp;<%= t '.code_code5' %></code></p>
+      <p><%= t('.code_code6', code_snippet: t('.code_snippet_text_b')).html_safe %></p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
       <h3><%= t '.line' %></h3>
       <p><%= t '.line_ex' %></p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
       <pre><%= t '.line_code1' %>
 
 ---
 
 <%= t '.line_code2' %></pre>
+    </div>
+    <div class="col-md-6">
+      <p></p>
+      <p><%= t '.line_code1' %></p>
+	  <hr>
+	  <p><%= t '.line_code2' %></p>
+    </div>
+  </div>
+</div>
 
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
       <h3><%= t '.itals' %></h3>
       <p><%= t '.itals_ex1' %></p>
-      <p><%= t('.itals_ex2').html_safe %></p>
-      <p><%= t('.itals_ex3').html_safe %></p>
-      <p><%= t('.itals_ex4').html_safe %></p>
+      <ul>
+        <li><<%= t('.itals_ex2').html_safe %></li>
+        <li><%= t('.itals_ex3').html_safe %></li>
+        <li><%= t('.itals_ex4').html_safe %></li>
+      </ul>
       <p class="more-info"><%= t '.itals_ex8' %></p>
 
       <h3><%= t '.links' %></h3>
@@ -107,8 +262,9 @@
       <ul>
         <li>"-&gt;" = "→" ; "&lt;-" = "←" ; "&lt;-&gt;" = "↔"</li>
         <li>"(c)" = "©" ; "(r)" = "®" ; "(tm)" = ™</li>
-        <li>"&lt;3″ = "♥ "</li>
-        <li>"x^2″ = "x²"</li>
+        <li>"&lt;3" = "♥"</li>
+        <li>"(p)" = "§"</li>
+        <li>"x^2" = "x²"</li>
       </ul>
 
       <p><%= t('.finish', markdown_link: link_to(t('.markdown_link_text'), 'http://daringfireball.net/projects/markdown/syntax')).html_safe %></p>
