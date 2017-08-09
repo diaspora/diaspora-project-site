@@ -623,8 +623,6 @@ en:
       quote_code2: "This is a quotation."
       quote_code2a: "And a second paragraph of the quotation."
       quote_code3: "This is the text following the quotation."
-      linebreak: "Line breaks"
-      linebreak_ex: "To add a “soft” line break rather than a full paragraph break, add two spaces to the end of a line."
       pre: "Preformatted text"
       pre_ex: "To insert “preformatted” text, which appears in a monospaced font and respects paragraph indentations and other things, start each line of text with four spaces. Adding more spaces will allow for further indenting."
       pre_code1: "This is a line of normal text."
