@@ -32,6 +32,7 @@
 
       <h4><%= t '.account' %></h4>
       <p><%= t '.account_ex1' %></p>
+      <p class="more-info"><%= t '.account_ex1a' %></p>
       <p><%= t '.account_ex2' %></p>
       <h5><%= t '.spotlight' %></h5>
       <p><%= t '.spotlight_ex' %></p>
@@ -40,7 +41,7 @@
       <p><%= t('.privacy_ex', part5_link: link_to(t('pages.tutorials.part5'), sharing_path)).html_safe %></p>
 
       <h4><%= t '.services' %></h4>
-      <p><%= t '.services_ex' %></p>
+      <p><%= t('.services_ex', part6_link: link_to(t('pages.tutorials.part6'), conversations_path)).html_safe %></p>
       
       <h4><%= t '.applications' %></h4>
       <p><%= t '.applications_ex' %></p>

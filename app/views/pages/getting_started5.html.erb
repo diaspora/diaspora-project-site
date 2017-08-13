@@ -40,8 +40,9 @@
   <div class="row">
     <div class="col-md-8">
       <h4><%= t '.aspect_selector' %></h4>
-      <p><%= t '.aspect_selector_ex1' %></p>
+      <p><%= t('.aspect_selector_ex1').html_safe %></p>
       <p><%= t('.aspect_selector_ex2', part3_link: link_to(t('pages.tutorials.part3'), aspects_path)).html_safe %></p>
+      <p class="more-info"><%= t('.aspect_selector_ex3', part7_link: link_to(t('pages.tutorials.part7'), finishing_path)).html_safe %></p>
       <h4><%= t '.poll' %></h4>
     </div>
     <div class="col-md-4">
@@ -63,19 +64,36 @@
       <h4><%= t '.connected' %></h4>
       <p><%= t('.connected_ex1').html_safe %></p>
       <p><%= t('.connected_ex2').html_safe %></p>
-      <p><%= t('.connected_ex3', part7_link: link_to(t('pages.tutorials.part7'), finishing_path)).html_safe %></p>
+
+      <h4><%= t '.preview' %></h4>
+      <p><%= t('.preview_ex1').html_safe %></p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6">
+      <p class="text-center"><%= image_tag 'pages/getting_started/sharing/publisher_content.png', class: 'img-responsive' %></p>
+    </div>
+    <div class="col-md-6">
+      <p class="text-center"><%= image_tag 'pages/getting_started/sharing/publisher_preview.png', class: 'img-responsive' %></p>
+    </div>
+  </div>
+      
+  <div class="row">
+    <div class="col-md-12">
       <p class="more-info"><%= t '.buttons_finish' %></p>
 
       <h3><%= t '.features' %></h3>
       <h4><%= t '.tags' %></h4>
       <p><%= t('.tags_ex1').html_safe %></p>
       <p><%= t('.tags_ex2').html_safe %></p>
-      <p class="more-info"><%= t('.tags_ex3', part7_link: link_to(t('pages.tutorials.part7'), finishing_path)).html_safe %></p>
+      <h5><%= t'.nsfw' %></h5>
+      <p><%= t('.tags_ex3', part7_link: link_to(t('pages.tutorials.part7'), finishing_path)).html_safe %></p>
 
       <h4><%= t '.mentions' %></h4>
       <p><%= t('.mentions_ex1').html_safe %></p>
       <div align="center"><%= image_tag 'pages/getting_started/sharing/mentions.png', class: 'img-responsive' %></div>
-      <p><%= t('.mentions_ex2').html_safe %></p>
+      <p class="minor-top-spacing"><%= t('.mentions_ex2', part6_link: link_to(t('pages.tutorials.part6'), conversations_path)).html_safe %></p>
       <p class="more-info"><%= t('.mentions_ex3').html_safe %></p>
 
       <h4><%= t '.format' %></h4>
@@ -113,24 +131,7 @@
     <div class="col-md-12">
       <p><%= t('.services_ex2').html_safe %></p>
       <p class="more-info"><%= t('.services_ex3').html_safe %></p>
-      <h4><%= t '.preview' %></h4>
-      <p><%= t('.preview_ex1').html_safe %></p>
-      <p><%= t('.preview_ex2').html_safe %></p>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-md-6">
-      <p class="text-center"><%= image_tag 'pages/getting_started/sharing/publisher_content.png', class: 'img-responsive' %></p>
-    </div>
-    <div class="col-md-6">
-      <p class="text-center"><%= image_tag 'pages/getting_started/sharing/publisher_preview.png', class: 'img-responsive' %></p>
-    </div>
-  </div>
-      
-  <div class="row">
-    <div class="col-md-12">
-      <p><%= t '.how' %></p>
+      <p class="minor-top-spacing"><%= t '.how' %></p>
       <p><%= t '.try_out' %></p>
       <p><%= t('.make_post1').html_safe %></p>
       <blockquote><%= t('.make_post2').html_safe %></blockquote>
