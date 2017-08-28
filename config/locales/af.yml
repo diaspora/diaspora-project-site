@@ -323,6 +323,7 @@ af:
       stream_ex2: "Plasings in die stroom word bestel volgens die tyd van die oorspronklike plasing."
       activity: "My Aktiwiteit"
       activity_ex: "Jou My Aktiwiteit stroom toon enige plasings wat jy óf hou of op wie jy kommentaar. Dit is 'n goeie manier om op enige wisselwerkings te haal. Plasings in My Aktiwiteit word bestel volgens die nuutste aktiwiteit (kommentaar of hou) op elke plasing."
+      activity_ex2: ~
       mentions: "@Oproepe"
       mentions_ex: "Dit bevat 'n lys van enige plasings wat deur ander mense geskep is wat you @roep. Ons sal hulle verduidelik in %{part4_link}."
       aspects: "My Aspekte"
@@ -356,6 +357,7 @@ af:
       themes_list3: ~
       themes_list4: ~
       themes_list5: ~
+      themes_list6: ~
       themes_ex2: ~
       finish: "Dit is al wat jy nodig het te weet oor die interface vir nou. Die eerste ding wat jy sal wil doen, is om 'n paar mense vind met wie jy kan begin te deel. Maar eers , laat ons op 'n verskynsel fokus wat prominent in al van diaspora* is: aspekte."
       finish_mobile: ~
@@ -465,6 +467,7 @@ af:
       aspect_selector: "Aspek keurder knoppie"
       aspect_selector_ex1: "Hierdie knoppie is hoe jy kies wie sal in staat sal wees om jou plasings kan lees. Dit gestel op \"alle aspekte\" by verstek: dit wil sê, almal wat jy by een van jou aspekte gevoeg het, sal in staat sal wees om die boodskap te lees, maar niemand anders nie. In die eenvoudige boodskap wat jy net gestuur het, was daar geen behoefte om enige verstellings te verander voordat jy jou boodskap geplaas het nie, want jy wou dit sigbaar hê slegs vir jou volgelinge en die standaard is \"Alle aspekte\"."
       aspect_selector_ex2: "Met hierdie knoppie selekteur jy enige individuele aspek met wat jy wil deel, of enige kombinasie van jou aspekte, deur die kies of ontkies van aspekte in die lys deur op hulle te kliek. In hierdie manier het jy volle beheer oor wie jou boodskappe kan lees, soos ons verduidelik het in %{part3_link}. Indien, aan die ander kant, jy iets aan die hele wêreld wil kondig, kies \"Openbare\", en daar sal geen beperkings op wie jou boodskap kan lees wees nie."
+      aspect_selector_ex3: ~
       poll: ~
       poll_ex: ~
       photo: "Foto deling"
@@ -479,12 +482,12 @@ af:
       connected_ex3: "Ons sal verduidelik hoe met ander dienste te verband in %{part7_link}."
       preview: "Plasing voorskou"
       preview_ex1: "Tussen die aspekte en deel knoppies is die laaste knoppie - 'n baie nuttige een! Dit laat jou toe om te sien how jou plasing sal lyk, sodat jy seker kan wees dat jy tevrede is met dit voordat jy dit plaas. Dit kan regtig met die regstelling van foute help, en veral met teks formatering. Meer oor hierdie hieronder."
-      preview_ex2: "Dit is al wat daar is om te weet oor die knoppies en ikone op die uitgewer. Die ware towery gebeur binne die uitgewer self. Sowel as gewone teks, kan jy #etikette, @oproepe, en skakels byvoeg, jou teks formaat en fotos, videos en audio insluit. Sjoe!"
       buttons_finish: ~
       features: "Plasing funksies"
       tags: "#etikette"
       tags_ex1: "Plaas 'n # (allegaartjie) simbool voor 'n woord, en dit word 'n #etiket. Wat is die gebruik van hierdie? Wel, #etikette is 'n goeie manier om die inhoud wat jou interesseer te vind, en om kennis te gee aan mense wat waarskynlik daarin geïnteresseerd is. Jy kan vir etikette soek deur hulle in die soekkassie te tik. Jy kan ook etikette volg, sodat enige plasings wat in daardie etikette geskep word in jou stroom sal vertoon – werklikheid, as jy die \"Beskryf jouself in 5 woorde\" deel van jou profiel bladsy ingevul het, volg jy reeds dié etikette!"
       tags_ex2: "Kom ons sê jy hou daarvan om te kook en jy skep 'n boodskap met \"#kook\" in dit. Enigiemand wat die #kook etiket volg sal nou jou plasing in hulle strome sien. Natuurlik vir enige volgeling van #kook jou plasing te sien, sou jy dit as 'n openbare plasing moet geskep het; as jy dit net in een of meer aspekte geskep het, sal slegs mense in diegene aspekte dit kan lees. Jy kan ook vir \"#kook\" in die soekkassie soek om aangebied te wees met 'n lys van al die plasings met \"#kook.\" Dit sluit jou eie plasings, plasings deur vriende en openbare plasings by ander diasporans in. Jy kan sien hoe dit 'n fantastiese instrument vir die vind en deel van inhoude is."
+      nsfw: ~
       tags_ex3: "As jou plasing potensieel misdryf kan veroorsaak of iemand in die moeilikheid kry by die werk vir besigtiging, voeg asseblief die <span class=\"click\">#NSFW</span> (\"not safe for work\": \"nie veilig vir die werk nie\") etiket by sodat dit weggesteek is op mense se skerms, tensy hulle dit kies om te sien. Ons sal dit verduidelik in %{part7_link}."
       mentions: "@oproepe"
       mentions_ex1: "Het jy geweet jy kan iemand se aandag gryp deur hulle te \"roep\"? Tik 'n @ simbool, gevolg deur die naam van een van jou kontakte. As jy hul naam begin tik (hul skerm naam, nie hul gebruikersnaam nie) sal dit outomaties voltooi geword deur diaspora*. Tik Enter of kliek op die naam in die outo-voleinder en jy sal sien dat dit verander het tot hul volle naam, en die @-simbool het verdwyn. Moenie bekommerd wees nie, dit sal 'n @oproep word sodra jy die boodskap plaas. Die persoon wat jy roep sal 'n kennisgewing van die oproep op hul kennisgewing bladsy ontvang, en per e-pos indien hulle gevra het e-pos van oproepe te ontvang."
@@ -535,6 +538,7 @@ af:
       notifications_ex: ~
       ignore: "Ignoreer 'n gebruiker"
       ignore_ex1: "Indien jy agterkom dat 'n persoon se plasings vir jou irriterend, vervelig of beledigend is, kan jy daardie persoon ignoreer. Dit beteken dat hul plasings nie meer in jou stroom vertoon sal wees nie, maar hulle sal steeds in staat wees om kommentaar te lewer, om jou plasings te hou of herdeel, en hul kommentare sal nog steeds op jou en ander mense se plasings verskyn. Om iemand te ignoreer, muis oor een van hul plasings en kliek op die ikoon langs die klein \"x\" in die regter boonste hoek – dit lyk soos 'n mannetjie met 'n lyn deur hom. Wanneer jy iemand ignoreer, sal hul plasings nie onmiddellik verdwyn nie; jy moet die skerm verfris."
+      ignore_ex1a: ~
       ignore_ex2: "ŉ Lys van die mense wat jy verontagsaam, kan gevind word in jou rekening instellings onder <span class=\"click\">Privaatheid</span>. As jy nie meer iemand wil ignoreer nie, kan jy hulle verwyder van die bladsy. Ons verduidelik hoe om by jou rekening instellings bladsy te kom in "
       report: ~
       report_ex: ~
@@ -581,6 +585,7 @@ af:
       profile_ex3: ~
       account: Rekening
       account_ex1: "Hier kan jy jou e-posadres en wagwoord verander, jou taal stel, jou e-pos voorkeure kies, en jou data laai of jou saad sluit. Ons doel is dat jy in staat sal wees om die afeglaaie data sal gebruik om jou saad te migreer na 'n ander peul, maar dit is nog nie moontlik nie. Jy mag dalk jou data gereeld wil laai soos 'n back-up, egter."
+      account_ex1a: ~
       account_ex2: "diaspora* het 'n self-regerende gemeenskap standaard, wat NSFW (\"not safe for work\": nie veilig vir werk nie) genoem is. As jy waarskynlik baie materiaal sal plaas wat dalk nie geskik vir almal te sien by hul kantoor lessenaar (miskien met hul baas agter hulle) is nie, oorweeg dit asseblief om die NSFW boks te aansluit. Dit sal jou boodskappe verberg van mense se strome agter 'n kennisgewing dat die pos NSFW gemerk is. Hulle kan dan op hierdie kennisgewing kliek om jou plasing te sien as hulle wil."
       spotlight: ~
       spotlight_ex: ~
@@ -619,16 +624,26 @@ af:
       quote_ex1: ~
       quote_code1: ~
       quote_code2: ~
+      quote_code2a: ~
       quote_code3: ~
+      pre: ~
+      pre_ex: ~
+      pre_code1: ~
+      pre_code2: ~
+      pre_code3: ~
+      pre_code4: ~
+      pre_code5: ~
       code: "Kode blokke"
       code_ex1: "As jy 'n ontwikkelaar is sal jy miskien in kode blokke belangstel. Om 'n kode blok te skep, begin jou teks/kode met vier backticks (````). Om terug na normale teks te keer, sluit die kode blok met nog 'n vier."
       code_ex2: "Nog 'n manier om dit te doen, is om elkeen van jou reëls van die kode te begin met vier ruimtes. Toevoeging van meer ruimte sal verdere inkeping verlaat."
-      code_ex3: "Dit is ook moontlik om kode inlyn te vertoon, `<code>deur die uittreksel te begin en einde met 'n backtick</ code>`."
       code_code1: "Dit is 'n lyn normale teks."
       code_code2: "dan sal daar 'n kode blok wees"
       code_code3: "Dan 'n bietjie meer normale teks."
       code_code4: "en dan 'n bietjie meer kode"
       code_code5: "'n lyn kode ingekeep deur twee ruimtes"
+      code_code6: ~
+      code_snippet_text_a: ~
+      code_snippet_text_b: ~
       line: "Horisontale lyn"
       line_ex: "Om 'n horisontale lyn te skep, gebruik ten minste drie ---, ___ of *** op 'n aparte lyn. Enige aantal bogenoemde drie sal dieselfde ding doen en spasies tussen die karakters maak nie saak nie."
       line_code1: "Daar sal 'n horisontale reël tussen hierdie lyn teks en die volgende een wees."

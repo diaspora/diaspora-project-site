@@ -323,6 +323,7 @@ nb:
       stream_ex2: ~
       activity: ~
       activity_ex: ~
+      activity_ex2: ~
       mentions: ~
       mentions_ex: ~
       aspects: ~
@@ -356,6 +357,7 @@ nb:
       themes_list3: ~
       themes_list4: ~
       themes_list5: ~
+      themes_list6: ~
       themes_ex2: ~
       finish: ~
       finish_mobile: ~
@@ -465,6 +467,7 @@ nb:
       aspect_selector: ~
       aspect_selector_ex1: "Denne knappen bruker du til å velge hvem som skal være istand til å lese posten din. Den er i utgangspunktet satt til «Alle aspekter»: det vil si, alle du har lagt til i et av dine aspekter vil være istand til å lese innlegget, men ingen andre vil kunne lese det. I det enkle innlegget du nettopp sendte, på grunn av at du ønsker å gjøre det synlig kun for de som følger deg og innstillingen i utgangspunktet er «Alle aspekter», var det ikke nødvendig å gjøre noen endringer i innstillingene før du delte innlegget."
       aspect_selector_ex2: ~
+      aspect_selector_ex3: ~
       poll: ~
       poll_ex: ~
       photo: ~
@@ -479,12 +482,12 @@ nb:
       connected_ex3: ~
       preview: ~
       preview_ex1: ~
-      preview_ex2: ~
       buttons_finish: ~
       features: ~
       tags: ~
       tags_ex1: "Plasser et #-symbol («hash») foran et ord og det blir til en #tag. Hva poenget er med dette? Vel, #tag-er er en super metode for å finne innhold som interesserer deg, og for å gjøre folk oppmerksom på innhold, som antagelig vil være interessert i det. Du kan søke etter tag-er ved å taste de inn i søkefeltet i overskriftslinjen. Du kan også følge tag-er, sånn at alle poster som inneholder de tag-ene dukker opp i stream-en din – faktisk, hvis du har fylt ut «Deg: i 5 #tagger»-delen av profilsiden din, følger du allerede de tag-ene!"
       tags_ex2: "Si for eksempel at du like matlaging og at du poster en melding med #matlaging i. Enhver som følger tag-en #matlaging vil nå se posten din dukke opp i stream-en sin. For at enhver som følger #matlaging skal kunne se posten din, må du naturligvis ha gjort den til en offentlig post; hvis du postet den til bare ett eller flere aspekter, vil bare personer i de aspektene kunne lese den. Du kan også søke etter #matlaging i søkefeltet, og du vil bli presentert for en liste over alle poster tag-et med «#matlaging». Det inkluderer dine egne poster, poster av venner og offentlige poster av brukere av diaspora*. Du kan se for deg hvordan dette kan være et fantastisk verktøy for å finne og dele innhold med mennesker som deler dine interesser."
+      nsfw: ~
       tags_ex3: ~
       mentions: ~
       mentions_ex1: "Visste du at du kan skaffe deg oppmerksomhet hos noen ved å «nevne» de? Helt enkelt tast inn et @-symbol etterfulgt av navnet til en av dine kontakter. Etterhvert som du taster inn navnet deres (skjermnavnet deres, ikke brukernavnet deres) vil diaspora* fullføre det automatisk. Trykk på enter-tasten eller klikk på navnet i auto-fullføreren og du vil se at det har blitt endret til deres fulle navn, og @-symbolet har forsvunnet. Men det er ikke noe å bekymre seg for, dette vil bli en @nevning når du har fått postet meldingen. Personen du nevner vil motta en beskjed om nevningen på sin beskjedside, og via epost hvis de har bedt om å motta epostbeskjeder om nevninger."
@@ -535,6 +538,7 @@ nb:
       notifications_ex: ~
       ignore: ~
       ignore_ex1: "Hvis du opplever at en persons poster er irriterende, kjedelige eller krenker deg,kan du ignorere den personen. Det betyr at postene deres ikke lenger vil vises i stream-en din; men, de vil fremdeles kunne kommentere på, like eller videredele postene dine, og kommentarene deres på dine og andres poster som vises i stream-en din vil være synlige for deg. For å ignorere noen, hold musepekeren over en av postene deres og klikk på ikonet ved siden av den lille «x»-en i øverste høyre hjørne – det ser ut som en person med en strek over. Når du ignorerer noen vil ikke postene deres forsvinne med en gang, du må først oppdatere skjermbildet."
+      ignore_ex1a: ~
       ignore_ex2: ~
       report: ~
       report_ex: ~
@@ -581,6 +585,7 @@ nb:
       profile_ex3: ~
       account: ~
       account_ex1: ~
+      account_ex1a: ~
       account_ex2: "diaspora* har i miljøet en selvstyrende standard kalt NSFW (forkortelse for det engelske uttrykket «not safe for work», som betyr omtrent «upassende i jobbsitasjoner»). Hvis du antakelig kommer til å poster mye materiale som muligens ikke er egnet for å alle å se på ved kontorpulten (kanskje med sjefen stående bak dem), vennligst vurder å krysse av i NSFW-boksen. Dette vil skjule postene dine i folk sine stream-er bak en melding om at posten er markert som NSFW. De kan så klikke på denne meldingen for å se posten din dersom de ønsker."
       spotlight: ~
       spotlight_ex: ~
@@ -619,16 +624,26 @@ nb:
       quote_ex1: ~
       quote_code1: "Dette er vanlig tekst i forkant av sitatet ditt:"
       quote_code2: "Dette er et sitat."
+      quote_code2a: ~
       quote_code3: "Dette er teksten etter sitatet."
+      pre: ~
+      pre_ex: ~
+      pre_code1: ~
+      pre_code2: ~
+      pre_code3: ~
+      pre_code4: ~
+      pre_code5: ~
       code: ~
       code_ex1: ~
       code_ex2: ~
-      code_ex3: ~
       code_code1: ~
       code_code2: ~
       code_code3: ~
       code_code4: ~
       code_code5: ~
+      code_code6: ~
+      code_snippet_text_a: ~
+      code_snippet_text_b: ~
       line: ~
       line_ex: ~
       line_code1: ~

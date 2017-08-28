@@ -325,6 +325,7 @@ es:
       stream_ex2: ~
       activity: ~
       activity_ex: ~
+      activity_ex2: ~
       mentions: "@Menciones"
       mentions_ex: ~
       aspects: ~
@@ -341,7 +342,7 @@ es:
       tag_stream_ex: ~
       spv: ~
       spv_ex: ~
-      profile: ~
+      profile: "Vista del perfil"
       profile_ex1: ~
       profile_ex2: ~
       profile_ex3: ~
@@ -358,6 +359,7 @@ es:
       themes_list3: ~
       themes_list4: ~
       themes_list5: ~
+      themes_list6: ~
       themes_ex2: ~
       finish: ~
       finish_mobile: ~
@@ -373,7 +375,7 @@ es:
       my_aspects4: "Puedes elegir solo un aspecto, o cualquier combinación de ellos."
       my_aspects5: ~
       my_aspects6: ~
-      my_aspects7: ~
+      my_aspects7: "El sistema de selección tiene dos usos"
       my_aspects8: ~
       my_aspects9: ~
       add_aspect: ~
@@ -401,12 +403,12 @@ es:
       aspects1: ~
       sharing: Compartiendo
       sharing_ex: ~
-      relationships: ~
+      relationships: "En diaspora* hay 3 tipos de relaciones entre usuarios:"
       followers: Seguidores
       followers_ex1: ~
       followers_ex2: ~
       followers_ex3: ~
-      following: ~
+      following: Siguiendo
       following_ex1: ~
       following_ex2: ~
       mutual: ~
@@ -417,23 +419,23 @@ es:
       mutual_ls3: ~
       mutual_ls4: ~
       mutual_ex3: ~
-      finding: ~
+      finding: "Encontrando gente"
       finding_ex1: ~
       finding_ex2: ~
-      search: ~
+      search: Buscar
       search_ex: ~
-      search_ls1: ~
+      search_ls1: "Escribe un nombre o ID para diaspora*. Las sugerencias empezarán a aparecer en cuanto empiezes a escribir."
       search_ls2: ~
       search_ls3: ~
       search_ls4: ~
       search_ls5: ~
       search_ls6: ~
-      invite: ~
+      invite: "Enviando un correo de invitación"
       invite_ex: ~
       profile: ~
       profile_ex1: ~
       profile_ex2: ~
-      tags: ~
+      tags: "#Etiquetas que sigues"
       tags_ex: ~
       removing: ~
       removing_ex1: ~
@@ -444,8 +446,8 @@ es:
       finish: ~
     getting_started5:
       byline: ~
-      menu_title: ~
-      intro1: ~
+      menu_title: "¡Comienza a compartir!"
+      intro1: "Ahora tienes algunos contactos, es hora de compartir contenido con ellos."
       intro2: ~
       publisher: ~
       publisher_ex1: ~
@@ -467,6 +469,7 @@ es:
       aspect_selector: ~
       aspect_selector_ex1: ~
       aspect_selector_ex2: ~
+      aspect_selector_ex3: ~
       poll: ~
       poll_ex: ~
       photo: ~
@@ -481,12 +484,12 @@ es:
       connected_ex3: ~
       preview: ~
       preview_ex1: ~
-      preview_ex2: ~
       buttons_finish: ~
       features: ~
       tags: ~
       tags_ex1: ~
       tags_ex2: ~
+      nsfw: ~
       tags_ex3: ~
       mentions: ~
       mentions_ex1: ~
@@ -537,6 +540,7 @@ es:
       notifications_ex: ~
       ignore: ~
       ignore_ex1: ~
+      ignore_ex1a: ~
       ignore_ex2: ~
       report: ~
       report_ex: ~
@@ -583,6 +587,7 @@ es:
       profile_ex3: ~
       account: ~
       account_ex1: ~
+      account_ex1a: ~
       account_ex2: ~
       spotlight: ~
       spotlight_ex: ~
@@ -621,16 +626,26 @@ es:
       quote_ex1: ~
       quote_code1: ~
       quote_code2: ~
+      quote_code2a: ~
       quote_code3: ~
+      pre: ~
+      pre_ex: ~
+      pre_code1: ~
+      pre_code2: ~
+      pre_code3: ~
+      pre_code4: ~
+      pre_code5: ~
       code: ~
       code_ex1: ~
       code_ex2: ~
-      code_ex3: ~
       code_code1: ~
       code_code2: ~
       code_code3: ~
       code_code4: ~
       code_code5: ~
+      code_code6: ~
+      code_snippet_text_a: ~
+      code_snippet_text_b: ~
       line: ~
       line_ex: ~
       line_code1: ~

@@ -15,7 +15,7 @@ de:
   layouts:
     application:
       wiki: Wiki
-      discourse: "Diskussionen und Support"
+      discourse: "Diskussionen und Unterstützung"
       planet: Planet
       useful_resources: "Nützliche Hilfsmittel"
       codebase: Quellcode
@@ -323,6 +323,7 @@ de:
       stream_ex2: "Die Beiträge im Stream sind chronologisch nach dem ursprünglichen Erstellungsdatum sortiert."
       activity: "Meine Aktivitäten"
       activity_ex: "In deinem „Meine Aktivitäten” Stream siehst du alle Beiträge, die du entweder geliked, oder kommentiert hast. Es ist ein sinnvoller Weg an den Interaktionen dranzubleiben, die du auf diaspora* hattest. Die Beiträge in Meine Aktivitäten sind nach den aktuellen Bewegungen (Gefällt mir oder Kommentar) angeordnet, die auf ihnen stattfanden."
+      activity_ex2: ~
       mentions: "@Erwähnungen"
       mentions_ex: "Hier werden alle Beiträge angezeigt, in denen du von anderen @erwähnt wurdest. Wir sprechen über Erwähnungen in %{part4_link}."
       aspects: "Meine Aspekte"
@@ -356,6 +357,7 @@ de:
       themes_list3: ~
       themes_list4: ~
       themes_list5: ~
+      themes_list6: ~
       themes_ex2: ~
       finish: "Das ist erst einmal alles, was du über die Oberfläche wissen musst. Was du wohl als erstes tun willst, ist Menschen zu finden, mit denen du anfangen kannst zu teilen. Aber, bevor wir das tun, lass uns erst auf etwas eingehen, was diaspora* besonders auszeichnet: Aspekte."
       finish_mobile: ~
@@ -465,6 +467,7 @@ de:
       aspect_selector: "Aspekt Auswahl Schaltfläche."
       aspect_selector_ex1: "Mit dieser Schaltfläche suchst du aus, wer in der Lage sein wird deinen Beitrag zu lesen. Die Voreinstellung liegt bei \"Alle Aspekte\", d.h., dass jeder, den du in deine Aspekte eingeordnet hast, imstande sein wird die Nachricht zu lesen, aber sonst niemand. Bei der einfachen Nachricht, die du gerade geschickt hattest, war es nicht nötig die Voreinstellung zu ändern, denn du wolltest ja an \"Alle Aspekte\" posten."
       aspect_selector_ex2: "Mit dieser Schaltfläche kannst du einzelne Aspekte oder eine Kombination ihrer auswählen um mit ihnen zu teilen, indem du sie in der Aspektliste anklickst. Auf diese Weise hast du die Kontrolle darüber, wer deine Nachrichten zu sehen bekommt, so wie in %{part3_link} besprochen. Wenn du allerdings etwas öffentlich teilen willst, suchst du \"Öffentlich\" aus und hast keine Begrenzung, wer deine Nachricht lesen kann."
+      aspect_selector_ex3: ~
       poll: ~
       poll_ex: ~
       photo: "Teilen von Fotos"
@@ -479,12 +482,12 @@ de:
       connected_ex3: "In %{part7_link} schauen wir uns an, wie man sich mit anderen Diensten verbindet."
       preview: Beitragsvorschau
       preview_ex1: "Zwischen der Schaltfläche der Aspekte und des Teilens ist der letzte Knopf und zwar ein ziemlich nützlicher! Durch ihn ist es möglich zu sehen, wie dein Beitrag später aussehen wird, also kannst du sicher gehen, dass du vollkommen zufrieden bist, bevor du etwas veröffentlichst. Das kann nützlich sein, wenn du Fehler korrigieren oder Text formatieren willst. Mehr darüber erfährst du weiter unten."
-      preview_ex2: "Das ist alles, was es über die Knöpfe und Symbole in Bezug auf das Eingabefenster für Veröffentlichungen zu wissen gibt. Der wahre Zauber passiert im Veröffentlichungsfenster selbst. Neben purem Text, kannst du #Tags, @Erwähnungen, Links hinzufügen, kannst ihn formatieren und Fotos, Videos und Audio einbetten. Wow!"
       buttons_finish: ~
       features: Beitragsfunktionen
       tags: "#Tags"
       tags_ex1: "Platziere ein # (Raute) Symbol am Anfang eines Wortes und es wird ein #Tag (eine Markierung). Wozu ist das gut? #Tags sind eine wunderbare Möglichkeit, um Inhalte zu finden, die dich interessieren und die Aufmerksamkeit der Leute zu gewinnen, die an gleichen Inhalten interessiert sind. Du kannst nach Tags suchen, indem du sie in das Feld \"Suchen\" in der Kopfleiste eingibst. Du kannst ebenso Tags folgen, sodass jeder Beitrag, der diese Tags beinhaltet, in deinem Stream auftaucht - wenn du auf deiner Profilseite schon \"Beschreibe dich mit 5 Worten\" ausgefüllt hast, folgst du diesen Tags bereits!"
       tags_ex2: "Sagen wir mal, du kochst gerne und postest einen Beitrag mit \"#kochen\". Jeder, der dem Tag #kochen folgt, wird nun deinen Beitrag bei sich im Stream sehen. Wenn du willst, dass den Beitrag alle sehen, die #kochen folgen, musst du ihn natürlich öffentlich senden, denn falls du ihn begrenzt an einen oder mehrere Aspekte verschickst, sehen ihn nur diejenigen, die in dem Aspekt sind. Du kannst auch im Suchfeld nach \"#kochen\" suchen und bekommst alle Inhalte präsentiert, die mit \"#kochen\" markiert sind. D.h. inklusive deiner eigenen Beiträge, die deiner Freunde und öffentliche Inhalte anderer Diasporaner. Du wirst sicher feststellen, dass es ein fantastischer Weg ist, um Inhalte zu finden und mit denen zu teilen, die ähnliche Interessen haben."
+      nsfw: ~
       tags_ex3: "Falls dein Inhalt potentiell als unpassend angesehen werden oder jemand in Schwierigkeiten geraten könnte, wenn er ihn bei der Arbeit sichtet, füge bitte den Tag <span class=\"click\">#nsfw</span> (\"not safe for work\"/unpassend am Arbeitsplatz) hinzu. Damit bleibt der Beitrag auf den Bildschirmen versteckt, bis man sich entschließt ihn auf zumachen. Wir behandeln dies in %{part7_link}."
       mentions: "@Erwähnungen"
       mentions_ex1: "Wusstest du, dass du Aufmerksamkeit erregen kannst, indem du jemanden \"erwähnst\"? Gebe einfach das @-Symbol gefolgt von dem Namen eines deiner Kontakte ein. Wenn du anfängst seinen Namen zu schreiben (den Seitennamen, nicht den Benutzernamen), wird er automatisch von diaspora* ergänzt. Betätige Enter oder klicke auf den entsprechenden Namen in der automatischen Ergänzung und du stellst fest, dass der Name vervollständigt wurde und das @-Symbol verschwunden ist. Keine Sorge, es wird eine @Erwähnung werden, sobald du den Beitrag verschickt hast. Die erwähnte Person wird über die Erwähnung auf ihrer Benachrichtigungsseite und auch per E-Mail Bescheid bekommen, falls sie eingetragen hatte, dass sie über Erwähnungen per Mail benachrichtigt werden will."
@@ -535,6 +538,7 @@ de:
       notifications_ex: ~
       ignore: "Benutzer ignorieren"
       ignore_ex1: "Wenn du findest, dass jemandes Inhalte lästig, langweilig oder beleidigend für dich sind, kannst du die Person ignorieren. Dadurch erscheinen ihre Beiträge nicht mehr in deinem Stream. Trotzdem wird sie in der Lage sein, deine Inhalte zu kommentieren, weiter-zusagen und unter deinen Beiträgen und die Anderer, die auch in deinem Stream sind, ihre Kommentare zu setzen. Die werden für dich auch sichtbar sein. Um jemanden zu ignorieren, fahre über ihren Beitrag und klicke das Symbol in der rechten oberen Ecke, neben dem \"x\" - es sieht aus, wie eine durchgestrichene Person. Wenn du angefangen hast, jemanden zu ignorieren, werden seine Beiträge nicht sofort verschwinden, du musst erst mal deine Ansicht aktualisieren."
+      ignore_ex1a: ~
       ignore_ex2: "Eine Liste der Leute, die du ignorierst, kannst du auf deinem Konto unter Einstellungen bei <span class=\"click\">Privatsphäre</span> finden. Falls du aufhören willst, jemanden zu ignorieren, kannst du ihn von dieser Seite entfernen. Wir gehen noch darauf ein, wie du zu der Seite mit Kontoeinstellungen kommst und zwar in "
       report: ~
       report_ex: ~
@@ -581,6 +585,7 @@ de:
       profile_ex3: ~
       account: Konto
       account_ex1: "Hier kannst du sowohl deine E-Mailadresse und Passwort ändern, als auch deine Spracheinstellung und Benachrichtigungsoptionen, du kannst deine Daten herunterladen oder auch dein Konto auflösen. Unser Bestreben ist, dass du in der Lage sein solltest, deine Daten herunterzuladen, um deinen Seed zu einem anderen Pod ziehen lassen zu können, momentan ist das jedoch noch nicht möglich. Vielleicht willst du trotzdem von Zeit zu Zeit deine Daten herunterladen, um ein Back-up zu haben."
+      account_ex1a: ~
       account_ex2: "die diaspora* Gemeinschaft hat eine selbstverwaltete Norm, die NSFW (not safe for work/nicht sicher für Arbeit) bezeichnet wird. Wenn du Material postest, das nicht für jedermann geeignet ist, um es am Bürotisch zu sichten (vielleicht steht der Chef gerade dahinter), bitte berücksichtige das NSFW-Fenster. Das wird deine Inhalte in den Streams anderer hinter einer NSFW-Markierung verbergen. Sie können dann, wenn sie es wünschen, daraufklicken, um die Beiträge einzusehen."
       spotlight: ~
       spotlight_ex: ~
@@ -619,16 +624,26 @@ de:
       quote_ex1: "Wenn du eines anderen Beitragsteil zitieren willst, kannst du ihn normal formatieren und startest den Absatz mit dem \">\" Zeichen:"
       quote_code1: "Dieser normale Text leitet deine Zitat ein:"
       quote_code2: "Dies ist ein Zitat."
+      quote_code2a: ~
       quote_code3: "Dies ist der dem Zitat folgende Text."
+      pre: ~
+      pre_ex: ~
+      pre_code1: ~
+      pre_code2: ~
+      pre_code3: ~
+      pre_code4: ~
+      pre_code5: ~
       code: code-Blöcke
       code_ex1: "Wenn du ein Entwickler bist, könntest du an code-Blocks interessiert sein. Um einen code-Block zu erzeugen, stelle deinem Text/code vier Backticks ( ` ` ` ` ) voran. Schließe den code-Block mit weiteren vier Backticks, damit du zu normalem Text zurückkehrst."
       code_ex2: "Ein anderer Weg, um dies zu tun, ist es, jeder deiner code-Zeilen vier Leerzeichen voranzustellen. Das Hinzufügen weiterer Leerzeichen sorgt für noch mehr Einrückung."
-      code_ex3: "Es ist auch möglich, code innerhalb des Textflusses anzuzeigen, wenn der code-Schnipsel mit einem Backtick `<code> beginnt mit </code>` endet."
       code_code1: "Dies ist eine Zeile mit normalem Text."
       code_code2: "dies wird ein code-Block"
       code_code3: "Dann etwas mehr normalen Text."
       code_code4: "und dann ein bisschen mehr code"
       code_code5: "eine Zeile code, eingerückt mit Hilfe zweier Leerzeichen"
+      code_code6: ~
+      code_snippet_text_a: ~
+      code_snippet_text_b: ~
       line: "Horizontale Linie"
       line_ex: "Um eine horizontale Linie zu erzeugen, benutze mindestens drei - - -, _ _ _ oder * * * innerhalb einer separaten Zeile. Jede Zahl oberhalb von drei Zeichen wird das Gleiche bewirken, und Leerzeichen zwischen den einzelnen Zeichen spielen keine Rolle."
       line_code1: "Es wird eine horizontale Trennlinie zwischen dieser Zeile Text und der nächsten geben."

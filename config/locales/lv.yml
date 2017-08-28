@@ -323,6 +323,7 @@ lv:
       stream_ex2: ~
       activity: ~
       activity_ex: ~
+      activity_ex2: ~
       mentions: ~
       mentions_ex: ~
       aspects: ~
@@ -356,6 +357,7 @@ lv:
       themes_list3: ~
       themes_list4: ~
       themes_list5: ~
+      themes_list6: ~
       themes_ex2: ~
       finish: ~
       finish_mobile: ~
@@ -465,6 +467,7 @@ lv:
       aspect_selector: ~
       aspect_selector_ex1: ~
       aspect_selector_ex2: ~
+      aspect_selector_ex3: ~
       poll: ~
       poll_ex: ~
       photo: ~
@@ -479,12 +482,12 @@ lv:
       connected_ex3: ~
       preview: ~
       preview_ex1: ~
-      preview_ex2: ~
       buttons_finish: ~
       features: ~
       tags: ~
       tags_ex1: ~
       tags_ex2: ~
+      nsfw: ~
       tags_ex3: ~
       mentions: ~
       mentions_ex1: ~
@@ -535,6 +538,7 @@ lv:
       notifications_ex: ~
       ignore: ~
       ignore_ex1: ~
+      ignore_ex1a: ~
       ignore_ex2: ~
       report: ~
       report_ex: ~
@@ -581,6 +585,7 @@ lv:
       profile_ex3: ~
       account: ~
       account_ex1: ~
+      account_ex1a: ~
       account_ex2: ~
       spotlight: ~
       spotlight_ex: ~
@@ -619,16 +624,26 @@ lv:
       quote_ex1: ~
       quote_code1: ~
       quote_code2: ~
+      quote_code2a: ~
       quote_code3: ~
+      pre: ~
+      pre_ex: ~
+      pre_code1: ~
+      pre_code2: ~
+      pre_code3: ~
+      pre_code4: ~
+      pre_code5: ~
       code: ~
       code_ex1: ~
       code_ex2: ~
-      code_ex3: ~
       code_code1: ~
       code_code2: ~
       code_code3: ~
       code_code4: ~
       code_code5: ~
+      code_code6: ~
+      code_snippet_text_a: ~
+      code_snippet_text_b: ~
       line: ~
       line_ex: ~
       line_code1: ~

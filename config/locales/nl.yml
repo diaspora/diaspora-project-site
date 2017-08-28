@@ -325,6 +325,7 @@ nl:
       stream_ex2: "De berichten in de stream staan op de chronologische volgorde van het moment van plaatsen van het bericht."
       activity: "Mijn activiteit"
       activity_ex: "Je \"Mijn activiteit\" stream toont alle berichten die je leuk vond of waarop je reageerde. Dat is een makkelijke manier om snel alle interacties binnen diaspora* te kunnen volgen. Berichten in Mijn activiteit staan op chronologische volgorde van jouw laatste actie (leuk vinden of reageren) bij elk bericht."
+      activity_ex2: ~
       mentions: "@Mij"
       mentions_ex: "Dit toont alle berichten die door andere mensen zijn geplaatst waarin jij bent @vermeld. We bespreken dit in %{part4_link}."
       aspects: "Mijn aspecten"
@@ -358,6 +359,7 @@ nl:
       themes_list3: ~
       themes_list4: ~
       themes_list5: ~
+      themes_list6: ~
       themes_ex2: ~
       finish: "Meer hoef je nu even niet van de interface te weten. Het eerste wat je moet doen is mensen vinden met wie je iets wilt delen. Maar voordat je dat kunt doen, moeten we ons eerst richten op iets dat prominent in diaspora* aanwezig is: Aspecten."
       finish_mobile: ~
@@ -476,6 +478,7 @@ nl:
       aspect_selector: "Aspecten selecteerknop"
       aspect_selector_ex1: "Met deze knop bepaal je wie jouw berichten kan lezen. Standaard is \"Alle aspecten\" geselecteerd, dat wil zeggen: iedereeen die je aan een van je aspecten hebt toegevoegd kan je bericht lezen, maar niemand anders. Als het bericht dat je plaatste alleen bestemd is voor je volgers en als de standaardinstelling \"Alle aspecten\" is, dan hoef je verder niets in te stellen voor het verzenden."
       aspect_selector_ex2: "Met deze knop selecteer je de afzonderlijke aspecten waar je mee wilt delen, door op de aspecten in de lijst te klikken om aspecten te selecteren of te deselecteren. Hierdoor heb je de volledige controle over wie je berichten kan lezen, zoals we al beschreven in %{part3_link}. Maar als je iets door iedereen wilt laten lezen, kies dan voor \"Openbaar\" en er zijn geen beperkingen voor wie je bericht kan lezen."
+      aspect_selector_ex3: ~
       poll: ~
       poll_ex: ~
       photo: "Foto's delen"
@@ -490,12 +493,12 @@ nl:
       connected_ex3: "We kijken hoe we met andere services kunnen verbinden in %{part7_link}."
       preview: "Voorbeeld bericht"
       preview_ex1: "Tussen de aspectknop en de deelknop staat de laatste knop, en die is heel nuttig! Deze knop laat je zien hoe je bericht eruit zal zien, zodat je, als je tevreden bent, het bericht kunt plaatsen. Dit kan je helpen om fouten te herstellen, zeker bij het opmaken van de tekst. Meer hierover verderop."
-      preview_ex2: "Meer hoef je niet te weten over de knoppen en pictogrammen bij het tekstverwerken. De echte magie gebeurt binnen de tekstverwerker. Naast de kale tekst, kun je ook #tags, @vermeldingen en links toevoegen, je tekst opmaken en foto's, video's en muziek toevoegen. Tsjonge!"
       buttons_finish: ~
       features: Plaatsingsmogelijkheden
       tags: "#tags"
       tags_ex1: "Plaats een #-teken (hash, of hekje) direct voor een woord en het wordt een #tag. Wat heb je hieraan? Nou, #tags zijn een fantastische manier om interessante content te vinden en om content onder de aandacht van geïnteresseerde anderen te brengen. Je kunt zoeken naar tags, door in het zoekveld de tag in te voeren. Je kunt ook tags volgen, zodat elk bericht waar die tag in staat in je stream verschijnt - sterker, als je in de \"Beschrijf jezelf in 5 woorden\" onderdeel van je profielpagina tags hebt ingevuld, dan volg je die tags automatisch al!"
       tags_ex2: "Stel je houdt van koken en je plaatst een bericht met met de tekst \"#koken\". Iedereen die de #koken tag volgt, ziet jouw bericht nu in zijn of haar stream. Natuurlijk moet je het bericht wel als Openbaar plaatsen voordat de volgers van #koken het zien; als je het alleen maar publiceerde voor één of meer aspecten, dan zullen alleen de mensen in de aspecten het bericht zien. Je kunt ook in het zoekveld zoeken naar #koken en je ziet dan de berichten die zijn getagged met #koken. Dat zijn dan je eigen berichten, maar ook de openbare berichten van andere diasporians. Zo zie je dat tags een bijzonder instrument zijn om content van anderen te vinden of om content met anderen te delen."
+      nsfw: ~
       tags_ex3: "ALs je bericht mogelijjk aanstootgevend voor iemand kan zijn, of als iemand op z'n werk last krijgt door het bekijken ervan, voeg dan de <span class=\"click\">#nsfw</span> (“not safe for work”) tag toe aan het bericht, zodat het niet getoond wordt, tenzij de kijker er bewust voor kiest om het zien. We behandelen dit verder in %{part7_link}."
       mentions: "@vermeldingen"
       mentions_ex1: "Wist je dat je iemands aandacht kunt trekken door hem of haar te \"vermelden\"? Type gewoon een @-teken gevolgd door de naam van een van je contacten. Als je begint te typen (de weergavenaam, niet de gebruikersnaam), dan zal diaspora* de naam automatisch aanvullen. Druk op Enter of klik op de naam in het automatisch aanvulveld en je zult zien dat de volledige naam wordt getoond en dat het @-teken is verdwenen. Geen zorgen, het wordt een @vermelding als jet het bericht hebt geplaatst. De persoon die je vermeld krijgt een notificatie op de notificatiepagina en via de e-mail als hij of zij dat zo heeft ingesteld."
@@ -548,6 +551,7 @@ nl:
       notifications_ex: ~
       ignore: "Een gebruiker negeren"
       ignore_ex1: "Als je vindt dat iemand steeds vervelende, saaie of aanstootgevende berichten plaatst, dan kun je die persoon negeren. Dat betekent dat dienst berichten niet langer in je stream verschijnen. Die persoon kan nog wel steeds reageren op je berichten of ze doorgeven en de reacties van die persoon op berichten in jouw stream zijn nog wel steeds zichtbaar. Om iemand te negeren plaats de cursor dan over een van de berichten van die persoon en klik op het pictogram naast de kleine \"x\" in de rechterbovenhoev - het lijkt op een persoon met een streepje erdoorheen. Als je iemand negeert, verdwijnen de berichten niet meteen, je moet eerst je scherm verversen."
+      ignore_ex1a: ~
       ignore_ex2: "Het overzicht met de personen die je negeert kun je zien in de accountinstellingen onder <span class=\"click\">Privacy</span>. Als je iemand niet langer wilt negeren, kun je de persoon op dat overzicht verwijderen. We behandelen hoe je bij je accountinstellingen pagina kunt komen in "
       report: ~
       report_ex: ~
@@ -596,6 +600,7 @@ nl:
       profile_ex3: ~
       account: Account
       account_ex1: "Hier kun je je e-mailadres en wachtwoord wijzigen, je taal instellen, je e-mailnotificaties configureren, je gegevens downloaden en je account beëindigen. Ons uiteindelijke doel is dat je je gegevens kunt downloaden om ze later te gebruiken om je account naar een andere server te migreren. Momenteel is dat nog niet mogelijk. Je zou wel regelmatig jouw gegevens kunnen downloaden als een back-up."
+      account_ex1a: ~
       account_ex2: "diaspora* heeft een zelfbesturende community standaard genaamd NSFW (not safe for work - niet verstandig onder werktijd). Als je van plan bent regelmatig berichten te plaatsten die niet passend zijn om op kantoor te laten bekijken, overweeg dan om NSFW aan te vinken. Dat zorgt ervoor dat je berichten standaard verborgen blijven achter de NSFW melding in de stream van gebruikers. Ze kunnen dan zelf besluiten om hierop te klikken als ze je berichten willen zien."
       spotlight: ~
       spotlight_ex: ~
@@ -634,16 +639,26 @@ nl:
       quote_ex1: "Als je een samenvatting van een artikel of van een andere reactie wilt aanhalen, kun je de tekst makkelijk opmaken door de regel of alinea te beginnen met het \">\" teken:..."
       quote_code1: "Dit is normale tekst om je quote te beginnen:"
       quote_code2: "Dit is een quote."
+      quote_code2a: ~
       quote_code3: "Deze tekst volgt op de quote."
+      pre: ~
+      pre_ex: ~
+      pre_code1: ~
+      pre_code2: ~
+      pre_code3: ~
+      pre_code4: ~
+      pre_code5: ~
       code: Codeblokken
       code_ex1: "Als je een ontwikkelaar bent, dan zou je misschien wel eens een codeblok willen gebruiken. On dat te doen begin je de tekst met vier achterwaartse accentjes (` ` ` ` ). Om het codeblok af te sluiten doen je dat opnieuw."
       code_ex2: "Je kunt dat ook doen door elk van je regels code vooraf te laten gaan door vier spaties. Met extra spaties wordt verder ingesprongen."
-      code_ex3: "Je kunt ook code inline tonen door '<code>door te beginnen en te eindigen met een achterwaarts accentteken</code>`."
       code_code1: "Dit is een normale tekstregel."
       code_code2: "dit wordt een codeblok"
       code_code3: "Dan nog wat normale tekst."
       code_code4: "en meer code in een codeblok"
       code_code5: "een regel code die inspringt met twee spaties"
+      code_code6: ~
+      code_snippet_text_a: ~
+      code_snippet_text_b: ~
       line: "Horizontale lijn"
       line_ex: "Om een horizontale lijn te maken gebruik je minimaal drie - - -, _ _ _ of * * * op een afzonderlijke regel. Meer dan drie tekens, of spaties ertussen, maakt voor de functie niet uit."
       line_code1: "Er staat een horizontale lijn tussen deze regel en de volgende."
