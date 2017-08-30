@@ -266,7 +266,7 @@ ia:
       registration1: "Un vice que tu ha eligite un pod, cerca le ligamine <span class=\"click\">Crear un conto</span>. Illo debe esser presente in le pagina principal del pod. Si il non ha tal ligamine, pote esser que iste pod particular actualmente non accepta nove inscriptiones. In tal caso tu debera eliger un altere pod."
       registration2: "Quando tu clicca sur le ligamine “Crear un conto” tu videra un pagina in que tu debe scriber un nomine de usator, adresse de e-mail e contrasigno. Considera le nomine de usator con prudentia perque tu non potera cambiar lo plus tarde."
       registration3: "Fini le inscription con un clic sur <span class=\"click\">Continuar</span> pro crear e acceder a tu novissime “grana” de diaspora*!"
-      registration4: "Durante le processo de inscription, tu conto essera probabilemente connectite a un altere conto particular. Normalmente isto es nostre conto de %{dhq_link}, ma pote esser le conto administrative de tu pod. Isto nos permitte de tener te al currente con le actualitates importante super diaspora*. Nonobstante, si tu prefere non sequer iste conto, tu pote facilemente remover lo de tu lista de contactos. Nos explica como facer lo in %{part4_link}."
+      registration4: "Durante le processo de inscription, tu conto essera probabilemente connectite a un altere conto particular. Normalmente isto es nostre conto de %{dhq_link}, ma pote esser le conto administrative de tu pod. Isto nos permitte de tener te al currente con le actualitates importante super diaspora*. Nonobstante, si tu prefere non sequer iste conto, tu pote facilemente remover lo de tu lista de contactos. Nos explica como facer lo in %{part_link}."
       dhq_link_text: ~
       registration5: "Ora tu deberea vider un pagina “Prime passos”. Non es obligatori, ma completar lo te adjutarea multo a facer le prime connexiones con altere personas."
       registration6: "Scribe in le prime campo le nomine que tu vole monstrar sur le schermo."
@@ -275,11 +275,11 @@ ia:
       registration9: "Insere alcun parolas de cosas que te interessa. Pote esser musica, activismo, forsan le citate in que tu habita. Istes essera convertite in #etiquettas, le quales te adjuta a trovar contento e adjuta alteros a discoperir te. Nos explicara plus sur #etiquettas plus tarde in iste tutorial."
       profile1: "Ante de facer altere cosa, prende un minuta pro completar tu profilo. Sur le schermo in que tu arriva, clicca sur tu nomine al latere dextra del barra superior nigre, e selige <span class=\"click\">Profilo</span> del lista disrolante. Postea clicca sur le button blau <span class=\"click\">Modificar mi profilo</span> in le angulo dextre superior."
       profile2: "Tu profilo es dividite in duo partes: public e private. Le profilo public es visibile a tote le mundo; le profilo private es visibile solmente al personas con qui tu lo ha dividite. Tu pote completar si multo o si pauco de tu profilo como tu vole, e il non es obligatori usar tu nomine real."
-      profile3: "Le major parte del campos de information de profilo es obvie. NSFW significa \"not safe for work\", non secur pro le empleo. Nos explicara isto in detalio in %{part7_link}, dunque non preoccupa te de isto pro le momento."
+      profile3: "Le major parte del campos de information de profilo es obvie. NSFW significa \"not safe for work\", non secur pro le empleo. Nos explicara isto in detalio in %{part_link}, dunque non preoccupa te de isto pro le momento."
       profile4: "Non oblida de cliccar sur le button <span class=\"click\">Actualisar</span> quando tu ha finite!"
       finish: "Es toto!"
       finish_ex1: "Tu es toto preste pro comenciar a usar diaspora*! Clicca sur le logo de asterisco o <span class=\"click\">Fluxo</span> in le parte superior al sinistra del schermo pro comenciar."
-      finish_ex2: "Si tu vole que le communitate de diaspora* te da le benvenita, e si tu te senti satis confidente, scribe ora un entrata <strong>public</strong> pro introducer te, includente le etiquetta <span class=\"click\">#newhere</span>. Scriber messages public con etiquettas es un optime maniera de cognoscer nove amicos in diaspora*. Si tu non es secur de voler facer isto ora, non te inquieta; nos te accompaniara passo a passo per tu prime message in %{part5_link}."
+      finish_ex2: "Si tu vole que le communitate de diaspora* te da le benvenita, e si tu te senti satis confidente, scribe ora un entrata <strong>public</strong> pro introducer te, includente le etiquetta <span class=\"click\">#newhere</span>. Scriber messages public con etiquettas es un optime maniera de cognoscer nove amicos in diaspora*. Si tu non es secur de voler facer isto ora, non te inquieta; nos te accompaniara passo a passo per tu prime message in %{part_link}."
     getting_started2:
       byline: "Parte 2 - Le interfacie"
       menu_title: "Usar le interfacie"
@@ -311,7 +311,7 @@ ia:
       interface_mobile_old: ~
       columns: "Infra le barra superior il ha tres columnas:"
       column1: "Al sinistra se trova le photo e nomine de tu profilo, e postea le ligamines al differente vistas de contento disponibile in diaspora*: <span class=\"click\">Mi activitate</span>, <span class=\"click\">Fluxo</span>, <span class=\"click\">@Mentiones</span>, <span class=\"click\">Mi aspectos</span> e <span class=\"click\">#Etiquettas sequite</span>. Nos explica istes postea."
-      column2: "Le columna central contine le fluxo de contento con un quadro pro scriber un nove entrata in le parte superior. Nos explica istes in %{part5_link}."
+      column2: "Le columna central contine le fluxo de contento con un quadro pro scriber un nove entrata in le parte superior. Nos explica istes in %{part_link}."
       stream_mobile: ~
       views: "Le differente vistas disponibile in diaspora* es:"
       stream: "Le fluxo"
@@ -325,12 +325,12 @@ ia:
       activity_ex: "Le fluxo “Mi activitate” monstra omne entratas que tu ha appreciate o commentate. Isto es un maniera utile de tener te al currente con tote le interactiones que tu ha interprendite in diaspora*. Le entratas in “Mi activitate” es ordinate secundo le ultime activitate (commento o appreciation) in cata entrata."
       activity_ex2: ~
       mentions: "@Mentiones"
-      mentions_ex: "Isto monstra tote le entratas facite per altere personas que te @mentiona. Nos explica le mentiones in %{part4_link}."
+      mentions_ex: "Isto monstra tote le entratas facite per altere personas que te @mentiona. Nos explica le mentiones in %{part_link}."
       aspects: "Mi aspectos"
       aspects_ex1: "“Mi aspectos” monstra tote le entratas facite per tote le personas con qui tu divide cosas – isto vole dicer: le personas que tu ha addite a tu aspectos. Non te inquieta si tu non sape lo que un aspecto es; nos explica isto in detalio in le parte sequente."
       aspects_ex2: "Clicca sur <span class=\"click\">Mi aspectos</span> pro vider le lista de tu aspectos. Tu pote vider entratas facite in tote le aspectos, o in solmente un o plure aspectos particular, per marcar e dismarcar los in le columna al sinistra."
       tags: "#Etiquettas sequite"
-      tags_ex1: "Iste vista monstra tote le entratas disponibile (entratas public e entratas limitate que ha essite inviate a aspectos a que tu ha essite addite) que contine etiquettas que tu seque. Nos examina le etiquettas in detalio in %{part5_link}."
+      tags_ex1: "Iste vista monstra tote le entratas disponibile (entratas public e entratas limitate que ha essite inviate a aspectos a que tu ha essite addite) que contine etiquettas que tu seque. Nos examina le etiquettas in detalio in %{part_link}."
       tags_ex2: "Clicca sur <span class=\"click\">#Etiquettas sequite</span> pro vider le lista de tu etiquettas. Como in “Mi aspectos”, tu pote filtrar iste fluxo pro monstrar entratas continente un o plure etiquettas per marcar e dismarcar los in le columna al sinistra."
       public: ~
       public_ex: ~
@@ -341,7 +341,7 @@ ia:
       spv: ~
       spv_ex: ~
       profile: "Vista de profilo"
-      profile_ex1: "Un clic sur tu nomine o photo de profilo, non importa ubi tu lo vide, te porta a tu pagina de profilo. Iste te monstra tote le entratas que tu ha scribite in diaspora*. Illo anque monstra tu photo de profilo, pseudonymo, le etiquettas “a proposito de me” e tu ID de diaspora* (explicate sub “Registration” in %{part1_link})."
+      profile_ex1: "Un clic sur tu nomine o photo de profilo, non importa ubi tu lo vide, te porta a tu pagina de profilo. Iste te monstra tote le entratas que tu ha scribite in diaspora*. Illo anque monstra tu photo de profilo, pseudonymo, le etiquettas “a proposito de me” e tu ID de diaspora* (explicate sub “Registration” in %{part_link})."
       profile_ex2: "Infra tu photo de profilo se trova omne information de profilo private que tu ha addite, como le data de nascentia, position geographic, sexo, biographia, et cetera."
       profile_ex3: "Clicca sur le button blau <span class=\"click\">Modificar mi profilo</span> si tu vole cambiar alcun information de tu profilo."
       profile_ex3_mobile: ~

@@ -281,7 +281,7 @@ es:
       profile4: "¡No olvides hacer clic en el botón de <span class=\"click\">Actualizar</span> cuando hayas terminado!"
       finish: "¡Eso es todo!"
       finish_ex1: ~
-      finish_ex2: "Si quieres conocer ser recibido por la comunidad de diaspora*, y te sientes con suficiente confianza, haz ahora un post <strong>público</strong> para presentarte e incluye el tag <span class=\"click\">#nuevoaquí</span>. Hacer post públicos que contengan tags es una muy buena manera de hacer amigos en diaspora*. Si no estás seguro sobre hacer esto ahora, no te preocupes. En %{part5_link} nosotros te ayudaremos en cada paso de tu primer post."
+      finish_ex2: "Si quieres conocer ser recibido por la comunidad de diaspora*, y te sientes con suficiente confianza, haz ahora un post <strong>público</strong> para presentarte e incluye el tag <span class=\"click\">#nuevoaquí</span>. Hacer post públicos que contengan tags es una muy buena manera de hacer amigos en diaspora*. Si no estás seguro sobre hacer esto ahora, no te preocupes. En %{part_link} nosotros te ayudaremos en cada paso de tu primer post."
     getting_started2:
       byline: "Parte 2 -- La interfaz"
       menu_title: "Usando la interfaz"

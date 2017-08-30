@@ -311,7 +311,7 @@ pl:
       interface_mobile_old: ~
       columns: "Pod nagłówkiem znajdują się trzy kolumny:"
       column1: ~
-      column2: "Środkowa kolumna zawiera strumień treści z oknem \"publikacji\" na górze. Zajmiemy się tym w %{part5_link}."
+      column2: "Środkowa kolumna zawiera strumień treści z oknem \"publikacji\" na górze. Zajmiemy się tym w %{part_link}."
       stream_mobile: ~
       views: "Różne widoki dostępne w diasporze* to:"
       stream: Strumień
@@ -325,7 +325,7 @@ pl:
       activity_ex: ~
       activity_ex2: ~
       mentions: "@Wzmianki"
-      mentions_ex: "Te listy wpisów utworzonych przez inne osoby @wspominające o Tobie. Przedyskutujemy wzmianki w %{part4_link}."
+      mentions_ex: "Te listy wpisów utworzonych przez inne osoby @wspominające o Tobie. Przedyskutujemy wzmianki w %{part_link}."
       aspects: "Moje aspekty"
       aspects_ex1: ~
       aspects_ex2: ~
@@ -479,7 +479,7 @@ pl:
       connected: "Połączone usługi"
       connected_ex1: ~
       connected_ex2: ~
-      connected_ex3: "Przyjrzymy się jak połączyć się z innymi usługami w %{part7_link}."
+      connected_ex3: "Przyjrzymy się jak połączyć się z innymi usługami w %{part_link}."
       preview: ~
       preview_ex1: ~
       buttons_finish: ~

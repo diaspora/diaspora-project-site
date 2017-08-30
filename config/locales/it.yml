@@ -270,7 +270,7 @@ it:
       registration1: "Una volta che avete scelto una spora, trova il collegamento <span class=\"click\">Iscriviti</span>. Dovrebbe essere proprio lì sulla pagina iniziale della spora. Se non vi è alcun collegamento \"iscriversi\", potrebbe essere che questa particolare spora al momento non accetti nuove iscrizioni. È possibile controllare questo visitando la pagina delle statistiche della spora (aggiungere <code>/statistiche</code> al nome di dominio della spora nella barra degli indirizzi URL). Se le iscrizioni sono chiuse su questa spora, è necessario sceglierne un'altra."
       registration2: "Quando si fa click sul collegamento di iscrizione ti verrà presentata una pagina in cui è necessario inserire un nome utente, l'indirizzo e-mail e una password. Pensa attentamente al momento di scegliere il tuo nome utente in quanto non sarai più in grado di cambiarlo una volta che è stato creato."
       registration3: "Finisci la registrazione facendo click su <span class=\"click\">Continua</span> per creare e accedere al tuo nuovo seme diaspora*!"
-      registration4: "Durante il processo di registrazione il tuo seme sarà probabilmente collegato automaticamente ad un altro seme. Questo di solito è il nostro seme %{dhq_link}, ma può essere un seme gestito dall'amministratore della vostra spora. È così che possiamo tenervi aggiornati con importanti annunci su diaspora*. Se, invece, si preferisce non seguire questo seme, puoi facilmente rimuoverlo dalla lista dei contatti. Ti spieghiamo come farlo qui: %{part4_link}."
+      registration4: "Durante il processo di registrazione il tuo seme sarà probabilmente collegato automaticamente ad un altro seme. Questo di solito è il nostro seme %{dhq_link}, ma può essere un seme gestito dall'amministratore della vostra spora. È così che possiamo tenervi aggiornati con importanti annunci su diaspora*. Se, invece, si preferisce non seguire questo seme, puoi facilmente rimuoverlo dalla lista dei contatti. Ti spieghiamo come farlo qui: %{part_link}."
       dhq_link_text: "diaspora* HQ"
       registration5: "Ti dovrebbe ora apparire una pagina \"Per iniziare\". Non è necessario compilare alcuna delle informazioni contenute, ma accedere a questa pagina ti aiuterà a iniziare a connetterti con altre persone."
       registration6: "Inserisci il nome che desideri visualizzare sulla schermata in primo piano."
@@ -334,7 +334,7 @@ it:
       aspects_ex1: "“I miei gruppi” espone tutti i post inviati da tutte le persone con cui si condivide - cioè le persone che hai inserito nei gruppi. Non preoccuparti se ancora non sai che cosa sia un gruppo - te lo spieghiamo in dettaglio nella prossima parte."
       aspects_ex2: "Fai click su <span class=\"click\">I miei gruppi</span> nel menu per visualizzare l'elenco dei tuoi gruppi. È possibile visualizzare i post inviati a tutti i gruppi, o solo ad uno o più gruppi personali, selezionandoli e deselezionandoli dalla lista dei gruppi del menu."
       tags: "#Tag seguiti"
-      tags_ex1: "Questa visualizzazione mostra tutti i posti disponibili (post pubblici e post con accesso limitato organizzati per gruppo) contenenti i tag che segui. Vedremo i tag più in dettaglio nel %{part5_link}."
+      tags_ex1: "Questa visualizzazione mostra tutti i posti disponibili (post pubblici e post con accesso limitato organizzati per gruppo) contenenti i tag che segui. Vedremo i tag più in dettaglio nel %{part_link}."
       tags_ex2: ~
       public: ~
       public_ex: ~

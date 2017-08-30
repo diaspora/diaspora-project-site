@@ -266,7 +266,7 @@ bg:
       registration1: ~
       registration2: ~
       registration3: ~
-      registration4: "диаспора* %{dhq_link} %{part4_link}"
+      registration4: "диаспора* %{dhq_link} %{part_link}"
       dhq_link_text: "диаспора* HQ"
       registration5: ~
       registration6: ~
@@ -279,7 +279,7 @@ bg:
       profile4: ~
       finish: "Това е!"
       finish_ex1: ~
-      finish_ex2: "диаспора* %{part5_link}"
+      finish_ex2: "диаспора* %{part_link}"
     getting_started2:
       byline: "Част 2 – Интерфейсът"
       menu_title: "Използване на интерфейса"
@@ -325,7 +325,7 @@ bg:
       activity_ex: диаспора*
       activity_ex2: ~
       mentions: Споменавки
-      mentions_ex: "@Споменавки %{part4_link}"
+      mentions_ex: "@Споменавки %{part_link}"
       aspects: "Моите Аспекти"
       aspects_ex1: ~
       aspects_ex2: ~
@@ -341,7 +341,7 @@ bg:
       spv: ~
       spv_ex: ~
       profile: "Профил оглед"
-      profile_ex1: "диаспора* %{part1_link}"
+      profile_ex1: "диаспора* %{part_link}"
       profile_ex2: ~
       profile_ex3: ~
       profile_ex3_mobile: ~
@@ -386,7 +386,7 @@ bg:
       add_aspect6: ~
       add_aspect7: ~
       contacts: "Контакти страница"
-      contact_ex1: "@Споменавки %{part2_link}"
+      contact_ex1: "@Споменавки %{part_link}"
       contact_ex3: ~
       contact_ex4: ~
       contact_ex5: ~
@@ -446,7 +446,7 @@ bg:
       byline: "Част 5 –  Започни да споделяваш"
       menu_title: "Хайде, Споделайте!"
       intro1: ~
-      intro2: "диаспора* %{part6_link}"
+      intro2: "диаспора* %{part_link}"
       publisher: Издателят
       publisher_ex1: диаспора*
       publisher_ex2: ~

@@ -303,7 +303,7 @@ fi:
       header_streams: ~
       header_dropdown: ~
       header_profile: ~
-      header_contacts: "linkki yhteystiedot-listaan (katso %{part4_link});"
+      header_contacts: "linkki yhteystiedot-listaan (katso %{part_link});"
       header_settings: ~
       header_help: ~
       header_toggle: ~
