@@ -21,8 +21,8 @@
         <div align="center"><%= image_tag 'pages/getting_started/interface/header_mobile.png', class: 'img-responsive' %></div>
         <ol>
           <li><%= t('pages.getting_started2.header_asterisk').html_safe %></li>
-          <li><%= t('pages.getting_started2.header_notify', part6_link: link_to(t('pages.tutorials.part6'), conversations_path)).html_safe %></li>
-          <li><%= t('pages.getting_started2.header_conversations', part6_link: link_to(t('pages.tutorials.part6'), conversations_path)).html_safe %></li>
+          <li><%= t('pages.getting_started2.header_notify', part_link: link_to(t('pages.tutorials.part6'), conversations_path)).html_safe %></li>
+          <li><%= t('pages.getting_started2.header_conversations', part_link: link_to(t('pages.tutorials.part6'), conversations_path)).html_safe %></li>
           <li><%= t('pages.getting_started2.header_newpost').html_safe %></li>
           <li><%= t('pages.getting_started2.header_drawer').html_safe %></li>
         </ol>
@@ -33,11 +33,11 @@
           </div>
           <div class="col-md-8">
 	        <ol start ="6">
-    	      <li><%= t('pages.getting_started2.header_search', part4_link: link_to(t('pages.tutorials.part4'), connecting_path)).html_safe %></li>
+    	      <li><%= t('pages.getting_started2.header_search', part_link: link_to(t('pages.tutorials.part4'), connecting_path)).html_safe %></li>
         	  <li><%= t('pages.getting_started2.header_streams').html_safe %></li>
-        	  <li><%= t('pages.getting_started2.header_profile', part1_link: link_to(t('pages.tutorials.part1'), sign_up_path)).html_safe %></li>
-	          <li><%= t('pages.getting_started2.header_contacts', part4_link: link_to(t('pages.tutorials.part4'), connecting_path)).html_safe %></li>
-    	      <li><%= t('pages.getting_started2.header_settings', part7_link: link_to(t('pages.tutorials.part7'), finishing_path)).html_safe %></li>
+        	  <li><%= t('pages.getting_started2.header_profile', part_link: link_to(t('pages.tutorials.part1'), sign_up_path)).html_safe %></li>
+	          <li><%= t('pages.getting_started2.header_contacts', part_link: link_to(t('pages.tutorials.part4'), connecting_path)).html_safe %></li>
+    	      <li><%= t('pages.getting_started2.header_settings', part_link: link_to(t('pages.tutorials.part7'), finishing_path)).html_safe %></li>
 	          <li><%= t('pages.getting_started2.header_toggle').html_safe %></li>
     	      <li><%= t('pages.getting_started2.header_logout').html_safe %></li> 
 	        </ol>
@@ -57,7 +57,7 @@
                 <li><%= t('pages.getting_started2.stream_contents1').html_safe %></li>
                 <li><%= t('pages.getting_started2.stream_contents2').html_safe %></li>
                 <li><%= t('pages.getting_started2.stream_contents3').html_safe %></li>
-                <li><%= t('pages.getting_started2.stream_contents4', part7_link: link_to(t('pages.tutorials.part7'), finishing_path)).html_safe %></li>
+                <li><%= t('pages.getting_started2.stream_contents4', part_link: link_to(t('pages.tutorials.part7'), finishing_path)).html_safe %></li>
             </ol>
         <p><%= t 'pages.getting_started2.stream_ex2' %></p>
 
@@ -65,14 +65,14 @@
         <p><%= t('pages.getting_started2.activity_ex').html_safe %></p>
 
         <h4><%= t 'pages.getting_started2.mentions' %></h4>
-        <p><%= t('pages.getting_started2.mentions_ex', part4_link: link_to(t('pages.tutorials.part4'), connecting_path)).html_safe %></p>
+        <p><%= t('pages.getting_started2.mentions_ex', part_link: link_to(t('pages.tutorials.part4'), connecting_path)).html_safe %></p>
 
         <h4><%= t 'pages.getting_started2.aspects' %></h4>
         <p><%= t('pages.getting_started2.aspects_ex1').html_safe %></p>
         <p><%= t('pages.getting_started2.aspects_ex2').html_safe %></p>
 
         <h4><%= t 'pages.getting_started2.tags' %></h4>
-        <p><%= t('pages.getting_started2.tags_ex1', part5_link: link_to(t('pages.tutorials.part5'), sharing_path)).html_safe %></p>
+        <p><%= t('pages.getting_started2.tags_ex1', part_link: link_to(t('pages.tutorials.part5'), sharing_path)).html_safe %></p>
         <p><%= t('pages.getting_started2.tags_ex2').html_safe %></p>
 
         <h4><%= t 'pages.getting_started2.public' %></h4>
@@ -94,7 +94,7 @@
         <p><%= t('pages.getting_started2.profile_ex6').html_safe %></p>
         
         <h4><%= t 'pages.getting_started2.themes' %></h4>
-        <p><%= t('pages.getting_started2.themes_ex1', part7_link: link_to(t('pages.tutorials.part7'), finishing_path)).html_safe %></p>
+        <p><%= t('pages.getting_started2.themes_ex1', part_link: link_to(t('pages.tutorials.part7'), finishing_path)).html_safe %></p>
         <ul>
           <li><%= t('pages.getting_started2.themes_list1').html_safe %></li>
           <li><%= t('pages.getting_started2.themes_list2').html_safe %></li>

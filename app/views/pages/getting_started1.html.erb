@@ -14,7 +14,7 @@
       <p class="more-info"><%= t '.welcome' %></p>
       
       <h3><%= t '.find_pod' %></h3>
-      <p class="more-info"><%= t('.find_pod_intro', part2_link: link_to(t('pages.tutorials.part2'), interface_path)).html_safe %></p>
+      <p class="more-info"><%= t('.find_pod_intro', part_link: link_to(t('pages.tutorials.part2'), interface_path)).html_safe %></p>
       <p><%= t('.find_pod_ex1').html_safe %></p>
       <p class="more-info"><%= t('.find_pod_ex2').html_safe %></p>
       <p><%= t('.find_pod_ex3', wiki_link: link_to(t('.wiki_link_text'), "https://wiki.diasporafoundation.org/Choosing_a_pod")).html_safe %></p>
@@ -30,8 +30,8 @@
       <p><%= t('.registration3').html_safe %></p>
       <p class="more-info">
         <%= t('.registration4',
-              dhq_link: link_to(t('.dhq_link_text'), 'http://dia.so/diasporahq'),
-              part4_link: link_to(t('pages.tutorials.part4'), connecting_path)
+              dhq_link: link_to(t('.dhq_link_text'), 'https://dia.so/diasporahq'),
+              part_link: link_to(t('pages.tutorials.part4'), connecting_path)
         ).html_safe %>
       </p>
 
@@ -58,12 +58,12 @@
         </div>
       </div>
 
-      <p><%= t('.profile3', part7_link: link_to(t('pages.tutorials.part7'), finishing_path)).html_safe %></p>
+      <p><%= t('.profile3', part_link: link_to(t('pages.tutorials.part7'), finishing_path)).html_safe %></p>
       <p><%= t('.profile4').html_safe %></p>
 
       <h3><%= t '.finish' %></h3>
       <p><%= t('.finish_ex1').html_safe %></p>
-      <p class="more-info"><%= t('.finish_ex2', part5_link: link_to(t('pages.tutorials.part5'), sharing_path)).html_safe  %></p>
+      <p class="more-info"><%= t('.finish_ex2', part_link: link_to(t('pages.tutorials.part5'), sharing_path)).html_safe  %></p>
 
       <p class="text-center minor-top-spacing"><%= link_to t('pages.getting_started2.byline'), interface_url %></p>
     </div>
