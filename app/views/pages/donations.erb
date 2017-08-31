@@ -1,0 +1,31 @@
+<% content_for :page_title, t('.menu_title') %>
+<% content_for :wrapper_class, 'index-page' %>
+
+<div id="masthead" class="hero">
+  <div class="container">
+    <h1><%= t '.headline' %></h1>
+    <h2 class="lead"><%= t '.byline' %></h2>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="page-header">
+        <h3><%= t '.help_your_podmin' %></h3>
+      </div>
+      <p><%= t '.help_your_podmin_details' %></p>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div id="donating" class="page-header">
+        <h3><%= t '.help_development' %></h3>
+      </div>
+      <p><%= t '.help_development_details' %></p>
+      <p><%= t('.bountysource_details', bountysource: link_to('Bountysource', 'https://www.bountysource.com/teams/diaspora'), bountysource_team_link: link_to(t('.bountysource_team_link_text'), 'https://www.bountysource.com/teams/diaspora')).html_safe %></p>
+      <p><%= t('.bountysource_more_info', bountysource_blogpost_link: link_to(t('.bountysource_blogpost_link_text'), 'https://blog.diasporafoundation.org/14-support-diaspora-development-via-bountysource')).html_safe %></p>
+      <p><%= t('.direct_donation', direct_donation_link: link_to(t('.direct_donation_link_text'), 'https://wiki.diasporafoundation.org/Donations#Directly_to_developers')).html_safe %></p>
+  </div>
+</div>

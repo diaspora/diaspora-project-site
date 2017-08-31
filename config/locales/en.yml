@@ -25,6 +25,7 @@ en:
       irc_development: "IRC - Development"
       discussion_general: "Discussion & support"
       discussion_development: "Discussion - Development"
+      donations: "Donations"
       choose_language: "Choose language"
       translate: "Add a translation"
       cc_license_alt: "Creative Commons License"
@@ -132,6 +133,20 @@ en:
       reshare_alt: Reshare
       mention_alt: Mention
       heart_alt: Heart
+    donations:
+      menu_title: "Donations"
+      headline: "Donate to diaspora*"
+      byline: "And help the network to grow!"
+      help_your_podmin: "Support the network by donating to your podmin"
+      help_your_podmin_details: "The administrators of the “pods” that make up the network are the people who bring diaspora* to life. But running a pod costs money. To help your podmin keep the server running and performing well, you can send them some money. Look for a “Donate” section in the left-hand column of the main stream. If your podmin has enabled payments through the app, you’ll find a list of the payment systems accepted by your podmin (Paypal, Liberapay and bitcoin are supported)."
+      help_development: "Help diaspora*’s development"
+      help_development_details: "diaspora* is developed by volunteers, but you can support their work by making donations in one of two ways:"
+      bountysource_details: "You can make donations towards individual tasks (GitHub issues) using %{bountysource}, for example to fix a bug that’s annoying you or to build a feature you would really like to see in diaspora*. When a developer completes a task and their work has been accepted by the diaspora* core team, they then get the money (the “bounty”) attached to that issue. This means that you can be a part of the development of diaspora* even if you don’t write code! Of course, if you want to support development but don’t have a specific issue in mind, you can give money to directly %{bountysource_team_link} and we will attach it ourselves depending on our priorities."
+      bountysource_team_link_text: "the diaspora* team"
+      bountysource_more_info: "See %{bountysource_blogpost_link} for more about how you can use Bountysource to support our development."
+      bountysource_blogpost_link_text: "this blog post"
+      direct_donation: "You can also support individual developers, some of whom do a lot of work towards improving diaspora* but don’t always work on open GitHub issues and so who would’t benefit from support via Bountysource. If you’re interesting in supporting the project this way, have a look at our wiki article on %{direct_donation_link}."
+      direct_donation_link_text: "how to directly support our developers"
     get_involved:
       headline: "Get involved!"
       byline: "The future of the social web starts with you"
