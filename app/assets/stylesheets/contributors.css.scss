@@ -1,0 +1,19 @@
+.contributors {
+
+  .col-md-4 {
+    margin-bottom: 5rem;
+    .img-circle {
+      box-shadow: 0 0 2px black;
+    }
+  }
+
+  .services a {
+    display: inline-block;
+    padding: 5px;
+    border-bottom: 1px solid #fff;
+
+    &:hover {
+      border-bottom: 1px solid #ccc;
+    }
+  }
+}

@@ -25,6 +25,7 @@ en:
       irc_development: "IRC - Development"
       discussion_general: "Discussion & support"
       discussion_development: "Discussion - Development"
+      contributors: "Contributors"
       choose_language: "Choose language"
       translate: "Add a translation"
       cc_license_alt: "Creative Commons License"
@@ -132,6 +133,18 @@ en:
       reshare_alt: Reshare
       mention_alt: Mention
       heart_alt: Heart
+    contributors:
+      menu_title: "Contributors"
+      headline: "Contributors"
+      byline: "Community heroes"
+      intro: "diaspora* is made, built, managed and promoted only by its community. Discover some of the volunteers who are contributing to the project. And you're welcome to %{join_us}!"
+      join_us: "join us"
+      contacting: "Please note that if you want a quick answer, you should not contact these persons directly. See %{how_we_communicate} to communicate with us."
+      how_we_communicate_link: "the official ways"
+      you: "You?"
+      you_join: "Come and %{join_us}!"
+      github_profile: "Github profile"
+      diaspora_profile: "diaspora* profile"
     get_involved:
       headline: "Get involved!"
       byline: "The future of the social web starts with you"

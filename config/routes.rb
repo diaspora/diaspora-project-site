@@ -6,6 +6,7 @@ DiasporaProjectSite::Application.routes.draw do
   constraints subdomain: /^(|www)$/i do
     controller :pages do
       get :about
+      get :contributors
       get :formatting
       get :get_involved
       get :other_docs

@@ -1,0 +1,134 @@
+<% content_for :page_title, t('.menu_title') %>
+<% content_for :wrapper_class, 'index-page' %>
+
+<div id="masthead" class="hero">
+  <div class="container">
+    <h1><%= t '.headline' %></h1>
+    <h2 class="lead"><%= t '.byline' %></h2>
+  </div>
+</div>
+<div class="container contributors">
+  <div class="row minor-top-spacing">
+    <div class="col-md-12">
+      <p><%= t('.intro', join_us: link_to(t('pages.contributors.join_us'), "https://wiki.diasporafoundation.org/Getting_started_with_contributing")).html_safe %></p>
+      <p><%= t('.contacting', how_we_communicate: link_to(t('.how_we_communicate_link'), "https://wiki.diasporafoundation.org/How_we_communicate")).html_safe %></p>
+    </div>
+  </div>
+  <div class="row minor-top-spacing text-center">
+    <div class="col-md-4">
+      <p>
+        <%= image_tag 'pages/contributors/denschub.jpg', class: 'img-responsive img-circle center-block' %>
+      </p>
+      <h4>
+        Dennis Schubert
+      </h4>
+      <p>
+        denschub@pod.geraspora.de
+      </p>
+      <p class="services">
+        <%= link_to(image_tag('pages/contributors/services/diaspora.png'), "https://pod.geraspora.de/u/denschub", title: t('.diaspora_profile')) %>
+        <%= link_to(image_tag('pages/contributors/services/github.png'), "https://github.com/denschub", title: t('.github_profile')) %>
+      </p>
+    </div>
+    <div class="col-md-4">
+      <%= image_tag 'pages/contributors/supertux.jpg', class: 'img-responsive img-circle center-block' %>
+      <h4>
+        Benjamin Neff
+      </h4>
+      <p>
+        supertux@nerdpol.ch
+      </p>
+      <p class="services">
+        <%= link_to(image_tag('pages/contributors/services/diaspora.png'), "https://nerdpol.ch/u/supertux", title: t('.diaspora_profile')) %>
+        <%= link_to(image_tag('pages/contributors/services/github.png'), "https://github.com/supertux88", title: t('.github_profile')) %>
+      </p>
+    </div>
+    <div class="col-md-4">
+      <%= image_tag 'pages/contributors/jhass.jpg', class: 'img-responsive img-circle center-block' %>
+      <h4>
+        Jonne Haß
+      </h4>
+      <p>
+        mrzyx@social.mrzyx.de
+      </p>
+      <p class="services">
+        <%= link_to(image_tag('pages/contributors/services/diaspora.png'), "https://social.mrzyx.de/u/mrzyx", title: t('.diaspora_profile')) %>
+        <%= link_to(image_tag('pages/contributors/services/github.png'), "https://github.com/jhass/", title: t('.github_profile')) %>
+      </p>
+    </div>
+    <div class="col-md-4">
+      <%= image_tag 'pages/contributors/svbergerem.jpg', class: 'img-responsive img-circle center-block' %>
+      <h4>
+        Steffen Van Bergerem
+      </h4>
+      <p>
+         svbergerem@pod.omgsrsly.net
+      </p>
+      <p class="services">
+        <%= link_to(image_tag('pages/contributors/services/diaspora.png'), "https://pod.omgsrsly.net/svbergerem", title: t('.diaspora_profile')) %>
+        <%= link_to(image_tag('pages/contributors/services/github.png'), "https://github.com/svbergerem", title: t('.github_profile')) %>
+      </p>
+    </div>
+    <div class="col-md-4">
+      <%= image_tag 'pages/contributors/senya.jpg', class: 'img-responsive img-circle center-block' %>
+      <h4>
+        Senya
+      </h4>
+      <p>
+        senya@socializer.cc
+      </p>
+      <p class="services">
+        <%= link_to(image_tag('pages/contributors/services/diaspora.png'), "https://socializer.cc/u/senya", title: t('.diaspora_profile')) %>
+        <%= link_to(image_tag('pages/contributors/services/github.png'), "https://github.com/cmrd-senya", title: t('.github_profile')) %>
+      </p>
+    </div>
+    <div class="col-md-4">
+      <%= image_tag 'pages/contributors/fla.jpg', class: 'img-responsive img-circle center-block' %>
+      <h4>
+        Fla
+      </h4>
+      <p>
+        fla@diaspora-fr.org
+      </p>
+      <p class="services">
+        <%= link_to(image_tag('pages/contributors/services/diaspora.png'), "https://diaspora-fr.org/u/fla", title: t('.diaspora_profile')) %>
+        <%= link_to(image_tag('pages/contributors/services/github.png'), "https://github.com/flaburgan", title: t('.github_profile')) %>
+      </p>
+    </div>
+    <div class="col-md-4">
+      <%= image_tag 'pages/contributors/goob.jpg', class: 'img-responsive img-circle center-block' %>
+      <h4>
+        Goob
+      </h4>
+      <p>
+        goob@pod.orkz.net
+      </p>
+      <p class="services">
+        <%= link_to(image_tag('pages/contributors/services/diaspora.png'), "https://pod.orkz.net/u/goob", title: t('.diaspora_profile')) %>
+        <%= link_to(image_tag('pages/contributors/services/github.png'), "https://github.com/goobertron ", title: t('.github_profile')) %>
+      </p>
+    </div>
+    <div class="col-md-4">
+      <%= image_tag 'pages/contributors/waithamai.jpg', class: 'img-responsive img-circle center-block' %>
+      <h4>
+        Waithamai Dragonqueen
+      </h4>
+      <p>
+        waithamai@pod.geraspora.de
+      </p>
+      <p class="services">
+        <%= link_to(image_tag('pages/contributors/services/diaspora.png'), "https://pod.geraspora.de/u/waithamai", title: t('.diaspora_profile')) %>
+        <%= link_to(image_tag('pages/contributors/services/github.png'), "https://github.com/waithamai", title: t('.github_profile')) %>
+      </p>
+    </div>
+    <div class="col-md-4">
+      <%= image_tag 'pages/contributors/you.jpg', class: 'img-responsive img-circle center-block', alt: t('.you') %>
+      <h4>
+        <%= t '.you' =%>
+      </h4>
+      <p>
+        <%= t('.you_join', join_us: link_to(t('pages.contributors.join_us'), "https://wiki.diasporafoundation.org/Getting_started_with_contributing")).html_safe %>
+      </p>
+    </div>
+  </div>
+</div>
