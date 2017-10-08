@@ -221,7 +221,6 @@ en:
       howto_troll: "Don’t troll, post insulting or derogatory comments, or attack other community members."
       howto_harassment: "Don’t harass people, either in public or in private!"
       howto_benefit_of_doubt: "Give people the benefit of the doubt. You might be wrongly interpreting what they have said."
-
     tutorials:
       headline: "diaspora* tutorials"
       byline: "Step-by-step guides to help you"
@@ -356,9 +355,9 @@ en:
       themes_list1: "<strong>Original gray</strong>: this is the default diaspora* theme"
       themes_list2: "<strong>Original white background</strong>: the default theme, but with a white background. This looks more like the “old-school” diaspora* interface"
       themes_list3: "<strong>Dark green</strong>"
-      themes_list4: "<strong>Magenta</strong>"
+      themes_list4: <strong>Magenta</strong>
       themes_list5: "<strong>Egyptian blue</strong>"
-      themes_list6: "<strong>Dark</strong>"
+      themes_list6: <strong>Dark</strong>
       themes_ex2: "Your pod might have created some custom themes. If so, they’ll show up in the list along with our default themes."
       finish: "That’s all you need to know about the interface for now. The first thing you will want to do is finding some people to start sharing with. However, before we get to that, let’s focus on something that features prominently throughout diaspora*: <strong>aspects</strong>."
       finish_mobile: "Note: the rest of this tutorial series shows screenshots from the desktop interface to illustrate the features in diaspora*. Some features are not yet available in the mobile interface. When this is the case, you’ll need to click <span class=\"click\">Toggle mobile</span> in the drawer in order to be able to use this feature. We’re sure you’ll be able to work out where the differences are – it’s not difficult!"
@@ -456,14 +455,14 @@ en:
       buttons: "OK, so what are those buttons all about?"
       top_buttons: "Text formatting"
       top_buttons_ex1: "Above the publisher window you’ll see two tabs and a row of buttons. The tabs display your raw message text and a preview of how your finished message will look. The buttons are there to help you format your text and add other things to your message:"
-      top_buttons_list1: "Bold"
-      top_buttons_list2: "Italic"
-      top_buttons_list3: "Heading"
-      top_buttons_list4: "Link"
-      top_buttons_list5: "Image"
+      top_buttons_list1: Bold
+      top_buttons_list2: Italic
+      top_buttons_list3: Heading
+      top_buttons_list4: Link
+      top_buttons_list5: Image
       top_buttons_list6: "Bulleted list"
       top_buttons_list7: "Numbered list"
-      top_buttons_list8: "Code"
+      top_buttons_list8: Code
       top_buttons_list9: "Quoted text"
       aspect_selector: "Aspect selector button"
       aspect_selector_ex1: "This button is how you select who will be able to read your post. It is set to “All aspects” by default: that is, everyone you have added to one of your aspects will be able to read the message, but no one else will be. In the simple message you just sent, because you wanted it visible just to your followers and the default is “All aspects,” there was no need to change any settings before sharing your message."
@@ -498,15 +497,14 @@ en:
       format_ex1: "There’s a lot you can do to make your text more varied: bold, italics, large headings and so on. Most of this formatting can be done using the buttons above the publisher – you don’t need to worry about that messy code."
       format_ex2: "To add <em>italic</em>, <strong>bold</strong>, or inline code, highlight the text you want to format and click the relevant button from the row above the publisher window. The Markdown code for this formatting will be placed around this portion of text."
       format_ex3: "To create a heading, list or quotation, place your cursor on the line you want to format, and press the relevant button."
-      links: "Links"
+      links: Links
       links_ex1: "Want to include a link in your post? Just click the <span class=\"click\">link</span> button and paste the link URL into the pop-up which appears. This will enter the URL into your post, wrapped in Markdown link code. Type the text you want to appear in your message over the highlighted text in square brackets."
       links_ex2: "If you want to include a bare link into your message, simply paste the URL into the publisher and it will automatically be converted into an inline link. You don’t need to use Markdown unless you want the link to look fancy!"
-      images: "Images"
+      images: Images
       images_ex1: "Embedding an image from the web into your message is similar to including a link. Click the <span class=\"click\">image</span> button above the publisher window, and paste the URL of the image into the pop-up which appears.  This will enter the URL into your post, wrapped in Markdown image code. Type some “alt text” (the text you want to appear in your message if the image can’t be displayed) over the highlighted text in square brackets. You can also add an optional title, which will be displayed as a tool-tip when the cursor is moved over the image."
       images_ex2: "Note: For this to work, you must provide a direct link to a valid image file (ending in .jpg, .gif, .png or similar), <em>not</em> to a web page with an image or images on it."
       format_note: "diaspora* uses a simple mark-up system called Markdown. If you want to do anything not covered by the formatting buttons, you can find more about how to use Markdown in %{format_link}."
       format_link_text: "this tutorial"
-      links: Links
       links_ex: "Want to include a link in your post? Just paste it into your message and it will automatically be converted to an inline link. You can also contain your link within your text by using Markdown. You can use the <span class=\"click\">Preview</span> button to check that your links are working properly before you post your message."
       embed: Embedding
       embed_ex1: "You can also paste links to media sites such as YouTube, Vimeo, Soundcloud and others, and the video/audio file you’re linking to will become “embedded” in your post. Try it!"
@@ -580,22 +578,22 @@ en:
       settings: "Account management"
       settings_ex1: "The final thing we need to look at to get you started is the user settings page. To reach it, get to you user menu and, from the drop-down menu, choose <span class=\"click\">Settings</span>. Here you will find an overview of account options."
       settings_ex2: "There are five tabs on the account settings page: <strong>Profile</strong>, <strong>Account</strong>, <strong>Privacy</strong>, <strong>Services</strong> and <strong>Applications</strong>."
-      profile: "Profile"
+      profile: Profile
       profile_ex1: "On this page you can change, add to or delete any of your profile information. Go back to the end of %{part_link} if you want a reminder of how to edit it. Don’t forget to press the <span class=\"click\">Update</span> button at the bottom once you’re finished!"
-      nsfw: "“NSFW”"
+      nsfw: “NSFW”
       profile_ex2: "diaspora* has a self-governing community standard called NSFW (not safe for work). If you’re likely to post much material which may not be suitable for everyone to view at their office desk (perhaps with their boss standing behind them), please consider checking the NSFW box. This will hide your posts from people’s streams behind a notice that the post is marked as NSFW. They can then click this notice to view your post if they wish."
       profile_ex3: "By leaving this box unchecked, you are committing yourself not to post any material which could potentially cause offence or get someone into trouble for viewing it at work. If, on the other hand, you might want to post such material only occasionally, you could leave this box unchecked and add the <span class=\"click\">#nsfw</span> tag to those individual posts, which will hide them from other people’s streams."
-      account: "Account"
+      account: Account
       account_ex1: "Here you can: change your email address and password, set your language, choose from one of our color themes, set the default visibility of your posts, pick your email notification preferences and download your data or close your seed."
       account_ex1a: "Our aim is that you’ll be able to use the downloaded data to migrate your seed to another pod, although this is not yet possible. You might wish to download your data periodically as a back-up, however."
       account_ex2: "If you want, you can set your seed to automatically start sharing with anyone who starts sharing with you. You can also re-enable the “getting started” hints that appeared when you first opened your account."
       spotlight: "Community spotlight"
       spotlight_ex: "On the settings page you can also enable the “community spotlight,” if this feature is available on your pod. The “community spotlight” adds posts to your stream from community members who your pod’s admin has selected as being people worth reading. It can be a good way to find people to connect with when you first join diaspora*."
-      privacy: "Privacy"
+      privacy: Privacy
       privacy_ex: "This is a list of users you are ignoring. You can remove them from this list if you want to start seeing posts from them again. See %{part_link} for more on ignoring people."
-      services: "Services"
+      services: Services
       services_ex: "The Services page shows your connected services (e.g. Facebook, Twitter, Tumblr, WordPress) and allows you to connect new services to your diaspora* seed. See %{part_link} for more on connected services."
-      applications: "Applications"
+      applications: Applications
       applications_ex: "This tab displays a list of any applications you have authorised in your diaspora* seed."
       finish1: "That’s all, folks! Thanks a lot for reading this getting started guide. We hope it has been useful to you and that you now feel comfortable using diaspora* as your new online home. If there’s anything else you want to know about any aspect of using diaspora*, try our in-app help section – go to your user menu in the header bar and select <span class=\"click\">Help</span> from the drop-down menu."
       finish2: "If you have any questions that haven’t been answered, feel free to make a public post on diaspora* including the <span class=\"click\">#help</span> and <span class=\"click\">#question</span> tags so that other community members can try to help you. There’s a wonderful, generous community out there!"

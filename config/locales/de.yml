@@ -205,22 +205,22 @@ de:
       feed_link_title: Atom-Feed
       subscriptions_headline: Abonnements
     community_guidelines:
-      headline: ~
-      byline: ~
-      menu_title: ~
-      statement1: ~
-      statement2: ~
-      statement3: ~
-      be_excellent: ~
-      howto: ~
-      howto_language: ~
-      howto_viewpoints_experiences: ~
-      howto_constructive_criticism: ~
-      howto_empathy: ~
-      howto_sexualized_language: ~
-      howto_troll: ~
-      howto_harassment: ~
-      howto_benefit_of_doubt: ~
+      headline: "Soziale Grundsätze"
+      byline: "Richtlinien für den Umgang in der diaspora*-Gemeinschaft"
+      menu_title: "Soziale Grundsätze"
+      statement1: "diaspora* bietet jeder Kreatur - unabhängig von Alter, Körpergröße, Behinderungen, Volkszugehörigkeit, Geschlechtsidentität und -ausdruck, Grad der Erfahrung, Nationalität, persönliches Aussehen, Rasse, Religion oder sexueller Identität und Orientierung - die Möglichkeit, sich im dezentralen sozialen Netz zu verbinden. Um jedem das bestmögliche Erlebnis zu bieten, wünschen wir uns eine Gemeinschaft, die respektvoll miteinander umgeht."
+      statement2: "diaspora*s Konzept eines dezentralisierten Netzwerks macht es unmöglich, einzelne Nutzer aus dem Netzwerk zu entfernen. Die Ideale der diaspora*-Gemeinschaft sind Grundlage für eine rücksichtsvolle Interaktion, denn diese ist entscheidend für das Wohlergehen des Netzwerks."
+      statement3: "Als diaspora*-Gemeinschaft stehen wir gemeinsam gegen jede Art von Diskriminierung und Ausgrenzung. Wir tolerieren keine chauvinistischen oder nationalistischen Kommunikationsformen. Wir missbilligen rassistische Äußerungen oder das Herunterspielen historischer, wie auch gegenwärtiger, faschistischer Gewalt. Wir widersprechen jeder Art von Ausgrenzung und der damit verbundenen strukturellen oder körperlichen Gewalt."
+      be_excellent: "Bleib gelassen und seid gut zueinander!"
+      howto: "Wie erreicht man das?"
+      howto_language: "Nutze einen freundlichen und inklusiven Umgangston."
+      howto_viewpoints_experiences: "Sei anderen Standpunkten und Erfahrungen gegenüber respektvoll."
+      howto_constructive_criticism: "Nehme konstruktive Kritik an."
+      howto_empathy: "Verhalte dich gegenüber anderen Mitgliedern empathisch und rücksichtsvoll."
+      howto_sexualized_language: "Verwende keine sexuelle oder gewaltsame Sprache oder Bilder. Zeige keine ungewollte sexuelle Aufmerksamkeit oder Annäherungsversuche."
+      howto_troll: "Sei kein Troll, schreibe keine beleidigende oder abwertenden Kommentare, und attackiere andere Mitglieder der Gemeinschaft nicht."
+      howto_harassment: "Belästige niemanden, weder öffentlich noch privat."
+      howto_benefit_of_doubt: "Sei im Zweifelsfall nachsichtig, du könntest eine Aussage falsch interpretiert haben."
     tutorials:
       headline: "diaspora* Anleitungen"
       byline: "Schritt-für-Schritt Anleitungen, die dir helfen"
@@ -272,7 +272,7 @@ de:
       registration6: "Gib im ersten Feld den Namen ein, den du auf der Seite angezeigt bekommen willst."
       registration7: "Klicke auf diese Schaltfläche, um ein Profilbild von deinem Computer hochzuladen."
       registration8: "Falls du deinen diaspora* Seed mit deinem Konto bei Facebook verbinden willst, kann ein Klick auf den entsprechenden Link einen Teil des Prozesess automatisieren, wie z.B. deinen Namen und dein Profilbild von deinem Konto bei Facebook einbinden."
-      registration9: "Füge ein paar Worte hinzu, um deine Interessen zu beschreiben, beispielsweise Musik, deine Aktivitäten oder vielleicht auch die Stadt, in der du lebst. Diese werden in Schlagwörter, sogenannte #Tags, umgewandelt; sie helfen dir dabei, Inhalte zu finden, und ermöglichen es anderen, dich zu entdecken. #Tags werden wir in dieser Anleitung später ausführlicher erklären."
+      registration9: "Klicke auf <span class=\"click\">Bringt dich zu diaspora*! >></span>"
       profile1: "Bevor du etwas anderes tust, nimm dir eine Minute und fülle dein Profil aus. Klicke dazu in der schwarzen Leiste auf der rechten Seite auf deinen Namen oder das Photo, suche <span class=\"click\">Profil</span> aus der sich aufklappenden Liste und klicke auf das blaue Feld <span class=\"click\">Mein Profil bearbeiten</span>."
       profile2: "Es gibt zwei Teile deines Profils: das öffentliche und das private Profil. Dein öffentliches Profil ist für jeden sichtbar, dein privates nur für die, mit denen du dich entschieden hast zu teilen. Du kannst so viel, oder so wenig Informationen in deinem Profil preisgeben, wie du willst und du musst auch nicht deinen echten Namen benutzen, wenn du nicht magst."
       profile3: "Die meisten Profilinformationsflächen erklären sich von selbst. NSFW steht für \"not safe for work\" (nicht sicher für den Arbeitsplatz). Das werden wir detailliert in %{part_link} abhandeln, mache dir darüber jetzt keine Sorgen."
@@ -283,31 +283,31 @@ de:
     getting_started2:
       byline: "Teil 2 - Die Benutzeroberfläche"
       menu_title: "Bedienung der Benutzeroberfläche"
-      menu_title_mobile: ~
+      menu_title_mobile: "Benutzung des mobilen Interfaces"
       interface_mobile: ~
       interface_desktop: ~
-      click_here_text: ~
+      click_here_text: "klick hier"
       interface1: "Du schaust jetzt auf eine ungewohnte Oberfläche. (Falls du immer noch auf der Profil bearbeiten Seite bist, klicke auf das Sternchen-Logo oder <span class=\"click\">Stream</span> auf der linken Seite der schwarzen Leiste.) Lass uns einen Blick auf den Aufbau werfen und beginne dich damit vertraut zu machen."
       interface2: "Aufgrund der dezentralisierten open-source Beschaffenheit von diaspora*, ist es den Verwaltern (Admins) der Pods möglich Anpassungen vorzunehmen. Deshalb, je nach dem auf welchem Pod du bist, ist es möglich, dass die Oberfläche (das Interface) von der hiesigen Beschreibung abweichen kann. Trotzdem sollten die wesentlichen Elemente vorhanden sein, auch wenn sie anders angeordnet sind."
       interface3: "Die Benutzeroberfläche kann in vier Teile gegliedert werden."
       header: "Oben auf der Seite befindet sich eine feststehende Kopfleiste, die an ihrem Platz bleibt, selbst wenn du die Seite herunter scrollst. Diese Kopfleiste enthält folgendes:"
       header_mobile: ~
-      header_podname: ~
-      header_asterisk: ~
+      header_podname: "der Name deines pod's, der dich zurück zur Stream-Seite bringt;"
+      header_asterisk: "ein Sternchen-Symbol, das dich zurück zum Stream bringt;"
       header_stream: ~
       header_notify: ~
       header_conversations: ~
-      header_newpost: ~
+      header_newpost: "ein Symbol, um einen neuen Beitrag zu erstellen;"
       header_drawer: ~
       header_search: ~
       header_streams: ~
-      header_dropdown: ~
-      header_profile: ~
+      header_dropdown: "ein persönliches Dropdown-Menü mit:"
+      header_profile: "einen Link zu deiner Profilseite (siehe unten);"
       header_contacts: ~
       header_settings: ~
-      header_help: ~
+      header_help: "eine Verknüpfung zur Hilfe-Beschreibung;"
       header_toggle: ~
-      header_logout: ~
+      header_logout: "Ein Abmeldenknopf."
       interface_mobile_old: ~
       columns: "Unterhalb der Kopfzeile befinden sich zwei Spalten:"
       column1: "Links siehst du Verlinkungen zu den verschiedenen Inhaltsansichten, die auf diaspora* verfügbar sind: <span class=\"click\">Meine Aktivitäten</span>, <span class=\"click\">Stream</span>, <span class=\"click\">@Erwähnungen</span>, <span class=\"click\">Meine Aspekte</span>, <span class=\"click\">#Tags, denen du folgst</span> und <span class=\"click\">Öffentliche Aktivität</span>. Diese erklären wir als nächstes. Es gibt auch einige Links, um dir zu helfen, deine Freunde einzuladen, neue Benutzer willkommen zu heißen, Hilfe zu finden, vom Rest des Internets aus auf diaspora* zu posten (das diaspora*-Lesezeichen) und auf manchen Pods Kontaktinformationen von dem Administrator des Pods."
@@ -334,7 +334,7 @@ de:
       tags_ex2: "Klicke <span class=\"click\">#Tags, denen du folgst</span> um die Liste deiner Tags einzusehen. So wie bei Meine Aspekte kannst du diesen Stream filtern, um Beiträge anzuzeigen, die einen oder mehrere dieser Tags enthalten, indem du sie in der linken Spalte auswählst."
       public: "Öffentliche Aktivität"
       public_ex: ~
-      other_views: ~
+      other_views: "Weitere Ansichten"
       other_views_ex: ~
       tag_stream: ~
       tag_stream_ex: ~
@@ -350,12 +350,12 @@ de:
       profile_ex6: "Unterhalb des Namens und der ID der Person befinden sich Tabs, um ihre Beiträge, ihre hochgeladenen Bilder und ihre Aspekte, die sie für dich sichtbar gemacht hat (dies ist im nächsten Teil „Aspekte” erklärt), anzuzeigen."
       profile_ex7: ~
       profile_ex8: ~
-      themes: ~
+      themes: Farbschema
       themes_ex1: ~
       themes_list1: ~
       themes_list2: ~
-      themes_list3: ~
-      themes_list4: ~
+      themes_list3: <strong>Dunkelgrün</strong>
+      themes_list4: <strong>Magenta</strong>
       themes_list5: ~
       themes_list6: ~
       themes_ex2: ~
@@ -453,22 +453,22 @@ de:
       publisher_ex3: "Wenn das Eingabefeld für Veröffentlichungen einmal \"zum Leben erweckt\" wurde, siehst du eine Reihe Schaltflächen und Symbole. Bevor wir sie uns genau ansehen, lass sie uns erst noch außer Acht lassen und eine einfache Statusnachricht nur für die, die dir folgen und deine beidseitigen Kontakte versenden."
       publisher_ex4: "Alles was du tun musst, ist, deine Nachricht zu tippen - was auch immer du mitteilen willst, z.B. \"Das ist meine erste Nachricht bei Diaspora\" - und die Schaltfläche <span class=\"click\">Teilen</span> zu drücken. Jetzt hast du die erste Nachricht mit deinen Kontakten geteilt!"
       buttons: "O.K., wofür sind diese Knöpfchen nun?"
-      top_buttons: ~
+      top_buttons: Formatierung
       top_buttons_ex1: ~
-      top_buttons_list1: ~
-      top_buttons_list2: ~
-      top_buttons_list3: ~
+      top_buttons_list1: Fett
+      top_buttons_list2: Kursiv
+      top_buttons_list3: Überschrift
       top_buttons_list4: ~
-      top_buttons_list5: ~
-      top_buttons_list6: ~
-      top_buttons_list7: ~
+      top_buttons_list5: Bild
+      top_buttons_list6: Aufzählung
+      top_buttons_list7: "Nummerierte Liste"
       top_buttons_list8: ~
-      top_buttons_list9: ~
+      top_buttons_list9: "Zitierter Text"
       aspect_selector: "Aspekt Auswahl Schaltfläche."
       aspect_selector_ex1: "Mit dieser Schaltfläche suchst du aus, wer in der Lage sein wird deinen Beitrag zu lesen. Die Voreinstellung liegt bei \"Alle Aspekte\", d.h., dass jeder, den du in deine Aspekte eingeordnet hast, imstande sein wird die Nachricht zu lesen, aber sonst niemand. Bei der einfachen Nachricht, die du gerade geschickt hattest, war es nicht nötig die Voreinstellung zu ändern, denn du wolltest ja an \"Alle Aspekte\" posten."
       aspect_selector_ex2: "Mit dieser Schaltfläche kannst du einzelne Aspekte oder eine Kombination ihrer auswählen um mit ihnen zu teilen, indem du sie in der Aspektliste anklickst. Auf diese Weise hast du die Kontrolle darüber, wer deine Nachrichten zu sehen bekommt, so wie in %{part_link} besprochen. Wenn du allerdings etwas öffentlich teilen willst, suchst du \"Öffentlich\" aus und hast keine Begrenzung, wer deine Nachricht lesen kann."
       aspect_selector_ex3: ~
-      poll: ~
+      poll: "Hinzufügen einer Umfrage"
       poll_ex: ~
       photo: "Teilen von Fotos"
       photo_ex: "Im Eingabefeld für Veröffentlichungen ist rechts ein Kamerasymbol. Damit kannst du Bilder zu deiner Nachricht hochladen. Klickst du auf das Symbol, kannst du Bilder von deinem Computer auswählen oder direkt aus einem Ordner auf das Symbol ziehen."
@@ -487,8 +487,8 @@ de:
       tags: "#Tags"
       tags_ex1: "Platziere ein # (Raute) Symbol am Anfang eines Wortes und es wird ein #Tag (eine Markierung). Wozu ist das gut? #Tags sind eine wunderbare Möglichkeit, um Inhalte zu finden, die dich interessieren und die Aufmerksamkeit der Leute zu gewinnen, die an gleichen Inhalten interessiert sind. Du kannst nach Tags suchen, indem du sie in das Feld \"Suchen\" in der Kopfleiste eingibst. Du kannst ebenso Tags folgen, sodass jeder Beitrag, der diese Tags beinhaltet, in deinem Stream auftaucht - wenn du auf deiner Profilseite schon \"Beschreibe dich mit 5 Worten\" ausgefüllt hast, folgst du diesen Tags bereits!"
       tags_ex2: "Sagen wir mal, du kochst gerne und postest einen Beitrag mit \"#kochen\". Jeder, der dem Tag #kochen folgt, wird nun deinen Beitrag bei sich im Stream sehen. Wenn du willst, dass den Beitrag alle sehen, die #kochen folgen, musst du ihn natürlich öffentlich senden, denn falls du ihn begrenzt an einen oder mehrere Aspekte verschickst, sehen ihn nur diejenigen, die in dem Aspekt sind. Du kannst auch im Suchfeld nach \"#kochen\" suchen und bekommst alle Inhalte präsentiert, die mit \"#kochen\" markiert sind. D.h. inklusive deiner eigenen Beiträge, die deiner Freunde und öffentliche Inhalte anderer Diasporaner. Du wirst sicher feststellen, dass es ein fantastischer Weg ist, um Inhalte zu finden und mit denen zu teilen, die ähnliche Interessen haben."
-      tags_ex3: "Falls dein Inhalt potentiell als unpassend angesehen werden oder jemand in Schwierigkeiten geraten könnte, wenn er ihn bei der Arbeit sichtet, füge bitte den Tag <span class=\"click\">#nsfw</span> (\"not safe for work\"/unpassend am Arbeitsplatz) hinzu. Damit bleibt der Beitrag auf den Bildschirmen versteckt, bis man sich entschließt ihn auf zumachen. Wir behandeln dies in %{part_link}."
       nsfw: ~
+      tags_ex3: "Falls dein Inhalt potentiell als unpassend angesehen werden oder jemand in Schwierigkeiten geraten könnte, wenn er ihn bei der Arbeit sichtet, füge bitte den Tag <span class=\"click\">#nsfw</span> (\"not safe for work\"/unpassend am Arbeitsplatz) hinzu. Damit bleibt der Beitrag auf den Bildschirmen versteckt, bis man sich entschließt ihn auf zumachen. Wir behandeln dies in %{part_link}."
       mentions: "@Erwähnungen"
       mentions_ex1: "Wusstest du, dass du Aufmerksamkeit erregen kannst, indem du jemanden \"erwähnst\"? Gebe einfach das @-Symbol gefolgt von dem Namen eines deiner Kontakte ein. Wenn du anfängst seinen Namen zu schreiben (den Seitennamen, nicht den Benutzernamen), wird er automatisch von diaspora* ergänzt. Betätige Enter oder klicke auf den entsprechenden Namen in der automatischen Ergänzung und du stellst fest, dass der Name vervollständigt wurde und das @-Symbol verschwunden ist. Keine Sorge, es wird eine @Erwähnung werden, sobald du den Beitrag verschickt hast. Die erwähnte Person wird über die Erwähnung auf ihrer Benachrichtigungsseite und auch per E-Mail Bescheid bekommen, falls sie eingetragen hatte, dass sie über Erwähnungen per Mail benachrichtigt werden will."
       mentions_ex2: "Ebenso können andere dich erwähnen, sodass du eine Benachrichtigung in der Kopfleiste erhältst (und eine Email, falls du das eingestellt hast)."
@@ -500,7 +500,7 @@ de:
       links: Verknüpfungen
       links_ex1: ~
       links_ex2: ~
-      images: ~
+      images: Bilder
       images_ex1: ~
       images_ex2: ~
       format_note: ~
@@ -534,7 +534,7 @@ de:
       delete_ex: "Wenn du deinen Mauszeiger über einen eigenen Beitrag oder Kommentar bewegst, erscheint ein <span class=\"click\">x</span> in der oberen rechten Ecke, damit kannst du den Beitrag oder Kommentar löschen. So löscht du auch eigene Kommentare in den Beiträgen von anderen."
       hide: "Beiträge Anderer verstecken"
       hide_ex: "Wenn du einen Beitrag von jemanden nicht erneut sehen möchtest, kannst du ihn durch einen Klick auf das <span class=\"click\">x</span> unsichtbar machen. Genauso wie du eigene Beitrage löschen würdest."
-      notifications: ~
+      notifications: "Benachrichtigungen deaktivieren / deaktivieren"
       notifications_ex: ~
       ignore: "Benutzer ignorieren"
       ignore_ex1: "Wenn du findest, dass jemandes Inhalte lästig, langweilig oder beleidigend für dich sind, kannst du die Person ignorieren. Dadurch erscheinen ihre Beiträge nicht mehr in deinem Stream. Trotzdem wird sie in der Lage sein, deine Inhalte zu kommentieren, weiter-zusagen und unter deinen Beiträgen und die Anderer, die auch in deinem Stream sind, ihre Kommentare zu setzen. Die werden für dich auch sichtbar sein. Um jemanden zu ignorieren, fahre über ihren Beitrag und klicke das Symbol in der rechten oberen Ecke, neben dem \"x\" - es sieht aus, wie eine durchgestrichene Person. Wenn du angefangen hast, jemanden zu ignorieren, werden seine Beiträge nicht sofort verschwinden, du musst erst mal deine Ansicht aktualisieren."
@@ -628,11 +628,11 @@ de:
       quote_code3: "Dies ist der dem Zitat folgende Text."
       pre: ~
       pre_ex: ~
-      pre_code1: ~
-      pre_code2: ~
-      pre_code3: ~
-      pre_code4: ~
-      pre_code5: ~
+      pre_code1: "Dies ist eine Zeile normalen Textes."
+      pre_code2: "Dies wird ein vorformatierter Text-Block."
+      pre_code3: "Der Text-Block geht weiter auf dieser Zeile weiter,"
+      pre_code4: "und dann eine weitere Zeile, eingerückt durch zwei Leerzeichen."
+      pre_code5: "Dann wieder normaler Text."
       code: code-Blöcke
       code_ex1: "Wenn du ein Entwickler bist, könntest du an code-Blocks interessiert sein. Um einen code-Block zu erzeugen, stelle deinem Text/code vier Backticks ( ` ` ` ` ) voran. Schließe den code-Block mit weiteren vier Backticks, damit du zu normalem Text zurückkehrst."
       code_ex2: "Ein anderer Weg, um dies zu tun, ist es, jeder deiner code-Zeilen vier Leerzeichen voranzustellen. Das Hinzufügen weiterer Leerzeichen sorgt für noch mehr Einrückung."

@@ -33,7 +33,7 @@ tr:
   pages:
     index:
       headline: "diaspora* Hoşgeldiniz"
-      byline: ~
+      byline: "Kontrol ettiğiniz sosyal çevrimiçi dünya"
       register: "Kaydol »"
       key_philosophies: "diaspora* üç anahtar felsefeler dayanmaktadır:"
       decentralization: "ademi merkeziyet"
@@ -63,7 +63,7 @@ tr:
       decentralized_alt: "ademi merkeziyetçi"
       freedom_alt: özgürlük
       keyhole_alt: "anahtar deliği"
-      aspects_alt: ~
+      aspects_alt: Bakışlar
       features_alt: Özellikler
       ways_to_help_alt: "Yardım Yolları"
       services_alt: Hizmetler
@@ -78,11 +78,11 @@ tr:
       notthis: "BÖYLE DEĞİL"
       notthis_ex: "Birçok sosyal ağ bir şirketin sahibi olduğu ve işlettiği bir sunucudan koşulurlar. Bunlar kullanıcının tüm özel verilerini saklarlar. Bu bilgi darboğazı olan her sistemde olduğu gibi kaybolabilir ya da kurcalanabilir, merkezî sunuculardaki bir sorun tüm ağı yavaşlatıp durdurabilir. Ayrıca kamu kurumlarının \"ortam dinlemesi\" yapması çok kolaydır."
       discl: ~
-      connect: "Ben nasıl bağlayabilirim?"
+      connect: "Ben nasıl bağlanabilirim?"
       connect_ex: "diaspora* bir sürü poddan oluştuğu halde bütünleşik bir ağ izlenimi yaşayacaksınız. Özgürce diğerleriyle haberleşmek için onlarla aynı podda olmanız gerekmez - haberleşme diaspora* evrenindeki tüm podlar arasında kesintisiz gerçekleşir. diapora* kullandığınızda, onun birçok poddan oluştuğunun farkına varmayabilirsiniz. diaspora*daki biri ile haberleşmek aslında çok kolaydır: "
       find: "1. onları bulmak"
       find_ex: "Birisiyle bağlantı kurmak için tüm yapmanız gereken onu bir bakışa eklemektir. (daha fazla bilgi için aşağıya bakınız) Siyah çubuktaki arama kutusu ile onları bulun, veya akışınızda üzerine geldiğinizde çıkan kartı kullanın. Onun diaspora* kimliğini (adınız@podadı.tr) biliyorsanız, onu da kullanabilirsiniz."
-      add: "2. Onlar eklemek"
+      add: "2. Onları eklemek"
       add_ex: ~
       freedom: Özgürlük
       freedom_byline: "diaspora* sizi sınırlamaya çalışmaz"
@@ -101,7 +101,7 @@ tr:
       priv3: "Hedef kitlenizi seçin"
       priv3_ex: ~
       aspects: "Yönleri hakkında herşey"
-      aspects_byline: "gizlilik anahtarıdır diaspora*"
+      aspects_byline: "diaspora*da gizliliğin anahtarı"
       asp1: "Hayatınızın Yönleri"
       asp1_ex: ~
       asp2: "Hayatınızı düzenleyin"
@@ -131,21 +131,21 @@ tr:
       hashtag_alt: Hashtag
       reshare_alt: "Yeniden paylaşma"
       mention_alt: bahsetmek
-      heart_alt: ~
+      heart_alt: Kalp
     get_involved:
       headline: "Yer alın!"
       byline: "Sosyal ağın geleceği seninle başlar"
       menu_title: "Yer alın"
-      community: "güçlü Topluluk"
-      community_byline: "diaspora* de size ait"
-      meaning: "Her şey ne anlama geliyor?"
+      community: "Gücünü topluluktan alır"
+      community_byline: "diaspora* size aittir"
+      meaning: "Bütün bunlar ne anlama geliyor?"
       meaning_ex1: "Özgür Yazılım, bireysellik, saydamlık, yaratıcılık, ve hedefe bağlılıkla ilgilidir. diaspora* bir keyif arzusunu yerine getirmek ve interneti daha iyi bir yer haline getirmek için kuruldu. Özgür Yazılım dünyayı değiştirmemize ve dostlarımızın bu keşiften faydalanmasına olanak verir."
       meaning_ex2: "Özgür Yazılım toplulukları muhteşem şeylerdir. diaspora*da, biz insanlara yaptıkları için değer verilmesinden yanayız. Elit bir kodlayıcı olmanız ya da daha önce hiçbir projeye katkıda bulunmamanız fark etmez. diaspora*ya katkıda bulunmanız, kullanıcıların işine yararlık odaklı bir çözüm anlayışıyla zor problemler üzerinde uğraştığınız anlamına gelir."
       meaning_ex3: "Bu yüzden, diaspora*ya anlamlı bir katkınız olursa, size işlem erişimi vereceğiz. Bunda kararlıyız, ve istekli kişilere büyük değişiklikler yapma olanağı tanımak istiyoruz."
       whereyou: "Eğer gelip nereye"
       whereyou_ex1: "diaspora*yı bizler yapıyoruz. Sizi henüz tanımayabiliriz, ama tanışmayı ve web'in geleceğini tasarlayan bir takıma nasıl uyacağınızı görmeyi çok isteriz. Fırsat verildiğinde hepimizin dünyayı değiştirme potansiyeli mevcuttur."
       whereyou_ex2: "diaspora*ya katkı değişik yol ve ölçülerde olur. Hataları bulmada yardımcı olmanız olsun, mektup listelerinde geri dönüş olsun, ya da bizzat koda veya tasarıma katkıda bulunmak olsun, size ihtiyacımız var."
-      gi_header: "Yolları yer almak için"
+      gi_header: "Katkıda bulunma yolları"
       code_header: "kod Katkıda"
       code_byline: "Kaynak kodu elde etmek çok kolay"
       code_ex1: "Depoyu klonlayıp içine dalın: %{clone_code}"
@@ -272,7 +272,7 @@ tr:
       registration6: "İlk alanında ekranda görüntülenir edilmesini istediğiniz adı girin."
       registration7: "Bilgisayarınızdan bir profil fotoğrafı yüklemek için düğmesine tıklayın."
       registration8: ~
-      registration9: ~
+      registration9: "<span class=\"click\">Beni diaspora*ya al!</span>"
       profile1: ~
       profile2: ~
       profile3: ~
@@ -323,7 +323,7 @@ tr:
       stream_ex2: ~
       activity: Etkinliklerim
       activity_ex: ~
-      activity_ex2: ~
+      activity_ex2: "<span class=click>Etkinliklerime</span> tıkladığınızda, iki altmenü öğesi belirecek: <span class=click>Beğenilenler</span> ve <span class=click>Yorumlananlar</span>. Bunlardn birine tıkladığınızda sözü edilen niteliği taşıyan gönderiler gösterilecektir."
       mentions: ~
       mentions_ex: ~
       aspects: ~
@@ -357,7 +357,7 @@ tr:
       themes_list3: ~
       themes_list4: ~
       themes_list5: ~
-      themes_list6: ~
+      themes_list6: <strong>Koyu</strong>
       themes_ex2: ~
       finish: ~
       finish_mobile: ~
@@ -491,7 +491,7 @@ tr:
       tags: "#etiketler"
       tags_ex1: ~
       tags_ex2: ~
-      nsfw: ~
+      nsfw: "\"İş için güvenli değil\" etiketi"
       tags_ex3: ~
       mentions: ~
       mentions_ex1: ~
@@ -690,7 +690,7 @@ tr:
       byline: "Nerede daha fazla yardım ve bilgi bulmak için"
       menu_title: "Diğer belgeler"
       intro1: ~
-      intro2: "Auf dieser Seite gibt es links zu anderen hilfreichen Seiten mit Beschreibungen und weiteren Informationen."
+      intro2: ~
       tutorials: Öğreticiler
       parfait: "diaspora* yeni insanlar için Fransız bir rehber"
       about: "diaspora* Hakkında"
