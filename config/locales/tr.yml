@@ -114,7 +114,7 @@ tr:
       hashtags_ex: ~
       reshare: "Yeniden paylaşma"
       reshare_ex: ~
-      mentions: bahseder
+      mentions: Mansiyonlar
       mentions_ex: ~
       love: Sevgi
       love_ex: "Birisine değer verdiğinizi ♥erek belirtin. Bazen sözcükler yetmez."
@@ -174,7 +174,7 @@ tr:
       support_header: "destek sağlamak"
       support_ex1: "Yeni kullanıcılar edilir hissediyorum Yardım!"
       support_ex2: "Buradan kayıt olun"
-      support_ex3: ~
+      support_ex3: "%{tutorials_link} bölüm için kullanıcı öğreticiler yaz."
       support_ex4: ~
       irc_channel_link_text: "IRC channel"
       support_ex5: "katkıda %{wiki_link}."
@@ -324,7 +324,7 @@ tr:
       activity: Etkinliklerim
       activity_ex: ~
       activity_ex2: "<span class=click>Etkinliklerime</span> tıkladığınızda, iki altmenü öğesi belirecek: <span class=click>Beğenilenler</span> ve <span class=click>Yorumlananlar</span>. Bunlardn birine tıkladığınızda sözü edilen niteliği taşıyan gönderiler gösterilecektir."
-      mentions: ~
+      mentions: "@Mansiyonlar"
       mentions_ex: ~
       aspects: ~
       aspects_ex1: ~
@@ -493,7 +493,7 @@ tr:
       tags_ex2: ~
       nsfw: "\"İş için güvenli değil\" etiketi"
       tags_ex3: ~
-      mentions: ~
+      mentions: "@bahseder"
       mentions_ex1: ~
       mentions_ex2: ~
       mentions_ex3: ~
