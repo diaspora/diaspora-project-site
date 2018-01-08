@@ -27,6 +27,7 @@ AVAILABLE_LOCALES = {
   :'pt-PT' => "Português (Portugal)",
   ro: "Română",
   ru: "Русский",
+  sc: "Sardu",
   sk: "Slovenčina",
   sv: "Svenska",
   :'sv-FI' => "Svenska (Finland)",

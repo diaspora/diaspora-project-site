@@ -113,7 +113,7 @@ tr:
       hashtags: hashtags
       hashtags_ex: ~
       reshare: "Yeniden paylaşma"
-      reshare_ex: ~
+      reshare_ex: "Neden başkaları ile sevdiğiniz bir yayını yeniden paylaşmıyorsunuz? diaspora* kolay Yeniden paylaşmak yoluyla fikirlerini yaymak için yapar. Sadece mesajı paylaşmak için düğmesine basın."
       mentions: Mansiyonlar
       mentions_ex: ~
       love: Sevgi
@@ -166,7 +166,7 @@ tr:
       translations_link_text: "çeviri grubu"
       translate_ex2: "Başlamak için %{translation_instructions_link} adresindeki komutları okuyun."
       translation_instructions_link_text: "çeviri talimati "
-      voice_header: ~
+      voice_header: "Sesinizi sağlayın"
       voice_ex1: ~
       voice_ex2: "bize katılın"
       voice_ex3: ~
@@ -249,7 +249,7 @@ tr:
       more_tutorials: "Daha fazla yardım mı istiyorsunuz?"
       other_docs: "Diğer sitelere bağlantılar için %{other_docs_link} sayfasını kontrol edin."
       other_docs_link_text: "diğer belgeler"
-      thanks: ~
+      thanks: "Bu öğreticilerin dayandığı orijinal Diasporial kılavuzlarını yaratan Kevin Kleinman'a büyük teşekkürler."
     getting_started1:
       byline: "1 Kısım - İmza kadar"
       menu_title: "diaspora* kadar imzalanması"
@@ -258,14 +258,14 @@ tr:
       find_pod_intro: ~
       find_pod_ex1: ~
       find_pod_ex2: "\"Diaspora\" tohumların bir tarladaki dağılışına işaret eder. Bu, motifimizin bir karahindiba olması ve adımızdaki asteriskin karahindiba tohumunu andırmasının nedenidir. Tek tek hesaplara \"<strong>tohum</strong>\", ve bunların toplandıkları sunuculara da“<strong>pod</strong>” diyoruz. Bunlara alışacaksınız."
-      find_pod_ex3: ~
+      find_pod_ex3: "Hangi bölmenin sizin için en iyi seçimine yardımcı olmak için %{wiki_link} alanına bir göz atın."
       wiki_link_text: "Bir \"pod\" seçerek için rehber"
       find_pod_ex4: ~
       find_pod_ex5: ~
       registration: "Giriş kayıt"
       registration1: ~
       registration2: ~
-      registration3: ~
+      registration3: "Markanızın yeni diaspora * tohumunu oluşturmak ve erişmek için <span class=\"click\">Continue</span> tıklayarak kayıt işleminizi tamamlayın!"
       registration4: ~
       dhq_link_text: "diaspora* HQ"
       registration5: ~
@@ -276,7 +276,7 @@ tr:
       profile1: ~
       profile2: ~
       profile3: ~
-      profile4: ~
+      profile4: "İşiniz bittiğinde <span class=\"click\"> Profili güncelle </span> düğmesini tıklamayı unutmayın!"
       finish: "Bu kadar!"
       finish_ex1: ~
       finish_ex2: ~
@@ -320,12 +320,12 @@ tr:
       stream_contents2: ~
       stream_contents3: ~
       stream_contents4: ~
-      stream_ex2: ~
+      stream_ex2: "akışında Mesajlar orijinal yazının zamana göre sıralanır."
       activity: Etkinliklerim
       activity_ex: ~
       activity_ex2: "<span class=click>Etkinliklerime</span> tıkladığınızda, iki altmenü öğesi belirecek: <span class=click>Beğenilenler</span> ve <span class=click>Yorumlananlar</span>. Bunlardn birine tıkladığınızda sözü edilen niteliği taşıyan gönderiler gösterilecektir."
       mentions: "@Mansiyonlar"
-      mentions_ex: ~
+      mentions_ex: "Bu sizi @mentioning diğer insanlar tarafından yapılan tüm yayınları görüntüler. @mentioning %{part_link} de tartışacağız."
       aspects: ~
       aspects_ex1: ~
       aspects_ex2: ~
@@ -342,11 +342,11 @@ tr:
       spv_ex: ~
       profile: "Profil bakış"
       profile_ex1: ~
-      profile_ex2: ~
+      profile_ex2: "avatarınızın altında böyle benzeri doğum günü, yeri, cinsiyet, biyografisi ve gibi eklemiş herhangi bir ekstra profil bilgilerini göreceksiniz."
       profile_ex3: ~
       profile_ex3_mobile: ~
       profile_ex4: ~
-      profile_ex5: ~
+      profile_ex5: "Seninle paylaşırlarsa, diaspora* kimliklerinin yanında yeşil bir işaret olur. Değilse, gri bir çember olacaktır."
       profile_ex6: ~
       profile_ex7: ~
       profile_ex8: ~
@@ -368,9 +368,9 @@ tr:
       aspects2: ~
       my_aspects: ~
       my_aspects1: ~
-      my_aspects2: ~
-      my_aspects3: ~
-      my_aspects4: ~
+      my_aspects2: "Şu anda tüm yönleriyle yanlarında kene, seçilmelidir."
+      my_aspects3: "Onları seçmek veya seçimlerini kaldırmak için menüdeki \"Yönleri\" ı tıklayabilirsiniz."
+      my_aspects4: "Sadece bir \"aspect\" veya bunların herhangi bir kombinasyonunu seçebilirsiniz."
       my_aspects5: ~
       my_aspects6: "Neden birkaç saniye onunla oynamak değil?"
       my_aspects7: "Bu seçim Bu sistem iki amaçlarla kullanılan:"
@@ -380,7 +380,7 @@ tr:
       add_aspect1: ~
       aspects_mobile: ~
       add_aspect2: ~
-      add_aspect3: ~
+      add_aspect3: "Bu rehber, örnek olarak \"Diaspora\" olarak adlandırılan bir yönü kullanmaktadır, ancak kendi yönünüze istediğiniz adı verin."
       add_aspect4: ~
       add_aspect5: ~
       add_aspect6: ~
@@ -391,10 +391,10 @@ tr:
       contact_ex4: ~
       contact_ex5: ~
       contact_ex6: ~
-      contact_ex7: ~
+      contact_ex7: "Ayrıca, kişiler sayfanızdan yeni \"aspects\" oluşturabilirsiniz."
       sharing_me: "Sadece benimle paylaşan"
       sharing_me_ex: ~
-      finish: ~
+      finish: "Artık \"aspects\" anladığımıza göre, bazı bağlantıları yapalım."
     getting_started4:
       byline: "Kısım 4 - Bulma ve insanlarla bağlantı"
       menu_title: "Insanlarla nasıl bağlanacağı"
@@ -419,7 +419,7 @@ tr:
       mutual_ex3: ~
       finding: "insanları bularak"
       finding_ex1: ~
-      finding_ex2: ~
+      finding_ex2: "Birisini bulmanın ve bunları bir yöne eklemenin birkaç yolu vardır."
       search: Arama
       search_ex: "Arama alanında başlık çubuğunda olduğunu. Arama birisini eklemek:"
       search_ls1: |-
@@ -442,7 +442,7 @@ tr:
       removing_ex2: ~
       removing_ex3: ~
       removing_ex4: ~
-      removing_ex5: ~
+      removing_ex5: "Ayrıca biz %{part_link} sonunda kaplı senin kişiler sayfası aracılığıyla yönleriyle bir kişiyi kaldırabilirsiniz."
       finish: ~
     getting_started5:
       byline: "Parça 5 - paylaşım başlama!"
@@ -520,15 +520,15 @@ tr:
       how: "Buna nedersiniz? Eğer mesaj yapabileceğiniz şeyler bol diaspora* olarak var."
       try_out: ~
       make_post1: ~
-      make_post2: ~
+      make_post2: "Merhaba millet, Ben diaspora* in #yeni benim. Severim #koşu, #Edebiyat ve #tavşanlar."
       make_post3: ~
-      interact: ~
+      interact: "Akıştaki yayınlarla etkileşim kurma"
       interact_ex1: ~
       interact_ex2: ~
       interact_ex3: ~
       comments: "Yorumlar yorum"
       comments_ex: ~
-      likes: ~
+      likes: beğendikleriniz
       likes_ex1: ~
       likes_ex2: ~
       reshare: "Yeniden paylaşma mesajlar"
@@ -554,7 +554,7 @@ tr:
       notify: Bildirimler
       notify_ex1: ~
       notify_ex2: ~
-      notify_ls1: ~
+      notify_ls1: "Profil sayfalarını görüntülemek için kişinin adını tıklayın."
       notify_ls2: ~
       notify_ls3: "Tıklayın <span class=\"click\">Tümünü işaretle okundu olarak</span>."
       notify_ls4: ~
@@ -575,8 +575,8 @@ tr:
       menu_title: "Binaların tamamlanması"
       intro: ~
       connect: "Diğer hizmetler için diaspora* seed Bağlama"
-      connect_ex1: ~
-      connect_ex2: ~
+      connect_ex1: "'Diaspora *' tohumunu diğer birçok hizmete bağlayabilirsiniz: Facebook, Twitter, Tumblr ve WordPress. Elbette bunu yapmak için o hizmette bir hesabınız olmalıdır!"
+      connect_ex2: "Bu başlamadan önce, el bu hizmet için hesap bilgilerinizi olduğundan emin olun. O iş için sırayla diğer hizmet ile bağlantını yetkilendirmek için gerekebilir çünkü."
       connect_ex3: ~
       connect_ex4: ~
       settings: "Hesap Yönetimi"
@@ -604,7 +604,7 @@ tr:
     formatting:
       byline: "metin biçimlendirme"
       menu_title: "metin biçimlendirme"
-      format1: ~
+      format1: "Diaspora * da metninizi durum mesajlarında, yorumlarda ve konuşmalarda Markdown adı verilen basitleştirilmiş işaretleme sistemi kullanarak biçimlendirmek mümkündür. Bu sayfada, bu biçimlendirmeyi oluşturmak için kullanılan kodlara bir giriş verilmektedir."
       format2: ~
       format3: ~
       format4: ~
