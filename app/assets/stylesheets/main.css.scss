@@ -1,125 +1,210 @@
-body {
-  margin-top: 70px;
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+a:active,
+a:focus {
+    outline: none !important;
+}
+img { max-width: 100% }
+body {
+    margin-top: 70px;
+    background: #f8f9fa;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-white {background: #fff;box-shadow: 0px 4px 4px -1px rgba(0, 0, 0, 0.1);min-height: 220px}
+.normal-height {min-height: auto}
+.big-min-height { min-height: 325px }
+.extra-big-min-height { min-height: 365px }
+.c-margin-top { margin-top: 3em; }
+.c-margin-bottom { margin-bottom: 3em; }
+.text-center {padding: 20px 0}
+
 
 nav.navbar-fixed-top {
-  .container-fluid {
-    padding-right: 30px;
-  }
+    background: #fff;
+    border: 1px solid transparent; 
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.16);
+    .container-fluid {
+        padding-right: 30px;
+    }
+    a {
+        -webkit-transition: all .2s ease;
+        -moz-transition: all .2s ease;
+        -o-transition: all .2s ease;
+        transition: all .2s ease;
+    }
+    a:hover,
+    a:active {
+        color: #222 !important;
+    }
+    .btn-primary {
+        background: #80b4e6;
+        border: 1px solid #80b4e6;
+    }
+    .btn-success {
+        background: #80e684;
+        border: 1px solid #80e684;
+    }
+    .btn-success:hover,
+    .btn-success:active {
+        background: #3dcc2f;
+        border: 1px solid #3dcc2f;
+        box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.22);
+        color: #fff !important;
+    }
+    .btn-primary:hover,
+    .btn-primary:active {
+        background: #318ae0;
+        border: 1px solid #318ae0;
+        box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.22);
+        color: #fff !important;
+    } 
 }
 
+p.navbar-btn {
+    a {
+        margin: 0 5px;
+    }
+}
+.navbar-header {
+    span#header-logo {
+        color: #444;
+        position: relative;
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+    span#header-logo:after {
+        content: "*";
+        position: absolute;
+        top: 0;
+        right: -15px;
+        color: inherit;
+        font-size: 25px;
+        font-weight: normal;
+    }
+}
+
+
 .page-header {
-  h1 {
-    text-align: center;
-  }
+    h1 {
+        text-align: center;
+    }
 }
 
 #masthead, #footer {
-  h1, p {
-    color: #111;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
-    z-index: 30;
+    h1, p {
+        color: #111;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+        z-index: 30;
 
-    a {
-      color: #fff;
-      font-weight: bold;
+        a {
+            color: #fff;
+            font-weight: bold;
+        }
     }
-  }
 }
 
 #masthead {
-  background-color: #fcfcfc;
-  border-bottom: 1px solid #999;
-  box-shadow: inset 0 -1px 5px rgba(0, 0, 0, 0.5);
-  padding-bottom: 15px;
-  padding-top: 10px;
-  position: relative;
-
-  &.hero {
-    margin: -19px -15px 0;
     background-color: #fcfcfc;
-    background-image: -moz-radial-gradient(50% 50%, circle cover, #fcfcfc, #e6e6e6 100%);
-    background-image: -webkit-radial-gradient(50% 50%, circle cover, #fcfcfc, #e6e6e6 100%);
-    background-image: -o-radial-gradient(50% 50%, circle cover, #fcfcfc, #e6e6e6 100%);
-    background-image: -ms-radial-gradient(50% 50%, circle cover, #fcfcfc, #e6e6e6 100%);
-    background-image: radial-gradient(50% 50%, circle cover, #fcfcfc, #e6e6e6 100%);
+    padding: 10em 0;
+    position: relative;
 
-    h1, h2 {
-      text-align: center;
+    &.hero {
+        margin: -19px -15px 0;
+        background: #fc00ff;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to left, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        h1 {
+            color: #fff;
+            font-size: 54px;
+            line-height: 1.3;
+            margin-bottom: 0;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+        }
+
+        h2 {
+            color: #333;
+            font-size: 1.7em;
+            font-weight: normal;
+            margin-top: 5px;
+            text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+        }
     }
 
-    h1 {
-      color: #111;
-      font-size: 54px;
-      line-height: 1.3;
-      margin-bottom: 0;
-      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8), 0 0 10px white;
-    }
-
-    h2 {
-      color: #347caa;
-      font-size: 1.7em;
-      font-weight: normal;
-      margin-top: 5px;
-    }
-  }
 }
 
 footer {
-  margin-top: 70px;
-
-  ul {
-    margin: 0;
-    padding: 0;
-
-    li {
-      list-style: none;
-
-      a {
-        color: #999;
-        text-decoration: none;
-      }
+    margin-top: 70px;
+    padding-top: 3em;
+    background: #111;
+    h4,p { color: #fff }
+    a:hover,
+    a:active {
+        color: #3292f0;
     }
-  }
+    .btn:hover {
+        background: #fcfcfc;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
 
-  .license-text {
-    font-size: 0.8em;
-    margin: 3em 0 2em;
-    text-align: center;
-  }
+        li {
+            list-style: none;
+            a {
+                color: #999;
+                text-decoration: none;
+            }
+        }
+    }
+    .license-text {
+        font-size: 0.8em;
+        margin: 3em 0 2em;
+        text-align: center;
+    }
 }
 
 h3.lead {
-  text-align: center;
+    text-align: center;
 }
 
 .feature-header-image {
-  min-height: 85px;
+    min-height: 85px;
 }
 
 .more-info {
-  color: #808080;
-  font-style: italic;
+    color: #808080;
+    font-style: italic;
 }
 
 .click {
-  color: #347caa;
-  font-weight: bold;
+    color: #347caa;
+    font-weight: bold;
 }
 
 .center {
-  text-align: center;
+    text-align: center;
 }
 
 .top-spacing {
-  padding-top: 5em;
+    padding-top: 5em;
 }
 
 .minor-top-spacing {
-  margin-top: 3em;
+    margin-top: 3em;
 }
 
 .major-top-spacing {
-  margin-top: 8em;
+    margin-top: 8em;
 }
 
+@media only screen and (max-width: 720px) {
+    .bg-white { padding-bottom: 5px;margin-bottom: 10px; }
+}

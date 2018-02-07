@@ -18,20 +18,25 @@
     </div>
   </div>
   <div class="row minor-top-spacing">
-    <div class="col-md-6">
-      <h3 class="lead"><%= t '.this' %></h3>
-      <p class="text-center">
-        <%= image_tag 'pages/about/network-distributed.png', alt: t('.distributed_network') %>
-      </p>
-      <p><%= t '.this_ex' %></p>
-    </div>
-    <div class="col-md-6">
-      <h3 class="lead"><%= t '.notthis' %></h3>
-      <p class="text-center">
-        <%= image_tag 'pages/about/network-centralized.png', alt: t('.centralized_network') %>
-      </p>
-      <p><%= t '.notthis_ex' %></p>
-    </div>
+    <div class="row"></div>
+      <div class="col-md-6">
+      <div class="col-md-12 bg-white">
+          <h3 class="lead"><%= t '.this' %></h3>
+          <p class="text-center">
+            <%= image_tag 'pages/about/network-distributed.png', alt: t('.distributed_network') %>
+          </p>
+          <p><%= t '.this_ex' %></p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="col-md-12 bg-white">
+          <h3 class="lead"><%= t '.notthis' %></h3>
+          <p class="text-center">
+            <%= image_tag 'pages/about/network-centralized.png', alt: t('.centralized_network') %>
+          </p>
+          <p><%= t '.notthis_ex' %></p>
+        </div>
+      </div>
   </div>
   <div class="row">
     <div class="col-md-12">
@@ -53,23 +58,31 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-md-2">
-      <p class="text-center">
-        <%= image_tag 'pages/about/search.png', alt: t('.search_alt') %>
-      </p>
+    <div class="col-md-6">
+      <div class="col-md-12 bg-white">
+        <div class="col-md-3">
+          <p class="text-center">
+            <%= image_tag 'pages/about/search.png', alt: t('.search_alt') %>
+          </p>
+        </div>
+        <div class="col-md-9">
+          <h3><%= t '.find' %></h3>
+          <p><%= t '.find_ex' %></p>
+        </div>
+      </div>
     </div>
-    <div class="col-md-4">
-      <h3><%= t '.find' %></h3>
-      <p><%= t '.find_ex' %></p>
-    </div>
-    <div class="col-md-2">
-      <p class="text-center">
-        <%= image_tag 'pages/about/plus.png', alt: t('.add_a_contact_alt') %>
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h3><%= t '.add' %></h3>
-      <p><%= t '.add_ex' %></p>
+    <div class="col-md-6">
+      <div class="col-md-12 bg-white">
+        <div class="col-md-3">
+          <p class="text-center">
+            <%= image_tag 'pages/about/plus.png', alt: t('.add_a_contact_alt') %>
+          </p>
+        </div>
+        <div class="col-md-9">
+          <h3><%= t '.add' %></h3>
+          <p><%= t '.add_ex' %></p>
+        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -83,19 +96,25 @@
 <div class="container">
   <div class="row">
     <div class="col-md-4">
-      <h3><%= t '.fdm1' %></h3>
-      <p><%= t '.fdm1_ex' %></p>
+      <div class="col-md-12 bg-white">
+        <h3><%= t '.fdm1' %></h3>
+        <p><%= t '.fdm1_ex' %></p>
+      </div>
     </div>
     <div class="col-md-4">
-      <h3><%= t '.fdm2' %></h3>
-      <p><%= t '.fdm2_ex' %></p>
+      <div class="col-md-12 bg-white">
+        <h3><%= t '.fdm2' %></h3>
+        <p><%= t '.fdm2_ex' %></p>
+      </div>
     </div>
     <div class="col-md-4">
-      <h3><%= t '.fdm3' %></h3>
-      <p><%= t '.fdm3_ex' %></p>
+      <div class="col-md-12 bg-white">
+        <h3><%= t '.fdm3' %></h3>
+        <p><%= t '.fdm3_ex' %></p>
       <p>
         <%= link_to t('buttons.find_more'), get_involved_path, class: 'btn btn-primary' %>
       </p>
+      </div>
     </div>
   </div>
 </div>
@@ -109,22 +128,28 @@
 <div class="container">
   <div class="row">
     <div class="col-md-4">
-      <h3><%= t '.priv1' %></h3>
-      <p><%= t '.priv1_ex' %></p>
+      <div class="col-md-12 bg-white">
+        <h3><%= t '.priv1' %></h3>
+        <p><%= t '.priv1_ex' %></p>
+      </div>
     </div>
     <div class="col-md-4">
-      <h3><%= t '.priv2' %></h3>
-      <p class="desc-with-button"><%= t '.priv2_ex' %></p>
-      <p>
-        <a href="#host" class="btn btn-primary"><%= t('buttons.find_more') %></a>
-      </p>
+      <div class="col-md-12 bg-white">
+        <h3><%= t '.priv2' %></h3>
+        <p class="desc-with-button"><%= t '.priv2_ex' %></p>
+        <p>
+          <a href="#host" class="btn btn-primary"><%= t('buttons.find_more') %></a>
+        </p>
+      </div>
     </div>
     <div class="col-md-4">
-      <h3><%= t '.priv3' %></h3>
-      <p class="desc-with-button"><%= t '.priv3_ex' %></p>
-      <p>
-        <a href="#aspects" class="btn btn-primary"><%= t('buttons.find_more') %></a>
-      </p>
+      <div class="col-md-12 bg-white">
+        <h3><%= t '.priv3' %></h3>
+        <p class="desc-with-button"><%= t '.priv3_ex' %></p>
+        <p>
+          <a href="#aspects" class="btn btn-primary"><%= t('buttons.find_more') %></a>
+        </p>
+      </div>
     </div>
   </div>
 </div>
@@ -138,16 +163,22 @@
 <div class="container">
   <div class="row">
     <div class="col-md-4">
-      <h3><%= t '.asp1' %></h3>
-      <p><%= t '.asp1_ex' %></p>
+      <div class="col-md-12 bg-white normal-height">
+        <h3><%= t '.asp1' %></h3>
+        <p><%= t '.asp1_ex' %></p>
+      </div>
     </div>
     <div class="col-md-4">
-      <h3><%= t '.asp2' %></h3>
-      <p><%= t '.asp2_ex' %></p>
+      <div class="col-md-12 bg-white normal-height">
+        <h3><%= t '.asp2' %></h3>
+        <p><%= t '.asp2_ex' %></p>
+      </div>
     </div>
     <div class="col-md-4">
-      <h3><%= t '.asp3' %></h3>
-      <p><%= t '.asp3_ex' %></p>
+      <div class="col-md-12 bg-white normal-height">
+        <h3><%= t '.asp3' %></h3>
+        <p><%= t '.asp3_ex' %></p>
+      </div>
     </div>
   </div>
 </div>
@@ -161,32 +192,40 @@
 <div class="container">
   <div class="row">
     <div class="col-md-3">
-      <p class="text-center">
-        <%= image_tag 'pages/about/hashtag.png', alt: t('.hashtag_alt') %>
-      </p>
-      <h3><%= t '.hashtags' %></h3>
-      <p><%= t '.hashtags_ex' %></p>
+      <div class="col-md-12 bg-white big-min-height">
+        <p class="text-center">
+          <%= image_tag 'pages/about/hashtag.png', alt: t('.hashtag_alt') %>
+        </p>
+        <h3><%= t '.hashtags' %></h3>
+        <p><%= t '.hashtags_ex' %></p>
+      </div>
     </div>
     <div class="col-md-3">
-      <p class="text-center">
-        <%= image_tag 'pages/about/reshare.png', alt: t('.reshare_alt') %>
-      </p>
-      <h3><%= t '.reshare' %></h3>
-      <p><%= t '.reshare_ex' %></p>
+      <div class="col-md-12 bg-white big-min-height">
+        <p class="text-center">
+          <%= image_tag 'pages/about/reshare.png', alt: t('.reshare_alt') %>
+        </p>
+        <h3><%= t '.reshare' %></h3>
+        <p><%= t '.reshare_ex' %></p>
+      </div>
     </div>
     <div class="col-md-3">
-      <p class="text-center">
-        <%= image_tag 'pages/about/mention.png', alt: t('.mention_alt') %>
-      </p>
-      <h3><%= t '.mentions' %></h3>
-      <p><%= t '.mentions_ex' %></p>
+      <div class="col-md-12 bg-white big-min-height">
+        <p class="text-center">
+          <%= image_tag 'pages/about/mention.png', alt: t('.mention_alt') %>
+        </p>
+        <h3><%= t '.mentions' %></h3>
+        <p><%= t '.mentions_ex' %></p>
+      </div>
     </div>
     <div class="col-md-3">
-      <p class="text-center">
-        <%= image_tag 'pages/about/heart.png', alt: t('.heart_alt') %>
-      </p>
-      <h3><%= t '.love' %></h3>
-      <p><%= t '.love_ex' %></p>
+      <div class="col-md-12 bg-white big-min-height">
+        <p class="text-center">
+          <%= image_tag 'pages/about/heart.png', alt: t('.heart_alt') %>
+        </p>
+        <h3><%= t '.love' %></h3>
+        <p><%= t '.love_ex' %></p>
+      </div>
     </div>
   </div>
 </div>

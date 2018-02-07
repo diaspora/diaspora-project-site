@@ -14,59 +14,60 @@
       <p><%= t('.aspects1').html_safe %></p>
       <p><%= t('.aspects2').html_safe %></p>
       <h4><%=(t '.my_aspects').html_safe %></h4>
-  </div>
-  
-  <div class="row">
-    <div class="col-md-8">
-      <p><%=(t '.my_aspects1').html_safe %></p>
-      <ul>
-        <li><%= t('.my_aspects2').html_safe %></li>
-        <li><%= t('.my_aspects3').html_safe %></li>
-        <li><%= t('.my_aspects4').html_safe %></li>
-        <li><%= t('.my_aspects5').html_safe %></li>
-      </ul>
-      <p><%= t('.my_aspects6').html_safe %></p>
-      <p><%= t('.my_aspects7').html_safe %></p>
-      <ol>
-        <li><%= t('.my_aspects8').html_safe %></li>
-        <li><%= t('.my_aspects9').html_safe %></li>
-      </ol>
     </div>
-    <div class="col-md-4"><%= image_tag 'pages/getting_started/aspects/aspect-list.png' %></div>
-  </div>
-
-  <div class="row">
-    <div class="col-md-12">
-      <h4><%=(t '.add_aspect').html_safe %></h4>
-      <p><%= t('.add_aspect1').html_safe %></p>
-      <p class="more-info"><%= t('.aspects_mobile').html_safe %></p>
-      <p><%= t('.add_aspect2').html_safe %></p>
-      <p class="more-info"><%= t('.add_aspect3').html_safe %></p>
-      <p class="text-center"><%= image_tag 'pages/getting_started/aspects/add-aspect.png' %></p>
-      <ol>
-        <li><%= t('.add_aspect4').html_safe %></li>
-        <li><%= t('.add_aspect5').html_safe %></li>
-        <li><%= t('.add_aspect6').html_safe %></li>
-      </ol>
-      <p><%= t('.add_aspect7').html_safe %></p>
+    
+    <div class="row">
+      <div class="col-md-8">
+        <p><%=(t '.my_aspects1').html_safe %></p>
+        <ul>
+          <li><%= t('.my_aspects2').html_safe %></li>
+          <li><%= t('.my_aspects3').html_safe %></li>
+          <li><%= t('.my_aspects4').html_safe %></li>
+          <li><%= t('.my_aspects5').html_safe %></li>
+        </ul>
+        <p><%= t('.my_aspects6').html_safe %></p>
+        <p><%= t('.my_aspects7').html_safe %></p>
+        <ol>
+          <li><%= t('.my_aspects8').html_safe %></li>
+          <li><%= t('.my_aspects9').html_safe %></li>
+        </ol>
+      </div>
+      <div class="col-md-4"><%= image_tag 'pages/getting_started/aspects/aspect-list.png' %></div>
     </div>
-  </div>
 
-  <div class="row">
-    <div class="col-md-12">
-      <h3><%= t '.contacts' %></h3>
-      <p><%= t('.contact_ex1', part_link: link_to(t('pages.tutorials.part2'), interface_path)).html_safe %></p>
-      <p><%= t('.contact_ex3').html_safe %></p>
-      <p><%= t('.contact_ex4').html_safe %></p>
-      <p><%= t('.contact_ex5').html_safe %></p>
-      <p><%= t('.contact_ex6').html_safe %></p>
-      <p><%= t('.contact_ex7').html_safe %></p>
+    <div class="row">
+      <div class="col-md-12">
+        <h4><%=(t '.add_aspect').html_safe %></h4>
+        <p><%= t('.add_aspect1').html_safe %></p>
+        <p class="more-info"><%= t('.aspects_mobile').html_safe %></p>
+        <p><%= t('.add_aspect2').html_safe %></p>
+        <p class="more-info"><%= t('.add_aspect3').html_safe %></p>
+        <p class="text-center"><%= image_tag 'pages/getting_started/aspects/add-aspect.png' %></p>
+        <ol>
+          <li><%= t('.add_aspect4').html_safe %></li>
+          <li><%= t('.add_aspect5').html_safe %></li>
+          <li><%= t('.add_aspect6').html_safe %></li>
+        </ol>
+        <p><%= t('.add_aspect7').html_safe %></p>
+      </div>
+    </div>
 
-      <h4><%= t '.sharing_me' %></h4>
-      <p><%= t('.sharing_me_ex').html_safe %></p>
+    <div class="row">
+      <div class="col-md-12">
+        <h3><%= t '.contacts' %></h3>
+        <p><%= t('.contact_ex1', part_link: link_to(t('pages.tutorials.part2'), interface_path)).html_safe %></p>
+        <p><%= t('.contact_ex3').html_safe %></p>
+        <p><%= t('.contact_ex4').html_safe %></p>
+        <p><%= t('.contact_ex5').html_safe %></p>
+        <p><%= t('.contact_ex6').html_safe %></p>
+        <p><%= t('.contact_ex7').html_safe %></p>
 
-      <p class="more-info"><%= t '.finish' %></p>
-      <p class="text-center minor-top-spacing"><%= link_to t('pages.getting_started2.byline'), interface_url %> | <%= link_to t('pages.getting_started4.byline'), connecting_url %></p>
+        <h4><%= t '.sharing_me' %></h4>
+        <p><%= t('.sharing_me_ex').html_safe %></p>
+
+        <p class="more-info"><%= t '.finish' %></p>
+        <p class="text-center minor-top-spacing"><%= link_to t('pages.getting_started2.byline'), interface_url %> | <%= link_to t('pages.getting_started4.byline'), connecting_url %></p>
+      </div>
     </div>
   </div>
 </div>

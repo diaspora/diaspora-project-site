@@ -6,7 +6,8 @@
   <meta charset="utf-8">
   <%= favicon_link_tag 'favicon.png' %>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet"> 
+  <!-- <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">  -->
   <%= auto_discovery_link_tag :atom, news_feed_url(subdomain: 'blog'), {:title => t('newsfeed')} %>
   <%= auto_discovery_link_tag :atom, planet_feed_url(subdomain: 'planet'), {:title => t('planet_feed')} %>
   <%= stylesheet_link_tag 'application', :media => 'all' %>
@@ -14,11 +15,11 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="container">
+  <nav id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container mt-5">
       <div class="navbar-header">
         <%= link_to root_url(subdomain: false), class: 'navbar-brand' do %>
-          <%= image_tag 'logo.png', height: 30, alt: t('title'), title: t('title'), id: 'header-logo' %>
+          <span id="header-logo">diaspora</span>
         <% end %>
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainmenu">
           <span class="icon-bar"></span>
