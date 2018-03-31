@@ -67,6 +67,9 @@ nav.navbar-fixed-top {
 
 footer {
   margin-top: 70px;
+  padding: 1rem 0;
+  background-color: #eee;
+  border-top: 1px solid #ddd;
 
   ul {
     margin: 0;
@@ -76,7 +79,7 @@ footer {
       list-style: none;
 
       a {
-        color: #999;
+        color: #777;
         text-decoration: none;
       }
     }
@@ -84,7 +87,7 @@ footer {
 
   .license-text {
     font-size: 0.8em;
-    margin: 3em 0 2em;
+    margin-top: 3rem;
     text-align: center;
   }
 }
@@ -122,4 +125,3 @@ h3.lead {
 .major-top-spacing {
   margin-top: 8em;
 }
-
