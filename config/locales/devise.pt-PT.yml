@@ -28,15 +28,15 @@ pt-PT:
       no_token: ~
       send_instructions: ~
       send_paranoid_instructions: ~
-      updated: ~
-      updated_not_active: ~
+      updated: "A sua palavra-passe foi alterada com sucesso. Agora já está ligado."
+      updated_not_active: "A sua palavra-passe foi alterada com sucesso."
     registrations:
       destroyed: ~
       signed_up: ~
       signed_up_but_inactive: ~
       signed_up_but_locked: ~
       signed_up_but_unconfirmed: ~
-      update_needs_confirmation: "Atualizou a sua conta com sucesso, mas precisa de verificar o seu endereço de e-mail. Por favor, verifique a sua caixa de correio e clique na hiperligação de confirmação para finalizar a confirmação do seu novo endereço de  e-mail."
+      update_needs_confirmation: "Atualizou a sua conta com sucesso, mas nós precisamos de verificar o seu novo endereço de e-mail. Por favor, verifique a sua caixa de correio e clique na hiperligação de confirmação para finalizar a confirmação do seu novo endereço de  e-mail."
       updated: "Atualizou a usa conta com sucesso."
     sessions:
       signed_in: "Sessão iniciada com sucesso."

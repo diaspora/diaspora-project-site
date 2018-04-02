@@ -15,7 +15,7 @@ hu:
   layouts:
     application:
       wiki: Wiki
-      discourse: ~
+      discourse: "Fórum és támogatás"
       planet: Bolygó
       useful_resources: "Hasznos segédanyagok"
       codebase: Kódbázis
@@ -23,7 +23,7 @@ hu:
       report_bugs: "Találj és jelents hibákat!"
       irc_general: "IRC - Általános"
       irc_development: "IRC - Fejlesztés"
-      discussion_general: "Általános fórum"
+      discussion_general: "Fórum és támogatás"
       discussion_development: "Fejlesztői fórum"
       choose_language: "Nyelv választása"
       translate: ~
@@ -39,7 +39,7 @@ hu:
       decentralization: Decentralizáció
       decentralization_about: "Mamutcégek által birtokolt központi szerverek helyett kis, helyi szerverek (\"podok\") is tárolhatják adatainkat bárhol a világon. Te döntöd el, hogy melyik podra regisztrálsz (ami akár a sajátod is lehet), hogy a diaspora* világméretű közösségéhez csatlakozz."
       freedom: Szabadság
-      freedom_about: "A diasporán* belül az lehetsz, aki csak akarsz. Más hálózatokkal ellentétben itt nem kell felfedned valódi személyedet. Bárkivel, bármilyen módon kapcsolatba léphetsz. Mindennek csupán a képzeleted szab határt. A diaspora* Szabad Szoftver, ezért felhasználása tetszőleges."
+      freedom_about: "A diasporán* belül az lehetsz, aki csak akarsz. Más hálózatokkal ellentétben itt nem kell felfedned valódi személyedet. Az általad választott módon léphetsz kapcsolatba másokkal. A diaspora* egyszersmind Szabad Szoftver, ezért tetszőleges módon használható. Csak a képzeleted szab határt."
       privacy: Adatvédelem
       privacy_about: "A diasporán* te birtoklod az adataid. Nem ruházol át semmilyen jogot cégekre, vagy bárki másra, aki ebből hasznot húzhatna. A diasporán* barátaid, szokásaid és az általad megosztott tartalmak csak rád tartoznak, nem ránk! Továbbá az aspektusok használatával te döntöd el, hogy ki láthatja azt, amit megosztottál."
       get_started: Kipróbálnád?
@@ -256,7 +256,7 @@ hu:
       welcome: ~
       find_pod: "Pod választása"
       find_pod_intro: ~
-      find_pod_ex1: "A legtöbb közösségi oldallal ellentétben, melyeknek központi szerverparkjuk van arra a célra, higy tárolják mindenki adatait mi nem tudunk egy specifikus linket megadni és azt mondani: regisztráljon itt. A diaspora* különbözik azoktól az oldalaktól azáltal, hogy <em>decentralizált</em>, megannyi hozzáférési ponttal. Mielőtt elkezdené, el kell döntenie, hogy melyik diaspora* szolgáltatóra regisztrál. Ezeket a kiszolgálókat pod-oknak hívjuk."
+      find_pod_ex1: "A legtöbb közösségi oldallal ellentétben, melyeknek központi szerverparkjuk van arra a célra, hogy tárolják a felhasználóik adatait, mi nem tudunk egy konkrét linket megadni és azt mondani: „itt regisztrálj“. A diaspora* különbözik ezektől az oldalaktól azáltal, hogy <em>decentralizált</em>, megannyi hozzáférési ponttal. Első lépésben tehát el kell döntened, hogy melyik diaspora* szolgáltatóra regisztrálsz. Ezeket a kiszolgálókat „pod“-oknak hívjuk."
       find_pod_ex2: ~
       find_pod_ex3: "Hogy segítsünk melyik pod a legalkalmasabb számodra, látogatsd meg ezt az oldalt: %{wiki_link}"
       wiki_link_text: "útmutatás a pod választáshoz"
@@ -265,7 +265,7 @@ hu:
       registration: Regisztráció
       registration1: ~
       registration2: ~
-      registration3: "Fejezd be a regisztrációt azzal, hogy a <span class=\"click\">Folytatás</span> gombra kattintasz, hogy létrehozd és elérd a zsír új diaspora* magod!"
+      registration3: "Fejezd be a regisztrációt azzal, hogy a <span class=\"click\">Folytatás</span> gombra kattintasz. Máris létrejött és elérhető vadonatúj diaspora* magod!"
       registration4: ~
       dhq_link_text: "diaspora* HQ"
       registration5: ~

@@ -72,11 +72,11 @@ sv:
       byline: "diaspora är enkelt att använda - så här gör man."
       menu_title: Om
       decentralize: "Vad är decentralisering?"
-      decentralize_ex: "diaspora* skiljer sig helt från de flesta nätverk som du använder. Den är totalt decentraliserad, helt utan någon central \"hub\". Trots detta, är det väldigt enkel att ansluta, och kommunicera med människor. Så här gör man."
+      decentralize_ex: "diaspora* skiljer sig helt från de flesta nätverk som du använder. Den är totalt decentraliserad, utan någon central \"hub\". Trots detta, är det väldigt enkel att anslutas sig och kommunicera med människor. Så här gör man."
       this: DETTA
-      this_ex: "diaspora* är ett nätverk i dess sanna bemärkelse, utan någon central bas. Det förekommer servrar (som kallas \"pods\") över hela världen, där varje pod innehåller data från de som valt att registrera sig hos den. Dessa pods kommunicerar med varandra oavbrutet, så du kan registrera med vilken pod som helst och kommunicera fritt med dina kontakter, varhelst de befinner sig i nätverket."
+      this_ex: "diaspora* är ett nätverk i dess sanna bemärkelse, utan någon central bas. Det finns servrar (som kallas \"pods\") över hela världen, där varje pod innehåller data från de som valt att registrera sig hos den. Dessa pods kommunicerar med varandra oavbrutet, så du kan registrera med vilken pod som helst och kommunicera fritt med dina kontakter, varhelst de befinner sig i nätverket."
       notthis: "INTE DETTA"
-      notthis_ex: "De flesta sociala nätverk sköts genom centraliserade servrar, ägda och skötta av företag som lagrar all privat data om deras användare. Denna information kan gå förlorad eller utnyttjas, och precis som alla system med en flaskhals, så påverkas hela systemet om ett fel med den centrala servern inträffar - nätverket blir långsamt eller fungerar inte alls. Det är även lättare för myndigheter att avlyssna."
+      notthis_ex: "De flesta sociala nätverk sköts genom centraliserade servrar, ägda och skötta av företag som lagrar all privat data om deras användare. Denna information kan gå förlorad eller utnyttjas, och precis som alla system med en flaskhals, så påverkas hela systemet om ett fel med den centrala servern inträffar - nätverket blir långsamt eller fungerar inte alls. Det är även lättare för myndigheter att avlyssna trafik på nätverket."
       discl: ~
       connect: "Hur kan jag ansluta?"
       connect_ex: "Även om diaspora* består av flera olika pods över hela jorden, kommer du att uppleva det som ett enda, integrerat nätverk. Du behöver inte vara registrerad på samma pod som dina kontakter, för att kunna kommunicera fritt med dem - kommunikationen flyter obehindrat mellan alla poddar i diasporas* universum. När du använder diaspora* kan du lätt glömma att det faktiskt består av flera poddar. Att koppla upp sig mot någon i diaspora* är väldigt enkelt: "

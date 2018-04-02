@@ -32,11 +32,11 @@ zh-TW:
       license_link_text: "Creative Commons 姓名標示 3.0 版未本地化授權條款"
   pages:
     index:
-      headline: ~
-      byline: ~
+      headline: "歡迎來到 diaspora*"
+      byline: 你能掌控的線上社交世界
       register: ~
-      key_philosophies: ~
-      decentralization: ~
+      key_philosophies: "diaspora* 有三個基本信念:"
+      decentralization: 分散
       decentralization_about: ~
       freedom: ~
       freedom_about: ~
@@ -84,7 +84,7 @@ zh-TW:
       find_ex: ~
       add: ~
       add_ex: ~
-      freedom: ~
+      freedom: 自由
       freedom_byline: ~
       fdm1: ~
       fdm1_ex: ~
@@ -92,7 +92,7 @@ zh-TW:
       fdm2_ex: ~
       fdm3: ~
       fdm3_ex: ~
-      privacy: ~
+      privacy: 隱私
       privacy_byline: ~
       priv1: ~
       priv1_ex: ~
