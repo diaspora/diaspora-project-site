@@ -203,6 +203,8 @@ en:
       lets_encrypt_ex: "%{lets_encrypt_link} has revolutionized the hosting of secure websites. diaspora* relies on the SSL secure protocol, and the Let’s Encrypt project has made SSL certificates freely available."
       webtranslateit: WebTranslateIt
       webtranslateit_ex: "%{webtranslateit_link} enables our multi-lingual community to collaborate on translating all parts of our app and website."
+      jetbrains: JetBrains
+      jetbrains_ex: "%{jetbrains_link} has given the diaspora* project an open-source license for RubyMine, their development tool for Ruby."
       kickstarter: Kickstarter
       kickstarter_ex: "diaspora*’s four founders used a %{kickstarter_link} campaign in May 2010 to raise the money to get the project underway. We are hugely thankful to every person who donated to the original crowd-funding campaign."
       pivotallabs: "Pivotal Labs"
