@@ -5,7 +5,7 @@ fi:
   buttons:
     host_pod: "Ylläpidä kapselia"
     join_diaspora: "Liity mukaan!"
-    find_more: ~
+    find_more: "Lisätietoja »"
   meta:
     footer:
       copyleft: "CC-BY The diaspora* Foundation"
@@ -14,59 +14,59 @@ fi:
   planet_feed: ~
   layouts:
     application:
-      wiki: ~
-      discourse: ~
-      planet: ~
-      useful_resources: ~
-      codebase: ~
-      documentation: ~
+      wiki: Wiki
+      discourse: "Keskustelut ja tuki"
+      planet: Planeetta
+      useful_resources: "Hyödyllisiä resursseja"
+      codebase: Koodikanta
+      documentation: Dokumentointi
       report_bugs: ~
-      irc_general: ~
-      irc_development: ~
-      discussion_general: ~
+      irc_general: "IRC - Yleistä"
+      irc_development: "IRC - Kehitys"
+      discussion_general: "Keskustelu & tuki"
       discussion_development: ~
-      choose_language: ~
+      choose_language: "Valitse kieli"
       translate: ~
-      cc_license_alt: ~
-      licensed_under: ~
-      license_link_text: ~
+      cc_license_alt: "Creative Commons -lisenssi"
+      licensed_under: "%{site_link}-sivuston lisenssityyppi on %{license_link}"
+      license_link_text: "Creative Commons Nimeä 3.0 Ei sovitettu (CC BY 3.0) -lisenssi"
   pages:
     index:
-      headline: ~
+      headline: "Tervetuloa diasporaan*"
       byline: ~
-      register: ~
-      key_philosophies: ~
-      decentralization: ~
+      register: "Rekisteröidy »"
+      key_philosophies: "diaspora* perustuu kolmeen periaatteeseen:"
+      decentralization: Hajauttaminen
       decentralization_about: ~
-      freedom: ~
+      freedom: Vapaus
       freedom_about: ~
-      privacy: ~
+      privacy: Yksityisyys
       privacy_about: ~
-      get_started: ~
+      get_started: Aloitetaanko?
       get_started_sub: ~
-      choose_pod: ~
+      choose_pod: "1. Valitse podi"
       choose_pod_exp: ~
       host_yourself: ~
-      sign_up: ~
+      sign_up: "2. Rekisteröidy"
       sign_up_ex: ~
-      join_convo: ~
+      join_convo: "3. Osallistu keskusteluun!"
       join_convo_ex: ~
-      aspects: ~
+      aspects: Näkymät
       aspects_ex: ~
-      features: ~
+      features: Ominaisuudet
       features_ex: ~
       help: ~
       help_ex: ~
       socialint: ~
       socialint_ex: ~
       earth_alt: ~
-      decentralized_alt: ~
-      freedom_alt: ~
-      keyhole_alt: ~
-      aspects_alt: ~
-      features_alt: ~
+      decentralized_alt: Hajautettu
+      freedom_alt: Vapaus
+      keyhole_alt: Avaimenreikä
+      aspects_alt: Näkymät
+      features_alt: Ominaisuudet
       ways_to_help_alt: ~
-      services_alt: ~
+      services_alt: Palvelut
     about:
       headline: "Kuinka diaspora* toimii?"
       byline: "diaspora* on helppokäyttöinen - katso ohjeet"
@@ -121,17 +121,17 @@ fi:
       host: "Ylläpidä kaikille avointa kapselia"
       host_byline: "Ole yksi diasporan* tähdistä"
       host_ex: ~
-      hostinst1: ~
+      hostinst1: "Lue %{instructions_link}, ja perusta oma podi."
       instructions_link_text: ~
       hostinst2: ~
-      distributed_network: ~
-      centralized_network: ~
-      search_alt: ~
-      add_a_contact_alt: ~
-      hashtag_alt: ~
-      reshare_alt: ~
-      mention_alt: ~
-      heart_alt: ~
+      distributed_network: "Hajautettu verkko"
+      centralized_network: "Keskitetty verkko"
+      search_alt: Hae
+      add_a_contact_alt: "Lisää kontakti"
+      hashtag_alt: Hashtag
+      reshare_alt: "Jaa uudelleen"
+      mention_alt: Mainitse
+      heart_alt: Sydän
     get_involved:
       headline: Osallistu!
       byline: "Sosiaalisten verkostojen tulevaisuus alkaa sinusta"
@@ -152,8 +152,8 @@ fi:
       code_ex2: "Asenna kehitysympäristösi"
       code_ex3: "Aloita koodin jakaminen!"
       code_ex4: ~
-      get_started_guide_link_text: ~
-      mailing_list_link_text: ~
+      get_started_guide_link_text: Aloitusopas
+      mailing_list_link_text: postituslista
       irc_link_text: ~
       code_gh: "Tutki lähdekoodia GitHubissa"
       bugs_header: "Korjaa bugeja"
@@ -163,47 +163,47 @@ fi:
       github_link_text: ~
       translate_header: "Auta kääntämisessä"
       translate_ex1: "Voit auttaa kääntämään diasporaa* kielellesi liittymällä kääntäjäryhmäämme %{translations_link}."
-      translations_link_text: ~
+      translations_link_text: Käännösryhmä
       translate_ex2: "Lue kääntämisohjeemme ennen aloittamista %{translation_instructions_link}."
-      translation_instructions_link_text: ~
+      translation_instructions_link_text: käännösohjeet
       voice_header: ~
       voice_ex1: ~
-      voice_ex2: ~
+      voice_ex2: "Liity mukaan"
       voice_ex3: ~
       meetup_link_text: ~
-      support_header: ~
+      support_header: "Tarjoa tukea"
       support_ex1: ~
-      support_ex2: ~
+      support_ex2: "Rekisteröidy täällä"
       support_ex3: ~
       support_ex4: ~
-      irc_channel_link_text: ~
+      irc_channel_link_text: IRC-kanava
       support_ex5: ~
-      wiki_link_text: ~
-      run_header: ~
+      wiki_link_text: "diasporan* wiki"
+      run_header: "Ylläpidä julkista podia"
       run_ex1: ~
       host_pod_link_text: ~
       run_ex2: ~
       run_ex3: ~
-      contributors_header: ~
+      contributors_header: "diasporan* osallistujat"
       contributors_byline: ~
-      globe_alt: ~
-      megaphone_alt: ~
-      support_alt: ~
-      pod_alt: ~
+      globe_alt: Maapallo
+      megaphone_alt: Megafoni
+      support_alt: Tuki
+      pod_alt: Podi
     blog:
-      headline: ~
-      subline: ~
-      menu_title: ~
+      headline: "diasporan* blogi"
+      subline: "viralliset tiedoitukset"
+      menu_title: Blogi
     planet:
-      headline: ~
+      headline: Diaspora*-planeetta
       subline: ~
-      menu_title: ~
+      menu_title: Planeetta
       disclaimer_headline: ~
       disclaimer: ~
-      subscribe_headline: ~
+      subscribe_headline: Tilaa
       subscribe: ~
       feed_link_title: ~
-      subscriptions_headline: ~
+      subscriptions_headline: Tilaukset
     community_guidelines:
       headline: "Sosiaaliset periaatteet"
       byline: ~
@@ -228,20 +228,20 @@ fi:
       tutorials_ex1: ~
       tutorials_ex2: ~
       started_head: ~
-      started1: ~
-      started2: ~
-      started3: ~
+      started1: Rekisteröityminen
+      started2: Käyttöliittymä
+      started3: Näkymät
       started4: ~
       started5: ~
-      started6: ~
+      started6: "Ilmoitukset ja keskustelut"
       started7: ~
-      part1: ~
-      part2: ~
-      part3: ~
-      part4: ~
-      part5: ~
-      part6: ~
-      part7: ~
+      part1: "Osa 1"
+      part2: "Osa 2"
+      part3: "Osa 3"
+      part4: "Osa 4"
+      part5: "Osa 5"
+      part6: "Osa 6"
+      part7: "Osa 7"
       additional: ~
       connecting: ~
       tips: ~
@@ -251,7 +251,7 @@ fi:
       other_docs_link_text: ~
       thanks: ~
     getting_started1:
-      byline: ~
+      byline: "Osa 1 - Rekisteröityminen"
       menu_title: ~
       welcome: ~
       find_pod: ~
@@ -262,12 +262,12 @@ fi:
       wiki_link_text: ~
       find_pod_ex4: ~
       find_pod_ex5: ~
-      registration: ~
+      registration: Rekisteröityminen
       registration1: ~
       registration2: ~
       registration3: ~
       registration4: ~
-      dhq_link_text: ~
+      dhq_link_text: "diasporan* päämaja"
       registration5: ~
       registration6: ~
       registration7: ~
@@ -281,7 +281,7 @@ fi:
       finish_ex1: ~
       finish_ex2: ~
     getting_started2:
-      byline: ~
+      byline: "Osa 2 - Käyttöliittymä"
       menu_title: ~
       menu_title_mobile: ~
       interface_mobile: ~
@@ -314,7 +314,7 @@ fi:
       column2: ~
       stream_mobile: ~
       views: ~
-      stream: ~
+      stream: Virta
       stream_ex1: ~
       stream_contents1: ~
       stream_contents2: ~
@@ -326,7 +326,7 @@ fi:
       activity_ex2: ~
       mentions: ~
       mentions_ex: ~
-      aspects: ~
+      aspects: Näkymäni
       aspects_ex1: ~
       aspects_ex2: ~
       tags: ~
@@ -362,11 +362,11 @@ fi:
       finish: ~
       finish_mobile: ~
     getting_started3:
-      byline: ~
+      byline: "Osa 3 - Näkymät"
       menu_title: ~
       aspects1: ~
       aspects2: ~
-      my_aspects: ~
+      my_aspects: Näkymäni
       my_aspects1: ~
       my_aspects2: ~
       my_aspects3: ~
@@ -382,7 +382,6 @@ fi:
       add_aspect2: ~
       add_aspect3: ~
       add_aspect4: ~
-      add_aspect5: ~
       add_aspect6: ~
       add_aspect7: ~
       contacts: ~
@@ -420,7 +419,7 @@ fi:
       finding: ~
       finding_ex1: ~
       finding_ex2: ~
-      search: ~
+      search: Haku
       search_ex: ~
       search_ls1: ~
       search_ls2: ~
@@ -455,14 +454,14 @@ fi:
       buttons: ~
       top_buttons: ~
       top_buttons_ex1: ~
-      top_buttons_list1: ~
-      top_buttons_list2: ~
-      top_buttons_list3: ~
-      top_buttons_list4: ~
-      top_buttons_list5: ~
+      top_buttons_list1: Lihavoi
+      top_buttons_list2: Kursivoi
+      top_buttons_list3: Otsikko
+      top_buttons_list4: Linkki
+      top_buttons_list5: Kuva
       top_buttons_list6: ~
       top_buttons_list7: ~
-      top_buttons_list8: ~
+      top_buttons_list8: Koodi
       top_buttons_list9: ~
       aspect_selector: ~
       aspect_selector_ex1: ~
@@ -497,16 +496,16 @@ fi:
       format_ex1: ~
       format_ex2: ~
       format_ex3: ~
-      links: ~
+      links: Linkit
       links_ex1: ~
       links_ex2: ~
-      images: ~
+      images: Kuvat
       images_ex1: ~
       images_ex2: ~
       format_note: ~
       format_link_text: ~
       links_ex: ~
-      embed: ~
+      embed: Upottaminen
       embed_ex1: ~
       embed_ex2: ~
       services: ~
@@ -522,9 +521,9 @@ fi:
       interact_ex1: ~
       interact_ex2: ~
       interact_ex3: ~
-      comments: ~
+      comments: Kommentit
       comments_ex: ~
-      likes: ~
+      likes: Tykkäykset
       likes_ex1: ~
       likes_ex2: ~
       reshare: ~
@@ -534,20 +533,20 @@ fi:
       delete_ex: ~
       hide: ~
       hide_ex: ~
-      notifications: ~
+      notifications: "Ota ilmoitukset käyttöön/poista käytöstä"
       notifications_ex: ~
       ignore: ~
       ignore_ex1: ~
       ignore_ex1a: ~
       ignore_ex2: ~
-      report: ~
+      report: "Ilmianna julkaisu"
       report_ex: ~
       finish: ~
     getting_started6:
-      byline: ~
-      menu_title: ~
+      byline: "Osa 6 - Ilmoitukset ja keskustelut"
+      menu_title: "Ilmoitukset ja keskustelut"
       intro: ~
-      notify: ~
+      notify: Ilmoitukset
       notify_ex1: ~
       notify_ex2: ~
       notify_ls1: ~
@@ -555,7 +554,7 @@ fi:
       notify_ls3: ~
       notify_ls4: ~
       notify_ex3: ~
-      convo: ~
+      convo: Keskustelut
       convo_ex1: ~
       convo_ex2: ~
       convo_ex3: ~
@@ -575,25 +574,25 @@ fi:
       connect_ex2: ~
       connect_ex3: ~
       connect_ex4: ~
-      settings: ~
+      settings: "Käyttäjätilin hallinta"
       settings_ex1: ~
       settings_ex2: ~
-      profile: ~
+      profile: Profiili
       profile_ex1: ~
       nsfw: ~
       profile_ex2: ~
       profile_ex3: ~
-      account: ~
+      account: Käyttäjätili
       account_ex1: ~
       account_ex1a: ~
       account_ex2: ~
       spotlight: ~
       spotlight_ex: ~
-      privacy: ~
+      privacy: Yksityisyys
       privacy_ex: ~
-      services: ~
+      services: Palvelut
       services_ex: ~
-      applications: ~
+      applications: Sovellukset
       applications_ex: ~
       finish1: ~
       finish2: ~
@@ -604,13 +603,13 @@ fi:
       format2: ~
       format3: ~
       format4: ~
-      headings: ~
+      headings: Otsikot
       headings_ex1: ~
-      headings_code1: ~
+      headings_code1: "Hyvin iso otsikko"
       headings_code2: ~
       headings_code3: ~
       headings_ex2: ~
-      lists: ~
+      lists: Listat
       lists_ex1: ~
       lists_ex2: ~
       lists_ex3: ~
@@ -620,10 +619,10 @@ fi:
       lists_code4: ~
       lists_code5: ~
       lists_code6: ~
-      quote: ~
+      quote: Lainaus
       quote_ex1: ~
       quote_code1: ~
-      quote_code2: ~
+      quote_code2: "Tämä on lainaus."
       quote_code2a: ~
       quote_code3: ~
       pre: ~
@@ -659,7 +658,7 @@ fi:
       link_code: ~
       link_ex2: ~
       inline_link_text: ~
-      images: ~
+      images: Kuvat
       images_ex1: ~
       images_code: ~
       images_ex2: ~
@@ -687,26 +686,26 @@ fi:
       menu_title: ~
       intro1: ~
       intro2: ~
-      tutorials: ~
+      tutorials: Oppaat
       parfait: ~
-      about: ~
+      about: "Lisätietoja diasporasta*"
       about1: ~
       wiki: ~
       wiki_link_text: ~
       wikipedia: ~
-      wikipedia_link_text: ~
+      wikipedia_link_text: diaspora*
       wikipedia_software_link_text: ~
-      support: ~
+      support: Käyttäjätuki
       question: ~
       mail: ~
-      mail_link_text: ~
+      mail_link_text: postituslista
       irc: ~
-      irc_link_text: ~
+      irc_link_text: IRC-kanava
       progress: ~
       blog: ~
       blog_link_text: ~
       changelog: ~
-      changelog_link_text: ~
+      changelog_link_text: Muutosloki
       discourse: ~
       communication: ~
       communicate: ~

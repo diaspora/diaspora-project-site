@@ -309,12 +309,12 @@ pt-PT:
       header_toggle: ~
       header_logout: ~
       interface_mobile_old: ~
-      columns: "Debaixo do cabeçalho existem três colunas:"
+      columns: "Debaixo do cabeçalho existem duas colunas:"
       column1: ~
       column2: ~
       stream_mobile: ~
       views: ~
-      stream: ~
+      stream: "O fluxo"
       stream_ex1: ~
       stream_contents1: ~
       stream_contents2: ~
@@ -329,7 +329,7 @@ pt-PT:
       aspects: "Os Meus Aspetos"
       aspects_ex1: ~
       aspects_ex2: ~
-      tags: ~
+      tags: "#Etiquetas Seguidas"
       tags_ex1: ~
       tags_ex2: ~
       public: ~
@@ -382,7 +382,6 @@ pt-PT:
       add_aspect2: ~
       add_aspect3: ~
       add_aspect4: ~
-      add_aspect5: ~
       add_aspect6: ~
       add_aspect7: ~
       contacts: "Página de Contactos"
@@ -430,7 +429,7 @@ pt-PT:
       search_ls6: ~
       invite: ~
       invite_ex: ~
-      profile: ~
+      profile: "Dos perfis deles"
       profile_ex1: ~
       profile_ex2: ~
       tags: "Seguir #tags"
@@ -524,7 +523,7 @@ pt-PT:
       interact_ex3: "Para ajudar os servidores da diáspora* a serem mais rápidos, o seu fluxo não será constantemente recarregado automaticamente. Basta recarregar a página sempre que quiser verificar as atualizações para o seu fluxo."
       comments: Comentários
       comments_ex: ~
-      likes: ~
+      likes: Gostos
       likes_ex1: ~
       likes_ex2: ~
       reshare: "Voltar a Compartilhar as Publicações"

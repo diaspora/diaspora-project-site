@@ -9,18 +9,18 @@ fi:
       inactive: ~
       invalid: ~
       invalid_token: ~
-      locked: ~
-      not_found_in_database: ~
+      locked: "Käyttäjätilisi on lukittu."
+      not_found_in_database: "Virheellinen sähköpostiosoite tai salasana."
       timeout: ~
-      unauthenticated: ~
+      unauthenticated: "Sinun tulee rekisteröityä ja/tai kirjautua ennen jatkamista."
       unconfirmed: ~
     mailer:
       confirmation_instructions:
-        subject: ~
+        subject: Vahvistamisohjeet
       reset_password_instructions:
-        subject: ~
+        subject: "Salasanan palautusohjeet"
       unlock_instructions:
-        subject: ~
+        subject: "Lukituksen poisto-ohjeet"
     omniauth_callbacks:
       failure: ~
       success: ~
@@ -28,19 +28,19 @@ fi:
       no_token: ~
       send_instructions: ~
       send_paranoid_instructions: ~
-      updated: ~
-      updated_not_active: ~
+      updated: "Salasanasi on vaihdettu onnistuneesti. Olet nyt kirjautunut sisään."
+      updated_not_active: "Salasanasi on vaihdettu onnistuneesti."
     registrations:
-      destroyed: ~
-      signed_up: ~
-      signed_up_but_inactive: ~
-      signed_up_but_locked: ~
-      signed_up_but_unconfirmed: ~
+      destroyed: "Näkemiin! Käyttäjätilisi on onnistuneesti peruutettu. Toivottavasti näemme sinut pian uudelleen."
+      signed_up: "Tervetuloa! Rekisteröintisi onnistui."
+      signed_up_but_inactive: "Olet rekisteröitynyt onnistuneesti. Voit aloittaa palvelun käytön, kunhan käyttäjätilisi on aktivoitu."
+      signed_up_but_locked: "Olet rekisteröitynyt onnistuneesti. Voit aloittaa palvelun käytön, kunhan käyttäjätilisi lukitus on poistettu."
+      signed_up_but_unconfirmed: "Olemme lähettäneet sähköpostiisi ohjeet, joiden avulla voit vahvistaa käyttäjätilisi. Ole hyvä ja vahvista käyttäjätilisi saamiesi ohjeiden mukaisesti."
       update_needs_confirmation: ~
       updated: ~
     sessions:
-      signed_in: ~
-      signed_out: ~
+      signed_in: "Sisäänkirjautuminen onnistui."
+      signed_out: "Uloskirjautuminen onnistui."
     unlocks:
       send_instructions: ~
       send_paranoid_instructions: ~

@@ -8,7 +8,7 @@ nb:
     find_more: ~
   meta:
     footer:
-      copyleft: ~
+      copyleft: "CC-BY The diaspora* Foundation"
   title: Diaspora*-prosjektet
   newsfeed: ~
   planet_feed: ~
@@ -72,32 +72,32 @@ nb:
       byline: "Diaspora* er enkelt å bruke. Her er grunnen"
       menu_title: Om
       decentralize: "Hva er desentralisering?"
-      decentralize_ex: ~
+      decentralize_ex: "diaspora* er annerledes enn de fleste andre nettverk du bruker. Det er fullstendig desentralisert, og uten noen sentral \"hub.\" Likevel er det enkelt å få kontakt og å kommunisere med andre mennesker. Her er hvordan."
       this: DETTE
-      this_ex: ~
+      this_ex: "diaspora* er virkelig et nettverk i ordets rette forstand. Det finnes tjenermaskiner (kalt \"pods\") over hele verden. Hver av dem inneholder data om brukerne som har valgt å registrere seg hos dem. Disse \"pod\"-ene kommuniserer sømløst med hverandre slik at du kan registrere deg på hvilken \"pod\" du vil, og likevel kommunisere fritt med med kontaktene dine, uansett hvor de befinner seg i nettverket."
       notthis: "IKKE DETTE"
-      notthis_ex: ~
+      notthis_ex: "De fleste sosiale nettverk kjører fra sentraliserte tjenermaskiner som eies of drives av ett selskap, og hvor de lagrer alle sine brukeres personlig informasjon. Denne informasjonen kan gå tapt, bli hacket, og som alle systemer med en flaskehals, kan problemer med den sentrale tjenesten gjøre at hele nettverket blir treigt eller slutter å fungere i det heletatt. Det gjør det også enklere for myndigheter og andre å \"lytte\" på hva som foregår."
       discl: ~
       connect: ~
-      connect_ex: "Selv om diaspora* utgjøres av mange pod-er over hele verden, vil du oppleve det som et integrert nettverk. Du behøver ikke være på samme pod som dine kontakter for at dere skal kunne kommunisere fritt med hverandre – kommunikasjonen foregår sømløst over alle pod-ene i diaspora*-universet. Når du bruker diaspora* kan du enkelt glemme at det er et nettverk av mange pod-er. Å få kontakt med noen på diaspora* er faktisk veldig enkelt: "
-      find: ~
-      find_ex: ~
-      add: ~
-      add_ex: ~
-      freedom: ~
-      freedom_byline: ~
-      fdm1: ~
-      fdm1_ex: ~
-      fdm2: ~
-      fdm2_ex: ~
-      fdm3: ~
-      fdm3_ex: ~
-      privacy: ~
-      privacy_byline: ~
-      priv1: ~
-      priv1_ex: ~
-      priv2: ~
-      priv2_ex: ~
+      connect_ex: "Selv om diaspora* består av mange pod-er over hele verden, vil du oppleve det som ett integrert nettverk. Du behøver ikke være på samme pod som dine kontakter for at dere skal kunne kommunisere fritt med hverandre – kommunikasjonen foregår sømløst over alle pod-ene i diaspora*-universet. Når du bruker diaspora* trenger du ikke bry deg om at det er et nettverk av mange pod-er. Å få kontakt med noen på diaspora* er faktisk veldig enkelt: "
+      find: "Finn dem"
+      find_ex: "Alt du trenger for å dele med noen er å finne dem og å legge dem til i et aspekt. (Mer om aspekter nedenfor.) Finn dem ved å søke i søkefeltet overst på siden, eller ved å holde musen over navnet deres i strømmen din slik at visittkortet vises. Vet du deres diaspora* ID (brukernavn@podnavn.com) så kan du bruke det."
+      add: "Legg dem til"
+      add_ex: "Så er det bare å klikke på knappen \"Legg til kontakt\" og velge hvilket aspekt du vil legge dem til i. Dere er nå koblet sammen, og du kan dele med dem på samme måte som du ville med andre nettverk. Du kan også legge til samme bruker i flere aspekter, dersom de opptrer i flere deler av livet ditt. Dere er nå koblet sammen. Så enkelt kan det være. "
+      freedom: Frihet
+      freedom_byline: "diaspora* prøver ikke å begrense deg"
+      fdm1: "Vær den du ønsker å være"
+      fdm1_ex: "Mange nettverk insisterer på at du bruker den ekte identiteten din. Ikke diaspora*. Her kan du velge hvem du vil være og dele så mye eller så lite om deg selv som du ønsker. Det er virkelig opp til deg å bestemme hvordan du ønsker å kommunisere med andre."
+      fdm2: "Vær kreativ"
+      fdm2_ex: "Det er ingen begrensninger i hvordan du vil interagere med andre. Du kan bare følge fascinerende mennesker og se hva de har å si, eller du kan dele alt med alle. Del bilder, kunst, video, musikk, tekster - kort sagt hva du selv vil."
+      fdm3: "Fri som i frihet"
+      fdm3_ex: "diaspora* er helt fri programvare. Det betyr at det ikke er noen begrensninger på hvordan du kan bruke den. Du kan endre kildekoden slik at programmet virker slik du vil ha det, og du kan hjelpe oss å forbedre nettverket. Vi vil veldig gjerne ha deg med."
+      privacy: Personvern
+      privacy_byline: "Full kontroll over hva som er ditt "
+      priv1: "Bestem over dataene dine"
+      priv1_ex: "Mange nettverk tjener penger på analysere hva du gjør og hvem du kommuniserer med, for så å selge denne informasjonen videre til annonsører. diaspora* bruker ikke dataene dine til noen annet formål enn å la deg kontakte og dele med andre. Det er kun administratorene til podene du kommuniserer med som har tilgang til dine data, og du velger selv hvilke poder du vil bruke og kommunisere med."
+      priv2: "Kjør din egen pod"
+      priv2_ex: "Velg hvor dataene dine lagres ved å velge en pod du stoler på. Vil du være ekstra sikker, kjør din egen pod på en server du kontrollerer selv, og kommunisér kun med andre poder du stoler på så ingen kan få tak i din personlige informasjon."
       priv3: ~
       priv3_ex: ~
       aspects: ~
@@ -382,7 +382,6 @@ nb:
       add_aspect2: ~
       add_aspect3: ~
       add_aspect4: ~
-      add_aspect5: ~
       add_aspect6: ~
       add_aspect7: ~
       contacts: ~

@@ -389,7 +389,6 @@ nl:
           Denk hier wel goed over na. Let niet alleen op je eigen privacy, maar ook op de privacy van anderen voordat je deze optie aankruist.
       add_aspect3: "Als je klaar bent, klik dan op de <span class=\"click\">Aanmaken</span> knop. Het aspect is dan aangemaakt en geselecteerd in het menu."
       add_aspect4: "Als het aspect is aangemaakt, word je meegenomen naar de lijst met contacten in dat aspect (daar staan nu dus nog geen namen in). Er is een link naar \"contacten toevoegen aan Diaspora\" of hoe je het aspect ook genoemd hebt,"
-      add_aspect5: ~
       add_aspect6: ~
       add_aspect7: ~
       contacts: Contactenpagina

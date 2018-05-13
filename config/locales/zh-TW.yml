@@ -15,7 +15,7 @@ zh-TW:
   layouts:
     application:
       wiki: 維基
-      discourse: ~
+      discourse: 論壇與支援
       planet: 星球
       useful_resources: 有用資源
       codebase: 程式庫
@@ -34,39 +34,39 @@ zh-TW:
     index:
       headline: "歡迎來到 diaspora*"
       byline: 你能掌控的線上社交世界
-      register: ~
+      register: "註冊 »"
       key_philosophies: "diaspora* 有三個基本信念:"
       decentralization: 分散
-      decentralization_about: ~
-      freedom: ~
-      freedom_about: ~
-      privacy: ~
-      privacy_about: ~
-      get_started: ~
-      get_started_sub: ~
-      choose_pod: ~
-      choose_pod_exp: ~
-      host_yourself: ~
-      sign_up: ~
-      sign_up_ex: ~
-      join_convo: ~
-      join_convo_ex: ~
-      aspects: ~
-      aspects_ex: ~
-      features: ~
-      features_ex: ~
-      help: ~
-      help_ex: ~
-      socialint: ~
-      socialint_ex: ~
+      decentralization_about: "在 diaspora*，個人資料不是在大型機構所集中擁有的強大伺服器上，而是存在於世界上每個獨立運作的伺服器(稱為「豆莢」)。你可以選擇要在哪個豆莢上註冊，然後就可以和全世界的整個 diaspora* 社群無縫接軌。"
+      freedom: 自由
+      freedom_about: "在 diaspora* 你可以做你自己。跟某些社交網路不同，你不需要用真實姓名。你可以選擇怎樣跟人互動，你的想像力就是你的限制。diaspora* 同時也是「自由軟體」，給你使用它的充分自由。"
+      privacy: 隱私
+      privacy_about: "diaspora* 的世界裡，你擁有自己的資料。你沒有把權利讓渡給某間公司或是其他想利用這些資料的人。除此之外，你還可以用「社交面」選擇誰能看見你所分享的東西。使用 diaspora*，你的朋友、習慣、內容都是由自己決定...而不是我們！"
+      get_started: 想要開始使用嗎？
+      get_started_sub: "簡單得像是在數 1, 2, 3 ..."
+      choose_pod: "1. 挑個豆莢"
+      choose_pod_exp: "找一個適合你的豆莢。你喜歡的可能是個小豆莢、可能是可以轉貼到外部服務(像是 Twitter)的豆莢、可能是距離比較近、或者是位在某個你所知道擁有優良資料安全政策的國家等等... 選擇權在你手上！如果你有一點系統管理的技能的話，甚至可以%{host_yourself_link}。"
+      host_yourself: 自己架一個
+      sign_up: "2. 註冊"
+      sign_up_ex: "也許是參考%{poduptime}上的評分和資訊，也許是信賴的人的推薦，你決定哪個豆莢才是你的菜了，就註冊吧，個人檔案要寫多少私人資訊都可以。要分享多少東西全由你自己控制。"
+      join_convo: "3. 一起來聊！"
+      join_convo_ex: "開始追蹤一些跟你的興趣相關的 #標籤 吧：比如說 <span class=\"click\">#音樂</span>、 <span class=\"click\">#攝影</span>、 <span class=\"click\">#隱私</span>、 <span class=\"click\">#linux</span> 等等你所熱愛的東西。再發表一篇公開的自我介紹，記得要放上 <span class=\"click\">#新來的</span> 標籤，去吧。現在你是活躍的 diaspora* 社群的一份子了。"
+      aspects: 社交面
+      aspects_ex: "diaspora* 開創了社交面這個概念，意思是指你可以用聯絡人在你生活中的角色來管理他們。比如說，你可以只和家庭成員或是公司同事分享某些東西，這樣一來其他的人就無法看見你的貼文。"
+      features: 功能
+      features_ex: "你可以用雜湊標籤來輕易地標記以及追蹤你感興趣的事物。你可以用 @指指點點 來吸引別人的注意。你可以轉貼喜歡的貼文給別人欣賞，還可以留言。你還可以對別人的作品按♥來表達你的愛。"
+      help: 想幫忙嗎？
+      help_ex: "diaspora* 需要人力幫忙寫程式和做測試、歡迎新成員並幫助他們、架設豆莢並且維護、以及對可能有興趣的人倡導 diaspora* 的好處。你是否想要對這個專案有所貢獻呢？"
+      socialint: 整合社交網路
+      socialint_ex: "diaspora* 可以作為你貼文到其他主要社交服務的基地。這樣一來，你的朋友即使還沒有使用 diaspora*，也能夠繼續跟你保持聯繫。diaspora* 目前支援跨站貼文到 Facebook, Twitter, 以及 Tumblr 帳號，以後可能有更多。"
       earth_alt: ~
-      decentralized_alt: ~
-      freedom_alt: ~
+      decentralized_alt: 分散
+      freedom_alt: 自由
       keyhole_alt: ~
-      aspects_alt: ~
-      features_alt: ~
-      ways_to_help_alt: ~
-      services_alt: ~
+      aspects_alt: 社交面
+      features_alt: 功能
+      ways_to_help_alt: 幫忙什麼
+      services_alt: 外部服務
     about:
       headline: ~
       byline: ~
@@ -135,7 +135,7 @@ zh-TW:
     get_involved:
       headline: ~
       byline: ~
-      menu_title: ~
+      menu_title: 入坑
       community: ~
       community_byline: ~
       meaning: ~
@@ -193,7 +193,7 @@ zh-TW:
     blog:
       headline: ~
       subline: ~
-      menu_title: ~
+      menu_title: 部落格
     planet:
       headline: ~
       subline: ~
@@ -222,381 +222,380 @@ zh-TW:
       howto_harassment: ~
       howto_benefit_of_doubt: ~
     tutorials:
-      headline: ~
-      byline: ~
-      menu_title: ~
-      tutorials_ex1: ~
-      tutorials_ex2: ~
-      started_head: ~
-      started1: ~
-      started2: ~
-      started3: ~
-      started4: ~
-      started5: ~
-      started6: ~
-      started7: ~
-      part1: ~
-      part2: ~
-      part3: ~
-      part4: ~
-      part5: ~
-      part6: ~
-      part7: ~
-      additional: ~
+      headline: "diaspora* 實戰教學"
+      byline: 協助你的逐步指南
+      menu_title: 實戰教學
+      tutorials_ex1: "歡迎使用 diaspora* 的實戰教學。這個頁面是我們所有 diaspora* 實戰教學課程的總覽，分為「入門指南」系列、以及其他指導如何完成特定工作的獨立課程。如果你剛來 diaspora* 或是根本還沒有註冊，建議你從「入門指南」系列開始。如果不是的話，可以看看其他的項目。"
+      tutorials_ex2: "我們盡力讓這些教學內容能跟上最新的 diaspora* 開發版本。然而由於你的豆莢跑的也許不是最新版的 diaspora*，可能會有些行為和這裡的課程所說的不一致。你可以在%{podup_link}檢查你所在豆莢的軟體版本。"
+      started_head: "Diaspora* 入門指南"
+      started1: 註冊
+      started2: 使用界面
+      started3: 社交面
+      started4: 找人以及建立聯繫
+      started5: 開始分享！
+      started6: 消息通知以及對話
+      started7: 結尾
+      part1: 首部曲
+      part2: 第二段
+      part3: 第三段
+      part4: 第四段
+      part5: 第五段
+      part6: 第六段
+      part7: 第七段
+      additional: 其他個別指導
       connecting: ~
       tips: ~
-      formatting: ~
-      more_tutorials: ~
-      other_docs: ~
-      other_docs_link_text: ~
+      formatting: 文字排版
+      more_tutorials: 需要更多協助嗎？
+      other_docs: "我們的%{other_docs_link}頁面上有位於其他網站上的文件的連結。"
+      other_docs_link_text: 其他文件
       thanks: ~
     getting_started1:
-      byline: ~
-      menu_title: ~
-      welcome: ~
-      find_pod: ~
-      find_pod_intro: ~
-      find_pod_ex1: ~
-      find_pod_ex2: ~
-      find_pod_ex3: ~
-      wiki_link_text: ~
-      find_pod_ex4: ~
-      find_pod_ex5: ~
-      registration: ~
-      registration1: ~
-      registration2: ~
-      registration3: ~
-      registration4: ~
-      dhq_link_text: ~
-      registration5: ~
-      registration6: ~
-      registration7: ~
-      registration8: ~
-      registration9: ~
-      profile1: ~
-      profile2: ~
-      profile3: ~
-      profile4: ~
-      finish: ~
-      finish_ex1: ~
-      finish_ex2: ~
+      byline: "首部曲 - 註冊"
+      menu_title: "註冊 diaspora*"
+      welcome: "歡迎使用我們的「入門指南」。你可能剛剛才在 diaspora* 註冊，或只是還在考慮要這麼做。無論如何，我們希望可以透過這一個系列的個別指導來引導你走一遍註冊的流程，並且熟悉 diaspora* 運作的基本觀念。希望對你有用，祝你享受使用 diaspora* 的時光！"
+      find_pod: 選擇豆莢
+      find_pod_intro: "如果你已經註冊成功了，可以跳過這一部份直接到%{part_link}。"
+      find_pod_ex1: "大多數的社交網路都有一群中心的電腦主機負責儲存所有人的資料，然而我們不是。因此我們不能給你一個網址，然後跟你說：「來這裡註冊。」diaspora* 不同的地方是，它是<em>分散</em>的，有許多不同的進入點。在開始使用之前，你要先選擇一個進入點，或是說「節點」，來使用 diaspora* 網路。我們把這些節點叫做「豆莢」。"
+      find_pod_ex2: "“<strong>diaspora</strong>”這個字的意思，是指一把種子(一群人)在一個廣大的區域中的散布。這就是為什麼我們的代表圖案是蒲公英的由來，我們的名字中的星號也代表著一個毛絨絨的蒲公英種子。因此我們把每個 diaspora* 的帳號叫做「<strong>種子</strong>」或是「<strong>豆子</strong>」，包含著許多種子的伺服器則叫做「<strong>豆莢</strong>」。希望你很快就會習慣！"
+      find_pod_ex3: "可以參考我們的%{wiki_link}，希望對決定一個最適合你的豆莢有幫助。"
+      wiki_link_text: 豆莢挑選指南
+      find_pod_ex4: "也有可能你已經收到一封認識的人邀請你加入 diaspora* 的信了，那麼信裡面就會有那個人所註冊豆莢的連結。如果你想要跟他/她在同一個豆莢的話，就直接開啟信裡面的連結就好。不過，並不是必須要跟你的朋友位在同一個豆莢才能夠聯絡，你可以選擇任何一個豆莢做為你的家，透過 diaspora* 網路，你可以跟不管是他/她是位在哪裡的任何人聯絡。"
+      find_pod_ex5: "每次登入 diaspora* 你都要到原本註冊的那個豆莢。從你的豆莢可以跟整個網路連線，所以無論選了哪個豆莢，使用的感覺應該都會差不多。你不能夠從其他的豆莢登入，理論上也應該沒有這個必要。"
+      registration: 註冊
+      registration1: "挑好豆莢後，找到<span class=\"click\">註冊</span>的連結，通常都會在豆莢的首頁。如果那個豆莢沒有「註冊」的連結的話，有可能它目前不開放新人註冊。你可以點它的統計頁面(從網址列在那個豆莢網路位址後面加上<code>/statistics</code>進入)來檢查看看。如果那個豆莢不開放註冊的話，你就必須要挑別的豆莢了。"
+      registration2: 點註冊的連結之後，你會看到要輸入使用者名稱、電子信箱、以及密碼的頁面。使用者名稱在註冊後就不能改了，所以請想清楚再決定。
+      registration3: "然後點<span class=\"click\">註冊新帳號</span>就完成了，開始使用你全新的 diaspora* 豆子(帳號)吧！"
+      registration4: "註冊過程中，你的豆子可能會自動和另外一個豆子建立聯繫，通常是我們的%{dhq_link}帳號，不過也可能是你所在豆莢管理員指定的別的帳號。這樣一來，我們就可以隨時通知你 diaspora* 的重大訊息。但是如果你不想要收到的話，只要把它從聯絡人清單拿掉就可以了。我們在%{part_link}會說明怎麼做。"
+      dhq_link_text: diaspora*總部
+      registration5: 接下來你應該會看到一個「入門」的頁面。在這裡，什麼資訊都不填也沒關係，但如果有寫的話，可以幫助你快點跟其他人建立聯繫。
+      registration6: 第一個欄位，可以輸入你希望顯示在螢幕上的名字。
+      registration7: 可以按那個按鈕來從你的電腦上傳一張個人照(你的「代表圖」)。
+      registration8: "然後可以輸入一些關於你的關鍵詞，可以是你感興趣的東西，像是音樂、行動，或者是你居住的城市。這些詞會被轉換成 <span class=\"click\">#標籤</span>， #標籤 可以讓你尋找貼文以及讓別人找到你，我們在後面的課程會進一步解釋。"
+      registration9: "接著按<span class=\"click\">帶我去 diaspora* 吧</span>"
+      profile1: "在繼續之前，請先花點時間寫一下你的個人檔案。請在接下來的頁面中，從右上角標題列上點你的名字或代表圖，然後從落下的選單裡點選<span class=\"click\">個人檔案</span>。然後再從接下來的頁面右上角點<span class=\"click\">編輯自己的個人檔案</span>的藍色按鈕。"
+      profile2: 個人檔案包含了兩部份：<strong>基本個人檔案</strong>是公開的，<strong>進階個人檔案</strong>預設則是不公開的。每個人都可以看到個人檔案中公開的部份，不公開的部份則只有你選擇和他們分享的人才看得到。個人檔案要寫多還是寫少隨你決定，也不需要用你真正的姓名。如果想要盡可能讓所有人了解你，可以把你的檔案整個公開出來。
+      profile3: "個人檔案中大部分的欄位應該都不需要說明吧？其中的 NSFW 是英文「上班時不宜」(Not Safe For Work)的縮寫，我們在%{part_link}會詳細說明，現在先別擔心。"
+      profile4: "寫完後別忘了要按<span class=\"click\">更新個人檔案</span>的按鈕喔！"
+      finish: 就是這樣！
+      finish_ex1: "你已經準備好要來使用 diaspora* 了！按一下螢幕左上角的豆莢名字或是<span class=\"click\">流水帳</span>來開始吧。"
+      finish_ex2: "如果充滿自信的你想要馬上跟 diaspora* 社群相遇和歡迎的話，現在就可以貼一篇<strong>公開</strong>的自我介紹文章，並且在貼文裡面放一個 <span class=\"click\">#新來的</span> 標籤(英文: #newhere)。在 diaspora* 裡，發表帶有標籤的公開貼文是交新朋友的好方式。還在猶豫的話也別擔心，我們在%{part_link}會一步一步帶你發表第一篇貼文。"
     getting_started2:
-      byline: ~
-      menu_title: ~
-      menu_title_mobile: ~
-      interface_mobile: ~
-      interface_desktop: ~
-      click_here_text: ~
-      interface1: ~
-      interface2: ~
-      interface3: ~
-      header: ~
-      header_mobile: ~
-      header_podname: ~
-      header_asterisk: ~
-      header_stream: ~
-      header_notify: ~
-      header_conversations: ~
-      header_newpost: ~
-      header_drawer: ~
-      header_search: ~
-      header_streams: ~
-      header_dropdown: ~
-      header_profile: ~
-      header_contacts: ~
-      header_settings: ~
-      header_help: ~
-      header_toggle: ~
-      header_logout: ~
+      byline: "第二段 - 使用界面"
+      menu_title: 使用界面
+      menu_title_mobile: 使用行動版界面
+      interface_mobile: "<strong>請注意</strong>: 如果你使用的是手持型的裝置，看到的會是設計用來在較小的螢幕使用的 diaspora* 界面。%{mobile_link}來看行動版界面的指南。"
+      interface_desktop: "<strong>請注意</strong>: 如果你用的是膝上型或是桌上型電腦，看到的會是設計用來在較大的螢幕使用的 diaspora* 界面。%{desktop_link}來看桌面版界面的指南。"
+      click_here_text: 請按這裡
+      interface1: "你看著的這個界面可能跟你還不太熟(如果還在編輯個人檔案的頁面的話，請先按標題列左手邊的豆莢名字或是<span class=\"click\">流水帳</span>)，讓我們來快速熟悉一下這個版面吧。"
+      interface2: "由於 diaspora* 生來就是分散的，而且還是開放源碼，因此有可能豆莢的管理員會去改造他/她的豆莢。所以你所在豆莢的使用介面會有可能跟這裡所形容的有一點不一樣。不過，基本的元素應該都還在，只是可能放的地方有點改變。"
+      interface3: 主界面可以劃分為四個部份。
+      header: 在畫面的最上方是標題列，它會總是待在這個位置，即使是頁面捲動往下捲也一樣。標題列包含了：
+      header_mobile: 點一下「抽屜」小圖示(有三條橫線的那個)會打開一個選單，裡面有：
+      header_podname: 豆莢的名字，按一下可以回到流水帳頁面；
+      header_asterisk: 一個星星小圖示，可以帶你回到流水帳頁面；
+      header_stream: <strong>流水帳</strong>和<strong>我的活動</strong>頁面的連結；
+      header_notify: "消息通知的圖示(會在%{part_link}說明)；"
+      header_conversations: "對話訊息的圖示(會在%{part_link}說明)；"
+      header_newpost: 發表新貼文的小圖示；
+      header_drawer: 用來打開裡面有其他選項的「抽屜」的小圖示。
+      header_search: "搜尋列(會在%{part_link}進一步說明)；"
+      header_streams: "<strong>我的活動</strong>、<strong>@指指點點</strong>、<strong>我的社交面</strong>、以及<strong>#追蹤標籤</strong>的流水帳連結(下面會說明)；"
+      header_dropdown: 個人的下拉式選單，項目有：
+      header_profile: 個人檔案頁面的連結(在下方說明)；
+      header_contacts: "聯絡人列表的連結(請見%{part_link})；"
+      header_settings: "帳號設定頁面的連結(請見%{part_link})；"
+      header_help: 說明文件的連結；
+      header_toggle: 在行動版和桌面版界面間切換的連結；
+      header_logout: 以及登出按鈕。
       interface_mobile_old: ~
-      columns: ~
-      column1: ~
-      column2: ~
-      stream_mobile: ~
-      views: ~
-      stream: ~
-      stream_ex1: ~
-      stream_contents1: ~
-      stream_contents2: ~
-      stream_contents3: ~
-      stream_contents4: ~
-      stream_ex2: ~
-      activity: ~
-      activity_ex: ~
-      activity_ex2: ~
-      mentions: ~
-      mentions_ex: ~
-      aspects: ~
-      aspects_ex1: ~
-      aspects_ex2: ~
-      tags: ~
-      tags_ex1: ~
-      tags_ex2: ~
-      public: ~
-      public_ex: ~
-      other_views: ~
-      other_views_ex: ~
-      tag_stream: ~
-      tag_stream_ex: ~
-      spv: ~
-      spv_ex: ~
-      profile: ~
-      profile_ex1: ~
-      profile_ex2: ~
-      profile_ex3: ~
-      profile_ex3_mobile: ~
-      profile_ex4: ~
-      profile_ex5: ~
-      profile_ex6: ~
-      profile_ex7: ~
-      profile_ex8: ~
-      themes: ~
-      themes_ex1: ~
-      themes_list1: ~
-      themes_list2: ~
-      themes_list3: ~
-      themes_list4: ~
-      themes_list5: ~
-      themes_list6: ~
-      themes_ex2: ~
-      finish: ~
-      finish_mobile: ~
+      columns: 在標題列的下方是兩個直欄：
+      column1: "在「側邊欄」可以看到 diaspora* 的幾種不同檢視模式，分別有<span class=\"click\">流水帳</span>、<span class=\"click\">我的活動</span>、<span class=\"click\">@指指點點</span>、<span class=\"click\">我的社交面</span>、<span class=\"click\">#追蹤標籤</span>、以及<span class=\"click\">公開活動</span>，我們接下來會一一解釋。另外還有一些連結，可以讓你邀請好友、歡迎新使用者、求助、連結像是 Facebook、Twitter、Tumblr 或是 Wordpress 之類的外部服務(不見得每個豆莢都會提供)、從其他網頁轉貼到 diaspora* (也就是 diaspora* 書籤小程式)等等。有些豆莢在這裡會有豆莢管理員的聯絡方式，以及捐款幫助豆莢運作的按鈕。"
+      column2: "主畫面欄是內容的流水帳，上方有個「發表對話框」，也就是讓神奇的事發生的地方！我們待會會在%{part_link}說明怎樣使用發表對話框。"
+      stream_mobile: 標題頁的下方是內容的流水帳。
+      views: "diaspora* 有以下這些檢視模式:"
+      stream: 流水帳
+      stream_ex1: "「流水帳」是你在 diaspora* 的首頁，集合了所有你可以看的貼文，包含了:"
+      stream_contents1: 你的聯絡人所發表的貼文;
+      stream_contents2: "包含了你所追蹤 <span class=\"click\">#標籤</span> 的公開貼文;"
+      stream_contents3: "對你 <span class=\"click\">@指指點點</span> 的貼文;"
+      stream_contents4: "「<span class=\"click\">社群焦點人物</span>」所發表的貼文，前提是你所在的豆莢有打開這個功能(說明請看%{part_link})。"
+      stream_ex2: 流水帳中的貼文順序是用原始貼文的時間。
+      activity: 我的活動
+      activity_ex: "「我的活動」會顯示所有你按讚過或留言過的貼文。這是用來追蹤你之前在 diaspora* 上跟別人的互動的常用方式。這個檢視模式中的貼文順序是用最近活動(留言或是按讚)的時間。"
+      activity_ex2: "點一下<span class=\"click\">我的活動</span>會出現兩個選單次項目: <span class=\"click\">稱讚過的貼文</span>和<span class=\"click\">留言過的貼文</span>。這兩個項目要是點了分別會顯示你曾經按讚過或留言過的貼文。"
+      mentions: "@指指點點"
+      mentions_ex: "會顯示其他人對你@指指點點的貼文。我們會在%{part_link}討論@指指點點。"
+      aspects: 我的社交面
+      aspects_ex1: 「我的社交面」會顯示所有你跟他們分享的人(也就是在你的社交面中的人)的貼文。還不知道什麼是社交面嗎？先別擔心，下個單元我們會詳細說明。
+      aspects_ex2: "按一下選單中的<span class=\"click\">我的社交面</span>就可以看到你的社交面列表。你可以選擇要看所有社交面中的貼文，也可以在社交面列表中點某個社交面來選擇看或不看它。"
+      tags: "#追蹤中的標籤"
+      tags_ex1: "這個檢視模式會顯示包含任何一個你所追蹤標籤的所有貼文，不管是公開貼文還是限制貼文。我們會在%{part_link}進一步討論標籤。"
+      tags_ex2: 在這個模式下可以看到你所追蹤標籤的列表，按一下某個標籤會顯示那個標籤專屬的流水帳。你可以按標籤旁邊的叉叉來停止追蹤那個標籤。
+      public: 公開活動
+      public_ex: 公開活動的流水帳會顯示你的豆莢上的所有公開貼文，包含那些你沒跟他們分享的人寫的，又不包含你所追蹤標籤的貼文。所以會很多很多！
+      other_views: 其他檢視模式
+      other_views_ex: "diaspora* 中還有其他種檢視模式，當你點一些連結時會出現。"
+      tag_stream: 標籤流水帳
+      tag_stream_ex: "在 diaspora* 中點任何一個 <span class=\"click\">#標籤</span> 會進入「標籤流水帳」，也就是會顯示在你的豆莢上所有有關於那個標籤的貼文。"
+      spv: 單一貼文檢視模式
+      spv_ex: "在某篇貼文的時間記號上按一下會進入「單一貼文檢視模式」，會顯示該篇貼文和所有針對它的留言。時間記號會顯示在貼文作者的名字旁邊，看起來像是「在約2小時前」。如果你想要把 diaspora* 中某篇貼文給某人看，可以從這裡取得該貼文直接的連結。"
+      profile: 個人檔案檢視模式
+      profile_ex1: "在你的名字或是個人照(又叫做「代表圖」)上點一下會進入你的個人檔案頁面。這裡會顯示你在 diaspora* 發表的所有貼文，以及個人照、顯示的名字、「關於我」的標籤、以及你的「<strong>diaspora*識別碼</strong>」。識別碼看起來就像是電子郵件信箱一樣，是由你所選擇的使用者名稱和豆莢的名稱所組成。"
+      profile_ex2: 在你的代表圖下方可以看到你輸入的額外個人資料，像是生日、所在地、性別、自傳等等。
+      profile_ex3: "如果想要修改你的個人資料，請按<span class=\"click\">編輯個人檔案</span>的藍色按鈕(詳情請看%{part_link})。"
+      profile_ex3_mobile: "如果想要修改個人資料的話，請按抽屜裡的<span class=\"click\">設定</span>連結。"
+      profile_ex4: 你也可以點別人的名字或代表圖來看他們的個人檔案，不過你可以看到多少個人資料和貼文取決於他們和你之間的分享關係。
+      profile_ex5: "如果他們有跟你分享的話，他們的 diaspora* 識別碼旁邊會有一個綠色勾勾，沒有的話會有灰色圈圈。"
+      profile_ex6: 左上角有一個社交面按鈕。如果這個人不在你的社交面中，按鈕會顯示「加聯絡人」，如果有則會呈現綠色，並且顯示社交面的名稱。按這個按鈕可以把他們加進某個社交面中。如果你目前正在忽視這個人，按鈕會呈現紅色並且顯示「停止忽視」。
+      profile_ex7: "在社交面按鈕的下方會有下面幾個小圖示: 如果你有和他/她分享的話，會有「@指指點點」的小圖示；如果你跟他/她是互相分享的關係的話，會有「送訊息」(信封)的小圖示，另外還會有忽視的小圖示。"
+      profile_ex8: 在名字和識別碼的下面有幾個分頁，分別會顯示他們的貼文、上傳的圖片、以及他們想給你看見的聯絡人(這點在下一段「社交面」會再解釋)。
+      themes: 色彩主題
+      themes_ex1: "你可以自訂 diaspora* 的外觀，方法是從<span class=\"click\">設定</span>選單(請看%{part_link})裡面選擇一個色彩主題。目前的主題有:"
+      themes_list1: "<strong>原始灰</strong>: diaspora* 預設的色彩主題"
+      themes_list2: "<strong>原始白背</strong>: 也是預設的主題，但是背景換成白色。這個主題看起來就像是「古早」的 diaspora* 介面。"
+      themes_list3: <strong>暗綠色</strong>
+      themes_list4: <strong>紫紅色</strong>
+      themes_list5: <strong>埃及藍</strong>
+      themes_list6: <strong>暗色系</strong>
+      themes_ex2: 你所在的豆莢可能也會自己設計了其他的色彩主題，如果有的話，就和我們預設的這些列在一起。
+      finish: "關於使用介面你需要知道的就是這些。現在你要做的第一步就是找一些人來跟他們分享。不過在開始之前，我們先來看一個讓 diaspora* 顯著不同的東西，那就是<strong>社交面</strong>。"
+      finish_mobile: "請注意：這份課程的其他部份都是用桌面版界面的截圖來介紹 diaspora* 的功能，有些功能可能在行動版的界面不提供，這時候你可以點抽屜選單中的<span class=\"click\">切換行動版頁面</span>來切換到桌面版界面使用。這兩種界面雖然有差別，不過不難，相信你可以克服的！"
     getting_started3:
-      byline: ~
-      menu_title: ~
-      aspects1: ~
-      aspects2: ~
-      my_aspects: ~
-      my_aspects1: ~
-      my_aspects2: ~
-      my_aspects3: ~
-      my_aspects4: ~
-      my_aspects5: ~
-      my_aspects6: ~
-      my_aspects7: ~
-      my_aspects8: ~
-      my_aspects9: ~
-      add_aspect: ~
-      add_aspect1: ~
-      aspects_mobile: ~
-      add_aspect2: ~
-      add_aspect3: ~
-      add_aspect4: ~
-      add_aspect5: ~
-      add_aspect6: ~
-      add_aspect7: ~
-      contacts: ~
-      contact_ex1: ~
-      contact_ex3: ~
-      contact_ex4: ~
-      contact_ex5: ~
-      contact_ex6: ~
-      contact_ex7: ~
-      sharing_me: ~
-      sharing_me_ex: ~
-      finish: ~
+      byline: "第三段 - 社交面"
+      menu_title: 關於社交面的種種
+      aspects1: 想想看你的生活，以及你認識的人。每個人都在你的生活的某一面，或是某些面中佔有地位。他們可能是你的家庭成員、可能是閨密、或是公司同事，可能跟你一起運動或是玩音樂，或是是跟你有某個共同的興趣。可能他們只是你在網路上會分享玩笑話的人。也有可能他們在你的生活中不只有一個角色。
+      aspects2: "diaspora* 也是像這樣子運作。根據你的聯絡人在你生活中的地位，你將他們放進 diaspora* 對應的「社交面」中。如此一來，你就可以控制你在 diaspora* 上的貼文可以被哪些聯絡人看見，只要發表貼文到指定的某個或多個社交面即可。這表示說你可以輕易地分享對的東西給對的人。我們會在後面三個部份解釋發表貼文到社交面代表了什麼。"
+      my_aspects: 我的社交面
+      my_aspects1: "我們先來看「我的社交面」選單。請回到流水帳，然後點側邊欄裡面的<span class=\"click\">我的社交面</span>，就可以看到你的社交面一列一列地放下來，並且流水帳裡的貼文變成只剩下來自目前勾選的社交面裡的人。如果你才剛剛註冊完的話，只會有四個預設的社交面，並且裡面應該什麼人都沒有。我們馬上就要來解決這件事！"
+      my_aspects2: 目前所有的社交面應該有勾選起來，它們旁邊應該都有個勾勾。
+      my_aspects3: 你可以點任何一個社交面來選擇勾選或是不選它。
+      my_aspects4: 你可以只勾選其中一個社交面，或是全部社交面的任何一種組合。
+      my_aspects5: "如果全部的社交面都勾選了，但是你只想要看其中的一個，可以先點<span class=\"click\">全不選</span>，再點選你想要看的那一個。"
+      my_aspects6: 要不要現在就試一下看看呢？
+      my_aspects7: 這一套勾選的系統有兩個用處：
+      my_aspects8: 過濾流水帳裡的貼文。比如說，你可以只看來自「家庭」社交面的貼文，或是看所有<em>除了</em>來自「家庭」社交面之外的貼文。
+      my_aspects9: 當你要從社交面流水帳頁面發表貼文的時候，你在左手邊選單所勾選的社交面，也會自動帶入發表對話框。比如說，如果目前有「朋友」、「家庭」、和「工作」三個社交面被勾選，當你點進去發表對話框視窗時，其中的社交面選擇按鈕就會顯示「在3個社交面中」。
+      add_aspect: 新增社交面
+      add_aspect1: 當你註冊完成後就會擁有四個社交面，分別是「家庭」、「工作」、「朋友」、以及「認識的人」。你的生活當然沒辦法只用這四個標準的社交面就能切分，因此讓我們來增加一些別的社交面。預設的那四個社交面如果你不需要也可以刪掉。
+      aspects_mobile: "請注意：目前還沒辦法用行動版的界面來新增社交面，因此如果你正在用行動版的話，請先按抽屜選單裡的<span class=\"click\">切換行動版頁面</span>來切換到桌面版。"
+      add_aspect2: "請先點<span class=\"click\">我的社交面</span>讓你的社交面列表出現，然後點列表最後的<span class=\"click\">+ 新增社交面</span>，你就會看到一個彈出式視窗。"
+      add_aspect3: 這篇指南會用一個叫做「Diaspora」的社交面來作範例，你想替你的社交面取任何名字都行。
+      add_aspect4: 請替這個新的社交面取個名字。可以取一個能代表你想放進去這個社交面的所有人之間的共通點，比如像是「創意寫作」、「足球」、或是「社會運動者」，不過你喜歡什麼名字都可以。<strong>除了你自己以外，沒有別人可以看到你替社交面取的名字，也就是說你的聯絡人並不知道你把他們放在哪個社交面裡面。因為這是你自己的事，跟他們無關</strong>
+      add_aspect6: "取好名字後，按下<span class=\"click\">建立</span>按鈕，這個社交面就會造出來、出現在選單中、並且已經勾選了。"
+      add_aspect7: 當社交面已經被造出來後，你會被帶到聯絡人頁面，並且顯示剛剛新造出來的社交面中的人(其實會是沒有人)。即使社交面還是空的，你也可以看到在其他社交面中的聯絡人列在下面，每一個的旁邊都有個按鈕，可以讓你把他們加進這個新的社交面中。
+      contacts: 聯絡人頁面
+      contact_ex1: "在%{part_link}我們有提到聯絡人頁面。你現在就在這個頁面了，不過要從別的頁面來到這裡，最好的方法是從標題列的使用者下拉式選單，點<span class=\"click\">聯絡人</span>這個項目。"
+      contact_ex3: 聯絡人頁面中，你的社交面會顯示在側邊欄，你放在社交面中的人則會顯示在主畫面上。(如果是行動版的話，社交面會顯示在畫面上方。)
+      contact_ex4: "如果目前顯示的是在所有社交面中的聯絡人(請點側邊欄的<span class=\"click\">我的聯絡人</span>)，那麼在每個聯絡人的右邊就會有個綠色按鈕，顯示他們位在哪個社交面中。有可能某個聯絡人會屬於多個社交面，那麼按鈕上就會顯示「在<em>幾</em>個社交面中」。按一下按鈕可以檢查是哪些社交面。"
+      contact_ex5: 可以按這個按鈕來改變某個人所位在的社交面，只要從下拉式列表來勾選或取消勾選社交面就可以了。如果你想把某人從你全部的社交面中移除掉，就對他/她取消勾選全部的社交面，同時按鈕也會變成灰色的。這樣一來，你就不再對他們分享了。
+      contact_ex6: 如果目前顯示的是某個社交面中的聯絡人，那麼每個聯絡人的右邊就會有個叉叉，按一下可以把他/她從這個社交面給移除掉。
+      contact_ex7: 你也可以從聯絡人頁面來增加新的社交面。
+      sharing_me: 跟我分享的人
+      sharing_me_ex: 這裡顯示的都是有跟你分享的人，但是你沒有跟他們分享，換句話說是你的「跟隨者」。
+      finish: 了解了社交面後，讓我們來建立一些聯繫吧。
     getting_started4:
-      byline: ~
-      menu_title: ~
-      aspects1: ~
-      sharing: ~
-      sharing_ex: ~
-      relationships: ~
-      followers: ~
-      followers_ex1: ~
-      followers_ex2: ~
-      followers_ex3: ~
-      following: ~
-      following_ex1: ~
-      following_ex2: ~
-      mutual: ~
-      mutual_ex1: ~
-      mutual_ex2: ~
-      mutual_ls1: ~
-      mutual_ls2: ~
-      mutual_ls3: ~
-      mutual_ls4: ~
-      mutual_ex3: ~
-      finding: ~
-      finding_ex1: ~
-      finding_ex2: ~
-      search: ~
-      search_ex: ~
-      search_ls1: ~
-      search_ls2: ~
-      search_ls3: ~
-      search_ls4: ~
-      search_ls5: ~
+      byline: "第四段 - 找人以及建立聯繫"
+      menu_title: 如何跟人建立聯繫
+      aspects1: "現在是時候把一些聯絡人加進你新建立的「Diaspora」社交面中了。如果你已經知道有誰在用 diaspora* 的話，可以把他們加進任何你想要的社交面。"
+      sharing: 分享
+      sharing_ex: "我們把跟人建立聯繫叫做「分享」，因為這代表了你想要分享東西給他們。diaspora* 的分享可能會有點讓人搞不懂，因為你想要跟別人分享的程度，可能跟人家想要跟你分享的程度不同。所以我們來試一下解釋其中的道理。"
+      relationships: "在 diaspora* 中，使用者之間有三種關係："
+      followers: 跟隨者
+      followers_ex1: 某人把你放進他/她的社交面中，但是反過來你並沒有對他/她這麼做。你會收到一個通知說這個人「開始跟你分享了」，不過對你來說不會有什麼改變。
+      followers_ex2: 從他們自己的流水帳可以看到你的公開貼文，但是不會有你設限的貼文。
+      followers_ex3: 為了保障隱私，你沒辦法知道別人把你放到哪個社交面。誰把誰放進哪個社交面中是每個人自己的事，因此其他人不能夠知道。
+      following: 正在跟隨
+      following_ex1: 你正在分享給某個不和你分享的人。也就是說你把他們加進某個或多個社交面中，但是反過來他們並沒有對你這麼做。
+      following_ex2: 你跟隨的這個人將會可以看到你設限範圍包含他/她所在社交面的貼文，當然還有你的公開貼文，並且你的流水帳也會開始接收到他/她的公開貼文。
+      mutual: 互相分享
+      mutual_ex1: "如果兩個人開始互相分享的話，事情就會開始有趣又複雜了！這就有點像是 Facebook 中的「好友」，不過還是不太一樣。"
+      mutual_ex2: 當兩個人開始互相分享，表示雙方都想要看見對方的貼文，因此雙方都將可以看見對方設限範圍包含自己所在社交面的貼文了。不過，你和某人彼此分享的程度可能會很不一樣。想想看以下的情境：
+      mutual_ls1: 你覺得你跟淑芬只是有點熟，於是把她放在你的「認識的人」社交面；
+      mutual_ls2: 淑芬呢，卻認為你是她最好的朋友之一，於是把你放在她的「閨密」社交面；
+      mutual_ls3: 大部分的時候，你的貼文都只發表在「朋友」或是「家庭」的社交面，因此你很多的貼文淑芬都看不到；
+      mutual_ls4: 但另一方面，由於你在淑芬的「閨密」社交面裡頭，你幾乎可以看到她全部的貼文。
+      mutual_ex3: 有個一定要記住的重點，那就是：除非你發表貼文時選擇要公開，或者是發表到某人所在的社交面(哪個社交面是你的選擇)，否則某人<strong>絕不可能</strong>看到你的貼文。
+      finding: 找人
+      finding_ex1: 要開始跟人互相分享，你可以先跟隨他們，搞不好他們就會反過來跟隨你喔！我們示範一下要怎麼做。
+      finding_ex2: 找到某人並且將他們加進社交面有幾種方式：
+      search: 搜尋
+      search_ex: 搜尋欄就位於標題欄中，要加某人的話可以這樣搜尋：
+      search_ls1: "輸入他/她的名字或是 diaspora* 識別碼，當你打字時就會出現建議項目。"
+      search_ls2: "按 Enter 開始搜尋，會出現搜尋結果的頁面。"
+      search_ls3: "找到那個你在尋找的人，點他/她旁邊的<span class=\"click\">加聯絡人</span>按鈕。"
+      search_ls4: "如果你想要分享的人已經出現在建議項目裡面，可以點他們的名字來進入個人檔案頁面，然後從裡面點<span class=\"click\">加聯絡人</span>按鈕。"
+      search_ls5: "一個下拉式選單會在按鈕下方出現，你可以從裡面勾選要把這個人加進哪個或哪些社交面。你也可以按<span class=\"click\"><em>+ 新增社交面</em></span>來新增一個社交面給他們。"
       search_ls6: ~
-      invite: ~
-      invite_ex: ~
-      profile: ~
-      profile_ex1: ~
-      profile_ex2: ~
-      tags: ~
-      tags_ex: ~
-      removing: ~
-      removing_ex1: ~
-      removing_ex2: ~
-      removing_ex3: ~
-      removing_ex4: ~
-      removing_ex5: ~
-      finish: ~
+      invite: 寄電郵邀請卡
+      invite_ex: "另一個跟隨某個朋友的方式是寄電郵邀請卡給他們。你可以從搜尋結果頁面右邊的<span class=\"click\">寄電子郵件邀請</span>，或是從流水帳頁面側邊欄的<span class=\"click\">邀請你的朋友</span>來寄。如果你的朋友接受邀請的話，他們就會開始進行你才剛剛完成的註冊程序。"
+      profile: 經由個人檔案
+      profile_ex1: "另外一種加人進社交面的方法是，當你在 diaspora* 看到某人時，點他們的名字來進入他們的個人檔案頁面，從那裡右上角有個按鈕，可以讓你把他們加進你的社交面。"
+      profile_ex2: 你可以把游標停在他們的名字或是個人照上面，稍等一下，一張小小的「目標卡片」就會跳出來，你可以直接在這張目標卡片上把他們加進社交面。
+      tags: "追蹤 #標籤"
+      tags_ex: "以上三種方式都是針對你已經認識的人，有時候，你對陌生人也頗有興趣，甚至於更有興趣。你可以開始追蹤一些你有興趣的主題的 #標籤，這是一種跟人結交的好方法。包含有這些標籤的貼文會開始出現在你的流水帳，你也就可以將那些貼文的作者放進你的社交面來跟隨他們了。"
+      removing: 移除聯絡人
+      removing_ex1: 把某人從你的聯絡人中移除的話，你就不再跟他們分享了。你只要把他們從他們所在的所有社交面中移除即可，可以這麼做：
+      removing_ex2: 去到他們的個人檔案頁面，或是在流水帳中他們的名字上停留一下，等待目標卡片跳出來；
+      removing_ex3: 按綠色的社交面選擇按鈕上的箭頭，然後點所有有勾選的社交面來取消勾選。
+      removing_ex4: 這樣就好了！因為他們已經不存在於你的任何一個社交面中，你也就不再跟他們分享了。
+      removing_ex5: "你也可以從聯絡人頁面把某人移除掉，我們在%{part_link}的最後那裡已經有說過。"
+      finish: 你應該已經知道怎麼開始跟人分享，也會新增聯絡人了。流水帳已經有點內容，等到有人也開始跟你分享時，你就擁有了貼文的聽眾。<strong>開始發表的時候到了。</strong>
     getting_started5:
-      byline: ~
-      menu_title: ~
-      intro1: ~
-      intro2: ~
-      publisher: ~
-      publisher_ex1: ~
-      publisher_ex2: ~
-      publisher_ex3: ~
-      publisher_ex4: ~
-      buttons: ~
-      top_buttons: ~
-      top_buttons_ex1: ~
-      top_buttons_list1: ~
-      top_buttons_list2: ~
-      top_buttons_list3: ~
-      top_buttons_list4: ~
-      top_buttons_list5: ~
-      top_buttons_list6: ~
-      top_buttons_list7: ~
-      top_buttons_list8: ~
-      top_buttons_list9: ~
-      aspect_selector: ~
-      aspect_selector_ex1: ~
-      aspect_selector_ex2: ~
-      aspect_selector_ex3: ~
-      poll: ~
-      poll_ex: ~
-      photo: ~
-      photo_ex: ~
-      locator: ~
-      locator_ex1: ~
-      locator_ex2: ~
-      locator_ex3: ~
-      connected: ~
-      connected_ex1: ~
-      connected_ex2: ~
+      byline: "第五段 - 開始分享！"
+      menu_title: 開始分享！
+      intro1: 現在你已經有一些聯絡人，可以開始跟他們分享一些東西了。
+      intro2: "在 diaspora*，你可以透過分享狀態訊息來跟一群跟隨者或全部的人溝通；也可以送私訊給某個或多個跟你互相為聯絡人的人。在這一段我們要討論的是怎麼利用發表對話框以及流水帳，來發表貼文以及留言。等到%{part_link}我們再來看看怎麼傳送私訊(在這裡叫做「對話」)。"
+      publisher: 發表對話框
+      publisher_ex1: "在 diaspora*，要分享東西是透過位在使用界面中央直欄上方的發表對話框來完成。如果你已經點過它的話，說不定還忍不住用它來貼文了吧！發表貼文就是這麼簡單。稍後我們會看看發表對話框可以完成的複雜功能，不過現在先來個簡介。"
+      publisher_ex2: 發表對話框看起來好像只是個又無聊又小的方框，但是別被它給騙了。在它的極簡風格外表之下，埋藏著許多像是寶藏一樣的功能，點點看就會被你挖掘出來。
+      publisher_ex3: 當發表對話框被「叫醒」的時候，可以看到一堆按鈕和小圖示，同樣的界面會出現在寫新的貼文、留言、或是私訊的時候。在我們深入研究這個界面之前，先忽略那些按鈕，來發表一則簡單的狀態訊息，並且只給你的跟隨者和互相聯絡人看。
+      publisher_ex4: "首先，先來打一些字，看你想對他們說什麼，比如說「這是我第一次在 Diaspora 貼文！」之類。然後按下<span class=\"click\">分享</span>的按鈕，這樣你就分享了一則訊息給你的聯絡人了！"
+      buttons: 好的～那麼那些按鈕又是做什麼用的呢？
+      top_buttons: 文字排版
+      top_buttons_ex1: 在發表對話框的上方，可以看到兩個分頁和一排的按鈕。其中一個分頁是原始的訊息文字，另外一個會顯示完成後看起來會是怎樣的預覽。這些按鈕則是用幫你對文字做排版，或是替你的訊息加一些其他東西，功能依序是：
+      top_buttons_list1: 粗體字
+      top_buttons_list2: 斜體字
+      top_buttons_list3: 變標題
+      top_buttons_list4: 加入連結
+      top_buttons_list5: 加入圖片
+      top_buttons_list6: 加入項目清單
+      top_buttons_list7: 加入編號清單
+      top_buttons_list8: 加入程式碼
+      top_buttons_list9: 加入引用文字
+      aspect_selector: 社交面選擇按鈕
+      aspect_selector_ex1: 這個按鈕顯示的是誰可以看你的貼文。預設是「所有社交面」，也就是說在你的社交面中的每個人都可以看，除此之外其他的人都不行。剛剛因為你想要送出的訊息只給跟隨者看，而預設是「所有社交面」，因此在分享出去之前不用改這個設定。
+      aspect_selector_ex2: "你可以用這個按鈕來選擇任何一個或一些你想要分享對象的社交面，只要點列表中的社交面，來勾選或是取消就可以了。這樣一來，就像我們在%{part_link}說過，你對於誰能看你的訊息有完全的控制權。另一方面，如果你想要對全世界發表宣佈，那就選擇「公開」，就完全沒有限制誰不能讀你的訊息。"
+      aspect_selector_ex3: "注意：你可以在使用者設定更改預設的貼文限制範圍，請見%{part_link}。"
+      poll: 辦一輪投票
+      poll_ex: 在發表對話框右下方有個看起來像是統計圖表的圖示，可以讓你在貼文中辦投票。點一下它就會出現方框，可以讓你輸入投票的「問題」，以及兩個以上可以讓人圈選的「答案」。當你在輸入最後一欄的答案時，下面又會出現新的一欄，因此你可以輸入任意數量的答案。
+      photo: 分享照片
+      photo_ex: 文字欄位的右手邊有一個照相機的圖示，可以讓你對訊息附加照片。你可以點它然後從電腦上選擇要加的圖片，或是直接拖放圖片到這個按鈕上面。
+      locator: 定位
+      locator_ex1: 照相機的隔壁是一個「別針」的圖示，可以打開定位功能，這個功能會把你目前的位置加到貼文去。點它一下，它就會問你是否想用開放街圖(OpenStreetMap)來判斷你的位置，如果你同意的話，貼文就會多一個所在位置的註腳。
+      locator_ex2: 當位置資訊出現在發表對話框下面之後，你可以點它來編輯。
+      locator_ex3: 定位功能取得的位置可能會太精確了，因此你可能會想把確切的地址給刪掉，只保留比如說城鎮或區域的名稱。給你自己決定！
+      connected: 連結服務
+      connected_ex1: "如果你有設定跟其他社交網路(Facebook、Twitter、Tumblr、以及 WordPress)的連結的話，發表對話框也會出現這些外部服務的圖示。如果圖示呈現高亮度，就表示貼文會跨站轉貼到對應的服務去。我們到下個段落再討論這個。"
+      connected_ex2: 外部服務旁邊有個看起來像是板手的圖示，點一下可以讓你設定和其他社交網路或服務的連結。
       connected_ex3: ~
-      preview: ~
-      preview_ex1: ~
-      buttons_finish: ~
-      features: ~
-      tags: ~
-      tags_ex1: ~
-      tags_ex2: ~
-      nsfw: ~
-      tags_ex3: ~
-      mentions: ~
-      mentions_ex1: ~
-      mentions_ex2: ~
-      mentions_ex3: ~
-      format: ~
-      format_ex1: ~
-      format_ex2: ~
-      format_ex3: ~
-      links: ~
-      links_ex1: ~
-      links_ex2: ~
-      images: ~
-      images_ex1: ~
-      images_ex2: ~
-      format_note: ~
-      format_link_text: ~
+      preview: 貼文預覽
+      preview_ex1: 左上方「寫作」按鈕的旁邊有個放大鏡圖示的按鈕，是個非常有用的功能！它可以讓你檢查貼文看起來會是怎樣，讓你寫到滿意再貼出去。需要修正錯誤時，這個功能真的很有用，尤其是排版方面的問題。我們會在下面繼續討論這個。
+      buttons_finish: "發表對話框裡的按鈕和圖示你需要知道的就是這些，真正神奇的是在對話框本身。除了打純文字以外，你還可以排版、加 #標籤、@指指點點、連結、嵌入相片、影片、還有聲音。哇嗚！"
+      features: 貼文的功能
+      tags: "#標籤"
+      tags_ex1: "在某個詞的前面加個 # (井字號)就會變成一個標籤。中文因為需要手動斷詞的關係，如果前後有其他字的話，請再各加一個空格分隔開，比如像是 #標籤 這樣。這有什麼用途呢？如果你想要找到感興趣的東西，以及讓可能感興趣的人注意到你貼的東西，#標籤 就會是很好的方式。標題欄中的搜尋列可以讓你可以搜尋標籤。你也可以追蹤標籤，這樣一來所有包含那個標籤的貼文，通通都會出現在你的流水帳。其實呢，如果填個人檔案時你填了「用五個詞來表現你自己」的話，你現在已經在追蹤那些標籤了！"
+      tags_ex2: "比如說你喜歡烹飪，並且貼了一則有「#烹飪」的訊息，那麼任何一個追蹤 #烹飪 這個標籤的人都會在流水帳中看到你的貼文。當然有個前提，要讓 #烹飪 的追蹤人可以看你的貼文，你的貼文必須要是公開的。如果你的貼文只給某個或某些社交面看，只有那些社交面中的人可以看得到。當你從搜尋欄搜尋「#烹飪」時，會看到所有含有「#烹飪」標籤的貼文，包含了：你自己的貼文、你的朋友的貼文、以及其他 diaspora* 成員的公開貼文。這樣你就知道為什麼標籤是跟你有相同興趣的人互相分享的絕佳工具了。"
+      nsfw: 「上班時不宜」標籤
+      tags_ex3: "如果你覺得你貼的東西可能會冒犯到別人，或者是上班時被別人看到可能會帶來麻煩，那就請給它一個 <span class=\"click\">#nsfw</span> (英文 \"not safe for work\"，上班時不宜)的標籤，這樣一來它在顯示時會先藏起來，直到被點開才會看見。我們會在%{part_link}討論這個。"
+      mentions: "@指指點點"
+      mentions_ex1: "你知道嗎？你可以用「指指點點」吸引某人的注意力。請先打 @ (小老鼠)符號，再接著打他們的名字(顯示的名字，不是使用者名稱)，diaspora* 的自動完成功能就會顯示符合的人。然後在自動完成列表上對目標人物按 Enter 或是點一下，diaspora* 就會把它替換成那個人的 diaspora* 識別碼，在貼文發表時這就會變成對某人的@指指點點。你提到的那個人會收到指指點點的通知，如果他們有設定的話，還會收到一封對應的電子郵件。"
+      mentions_ex2: 你可以在貼文或是留言中對人@指指點點。同理別人也可以對你@指指點點，而你就在標題列收到通知(如果你有設定的話，還會收到電子郵件)。
+      mentions_ex3: 請注意，你只能夠對分享的對象@指指點點。
+      format: 文字排版
+      format_ex1: 有很多讓你的文字有變化的方式，像是加粗、推斜、大大醒目的抬頭等等。大部分的功能都可以用發表對話框上方的按鈕來完成，因此你不太需要煩惱那些亂七八糟的代碼。
+      format_ex2: "要加上把文字<em>推斜</em>、<strong>加粗</strong>、或是程式碼的代碼的話，只要先把那段文字選起來變反白，然後按發表對話框上方對應的按鈕，這樣就會產生對那段文字的 Markdown 排版代碼了。"
+      format_ex3: 要將某一行文字變成抬頭、列表、或是引言的話，只要把游標停在那一行上，然後按對應的按鈕就可以了。
+      links: 連結
+      links_ex1: "想要在貼文中放一個連結嗎？只要按一下<span class=\"click\">連結</span>的按鈕，然後在彈出式視窗中輸入連結的網址，就會產生一段 Markdown 格式的連結代碼。接下來你可以在中括號之間輸入該連結想要顯示的文字。"
+      links_ex2: "如果你的訊息中只是想要單純一個連結，那就在發表對話框中把連結直接貼上，它就會被轉換成一個內嵌式連結。除非你想要看起來比較炫的連結，否則不需要用 Markdown 語法！"
+      images: 圖片
+      images_ex1: "把網路上的圖片嵌入你的訊息中就有點像是嵌入連結。按一下發表對話框上方的<span class=\"click\">圖片</span>按鈕，這時候會出現彈出視窗，然後再貼上圖片的網址。這樣就會插入一段 Markdown 的圖片代碼，你可以在中括號之間輸入「替代文字」(當圖片無法顯示時，替代顯示的文字)。你也可以輸入圖片的標題，不過並不是必要，這是當你把游標停在圖片上時，會以浮動方塊顯示的文字。"
+      images_ex2: 請注意：這個功能需要你提供圖片檔案的連結(結尾像是.jpg、.gif、.png等)，<em>不是</em>裡面有圖片的網頁連結。
+      format_note: "diaspora* 採用一種叫做 Markdown 的簡化排版系統。如果你想要做的事情用那些排版按鈕做不到，可以另外參考這份 Markdown 的%{format_link}。"
+      format_link_text: 實戰教學
       links_ex: ~
-      embed: ~
-      embed_ex1: ~
-      embed_ex2: ~
-      services: ~
-      services_ex1: ~
-      services_ex2: ~
-      services_ex3: ~
-      how: ~
-      try_out: ~
-      make_post1: ~
-      make_post2: ~
-      make_post3: ~
-      interact: ~
-      interact_ex1: ~
-      interact_ex2: ~
-      interact_ex3: ~
-      comments: ~
-      comments_ex: ~
-      likes: ~
-      likes_ex1: ~
-      likes_ex2: ~
-      reshare: ~
-      reshare_ex: ~
-      post_icons: ~
-      delete: ~
-      delete_ex: ~
-      hide: ~
-      hide_ex: ~
-      notifications: ~
-      notifications_ex: ~
-      ignore: ~
-      ignore_ex1: ~
-      ignore_ex1a: ~
-      ignore_ex2: ~
-      report: ~
-      report_ex: ~
-      finish: ~
+      embed: 內嵌
+      embed_ex1: "你也可以貼一些多媒體網站的連結，像是 YouTube、Vimeo、Soundcloud等等，目標的影片或是聲音檔就會「內嵌」進你的貼文了。試試看吧！"
+      embed_ex2: 請注意，這種影片或是聲音是在你發表貼文<em>之後</em>才會被內嵌，因此你需要重新載入流水帳才會看到。有的時候，提供檔案的網站需要一點時間來回應內嵌檔案的資訊，因此如果你還看不到，請稍等一下再重新載入流水帳看看。
+      services: 貼文到其他外部服務
+      services_ex1: "如果你設定了其他外部服務和你的 diaspora* 豆子之間的連結，你就可以按發表對話框下方的某個或是某些對應服務的圖示，來將貼文轉貼到對應的社交網路去。"
+      services_ex2: "如果你點亮了某個或是某些服務的圖示，寫訊息時就會顯示你還可以寫多少個字。Twitter 的總字數上限是 280 個字、Tumblr 是 1000、Facebook 是 63,206，而在 diaspora* 你最多可以寫到 65,535 個字！顯示的剩餘字數是相對於所有點選的服務中，數量最低的那一個。因此如果你同時點了 Twitter 和 Facebook，字數的上限就會是 280 個字。"
+      services_ex3: "如果你寫的訊息字數比你轉貼過去的服務所限制的還要多，那在那個服務上，你的貼文看起來就會是從中間截掉，然後再接著那篇貼文在 diaspora* 上的連結。"
+      how: "還可以嗎？在 diaspora* 上貼文真的可以做很多事。"
+      try_out: "想要實驗看看的話，要不要從發表一篇貼文宣布你剛來 diaspora* 開始呢？這是一個讓我們的社群歡迎你來，並且建立聯繫的好方式。"
+      make_post1: "要發表公開的貼文，請在社交面選擇按鈕選<span class=\"click\">公開</span>，然後開始寫你的貼文。如果你還不曾用 <span class=\"click\">#新來的</span> 標籤對 diaspora* 社群做自我介紹，現在就試試如何？追蹤這個標籤的人就會看到你的貼文，並且來對你說歡迎光臨了。你也可以放一些你有興趣的 #標籤，你會發現跟你有相同興趣的人也會發現你。就像是這樣："
+      make_post2: "大家好！我是 #新來的。我喜歡 #跑步、 #文學、以及 #兔子。"
+      make_post3: 你可能不想要發表公開的貼文，那也沒關係，重點是你會做就好。
+      interact: 用流水帳跟貼文互動
+      interact_ex1: 流水帳是狀態訊息的即時顯示。每當某個你跟隨的人貼了一則訊息，你的流水帳就會多增加這筆訊息。你可以對自己或是別人的貼文留言，也可以對別人的訊息「按讚」或是「轉貼」，甚至如果有人貼了你不想看見的東西，你可以把它隱藏起來。這些都是在發表對話框下面的流水帳裡面操作。
+      interact_ex2: "別忘記了喔，隨著你點選不同的檢視模式，會有不同的流水帳，也就是<span class=\"click\">流水帳</span>、<span class=\"click\">我的活動</span>、<span class=\"click\">@指指點點</span>、<span class=\"click\">我的社交面</span>、以及<span class=\"click\">#追蹤中的標籤</span>。雖然這些檢視模式所顯示的貼文不是都一樣，但是互動的方式都是一樣的。"
+      interact_ex3: "為了讓 diaspora* 豆莢有效率得運作，流水帳不會不斷的自動更新。所以當你想檢查看看流水帳是否有更新時，就把頁面重新載入一下吧。"
+      comments: 留言
+      comments_ex: "如果一篇貼文還沒有任何的留言，可以按它的<span class=\"click\">留言</span>來打開輸入欄位。如果貼文已經有留言的話，輸入欄位就會自動顯示了。超過三則留言的時候，只會顯示最近的三則，但是可以按上面<span class=\"click\">顯示另外幾則留言</span>的連結來展開整個討論串。"
+      likes: 稱讚
+      likes_ex1: "<span class=\"click\">留言</span>連結的旁邊是<span class=\"click\">讚</span>的連結，可以用來跟貼文的作者表示你讀過了、並且喜歡或感謝，但不用真的留言給他/她。點一下這個連結會讓按讚的數量+1，點一下數量則會顯示是哪些人對這篇貼文按讚。"
+      likes_ex2: "<span class=\"click\">收回讚</span>的連結這時候會出現，如果你改變了心意，可以點它來取消你的「稱讚」。不過，相關的通知還是已經送出給那篇貼文的作者了喔！"
+      reshare: 轉載貼文
+      reshare_ex: "你可以轉載別人的公開貼文。在「讚」和「留言」的連結之間，是<span class=\"click\">轉貼</span>的連結，點一下就會轉載這篇貼文。轉貼的效果是會把它給你的跟隨者看，因此有傳播優良訊息給更多觀眾的作用。"
+      post_icons: 當你把游標停在流水帳中的某篇貼文上的時候，在貼文的右上角會出現幾個小圖示，提供了一些有用的功能：
+      delete: 刪除貼文以及留言
+      delete_ex: 當你把滑鼠的游標停在你自己的貼文或是貼文的留言時，一個垃圾筒的圖示就會出現右上角，點一下可以讓你刪掉這篇貼文或是留言。你也可刪掉你對別人貼文的留言。
+      hide: 隱藏某人的貼文
+      hide_ex: "如果你不想再看到別人的某一篇貼文，可以對那篇貼文點 <span class=\"click\">x</span> 的圖示，方法跟刪掉你自己的貼文類似。"
+      notifications: 打開或關閉通知
+      notifications_ex: "在 x 圖示的附近有個小鈴鐺圖示，當它呈現灰色的時候，表示現在你不會收到針對這篇貼文所有活動的通知。如果點一下它把它變成黑色，你就會開始收到了。當然如果現在你會收到，但是不想再收的話，也可以點鈴鐺把它從黑色變成灰色。"
+      ignore: 忽略使用者
+      ignore_ex1: 如果你正在和某個人分享，那現在把他/她從你的社交面中拿掉，就可以讓他們之後的貼文不再出現在你的流水帳中。更徹底的方法是「忽視」那個帳號，不僅他們的貼文不會再出現在你的流水帳，同時他們也無法再對你的貼文按讚或留言。不過呢，他們還是可以轉載你的貼文，然後對那個轉貼來留言；另一方面，你也還是可以看到他們對你的流水帳中的其他人貼文的留言。
+      ignore_ex1a: "要忽視一個帳號，先找一篇他們的貼文，注意到右上角的<span class=\"click\">忽視</span>小圖示(一個有對角線的圓圈)，然後點它一下，他們的貼文就會馬上從你的流水帳中消失。有別的方法是到他們的個人檔案頁面去按裡面的忽視圖示。之後如果你想看他們的貼文，還是可以到他們的個人檔案頁面去看，或者你知道是哪篇貼文的話，就用單一貼文檢視模式。"
+      ignore_ex2: "你可以在帳號設定的<span class=\"click\">隱私</span>設定找到所有你正在忽視的人，只要把某人從那個列表中移除掉就可以停止忽視他/她。我們會在%{part_link}討論怎麼更改你的帳號設定。"
+      report: 投訴某人的貼文
+      report_ex: "如果你覺得某一篇貼文違反了你所在豆莢的行為規範，比如說濫用或是垃圾廣告內容，你可以對它點投訴圖示(中間有個驚嘆號的三角形)。會出現一個投訴的表格，填完可以寄給你所在豆莢的莢主。請在投訴前確定了解所在豆莢的使用條款，你可以在側邊欄找到<span class=\"click\">使用條款</span>的連結。"
+      finish: "你已經學會你在 diaspora* 大部分的時間在做的事了，也是分享你的東西、把別人的東西轉貼、或是留言。下一段我們要來看看「對話」，也就是和一個或多個聯絡人私訊。"
     getting_started6:
-      byline: ~
-      menu_title: ~
-      intro: ~
-      notify: ~
-      notify_ex1: ~
-      notify_ex2: ~
-      notify_ls1: ~
-      notify_ls2: ~
-      notify_ls3: ~
-      notify_ls4: ~
-      notify_ex3: ~
-      convo: ~
-      convo_ex1: ~
-      convo_ex2: ~
-      convo_ex3: ~
-      convo_ex4: ~
-      convo_ex5: ~
-      convo_ex6: ~
-      convo_ex7: ~
-      convo_ex8: ~
-      convo_ex9: ~
-      finish: ~
+      byline: "第六段 - 消息通知以及對話"
+      menu_title: 消息通知以及對話
+      intro: 最後一個你應該要知道的重要功能就是「對話」，不過在介紹之前，我們先講一下消息通知。
+      notify: 消息通知
+      notify_ex1: 消息通知的小圖示(看起來像是個鈴鐺)位在標題欄，點一下會出現一個可以捲動的列表，顯示目前最近消息的通知。如果你有還沒看過的通知的話，會在圖示上面用紅底的數字來顯示數量。
+      notify_ex2: 消息通知的內容通常都像是「某甲留言在某乙的貼文」、「誰誰誰開始跟你分享了」、或是「誰誰誰在貼文中提到了你」之類。你可以在這個列表中：
+      notify_ls1: 點某人的名字來看他們的個人檔案頁面
+      notify_ls2: "點<span class=\"click\">貼文</span>來看目標貼文"
+      notify_ls3: "點<span class=\"click\">全部標示為已讀</span>"
+      notify_ls4: "點<span class=\"click\">看全部</span>進入消息通知頁面"
+      notify_ex3: "消息通知頁面會顯示你之前所有的通知，每一頁顯示 25 則"
+      convo: 對話
+      convo_ex1: 對話是兩個以上的人之間的私人通訊。從標題欄的信封圖示點一下來用這個功能。
+      convo_ex2: 桌面版頁面的對話頁面有兩個直欄，左邊是跟你相關的對話列表，右邊是目前選取的對話內容(如果有選的話)。
+      convo_ex3: "左邊直欄最上面的<span class=\"click\">開始對話</span>按鈕可以用來開啟一輪新的對話。按這個按鈕會出現可以讓你寫訊息以及加收訊人的表格。"
+      convo_ex4: 你只能夠和跟你互相分享的人私訊。
+      convo_ex5: 當你在「收訊人」欄位打名字時，自動完成功能會開始作用，就像是在貼文或留言時對人@指指點點一樣。先點你要加入對話的聯絡人、填一下主旨、再寫一下訊息、再傳送就好了！就是這麼容易。這裡的訊息也可以對文字做排版，所以想要加粗粗的抬頭或是大大的標題的話請自便。
+      convo_ex6: 在左邊的直欄你會看到一列的對話，每個都有：對話的主旨、開啟對話人的個人照、以及最後發言人的名字。右邊還有：對話的訊息數量(灰底顯示，如果有還沒看過的訊息，會用紅底顯示)、以及距離最後一次發言至今的時間。如果除了你以外至少有兩個人參與的話，在下面還會有個「多人」的圖示，將游標停在這個圖示上可以看到有哪些人參與。
+      convo_ex7: 從左邊直欄點一個對話就會在右邊直欄顯示那個對話的內容。左上方會顯示所有的收訊人(包括還沒發言過的人)，要八卦前記得先檢查一下！有些人沒講話可是也在對話之中，每個人都會看見你的回應。
+      convo_ex8: "要在對話中回應非常簡單，當對話已經顯示在螢幕上的時候，到最下面的發表對話框去寫你的回應，然後按<span class=\"click\">回應</span>按鈕來送出。"
+      convo_ex9: "你可以從列表中把對話刪掉，只要從左邊點選對話後，從右上角點 <span class=\"click\">x</span> 圖示。封鎖一輪對話的效果是，它會從列表消失，並且你會停止收到任何的回應。請注意，別人還是可以繼續在對話中送回應給其他收訊人，只有你再也收不到了。"
+      finish: 對話就是這樣，你已經快要看完整份課程了，最後一段的時間到了！
     getting_started7:
-      byline: ~
-      menu_title: ~
-      intro: ~
-      connect: ~
-      connect_ex1: ~
-      connect_ex2: ~
-      connect_ex3: ~
-      connect_ex4: ~
-      settings: ~
-      settings_ex1: ~
-      settings_ex2: ~
-      profile: ~
-      profile_ex1: ~
-      nsfw: ~
-      profile_ex2: ~
-      profile_ex3: ~
-      account: ~
-      account_ex1: ~
-      account_ex1a: ~
-      account_ex2: ~
-      spotlight: ~
-      spotlight_ex: ~
-      privacy: ~
-      privacy_ex: ~
-      services: ~
-      services_ex: ~
-      applications: ~
-      applications_ex: ~
-      finish1: ~
-      finish2: ~
+      byline: "第七段 - 結尾"
+      menu_title: 結尾
+      intro: "我們已經介紹完 diaspora* 大部分的功能，這份實戰教學的最後一部份要說的是其他一些你應該要知道的拉里拉雜的事。"
+      connect: "連結 diaspora* 豆子和其他服務"
+      connect_ex1: "你可以將你的 disapora* 豆子和其他服務，像是 Facebook、Twitter、Tumblr、以及 WordPress，連結起來。當然，你要先在這些服務上有註冊帳號才可以！"
+      connect_ex2: "開始進行之前，請確認你的帳號資訊就在手邊，因為你需要它來從相關服務授權給 diaspora* 連結。"
+      connect_ex3: "請從流水帳側邊欄點<span class=\"click\">連結外部服務</span>，然後點你想要連結服務的對應圖示。如果你已經用同一個瀏覽器登入該服務了，這個功能會自動識別你的帳號，否則會要你先登入。你登入以後，會請你給予 diaspora* 用該帳號發表貼文的權限，選同意、之後你就可以直接從 diaspora* 帳號跨站貼文到該服務了！"
+      connect_ex4: "下次使用發表對話框貼文的時候，在下方你就會看到該服務的小圖示，點那個圖示來啟用它，表示這篇貼文也會貼到該服務去。漂亮！對吧？更多關於跨站貼文請看%{part_link}。"
+      settings: 帳號管理
+      settings_ex1: "我們要介紹給你的最後一件事，是使用者的設定頁面。請到你的使用者選單，從下拉式選單點<span class=\"click\">設定</span>，就會進入設定頁面，你會看到帳號選項的一個總覽。"
+      settings_ex2: 在帳號設定的頁面上有五個分頁，分別是<strong>個人檔案</strong>、<strong>帳號</strong>、<strong>隱私</strong>、<strong>外部服務</strong>、以及<strong>應用程式</strong>。
+      profile: 個人檔案
+      profile_ex1: "你可以從這個頁面更改、增加、或是刪除你的個人檔案中的任何資訊。想要一點怎麼編輯個人檔案的提示的話，請回到%{part_link}的最後面看一下。改完以後別忘了按最下面的<span class=\"click\">更新個人檔案</span>按鈕喔！"
+      nsfw: 「上班時不宜」("NSFW")
+      profile_ex2: "diaspora* 有個自我管理的機制叫做 NSFW (上班時不宜，英文是 not safe for work)。如果你常常會貼一些不適合別人在辦公室看的題材(比如說老闆就站在他們後面的情形)，請考慮勾選 NSFW。這樣一來你的貼文在別人的流水帳裡就會顯示這是上班時不宜的內容，必須要手動點一下才能看見。"
+      profile_ex3: "如果你沒有勾選上班時不宜，表示你保證不會貼一些可能會冒犯到人家、或是在辦公室看會招惹麻煩的題材。不過如果你只是偶爾會貼這類題材的話，你也可以不要勾，但是在發表這種貼文的時候加上 <span class=\"click\">#nsfw</span> 的標籤，那篇貼文的內容也一樣會在別人的流水帳不顯示。"
+      account: 帳號
+      account_ex1: 在這個頁面你可以做的事情有：更改你的電子郵件信箱、密碼、語言、色彩主題、預設的貼文發表範圍、以及電郵通知的喜好設定。還可以下載你的個人資料或是關閉帳號。
+      account_ex1a: 下載資料的主要目的，是讓你可以在未來把帳號搬家到其他的豆莢去，雖然這個功能還沒有完成。不過你也可以把它當作是在備份資料。
+      account_ex2: 你可以設定你的帳號知道別人開始跟你分享時，自動跟他們雙向、互相分享。你也可以重新跑一次當初開帳號時的「使用指南」提示。
+      spotlight: 社群焦點人物
+      spotlight_ex: "你可以在流水帳設定打開「社群焦點人物」，前提是你所在的豆莢有提供這個功能。「社群焦點人物」是你的莢主認為他們的貼文值得大家都看的人，你第一次用 diaspora* 的時候，也可能是找到人建立聯繫的好途徑。"
+      privacy: 隱私
+      privacy_ex: "這裡會顯示你忽視的所有使用者，如果你想重新看到他們的貼文，可以從列表中把他們移除掉。更多關於忽視使用者請看%{part_link}。"
+      services: 外部服務
+      services_ex: "外部服務頁面顯示是你所有目前連結中的服務，像是 Facebook、Twitter、Thumblr、或是 WordPress，你也可以從這裡連結新的外部服務。更多關於外部服務請看%{part_link}。"
+      applications: 應用程式
+      applications_ex: "這個分頁顯示目前你授權給哪些應用程式來使用你的 diaspora* 帳號。"
+      finish1: "就這樣，朋友！感謝你閱讀這份入門指南。希望內容對你有用，把 diaspora* 當做你線上的新家，祝你使用愉快。如果有其他你想了解的事，可以看看我們在豆莢上的說明頁面，位在標題欄的使用者選單裡，從下拉式選單點一下<span class=\"click\">說明</span>就可以進入了。"
+      finish2: "如果你有其他疑難雜症，隨時歡迎在 diaspora* 上貼文求助，只要加上 <span class=\"click\">#救命</span> 或是 <span class=\"click\">#問題</span> 的標籤，其他的社群成員可能就會來幫助你喔，我們的社群是很神奇又海派的！"
     formatting:
       byline: ~
       menu_title: ~

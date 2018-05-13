@@ -382,7 +382,6 @@ af:
       add_aspect2: "Besluit of \"Maak plaas in hierdie aspek sigbaar vir mekaar?\" af of aan te skakel. Dit is nuttig as hierdie aspek is vir 'n klub waar al die lede mekaar ken, want as hulle sigbaar aan mekaar is sal hulle beter met mekaar kan verbind. Sorg dat jy noukeurig is met hierdie funksie, en neem ander mense se privaatheid in ag voordat jy dit doen."
       add_aspect3: "Wanneer jy klaar is, kliek op die <span class=\"click\"> Skep </ span> knoppie. Die aspek word dan geskep en gekies in die menu."
       add_aspect4: "Sodra die aspek geskep is, sal jy na 'n lys van kontakte (niemand, so ver) geneem word in daardie aspek. Daar is 'n skakel na \"voeg kontakte by Diaspora\" (of wat ook al jy die nuwe aspek genoem het)."
-      add_aspect5: ~
       add_aspect6: ~
       add_aspect7: ~
       contacts: "Kontakte bladsy"
