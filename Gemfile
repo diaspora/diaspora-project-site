@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 gem "rails",                  "4.2.10"
 
-gem "puma",                   "3.4.0"
+gem "puma",                   "3.12.0"
 
 group :mysql, optional: true do
   gem "mysql2", "0.4.4"
