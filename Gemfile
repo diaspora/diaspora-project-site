@@ -11,7 +11,7 @@ group :postgresql, optional: true do
   gem "pg",     "0.19.0"
 end
 
-gem "devise",                 "4.1.1"
+gem "devise",                 "4.4.3"
 gem "rails_admin"
 
 gem "rails_locale_detection", "2.0.0"

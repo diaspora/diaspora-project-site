@@ -50,7 +50,7 @@ GEM
     autoprefixer-rails (6.3.6.2)
       execjs
     awesome_print (1.7.0)
-    bcrypt (3.1.11)
+    bcrypt (3.1.12)
     bootstrap-sass (3.3.6)
       autoprefixer-rails (>= 5.2.1)
       sass (>= 3.3.4)
@@ -75,11 +75,11 @@ GEM
       execjs
     coffee-script-source (1.10.0)
     concurrent-ruby (1.0.5)
-    crass (1.0.2)
-    devise (4.1.1)
+    crass (1.0.4)
+    devise (4.4.3)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
-      railties (>= 4.1.0, < 5.1)
+      railties (>= 4.1.0, < 6.0)
       responders
       warden (~> 1.2.3)
     diff-lcs (1.2.5)
@@ -194,8 +194,9 @@ GEM
     rake (12.3.1)
     redcarpet (3.3.4)
     remotipart (1.2.1)
-    responders (2.2.0)
-      railties (>= 4.2.0, < 5.1)
+    responders (2.4.0)
+      actionpack (>= 4.2.0, < 5.3)
+      railties (>= 4.2.0, < 5.3)
     rspec (3.4.0)
       rspec-core (~> 3.4.0)
       rspec-expectations (~> 3.4.0)
@@ -251,7 +252,7 @@ GEM
       thread_safe (~> 0.1)
     uglifier (3.0.0)
       execjs (>= 0.3.0, < 3)
-    warden (1.2.6)
+    warden (1.2.7)
       rack (>= 1.0)
     web_translate_it (2.4.1)
       multi_json
@@ -271,7 +272,7 @@ DEPENDENCIES
   bootstrap-sass (= 3.3.6)
   capybara (= 2.7.1)
   coffee-rails (= 4.1.1)
-  devise (= 4.1.1)
+  devise (= 4.4.3)
   feedjira!
   fuubar (= 2.0.0)
   jquery-rails (= 4.1.1)
