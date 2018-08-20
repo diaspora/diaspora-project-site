@@ -1,44 +1,44 @@
-ro:
+vi:
   time:
     formats:
       blog_headline: ~
   buttons:
-    host_pod: "Găzduiește un pod"
-    join_diaspora: Alătură-ni-te!
-    find_more: "Afla mai multe »"
+    host_pod: ~
+    join_diaspora: "Hãy tham gia cùng chúng tôi!"
+    find_more: ~
   meta:
     footer:
-      copyleft: "CC-BY Fundația diaspora*"
-  title: "Proiectul diaspora*"
+      copyleft: ~
+  title: ~
   newsfeed: ~
   planet_feed: ~
   layouts:
     application:
-      wiki: Wiki
+      wiki: ~
       discourse: ~
-      planet: Planeta
-      useful_resources: "Resurse Utile"
-      codebase: Codebase
-      documentation: Documentatie
-      report_bugs: "Gaseste & raporteaza probleme"
-      irc_general: "IRC - General"
+      planet: ~
+      useful_resources: ~
+      codebase: ~
+      documentation: ~
+      report_bugs: ~
+      irc_general: ~
       irc_development: ~
-      discussion_general: "Discuţie - General"
-      discussion_development: "Discuţie - Implementare"
-      choose_language: "Alege limba"
+      discussion_general: ~
+      discussion_development: ~
+      choose_language: ~
       translate: ~
       cc_license_alt: ~
       licensed_under: ~
       license_link_text: ~
   pages:
     index:
-      headline: "Bine ai venit in diaspora*"
-      byline: "Reteaua sociala unde tu detii controlul"
-      register: "Inregistreaza-te »"
-      key_philosophies: "diaspora* se bazeaza pe trei principii cheie:"
-      decentralization: Descentralizare
+      headline: ~
+      byline: ~
+      register: ~
+      key_philosophies: ~
+      decentralization: ~
       decentralization_about: ~
-      freedom: Libertate
+      freedom: ~
       freedom_about: ~
       privacy: ~
       privacy_about: ~
@@ -68,62 +68,62 @@ ro:
       ways_to_help_alt: ~
       services_alt: ~
     about:
-      headline: "Cum funcționează diaspora*?"
-      byline: "diaspora* este ușor de folosit – iată cum"
-      menu_title: Despre
-      decentralize: "Ce este descentralizarea?"
+      headline: "Diaspora* vận hành như thế nào?"
+      byline: "Diaspora* rất dễ sử dụng - xin xem ở đây"
+      menu_title: ~
+      decentralize: "Phi tập trung hoá là gì? "
       decentralize_ex: ~
-      this: ACEST
+      this: ~
       this_ex: ~
-      notthis: "NU ACEST"
+      notthis: ~
       notthis_ex: ~
       discl: ~
-      connect: "Cum mă conectez?"
+      connect: ~
       connect_ex: ~
-      find: "1. Găsește-i"
+      find: ~
       find_ex: ~
-      add: "2. Adaugă-i"
+      add: ~
       add_ex: ~
-      freedom: Libertate
-      freedom_byline: "diaspora* nu încearcă să te limiteze"
-      fdm1: "Fii cine vrei să fii"
+      freedom: ~
+      freedom_byline: ~
+      fdm1: ~
       fdm1_ex: ~
-      fdm2: "Fii creativ"
+      fdm2: ~
       fdm2_ex: ~
-      fdm3: "Liber ca in libertate"
+      fdm3: ~
       fdm3_ex: ~
-      privacy: Confidențialitate
-      privacy_byline: "Control total asupra datelor proprii "
-      priv1: "Deține propriile date"
+      privacy: ~
+      privacy_byline: ~
+      priv1: ~
       priv1_ex: ~
-      priv2: "Găzduiește-l singur(ă)"
+      priv2: ~
       priv2_ex: ~
       priv3: ~
       priv3_ex: ~
-      aspects: "Totul despre aspecte"
-      aspects_byline: "Cheia confidențialității în diaspora*"
-      asp1: "Aspecte ale vieții tale"
+      aspects: ~
+      aspects_byline: ~
+      asp1: ~
       asp1_ex: ~
-      asp2: "Organizează-ți viața"
+      asp2: ~
       asp2_ex: ~
-      asp3: "Spune lumii intregi"
+      asp3: ~
       asp3_ex: ~
-      features: "Caracteristici iubite de comunitatea noastra"
-      features_byline: "Suntem de parere ca ii vei iubi la fel si tu"
-      hashtags: Hashtaguri
+      features: ~
+      features_byline: ~
+      hashtags: ~
       hashtags_ex: ~
-      reshare: Redistribuie
+      reshare: ~
       reshare_ex: ~
-      mentions: Mențiuni
+      mentions: ~
       mentions_ex: ~
-      love: Dragoste
+      love: ~
       love_ex: ~
-      host: "Găzduiește un pod al comunității"
-      host_byline: "Devino una dintre vedetele diaspora*"
+      host: ~
+      host_byline: ~
       host_ex: ~
-      hostinst1: "Citește %{instructions_link} și înființează propriul server"
+      hostinst1: ~
       instructions_link_text: ~
-      hostinst2: "Vezi o lista de poduri ale comunitatii la %{poduptime}"
+      hostinst2: ~
       distributed_network: ~
       centralized_network: ~
       search_alt: ~
@@ -133,71 +133,71 @@ ro:
       mention_alt: ~
       heart_alt: ~
     get_involved:
-      headline: Implica-te!
-      byline: "Viitorul rețelei sociale începe acum cu tine"
-      menu_title: Implica-te
-      community: "Sustinut de comunitate"
-      community_byline: "diaspora* iți aparține"
-      meaning: "Ce înseamnă toate acestea?"
+      headline: ~
+      byline: ~
+      menu_title: ~
+      community: ~
+      community_byline: ~
+      meaning: "Tất cả những điều này có nghĩa là gì?"
       meaning_ex1: ~
       meaning_ex2: ~
       meaning_ex3: ~
-      whereyou: "Unde intervii tu"
+      whereyou: ~
       whereyou_ex1: ~
       whereyou_ex2: ~
-      gi_header: "Cai de a te implica cu diaspora*"
-      code_header: "Contribuie cu cod"
-      code_byline: "Obținerea codului sursa este simpla"
+      gi_header: ~
+      code_header: ~
+      code_byline: ~
       code_ex1: ~
-      code_ex2: "Instaleaza-ti mediul de dezvoltare"
-      code_ex3: "Incepe sa contribui cu cod!"
+      code_ex2: ~
+      code_ex3: ~
       code_ex4: ~
       get_started_guide_link_text: ~
       mailing_list_link_text: ~
       irc_link_text: ~
-      code_gh: "Vezi codul-sursă pe GitHub"
-      bugs_header: "Elimina buguri"
+      code_gh: ~
+      bugs_header: ~
       bugs_ex1: ~
       bugs_ex2: ~
-      bugs_ex3: "Ajută-ne să curățăm codul"
+      bugs_ex3: ~
       github_link_text: ~
-      translate_header: "Ajuta cu traducerea"
+      translate_header: ~
       translate_ex1: ~
       translations_link_text: ~
       translate_ex2: ~
       translation_instructions_link_text: ~
       voice_header: ~
       voice_ex1: ~
-      voice_ex2: "Alatura-te noua acolo"
+      voice_ex2: ~
       voice_ex3: ~
       meetup_link_text: ~
-      support_header: "Furnizeaza suport"
-      support_ex1: "Ajuta noii utilizatori sa se simta bine veniti!"
-      support_ex2: "Inregistreaza-te aici"
+      support_header: ~
+      support_ex1: ~
+      support_ex2: ~
       support_ex3: ~
       support_ex4: ~
       irc_channel_link_text: ~
-      support_ex5: "Contribuie la %{wiki_link}"
+      support_ex5: ~
       wiki_link_text: ~
-      run_header: "Executa un pod public"
+      run_header: ~
       run_ex1: ~
       host_pod_link_text: ~
       run_ex2: ~
       run_ex3: ~
-      contributors_header: "contribuitorii diaspora*"
+      contributors_header: ~
       contributors_byline: ~
       globe_alt: ~
       megaphone_alt: ~
       support_alt: ~
       pod_alt: ~
     blog:
-      headline: "Blogul diaspora*"
-      subline: "anunturi oficiale"
-      menu_title: Blog
-    planet:
-      headline: Planeta
+      headline: ~
       subline: ~
-      menu_title: Planeta
+      menu_title: ~
+    planet:
+      headline: ~
+      subline: ~
+      menu_title: ~
       disclaimer_headline: ~
       disclaimer: ~
       subscribe_headline: ~

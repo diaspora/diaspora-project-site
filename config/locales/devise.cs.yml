@@ -1,7 +1,7 @@
 cs:
   devise:
     confirmations:
-      confirmed: "Tvůj účet byl úspěšně aktivován. Nyní jsi zalogován."
+      confirmed: "Tvůj účet byl úspěšně potvrzen. Nyní jsi přihlášen/a."
       send_instructions: "Během několika minut obdržíš email s instrukcemi, jak aktivovat svůj účet."
       send_paranoid_instructions: "Pokud je tvá emailová adresa v naší databázi, obdržíš během několika email s instrukcemi, jak si zaktivovat svůj účet."
     failure:

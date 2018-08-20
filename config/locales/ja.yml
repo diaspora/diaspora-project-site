@@ -4,7 +4,7 @@ ja:
       blog_headline: ~
   buttons:
     host_pod: ~
-    join_diaspora: ~
+    join_diaspora: 参加して下さい！
     find_more: ~
   meta:
     footer:
@@ -14,7 +14,7 @@ ja:
   planet_feed: ~
   layouts:
     application:
-      wiki: ~
+      wiki: Wiki
       discourse: ~
       planet: ~
       useful_resources: ~
@@ -25,7 +25,7 @@ ja:
       irc_development: ~
       discussion_general: ~
       discussion_development: ~
-      choose_language: ~
+      choose_language: 言語をお選びください
       translate: ~
       cc_license_alt: ~
       licensed_under: ~
@@ -34,13 +34,13 @@ ja:
     index:
       headline: ~
       byline: ~
-      register: ~
+      register: "登録 »"
       key_philosophies: ~
       decentralization: ~
       decentralization_about: ~
       freedom: ~
       freedom_about: ~
-      privacy: ~
+      privacy: プライバシー
       privacy_about: ~
       get_started: ~
       get_started_sub: ~
@@ -64,13 +64,13 @@ ja:
       freedom_alt: ~
       keyhole_alt: ~
       aspects_alt: ~
-      features_alt: ~
+      features_alt: 特徴
       ways_to_help_alt: ~
       services_alt: ~
     about:
       headline: ~
       byline: ~
-      menu_title: ~
+      menu_title: 紹介
       decentralize: ~
       decentralize_ex: ~
       this: ~
@@ -110,11 +110,11 @@ ja:
       asp3_ex: ~
       features: ~
       features_byline: ~
-      hashtags: ~
+      hashtags: ハッシュタグ
       hashtags_ex: ~
-      reshare: ~
+      reshare: リシェア
       reshare_ex: ~
-      mentions: ~
+      mentions: メンション
       mentions_ex: ~
       love: ~
       love_ex: ~
@@ -126,11 +126,11 @@ ja:
       hostinst2: ~
       distributed_network: ~
       centralized_network: ~
-      search_alt: ~
+      search_alt: 検索
       add_a_contact_alt: ~
-      hashtag_alt: ~
-      reshare_alt: ~
-      mention_alt: ~
+      hashtag_alt: ハッシュタグ
+      reshare_alt: リシェア
+      mention_alt: メンション
       heart_alt: ~
     get_involved:
       headline: ~
@@ -138,7 +138,7 @@ ja:
       menu_title: ~
       community: ~
       community_byline: ~
-      meaning: ~
+      meaning: なんじゃこりゃぁあ？
       meaning_ex1: ~
       meaning_ex2: ~
       meaning_ex3: ~
@@ -153,7 +153,7 @@ ja:
       code_ex3: ~
       code_ex4: ~
       get_started_guide_link_text: ~
-      mailing_list_link_text: ~
+      mailing_list_link_text: メーリングリスト
       irc_link_text: ~
       code_gh: ~
       bugs_header: ~
@@ -173,7 +173,7 @@ ja:
       meetup_link_text: ~
       support_header: ~
       support_ex1: ~
-      support_ex2: ~
+      support_ex2: 登録はこちら
       support_ex3: ~
       support_ex4: ~
       irc_channel_link_text: ~
@@ -193,7 +193,7 @@ ja:
     blog:
       headline: ~
       subline: ~
-      menu_title: ~
+      menu_title: ブログ
     planet:
       headline: ~
       subline: ~
@@ -262,7 +262,7 @@ ja:
       wiki_link_text: ~
       find_pod_ex4: ~
       find_pod_ex5: ~
-      registration: ~
+      registration: 登録
       registration1: ~
       registration2: ~
       registration3: ~
@@ -277,7 +277,7 @@ ja:
       profile2: ~
       profile3: ~
       profile4: ~
-      finish: ~
+      finish: おしまい！
       finish_ex1: ~
       finish_ex2: ~
     getting_started2:
@@ -321,7 +321,7 @@ ja:
       stream_contents3: ~
       stream_contents4: ~
       stream_ex2: ~
-      activity: ~
+      activity: "マイ アクティビティ"
       activity_ex: ~
       activity_ex2: ~
       mentions: ~
