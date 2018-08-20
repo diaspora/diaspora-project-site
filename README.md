@@ -1,7 +1,5 @@
 # The diaspora\* Project Site
 
-[![Dependency Status](https://gemnasium.com/diaspora/diaspora-project-site.png)](https://gemnasium.com/diaspora/diaspora-project-site)
-
 This is the repository of the official diaspora\* project site hosted on [diasporafoundation.org](https://diasporafoundation.org/).
 
 ## Installation
