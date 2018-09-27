@@ -153,7 +153,7 @@ ru:
       code_ex3: "Начать улучшения!"
       code_ex4: "У нас есть внушительное сообщество, готовое помочь вам освоиться. Мы предлагаем вам прочесть %{get_started_guide_link}, влиться в наш %{mailing_list_link} и встретиться с нами в %{irc_link}."
       get_started_guide_link_text: "Гид для начала работы"
-      mailing_list_link_text: Рассылка
+      discourse_link_text: ~
       irc_link_text: "Интернет-чат диаспоры"
       code_gh: "Посмотреть исходный код на GitHub"
       bugs_header: "Рассказать об ошибке"

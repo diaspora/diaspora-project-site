@@ -153,7 +153,7 @@ af:
       code_ex3: "Begin kode te bydra!"
       code_ex4: "Ons het 'n groot gemeenskap wat gereed is om jou te help begin. Ons stel voor dat jy onse %{get_started_guide_link} lees, by ons %{mailing_list_link} aan sluit, en ons kom ontmoet in die %{irc_link}."
       get_started_guide_link_text: "Begin gids"
-      mailing_list_link_text: e-lys
+      discourse_link_text: ~
       irc_link_text: "diaspora* IRC kamer"
       code_gh: "Besigtig die bron op GitHub"
       bugs_header: "Vernietig foute"

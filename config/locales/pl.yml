@@ -153,7 +153,7 @@ pl:
       code_ex3: "Zacznij tworzyć kod!"
       code_ex4: "Posiadamy dużą społeczność gotową by ci pomóc. Proponujemy przejrzeć %{get_started_guide_link}, dołączyć do %{mailing_list_link} i spotkać nas na %{irc_link}"
       get_started_guide_link_text: "Poradnik dla początkujących"
-      mailing_list_link_text: "listy mailowej"
+      discourse_link_text: ~
       irc_link_text: "kanale IRC diaspory*"
       code_gh: "Przejrzyj kod źródłowy na GitHub"
       bugs_header: "Eliminuj błędy"

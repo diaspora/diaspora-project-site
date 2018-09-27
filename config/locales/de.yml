@@ -153,7 +153,7 @@ de:
       code_ex3: "Fange an code beizutragen!"
       code_ex4: "Wir haben eine große Community, die dir beim Einstieg behilflich ist. Wir empfehlen dir einen Blick auf die %{get_started_guide_link} zu werfen, unserer %{mailing_list_link} beizutreten und uns im %{irc_link} zu besuchen."
       get_started_guide_link_text: Einstiegshilfe
-      mailing_list_link_text: Mailingliste
+      discourse_link_text: ~
       irc_link_text: "diaspora* IRC Raum"
       code_gh: "Schaue dir den Quellcode auf GitHub an"
       bugs_header: "Beseitige Fehler"

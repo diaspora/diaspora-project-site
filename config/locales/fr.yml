@@ -153,7 +153,7 @@ fr:
       code_ex3: "Commencez à contribuer !"
       code_ex4: "Une large communauté est là pour vous aider à démarrer. Vous pouvez regarder notre  %{get_started_guide_link}, rejoindre notre %{mailing_list_link} et nous rencontrer dans le %{irc_link}."
       get_started_guide_link_text: "Guide de démarrage"
-      mailing_list_link_text: "Liste de discussion"
+      discourse_link_text: ~
       irc_link_text: "Salon IRC dédié à diaspora*"
       code_gh: "Voir le code source sur GitHub"
       bugs_header: "Chasser les bugs"

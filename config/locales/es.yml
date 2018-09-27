@@ -155,7 +155,7 @@ es:
       code_ex3: "¡Empieza a aportar código!"
       code_ex4: "Ya tenemos una gran comunidad preparada para ayudarte a empezar. Te sugerimos revisar nuestra %{get_started_guide_link}, unirte a nuestra %{mailing_list_link} y venir a conocernos al %{irc_link}"
       get_started_guide_link_text: "Guía para comenzar"
-      mailing_list_link_text: "Lista de correo"
+      discourse_link_text: ~
       irc_link_text: "Sala de IRC de diaspora*"
       code_gh: "Mira la fuente en GitHub"
       bugs_header: "Aplasta bichos"

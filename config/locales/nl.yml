@@ -153,7 +153,7 @@ nl:
       code_ex3: "Begin code bij te dragen!"
       code_ex4: "Er staat een grote gemeenschap klaar om je op weg te helpen. We raden je aan om onze %{get_started_guide_link}, %{mailing_list_link} te lezen en we verheugen ons erop je te ontmoeten in de %{irc_link}."
       get_started_guide_link_text: Inleiding
-      mailing_list_link_text: mailinglijst
+      discourse_link_text: ~
       irc_link_text: "diaspora* IRC rooom"
       code_gh: "Bekijk de broncode op GitHub"
       bugs_header: "Plet bugs"

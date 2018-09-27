@@ -157,7 +157,7 @@ it:
       code_ex3: "Inizia a contribuire al codice!"
       code_ex4: "Abbiamo una grande comunità pronta ad aiut%{irc_link} %{get_started_guide_link}, far parte del nostro  %{mailing_list_link} e vienire a trovarci nel %{irc_link}."
       get_started_guide_link_text: "Guida rapida per iniziare"
-      mailing_list_link_text: posta
+      discourse_link_text: ~
       irc_link_text: "Stanza IRC di diaspora*"
       code_gh: "Vedi le sorgenti su GitHuble"
       bugs_header: "Elimina i bug"

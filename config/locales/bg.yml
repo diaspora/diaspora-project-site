@@ -153,7 +153,7 @@ bg:
       code_ex3: "Започни да допринасяш код!"
       code_ex4: ~
       get_started_guide_link_text: "Начално ръководство"
-      mailing_list_link_text: "пощенския списък"
+      discourse_link_text: ~
       irc_link_text: "IRC стая на диаспора*"
       code_gh: ~
       bugs_header: "Оправяй програмни грешки"

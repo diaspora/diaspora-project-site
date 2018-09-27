@@ -153,7 +153,7 @@ tr:
       code_ex3: "katkıda başlamak kod!"
       code_ex4: ~
       get_started_guide_link_text: "kolay geçiş imkânı veren"
-      mailing_list_link_text: "mail listesi"
+      discourse_link_text: ~
       irc_link_text: "diaspora* IRC oda"
       code_gh: "GitHub üzerinde kaynak İnceleme"
       bugs_header: "hataların giderilmesi"

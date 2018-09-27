@@ -153,7 +153,7 @@ pt-PT:
       code_ex3: "Inicie a sua contribuição no código!"
       code_ex4: "Nós temos uma grande comunidade pronta para o ajuda a iniciar. Nós sugerimos que consulte o nosso %{get_started_guide_link}. Adira à nossa %{mailing_list_link} e venha conhecer-nos na %{irc_link}."
       get_started_guide_link_text: "Guia de iniciação"
-      mailing_list_link_text: "Lista de Endereços"
+      discourse_link_text: ~
       irc_link_text: "Sala de IRC do diaspora*"
       code_gh: "Consultar a Fonte no GitHub"
       bugs_header: "Reduzir os Erros"

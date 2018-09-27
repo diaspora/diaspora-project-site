@@ -153,7 +153,7 @@ el:
       code_ex3: "Ξεκίνα να συμβάλλεις στον κώδικα!"
       code_ex4: "Έχουμε μια μεγάλη κοινότητα έτοιμη να σε βοηθήσει να ξεκινήσεις. Σου προτείνουμε να ελέγξεις διεξοδικά τον %{get_started_guide_link} μας, να ενταχθείς στις %{mailing_list_link} μας και να έρθεις και να μας συναντήσεις στο %{irc_link} μας."
       get_started_guide_link_text: "Οδηγός για να ξεκινήσεις"
-      mailing_list_link_text: "λίστα ηλεκτρονικού ταχυδρομείου"
+      discourse_link_text: ~
       irc_link_text: "Δωμάτιο συζήτησης IRC του Diaspora*"
       code_gh: "Δες τον πηγαίο κώδικα στο GitHub"
       bugs_header: "Εξάλειψε τα σφάλματα"

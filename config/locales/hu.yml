@@ -153,7 +153,7 @@ hu:
       code_ex3: "Kezdj kódot írni!"
       code_ex4: "Közösségünk mindig készen áll, hogy segítségedre legyen a következő helyeken: %{get_started_guide_link}, %{mailing_list_link}, %{irc_link}."
       get_started_guide_link_text: "Útmutató az első lépésekhez"
-      mailing_list_link_text: levelezőlista
+      discourse_link_text: ~
       irc_link_text: "diaspora* IRC szoba"
       code_gh: "Forráskód megtekintése a GitHubon"
       bugs_header: Hibajavítással

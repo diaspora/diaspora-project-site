@@ -153,7 +153,7 @@ ia:
       code_ex3: "Comencia a contribuer codice!"
       code_ex4: "Nostre grande communitate es disposite a adjutar te a comenciar. Primo lege nostre %{get_started_guide_link}, postea inscribe te a nostre %{mailing_list_link} e veni cognoscer nos in le %{irc_link}."
       get_started_guide_link_text: "Guida pro comenciar"
-      mailing_list_link_text: "lista de correspondentia"
+      discourse_link_text: ~
       irc_link_text: "canal IRC de diaspora*"
       code_gh: "Lege le codice fonte in GitHub"
       bugs_header: "Elimina defectos"

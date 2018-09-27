@@ -153,7 +153,7 @@ fi:
       code_ex3: "Aloita koodin jakaminen!"
       code_ex4: ~
       get_started_guide_link_text: Aloitusopas
-      mailing_list_link_text: postituslista
+      discourse_link_text: ~
       irc_link_text: ~
       code_gh: "Tutki lähdekoodia GitHubissa"
       bugs_header: "Korjaa bugeja"

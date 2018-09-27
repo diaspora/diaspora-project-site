@@ -155,7 +155,7 @@ ml:
       code_ex3: "കോഡ് സംഭാവന ചെയ്യാൻ തുടങ്ങൂ!"
       code_ex4: ~
       get_started_guide_link_text: "തുടങ്ങുവാനുള്ള മാര്‍ഗ്ഗദര്‍ശി"
-      mailing_list_link_text: കത്തുപട്ടിക
+      discourse_link_text: ~
       irc_link_text: "ഡയസ്പോറ* IRC മുറി"
       code_gh: "ഉറവിടം ഗിറ്റ്ഹബിൽ കാണുക"
       bugs_header: "തെറ്റുകൾ നീക്കം ചെയ്യുക"

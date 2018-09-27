@@ -153,7 +153,7 @@ he:
       code_ex3: "התחל לתרום קוד!"
       code_ex4: "יש לנו קהילה גדולה שמוכנה לסייע לך להתחיל. אנחנו מציעים שתבדוק את ‎%{get_started_guide_link}‎, תצטרף ל־‎%{mailing_list_link}‎ ותבוא לפגוש אותנו ב־‎%{irc_link}‎."
       get_started_guide_link_text: "מדריך למתחילים"
-      mailing_list_link_text: "רשימת תפוצה"
+      discourse_link_text: ~
       irc_link_text: "החדר ה־IRC של דיאספורה*"
       code_gh: "צפיה בקוד ב־Github"
       bugs_header: "לפתור תקלות"

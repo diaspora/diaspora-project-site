@@ -4,7 +4,7 @@ hye:
       blog_headline: ~
   buttons:
     host_pod: ~
-    join_diaspora: ~
+    join_diaspora: "Միացիր մեզ"
     find_more: ~
   meta:
     footer:
@@ -70,7 +70,7 @@ hye:
     about:
       headline: "Ինչպե՞ս է աշխատում դիասպորա*ն"
       byline: "դիասպորա*յից շատ հեշտ է օգտվել, ահա՝ ինչպես"
-      menu_title: ~
+      menu_title: Մասին
       decentralize: "Ի՞նչ է ապակենտրոնացումը"
       decentralize_ex: "դիասպորա*ն կատարելապես տարբերվում է բոլոր հիմնական ցանցերից, որոնք մարդիկ օգտագործում են։ Անյ ամբողջապես ապակենտրոնացված է․ զուրկ է որեւէ կենտրոնական «հյուսակից»։ Եվ այնուամենայնիվ կապն ու հաղորդակցումը մարդկանց հետ շատ հեշտ է իրականացվում։ Ստորեւ՝ նկարագրությունը։"
       this: ԱՅՍՊԵՍ
@@ -92,7 +92,7 @@ hye:
       fdm2_ex: ~
       fdm3: ~
       fdm3_ex: ~
-      privacy: ~
+      privacy: Գաղտնիություն
       privacy_byline: ~
       priv1: ~
       priv1_ex: ~
@@ -106,7 +106,7 @@ hye:
       asp1_ex: ~
       asp2: ~
       asp2_ex: ~
-      asp3: ~
+      asp3: "Պատմիր ողջ աշխարհին"
       asp3_ex: ~
       features: ~
       features_byline: ~
@@ -116,7 +116,7 @@ hye:
       reshare_ex: ~
       mentions: ~
       mentions_ex: ~
-      love: ~
+      love: Սեր
       love_ex: ~
       host: ~
       host_byline: ~
@@ -153,7 +153,7 @@ hye:
       code_ex3: ~
       code_ex4: ~
       get_started_guide_link_text: ~
-      mailing_list_link_text: ~
+      discourse_link_text: ~
       irc_link_text: ~
       code_gh: ~
       bugs_header: ~
