@@ -31,6 +31,8 @@ gem "feedjira",               github: "feedjira/feedjira"
 gem "trollop",                "2.1.2"
 gem "sanitize",               "4.0.1"
 
+gem "sentry-raven"
+
 group :development, :test do
   gem "pry"
   gem "awesome_print",   "1.7.0"
