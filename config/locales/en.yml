@@ -589,7 +589,7 @@ en:
       spotlight: "Community spotlight"
       spotlight_ex: "On the settings page you can also enable the “community spotlight,” if this feature is available on your pod. The “community spotlight” adds posts to your stream from community members who your pod’s admin has selected as being people worth reading. It can be a good way to find people to connect with when you first join diaspora*."
       privacy: "Privacy"
-      privacy_ex: "This contains a list of users you are ignoring. You can remove them from this list if you want to start seeing posts from them again. See %{part_link} for more on ignoring people. You can also choose whether or not to strip EXIF data from photos you upload to your diaspora\* account."
+      privacy_ex: "This contains a list of users you are ignoring. You can remove them from this list if you want to start seeing posts from them again. See %{part_link} for more on ignoring people. You can also choose whether or not to strip EXIF data from photos you upload to your diaspora* account."
       services: "Services"
       services_ex: "The Services page shows your connected services (e.g. Twitter, Tumblr, WordPress) and allows you to connect new services to your diaspora* seed. See %{part_link} for more on connected services."
       applications: "Applications"
