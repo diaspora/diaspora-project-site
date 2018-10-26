@@ -23,7 +23,7 @@ ia:
       report_bugs: "Cercar & reportar defectos"
       irc_general: "IRC – General"
       irc_development: "IRC – Disveloppamento"
-      discussion_general: "Discussion – General"
+      discussion_general: "Discussion & supporto"
       discussion_development: "Discussion – Disveloppamento"
       choose_language: "Selige lingua"
       translate: ~
@@ -37,11 +37,11 @@ ia:
       register: "Inscribe te »"
       key_philosophies: "diaspora* se basa in tres philosophias clave:"
       decentralization: Decentralisation
-      decentralization_about: "In vice de concentrar le datos de totes in enorme servitores central que es le proprietate de un grande organisation, le servitores local (“pods”) pote esser installate ubicunque in le mundo. Tu selige in qual pod inscriber te (forsan un pod in tu localitate). Postea tu potera connecter te transparentemente al communitate mundial de diaspora*."
+      decentralization_about: "In vice de concentrar le datos de totes in enorme servitores central que es le proprietate de un grande organisation, diaspora* existe sur servitores independente (“pods”) dispersate in tote le mundo. Tu selige in qual pod inscriber te. Postea tu potera connecter te transparentemente al communitate mundial de diaspora*."
       freedom: Libertate
-      freedom_about: "In diaspora* tu pote esser le persona qui tu vole esser. In contrasto con altere retes social, tu non es obligate a usar tu identitate real. Tu pote interager con le personas de tu preferentia in le maniera de tu preferentia. Le unic limite es tu imagination. diaspora* anque es software libere, lo que te da le libertate de usar lo como tu vole."
+      freedom_about: "In diaspora* tu pote esser le persona qui tu vole esser. In contrasto con altere retes social, tu non es obligate a usar tu identitate real. Tu pote interager con altere personas in le maniera de tu preferentia. Le unic limite es tu imagination. diaspora* anque es software libere, lo que te da le libertate de usar lo como tu vole."
       privacy: "Vita private"
-      privacy_about: "In diaspora* tu es le possessor de tu proprie datos. Tu non concede alcun derectos a un corporation o altere typo de interesse que poterea usar lo. Con diaspora*, tu amicos, tu habitudes, tu contento es tu proprie affaire... e non le nostre! In addition, usante \"aspectos\", tu selige qui vide lo que tu divide."
+      privacy_about: "In diaspora* tu es le possessor de tu proprie datos. Tu non concede alcun derectos a un corporation o altere typo de interesse que poterea usar lo. In addition, usante \"aspectos\", tu selige qui vide lo que tu divide. Con diaspora*, tu amicos, tu habitudes, tu contento es tu proprie affaire... e non le nostre!"
       get_started: "Vole comenciar?"
       get_started_sub: "Es facile como 1, 2, 3 …"
       choose_pod: "1. Selige un pod"
@@ -95,9 +95,9 @@ ia:
       privacy: "Vita private"
       privacy_byline: "Controlo total sur lo que pertine a te "
       priv1: "Possede tu proprie datos"
-      priv1_ex: "Multe retes usa tu datos pro ganiar moneta per analysar tu interactiones e usar iste information pro diriger publicitate a te. diaspora* non usa tu datos pro alcun scopo, salvo illo de permitter te de connecter e divider cosas con altere personas."
+      priv1_ex: "Multe retes usa tu datos pro ganiar moneta per analysar tu interactiones e usar iste information pro diriger publicitate a te. diaspora* non usa tu datos pro alcun scopo, salvo illo de permitter te de connecter e divider cosas con altere personas. Solo le administratores del pods con le quales tu interage pote acceder a tu datos, e tu pote seliger le pods con le quales tu interage."
       priv2: "Allogia lo tu mesme"
-      priv2_ex: "Elige le loco de tu datos per seliger un pod que tu considera digne de fide. Pro ver securitate, tu pote installar e allogiar un proprie pod in servitores que tu controla, de sorta que nemo pote acceder a tu datos personal."
+      priv2_ex: "Elige le loco de tu datos per seliger un pod que tu considera digne de fide. Pro ver securitate, tu pote installar e allogiar un proprie pod in servitores que tu controla, e interager solmente con le pods que tu considera digne de fide, de sorta que nemo pote acceder a tu datos personal."
       priv3: "Selige tu audientia"
       priv3_ex: "Le \"aspectos\" de diaspora* permitte divider cosas solmente con le personas appropriate. Tu pote scriber in publico o si privatemente como tu vole. Divide un photo amusante con tote le mundo, o divide un secreto personal con tu amicos intime. Le controlo es tue."
       aspects: "A proposito de aspectos"
@@ -151,7 +151,7 @@ ia:
       code_ex1: "Clona le repositorio e explora le codice: %{clone_code}"
       code_ex2: "Installa tu ambiente de programmation"
       code_ex3: "Comencia a contribuer codice!"
-      code_ex4: "Nostre grande communitate es disposite a adjutar te a comenciar. Primo lege nostre %{get_started_guide_link}, postea inscribe te a nostre %{mailing_list_link} e veni cognoscer nos in le %{irc_link}."
+      code_ex4: "Nostre grande communitate es disposite a adjutar te a comenciar. Lege nostre %{get_started_guide_link}, parla a nos sur %{discourse_link}  e veni cognoscer nos in le %{irc_link}."
       get_started_guide_link_text: "Guida pro comenciar"
       discourse_link_text: ~
       irc_link_text: "canal IRC de diaspora*"
@@ -167,7 +167,7 @@ ia:
       translate_ex2: "Lege nostre %{translation_instructions_link} pro saper como comenciar."
       translation_instructions_link_text: "instructiones de traduction "
       voice_header: "Forni tu voce"
-      voice_ex1: ~
+      voice_ex1: "Nostre projecto es gerite totalmente per voluntarios communitari. Nos usa un instrumento que se appella Discourse pro ingagiar conversationes con nostre contributores sur ideas e propositiones."
       voice_ex2: "Trova nos ibi"
       voice_ex3: "Persuade tu amicos e familia a venir a diaspora* per organisar tu proprie %{meetup_link} de diaspora* in vita real in tu proprie communitate."
       meetup_link_text: Incontro
@@ -195,7 +195,7 @@ ia:
       subline: "communicationes official"
       menu_title: Blog
     planet:
-      headline: Planeta
+      headline: "Le planeta diaspora*"
       subline: "articulos de blog de nostre communitate"
       menu_title: Planeta
       disclaimer_headline: "Planeta diaspora*"

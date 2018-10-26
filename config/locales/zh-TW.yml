@@ -58,7 +58,7 @@ zh-TW:
       help: 想幫忙嗎？
       help_ex: "diaspora* 需要人力幫忙寫程式和做測試、歡迎新成員並幫助他們、架設豆莢並且維護、以及對可能有興趣的人倡導 diaspora* 的好處。你是否想要對這個專案有所貢獻呢？"
       socialint: 整合社交網路
-      socialint_ex: "diaspora* 可以作為你貼文到其他主要社交服務的基地。這樣一來，你的朋友即使還沒有使用 diaspora*，也能夠繼續跟你保持聯繫。diaspora* 目前支援跨站貼文到 Facebook, Twitter, 以及 Tumblr 帳號，以後可能有更多。"
+      socialint_ex: "diaspora* 可以作為你貼文到其他主要社交服務的基地。這樣一來，你的朋友即使還沒有使用 diaspora*，也能夠繼續跟你保持聯繫。diaspora* 目前支援跨站貼文到 Twitter, Tumblr 以及 WordPress 帳號，未來可能有更多。"
       earth_alt: ~
       decentralized_alt: 分散
       freedom_alt: 自由
@@ -310,7 +310,7 @@ zh-TW:
       header_logout: 以及登出按鈕。
       interface_mobile_old: ~
       columns: 在標題列的下方是兩個直欄：
-      column1: "在「側邊欄」可以看到 diaspora* 的幾種不同檢視模式，分別有<span class=\"click\">流水帳</span>、<span class=\"click\">我的活動</span>、<span class=\"click\">@指指點點</span>、<span class=\"click\">我的社交面</span>、<span class=\"click\">#追蹤標籤</span>、以及<span class=\"click\">公開活動</span>，我們接下來會一一解釋。另外還有一些連結，可以讓你邀請好友、歡迎新使用者、求助、連結像是 Facebook、Twitter、Tumblr 或是 Wordpress 之類的外部服務(不見得每個豆莢都會提供)、從其他網頁轉貼到 diaspora* (也就是 diaspora* 書籤小程式)等等。有些豆莢在這裡會有豆莢管理員的聯絡方式，以及捐款幫助豆莢運作的按鈕。"
+      column1: "在「側邊欄」可以看到 diaspora* 的幾種不同檢視模式，分別有<span class=\"click\">流水帳</span>、<span class=\"click\">我的活動</span>、<span class=\"click\">@指指點點</span>、<span class=\"click\">我的社交面</span>、<span class=\"click\">#追蹤標籤</span>、以及<span class=\"click\">公開活動</span>，我們接下來會一一解釋。另外還有一些連結，可以讓你邀請好友、歡迎新使用者、求助、連結像是 Twitter、Tumblr 或是 Wordpress 之類的外部服務(不見得每個豆莢都會提供)、從其他網頁轉貼到 diaspora* (也就是 diaspora* 書籤小程式)等等。有些豆莢在這裡會有豆莢管理員的聯絡方式，以及捐款幫助豆莢運作的按鈕。"
       column2: "主畫面欄是內容的流水帳，上方有個「發表對話框」，也就是讓神奇的事發生的地方！我們待會會在%{part_link}說明怎樣使用發表對話框。"
       stream_mobile: 標題頁的下方是內容的流水帳。
       views: "diaspora* 有以下這些檢視模式:"
@@ -476,7 +476,7 @@ zh-TW:
       locator_ex2: 當位置資訊出現在發表對話框下面之後，你可以點它來編輯。
       locator_ex3: 定位功能取得的位置可能會太精確了，因此你可能會想把確切的地址給刪掉，只保留比如說城鎮或區域的名稱。給你自己決定！
       connected: 連結服務
-      connected_ex1: "如果你有設定跟其他社交網路(Facebook、Twitter、Tumblr、以及 WordPress)的連結的話，發表對話框也會出現這些外部服務的圖示。如果圖示呈現高亮度，就表示貼文會跨站轉貼到對應的服務去。我們到下個段落再討論這個。"
+      connected_ex1: "如果你有設定跟其他社交網路(像是 Twitter、Tumblr、以及 WordPress)的連結的話，發表對話框也會出現這些外部服務的圖示。如果圖示呈現高亮度，就表示貼文會跨站轉貼到對應的服務去。我們到下個段落再討論這個。"
       connected_ex2: 外部服務旁邊有個看起來像是板手的圖示，點一下可以讓你設定和其他社交網路或服務的連結。
       connected_ex3: ~
       preview: 貼文預覽
@@ -510,7 +510,7 @@ zh-TW:
       embed_ex2: 請注意，這種影片或是聲音是在你發表貼文<em>之後</em>才會被內嵌，因此你需要重新載入流水帳才會看到。有的時候，提供檔案的網站需要一點時間來回應內嵌檔案的資訊，因此如果你還看不到，請稍等一下再重新載入流水帳看看。
       services: 貼文到其他外部服務
       services_ex1: "如果你設定了其他外部服務和你的 diaspora* 豆子之間的連結，你就可以按發表對話框下方的某個或是某些對應服務的圖示，來將貼文轉貼到對應的社交網路去。"
-      services_ex2: "如果你點亮了某個或是某些服務的圖示，寫訊息時就會顯示你還可以寫多少個字。Twitter 的總字數上限是 280 個字、Tumblr 是 1000、Facebook 是 63,206，而在 diaspora* 你最多可以寫到 65,535 個字！顯示的剩餘字數是相對於所有點選的服務中，數量最低的那一個。因此如果你同時點了 Twitter 和 Facebook，字數的上限就會是 280 個字。"
+      services_ex2: "如果你點亮了某個或是某些服務的圖示，寫訊息時就會顯示你還可以寫多少個字。Twitter 的總字數上限是 280 個字、Tumblr 是 1000，而在 diaspora* 你最多可以寫到 65,535 個字！顯示的剩餘字數是相對於所有點選的服務中，數量最低的那一個。因此如果你同時點了 Twitter 和 Tumblr，字數的上限就會是 280 個字。"
       services_ex3: "如果你寫的訊息字數比你轉貼過去的服務所限制的還要多，那在那個服務上，你的貼文看起來就會是從中間截掉，然後再接著那篇貼文在 diaspora* 上的連結。"
       how: "還可以嗎？在 diaspora* 上貼文真的可以做很多事。"
       try_out: "想要實驗看看的話，要不要從發表一篇貼文宣布你剛來 diaspora* 開始呢？這是一個讓我們的社群歡迎你來，並且建立聯繫的好方式。"
@@ -570,7 +570,7 @@ zh-TW:
       menu_title: 結尾
       intro: "我們已經介紹完 diaspora* 大部分的功能，這份實戰教學的最後一部份要說的是其他一些你應該要知道的拉里拉雜的事。"
       connect: "連結 diaspora* 豆子和其他服務"
-      connect_ex1: "你可以將你的 disapora* 豆子和其他服務，像是 Facebook、Twitter、Tumblr、以及 WordPress，連結起來。當然，你要先在這些服務上有註冊帳號才可以！"
+      connect_ex1: "你可以將你的 disapora* 豆子和其他外部服務連結起來，像是 Twitter、Tumblr、以及 WordPress。當然，你要先在這些服務上有註冊帳號才可以！"
       connect_ex2: "開始進行之前，請確認你的帳號資訊就在手邊，因為你需要它來從相關服務授權給 diaspora* 連結。"
       connect_ex3: "請從流水帳側邊欄點<span class=\"click\">連結外部服務</span>，然後點你想要連結服務的對應圖示。如果你已經用同一個瀏覽器登入該服務了，這個功能會自動識別你的帳號，否則會要你先登入。你登入以後，會請你給予 diaspora* 用該帳號發表貼文的權限，選同意、之後你就可以直接從 diaspora* 帳號跨站貼文到該服務了！"
       connect_ex4: "下次使用發表對話框貼文的時候，在下方你就會看到該服務的小圖示，點那個圖示來啟用它，表示這篇貼文也會貼到該服務去。漂亮！對吧？更多關於跨站貼文請看%{part_link}。"
@@ -591,7 +591,7 @@ zh-TW:
       privacy: 隱私
       privacy_ex: "這裡會顯示你忽視的所有使用者，如果你想重新看到他們的貼文，可以從列表中把他們移除掉。更多關於忽視使用者請看%{part_link}。"
       services: 外部服務
-      services_ex: "外部服務頁面顯示是你所有目前連結中的服務，像是 Facebook、Twitter、Thumblr、或是 WordPress，你也可以從這裡連結新的外部服務。更多關於外部服務請看%{part_link}。"
+      services_ex: "外部服務頁面顯示是你所有目前連結中的服務，像是 Twitter、Thumblr、或是 WordPress，你也可以從這裡連結新的外部服務。更多關於外部服務請看%{part_link}。"
       applications: 應用程式
       applications_ex: "這個分頁顯示目前你授權給哪些應用程式來使用你的 diaspora* 帳號。"
       finish1: "就這樣，朋友！感謝你閱讀這份入門指南。希望內容對你有用，把 diaspora* 當做你線上的新家，祝你使用愉快。如果有其他你想了解的事，可以看看我們在豆莢上的說明頁面，位在標題欄的使用者選單裡，從下拉式選單點一下<span class=\"click\">說明</span>就可以進入了。"

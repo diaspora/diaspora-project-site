@@ -151,9 +151,9 @@ pt-BR:
       code_ex1: "Copie o repositório e mexa um pouco: %{clone_code}"
       code_ex2: "Instale seu ambiente de desenvolvimento"
       code_ex3: "Comece contribuindo com o código!"
-      code_ex4: "Temos uma grande comunidade pronta para ajudá-lo a começar. Sugerimos que você consulte a nossa %{get_started_guide_link}, se junte à nossa %{mailing_list_link} e venha conhecer-nos no %{irc_link}."
+      code_ex4: "Temos uma grande comunidade pronta para ajudar você a começar. Confira a nossa %{get_started_guide_link}, fale conosco pelo %{discourse_link} e venha nos conhecer no %{irc_link}."
       get_started_guide_link_text: "Primeiros passos"
-      discourse_link_text: ~
+      discourse_link_text: "fórum Discourse"
       irc_link_text: "Sala IRC do diaspora*"
       code_gh: "Veja o código fonte no GitHub"
       bugs_header: "Acabe com os bugs"

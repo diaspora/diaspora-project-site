@@ -292,8 +292,8 @@ pt-PT:
       interface3: "A interface principal pode ser dividida em quatro partes."
       header: ~
       header_mobile: ~
-      header_podname: ~
-      header_asterisk: ~
+      header_podname: "o nome do seu servidor, que o leva de volta à página do fluxo;"
+      header_asterisk: "um ícone de asterisco, que o leva de volta à página de fluxo;"
       header_stream: ~
       header_notify: ~
       header_conversations: ~
@@ -312,15 +312,15 @@ pt-PT:
       columns: "Debaixo do cabeçalho existem duas colunas:"
       column1: ~
       column2: ~
-      stream_mobile: ~
+      stream_mobile: "Debaixo do cabeçalho está o fluxo de conteúdo principal."
       views: ~
       stream: "O fluxo"
       stream_ex1: ~
-      stream_contents1: ~
+      stream_contents1: "publicações efetuadas pelos seus contactos;"
       stream_contents2: ~
-      stream_contents3: ~
+      stream_contents3: "publicações que o <span class=\"click\">@mencionam</span>;"
       stream_contents4: ~
-      stream_ex2: ~
+      stream_ex2: "As publicações no fluxo são ordenadas de acordo com o horário da publicação original."
       activity: "A Minha Atividade"
       activity_ex: ~
       activity_ex2: ~
@@ -517,7 +517,7 @@ pt-PT:
       make_post1: ~
       make_post2: "Olá a todos, Eu sou #newhere no diaspora*. Eu gosto de #running, #literature e  #rabbits."
       make_post3: ~
-      interact: ~
+      interact: "Interagir com publicações no fluxo"
       interact_ex1: ~
       interact_ex2: ~
       interact_ex3: "Para ajudar os servidores da diáspora* a serem mais rápidos, o seu fluxo não será constantemente recarregado automaticamente. Basta recarregar a página sempre que quiser verificar as atualizações para o seu fluxo."
@@ -573,7 +573,7 @@ pt-PT:
       connect_ex1: ~
       connect_ex2: ~
       connect_ex3: ~
-      connect_ex4: ~
+      connect_ex4: "Na próxima vez que clicar no editor, irá ver o ícone para esse serviço sob o editor. Clique neste ícone para ativá-lo e a sua publicação também irá aparecer no seu fluxo nesse serviço. Bom, não é? Consulte %{part_link} para mais informação sobre a publicação para os serviços ligados."
       settings: "Gestão de Conta"
       settings_ex1: ~
       settings_ex2: ~

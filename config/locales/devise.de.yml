@@ -3,7 +3,7 @@ de:
     confirmations:
       confirmed: "Dein Konto wurde erfolgreich bestätigt. Du bist nun eingeloggt."
       send_instructions: "Du wirst in ein paar Minuten eine E-Mail erhalten, die beschreibt, wie du dein Konto bestätigst."
-      send_paranoid_instructions: "Wenn deine E-Mail in unserer Datenbank vorhanden ist, wirst du eine Mail mit Informationen erhalten, wie du dein Konto bestätigen kannst."
+      send_paranoid_instructions: "Wenn deine Email-Adresse in unserer Datenbank vorhanden ist, wirst du eine Mail mit Informationen erhalten, wie du dein Konto bestätigen kannst."
     failure:
       already_authenticated: "Du bist bereits angemeldet."
       inactive: "Dein Konto wurde noch nicht aktiviert."
@@ -49,7 +49,7 @@ de:
     messages:
       already_confirmed: "wurde bereits bestätigt, bitte versuche dich anzumelden."
       confirmation_period_expired: "muss innerhalb von %{period} bestätigt werden, bitte erneut anfordern."
-      expired: "abgelaufen, bitte neu anfordern"
+      expired: "ist abgelaufen, bitte neu anfordern"
       not_found: "Nicht gefunden"
       not_locked: "war nicht gesperrt"
       not_saved:
