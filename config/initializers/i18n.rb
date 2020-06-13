@@ -30,6 +30,7 @@ AVAILABLE_LOCALES = {
   ru: "Русский",
   sc: "Sardu",
   sk: "Slovenčina",
+  sq: "Shqip",
   sv: "Svenska",
   :'sv-FI' => "Svenska (Finland)",
   ta: "தமிழ்",
