@@ -444,11 +444,11 @@ es:
       removing_ex5: ~
       finish: ~
     getting_started5:
-      byline: ~
+      byline: "Parte 5 – ¡Empieza a compartir!"
       menu_title: "¡Comienza a compartir!"
       intro1: "Ahora tienes algunos contactos, es hora de compartir contenido con ellos."
       intro2: ~
-      publisher: ~
+      publisher: "El publicador"
       publisher_ex1: ~
       publisher_ex2: ~
       publisher_ex3: ~
@@ -471,7 +471,7 @@ es:
       aspect_selector_ex3: ~
       poll: ~
       poll_ex: ~
-      photo: ~
+      photo: "Compartición de fotos"
       photo_ex: ~
       locator: ~
       locator_ex1: ~

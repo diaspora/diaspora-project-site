@@ -58,7 +58,7 @@ pt-PT:
       help: "Pretende ajudar?"
       help_ex: ~
       socialint: "Integração na Rede Social"
-      socialint_ex: "Utilize o diaspora* como a sua base principal, para publicar os seus perfis noutros serviços sociais mais importantes. Deste modo, os seus amigos também terão a oportunidade de se manter em contacto com o que tem feito. mesmo que eles ainda não façam parte do diaspora*. O diaspora*, atualmente suporta publicações cruzadas com a sua conta do Facebook, Twitter, e Tumblr, e mais para breve."
+      socialint_ex: "Utilize o diaspora* como a sua base principal, para publicar os seus perfis noutros serviços sociais mais importantes. Deste modo, os seus amigos também terão a oportunidade de se manter em contacto com o que tem feito, mesmo que eles ainda não façam parte do diaspora*. O diaspora*, atualmente suporta publicações cruzadas com as suas contas do Twitter, Tumblr e WordPress, e mais para breve."
       earth_alt: Earthd*
       decentralized_alt: Descentralizado
       freedom_alt: Liberdade
@@ -78,7 +78,7 @@ pt-PT:
       notthis: "ISTO NÃO"
       notthis_ex: "A maior parte das redes sociais são geridas em servidores centralizados, controladas e geridas por corporações. Estas guardam todos os dados privados de todos os seus utilizadores. Esta informação pode ser perdida ou piratiada, e tal como qualquer sistema com um 'bottleneck', qualquer problema nos servidores centrais pode fazer com que toda a rede fique muito lenta, ou nem por isso. E também é muito fácil para os governos as “vigiarem.”"
       discl: "(o diaspora* utiliza os padrões da Web aberta, tais como, %{pubsubhubbub} e %{webfinger} para tornar este tipo de ligação possível.)"
-      connect: "Como é que eu coneto?"
+      connect: "Como é que eu ligo?"
       connect_ex: ~
       find: "1. Encontre-os"
       find_ex: ~
@@ -108,11 +108,11 @@ pt-PT:
       asp2_ex: "Por exemplo, poderá ter 'Aspetos' para a sua família, para os seus amigos mais chegados, para colegas de trabalho e para desporto ou um passatempo que esteja envolvido. Os sesu colegas de trabalho não precisam de saber sobre a sua família, será que precisam? Com 'Aspetos', eles não sabem."
       asp3: "Conte ao mundo"
       asp3_ex: "Claro, algumas coisas são tão importantes que quer contar a todo o mundo. Pode compartilhar facilmente algo com todo o mundo, tornando-o público. Ao utilizar as \"hashtags\" apropriadas significa que vai chegar até às pessoas que provavelmente irão gostar disso."
-      features: "Funções que a nossa comunidade adora"
+      features: "Funcionalidades que a nossa comunidade adora"
       features_byline: "Nós pensamos que também as vai adorar"
       hashtags: Hashtags
       hashtags_ex: "As \"hashtags\" permitem-lhe marcar e seguir os seus interesses, e ajudar as suas publicações a chegar às pessoas. Estas também são uma boa maneira para se divertir e conhecer novas pessoas e interessantes, no diaspora*."
-      reshare: "Voltar a Compartilhar"
+      reshare: "Voltar a Partilhar"
       reshare_ex: "Porque não voltar a compartilhar uma publicação que gostou com os outros? O diaspora* torna fácil a divulgação de ideias através desta opção. Basta clicar no botão para compartilhar a mensagem."
       mentions: Menções
       mentions_ex: "Deseja chamar a atenção de alguém? Basta @mencioná-los! É uma forma fácil para alertar um dos seus contactos quando achar que há algo que eles deviam saber."
@@ -134,7 +134,7 @@ pt-PT:
       heart_alt: Coração
     get_involved:
       headline: Participe!
-      byline: "O futuro da web social começa consigo"
+      byline: "O futuro da Web social começa consigo"
       menu_title: Participe!
       community: "Mantido pela comunidade"
       community_byline: "O diaspora* pertence-lhe"
@@ -151,13 +151,13 @@ pt-PT:
       code_ex1: "Clone o repositório e e vá até %{clone_code}"
       code_ex2: "Instale o seu ambiente de desenvolvimento"
       code_ex3: "Inicie a sua contribuição no código!"
-      code_ex4: "Nós temos uma grande comunidade pronta para o ajuda a iniciar. Nós sugerimos que consulte o nosso %{get_started_guide_link}. Adira à nossa %{mailing_list_link} e venha conhecer-nos na %{irc_link}."
+      code_ex4: "Nós temos uma grande comunidade pronta para o ajudar a iniciar. Nós sugerimos que consulte o nosso %{get_started_guide_link}, fale connosco em %{discourse_link} e venha conhecer-nos na %{irc_link}."
       get_started_guide_link_text: "Guia de iniciação"
       discourse_link_text: ~
       irc_link_text: "Sala de IRC do diaspora*"
-      code_gh: "Consultar a Fonte no GitHub"
-      bugs_header: "Reduzir os Erros"
-      bugs_ex1: "O nosso projeto utiliza o 'Code Triage', um serviço voluntário onde os utilizadores e os programadores podem trabalhar juntos para resolver os bugs no nosso %{github_link}."
+      code_gh: "Consultar a fonte no GitHub"
+      bugs_header: "Reduzir erros"
+      bugs_ex1: "O nosso projeto utiliza o 'Code Triage', um serviço voluntário onde os utilizadores e os programadores podem trabalhar juntos para resolver os erros no nosso %{github_link}."
       bugs_ex2: "Reduzindo os pequenos erros ajuda-nos a todos, e isto pode dar a um recém-chegado uma melhor perceção de como as partes do diaspora* funcionam."
       bugs_ex3: "Ajude-nos a melhorar o nosso código"
       github_link_text: "Gerenciamento de Problemas do GitHub"

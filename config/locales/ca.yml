@@ -1,15 +1,15 @@
-sc:
+ca:
   time:
     formats:
       blog_headline: ~
   buttons:
-    host_pod: "Istràngia unu pod"
-    join_diaspora: "Auni·ti a nois!"
+    host_pod: ~
+    join_diaspora: ~
     find_more: ~
   meta:
     footer:
-      copyleft: "CC-BY Sa fundatzione diaspora*"
-  title: "Su progetu diaspora*"
+      copyleft: ~
+  title: ~
   newsfeed: ~
   planet_feed: ~
   layouts:
@@ -32,7 +32,7 @@ sc:
       license_link_text: ~
   pages:
     index:
-      headline: "Bene bènnidu in diaspora*"
+      headline: ~
       byline: ~
       register: ~
       key_philosophies: ~
@@ -68,31 +68,31 @@ sc:
       ways_to_help_alt: ~
       services_alt: ~
     about:
-      headline: "Comente funtzionat diaspora*?"
-      byline: "diaspora* est fàtzile de impreare – abbàida comente funtzionat"
-      menu_title: "A pitzu de nois"
-      decentralize: "Ite est sa detzentralizatzione?"
-      decentralize_ex: "diaspora* est diferente de su totu dae belle totu sas retzas chi impreas. Est interamente detzentralizadu, chene unu \"hub\" tzentrale. Fintzas gasi, a si connètere cun àteras persones e comunicare con issos est fàtzile a beru. Abbàida inoghe comente lu fàghere."
-      this: CUSTU
-      this_ex: "diaspora* est una retza bera, chene una base tzentrale. Bi sunt servers (mutidos \"pods\") in totu su mundu, cada unu chi cuntenit sos datos de cussos impreadores chi ant isseberadu de si registrare impreende·los. Custos pods comunicant intre issos in manera sighida, permitende·ti de ti registrare in cale si siat pod e de comunicare liberamente cun sos cuntatos tuos, cando ses in sa retza."
-      notthis: "CUSTU NONO"
-      notthis_ex: "Sa majoria de sas retzas sotziales funtzionant cun servers de propriedade de una corporatzione, e manigiados dae issos. Custos servers sarvant totu sos datos privados de sos impreadores. Custas informatziones podent èssere pèrdidas o furadas, e comente in totu sos sistemas cun unu tzugu de ampulla unuproblema in sos servers tzentrales diat pòdere rallentare totu sa retza, o la diat pòdere fintzas firmare de su totu. E est fintzas meda prus fàtzile \"ascurtare\" pro sos governos."
+      headline: ~
+      byline: ~
+      menu_title: ~
+      decentralize: ~
+      decentralize_ex: ~
+      this: ~
+      this_ex: ~
+      notthis: ~
+      notthis_ex: ~
       discl: ~
-      connect: "Comente mi potzo connètere?"
+      connect: ~
       connect_ex: ~
       find: ~
       find_ex: ~
       add: ~
       add_ex: ~
       freedom: ~
-      freedom_byline: "diaspora* non chircat de ti limitare"
+      freedom_byline: ~
       fdm1: ~
       fdm1_ex: ~
       fdm2: ~
       fdm2_ex: ~
       fdm3: ~
       fdm3_ex: ~
-      privacy: Riservadesa
+      privacy: ~
       privacy_byline: ~
       priv1: ~
       priv1_ex: ~

@@ -14,6 +14,7 @@ AVAILABLE_LOCALES = {
   fr: "Français",
   he: "עברית",
   hu: "magyar nyelv",
+  hy: "հայերեն",
   ia: "Interlingua",
   id: "Bahasa Indonesia",
   it: "Italiano",
