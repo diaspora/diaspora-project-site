@@ -21,8 +21,7 @@ en:
       codebase: Codebase
       documentation: Documentation
       report_bugs: "Find & report bugs"
-      irc_general: "IRC - General"
-      irc_development: "IRC - Development"
+      irc: "IRC"
       discussion_general: "Discussion & support"
       discussion_development: "Discussion - Development"
       choose_language: "Choose language"
