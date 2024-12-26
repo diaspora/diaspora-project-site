@@ -25,9 +25,8 @@ gem "turbolinks"
 gem "will_paginate-bootstrap"
 
 gem "redcarpet",              "3.3.4"
-gem "paperclip",              "4.3.6"
+gem "paperclip",              "6.1.0"
 
-gem "feedjira",               github: "feedjira/feedjira"
 gem "trollop",                "2.1.2"
 gem "sanitize",               "4.0.1"
 

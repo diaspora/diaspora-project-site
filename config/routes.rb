@@ -35,9 +35,4 @@ DiasporaProjectSite::Application.routes.draw do
     get 'feed' => 'blog#feed', :as => :news_feed, :defaults => {:format => :atom}
     resources :blog, path: '/', only: [:index, :show]
   end
-
-  constraints subdomain: /^planet$/i do
-    get 'feed' => 'planet#feed', :as => :planet_feed, :defaults => {:format => :atom}
-    get '/' => 'planet#index', :as => :planet_index
-  end
 end
