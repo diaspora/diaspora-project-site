@@ -44,7 +44,7 @@ en:
       get_started: "Want to get started?"
       get_started_sub: "It’s as easy as 1, 2, 3 ..."
       choose_pod: "1. Choose a pod"
-      choose_pod_exp: "Find a pod that suits you. You might prefer a smaller pod, one which allows cross-posting to external services (such as Twitter), one based near you, or one based in a country that you know has good data security policies... The choice is yours! You can even %{host_yourself_link} if you have some sysadmin skills."
+      choose_pod_exp: "Find a pod that suits you. You might prefer a smaller pod, one based near you, or one based in a country that you know has good data security policies... The choice is yours! You can even %{host_yourself_link} if you have some sysadmin skills."
       host_yourself: "host a pod yourself"
       sign_up: "2. Sign up"
       sign_up_ex: "Once you’ve decided which pod is right for you, based on the ratings and information at %{poduptime} and maybe recommendations from people you trust, sign up there and create a profile with as much or as little personal information as you like. You are in control about how much you share."
@@ -56,8 +56,6 @@ en:
       features_ex: "Hashtags give you the freedom to label and follow your interests with ease. You can catch people’s attention by @mentioning them. Reshare posts you love so others can enjoy and comment on them too. And show your love for other people’s work by ♥ing it."
       help: "Want to help?"
       help_ex: "diaspora* needs people to write and test code, welcome and help new members, set up and maintain community pods, and spread the word about the benefits of diaspora* to others who might want to take part. Think you’d like to contribute to the project?"
-      socialint: "Social network integration"
-      socialint_ex: "Use diaspora* as your home base to post to your profiles on other major social services. This way your friends will still be able to keep in touch with what you’re up to, even if they’re not yet on diaspora*. diaspora* currently supports cross-posting to your Twitter, Tumblr, and WordPress accounts, with more to come."
       earth_alt: Earthd*
       decentralized_alt: Decentralized
       freedom_alt: Freedom
@@ -65,7 +63,6 @@ en:
       aspects_alt: Aspects
       features_alt: Features
       ways_to_help_alt: "Ways to help"
-      services_alt: Services
     about:
       headline: "How does diaspora* work?"
       byline: "diaspora* is simple to use – here’s how"
@@ -242,7 +239,6 @@ en:
       part6: "Part 6"
       part7: "Part 7"
       additional: "Additional tutorials"
-      connecting: "Connecting diaspora* to other services"
       tips: "Tips and tricks"
       formatting: "Formatting text"
       more_tutorials: "Want more help?"
@@ -309,7 +305,7 @@ en:
       header_logout: "a log out button."
       interface_mobile_old: "If you’re viewing diaspora* on a handheld device, the interface will look quite different, because you’ll be using diaspora*’s mobile version. The header bar is simplified, as in the first image below. Click the “drawer” icon (three horizontal lines) to open the navigation menu. Click your name in this menu to open your user menu. All the options are available, but they’re in different places."
       columns: "Beneath the header there are two columns:"
-      column1: "In the sidebar you’ll see links to the different content views available in diaspora*: <span class=\"click\">Stream</span>, <span class=\"click\">My activity</span>, <span class=\"click\">@Mentions</span>, <span class=\"click\">My aspects</span>, <span class=\"click\">#Followed tags</span> and <span class=\"click\">Public activity</span>. We’ll explain these next. There are also some links to help you invite your friends, welcome new users, find help, connect to external services such as Twitter, Tumblr, and Wordpress (if available on your pod), post to diaspora* from the rest of the web (the diaspora* “bookmarklet”) and on some pods, contact information for the pod’s administrator and a button to donate to the costs of keeping your pod running."
+      column1: "In the sidebar you’ll see links to the different content views available in diaspora*: <span class=\"click\">Stream</span>, <span class=\"click\">My activity</span>, <span class=\"click\">@Mentions</span>, <span class=\"click\">My aspects</span>, <span class=\"click\">#Followed tags</span> and <span class=\"click\">Public activity</span>. We’ll explain these next. There are also some links to help you invite your friends, welcome new users, find help, post to diaspora* from the rest of the web (the diaspora* “bookmarklet”) and on some pods, contact information for the pod’s administrator and a button to donate to the costs of keeping your pod running."
       column2: "The main column contains the content stream with a “publisher” box at the top. This is where the magic happens! We’ll cover using the publisher in %{part_link}."
       stream_mobile: "Beneath the header is the main content stream."
       views: "The different views available in diaspora* are:"
@@ -474,10 +470,6 @@ en:
       locator_ex1: "Next to the camera is a “pin” icon which activates the locator feature. This enables you to add your location to posts. Click it and it will ask you whether you’re happy for it to determine your location using OpenStreetMap, and if you allow this it will add your location to your post as a footnote."
       locator_ex2: "You can edit this location by clicking on the text once it appears under the publisher window."
       locator_ex3: "The location provided may be very exact, so you might want to edit out the specific address information and just give the town or region you’re in. It’s up to you!"
-      connected: "Connected services"
-      connected_ex1: "Based on the connections you have made with your accounts on other social networks (Twitter, Tumblr, and WordPress), there may be icons for these services under the publisher. Highlighting these posts your message to those services. We’ll cover this in the next section, below."
-      connected_ex2: "The icon next to your connected services looks like a spanner. Clicking this will let you configure your connections with other social networks and services."
-      connected_ex3: "We’ll look at how to connect to other services in %{part_link}."
       preview: "Post preview"
       preview_ex1: "Next to the “compose” button at the top left is the last button, with a magnifying glass icon – and it’s a really useful one! This allows you to see exactly what your post will look like, so you can be sure you’re happy with it before you actually post it. This can really help with correcting errors, and especially with text formatting. More on this below."
       buttons_finish: "That is all there is to know about the buttons and icons on the publisher. The real magic happens within the publisher itself. As well as plain text, you can format your text, add #tags, @mentions and links, and embed photos, videos and audio. Wow!"
@@ -507,10 +499,6 @@ en:
       embed: Embedding
       embed_ex1: "You can also paste links to media sites such as YouTube, Vimeo, Soundcloud and others, and the video/audio file you’re linking to will become “embedded” in your post. Try it!"
       embed_ex2: "Note that the video/audio will only become embedded <em>after</em> you have posted your message, so you’ll have to refresh/reload the stream in order to see it. Occasionally it takes a while for the site which hosts the file you want to embed to respond with the embed information, so you might have to wait a short while and refresh the stream again."
-      services: "Posting to other services"
-      services_ex1: "If you have conntected your diaspora* seed to your accounts on other services, clicking on one or more of the icons for those services below the publisher means your message will appear on those networks as well."
-      services_ex2: "When you start writing a message with one of more of these icons highlighted, a character counter will show how many more characters are available to you: 280 for Twitter, 1000 for Tumblr. In diaspora*, you can post a whopping 65,535 characters! The counter will always display the number of characters remaining for the service selected which allows the fewest characters; so, if you highlight both the Twitter and Tumblr logos, it will count down from 280 characters."
-      services_ex3: "If your message is longer than the figure allowed by the service you’re posting to, your message will appear truncated on that service, with a link to your post in diaspora*."
       how: "How about that? There’s plenty of things you can do in your posts in diaspora*."
       try_out: "To try it out, why not make a public announcement that you’ve just arrived in diaspora*? This is a good way to get welcomed by people in our community, and to start to make connections."
       make_post1: "To make a public post, just set the aspect selector button to <span class=\"click\">Public</span>, and type your post. If you didn’t do it earlier, why not introduce yourself to the diaspora* community by including the <span class=\"click\">#newhere</span> tag? This way, people who follow that tag will see your post and be able to welcome you. Include some of your interests as #tags as well, and you’ll find that people with similar interests to you will find you. Your message might be something like:"
@@ -568,14 +556,9 @@ en:
       byline: "Part 7 – Finishing up"
       menu_title: "Finishing up"
       intro: "We have now covered most of the main features on diaspora*. The last part of this tutorial series deals with the last few bits and pieces you’ll need to know about."
-      connect: "Connecting your diaspora* seed to other services"
-      connect_ex1: "You can connect your diaspora* seed to several other services: Twitter, Tumblr, and WordPress. Of course, to do this, you’ll have to have an account on that service!"
-      connect_ex2: "Before starting this, make sure you have your account information for that service to hand, because you might need it to authorise your connection with that other service in order for it to work."
-      connect_ex3: "To connect to another service, click <span class=\"click\">Connect services</span> in the sidebar of the stream, and then click the relevant icon. If you’re already logged in to your account on that service in the same browser, it should recognise you automatically. If you’re not currently logged in to that service, it’ll ask you to log in now. Once you’re logged in, it will ask for authorisation to publish to your account in that service. Accept this, and you’re ready to post directly from your diaspora* seed to that service!"
-      connect_ex4: "When you next click in the publisher, you’ll see the icon for that service under the publisher. Click this icon to activate it, and your post will also appear in your stream on that service. Pretty nifty, eh? See %{part_link} for more information on posting to connected services."
       settings: "Account management"
       settings_ex1: "The final thing we need to look at to get you started is the user settings page. To reach it, get to you user menu and, from the drop-down menu, choose <span class=\"click\">Settings</span>. Here you will find an overview of account options."
-      settings_ex2: "There are five tabs on the account settings page: <strong>Profile</strong>, <strong>Account</strong>, <strong>Privacy</strong>, <strong>Services</strong> and <strong>Applications</strong>."
+      settings_ex2: "There are five tabs on the account settings page: <strong>Profile</strong>, <strong>Account</strong>, <strong>Privacy</strong> and <strong>Applications</strong>."
       profile: Profile
       profile_ex1: "On this page you can change, add to or delete any of your profile information. Go back to the end of %{part_link} if you want a reminder of how to edit it. Don’t forget to press the <span class=\"click\">Update</span> button at the bottom once you’re finished!"
       nsfw: “NSFW”
@@ -589,8 +572,6 @@ en:
       spotlight_ex: "On the settings page you can also enable the “community spotlight,” if this feature is available on your pod. The “community spotlight” adds posts to your stream from community members who your pod’s admin has selected as being people worth reading. It can be a good way to find people to connect with when you first join diaspora*."
       privacy: Privacy
       privacy_ex: "This is a list of users you are ignoring. You can remove them from this list if you want to start seeing posts from them again. See %{part_link} for more on ignoring people."
-      services: Services
-      services_ex: "The Services page shows your connected services (e.g. Twitter, Tumblr, WordPress) and allows you to connect new services to your diaspora* seed. See %{part_link} for more on connected services."
       applications: Applications
       applications_ex: "This tab displays a list of any applications you have authorised in your diaspora* seed."
       finish1: "That’s all, folks! Thanks a lot for reading this getting started guide. We hope it has been useful to you and that you now feel comfortable using diaspora* as your new online home. If there’s anything else you want to know about any aspect of using diaspora*, try our in-app help section – go to your user menu in the header bar and select <span class=\"click\">Help</span> from the drop-down menu."
