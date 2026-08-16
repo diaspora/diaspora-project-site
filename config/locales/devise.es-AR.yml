@@ -1,54 +1,74 @@
 es-AR:
   devise:
     confirmations:
-      confirmed: ~
-      send_instructions: ~
-      send_paranoid_instructions: ~
+      confirmed: Tu cuenta se ha confirmado correctamente. Ya has iniciado sesión.
+      send_instructions: Recibirás un correo electrónico con instrucciones sobre cómo
+        confirmar tu cuenta en unos minutos.
+      send_paranoid_instructions: Si tu dirección de correo electrónico figura en
+        nuestra base de datos, recibirás un correo electrónico con instrucciones sobre
+        cómo confirmar tu cuenta en unos minutos.
     failure:
-      already_authenticated: ~
-      inactive: ~
-      invalid: ~
-      invalid_token: ~
-      locked: ~
-      not_found_in_database: ~
-      timeout: ~
-      unauthenticated: ~
-      unconfirmed: ~
+      already_authenticated: Ya has iniciado sesión.
+      inactive: Su cuenta aún no ha sido activada.
+      invalid: Correo electrónico o contraseña no válidos.
+      invalid_token: Token de autenticación no válido.
+      locked: Tu cuenta está bloqueada.
+      not_found_in_database: Correo electrónico o contraseña no válidos.
+      timeout: Su sesión ha caducado; por favor, inicie sesión de nuevo para continuar.
+      unauthenticated: Necesitas iniciar sesión o registrarte antes de continuar.
+      unconfirmed: Debes confirmar tu cuenta antes de continuar.
     mailer:
       confirmation_instructions:
-        subject: ~
+        subject: Instrucciones de confirmación
       reset_password_instructions:
-        subject: ~
+        subject: Instrucciones para restablecer la contraseña
       unlock_instructions:
-        subject: ~
+        subject: Instrucciones de desbloqueo
     omniauth_callbacks:
-      failure: ~
-      success: ~
+      failure: No se pudo autenticar mediante %{kind} debido a "%{reason}".
+      success: Autenticación realizada con éxito desde la cuenta %{kind}.
     passwords:
-      no_token: ~
-      send_instructions: ~
-      send_paranoid_instructions: ~
-      updated: ~
-      updated_not_active: ~
+      no_token: Solo puedes acceder a esta página haciendo clic en el enlace que aparece
+        en el correo electrónico de restablecimiento de contraseña. Si has copiado
+        el enlace de dicho correo, asegúrate de haber copiado la URL completa.
+      send_instructions: Recibirá un correo electrónico en unos minutos con instrucciones
+        sobre cómo restablecer su contraseña.
+      send_paranoid_instructions: Si su dirección de correo electrónico existe en
+        nuestra base de datos, recibirá un enlace de recuperación de contraseña en
+        su bandeja de entrada en unos minutos.
+      updated: La contraseña se ha cambiado correctamente. La sesión ya está iniciada.
+      updated_not_active: La contraseña se ha cambiado correctamente.
     registrations:
-      destroyed: ~
-      signed_up: ~
-      signed_up_but_inactive: ~
-      signed_up_but_locked: ~
-      signed_up_but_unconfirmed: ~
-      update_needs_confirmation: ~
-      updated: ~
+      destroyed: "¡Adiós! Tu cuenta se ha eliminado correctamente. Esperamos verte
+        de nuevo pronto."
+      signed_up: "¡Bienvenido! Te has registrado correctamente."
+      signed_up_but_inactive: Te has registrado correctamente. Sin embargo, no hemos
+        podido iniciar sesión porque tu cuenta aún no está activada.
+      signed_up_but_locked: Te has registrado correctamente. Sin embargo, no hemos
+        podido iniciar sesión porque tu cuenta está bloqueada.
+      signed_up_but_unconfirmed: Se ha enviado un mensaje con un enlace de confirmación
+        a su dirección de correo electrónico. Por favor, abra el enlace para activar
+        su cuenta.
+      update_needs_confirmation: Has actualizado tu cuenta correctamente, pero necesitamos
+        verificar tu nueva dirección de correo electrónico. Por favor, revisa tu bandeja
+        de entrada y haz clic en el enlace de confirmación para completar el proceso.
+      updated: Has actualizado tu cuenta correctamente.
     sessions:
-      signed_in: ~
-      signed_out: ~
+      signed_in: Sesión iniciada correctamente.
+      signed_out: Se ha cerrado la sesión.
     unlocks:
-      send_instructions: ~
-      send_paranoid_instructions: ~
-      unlocked: ~
+      send_instructions: Recibirá un correo electrónico en unos minutos con instrucciones
+        sobre cómo desbloquear su cuenta.
+      send_paranoid_instructions: Si su cuenta existe, recibirá un correo electrónico
+        en unos minutos con instrucciones sobre cómo desbloquearla.
+      unlocked: Su cuenta se ha desbloqueado correctamente. Por favor, inicie sesión
+        para continuar.
   errors:
     messages:
-      already_confirmed: ~
-      confirmation_period_expired: ~
-      expired: ~
-      not_found: ~
-      not_locked: ~
+      already_confirmed: ya fue confirmado, por favor intenta iniciar sesión
+      confirmation_period_expired: debe confirmarse en un plazo de %{period}, por
+        favor solicite uno nuevo
+      expired: ha caducado, por favor solicite uno nuevo
+      not_found: no encontrado
+      not_locked: no fue bloqueado
+      not_saved:

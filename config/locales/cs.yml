@@ -1,715 +1,1424 @@
 cs:
   time:
     formats:
-      blog_headline: ~
+      blog_headline: "%d %B %Y"
   buttons:
-    host_pod: "Hostovat pod"
-    join_diaspora: "Přidej se k nám!"
-    find_more: "Zjistit více »"
+    host_pod: Hostovat pod
+    join_diaspora: Přidej se k nám!
+    find_more: Zjistit více »
   meta:
     footer:
-      copyleft: "CC-BY The diaspora* Foundation"
-  title: "diaspora* Project"
-  newsfeed: ~
-  planet_feed: ~
+      copyleft: CC-BY The diaspora* Foundation
+  title: diaspora* Project
+  newsfeed: Blog diaspory* (Atom)
+  planet_feed: Planeta diaspora* (Atom)
   layouts:
     application:
       wiki: Wiki
-      discourse: ~
+      discourse: Diskuse a podpora
       planet: Planeta
-      useful_resources: "Užitečné odkazy"
-      codebase: "Kódová báze"
+      useful_resources: Užitečné odkazy
+      codebase: Kódová báze
       documentation: Dokumentace
-      report_bugs: "Najdi & nahlaš chyby"
-      irc_general: "IRC - obecné"
-      irc_development: "IRC - vývoj"
-      discussion_general: "Diskuse - obecné"
-      discussion_development: "Diskuse - vývoj"
-      choose_language: "Vyber jazyk"
-      translate: "Přidej překlad"
-      cc_license_alt: "Licence Creative Commons"
+      report_bugs: Najdi & nahlaš chyby
+      irc:
+      discussion_general: Diskuse - obecné
+      discussion_development: Diskuse - vývoj
+      choose_language: Vyber jazyk
+      translate: Přidej překlad
+      cc_license_alt: Licence Creative Commons
       licensed_under: "%{site_link} je pod licencí %{license_link}"
-      license_link_text: "Creative Commons Uveďte původ 3.0 Unported"
+      license_link_text: Creative Commons Uveďte původ 3.0 Unported
   pages:
     index:
-      headline: "Vítej na diaspora*"
-      byline: "Online sociální svět, kde to máš v ruce"
-      register: "Zaregistruj se »"
-      key_philosophies: "diaspora* je postavená na třech klíčových filozofiích:"
+      headline: Vítej na diaspora*
+      byline: Online sociální svět, kde to máš v ruce
+      register: Zaregistruj se »
+      key_philosophies: 'diaspora* je postavená na třech klíčových filozofiích:'
       decentralization: Decentralizace
-      decentralization_about: "Namísto velkých serverů, které obsahují data všech uživatelů a které vlastní velká korporace, lokální servery (\"pody\") mohou být provozovány kdekoliv na světě. Vybereš si, na kterém podu se zaregistruješ - možná na svém místním - a hladce se spojíš s celosvětovou komunitou diaspora*."
+      decentralization_about: Namísto velkých serverů, které obsahují data všech uživatelů
+        a které vlastní velká korporace, lokální servery ("pody") mohou být provozovány
+        kdekoliv na světě. Vybereš si, na kterém podu se zaregistruješ - možná na
+        svém místním - a hladce se spojíš s celosvětovou komunitou diaspora*.
       freedom: Svoboda
-      freedom_about: "V diaspora* můžeš být kýmkoliv chceš. Narozdíl od jiných sociálních sítí nemusíš používat svou pravou identitu. Můžeš komunikovat s kýmkoliv chceš a jakým způsobem chceš. Jediným omezením je tvá fantazie. diaspora* je svobodný software, který ti dává svobodu použít jej tak, jak si přeješ."
+      freedom_about: V diaspora* můžeš být kýmkoliv chceš. Narozdíl od jiných sociálních
+        sítí nemusíš používat svou pravou identitu. Můžeš komunikovat s kýmkoliv chceš
+        a jakým způsobem chceš. Jediným omezením je tvá fantazie. diaspora* je svobodný
+        software, který ti dává svobodu použít jej tak, jak si přeješ.
       privacy: Soukromí
-      privacy_about: "V diaspoře* vlastníš svá data. Nepodepisuješ žádné podstoupení práv korporaci nebo někomu, kdo by je mohl využít. Navíc si můžeš vybrat, kdo uvidí jednotlivé příspěvky pomocí aspektů. V diaspoře* jsou tví přátelé, tvé zvyky a tvůj obsah tvůj byznys - ne náš!"
-      get_started: "Chceš začít?"
-      get_started_sub: "Je to lehké jako 1, 2, 3 ..."
-      choose_pod: "1. Vyber si pod"
-      choose_pod_exp: "Najdi si pod, který ti bude vyhovovat. Můžeš preferovat menší pod, nebo ten, který dovoluje přeposílání na externí služby (jako je Twitter), nebo ten, který je blízko tvého bydliště, nebo ten, který je umístěn v zemi, o které víš, že má dobré zákony na ochranu dat... Je to na tobě! Pokud máš zkušenosti pro sysadminy, můžeš si také %{host_yourself_link}."
-      host_yourself: ~
-      sign_up: "2. Přihlaš se"
-      sign_up_ex: ~
-      join_convo: "3. Zapoj se do konverzace!"
-      join_convo_ex: "Začni sledovat #štítky podle tvých zájmů: může to být <span class=\"click\">#hudba</span>, <span class=\"click\">#fotografie</span>, <span class=\"click\">#soukromi</span> nebo <span class=\"click\">#linux</span> - cokoliv, co máš rád. Představ se veřejnou zprávu se štítkem <span class=\"click\">#newhere</span> („jsem tu nový“) a jsi od této chvíle součástí úžasné komunity diaspora*."
+      privacy_about: V diaspoře* vlastníš svá data. Nepodepisuješ žádné podstoupení
+        práv korporaci nebo někomu, kdo by je mohl využít. Navíc si můžeš vybrat,
+        kdo uvidí jednotlivé příspěvky pomocí aspektů. V diaspoře* jsou tví přátelé,
+        tvé zvyky a tvůj obsah tvůj byznys - ne náš!
+      get_started: Chceš začít?
+      get_started_sub: Je to lehké jako 1, 2, 3 ...
+      choose_pod: 1. Vyber si pod
+      choose_pod_exp: Najdi si pod, který ti bude vyhovovat. Můžeš preferovat menší
+        pod, nebo ten, který dovoluje přeposílání na externí služby (jako je Twitter),
+        nebo ten, který je blízko tvého bydliště, nebo ten, který je umístěn v zemi,
+        o které víš, že má dobré zákony na ochranu dat... Je to na tobě! Pokud máš
+        zkušenosti pro sysadminy, můžeš si také %{host_yourself_link}.
+      host_yourself: hostujte si pod sami
+      sign_up: 2. Přihlaš se
+      sign_up_ex: Jakmile se rozhodnete, který pod je pro vás ten pravý, na základě
+        hodnocení a informací na stránce %{poduptime} a možná i doporučení od lidí,
+        kterým důvěřujete, zaregistrujte se tam a vytvořte si profil s libovolným
+        množstvím osobních údajů. Máte kontrolu nad tím, kolik toho sdílíte.
+      join_convo: 3. Zapoj se do konverzace!
+      join_convo_ex: 'Začni sledovat #štítky podle tvých zájmů: může to být <span
+        class="click">#hudba</span>, <span class="click">#fotografie</span>, <span
+        class="click">#soukromi</span> nebo <span class="click">#linux</span> - cokoliv,
+        co máš rád. Představ se veřejnou zprávu se štítkem <span class="click">#newhere</span>
+        („jsem tu nový“) a jsi od této chvíle součástí úžasné komunity diaspora*.'
       aspects: Aspekty
-      aspects_ex: ~
+      aspects_ex: diaspora* je průkopníkem konceptu aspektů, což znamená, že si můžete
+        kontakty uspořádat podle jejich role ve vašem životě. To znamená, že můžete
+        něco sdílet jen s rodinnými příslušníky nebo kolegy z práce, protože víte,
+        že nikdo, koho nechcete, neuvidí, co zveřejňujete.
       features: Prvky
-      features_ex: "Štítky ti dávají svobodu snadno označit a sledovat své zájmy. Můžeš upoutat něčí pozornost tím, že je @zmíniš. Sdílej příspěvky, které se ti líbí, ať je ostatní mohou také okomentovat. A ocenit práci jiných lidí můžeš pomocí ♥."
-      help: "Chceš pomoci?"
-      help_ex: ~
-      socialint: "Integrace sociálních sítí"
-      socialint_ex: ~
+      features_ex: Štítky ti dávají svobodu snadno označit a sledovat své zájmy. Můžeš
+        upoutat něčí pozornost tím, že je @zmíniš. Sdílej příspěvky, které se ti líbí,
+        ať je ostatní mohou také okomentovat. A ocenit práci jiných lidí můžeš pomocí
+        ♥.
+      help: Chceš pomoci?
+      help_ex: diaspora* potřebuje lidi, kteří by psali a testovali kód, vítali nové
+        členy a pomáhali jim, zakládali a udržovali komunitní pody a šířili informace
+        o výhodách diaspory* mezi dalšími, kteří by se chtěli zapojit. Myslíte si,
+        že byste chtěli do projektu přispět?
       earth_alt: Diazemě*
       decentralized_alt: Decentralizováno
       freedom_alt: Svoboda
-      keyhole_alt: "Klíčová dírka"
+      keyhole_alt: Klíčová dírka
       aspects_alt: Aspekty
       features_alt: Vlastnosti
       ways_to_help_alt: Nápověda
-      services_alt: Služby
     about:
-      headline: "Jak funguje diaspora*?"
-      byline: "Používat diaspora* je lehké. Zde najdeš jak."
+      headline: Jak funguje diaspora*?
+      byline: Používat diaspora* je lehké. Zde najdeš jak.
       menu_title: O
-      decentralize: "Co je decentralizace?"
-      decentralize_ex: "diaspora* se velmi liší od většiny jiných sítí které používáš. Je zcela decentralizovaná, bez klíčového 'uzlu'. Přesto je velmi snadné spojit se a komunikovat s jinými lidmi. Zde najdeš jak."
+      decentralize: Co je decentralizace?
+      decentralize_ex: diaspora* se velmi liší od většiny jiných sítí které používáš.
+        Je zcela decentralizovaná, bez klíčového 'uzlu'. Přesto je velmi snadné spojit
+        se a komunikovat s jinými lidmi. Zde najdeš jak.
       this: TO
-      this_ex: "diaspora* je skutečná síť, bez ústředního bodu. Všude po světě existují servery (\"pody\"), které obsahují data těch uživatelů, kteří se rozhodli se na ně přihlásit. Tyto pody mezi sebou hladce komunikují, takže se můžeš přihlásit na jakýkoli z nich a volně komunikovat se svými kontakty, bez ohledu na to, v které síti se nachází."
-      notthis: "TO NE"
-      notthis_ex: "Většina sociálních sítí běží přes centralizované servery, ktreré jsou majetkem korporací. Sbírají veškerá soukromá data svých uživatelů. Tyto informace mohou být ztraceny nebo odcizeny (hackováním) a jako u každého systému s úzkým hrdlem může jakýkoli problém centrálního serveru způsobit zpomalení nebo nedostupnost. Vlády je mohou také mnohem snadněji odposlouchávat."
-      discl: "(diaspora* používá otevřené webové standardy jako %{pubsubhubbub} a %{webfinger} pro umožnění takových spojení.)"
-      connect: "Jak se mohu připojit?"
-      connect_ex: "I když se diaspora* skládá z mnoha podů umístěných na celém světě, bude se ti jevit jako jedna kompaktní síť. Nemusíš být na stejném podu jako tví známí, abys s nimi mohl komunikovat - pody mezi sebou komunikují souvisle v celém diaspora* univerzu. Vlastně na ně můžeš zcela zapomenout. Spojit se s někým na diaspora* je velmi lehké: "
-      find: "1. Najdi"
-      find_ex: "Vše, co je třeba udělat, je najít někoho, s kým se chceš spojit a přidat si ho do aspektů (viz. dole více o aspektech). Vyhledáváš buď v políčku \"hledat\" v černé horní liště, nebo přejedeš přes jméno dotyčného v proudu a objeví se ti tlačítko. Zdali znáš diaspora* ID adresu dotyčného (tvojejméno@podjméno.com), můžeš jí taktéž použít."
-      add: "2. Přidej"
-      add_ex: "Pak už stačí pouze stisknout tlačítko \"Přidat kontakt\" a vybrat aspekt, do kterého ho chceš zařadit. Nyní jste spojeni a můžete sdílet jako v každé jiné síti. V případě, že je dotyčný členem různých aspektů tvého života, máš možnost ho zařadit do vícero aspektů. Teď jste spojeni. Je to tak jednoduché. "
+      this_ex: diaspora* je skutečná síť, bez ústředního bodu. Všude po světě existují
+        servery ("pody"), které obsahují data těch uživatelů, kteří se rozhodli se
+        na ně přihlásit. Tyto pody mezi sebou hladce komunikují, takže se můžeš přihlásit
+        na jakýkoli z nich a volně komunikovat se svými kontakty, bez ohledu na to,
+        v které síti se nachází.
+      notthis: TO NE
+      notthis_ex: Většina sociálních sítí běží přes centralizované servery, ktreré
+        jsou majetkem korporací. Sbírají veškerá soukromá data svých uživatelů. Tyto
+        informace mohou být ztraceny nebo odcizeny (hackováním) a jako u každého systému
+        s úzkým hrdlem může jakýkoli problém centrálního serveru způsobit zpomalení
+        nebo nedostupnost. Vlády je mohou také mnohem snadněji odposlouchávat.
+      discl: "(diaspora* používá otevřené webové standardy jako %{pubsubhubbub} a
+        %{webfinger} pro umožnění takových spojení.)"
+      connect: Jak se mohu připojit?
+      connect_ex: 'I když se diaspora* skládá z mnoha podů umístěných na celém světě,
+        bude se ti jevit jako jedna kompaktní síť. Nemusíš být na stejném podu jako
+        tví známí, abys s nimi mohl komunikovat - pody mezi sebou komunikují souvisle
+        v celém diaspora* univerzu. Vlastně na ně můžeš zcela zapomenout. Spojit se
+        s někým na diaspora* je velmi lehké: '
+      find: 1. Najdi
+      find_ex: Vše, co je třeba udělat, je najít někoho, s kým se chceš spojit a přidat
+        si ho do aspektů (viz. dole více o aspektech). Vyhledáváš buď v políčku "hledat"
+        v černé horní liště, nebo přejedeš přes jméno dotyčného v proudu a objeví
+        se ti tlačítko. Zdali znáš diaspora* ID adresu dotyčného (tvojejméno@podjméno.com),
+        můžeš jí taktéž použít.
+      add: 2. Přidej
+      add_ex: 'Pak už stačí pouze stisknout tlačítko "Přidat kontakt" a vybrat aspekt,
+        do kterého ho chceš zařadit. Nyní jste spojeni a můžete sdílet jako v každé
+        jiné síti. V případě, že je dotyčný členem různých aspektů tvého života, máš
+        možnost ho zařadit do vícero aspektů. Teď jste spojeni. Je to tak jednoduché. '
       freedom: Svoboda
-      freedom_byline: "diaspora* se tě nesnaží omezovat."
-      fdm1: "Buď, kým chceš být"
-      fdm1_ex: "Mnoho sociálních sítí trvá na tom, abys používal svou skutečnou identitu. diaspora* ne. Zde si můžeš vybrat, kým chceš být a sdílet o sobě kolik chceš. Záleží jen na tobě, jak s jinými budeš interagovat."
-      fdm2: "Buď kreativní"
-      fdm2_ex: "Nejseš ve své interakci omezen. Sleduj fascinující lidi a pozoruj co mají co říci, nebo se poděl o svět se všemi. Sdílej fotky, umělecké díla, videa, muziku, slova - co si usmyslíš. Dej si volný průběh."
-      fdm3: "\"Free\" jako svoboda"
-      fdm3_ex: "diaspora* je zcela svobodný software. To znamená, že neexistují žádná omezení v jeho použití. Můžeš si vzít zdrojový kód a změnit jej tak, jak chceš a pomoci nám tak vylepšit naši síť. Moc rádi tě vezmeme na palubu."
+      freedom_byline: diaspora* se tě nesnaží omezovat.
+      fdm1: Buď, kým chceš být
+      fdm1_ex: Mnoho sociálních sítí trvá na tom, abys používal svou skutečnou identitu.
+        diaspora* ne. Zde si můžeš vybrat, kým chceš být a sdílet o sobě kolik chceš.
+        Záleží jen na tobě, jak s jinými budeš interagovat.
+      fdm2: Buď kreativní
+      fdm2_ex: Nejseš ve své interakci omezen. Sleduj fascinující lidi a pozoruj co
+        mají co říci, nebo se poděl o svět se všemi. Sdílej fotky, umělecké díla,
+        videa, muziku, slova - co si usmyslíš. Dej si volný průběh.
+      fdm3: '"Free" jako svoboda'
+      fdm3_ex: diaspora* je zcela svobodný software. To znamená, že neexistují žádná
+        omezení v jeho použití. Můžeš si vzít zdrojový kód a změnit jej tak, jak chceš
+        a pomoci nám tak vylepšit naši síť. Moc rádi tě vezmeme na palubu.
       privacy: Soukromí
-      privacy_byline: "Kontroluj, co je tvé "
-      priv1: "Vlastni svá data"
-      priv1_ex: "Mnoho sociálních sítí vydělává peníze analýzou tvých interakcí a používá je k cílené reklamě. diaspora* tvoje data nijak nevyužívá - pouze za účelem spojení s dalšími lidmi. Pouze administrátoři podů, se kterými interaguješ, mohou získat tvá data, a ty si můžeš vybrat, se kterými pody interaguješ."
-      priv2: "Uspořádej sám"
-      priv2_ex: "Vyber si pod, kde budou tvá data uložena. Pokud ti na bezpečí opravdu velmi záleží, můžeš vytvořit a hostovat vlastní pod na svých serverech a interagovat pouze s pody, kterým důvěřuješ, takže se nikdo k tvým osobním údajům nedostane."
-      priv3: "Vyber si své publikum"
-      priv3_ex: "Aspekty diaspory* ti dovolují sdílet pouze s lidmi, se kterými chceš. Tvá data mohou být tak veřejná či tak soukromá, jak ty chceš. Sdílej vtipnou fotku s celým světem, nebo přísné tajemství s tvými nejbližšími přátely. Ty máš nad svými daty kontrolu."
-      aspects: "Vše o aspektech"
-      aspects_byline: "Klíč k soukromí na diaspora*"
-      asp1: "Aspekty tvého života"
-      asp1_ex: "Tvůj život je tvořen mnoha různými aspekty spolu s různými lidmi. Proč by tvůj online život měl vypadat jinak? S aspekty diaspora* můžeš svůj online život rozdělit tak, jak chceš a sdílet věci pouze s těmi lidmi, se kterými chceš."
-      asp2: "Organizuj si život"
-      asp2_ex: "Můžeš mít například aspekty pro tvou rodinu, pro tvé nejbližší přátele, pro kolegy v práci a pro sport či hobby, do kterého jsi zapojený/á. Tví kolegové nepotřebují vědět o tvém setkání s rodinou, že ne? S aspekty to vědět nebudou."
-      asp3: "Pověz to světu"
-      asp3_ex: "Samozřejmě že některé věci jsou tak důležité, že je chceš sdělit celému světu. V diaspora* stačí, když onu zprávu učiníš veřejnou. S použitím správných štítků pak najde lidi, kteří mají o dané téma zájem."
-      features: "Funkce které naše komunita miluje"
-      features_byline: "Myslíme, že je budeš milovat také"
-      hashtags: "štítky (hashtags)"
-      hashtags_ex: "Pomocí štítků můžeš označit a sledovat své zájmy a zároveň tvé příspěvky dorazí k podobně zaměřeným lidem. Štítky jsou také skvělým způsobem, jak se setkat s vtipnými a zajímavými novými lidmi na diaspora*."
+      privacy_byline: 'Kontroluj, co je tvé '
+      priv1: Vlastni svá data
+      priv1_ex: Mnoho sociálních sítí vydělává peníze analýzou tvých interakcí a používá
+        je k cílené reklamě. diaspora* tvoje data nijak nevyužívá - pouze za účelem
+        spojení s dalšími lidmi. Pouze administrátoři podů, se kterými interaguješ,
+        mohou získat tvá data, a ty si můžeš vybrat, se kterými pody interaguješ.
+      priv2: Uspořádej sám
+      priv2_ex: Vyber si pod, kde budou tvá data uložena. Pokud ti na bezpečí opravdu
+        velmi záleží, můžeš vytvořit a hostovat vlastní pod na svých serverech a interagovat
+        pouze s pody, kterým důvěřuješ, takže se nikdo k tvým osobním údajům nedostane.
+      priv3: Vyber si své publikum
+      priv3_ex: Aspekty diaspory* ti dovolují sdílet pouze s lidmi, se kterými chceš.
+        Tvá data mohou být tak veřejná či tak soukromá, jak ty chceš. Sdílej vtipnou
+        fotku s celým světem, nebo přísné tajemství s tvými nejbližšími přátely. Ty
+        máš nad svými daty kontrolu.
+      aspects: Vše o aspektech
+      aspects_byline: Klíč k soukromí na diaspora*
+      asp1: Aspekty tvého života
+      asp1_ex: Tvůj život je tvořen mnoha různými aspekty spolu s různými lidmi. Proč
+        by tvůj online život měl vypadat jinak? S aspekty diaspora* můžeš svůj online
+        život rozdělit tak, jak chceš a sdílet věci pouze s těmi lidmi, se kterými
+        chceš.
+      asp2: Organizuj si život
+      asp2_ex: Můžeš mít například aspekty pro tvou rodinu, pro tvé nejbližší přátele,
+        pro kolegy v práci a pro sport či hobby, do kterého jsi zapojený/á. Tví kolegové
+        nepotřebují vědět o tvém setkání s rodinou, že ne? S aspekty to vědět nebudou.
+      asp3: Pověz to světu
+      asp3_ex: Samozřejmě že některé věci jsou tak důležité, že je chceš sdělit celému
+        světu. V diaspora* stačí, když onu zprávu učiníš veřejnou. S použitím správných
+        štítků pak najde lidi, kteří mají o dané téma zájem.
+      features: Funkce které naše komunita miluje
+      features_byline: Myslíme, že je budeš milovat také
+      hashtags: štítky (hashtags)
+      hashtags_ex: Pomocí štítků můžeš označit a sledovat své zájmy a zároveň tvé
+        příspěvky dorazí k podobně zaměřeným lidem. Štítky jsou také skvělým způsobem,
+        jak se setkat s vtipnými a zajímavými novými lidmi na diaspora*.
       reshare: Sdílet
-      reshare_ex: "Proč nesdílet příspěvky, které se ti líbí, spolu s ostatními? V diaspora* to jde snadno pomocí znovusdílení. Stačí stisknout tlačítko na sdílení příspěvku."
+      reshare_ex: Proč nesdílet příspěvky, které se ti líbí, spolu s ostatními? V
+        diaspora* to jde snadno pomocí znovusdílení. Stačí stisknout tlačítko na sdílení
+        příspěvku.
       mentions: Zmínky
-      mentions_ex: "Chceš někoho zaujmout? Stačí ho takhle @zmínit! Je to jednoduchý způsob, jak upozornit jednoho z tvých kontaktů na něco, o čem by dle tebe měl vědět."
+      mentions_ex: Chceš někoho zaujmout? Stačí ho takhle @zmínit! Je to jednoduchý
+        způsob, jak upozornit jednoho z tvých kontaktů na něco, o čem by dle tebe
+        měl vědět.
       love: Přízeň
-      love_ex: "Pokud chceš ukázat pochvalu, zmáčkni pod příspěvkem tlačítko:'To se mi líbí'.  Někdy slova nevyjádří vše, co cítíš."
-      host: "Uspořádej community pod"
-      host_byline: "Buď jednou z hvězd na diaspora*"
-      host_ex: "diaspora* funguje díky svým členům, kteří hostují a provozují pody, které jsou otevřené všem. Pokud máš prostor na serveru a trochu technických znalostí, můžeš k diaspoře* přispět vlastním veřejným podem. Čím více jich bude, tím lépe bude diaspora* fungovat - buď součástí budoucnosti decentralizovaného sociálního webu!"
-      hostinst1: "Přečti si %{instructions_link} a založ vlastní community pod."
-      instructions_link_text: "Instrukce k instalaci podu"
-      hostinst2: "Shlédni listinu komunitních podů na %{poduptime}"
-      distributed_network: "Distribuovaná síť"
-      centralized_network: "Centralizovaná síť"
+      love_ex: Pokud chceš ukázat pochvalu, zmáčkni pod příspěvkem tlačítko:'To se
+        mi líbí'.  Někdy slova nevyjádří vše, co cítíš.
+      host: Uspořádej community pod
+      host_byline: Buď jednou z hvězd na diaspora*
+      host_ex: diaspora* funguje díky svým členům, kteří hostují a provozují pody,
+        které jsou otevřené všem. Pokud máš prostor na serveru a trochu technických
+        znalostí, můžeš k diaspoře* přispět vlastním veřejným podem. Čím více jich
+        bude, tím lépe bude diaspora* fungovat - buď součástí budoucnosti decentralizovaného
+        sociálního webu!
+      hostinst1: Přečti si %{instructions_link} a založ vlastní community pod.
+      instructions_link_text: Instrukce k instalaci podu
+      hostinst2: Shlédni listinu komunitních podů na %{poduptime}
+      distributed_network: Distribuovaná síť
+      centralized_network: Centralizovaná síť
       search_alt: hledat
-      add_a_contact_alt: "Přidat kontakt"
+      add_a_contact_alt: Přidat kontakt
       hashtag_alt: Štítek
       reshare_alt: Sdílet
       mention_alt: Zmínit
       heart_alt: Srdce
     get_involved:
-      headline: "Zapoj se!"
-      byline: "Budoucnost sociálního webu začíná tebou"
-      menu_title: "Zapoj se"
-      community: "Podpořeno komunitou"
-      community_byline: "diaspora* patří tobě"
-      meaning: "Co to vše znamená?"
-      meaning_ex1: "Svobodný software je o individualitě, transparentnosti, tvořivosti a osudu. Je o myšlence a jejím uskutečnění. diaspora* byla založena, aby naplnila vášeň pro legraci a k zlepšení internetu. Svobodný software nám umožňuje změnit svět pro nás samotné a z našich objevů mohou čerpat naši přátelé."
-      meaning_ex2: "Komunity lidí okolo svobodného softwaru jsou fascinující. V diaspora* věříme, že lidé by měli být ceněni za to, co dělají. Nezáleží na tom, jestli jsi skvělý programátor nebo jsi nikdy nic podobného nedělal. Přispívat k diaspoře* znamená, že se soustředíš na usilovné hledání takových řešení, která budou fungovat pro ostatní."
-      meaning_ex3: "Proto když smysluplně přispěješ k diaspoře*, dáme ti přístup ke core. Jedeme v tom spolu a chceme nadšeným lidem dát šanci uskutečnit velké změny."
-      whereyou: "Kde se dostáváš do hry ty"
-      whereyou_ex1: "diaspora* je utvářena každým z nás. Možná tě zatím neznáme, ale rádi se s tebou setkáme a poznáme, jak se hodíš do týmu, který buduje budoucnost webu. Všichni můžeme změnit svět, když dostaneme tu správnou příležitost."
-      whereyou_ex2: "Přispívat k diaspora* lze mnoha způsoby. Ať jsi uživatel, který nám pomáhá hledat chyby, poskytuje zpětnou vazbu přes naše mailové konference, píše kód nebo navrhuje vzhled, potřebujeme tě."
-      gi_header: "Možnosti, jak se zapojit do diaspora*"
-      code_header: "Přispěj ke kódu"
-      code_byline: "Získat zdrojový kód je snadné."
-      code_ex1: "Naklonuj si repozitář a pošťourej se: %{clone_code}"
-      code_ex2: "Nainstaluj si své vývojové prostředí"
-      code_ex3: "Začni přispívat ke kódu!"
-      code_ex4: "Jsme velká komunita, připravena ti pomoci začít.Doporučujeme ti podívat se na %{get_started_guide_link}, přidat se k %{mailing_list_link} a poznat nás na %{irc_link}."
+      headline: Zapoj se!
+      byline: Budoucnost sociálního webu začíná tebou
+      menu_title: Zapoj se
+      community: Podpořeno komunitou
+      community_byline: diaspora* patří tobě
+      meaning: Co to vše znamená?
+      meaning_ex1: Svobodný software je o individualitě, transparentnosti, tvořivosti
+        a osudu. Je o myšlence a jejím uskutečnění. diaspora* byla založena, aby naplnila
+        vášeň pro legraci a k zlepšení internetu. Svobodný software nám umožňuje změnit
+        svět pro nás samotné a z našich objevů mohou čerpat naši přátelé.
+      meaning_ex2: Komunity lidí okolo svobodného softwaru jsou fascinující. V diaspora*
+        věříme, že lidé by měli být ceněni za to, co dělají. Nezáleží na tom, jestli
+        jsi skvělý programátor nebo jsi nikdy nic podobného nedělal. Přispívat k diaspoře*
+        znamená, že se soustředíš na usilovné hledání takových řešení, která budou
+        fungovat pro ostatní.
+      meaning_ex3: Proto když smysluplně přispěješ k diaspoře*, dáme ti přístup ke
+        core. Jedeme v tom spolu a chceme nadšeným lidem dát šanci uskutečnit velké
+        změny.
+      whereyou: Kde se dostáváš do hry ty
+      whereyou_ex1: diaspora* je utvářena každým z nás. Možná tě zatím neznáme, ale
+        rádi se s tebou setkáme a poznáme, jak se hodíš do týmu, který buduje budoucnost
+        webu. Všichni můžeme změnit svět, když dostaneme tu správnou příležitost.
+      whereyou_ex2: Přispívat k diaspora* lze mnoha způsoby. Ať jsi uživatel, který
+        nám pomáhá hledat chyby, poskytuje zpětnou vazbu přes naše mailové konference,
+        píše kód nebo navrhuje vzhled, potřebujeme tě.
+      gi_header: Možnosti, jak se zapojit do diaspora*
+      code_header: Přispěj ke kódu
+      code_byline: Získat zdrojový kód je snadné.
+      code_ex1: 'Naklonuj si repozitář a pošťourej se: %{clone_code}'
+      code_ex2: Nainstaluj si své vývojové prostředí
+      code_ex3: Začni přispívat ke kódu!
+      code_ex4: Máme velkou komunitu připravenou vám pomoci začít. Doporučujeme vám
+        podívat se na náš %{get_started_guide_link}, promluvit si s námi na našem
+        %{discourse_link} a přijít se s námi setkat v %{irc_link}.
       get_started_guide_link_text: Začínáme
-      discourse_link_text: ~
-      irc_link_text: "diaspora* IRC místnost"
-      code_gh: "Shlédni zdrojový kód na GitHub"
-      bugs_header: "Rozdrť chyby (brouky)"
-      bugs_ex1: "Náš projekt využívá Code Triage, dobrovolnickou službu, kde uživatelé a vývojáři pracují společně v boji s chybami na našem %{github_link}."
-      bugs_ex2: "Opravování malých chyb pomáhá každému a nováčkovi umožní lépe pochopit, jak části diaspora* fungují."
-      bugs_ex3: "Pomoz nám vyčistit náš kód."
-      github_link_text: "Tracker problémů na GitHubu"
-      translate_header: "Pomož přeložit"
-      translate_ex1: "Můžeš pomoci přeložit diaspora* do jiných řečí. Zapoj se na %{translations_link}"
-      translations_link_text: "Překladatelská skupina"
-      translate_ex2: "Přečti si naše %{translation_instructions_link}, jak začít."
-      translation_instructions_link_text: "instrukce k překladu "
-      voice_header: "Podpoř svým hlasem"
-      voice_ex1: "Náš projekt řídí výhradně dobrovolníci z řad komunity. Používáme nástroj jménem Discourse pro zapojení do rozhovorů s našimi přispěvateli o nápadech a návrzích."
-      voice_ex2: "Přidej se tam k nám"
-      voice_ex3: "Přesvědč svoje přátele a rodinu zorganizováním vlastního diaspora* %{meetup_link} ve tvé vlastní komunitě."
+      discourse_link_text: Diskusní fórum
+      irc_link_text: diaspora* IRC místnost
+      code_gh: Shlédni zdrojový kód na GitHub
+      bugs_header: Rozdrť chyby (brouky)
+      bugs_ex1: Náš projekt využívá Code Triage, dobrovolnickou službu, kde uživatelé
+        a vývojáři pracují společně v boji s chybami na našem %{github_link}.
+      bugs_ex2: Opravování malých chyb pomáhá každému a nováčkovi umožní lépe pochopit,
+        jak části diaspora* fungují.
+      bugs_ex3: Pomoz nám vyčistit náš kód.
+      github_link_text: Tracker problémů na GitHubu
+      translate_header: Pomož přeložit
+      translate_ex1: Můžeš pomoci přeložit diaspora* do jiných řečí. Zapoj se na %{translations_link}
+      translations_link_text: Překladatelská skupina
+      translate_ex2: Přečti si naše %{translation_instructions_link}, jak začít.
+      translation_instructions_link_text: 'instrukce k překladu '
+      voice_header: Podpoř svým hlasem
+      voice_ex1: Náš projekt řídí výhradně dobrovolníci z řad komunity. Používáme
+        nástroj jménem Discourse pro zapojení do rozhovorů s našimi přispěvateli o
+        nápadech a návrzích.
+      voice_ex2: Přidej se tam k nám
+      voice_ex3: Přesvědč svoje přátele a rodinu zorganizováním vlastního diaspora*
+        %{meetup_link} ve tvé vlastní komunitě.
       meetup_link_text: setkání
-      support_header: "Poskytni podporu"
-      support_ex1: "Pomoz uvítat nové uživatele!"
-      support_ex2: "Přihlaš se zde"
-      support_ex3: "Piš uživatelský návod zde:%{tutorials_link}."
-      support_ex4: "Odpovídej na otázky uživatelů na našem%{irc_channel_link}, nebo odpovídej na otázky uživatelů na diaspoře* samotné sledováním štítků <span class=\"click\">#help</span>, <span class=\"click\">#question</span> a <span class=\"click\">#feedback</span>."
-      irc_channel_link_text: "IRC kanál"
-      support_ex5: "Přispěj k %{wiki_link}."
-      wiki_link_text: "diaspora* wiki"
-      run_header: "Provozuj komunitní pod"
-      run_ex1: "Nyní nemusíš ukládat svá data na cizí server. Protože diaspora* je svobodný software, neustále zjednodušujeme %{host_pod_link}."
-      host_pod_link_text: "hostování vlastních podů na diaspoře*"
-      run_ex2: "Můžeš hostovat kdekoliv chceš."
-      run_ex3: "Přidej svůj pod na seznam otevřených podů na %{poduptime}."
-      contributors_header: "Podporovatelé diaspora*"
-      contributors_byline: "Lidé, kteří dělají diaspora* tím co je"
+      support_header: Poskytni podporu
+      support_ex1: Pomoz uvítat nové uživatele!
+      support_ex2: Přihlaš se zde
+      support_ex3: Piš uživatelský návod zde:%{tutorials_link}.
+      support_ex4: Odpovídej na otázky uživatelů na našem%{irc_channel_link}, nebo
+        odpovídej na otázky uživatelů na diaspoře* samotné sledováním štítků <span
+        class="click">#help</span>, <span class="click">#question</span> a <span class="click">#feedback</span>.
+      irc_channel_link_text: IRC kanál
+      support_ex5: Přispěj k %{wiki_link}.
+      wiki_link_text: diaspora* wiki
+      run_header: Provozuj komunitní pod
+      run_ex1: Nyní nemusíš ukládat svá data na cizí server. Protože diaspora* je
+        svobodný software, neustále zjednodušujeme %{host_pod_link}.
+      host_pod_link_text: hostování vlastních podů na diaspoře*
+      run_ex2: Můžeš hostovat kdekoliv chceš.
+      run_ex3: Přidej svůj pod na seznam otevřených podů na %{poduptime}.
+      contributors_header: Podporovatelé diaspora*
+      contributors_byline: Lidé, kteří dělají diaspora* tím co je
       globe_alt: Glóbus
       megaphone_alt: Megafon
       support_alt: Podpora
       pod_alt: Pod
     blog:
-      headline: "diaspora* blog"
-      subline: "veřejná sdělení"
+      headline: diaspora* blog
+      subline: veřejná sdělení
       menu_title: Blog
     planet:
-      headline: "Planeta diaspora*"
-      subline: ~
+      headline: Planeta diaspora*
+      subline: blogové příspěvky naší komunity
       menu_title: Planeta
-      disclaimer_headline: ~
-      disclaimer: ~
-      subscribe_headline: ~
-      subscribe: ~
-      feed_link_title: ~
-      subscriptions_headline: ~
+      disclaimer_headline: Planeta diaspora*
+      disclaimer: Planeta je sbírkou blogových příspěvků členů naší komunity a představuje
+        názory jednotlivých členů komunity. Všechny příspěvky jsou vlastnictvím jejich
+        autorů, další informace naleznete v původních příspěvcích.
+      subscribe_headline: Odebírat
+      subscribe: Aktuální informace můžete získat přihlášením se k odběru planet %{feed_link}.
+      feed_link_title: Atom feed
+      subscriptions_headline: Odběry
     community_guidelines:
-      headline: ~
-      byline: ~
-      menu_title: ~
-      statement1: ~
-      statement2: ~
-      statement3: ~
-      be_excellent: ~
-      howto: ~
-      howto_language: ~
-      howto_viewpoints_experiences: ~
-      howto_constructive_criticism: ~
-      howto_empathy: ~
-      howto_sexualized_language: ~
-      howto_troll: ~
-      howto_harassment: ~
-      howto_benefit_of_doubt: ~
+      headline: Sociální principy
+      byline: Pokyny pro členství v komunitě diaspory*
+      menu_title: Sociální principy
+      statement1: diaspora* poskytuje všem bytostem - bez ohledu na věk, tělesnou
+        velikost, postižení, etnickou příslušnost, pohlavní identitu a vyjádření,
+        úroveň zkušeností, národnost, osobní vzhled, rasu, náboženství nebo sexuální
+        identitu a orientaci - možnost spojit se v decentralizované sociální síti.
+        Abychom nám všem pomohli získat co nejlepší zkušenosti s diasporou*, představujeme
+        si komunitu, která spolu komunikuje s respektem.
+      statement2: koncept decentralizované sítě diaspory* neumožňuje zakazování členů.
+        Rozvážná interakce založená na ideálech komunity diaspory* je proto pro blaho
+        této sítě zásadní.
+      statement3: Jako komunita diaspory* se společně stavíme proti jakékoli diskriminaci
+        a vyloučení. Nepřijímáme komunikaci založenou na principech šovinismu a nacionalismu.
+        Nesouhlasíme s rasistickými výroky a zlehčováním historického i současného
+        fašistického násilí. Stavíme se proti jakémukoli druhu vyloučení a s ním souvisejícímu
+        strukturálnímu a fyzickému násilí.
+      be_excellent: Zůstaňte v klidu a buďte na sebe hodní!
+      howto: Jak na to?
+      howto_language: Používejte vstřícný a inkluzivní jazyk.
+      howto_viewpoints_experiences: Respektujte odlišné názory a zkušenosti.
+      howto_constructive_criticism: Přijímejte konstruktivní kritiku s grácií.
+      howto_empathy: Projevte empatii vůči ostatním členům komunity.
+      howto_sexualized_language: Vyhněte se sexualizovanému nebo násilnému jazyku
+        a obrazům a nevyjadřujte nežádoucí sexuální pozornost nebo nedělejte návrhy.
+      howto_troll: Netrollujte, nepište urážlivé nebo hanlivé komentáře ani nenapadejte
+        ostatní členy komunity.
+      howto_harassment: Neobtěžujte lidi na veřejnosti ani v soukromí!
+      howto_benefit_of_doubt: Dejte lidem výhodu pochybností. Možná si jejich slova
+        vykládáte špatně.
     tutorials:
-      headline: "diaspora* návody"
-      byline: ~
+      headline: diaspora* návody
+      byline: Návody krok za krokem, které vám pomohou
       menu_title: Návody
-      tutorials_ex1: ~
-      tutorials_ex2: ~
-      started_head: "Začínáme v diaspora*"
+      tutorials_ex1: Vítejte v sekci výukových programů pro diasporu*. Na této stránce
+        najdete přehled všech našich výukových programů diaspora*, rozdělených do
+        série "Začínáme" a samostatných výukových programů pro konkrétní úlohy. Pokud
+        jste v systému diaspora* noví nebo jste se ještě ani nezaregistrovali, doporučujeme
+        vám přečíst si sérii "Začínáme". Pokud hledáte další možnosti, podívejte se
+        na ostatní výukové programy.
+      tutorials_ex2: Snažíme se tyto výukové programy co nejlépe informovat o nejnovějším
+        vývoji v diaspoře*. Proto prosím berte na vědomí, že váš pod nemusí být vybaven
+        nejnovější verzí diaspory*, což může mít za následek odlišné chování od chování
+        popsaného v našich návodech. Najděte svůj pod na %{podup_link} a zjistěte,
+        jakou verzi softwaru používá.
+      started_head: Začínáme v diaspora*
       started1: Přihlášení
       started2: Rozhraní
       started3: Aspekty
-      started4: "Hledání a spojování s lidmi"
-      started5: "Zační sdílet!"
-      started6: "Upozornění a konverzace"
+      started4: Hledání a spojování s lidmi
+      started5: Zační sdílet!
+      started6: Upozornění a konverzace
       started7: Dokončení
-      part1: "Část 1."
-      part2: "Část 2."
-      part3: "Část 3."
-      part4: "Část 4."
-      part5: "Část 5."
-      part6: "Část 6."
-      part7: "Část 7."
-      additional: "Další návody"
-      connecting: "Propojení diaspora* s dalšími weby"
-      tips: "Různé fígle"
-      formatting: "Formátování textu"
-      more_tutorials: "Potřebuješ víc poradit?"
-      other_docs: "Podívejte se na %{other_docs_link} pro odkazy k jiným stránkám."
-      other_docs_link_text: "další dokumenty"
-      thanks: ~
+      part1: Část 1.
+      part2: Část 2.
+      part3: Část 3.
+      part4: Část 4.
+      part5: Část 5.
+      part6: Část 6.
+      part7: Část 7.
+      additional: Další návody
+      tips: Různé fígle
+      formatting: Formátování textu
+      more_tutorials: Potřebuješ víc poradit?
+      other_docs: Podívejte se na %{other_docs_link} pro odkazy k jiným stránkám.
+      other_docs_link_text: další dokumenty
+      thanks: Obrovský dík patří Kevinu Kleinmanovi, který vytvořil původní průvodce
+        Diasporial, na nichž jsou tyto výukové programy založeny.
     getting_started1:
-      byline: ~
-      menu_title: "Registrace na diaspora*"
-      welcome: ~
-      find_pod: "Nalézt pod"
-      find_pod_intro: ~
-      find_pod_ex1: ~
-      find_pod_ex2: ~
-      find_pod_ex3: ~
-      wiki_link_text: ~
-      find_pod_ex4: ~
-      find_pod_ex5: ~
+      byline: Část 1 - Registrace
+      menu_title: Registrace na diaspora*
+      welcome: Vítejte v našem průvodci "Začínáme". Pokud jste se dostali na tuto
+        stránku, pravděpodobně jste se právě zaregistrovali do služby diaspora* nebo
+        o tom uvažujete. V této sérii návodů vás provedeme procesem registrace a seznámíme
+        vás se základy fungování služby diaspora*. Doufáme, že pro vás budou užitečné
+        a že se vám bude diaspora* dobře používat!
+      find_pod: Nalézt pod
+      find_pod_intro: Pokud jste se již zaregistrovali, můžete tuto část přeskočit
+        a přejít rovnou na %{part_link}.
+      find_pod_ex1: 'Na rozdíl od většiny sociálních sítí, které mají centrální centrum
+        počítačů, kde jsou uložena data všech, vám nemůžeme dát jeden konkrétní odkaz
+        a říct: „Zaregistrujte se zde.“ diaspora* se od těchto sítí liší v tom, že
+        je <em>decentralizovaná</em> s mnoha různými přístupovými body. Než začnete,
+        musíte se rozhodnout, které z těchto bodů nebo uzlů chcete použít pro přístup
+        k síti diaspora*. Těmto uzlům říkáme „pody“.'
+      find_pod_ex2: Slovo „<strong>diaspora</strong>“ označuje šíření semen (nebo
+        lidí) v široké oblasti. Proto je naším motivem pampeliška a hvězdička v našem
+        názvu představuje nadýchané semínko pampelišky. Jednotlivé účty na diaspoře*
+        označujeme jako „<strong>semena</strong>“ a servery, na kterých jsou tyto
+        účty shromažďovány, jako „<strong>pody</strong>“. Brzy si zvyknete!
+      find_pod_ex3: Abyste si mohli vybrat, který modul je pro vás nejvhodnější, podívejte
+        se na náš %{wiki_link}, který vám pomůže.
+      wiki_link_text: průvodce výběrem podů
+      find_pod_ex4: Možná jste dostali pozvánku do diaspory* od někoho, koho znáte.
+        Pokud ano, obsahuje odkaz na pod diaspora*, ve kterém je osoba, která vás
+        pozvala, zaregistrována. Pokud se chcete připojit ke stejnému podu jako ona,
+        můžete jednoduše následovat odkaz v mailu. Nemusíte však být na stejném podu
+        jako váš přítel, abyste s ním mohli komunikovat. Můžete si vybrat libovolný
+        pod jako svůj domovský a komunikovat s lidmi z celé diaspory*.
+      find_pod_ex5: Do služby diaspora* se vždy přihlásíte na stejném podu, na kterém
+        jste se poprvé zaregistrovali. Ze svého podu se můžete připojit k celé síti
+        a vaše zkušenosti s diasporou* by měly být víceméně stejné bez ohledu na to,
+        ze kterého podu se připojujete. Nebudete se moci přihlásit do jiného podu,
+        ale to stejně není potřeba.
       registration: Registrace
-      registration1: ~
-      registration2: ~
-      registration3: ~
-      registration4: ~
-      dhq_link_text: "Sídlo diaspory*"
-      registration5: ~
-      registration6: ~
-      registration7: ~
-      registration8: ~
-      registration9: "Klikni na <span class=\"click\">Vezmi mě na diasporu*! >></span>"
-      profile1: ~
-      profile2: ~
-      profile3: ~
-      profile4: ~
-      finish: "A je to!"
-      finish_ex1: ~
-      finish_ex2: ~
+      registration1: Jakmile si vyberete pod, najděte odkaz <span class="click">Zaregistrovat
+        se</span>. Mělo by to být přímo na domovské stránce podu. Pokud zde není odkaz
+        „zaregistrovat se“, je možné, že tento konkrétní pod aktuálně nepřijímá nové
+        registrace. Můžete to zkontrolovat na stránce statistik podu (přidejte <code>/statistics</code>
+        k názvu domény podu v řádku adresy URL). Pokud jsou registrace na tomto podu
+        uzavřeny, budete muset vybrat jiný pod.
+      registration2: Po kliknutí na odkaz pro registraci se zobrazí stránka, na které
+        je třeba zadat uživatelské jméno, e-mailovou adresu a heslo. Výběr uživatelského
+        jména si dobře rozmyslete, protože po jeho vytvoření jej již nebudete moci
+        změnit.
+      registration3: Registraci dokončíte kliknutím na <span class="click">Pokračovat</span>
+        a vytvoříte a zpřístupníte si svůj zbrusu nový diaspor* seed!
+      registration4: Během procesu registrace bude váš seed pravděpodobně automaticky
+        připojen k jinému seedu. Obvykle to bude náš seed %{dhq_link}, ale může to
+        být i seed provozovaný správcem vašeho pod. Je to proto, abychom vás mohli
+        informovat o důležitých oznámeních týkajících se diaspory*. Pokud však tento
+        seed raději nesledujete, můžete jej snadno odstranit ze seznamu kontaktů.
+        Jak to udělat, se dozvíte v %{part_link}.
+      dhq_link_text: Sídlo diaspory*
+      registration5: Nyní by se měla zobrazit stránka "Začínáme". Na této stránce
+        nemusíte vyplňovat žádné informace, ale pokud tak učiníte, pomůže vám to navázat
+        kontakty s ostatními lidmi.
+      registration6: Do prvního pole zadejte název, který se má zobrazit na obrazovce.
+      registration7: Kliknutím na tlačítko nahrajete profilový obrázek (avatar) z
+        počítače.
+      registration8: 'Přidejte pár slov o sobě. Mohou to být věci, které vás zajímají
+        – třeba hudba, aktivismus – a možná i město, ve kterém žijete. Tyto budou
+        převedeny na <span class="click">#tagy</span>, které vám pomohou najít obsah
+        a pomohou ostatním objevit vás. Více o #tagech vysvětlíme později v tomto
+        tutoriálu.'
+      registration9: Klikni na <span class="click">Vezmi mě na diasporu*! >></span>
+      profile1: Než uděláte cokoliv jiného, ​​věnujte chvilku vyplnění svého profilu.
+        Na obrazovce, na kterou budete přesměrováni, klikněte na své jméno nebo avatar
+        na pravém konci černého záhlaví a v rozevíracím seznamu vyberte <span class="click">Profil</span>.
+        Poté klikněte na modré tlačítko <span class="click">Upravit můj profil</span>
+        v pravém horním rohu.
+      profile2: 'Váš profil má dvě části: <strong>základní profil</strong>, který
+        je veřejný, a <strong>podrobný profil</strong>, který je ve výchozím nastavení
+        soukromý. Váš veřejný profil je viditelný pro všechny; váš soukromý profil
+        je viditelný pouze pro lidi, se kterými jste se rozhodli sdílet. Můžete vyplnit
+        tolik nebo jen málo svého profilu, jak chcete, a pokud nechcete, nemusíte
+        používat své skutečné jméno. Pokud chcete, aby o vás všichni věděli co nejvíce,
+        můžete celý svůj profil zveřejnit.'
+      profile3: Většina polí s informacemi o profilu je srozumitelná. NSFW znamená
+        "není bezpečné pro práci". Podrobněji se tím budeme zabývat v %{part_link}
+        , takže si s tím teď nedělejte starosti.
+      profile4: Až budete hotovi, nezapomeňte kliknout na tlačítko <span class="click">Aktualizovat
+        profil</span>!
+      finish: A je to!
+      finish_ex1: Vše je připraveno začít používat diasporu*! Začněte kliknutím na
+        název podu nebo <span class="click">Stream</span> v levém horním rohu obrazovky.
+      finish_ex2: Pokud se chcete setkat a být vítáni komunitou diaspory* a cítíte
+        se dostatečně sebevědomě, zveřejněte <strong>veřejný</strong> příspěvek, ve
+        kterém se představíte a přidejte tag <span class="click">#newhere</span>.
+        Vytváření veřejných příspěvků obsahujících štítky je skvělý způsob, jak získat
+        nové přátele v diaspoře*. Pokud si nejste jisti, jak to udělat nyní, nebojte
+        se – krok za krokem vás provedeme vaším prvním příspěvkem v %{part_link}.
     getting_started2:
-      byline: "Část  – Rozhraní"
-      menu_title: ~
-      menu_title_mobile: ~
-      interface_mobile: ~
-      interface_desktop: ~
-      click_here_text: ~
-      interface1: ~
-      interface2: ~
-      interface3: ~
-      header: ~
-      header_mobile: ~
-      header_podname: ~
-      header_asterisk: ~
-      header_stream: ~
-      header_notify: ~
-      header_conversations: ~
-      header_newpost: ~
-      header_drawer: ~
-      header_search: ~
-      header_streams: ~
-      header_dropdown: ~
-      header_profile: ~
-      header_contacts: ~
-      header_settings: ~
-      header_help: ~
-      header_toggle: ~
-      header_logout: ~
-      interface_mobile_old: ~
-      columns: ~
-      column1: ~
-      column2: ~
-      stream_mobile: ~
-      views: ~
+      byline: Část  – Rozhraní
+      menu_title: Použití rozhraní
+      menu_title_mobile: Použití mobilního rozhraní
+      interface_mobile: "<strong>Poznámka:</strong> Pokud používáte kapesní zařízení,
+        zobrazí se vám rozhraní diaspora* navržené pro menší obrazovky. %{mobile_link}
+        pro průvodce mobilním rozhraním."
+      interface_desktop: "<strong>Poznámka:</strong> pokud používáte notebook nebo
+        stolní počítač, zobrazí se rozhraní diaspory* určené pro větší obrazovky.
+        %{desktop_link} pro průvodce rozhraním pro stolní počítače."
+      click_here_text: Klikněte zde
+      interface1: Nyní se díváte na rozhraní, které možná neznáte. (Pokud jste stále
+        na stránce úprav profilu, klikněte na název podu nebo na <span class="click">Stream</span>
+        na levém konci černé lišty záhlaví.) Pojďme se rychle podívat na rozložení
+        a začít se s ním seznamovat.
+      interface2: Vzhledem k decentralizované a open-source povaze služby diaspora*
+        mohou správci podů své pody upravovat. Proto může v závislosti na tom, v jakém
+        podu se nacházíte, vypadat rozhraní velmi mírně odlišně od toho, jak je popsáno
+        zde. Všechny základní prvky by však měly být přítomny, i když jsou uspořádány
+        mírně odlišně.
+      interface3: Hlavní rozhraní lze rozdělit do čtyř částí.
+      header: 'V horní části obrazovky je lišta záhlaví, která zůstává vždy na svém
+        místě, i když se posouváte po stránce dolů. Tato lišta záhlaví obsahuje:'
+      header_mobile: 'Klepnutím na ikonu "zásuvky" (tři vodorovné čáry) otevřete navigační
+        nabídku, která obsahuje:'
+      header_podname: název vašeho podu, který vás přenese zpět na stránku proudu;
+      header_asterisk: ikonu hvězdičky, která vás přenese zpět na stránku proudu;
+      header_stream: odkazy na vaše stránky <strong>Proud</strong> a <strong>Moje
+        aktivita</strong>;
+      header_notify: ikonu oznámení (o tom si povíme v části %{part_link});
+      header_conversations: ikonu konverzace (rovněž zahrnuto v %{part_link});
+      header_newpost: ikona pro vytvoření nového příspěvku;
+      header_drawer: ikona pro otevření "zásuvky" s dalšími možnostmi.
+      header_search: vyhledávací panel (více o tom v části %{part_link});
+      header_streams: odkazy na vaše streamy <strong>Moje aktivita</strong>, <strong>@Zmínky</strong>,
+        <strong>Moje aspekty</strong> a <strong>#Sledované značky</strong> (viz níže);
+      header_dropdown: 'osobní rozevírací nabídka s:'
+      header_profile: odkaz na vaši profilovou stránku (viz níže);
+      header_contacts: odkaz na seznam kontaktů (viz %{part_link});
+      header_settings: odkaz na stránku s nastavením účtu (viz %{part_link});
+      header_help: odkaz na nápovědu;
+      header_toggle: odkaz pro přepínání mezi mobilním a desktopovým rozhraním;
+      header_logout: tlačítko pro odhlášení.
+      interface_mobile_old: Pokud si diasporu* prohlížíte na kapesním zařízení, bude
+        rozhraní vypadat zcela jinak, protože používáte mobilní verzi diaspory*. Pás
+        záhlaví je zjednodušený, jako na prvním obrázku níže. Kliknutím na ikonu "zásuvky"
+        (tři vodorovné čáry) otevřete navigační nabídku. Kliknutím na své jméno v
+        této nabídce otevřete nabídku uživatele. Všechny možnosti jsou k dispozici,
+        ale jsou na různých místech.
+      columns: 'Pod záhlavím jsou dva sloupce:'
+      column1: 'Na postranním panelu uvidíte odkazy na různá zobrazení obsahu dostupná
+        v diaspoře*: <span class="click">Stream</span>, <span class="click">Moje aktivita</span>,
+        <span class="click">@Mentions</span>, <span class="click">Moje aspekty</span>,
+        <span class="click">#Sledované štítky</span> a <span class="click>Veřejná
+        aktivita</span> . Tyto vysvětlíme dále. Existuje také několik odkazů, které
+        vám pomohou pozvat přátele, přivítat nové uživatele, najít nápovědu, připojit
+        se k externím službám, jako je Twitter, Tumblr a Wordpress (pokud jsou na
+        vašem podu k dispozici), zveřejnit příspěvky na diaspoře* ze zbytku webu (dále
+        jen „bookmarklet diaspory“) a na některých podech, kontaktní informace na
+        správce podu a tlačítko pro příspěvek na náklady na provoz podu.'
+      column2: Hlavní sloupec obsahuje proud obsahu s rámečkem "vydavatel" v horní
+        části. Zde se odehrává kouzlo! Používáním vydavatele se budeme zabývat v části
+        %{part_link}.
+      stream_mobile: Pod záhlavím je hlavní proud obsahu.
+      views: 'V diaspoře* jsou k dispozici tyto různé pohledy:'
       stream: Proud
-      stream_ex1: ~
-      stream_contents1: ~
-      stream_contents2: ~
-      stream_contents3: ~
-      stream_contents4: ~
-      stream_ex2: ~
-      activity: "Moje aktivity"
-      activity_ex: ~
-      activity_ex2: ~
+      stream_ex1: '""Proud" je vaše domovská stránka v diaspoře*. Shromažďuje všechny
+        příspěvky, které máte k dispozici. To znamená:'
+      stream_contents1: příspěvky vašich kontaktů;
+      stream_contents2: veřejné příspěvky obsahující <span class="click">#štítky</span>,
+        které sledujete;
+      stream_contents3: příspěvky, které vás <span class="click">@zmíní</span>;
+      stream_contents4: příspěvky z "<span class="click">Community spotlight</span>",
+        pokud máte tuto funkci povolenou (viz %{part_link}).
+      stream_ex2: Příspěvky v proudu jsou seřazeny podle času původního příspěvku.
+      activity: Moje aktivity
+      activity_ex: V proudu "Moje aktivita" se zobrazují všechny příspěvky, které
+        se vám líbily nebo které jste komentovali. Je to užitečný způsob, jak dohnat
+        všechny interakce, které jste v diaspora* měli. Příspěvky v tomto proudu jsou
+        seřazeny podle poslední aktivity (komentáře nebo lajku) u každého příspěvku.
+      activity_ex2: 'Když kliknete na <span class="click">Moje aktivita</span>, zobrazí
+        se dvě položky podnabídky: <span class="click">To se mi líbí</span> a <span
+        class="click">Komentováno</span>. Kliknutím na jeden z nich se vám zobrazí
+        stream obsahující pouze příspěvky, které jste označili jako lajk nebo komentáře.'
       mentions: "@Zmínky"
-      mentions_ex: ~
-      aspects: "Moje aspekty"
-      aspects_ex1: ~
-      aspects_ex2: ~
+      mentions_ex: Zobrazí se všechny příspěvky ostatních lidí, kteří vás zmínili.
+        O @mentions si povíme v %{part_link}.
+      aspects: Moje aspekty
+      aspects_ex1: '"Moje aspekty" zobrazují všechny příspěvky všech lidí, se kterými
+        sdílíte - tedy lidí, které jste zařadili do svých aspektů. Nebojte se, pokud
+        nevíte, co je to aspekt - podrobně se mu budeme věnovat v příštím díle.'
+      aspects_ex2: Kliknutím na <span class="click">Moje aspekty</span> v nabídce
+        zobrazíte seznam svých aspektů. Příspěvky vytvořené ke všem aspektům nebo
+        jen k jednomu či více jednotlivým aspektům můžete zobrazit jejich výběrem
+        a zrušením výběru v seznamu aspektů v nabídce.
       tags: "#Odebírané štítky"
-      tags_ex1: ~
-      tags_ex2: ~
-      public: ~
-      public_ex: ~
-      other_views: ~
-      other_views_ex: ~
-      tag_stream: ~
-      tag_stream_ex: ~
-      spv: ~
-      spv_ex: ~
-      profile: ~
-      profile_ex1: ~
-      profile_ex2: ~
-      profile_ex3: ~
-      profile_ex3_mobile: ~
-      profile_ex4: ~
-      profile_ex5: ~
-      profile_ex6: ~
-      profile_ex7: ~
-      profile_ex8: ~
-      themes: ~
-      themes_ex1: ~
-      themes_list1: ~
-      themes_list2: ~
-      themes_list3: ~
-      themes_list4: ~
-      themes_list5: ~
-      themes_list6: ~
-      themes_ex2: ~
-      finish: ~
-      finish_mobile: ~
+      tags_ex1: Toto zobrazení zobrazuje všechny dostupné příspěvky (veřejné příspěvky
+        a omezené příspěvky vytvořené v aspektech, do kterých jste byli zařazeni)
+        obsahující značky, které sledujete. Podrobněji se tagům budeme věnovat v části
+        %{part_link}.
+      tags_ex2: V tomto zobrazení se zobrazí seznam vašich značek. Kliknutím na značku
+        v postranním panelu přejdete na stream pro danou značku. Sledování značky
+        můžete ukončit kliknutím na křížek u jejího názvu v postranním panelu.
+      public: Veřejná aktivita
+      public_ex: Ve veřejném proudu aktivit se zobrazují všechny veřejné příspěvky
+        dostupné pro váš pod, a to i příspěvky vytvořené lidmi, které nesdílíte a
+        které neobsahují žádné značky, které sledujete. To je spousta obsahu!
+      other_views: Další zobrazení
+      other_views_ex: V diaspoře* jsou k dispozici i další pohledy, které najdete
+        po kliknutí na odkazy.
+      tag_stream: Tag stream
+      tag_stream_ex: 'Kliknutím na libovolný <span class="click">#štítek</span> v
+        diaspoře* se dostanete do "proudu štítků". Tím se zobrazí proud obsahující
+        všechny příspěvky, o kterých váš pod ví a které používají daný #štítek.'
+      spv: Zobrazení jednoho příspěvku
+      spv_ex: Kliknutím na časové razítko na libovolném příspěvku zobrazíte tento
+        příspěvek a všechny komentáře k němu v "zobrazení jednoho příspěvku". Časové
+        razítko je odkaz u jména autora příspěvku, který zní například "před 2 hodinami".
+        Pokud chcete někomu poslat odkaz na příspěvek v diaspoře*, můžete odtud získat
+        přímou adresu URL příspěvku.
+      profile: Zobrazení profilu
+      profile_ex1: Kliknutím na své jméno nebo profilový obrázek (váš „avatar“) kdekoli
+        uvidíte, přejdete na stránku svého profilu. Zobrazí se vám všechny příspěvky,
+        které jste vytvořili v diaspoře*. Zobrazuje také vaši profilovou fotku, přezdívku,
+        štítky „o mně“ a vaše „<strong>ID diaspory*</strong> (které vypadá jako e-mailová
+        adresa, počínaje zvoleným uživatelským jménem a názvem vašeho podu).
+      profile_ex2: Pod svým avatarem uvidíte všechny další profilové informace, které
+        jste přidali, například datum narození, polohu, pohlaví, životopis a podobně.
+      profile_ex3: Pokud chcete změnit některé z údajů svého profilu, klikněte na
+        modré tlačítko <span class="click">Upravit můj profil</span> (viz %{part_link}).
+      profile_ex3_mobile: Pokud chcete změnit některé informace svého profilu, klikněte
+        v zásuvce na odkaz <span class="click">Nastavení</span>.
+      profile_ex4: Profilovou stránku někoho jiného si můžete prohlédnout také kliknutím
+        na jeho jméno nebo avatar. To, kolik informací a příspěvků z profilu dané
+        osoby je vám zpřístupněno, závisí na typu vztahu sdílení, který s vámi má.
+      profile_ex5: Pokud s vámi sdílejí, bude u jejich ID diaspory* zaškrtnuto zelené
+        políčko. Pokud ne, bude tam šedé kolečko.
+      profile_ex6: Vpravo nahoře najdete tlačítko aspekty. Pokud daná osoba není v
+        žádném z vašich aspektů, bude na něm napsáno "Přidat kontakt"; pokud ano,
+        bude zelené a bude zobrazovat název aspektu, do kterého jste ji zařadili.
+        Kliknutím na něj je přidáte do aspektu. Pokud danou osobu ignorujete, bude
+        tlačítko červené a bude na něm napsáno "Přestaňte ignorovat".
+      profile_ex7: 'Pod tlačítkem pro výběr aspektu se zobrazí následující ikony:
+        ikona @mention, pokud s danou osobou sdílíte, ikona zprávy (obálky), pokud
+        máte vzájemné sdílení, a ikona ignorování.'
+      profile_ex8: Pod jménem a ID osoby se nacházejí záložky pro zobrazení jejích
+        příspěvků, nahraných fotografií a kontaktů, které vám zviditelnila (což je
+        vysvětleno v další části "Aspekty").
+      themes: Barevné motivy
+      themes_ex1: 'Vzhled aplikace diaspora* si můžete přizpůsobit výběrem jednoho
+        z našich barevných motivů v nabídce <span class="click">Nastavení</span> (viz
+        %{part_link}). Aktuální témata jsou:'
+      themes_list1: "<strong>Původní šedá</strong>: toto je výchozí motiv diaspory*."
+      themes_list2: '<strong>Původní bílé pozadí</strong>: výchozí téma, ale s bílým
+        pozadím. Vypadá to spíše jako "old-school" rozhraní diaspory*.'
+      themes_list3: "<strong>Tmavě zelená</strong>"
+      themes_list4: "<strong>Magenta</strong>"
+      themes_list5: "<strong>Egyptská modř</strong>"
+      themes_list6: "<strong>Tmavý</strong>"
+      themes_ex2: Váš pod mohl vytvořit některá vlastní témata. Pokud ano, zobrazí
+        se v seznamu spolu s našimi výchozími motivy.
+      finish: 'To je prozatím vše, co potřebujete vědět o rozhraní. Nejdříve budete
+        chtít najít nějaké lidi, se kterými můžete začít sdílet. Než se však k tomu
+        dostaneme, zaměříme se na něco, co se v celé diaspoře* výrazně projevuje:
+        <strong>aspekty</strong>.'
+      finish_mobile: 'Poznámka: Zbytek této série výukových programů ukazuje snímky
+        obrazovky z desktopového rozhraní pro ilustraci funkcí v diaspoře*. Některé
+        funkce zatím nejsou dostupné v mobilním rozhraní. V takovém případě budete
+        muset v šuplíku kliknout na <span class="click">Přepnout mobil</span>, abyste
+        mohli tuto funkci používat. Jsme si jisti, že budete schopni zjistit, kde
+        jsou rozdíly – není to těžké!'
     getting_started3:
-      byline: "Část 3 – Aspekty"
-      menu_title: "Vše o aspektech"
-      aspects1: ~
-      aspects2: ~
-      my_aspects: ~
-      my_aspects1: ~
-      my_aspects2: ~
-      my_aspects3: ~
-      my_aspects4: ~
-      my_aspects5: ~
-      my_aspects6: ~
-      my_aspects7: ~
-      my_aspects8: ~
-      my_aspects9: ~
-      add_aspect: ~
-      add_aspect1: ~
-      aspects_mobile: ~
-      add_aspect2: ~
-      add_aspect3: ~
-      add_aspect4: ~
-      add_aspect6: ~
-      add_aspect7: ~
-      contacts: "Stránka kontaktů"
-      contact_ex1: ~
-      contact_ex3: ~
-      contact_ex4: ~
-      contact_ex5: ~
-      contact_ex6: ~
-      contact_ex7: ~
-      sharing_me: "Pouze sdílejí se mnou"
-      sharing_me_ex: ~
-      finish: ~
+      byline: Část 3 – Aspekty
+      menu_title: Vše o aspektech
+      aspects1: Přemýšlejte o svém životě a lidech, které znáte. Každý člověk je součástí
+        jednoho nebo více aspektů vašeho života. Může to být člen vaší rodiny, blízký
+        přítel, kolega z práce nebo někdo, s kým sportujete či posloucháte hudbu nebo
+        s kým sdílíte určitý zájem. Může to být někdo, s kým jen rádi sdílíte vtipy
+        online. Nebo může být součástí více než jednoho z těchto aspektů vašeho života.
+      aspects2: diaspora* funguje úplně stejně. Kontakty umístíte do jednoho nebo
+        více „aspektů“ svého života v diaspoře* podle toho, kterých aspektu(ů) vašeho
+        života jsou součástí. Tímto způsobem můžete ovládat, který z vašich kontaktů
+        uvidí každý váš příspěvek do diaspory*, a to tak, že zveřejníte příspěvek
+        v konkrétním aspektu nebo aspektech. To znamená, že můžete snadno sdílet správné
+        věci se správnými lidmi. Více o tom, co znamená odesílání do aspektů, vysvětlíme
+        v následujících třech dílech této série.
+      my_aspects: Moje aspekty
+      my_aspects1: Nejprve se podívejme na nabídku „Moje aspekty“. Ve svém streamu
+        klikněte na postranním panelu na <span class="click">Moje aspekty</span>.
+        Zobrazí se seznam vašich aspektů a uvidíte stream obsahující pouze příspěvky
+        od lidí, které jste umístili do kteréhokoli aspektu, který je v seznamu vybrán.
+        Pokud jste se právě zaregistrovali, budou existovat pouze čtyři výchozí aspekty
+        a v žádném z vašich aspektů ještě nemusí být nikdo. Velmi brzy to napravíme!
+      my_aspects2: Právě teď by měly být vybrány všechny vaše aspekty se zaškrtnutím
+        vedle nich.
+      my_aspects3: Můžete kliknout na aspekty v nabídce a vybrat je nebo zrušit výběr.
+      my_aspects4: Můžete si vybrat pouze jeden aspekt nebo jejich libovolnou kombinaci.
+      my_aspects5: Pokud jsou vybrány všechny aspekty a chcete zobrazit pouze jeden,
+        klikněte na <span class="click">Zrušit výběr všech</span> a poté vyberte ten,
+        který chcete.
+      my_aspects6: Proč si s tím na pár vteřin nepohrát?
+      my_aspects7: 'Tento systém výběru má dvě využití:'
+      my_aspects8: Filtruje proud obsahu. Možná budete chtít číst pouze příspěvky
+        napsané lidmi ve vašem rodinném aspektu. Nebo si možná budete chtít přečíst
+        vše, co zveřejnili vaše kontakty <em>kromě</em> rodinných příslušníků.
+      my_aspects9: Pokud odešlete stavovou zprávu ze stránky Aspekty, aspekty vybrané
+        v nabídce nalevo budou automaticky vybrány ve vydavateli. Pokud jsou například
+        v seznamu vybrány aspekty Přátelé, Rodina a Práce, po kliknutí do okna vydavatele
+        uvidíte, že na tlačítku pro výběr aspektů je uvedeno „Ve 3 aspektech“.
+      add_aspect: Přidání aspektu
+      add_aspect1: 'Při registraci máte k dispozici čtyři aspekty: Rodina, Práce,
+        Přátelé a Známí. Samozřejmě nebudete schopni roztřídit celý svůj život pouze
+        do čtyř standardních aspektů, takže další věc, kterou uděláme, je přidání
+        některých aspektů. Pokud chcete, můžete výchozí aspekty také odstranit.'
+      aspects_mobile: 'Poznámka: pokud používáte mobilní rozhraní, musíte se nejprve
+        přepnout do verze pro stolní počítače kliknutím na <span class="click">Přepnout
+        mobilní</span> v zásuvce, protože v mobilní verzi není v současné době možné
+        přidat nový aspekt.'
+      add_aspect2: Klikněte na <span class="click">Moje aspekty</span> na postranním
+        panelu a zobrazí se seznam vašich aspektů. Chcete-li přidat aspekt, klikněte
+        na <span class="click">+ Přidat aspekt</span> pod seznamem aspektů v nabídce.
+        Zobrazí se vyskakovací okno.
+      add_aspect3: Tato příručka používá jako příklad aspekt zvaný „Diaspora“, ale
+        dejte svému aspektu jakýkoli název.
+      add_aspect4: Vyberte název pro nový aspekt. To by mohlo odrážet společné spojení
+        mezi těmito lidmi, možná „kreativní psaní“, „fotbal“ nebo „aktivisté“, ale
+        můžete tomu říkat, jak chcete. <strong>Nikdo jiný nikdy neuvidí názvy vašich
+        aspektů a vaše kontakty nikdy nebudou vědět, ve kterých aspektech (aspektu)
+        se nacházejí. Je to pouze vaše věc.</strong>
+      add_aspect6: Po dokončení klikněte na tlačítko <span class="click">Vytvořit</span>.
+        Aspekt se poté vytvoří a vybere se v nabídce.
+      add_aspect7: Po vytvoření aspektu budete přesměrováni na stránku Kontakty a
+        zobrazí se vám seznam lidí v právě vytvořeném aspektu (zatím to nebude nikdo).
+        I když je tento aspekt prázdný, zobrazí se seznam vašich dalších kontaktů,
+        přičemž u každého z nich je tlačítko, abyste je mohli snadno přidat do tohoto
+        nového aspektu.
+      contacts: Stránka kontaktů
+      contact_ex1: Zmínili jsme vaši stránku kontaktů v %{part_link}. Nyní jste zde,
+        ale nejlepší způsob, jak se dostat na stránku kontaktů z jiných stránek, je
+        přejít do uživatelské nabídky z lišty záhlaví a z rozevíracího seznamu vybrat
+        <span class="click">Kontakty</span>.
+      contact_ex3: Stránka kontaktů zobrazuje seznam vašich aspektů v postranním panelu
+        a osoby, které jste do těchto aspektů umístili, v hlavní sekci. (Seznam aspektů
+        se zobrazí v horní části mobilního zobrazení.)
+      contact_ex4: Pokud zobrazujete kontakty ze všech hledisek (klikněte na <span
+        class="click">Moje kontakty</span> na postranním panelu), bude mít každý kontakt
+        napravo zelené tlačítko ukazující, do kterého aspektu(ů) byl umístěn. Pokud
+        je kontakt ve více než jednom aspektu, bude na tlačítku uvedeno „V <em>n</em>
+        aspektech.“ Kliknutím na tlačítko zobrazíte, které aspekty to jsou.
+      contact_ex5: Kliknutím na toto tlačítko můžete změnit aspekt(y), ve kterých
+        se tato osoba nachází, výběrem a zrušením výběru aspektů v rozevíracím seznamu.
+        Pokud chcete odstranit osobu ze všech svých aspektů, zrušte výběr všech aspektů
+        a tlačítko zešedne. Již s nimi nesdílíte.
+      contact_ex6: Pokud si prohlížíte kontakty v individuálním aspektu, zobrazí se
+        vpravo od každého kontaktu křížek. Kliknutím na něj se osoba z daného aspektu
+        odstraní.
+      contact_ex7: Můžete také vytvořit nové aspekty ze stránky kontaktů.
+      sharing_me: Pouze sdílejí se mnou
+      sharing_me_ex: Zobrazí se vám seznam lidí, kteří s vámi sdílejí, ale s nimiž
+        nesdílíte vy – vaši „sledující“.
+      finish: Nyní, když jste pochopili některé aspekty, si je pojďme spojit.
     getting_started4:
-      byline: ~
-      menu_title: "Jak se spojit s ostatními lidmi"
-      aspects1: ~
+      byline: Část 4 - Hledání a navazování kontaktů s lidmi
+      menu_title: Jak se spojit s ostatními lidmi
+      aspects1: Nyní je čas přidat některé kontakty do právě vytvořeného aspektu "Diaspora".
+        Pokud již znáte lidi, kteří používají Diasporu*, můžete je najít a přidat
+        do libovolného aspektu.
       sharing: Sdílení
-      sharing_ex: ~
-      relationships: ~
+      sharing_ex: Spojení s někým nazýváme "sdílení", protože je to známka toho, že
+        s ním chcete sdílet obsah. Sdílení v diaspoře* může zpočátku působit trochu
+        matoucím dojmem, protože vaše úroveň sdílení s jinými lidmi pravděpodobně
+        nebude stejná jako úroveň jejich sdílení s vámi. Pokusme se pochopit, co to
+        znamená.
+      relationships: 'V diaspoře* existují tři typy vztahů mezi uživateli:'
       followers: Sledovatelé
-      followers_ex1: ~
-      followers_ex2: ~
-      followers_ex3: ~
+      followers_ex1: Někdo vás zařadil do jednoho ze svých aspektů, ale vy jste to
+        pro něj neudělali. Dostanete oznámení, že se s vámi tato osoba "začala dělit",
+        ale žádnou jinou změnu nezaznamenáte.
+      followers_ex2: Ve svém proudu uvidí vaše veřejné příspěvky, ale žádné z vašich
+        omezených příspěvků.
+      followers_ex3: Z důvodu ochrany osobních údajů nelze zjistit, do kterého aspektu
+        vás někdo jiný zařadil - je to jeho věc, do kterého ze svých aspektů každou
+        osobu zařadí, takže to nikdo jiný nemůže zjistit.
       following: Sledující
-      following_ex1: ~
-      following_ex2: ~
-      mutual: "Oboustranně sdílející"
-      mutual_ex1: ~
-      mutual_ex2: ~
-      mutual_ls1: ~
-      mutual_ls2: ~
-      mutual_ls3: ~
-      mutual_ls4: ~
-      mutual_ex3: ~
-      finding: "Hledat lidi"
-      finding_ex1: ~
-      finding_ex2: ~
+      following_ex1: Sdílíte se s osobou, která se s vámi nesdílí. To znamená, že
+        jste si ji přidali k jednomu (nebo více) ze svých aspektů, ale ona si vás
+        nepřidala ke svým aspektům.
+      following_ex2: Osoba, kterou sledujete, bude mít přístup k příspěvkům, které
+        jste vložili do aspektu (aspektů), do nichž jste ji zařadili, a také k vašim
+        veřejným příspěvkům a vy začnete dostávat její veřejné příspěvky do svého
+        proudu.
+      mutual: Oboustranně sdílející
+      mutual_ex1: Pokud se dva z vás začali dělit, je to ještě zajímavější a komplikovanější!
+        Lze to přirovnat k "přátelství" na Facebooku, i když jsou zde důležité rozdíly.
+      mutual_ex2: 'Pokud existuje vzájemné spojení, každý z vás vyjádřil přání vidět
+        příspěvky toho druhého, takže každý z vás uvidí omezené příspěvky té druhé
+        osoby k aspektu (aspektům), do kterého vás ten druhý zařadil. Vaše vzájemné
+        sdílení však může být velmi odlišné. Představte si následující scénář:'
+      mutual_ls1: Považuješ Jill za lehkou známost a zařadíš ji do svého aspektu "Známí".
+      mutual_ls2: Jill tě však považuje za jednu ze svých nejlepších kamarádek a řadí
+        tě mezi své blízké přátele.
+      mutual_ls3: Většinu příspěvků zveřejňujete pouze pro aspekty "Přátelé" nebo
+        "Rodina", takže Jill mnoho vašich příspěvků nevidí.
+      mutual_ls4: Protože jste v Jillině aspektu "Blízcí přátelé", vidíte téměř vše,
+        co zveřejní.
+      mutual_ex3: Hlavní věc, kterou je třeba si zapamatovat, je, že <strong>nikdo</strong>
+        nikdy neuvidí příspěvek, pokud jste ho nezveřejnili nebo ho nezadali do aspektu,
+        do kterého jste danou osobu ručně zařadili.
+      finding: Hledat lidi
+      finding_ex1: Abyste mohli začít sdílet s lidmi, musíte začít některé lidi sledovat.
+        Možná vás budou následovat zpět! Podívejme se nyní na to, jak to udělat.
+      finding_ex2: Existuje několik způsobů, jak někoho najít a přidat do aspektu.
       search: Hledat
-      search_ex: ~
-      search_ls1: ~
-      search_ls2: ~
-      search_ls3: "Poté, co jste nalezli hledanou osobu, klikněte na tlačítko <span class=\"click\">Přidat kontakt</span>."
-      search_ls4: ~
-      search_ls5: ~
-      search_ls6: ~
-      invite: "Posílání pozvánky přes e-mail"
-      invite_ex: ~
-      profile: ~
-      profile_ex1: ~
-      profile_ex2: ~
-      tags: ~
-      tags_ex: ~
-      removing: ~
-      removing_ex1: ~
-      removing_ex2: ~
-      removing_ex3: ~
-      removing_ex4: ~
-      removing_ex5: ~
-      finish: ~
+      search_ex: 'Vyhledávací pole se nachází v panelu záhlaví. Chcete-li někoho přidat
+        pomocí vyhledávání:'
+      search_ls1: Zadejte jméno nebo ID diaspory*. Návrhy se zobrazí, jakmile začnete
+        psát.
+      search_ls2: Stiskněte klávesu enter pro vyhledávání a dostanete se na stránku
+        s výsledky.
+      search_ls3: Poté, co jste nalezli hledanou osobu, klikněte na tlačítko <span
+        class="click">Přidat kontakt</span>.
+      search_ls4: Pokud se osoba, se kterou chcete začít sdílet, objeví v seznamu
+        návrhů, stačí vybrat její jméno, dostanete se na stránku jejího profilu, a
+        tam klikněte na tlačítko <span class="click">Přidat kontakt</span>.
+      search_ls5: Pod tlačítkem se pak objeví rozbalovací nabídka, ve které můžete
+        vybrat, ke kterému aspektu (aspektům) chcete osobu přidat. Můžete také vytvořit
+        nový aspekt a přidat je k tomuto aspektu kliknutím na <span class="click"><em>+
+        Přidat aspekt</em></span>.
+      search_ls6: Jakmile vyberete jeden nebo více aspektů, tlačítko aspektů se změní
+        na zelené a okamžitě začnete s danou osobou sdílet příspěvky k těmto aspektům
+        a zároveň začnete sledovat její veřejné příspěvky.
+      invite: Posílání pozvánky přes e-mail
+      invite_ex: Dalším způsobem, jak sledovat přítele, je poslat mu pozvánku. To
+        lze provést pomocí odkazu <span class="click">e-mailem </span> v nabídce napravo
+        od stránky s výsledky vyhledávání nebo pomocí odkazu <span class="click">Pozvat
+        přátele</span> na postranním panelu stránky streamu. Jakmile váš přítel pozvánku
+        přijme, bude proveden stejným registračním procesem, jakým jste právě prošli.
+      profile: Z jejich profilu
+      profile_ex1: Dalším způsobem, jak přidat osobu do některého z aspektů, je kliknout
+        na její jméno, kdekoli se v diaspoře* zobrazí. Tím se dostanete na jejich
+        profilovou stránku, odkud je budete moci přidat k aspektům pomocí tlačítka
+        v pravém horním rohu stránky.
+      profile_ex2: Případně stačí najet na jejich jméno nebo profilovou fotografii
+        v proudu a zobrazí se malá "hover-card". Přímo z ní je můžete přidat do aspektu.
+      tags: 'Následující #štítky'
+      tags_ex: 'Výše uvedené tři možnosti se zaměřují na navazování kontaktů s lidmi,
+        které již znáte. Někdy však mohou být cizí lidé stejně zajímaví, ne-li zajímavější,
+        než lidé, které již znáte. Skvělým způsobem, jak se začít spojovat s lidmi,
+        je začít sledovat některé #štítky s tématy, která vás zajímají. Příspěvky
+        obsahující tyto štítky se pak budou objevovat ve vašem proudu a vy můžete
+        sledovat lidi, kteří zveřejňují věci, které vás zajímají, tím, že je zařadíte
+        do jednoho ze svých aspektů.'
+      removing: Odstranění osoby z kontaktů
+      removing_ex1: 'Chcete-li někoho úplně odstranit z kontaktů a přestat s ním sdílet,
+        stačí ho odstranit ze všech aspektů, do kterých jste ho zařadili. To můžete
+        provést takto:'
+      removing_ex2: buď přejdete na jejich profilovou stránku, nebo najedete kurzorem
+        na jejich jméno ve streamu a počkáte, až se objeví hovercard;
+      removing_ex3: kliknutím na šipku na zeleném tlačítku výběru aspektů a zrušením
+        zaškrtnutí všech aspektů.
+      removing_ex4: A je to! Jakmile se již nenachází v žádném z vašich aspektů, přestáváte
+        s touto osobou sdílet.
+      removing_ex5: Odstranit osobu z aspektů můžete také prostřednictvím stránky
+        s kontakty, o které jsme psali na konci článku %{part_link}.
+      finish: Nyní víte, jak začít sdílet s lidmi, a doufejme, že se vám podařilo
+        přidat nějaké kontakty. Nyní se vám ve vašem streamu začne zobrazovat jejich
+        obsah; a jakmile s vámi lidé začnou sdílet, budete mít publikum pro své příspěvky.
+        <strong>Je čas začít publikovat nějaký obsah.</strong>
     getting_started5:
-      byline: ~
-      menu_title: ~
-      intro1: ~
-      intro2: ~
-      publisher: "Nástroj pro publikaci"
-      publisher_ex1: ~
-      publisher_ex2: ~
-      publisher_ex3: ~
-      publisher_ex4: ~
-      buttons: ~
-      top_buttons: ~
-      top_buttons_ex1: ~
-      top_buttons_list1: ~
-      top_buttons_list2: ~
-      top_buttons_list3: ~
-      top_buttons_list4: ~
-      top_buttons_list5: ~
-      top_buttons_list6: ~
-      top_buttons_list7: ~
-      top_buttons_list8: ~
-      top_buttons_list9: ~
-      aspect_selector: ~
-      aspect_selector_ex1: ~
-      aspect_selector_ex2: ~
-      aspect_selector_ex3: ~
-      poll: ~
-      poll_ex: ~
-      photo: ~
-      photo_ex: ~
-      locator: ~
-      locator_ex1: ~
-      locator_ex2: ~
-      locator_ex3: ~
-      connected: ~
-      connected_ex1: ~
-      connected_ex2: ~
-      connected_ex3: ~
-      preview: ~
-      preview_ex1: ~
-      buttons_finish: ~
-      features: ~
-      tags: ~
-      tags_ex1: ~
-      tags_ex2: ~
-      nsfw: ~
-      tags_ex3: ~
-      mentions: ~
-      mentions_ex1: ~
-      mentions_ex2: ~
-      mentions_ex3: ~
-      format: ~
-      format_ex1: ~
-      format_ex2: ~
-      format_ex3: ~
-      links: ~
-      links_ex1: ~
-      links_ex2: ~
-      images: ~
-      images_ex1: ~
-      images_ex2: ~
-      format_note: ~
-      format_link_text: ~
-      links_ex: ~
-      embed: ~
-      embed_ex1: ~
-      embed_ex2: ~
-      services: ~
-      services_ex1: ~
-      services_ex2: ~
-      services_ex3: ~
-      how: ~
-      try_out: ~
-      make_post1: ~
-      make_post2: ~
-      make_post3: ~
-      interact: ~
-      interact_ex1: ~
-      interact_ex2: ~
-      interact_ex3: ~
-      comments: ~
-      comments_ex: ~
-      likes: ~
-      likes_ex1: ~
-      likes_ex2: ~
-      reshare: ~
-      reshare_ex: ~
-      post_icons: ~
-      delete: ~
-      delete_ex: ~
-      hide: ~
-      hide_ex: ~
-      notifications: ~
-      notifications_ex: ~
-      ignore: ~
-      ignore_ex1: ~
-      ignore_ex1a: ~
-      ignore_ex2: ~
-      report: ~
-      report_ex: ~
-      finish: ~
+      byline: Část 5 - Začněte sdílet!
+      menu_title: Začněte sdílet!
+      intro1: Když už máte nějaké kontakty, je čas začít s nimi sdílet obsah.
+      intro2: Prostřednictvím diaspory* můžete komunikovat buď sdílením zprávy o stavu
+        se skupinou sledujících, nebo dokonce s celou diasporou*, nebo zasláním soukromé
+        zprávy jednomu či více vzájemným kontaktům. V této části se zaměříme na používání
+        vydavatele a proudu obsahu k odesílání a komentování stavových zpráv. Na odesílání
+        soukromé zprávy (které nazýváme „konverzace“) se podíváme v %{part_link}.
+      publisher: Nástroj pro publikaci
+      publisher_ex1: Sdílení obsahu v diaspoře* se provádí prostřednictvím vydavatele,
+        který se nachází v horní části prostředního sloupce na většině stránek v rozhraní
+        diaspory*. Pravděpodobně jste na něj již klikli, a pokud ano, pravděpodobně
+        jste neodolali a něco zveřejnili! Odeslání stavové zprávy je tak jednoduché,
+        jak jen může být. O něco později v tomto návodu se podíváme na některé složitější
+        věci, které můžete s vydavatelem dělat, ale začněme úvodem.
+      publisher_ex2: 'Vydavatel může vypadat jako nudná, úzká krabička, ale nenechte
+        se zmást: pod jejím minimalistickým vzhledem se skrývá poklad funkcí, které
+        můžete spustit kliknutím uvnitř krabičky.'
+      publisher_ex3: Jakmile pole vydavatele „ožije“, zobrazí se řada tlačítek a ikon.
+        Toto rozhraní pro vydavatele je stejné, ať už píšete nový příspěvek, komentář
+        k příspěvku nebo soukromou konverzaci. Než se na rozhraní vydavatele podíváme
+        podrobněji, ignorujme všechna ta tlačítka a napišme jednoduchou zprávu o stavu,
+        která bude dostupná pouze vašim sledujícím a vzájemným kontaktům.
+      publisher_ex4: K tomu vše, co musíte udělat, je napsat svou zprávu – cokoliv
+        jim chcete říct, třeba „Toto je můj první příspěvek v diaspoře!“ – a stiskněte
+        tlačítko <span class="click">Sdílet</span>. A sdíleli jste zprávu se svými
+        kontakty!
+      buttons: Dobře, tak k čemu jsou ta tlačítka?
+      top_buttons: Formátování textu
+      top_buttons_ex1: 'Nad oknem vydavatele se zobrazí dvě karty a řada tlačítek.
+        Na kartách se zobrazuje nezpracovaný text zprávy a náhled, jak bude hotová
+        zpráva vypadat. Tlačítka slouží k formátování textu a přidávání dalších věcí
+        do zprávy:'
+      top_buttons_list1: Tučně
+      top_buttons_list2: Kurzíva
+      top_buttons_list3: Nadpis
+      top_buttons_list4: Odkaz
+      top_buttons_list5: Obrázek
+      top_buttons_list6: Seznam s odrážkami
+      top_buttons_list7: Číslovaný seznam
+      top_buttons_list8: Kód
+      top_buttons_list9: Citace
+      aspect_selector: Tlačítko pro výběr aspektu
+      aspect_selector_ex1: 'Tímto tlačítkem vyberete, kdo si bude moci přečíst váš
+        příspěvek. Ve výchozím nastavení je nastaveno na „Všechny aspekty“: to znamená,
+        že zprávu si budou moci přečíst všichni, které jste přidali k některému z
+        aspektů, ale nikdo jiný. V jednoduché zprávě, kterou jste právě odeslali,
+        protože jste chtěli, aby byla viditelná pouze pro vaše následovníky, a výchozí
+        nastavení je „Všechny aspekty“, nebylo třeba před sdílením zprávy měnit žádné
+        nastavení.'
+      aspect_selector_ex2: Pomocí tohoto tlačítka můžete vybrat libovolný jednotlivý
+        aspekt, který chcete sdílet, nebo libovolnou kombinaci aspektů, a to tak,
+        že kliknete na aspekty v seznamu a vyberete je nebo zrušíte jejich výběr.
+        Tímto způsobem máte úplnou kontrolu nad tím, kdo bude vaše zprávy číst, jak
+        jsme o tom hovořili v části %{part_link}. Pokud naopak chcete něco oznámit
+        celému světu, vyberte možnost „Veřejné“ a nebudete mít žádná omezení, kdo
+        si vaši zprávu může přečíst.
+      aspect_selector_ex3: 'Poznámka: Výchozí viditelnost svých příspěvků můžete změnit
+        na libovolnou, kterou chcete ve svém uživatelském nastavení – viz %{part_link}.'
+      poll: Přidání ankety
+      poll_ex: Ikona v pravém dolním rohu vydavatele, která vypadá jako graf, umožňuje
+        přidat k příspěvku anketu. Klikněte na ni a otevře se okno, do kterého můžete
+        zadat otázku, na kterou chcete anketu uspořádat, a dvě nebo více odpovědí,
+        které mají lidé uvést. Pokaždé, když zadáte odpověď do posledního pole, objeví
+        se pod ním další, takže můžete zadat libovolný počet možností odpovědí.
+      photo: Sdílení fotek
+      photo_ex: Na pravém konci textového pole je ikona fotoaparátu, která umožňuje
+        nahrát do zprávy fotografie. Můžete na ni buď kliknout a vybrat některé obrázky
+        z počítače, nebo je přetáhnout přímo ze složky na tlačítko.
+      locator: Lokátor
+      locator_ex1: Vedle fotoaparátu je ikona „špendlíku“, která aktivuje funkci lokátoru.
+        Ta umožňuje přidávat k příspěvkům vaši polohu. Po kliknutí na ni se vás aplikace
+        zeptá, zda souhlasíte s určením své polohy pomocí mapy OpenStreetMap, a pokud
+        to povolíte, přidá vaši polohu k příspěvku jako poznámku pod čarou.
+      locator_ex2: Toto umístění můžete upravit kliknutím na text, jakmile se objeví
+        pod oknem publikujícího subjektu.
+      locator_ex3: Uvedená poloha může být velmi přesná, takže možná budete chtít
+        upravit informace o konkrétní adrese a uvést pouze město nebo oblast, ve které
+        se nacházíte. Záleží jen na vás!
+      preview: Náhled příspěvku
+      preview_ex1: Vedle tlačítka „složit“ vlevo nahoře je poslední tlačítko s ikonou
+        lupy - a to je opravdu užitečné! Díky němu si můžete prohlédnout, jak přesně
+        bude váš příspěvek vypadat, takže si můžete být jisti, že jste s ním spokojeni,
+        ještě než ho skutečně odešlete. To může opravdu pomoci při opravě chyb a zejména
+        při formátování textu. Více informací o tom najdete níže.
+      buttons_finish: 'To je vše, co je třeba vědět o tlačítkách a ikonách vydavatele.
+        Skutečné kouzlo se odehrává v samotném vydavateli. Kromě prostého textu můžete
+        svůj text formátovat, přidávat #tagy, @zmínky a odkazy a vkládat fotografie,
+        videa a zvuky. Wow!'
+      features: Funkce odesílání příspěvků
+      tags: "#štítky"
+      tags_ex1: 'Když před slovo umístíte symbol # (hash), stane se z něj #štítek.
+        K čemu je to dobré? No, #štítky  jsou skvělým způsobem, jak najít obsah, který
+        vás zajímá, a jak na něj upozornit lidi, kteří se o něj pravděpodobně zajímají.
+        štítky můžete vyhledávat tak, že je zadáte do vyhledávacího pole v záhlaví.
+        štítky můžete také sledovat, takže všechny příspěvky obsahující tyto štítky
+        se zobrazí ve vašem proudu - ve skutečnosti, pokud jste vyplnili část „Popište
+        se v 5 slovech“ na své profilové stránce, již tyto štítky sledujete!'
+      tags_ex2: 'Řekněme, že rádi vaříte a napíšete zprávu se slovem „#cooking“. Každý,
+        kdo sleduje značku #cooking, nyní uvidí váš příspěvek ve svých proudech. Aby
+        váš příspěvek viděl každý, kdo sleduje #cooking, museli jste ho samozřejmě
+        učinit veřejným; pokud jste ho učinili pouze pro jeden nebo více aspektů,
+        budou si ho moci přečíst pouze lidé v těchto aspektech. Můžete také vyhledat
+        „#cooking“ ve vyhledávacím řádku a zobrazí se vám seznam všech příspěvků označených
+        „#cooking“. To zahrnuje vaše vlastní příspěvky, příspěvky přátel a veřejné
+        příspěvky ostatních diaspor. Sami vidíte, že to může být fantastický nástroj
+        pro vyhledávání a sdílení obsahu s lidmi, kteří mají stejné zájmy jako vy.'
+      nsfw: Štítek „Není bezpečné pro práci“.
+      tags_ex3: Pokud by váš příspěvek mohl někoho urazit nebo přivést do potíží,
+        protože si ho prohlíží v práci, přidejte prosím značku <span class=„click“>#nsfw</span>
+        („není bezpečné pro práci“), aby se lidem na obrazovkách skryl, pokud si ho
+        nezvolí zobrazit. Tomuto tématu se budeme věnovat v části %{part_link} .
+      mentions: "@mentions"
+      mentions_ex1: Věděli jste, že můžete upoutat něčí pozornost tím, že se o něm
+        „zmíníte“? Stačí napsat symbol @ následovaný jménem některého z vašich kontaktů.
+        Jakmile začnete psát jeho jméno (jeho jméno na obrazovce, nikoli uživatelské
+        jméno), bude automaticky doplněno diasporou*. Stiskněte klávesu enter nebo
+        klikněte na jméno v automatickém dokončování a zjistíte, že se změnilo na
+        jejich celé jméno a symbol @ zmizel. Nemějte však obavy; po odeslání zprávy
+        se z něj stane @mention. Osoba, kterou zmiňujete, obdrží oznámení o zmínce
+        na své oznamovací stránce a e-mailem, pokud požádala o zasílání oznámení o
+        zmínkách e-mailem.
+      mentions_ex2: V příspěvcích i komentářích můžete uvádět @. Stejně tak vás mohou
+        ostatní lidé zmínit @ a vy obdržíte upozornění v liště záhlaví (a e-mailem,
+        pokud jste tuto možnost nastavili).
+      mentions_ex3: Všimněte si, že @ můžete zmínit pouze lidi, se kterými sdílíte.
+      format: Formátování textu
+      format_ex1: 'Pro zpestření textu můžete udělat mnoho věcí: tučné písmo, kurzívu,
+        velké nadpisy atd. Většinu tohoto formátování lze provést pomocí tlačítek
+        nad vydavatelem - nemusíte se starat o ten nepřehledný kód.'
+      format_ex2: Chcete-li přidat kód <em>kurzíva</em>, <strong>tučné</strong> nebo
+        vložený kód, zvýrazněte text, který chcete formátovat, a klikněte na příslušné
+        tlačítko v řádku nad oknem vydavatele. Kód Markdown pro toto formátování bude
+        umístěn kolem této části textu.
+      format_ex3: Chcete-li vytvořit nadpis, seznam nebo citaci, umístěte kurzor na
+        řádek, který chcete formátovat, a stiskněte příslušné tlačítko.
+      links: Odkazy
+      links_ex1: Chcete do příspěvku vložit odkaz? Stačí kliknout na tlačítko <span
+        class="click">odkaz</span> a vložit adresu URL odkazu do vyskakovacího okna,
+        které se zobrazí. Tím zadáte adresu URL do svého příspěvku zabalenou do kódu
+        odkazu Markdown. Napište text, který se má ve zprávě objevit, přes zvýrazněný
+        text v hranatých závorkách.
+      links_ex2: Pokud chcete do zprávy vložit holý odkaz, jednoduše vložte adresu
+        URL do vydavatele a ta se automaticky převede na inline odkaz. Pokud nechcete,
+        aby odkaz vypadal efektně, nemusíte používat Markdown!
+      images: Obrázky
+      images_ex1: Vložení obrázku z webu do zprávy je podobné jako vložení odkazu.
+        Klikněte na tlačítko <span class="click">obrázek</span> nad oknem vydavatele
+        a vložte adresu URL obrázku do vyskakovacího okna, které se zobrazí. Tím zadáte
+        adresu URL do svého příspěvku zabalenou do kódu obrázku Markdown. Přes zvýrazněný
+        text v hranatých závorkách napište nějaký „alternativní text“ (text, který
+        chcete ve zprávě zobrazit, pokud obrázek nelze zobrazit). Můžete také přidat
+        volitelný název, který se zobrazí jako nápověda při přesunutí kurzoru nad
+        obrázek.
+      images_ex2: 'Poznámka: Aby to fungovalo, musíte poskytnout přímý odkaz na platný
+        soubor obrázku (končící na .jpg, .gif, .png nebo podobně), <em>ne</em> na
+        webovou stránku s obrázkem nebo obrázky.'
+      format_note: diaspora* používá jednoduchý systém přirážek zvaný Markdown. Pokud
+        chcete udělat něco, co není pokryto tlačítky formátování, můžete najít více
+        o tom, jak používat Markdown v %{format_link}.
+      format_link_text: tento návod
+      links_ex: Chcete do příspěvku vložit odkaz? Stačí jej vložit do zprávy a automaticky
+        se převede na vložený odkaz. Svůj odkaz můžete také vložit do textu pomocí
+        Markdown. Před odesláním zprávy můžete pomocí tlačítka <span class="click">Náhled</span>
+        zkontrolovat, zda vaše odkazy fungují správně.
+      embed: Vkládání
+      embed_ex1: Můžete také vložit odkazy na mediální weby, jako je YouTube, Vimeo,
+        Soundcloud a další, a video/audio soubor, na který odkazujete, se stane „vloženým“
+        do vašeho příspěvku. Vyzkoušejte to!
+      embed_ex2: Všimněte si, že video/audio se vloží <em>až</em> po odeslání zprávy,
+        takže abyste je viděli, budete muset obnovit/znovu načíst proud. Občas chvíli
+        trvá, než web, na kterém je soubor, který chcete vložit, umístěn, odpoví a
+        vloží informace, takže možná budete muset chvíli počkat a znovu obnovit proud.
+      how: Co vy na to? V diaspoře* je spousta věcí, které můžete dělat na svých příspěvcích.
+      try_out: Chcete-li si to vyzkoušet, proč neudělat veřejné oznámení, že jste
+        právě dorazili do diaspory*? Je to dobrý způsob, jak se nechat přivítat lidmi
+        z naší komunity a začít navazovat kontakty.
+      make_post1: 'Chcete-li zveřejnit příspěvek, stačí nastavit tlačítko pro výběr
+        aspektů na <span class="click">Veřejné</span> a napsat příspěvek. Pokud jste
+        to neudělali dříve, proč se nepředstavit komunitě diaspory* přidáním značky
+        <span class="click">#newhere</span>? Tímto způsobem lidé, kteří sledují tento
+        štítek, uvidí váš příspěvek a budou vás moci přivítat. Přidejte také některé
+        ze svých zájmů jako #tagy a zjistíte, že lidé s podobnými zájmy jako vy vás
+        najdou. Vaše zpráva může být něco jako:'
+      make_post2: 'Ahoj všichni, jsem #nováček v diaspoře*. Mám ráda #běhání, #literaturu
+        a #králíky.'
+      make_post3: 'Samozřejmě nemusíte chtít zveřejnit příspěvek. Pokud ne, nevadí:
+        důležité je, že víte, jak to udělat.'
+      interact: Interakce s příspěvky v proudu
+      interact_ex1: Obsahový proud je zobrazením stavových zpráv v reálném čase. Kdykoli
+        někdo, koho sledujete, zveřejní stavovou zprávu, přidá se do proudu. Samozřejmě
+        můžete komentovat své vlastní příspěvky i příspěvky ostatních lidí. Můžete
+        také „lajkovat“ a „sdílet“ zprávy ostatních lidí, a pokud někdo zveřejní něco,
+        co opravdu nechcete vidět, můžete to skrýt. To vše se odehrává ve streamu
+        obsahu, který najdete hned pod vydavatelem.
+      interact_ex2: 'Nezapomeňte, že existují různé proudy obsahu podle toho, která
+        ze „zobrazení“ používáte: <span class="click">Proud</span>, <span class="click">Moje
+        aktivita</span>, <span class="click">@Mentions</span>, <span class="click">Moje
+        aspekty</span> nebo <span class="click">#Sledované značky</span>. I když se
+        tím změní, které příspěvky se zobrazí ve vašem proudu, můžete s těmito příspěvky
+        pracovat stejným způsobem v kterémkoli z těchto zobrazení.'
+      interact_ex3: Aby diaspora* pody fungovaly rychleji, váš stream se nebude neustále
+        automaticky znovu načítat. Stačí obnovit stránku, kdykoli budete chtít zkontrolovat
+        aktualizace svého streamu.
+      comments: Komentáře
+      comments_ex: Pokud u příspěvku ještě nejsou žádné komentáře, kliknutím na <span
+        class="click">Komentovat</span> otevřete pole pro komentář. Když už jsou pod
+        příspěvkem komentáře, pole pro komentář tam bude automaticky. Pokud byly přidány
+        více než tři komentáře, zobrazí se poslední tři komentáře. Celé vlákno můžete
+        rozbalit kliknutím na odkaz <span class="click">Zobrazit n dalších komentářů</span>
+        nad nimi.
+      likes: Líbí se mi
+      likes_ex1: Vedle odkazu <span class="click">Komentář</span> najdete odkaz <span
+        class="click">To se mi líbí</span>. Toho lze využít k tomu, abyste dali vlastníkovi
+        příspěvku najevo, že jste si jeho příspěvek přečetli a ocenili ho, aniž byste
+        ho museli skutečně komentovat. Když kliknete na odkaz, budete přidáni do počítadla
+        počtu lajků. Kliknutím na toto počítadlo se vám zobrazí lidé, kterým se příspěvek
+        líbí.
+      likes_ex2: Pokud si to rozmyslíte, můžete svůj „lajk“ odebrat kliknutím na odkaz
+        <span class="click">Nelíbí se</span>, který je nyní viditelný. Uvědomte si
+        ale, že osobě, jejíž příspěvek se vám původně líbil, již bylo zasláno upozornění!
+      reshare: Znovusdílení příspěvků
+      reshare_ex: Veřejné příspěvky jiných lidí lze sdílet dál. Chcete-li příspěvek
+        sdílet dál, klikněte na odkaz <span class="click">Sdílet</span>, který najdete
+        mezi odkazy Líbí se mi a Komentář. Sdílením příspěvku se zviditelní pro vaše
+        sledující a může pomoci šířit dobrou zprávu novému publiku.
+      post_icons: 'Když umístíte ukazatel myši na jakýkoli příspěvek v proudu, v pravém
+        horním rohu příspěvku se zobrazí několik ikon. Ty vám umožňují dělat některé
+        užitečné věci:'
+      delete: Mazání příspěvků a komentářů
+      delete_ex: Když najedete ukazatelem myši na jeden z vašich vlastních příspěvků
+        nebo komentářů, v pravém horním rohu se zobrazí <span class="click">x</span>,
+        které vám umožní příspěvek nebo komentář smazat. Můžete také smazat své vlastní
+        komentáře k příspěvkům jiných lidí.
+      hide: Skrytí cizího příspěvku
+      hide_ex: Pokud už nechcete vidět příspěvek někoho jiného, ​​můžete jej skrýt
+        ze svého streamu kliknutím na <span class="click">x</span>, stejně jako byste
+        smazali svůj vlastní příspěvek.
+      notifications: Povolit/zakázat upozornění
+      notifications_ex: Vedle x je ikona malého zvonku. Pokud je zvonek šedý, znamená
+        to, že momentálně nedostáváte oznámení o aktivitě u tohoto příspěvku. Kliknutím
+        na něj zvonek zčernáte a nyní budete dostávat upozornění na tento příspěvek.
+        Pokud již dostáváte oznámení a už je nechcete, kliknutím na zvonek jej změníte
+        z černé na šedou.
+      ignore: Ignorování uživatele
+      ignore_ex1: Pokud s danou osobou právě sdílíte, její odstranění z aspektů zabrání
+        tomu, aby se ve vašem streamu objevilo mnoho jejích příspěvků. Úplnější metodou
+        je „ignorovat“ daný účet. Tím zabráníte tomu, aby se ve vašem streamu objevily
+        jakékoli jejich příspěvky, a nebudou již moci lajkovat ani komentovat vaše
+        příspěvky. Stále však budou moci znovu sdílet vaše příspěvky, komentovat znovu
+        sdílené příspěvky a jejich komentáře k příspěvkům jiných lidí, které se objeví
+        ve vašem streamu, budou stále viditelné.
+      ignore_ex1a: Chcete-li účet ignorovat, klikněte na ikonu <span class="click">ignorovat</span>
+        (kruh s diagonální čárou) v pravém horním rohu jednoho z jeho příspěvků. Jejich
+        příspěvky okamžitě zmizí z vašeho proudu. Případně přejděte na stránku jejich
+        profilu a klikněte tam na ikonu ignorování. Stále budete moci vidět jejich
+        příspěvky na stránce jejich profilu nebo pomocí zobrazení jednotlivých příspěvků.
+      ignore_ex2: Seznam lidí, které ignorujete, najdete v nastavení svého účtu v
+        části <span class=„click“>Soukromí</span>. Chcete-li někoho přestat ignorovat,
+        můžete ho ze seznamu na této stránce odstranit. O tom, jak změnit stránku
+        s nastavením účtu, píšeme v článku %{part_link}.
+      report: Nahlásit něčí příspěvek
+      report_ex: Pokud se domníváte, že příspěvek je v rozporu s kodexem chování vašeho
+        podu, například pokud se domníváte, že je urážlivý nebo je spam, můžete kliknout
+        na ikonu nahlásit (vykřičník v trojúhelníku). Zobrazí se formulář hlášení,
+        který bude odeslán administrátorovi vašeho modulu. Před nahlášením příspěvku
+        se prosím ujistěte, že jste obeznámeni se smluvními podmínkami vašeho modulu.
+        Odkaz na <span class="click">smluvní podmínky</span> svého podu najdete na
+        postranním panelu.
+      finish: 'Nyní jste se dozvěděli o činnosti, kterou budete v diaspoře* trávit
+        většinu času: sdílení vlastního obsahu a komentování a opětovné sdílení obsahu
+        sdíleného ostatními. V další části tohoto kurzu se podíváme na „konverzace“:
+        soukromé zprávy sdílené s jedním nebo více kontakty.'
     getting_started6:
-      byline: ~
-      menu_title: ~
-      intro: ~
-      notify: ~
-      notify_ex1: ~
-      notify_ex2: ~
-      notify_ls1: ~
-      notify_ls2: ~
-      notify_ls3: ~
-      notify_ls4: ~
-      notify_ex3: ~
-      convo: ~
-      convo_ex1: ~
-      convo_ex2: ~
-      convo_ex3: ~
-      convo_ex4: ~
-      convo_ex5: ~
-      convo_ex6: ~
-      convo_ex7: ~
-      convo_ex8: ~
-      convo_ex9: ~
-      finish: ~
+      byline: Část 6 - Oznámení a konverzace
+      menu_title: Oznámení a konverzace
+      intro: Poslední důležitou funkcí, o které byste měli vědět, jsou konverzace.
+        Ještě předtím se však podíváme na oznámení.
+      notify: Oznámení
+      notify_ex1: Kliknutím na ikonu oznámení (která vypadá jako zvonek) na panelu
+        záhlaví se zobrazí rolovací seznam s nejnovějšími oznámeními. Pokud máte nepřečtená
+        oznámení, zobrazí se nad ikonou červené číslo.
+      notify_ex2: 'Oznámení mají obvykle podobu „Osoba A komentovala příspěvek osoby
+        B“, „Osoba A s vámi začala sdílet“ nebo „Osoba A vás zmínila v příspěvku“.
+        Z tohoto seznamu můžete:'
+      notify_ls1: Kliknutím na jméno osoby zobrazíte její profilovou stránku.
+      notify_ls2: Kliknutím na <span class=„click“>post</span> zobrazíte daný příspěvek.
+      notify_ls3: Klikněte na <span class=„click“>Označit vše jako přečtené</span>.
+      notify_ls4: Kliknutím na <span class="click">Zobrazit vše</span> přejděte na
+        stránku Oznámení.
+      notify_ex3: Na stránce oznámení se zobrazí všechna předchozí oznámení, která
+        vám byla zaslána, 25 na stránku.
+      convo: Konverzace
+      convo_ex1: Konverzace je soukromá komunikace mezi dvěma nebo více osobami. Tuto
+        funkci zpřístupníte kliknutím na ikonu obálky v záhlaví.
+      convo_ex2: 'Stránka konverzací v rozhraní plochy se skládá ze dvou sloupců:
+        vlevo je seznam konverzací, kterých jste se účastnili, vpravo je zobrazení
+        aktuálně vybrané konverzace (pokud existuje).'
+      convo_ex3: Chcete-li zahájit novou konverzaci, použijte tlačítko <span class="click">Nová
+        konverzace</span> v horní části levého sloupce. Tlačítko otevře vyskakovací
+        okno, ve kterém můžete napsat zprávu a přidat lidi, které chcete zahrnout
+        do konverzace.
+      convo_ex4: Konverzaci můžete zahájit pouze s lidmi, se kterými máte vzájemné
+        sdílení.
+      convo_ex5: Při zadávání jména do řádku „komu“ se jméno automaticky doplní, stejně
+        jako když někoho @zmíníte v příspěvku nebo komentáři. Klikněte na jméno osoby,
+        kterou chcete kontaktovat, přidejte předmět do předmětu, napište svou zprávu
+        a můžete vyrazit! Je to tak jednoduché. Zde můžete také použít formátování
+        textu, takže do zprávy můžete přidat tučné nadpisy a velká záhlaví.
+      convo_ex6: V levém sloupci se zobrazí seznam konverzací s názvem, profilovou
+        fotografií osoby, která konverzaci zahájila, jménem poslední osoby, která
+        na ni odpověděla, a vpravo počet příspěvků do konverzace (šedě; pokud jsou
+        nepřečtené zprávy, budou označeny červeně), čas od posledního příspěvku a
+        pod ním ikona „více osob“, pokud se konverzace účastní více osob kromě vás.
+        Přesunutím kurzoru na tuto ikonu zjistíte, kdo další je zapojen.
+      convo_ex7: Konverzaci si můžete přečíst kliknutím na ni v levém sloupci, poté
+        se otevře vpravo. Vlevo nahoře najdete seznam příjemců (včetně osob, které
+        do konverzace ještě nepřispěly). Než začnete drbat, nezapomeňte si ho zkontrolovat!
+        Je možné, že do konverzace je zapojeno více lidí, z nichž všichni uvidí vaši
+        odpověď.
+      convo_ex8: Odpověď na konverzaci je docela jednoduchá. Jakmile se zobrazí na
+        obrazovce, jednoduše napište svou odpověď do okna vydavatele v dolní části
+        konverzace a stiskněte tlačítko <span class="click">Odpovědět</span>.
+      convo_ex9: Je možné smazat konverzaci ze seznamu položek. To lze provést výběrem
+        konverzace v nabídce vlevo a kliknutím na <span class="click">x</span> v pravém
+        horním rohu. Blokování konverzace znamená, že ji smažete ze seznamu konverzací
+        a přestanete dostávat žádné nové odpovědi. Vezměte prosím na vědomí, že ostatní
+        mohou stále posílat odpovědi ostatním účastníkům konverzace – pouze je již
+        nebudete dostávat.
+      finish: To je vše, co je třeba říci o konverzacích. Už jste téměř prošli výukovým
+        programem! Je čas přečíst si poslední část!
     getting_started7:
-      byline: ~
-      menu_title: ~
-      intro: ~
-      connect: ~
-      connect_ex1: ~
-      connect_ex2: ~
-      connect_ex3: ~
-      connect_ex4: ~
-      settings: ~
-      settings_ex1: ~
-      settings_ex2: ~
-      profile: ~
-      profile_ex1: ~
-      nsfw: ~
-      profile_ex2: ~
-      profile_ex3: ~
-      account: ~
-      account_ex1: ~
-      account_ex1a: ~
-      account_ex2: ~
-      spotlight: ~
-      spotlight_ex: ~
-      privacy: ~
-      privacy_ex: ~
-      services: ~
-      services_ex: ~
-      applications: ~
-      applications_ex: ~
-      finish1: ~
-      finish2: ~
+      byline: Část 7 - Dokončení
+      menu_title: Dokončení
+      intro: Nyní jsme se věnovali většině hlavních prvků diaspory*. Poslední část
+        této série výukových lekcí se zabývá několika posledními kousky, které budete
+        potřebovat znát.
+      settings: Správa účtu
+      settings_ex1: Poslední věcí, na kterou se musíme podívat, abyste mohli začít,
+        je stránka uživatelských nastavení. Chcete-li se k němu dostat, přejděte do
+        uživatelské nabídky a z rozbalovací nabídky vyberte <span class="click">Nastavení</span>.
+        Zde naleznete přehled možností účtu.
+      settings_ex2: 'Na stránce nastavení účtu je pět karet: <strong>Profil</strong>,
+        <strong>Účet</strong>, <strong>Soukromí</strong>, <strong>Služby</strong>
+        a <strong>Aplikace</strong>.'
+      profile: Profil
+      profile_ex1: Na této stránce můžete změnit, přidat nebo smazat jakékoli informace
+        svého profilu. Vraťte se na konec %{part_link}, pokud chcete připomenout,
+        jak jej upravit. Až budete hotovi, nezapomeňte dole stisknout tlačítko <span
+        class="click">Aktualizovat</span>!
+      nsfw: "“NSFW”"
+      profile_ex2: diaspora* má samosprávný komunitní standard zvaný NSFW (není bezpečné
+        pro práci). Pokud je pravděpodobné, že zveřejníte mnoho materiálů, které nemusí
+        být vhodné pro zobrazení pro každého na jejich kancelářském stole (možná s
+        jejich šéfem stojícím za nimi), zvažte prosím zaškrtnutí políčka NSFW. Tím
+        se vaše příspěvky skryjí z proudů lidí za upozorněním, že příspěvek je označen
+        jako NSFW. Pokud si to přejí, mohou kliknout na toto oznámení a zobrazit váš
+        příspěvek.
+      profile_ex3: Necháte-li toto políčko nezaškrtnuté, zavazujete se, že nebudete
+        zveřejňovat žádný materiál, který by mohl potenciálně urazit nebo přivést
+        někoho do problémů kvůli jeho prohlížení v práci. Pokud byste na druhou stranu
+        chtěli takový materiál zveřejňovat jen příležitostně, můžete toto políčko
+        ponechat nezaškrtnuté a přidat k jednotlivým příspěvkům značku <span class="click">#nsfw</span>,
+        která je skryje před streamy ostatních lidí.
+      account: Účet
+      account_ex1: 'Zde můžete: změnit e-mailovou adresu a heslo, nastavit jazyk,
+        vybrat si jedno z našich barevných témat, nastavit výchozí viditelnost příspěvků,
+        vybrat si preference e-mailových upozornění a stáhnout data nebo zavřít svůj
+        seed.'
+      account_ex1a: Naším cílem je, abyste mohli použít stažená data k migraci vašeho
+        seedu do jiného podu, i když to zatím není možné. Možná však budete chtít
+        svá data pravidelně stahovat jako zálohu.
+      account_ex2: Pokud chcete, můžete nastavit, aby se seed automaticky začal sdílet
+        s každým, kdo se s vámi začne sdílet. Můžete také znovu zapnout nápovědu "začínáme",
+        která se objevila při prvním otevření účtu.
+      spotlight: Aktuality z komunity
+      spotlight_ex: Na stránce nastavení můžete také aktivovat „community spotlight“,
+        pokud je tato funkce na vašem modulu dostupná. „Zvýraznění komunity“ přidává
+        do vašeho streamu příspěvky od členů komunity, které administrátor vašeho
+        modulu vybral jako lidi, kteří stojí za přečtení. Může to být dobrý způsob,
+        jak najít lidi, se kterými se můžete spojit, když se poprvé připojíte k diaspoře*.
+      privacy: Soukromí
+      privacy_ex: Jedná se o seznam uživatelů, které ignorujete. Pokud chcete, aby
+        se vám jejich příspěvky opět začaly zobrazovat, můžete je z tohoto seznamu
+        odstranit. Více informací o ignorování lidí najdete v části %{part_link}.
+      applications: Aplikace
+      applications_ex: Tato karta zobrazuje seznam všech aplikací, které jste autorizovali
+        ve svém seedu diaspory*.
+      finish1: To je vše, lidi! Děkujeme, že jste si přečetli tuto příručku Začínáme.
+        Doufáme, že to pro vás bylo užitečné a že se nyní cítíte pohodlně používat
+        diasporu* jako svůj nový online domov. Pokud se chcete dozvědět něco dalšího
+        o jakémkoli aspektu používání diaspory*, vyzkoušejte naši sekci nápovědy v
+        aplikaci – přejděte do své uživatelské nabídky v záhlaví a z rozbalovací nabídky
+        vyberte <span class="click">Nápověda</span>.
+      finish2: Pokud máte nějaké otázky, které nebyly zodpovězeny, neváhejte napsat
+        veřejný příspěvek na diasporu* včetně značek <span class="click">#help</span>
+        a <span class="click">#question</span>, aby se vám ostatní členové komunity
+        mohli pokusit pomoci. Je tu úžasná, velkorysá komunita!
     formatting:
-      byline: ~
-      menu_title: ~
-      format1: ~
-      format2: ~
-      format3: ~
-      format4: ~
-      headings: ~
-      headings_ex1: ~
-      headings_code1: ~
-      headings_code2: ~
-      headings_code3: ~
-      headings_ex2: ~
-      lists: ~
-      lists_ex1: ~
-      lists_ex2: ~
-      lists_ex3: ~
-      lists_code1: ~
-      lists_code2: ~
-      lists_code3: ~
-      lists_code4: ~
-      lists_code5: ~
-      lists_code6: ~
-      quote: ~
-      quote_ex1: ~
-      quote_code1: ~
-      quote_code2: ~
-      quote_code2a: ~
-      quote_code3: ~
-      pre: ~
-      pre_ex: ~
-      pre_code1: ~
-      pre_code2: ~
-      pre_code3: ~
-      pre_code4: ~
-      pre_code5: ~
-      code: ~
-      code_ex1: ~
-      code_ex2: ~
-      code_code1: ~
-      code_code2: ~
-      code_code3: ~
-      code_code4: ~
-      code_code5: ~
-      code_code6: ~
-      code_snippet_text_a: ~
-      code_snippet_text_b: ~
-      line: ~
-      line_ex: ~
-      line_code1: ~
-      line_code2: ~
-      itals: ~
-      itals_ex1: ~
-      itals_ex2: ~
-      itals_ex3: ~
-      itals_ex4: ~
-      itals_ex8: ~
-      links: ~
-      link_ex1: ~
-      link_code: ~
-      link_ex2: ~
-      inline_link_text: ~
-      images: ~
-      images_ex1: ~
-      images_code: ~
-      images_ex2: ~
-      images_ex3: ~
-      escape_ex1: ~
-      escape_code: ~
-      escape_ex2: ~
-      escape_ex3: ~
-      symbols: ~
-      symbols_ex: ~
-      finish: ~
-      markdown_link_text: ~
+      byline: Formátování textu
+      menu_title: Formátování textu
+      format1: V diaspoře* je možné formátovat text ve stavových zprávách, komentářích
+        a konverzacích pomocí zjednodušeného systému značek zvaného Markdown. Na této
+        stránce najdete úvodní informace o kódech používaných k vytvoření tohoto formátování.
+      format2: V první řadě je třeba si uvědomit, že mezi odstavci (s výjimkou položek
+        v seznamu) je nutné použít dva řádkové zlomy, jinak se odstavce spojí dohromady.
+        Pokud chcete mezi dvěma odstavci opravdu jen jeden řádkový zlom, přidejte
+        na konec prvního odstavce dvě mezery.
+      format3: Zde se hodí tlačítko <span class="click">Náhled</span>. Vyzkoušejte
+        nějaké formátování, zobrazte náhled, zjistěte, co není v pořádku, opravte
+        to a znovu zobrazte náhled, dokud nebudete spokojeni!
+      format4: V níže uvedených příkladech můžete zkopírovat text v šedých oblastech,
+        vložit jej do vydavatele v diaspoře* a pomocí tlačítka <span class="click">Náhled</span>
+        vyzkoušet formátování.
+      headings: Nadpisy
+      headings_ex1: 'Nadpisy první, druhé a třetí úrovně můžete do zprávy přidat umístěním
+        symbolu hash (#) na začátek řádku, a to následujícím způsobem:'
+      headings_code1: Extrémně velké záhlaví
+      headings_code2: O polovinu větší než výše uvedený
+      headings_code3: Dvakrát větší než běžný text
+      headings_ex2: 'Nezapomeňte mezi hashe a textem nechat mezeru, abyste se vyhnuli
+        vytvoření #štítku místo nadpisu. Nadpis skončí, jakmile stisknete klávesu
+        enter a přejdete na další řádek.'
+      lists: Seznamy
+      lists_ex1: Chcete-li vytvořit seznam s odrážkami, umístěte před každý řádek,
+        který má být součástí seznamu, *, + nebo -.
+      lists_ex2: Je také možné vytvářet číslované seznamy tak, že před položky seznamu
+        umístíte "1.", "2." apod. Chcete-li vytvořit číslovaný seznam, musí být za
+        čísly tečky/úplné tečky.
+      lists_ex3: Opět dbejte na to, aby mezi znakem "odrážky" a textem na každém řádku
+        byla mezera a aby mezi seznamem a předchozím/následujícím textem byla mezera,
+        jinak to nebude fungovat.
+      lists_code1: 'Takto se vytváří seznam s odrážkami:'
+      lists_code2: položka jedna;
+      lists_code3: položka dvě;
+      lists_code4: položka tři;
+      lists_code5: 'To se stane dalším seznamem s odrážkami:'
+      lists_code6: 'A toto bude číslovaný seznam:'
+      quote: Citace
+      quote_ex1: 'Pokud chcete citovat výňatek z článku nebo jiný komentář, můžete
+        text pohodlně naformátovat tak, že řádek nebo odstavec začnete znakem ">",
+        za kterým následuje mezera:'
+      quote_code1: 'Toto je běžný text uvozující vaši citaci:'
+      quote_code2: Toto je citace.
+      quote_code2a: A druhý odstavec citátu.
+      quote_code3: Toto je text následující za citací.
+      pre: Předformátovaný text
+      pre_ex: Chcete-li vložit „předformátovaný“ text, který se zobrazuje písmem s
+        jednotnou mezerou a respektuje odsazení odstavců a další věci, začněte každý
+        řádek textu čtyřmi mezerami. Přidání více mezer umožní další odsazení.
+      pre_code1: Toto je řádek normálního textu.
+      pre_code2: Toto bude předformátovaný blok.
+      pre_code3: Blok pokračuje na tomto řádku,
+      pre_code4: a pak další řádek, odsazený dvěma mezerami.
+      pre_code5: Potom zpět k normálnímu textu.
+      code: Bloky kódu
+      code_ex1: Pokud jste vývojář, možná vás zajímají bloky kódu. Blok kódu vytvoříte
+        tak, že text/kód začnete čtyřmi zpětnými znaky ( ` ` ` ` ). Chcete-li se vrátit
+        k normálnímu textu, uzavřete blok kódu dalšími čtyřmi.
+      code_ex2: Kód je možné zobrazit také v řádku, a to tak, že začátek a konec úryvku
+        označíte jedním zpětným znakem.
+      code_code1: Toto je řádek běžného textu.
+      code_code2: toto bude blok kódu
+      code_code3: Pak ještě několik normálních textů.
+      code_code4: Další kód v tomto bloku,
+      code_code5: a řádek kódu odsazený dvěma mezerami
+      code_code6: Tento řádek obsahuje uprostřed %{code_snippet}.
+      code_snippet_text_a: "`úryvek kódu`"
+      code_snippet_text_b: "<code>úryvek kódu</code>"
+      line: Vodorovná čára
+      line_ex: Chcete-li vytvořit vodorovnou čáru, použijte alespoň tři - - -, _ _
+        _ nebo * * * na samostatném řádku. Jakýkoli počet nad tři udělá totéž a na
+        mezerách mezi znaky nezáleží.
+      line_code1: Řádek textu nad vodorovnou čarou.
+      line_code2: Začátek další části textu.
+      itals: Kurzíva a tučné písmo
+      itals_ex1: Hvězdičky nebo podtržítka umístěte po obou stranách slova nebo slov,
+        abyste je označili jako kurzívu, tučné písmo nebo tučnou kurzívu.
+      itals_ex2: "<em>kurzíva</em>: *slovo* nebo _slovo_"
+      itals_ex3: "<strong>Tučné</strong>: ***word*** or __word__"
+      itals_ex4: "<strong><em>Tučná kurzíva</em></strong>: ***word*** or __word__"
+      itals_ex8: Aby formátování fungovalo, musíte samozřejmě dodržet počet hvězdiček/podtržítek
+        na obou stranách slov. Pokud zadáte "Chci to zobrazit jako **tučné* slovo",
+        slovo se tučně nezobrazí.
+      links: Odkazy v řádku
+      link_ex1: 'Chcete-li vytvořit %{inline_link}, použijte následující kód:'
+      link_code: '[zde zobrazený text](http://link.address.here "alt text")'
+      link_ex2: Text "alt" je nepovinný a zobrazuje se jako nápověda při najetí kurzoru
+        na odkaz.
+      inline_link_text: odkaz v řádku
+      images: Obrázky
+      images_ex1: 'Chcete-li do příspěvku, komentáře nebo soukromé zprávy přidat externí
+        obrázky, použijte stejný kód jako pro odkaz, ale s vykřičníkem na začátku:'
+      images_code: '![Alt text](http://website.com/image.jpg "nepovinný název")'
+      images_ex2: Aby tato funkce fungovala, je nutné zadat přímý odkaz na platný
+        soubor s obrázkem, <em>nikoli</em>  na webovou stránku s obrázkem nebo obrázky.
+      images_ex3: Alternativní text v hranatých závorkách se zobrazí, pokud obrázek
+        nelze načíst, a volitelný název se zobrazí jako nápověda při najetí kurzoru
+        na obrázek; obojí je užitečné, ale není to nezbytné.
+      escape_ex1: Pokud chcete, aby vaše zpráva obsahovala znak, který se používá
+        i v kódování Markdown, můžete zabránit jeho čtení v Markdown jako formátovacího
+        kódu tím, že jej "escapujete". To provedete tak, že před znak umístíte zpětné
+        lomítko ( \ ). Například při zadání
+      escape_code: toto \_ je podtržítko
+      escape_ex2: zabrání tomu, aby Markdown četl podtržítko jako kód Markdown, a
+        umožní diaspoře* zobrazit podtržítko namísto vytvoření textu kurzívou.
+      escape_ex3: Můžete však napsat "diaspora*" nebo "D*", aniž by byla hvězdička
+        interpretována jako formátovací kód!
+      symbols: Speciální znaky
+      symbols_ex: 'Pomocí kombinace znaků můžete vytvořit následující symboly a další
+        speciální znaky:'
+      finish: Podrobnější popis syntaxe Markdown je uveden  %{markdown_link}.
+      markdown_link_text: na této stránce
     tips:
-      headline: ~
-      byline: ~
-      menu_title: ~
-      intro: ~
-      profile: ~
-      profile_ex: ~
-      notepad: ~
-      notepad_ex: ~
+      headline: Tipy pro používání diaspory*
+      byline: Některé užitečné triky, které jsme objevili
+      menu_title: Tipy pro používání diaspory*
+      intro: S diasporou* toho můžete dělat mnohem víc. Zde je malý výběr tipů, které
+        by se vám mohly líbit.
+      profile: Další pole profilu
+      profile_ex: Jednoduchý způsob, jak zatraktivnit svůj profil, je přidat více
+        "profilových polí" pomocí formátování textu v části Bio. Pro vytvoření nadpisů
+        použijte **tučné písmo** a pro položky volitelně *kurzívu*. Tímto způsobem
+        můžete přidat libovolné profilové pole, na které si vzpomenete, například
+        hudbu, knihy, vztah a podobně.
+      notepad: Použijte diasporu* jako zápisník
+      notepad_ex: Diasporu* můžete dokonce použít jako zápisník, abyste si zapsali
+        věci, které si budete muset později zapamatovat, možná dokonce poznámky k
+        prezentaci, kterou přednášíte. Chcete-li to provést, vše, co musíte udělat,
+        je vytvořit aspekt a <strong>do něj nikoho nepřidat</strong>! To je pravda,
+        prázdný aspekt. jaký to má smysl? Znamená to, že můžete sdílet věci s tímto
+        aspektem a nikdo je nebude moci vidět. To znamená, že tento aspekt může fungovat
+        jako váš soukromý notebook. Může to být užitečný způsob přesouvání textu nebo
+        fotografií mezi jedním počítačem a druhým a uchovávání poznámek a fotografií,
+        kdykoli se přihlásíte do diaspory*.
     other_docs:
-      headline: ~
-      byline: ~
-      menu_title: ~
-      intro1: ~
-      intro2: ~
-      tutorials: ~
-      parfait: ~
-      about: ~
-      about1: ~
-      wiki: ~
-      wiki_link_text: ~
-      wikipedia: ~
-      wikipedia_link_text: ~
-      wikipedia_software_link_text: ~
-      support: ~
-      question: ~
-      mail: ~
-      mail_link_text: ~
-      irc: ~
-      irc_link_text: ~
-      progress: ~
-      blog: ~
-      blog_link_text: ~
-      changelog: ~
-      changelog_link_text: ~
-      discourse: ~
-      communication: ~
-      communicate: ~
-      communicate_link_text: ~
-      other: ~
-      manifesto: ~
-      manifesto_link_text: ~
+      headline: Další dokumentace
+      byline: Kde najdete další pomoc a informace
+      menu_title: Další dokumentace
+      intro1: V těchto návodech jsme se snažili co nejsrozumitelněji popsat všechny
+        základní informace o používání aplikace diaspora*. Může se však stát, že vám
+        stále není něco jasné nebo že se zde neobjevilo něco, co byste chtěli vědět.
+        Existují také techničtější záležitosti, jako je nastavení vlastního pod, které
+        zde nejsou popsány.
+      intro2: Na této stránce najdete odkazy na další užitečné stránky s návody a
+        dalšími informacemi.
+      tutorials: Návody
+      parfait: průvodce ve francouzštině pro nové zájemce o diasporu*
+      about: O diaspora*
+      about1: Samozřejmě, že na našich stránkách projektu najdete spoustu informací
+        o diaspoře*.
+      wiki: "%{wiki_link} - vše, co potřebujete vědět o používání, vývoji a instalaci
+        diaspory*"
+      wiki_link_text: Oficiální wiki projektu
+      wikipedia: Na Wikipedii jsou stránky o %{wikipedia_link} a %{wikipedia_software_link}.
+      wikipedia_link_text: diaspora*
+      wikipedia_software_link_text: diaspora* software
+      support: Podpora uživatelů
+      question: Můžete položit <span class="click">#dotaz</span> o diaspoře*, požádat
+        o <span class="click">#help</span> nebo nahlásit <span class="click">#bug</span>
+        ve veřejných příspěvcích v samotné diaspoře*
+      mail: Máte problém, který nemůžete vyřešit? Obraťte se na nás na naší %{mail_link}.
+      mail_link_text: e-mailové konferenci
+      irc: Nebo si můžete popovídat s vývojáři diaspory* na našem %{irc_link}. Pokud
+        nedostanete okamžitou odpověď, zkuste to později.
+      irc_link_text: IRC kanálu
+      progress: Průběh projektu
+      blog: "%{blog_link} - kde oznamujeme významné události a aktualizace"
+      blog_link_text: Blog projektu
+      changelog: "%{changelog_link} - záznam o vývoji diaspory*, včetně funkcí, které
+        ještě nebyly vydány ve stabilní verzi."
+      changelog_link_text: Seznam změn
+      discourse: platforma, kterou používáme k diskusi o nápadech a zlepšeních pro
+        diasporu*.
+      communication: Komunikace
+      communicate: "%{communicate_link} na naší wiki obsahuje podrobnosti o všech
+        různých komunikačních kanálech, které máme otevřené."
+      communicate_link_text: '"Jak komunikujeme"'
+      other: Jiné stránky
+      manifesto: "%{manifesto_link} - prohlášení o bezpečnosti a ochraně soukromí,
+        ke kterému se diaspora* zavázala."
+      manifesto_link_text: Manifest o uživatelských datech

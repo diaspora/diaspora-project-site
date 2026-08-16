@@ -1,715 +1,731 @@
 fi:
   time:
     formats:
-      blog_headline: ~
+      blog_headline:
   buttons:
-    host_pod: "Ylläpidä kapselia"
-    join_diaspora: "Liity mukaan!"
-    find_more: "Lisätietoja »"
+    host_pod: Ylläpidä kapselia
+    join_diaspora: Liity mukaan!
+    find_more: Lisätietoja »
   meta:
     footer:
-      copyleft: "CC-BY The diaspora* Foundation"
+      copyleft: CC-BY The diaspora* Foundation
   title: diaspora*-projekti
-  newsfeed: ~
-  planet_feed: ~
+  newsfeed:
+  planet_feed:
   layouts:
     application:
       wiki: Wiki
-      discourse: "Keskustelut ja tuki"
+      discourse: Keskustelut ja tuki
       planet: Planeetta
-      useful_resources: "Hyödyllisiä resursseja"
+      useful_resources: Hyödyllisiä resursseja
       codebase: Koodikanta
       documentation: Dokumentointi
-      report_bugs: ~
-      irc_general: "IRC - Yleistä"
-      irc_development: "IRC - Kehitys"
-      discussion_general: "Keskustelu & tuki"
-      discussion_development: ~
-      choose_language: "Valitse kieli"
-      translate: ~
-      cc_license_alt: "Creative Commons -lisenssi"
+      report_bugs:
+      irc:
+      discussion_general: Keskustelu & tuki
+      discussion_development:
+      choose_language: Valitse kieli
+      translate:
+      cc_license_alt: Creative Commons -lisenssi
       licensed_under: "%{site_link}-sivuston lisenssityyppi on %{license_link}"
-      license_link_text: "Creative Commons Nimeä 3.0 Ei sovitettu (CC BY 3.0) -lisenssi"
+      license_link_text: Creative Commons Nimeä 3.0 Ei sovitettu (CC BY 3.0) -lisenssi
   pages:
     index:
-      headline: "Tervetuloa diasporaan*"
-      byline: ~
-      register: "Rekisteröidy »"
-      key_philosophies: "diaspora* perustuu kolmeen periaatteeseen:"
+      headline: Tervetuloa diasporaan*
+      byline:
+      register: Rekisteröidy »
+      key_philosophies: 'diaspora* perustuu kolmeen periaatteeseen:'
       decentralization: Hajauttaminen
-      decentralization_about: ~
+      decentralization_about:
       freedom: Vapaus
-      freedom_about: ~
+      freedom_about:
       privacy: Yksityisyys
-      privacy_about: ~
+      privacy_about:
       get_started: Aloitetaanko?
-      get_started_sub: ~
-      choose_pod: "1. Valitse podi"
-      choose_pod_exp: ~
-      host_yourself: ~
-      sign_up: "2. Rekisteröidy"
-      sign_up_ex: ~
-      join_convo: "3. Osallistu keskusteluun!"
-      join_convo_ex: ~
+      get_started_sub:
+      choose_pod: 1. Valitse podi
+      choose_pod_exp:
+      host_yourself:
+      sign_up: 2. Rekisteröidy
+      sign_up_ex:
+      join_convo: 3. Osallistu keskusteluun!
+      join_convo_ex:
       aspects: Näkymät
-      aspects_ex: ~
+      aspects_ex:
       features: Ominaisuudet
-      features_ex: ~
-      help: ~
-      help_ex: ~
-      socialint: ~
-      socialint_ex: ~
-      earth_alt: ~
+      features_ex:
+      help:
+      help_ex:
+      earth_alt:
       decentralized_alt: Hajautettu
       freedom_alt: Vapaus
       keyhole_alt: Avaimenreikä
       aspects_alt: Näkymät
       features_alt: Ominaisuudet
-      ways_to_help_alt: ~
-      services_alt: Palvelut
+      ways_to_help_alt:
     about:
-      headline: "Kuinka diaspora* toimii?"
-      byline: "diaspora* on helppokäyttöinen - katso ohjeet"
+      headline: Kuinka diaspora* toimii?
+      byline: diaspora* on helppokäyttöinen - katso ohjeet
       menu_title: Tietoa
-      decentralize: "Mitä hajauttaminen tarkoittaa?"
-      decentralize_ex: "Diaspora* on täysin erilainen kuin muut sosiaaliset verkostot joita käytät. Se on täysin hajautettu, eikä sillä ole keskuspalvelinta. Tästä huolimatta yhteydessä pysyminen ja ihmisten kanssa kommunikoiminen on helppoa. Toimi seuraavasti:"
+      decentralize: Mitä hajauttaminen tarkoittaa?
+      decentralize_ex: 'Diaspora* on täysin erilainen kuin muut sosiaaliset verkostot
+        joita käytät. Se on täysin hajautettu, eikä sillä ole keskuspalvelinta. Tästä
+        huolimatta yhteydessä pysyminen ja ihmisten kanssa kommunikoiminen on helppoa.
+        Toimi seuraavasti:'
       this: TÄMÄ
-      this_ex: "Diaspora* on verkosto sanan varsinaisessa merkityksessä – sillä ei ole keskuspalvelinta. Pienempiä palvelimia (joita kutsutaan kapseleiksi tai podeiksi) on ympäri maailmaa. Jokainen niistä sisältää kyseiseen kapseliin rekisteröityjen käyttäjien tiedot. Kapselit ovat saumattomasti yhteydessä toisiinsa, joten voit rekisteröityä niistä mihin tahansa ja kommunikoida ystäviesi kanssa, vaikka he olisivatkin valinneet toisen palvelimen."
-      notthis: "EI TÄTÄ"
-      notthis_ex: "Useimpia sosiaalisia verkostoja pyöritetään keskitetyiltä palvelimilta kaupallisten yritysten toimesta. Ne sisältävät kaikkien käyttäjien tiedot. Nämä tiedot voivat hävitä tai ne voidaan anastaa. Verkkoliikenteen vakoileminen esimerkiksi valtioiden toimesta on myös mahdollista. Lisäksi pienikin ongelma keskuspalvelimessa voi kaataa koko verkoston."
-      discl: ~
-      connect: "Kuinka olen yhteydessä?"
-      connect_ex: "Vaikka diaspora* koostuu monista kapseleista ympäri maailmaa, koet sen yhtenäisenä palveluna. Sinun ei tarvitse olla samassa kapselissa ystäviesi kanssa kommunikoidakseni heidän kanssaan, sillä kaikki kapselit ovat saumattomassa yhteydessä toisiinsa. Käyttäessäsi diasporaa* voit helposti unohtaa, että se itse asiassa koostuu monista kapseleista. Yhteyden saaminen toisiin on itse asiassa todella helppoa, seuraa vain ohjeita: "
-      find: "1. Löydä heidät"
-      find_ex: ~
-      add: "2. Lisää heidät"
-      add_ex: ~
+      this_ex: Diaspora* on verkosto sanan varsinaisessa merkityksessä – sillä ei
+        ole keskuspalvelinta. Pienempiä palvelimia (joita kutsutaan kapseleiksi tai
+        podeiksi) on ympäri maailmaa. Jokainen niistä sisältää kyseiseen kapseliin
+        rekisteröityjen käyttäjien tiedot. Kapselit ovat saumattomasti yhteydessä
+        toisiinsa, joten voit rekisteröityä niistä mihin tahansa ja kommunikoida ystäviesi
+        kanssa, vaikka he olisivatkin valinneet toisen palvelimen.
+      notthis: EI TÄTÄ
+      notthis_ex: Useimpia sosiaalisia verkostoja pyöritetään keskitetyiltä palvelimilta
+        kaupallisten yritysten toimesta. Ne sisältävät kaikkien käyttäjien tiedot.
+        Nämä tiedot voivat hävitä tai ne voidaan anastaa. Verkkoliikenteen vakoileminen
+        esimerkiksi valtioiden toimesta on myös mahdollista. Lisäksi pienikin ongelma
+        keskuspalvelimessa voi kaataa koko verkoston.
+      discl:
+      connect: Kuinka olen yhteydessä?
+      connect_ex: 'Vaikka diaspora* koostuu monista kapseleista ympäri maailmaa, koet
+        sen yhtenäisenä palveluna. Sinun ei tarvitse olla samassa kapselissa ystäviesi
+        kanssa kommunikoidakseni heidän kanssaan, sillä kaikki kapselit ovat saumattomassa
+        yhteydessä toisiinsa. Käyttäessäsi diasporaa* voit helposti unohtaa, että
+        se itse asiassa koostuu monista kapseleista. Yhteyden saaminen toisiin on
+        itse asiassa todella helppoa, seuraa vain ohjeita: '
+      find: 1. Löydä heidät
+      find_ex:
+      add: 2. Lisää heidät
+      add_ex:
       freedom: Vapaus
-      freedom_byline: "Diaspora* ei yritä rajoittaa sinua"
-      fdm1: "Ole kuka haluat olla"
-      fdm1_ex: "Monet sosiaalisen verkostot vaativat, että käytät oikeaa nimeäsi. Diasporassa* voit valita kuka olet ja jakaa itsestäsi juuri niin paljon (tai vähän) kun haluat. Saat vapaasti päättää, kuinka vuorovaikutat muiden kanssa."
-      fdm2: "Ole luova"
-      fdm2_ex: "Toimintaasi ei rajoiteta. Voit vain seurata kiinnostavia ihmisiä ja katsoa, mitä heillä on sanottavanaan. Voit myös jakaa kaiken maailmalle. Jaa kuvasi, taiteesi, musiikkisi tai sanasi – mitä sitten haluatkaan. Anna ajatustesi lentää."
-      fdm3: "Ilmainen – ihan oikeasti"
-      fdm3_ex: "Diaspora* on täysin ilmaista ohjelmistoa. Sen käyttöä ei ole rajoitettu. Voit toisin sanoen käyttää lähdekoodia ja muunnella sitä omiin tarkoituksiisi sekä auttaa meitä parantamaan palvelua. Toivomme sinut mukaan."
+      freedom_byline: Diaspora* ei yritä rajoittaa sinua
+      fdm1: Ole kuka haluat olla
+      fdm1_ex: Monet sosiaalisen verkostot vaativat, että käytät oikeaa nimeäsi. Diasporassa*
+        voit valita kuka olet ja jakaa itsestäsi juuri niin paljon (tai vähän) kun
+        haluat. Saat vapaasti päättää, kuinka vuorovaikutat muiden kanssa.
+      fdm2: Ole luova
+      fdm2_ex: Toimintaasi ei rajoiteta. Voit vain seurata kiinnostavia ihmisiä ja
+        katsoa, mitä heillä on sanottavanaan. Voit myös jakaa kaiken maailmalle. Jaa
+        kuvasi, taiteesi, musiikkisi tai sanasi – mitä sitten haluatkaan. Anna ajatustesi
+        lentää.
+      fdm3: Ilmainen – ihan oikeasti
+      fdm3_ex: Diaspora* on täysin ilmaista ohjelmistoa. Sen käyttöä ei ole rajoitettu.
+        Voit toisin sanoen käyttää lähdekoodia ja muunnella sitä omiin tarkoituksiisi
+        sekä auttaa meitä parantamaan palvelua. Toivomme sinut mukaan.
       privacy: Yksityisyys
-      privacy_byline: "Täydellinen valta omaan sisältöön "
-      priv1: "Omista omat tietosi"
-      priv1_ex: "Monet sosiaaliset verkostot käyttävät tietojasi rikastuakseen analysoimalla toimintaasi ja käyttämällä saamiaan tietoja mainostamiseen. Diaspora* ei käytä tietojasi mihinkään muuhun kuin auttamaan sinua pysymään yhteydessä ystäviisi."
-      priv2: "Ylläpidä omaa kapseliasi"
-      priv2_ex: "Päätä missä tietojasi säilytetään valitsemalla kapseli, johon olet tyytyväinen. Jos haluat olla aivan varma yksityisyydestäsi, voit asentaa ja ylläpitää omaa kapseliasi omilla palvelimillasi, jolloin kukaan ei pääse käsiksi yksityisiin tietoihisi."
-      priv3: "Valitse yleisösi"
-      priv3_ex: ~
-      aspects: ~
-      aspects_byline: "Avain yksityisyyteen diasporassa*"
-      asp1: ~
-      asp1_ex: ~
-      asp2: "Organisoi elämäsi"
-      asp2_ex: ~
-      asp3: "Kerro se koko maailmalle"
-      asp3_ex: ~
-      features: "Ominaisuuksia, joita käyttäjämme rakastavat"
-      features_byline: "Uskomme sinunkin pitävän niistä"
+      privacy_byline: 'Täydellinen valta omaan sisältöön '
+      priv1: Omista omat tietosi
+      priv1_ex: Monet sosiaaliset verkostot käyttävät tietojasi rikastuakseen analysoimalla
+        toimintaasi ja käyttämällä saamiaan tietoja mainostamiseen. Diaspora* ei käytä
+        tietojasi mihinkään muuhun kuin auttamaan sinua pysymään yhteydessä ystäviisi.
+      priv2: Ylläpidä omaa kapseliasi
+      priv2_ex: Päätä missä tietojasi säilytetään valitsemalla kapseli, johon olet
+        tyytyväinen. Jos haluat olla aivan varma yksityisyydestäsi, voit asentaa ja
+        ylläpitää omaa kapseliasi omilla palvelimillasi, jolloin kukaan ei pääse käsiksi
+        yksityisiin tietoihisi.
+      priv3: Valitse yleisösi
+      priv3_ex:
+      aspects:
+      aspects_byline: Avain yksityisyyteen diasporassa*
+      asp1:
+      asp1_ex:
+      asp2: Organisoi elämäsi
+      asp2_ex:
+      asp3: Kerro se koko maailmalle
+      asp3_ex:
+      features: Ominaisuuksia, joita käyttäjämme rakastavat
+      features_byline: Uskomme sinunkin pitävän niistä
       hashtags: Risuaidat
-      hashtags_ex: "Risuaidat antavat mahdollisuuden ilmoittaa ja seurata omia mielenkiinnon kohteitasi ja löytää samanmielisiä ihmisiä. Ne ovat myös hyvä keino tavata mielenkiintoisia ja hauskoja uusia ihmisiä palvelussa."
+      hashtags_ex: Risuaidat antavat mahdollisuuden ilmoittaa ja seurata omia mielenkiinnon
+        kohteitasi ja löytää samanmielisiä ihmisiä. Ne ovat myös hyvä keino tavata
+        mielenkiintoisia ja hauskoja uusia ihmisiä palvelussa.
       reshare: Edelleenjakaminen
-      reshare_ex: "Miksi et jakaisi pitämääsi julkaisua eteenpäin muille? Diaspora* tekee ideoiden uudelleenjakamisen helpoksi. Paina vain nappia jakaaksesi viestin eteenpäin."
+      reshare_ex: Miksi et jakaisi pitämääsi julkaisua eteenpäin muille? Diaspora*
+        tekee ideoiden uudelleenjakamisen helpoksi. Paina vain nappia jakaaksesi viestin
+        eteenpäin.
       mentions: Maininnat
-      mentions_ex: "Haluat saada tietyn ihmisen huomion? Mainitse @hänet! Se on helppo tapa saada tietty kontaktisi huomaamaan mitä haluat kertoa."
+      mentions_ex: Haluat saada tietyn ihmisen huomion? Mainitse @hänet! Se on helppo
+        tapa saada tietty kontaktisi huomaamaan mitä haluat kertoa.
       love: Tykkäys
-      love_ex: "Näytä arvostuksesi julkaisua kohtaan tykkäämällä (♥) siitä. Joskus sanat eivät riitä kuvaamaan tunteitasi."
-      host: "Ylläpidä kaikille avointa kapselia"
-      host_byline: "Ole yksi diasporan* tähdistä"
-      host_ex: ~
-      hostinst1: "Lue %{instructions_link}, ja perusta oma podi."
-      instructions_link_text: ~
-      hostinst2: ~
-      distributed_network: "Hajautettu verkko"
-      centralized_network: "Keskitetty verkko"
+      love_ex: Näytä arvostuksesi julkaisua kohtaan tykkäämällä (♥) siitä. Joskus
+        sanat eivät riitä kuvaamaan tunteitasi.
+      host: Ylläpidä kaikille avointa kapselia
+      host_byline: Ole yksi diasporan* tähdistä
+      host_ex:
+      hostinst1: Lue %{instructions_link}, ja perusta oma podi.
+      instructions_link_text:
+      hostinst2:
+      distributed_network: Hajautettu verkko
+      centralized_network: Keskitetty verkko
       search_alt: Hae
-      add_a_contact_alt: "Lisää kontakti"
+      add_a_contact_alt: Lisää kontakti
       hashtag_alt: Hashtag
-      reshare_alt: "Jaa uudelleen"
+      reshare_alt: Jaa uudelleen
       mention_alt: Mainitse
       heart_alt: Sydän
     get_involved:
       headline: Osallistu!
-      byline: "Sosiaalisten verkostojen tulevaisuus alkaa sinusta"
+      byline: Sosiaalisten verkostojen tulevaisuus alkaa sinusta
       menu_title: Osallistu
-      community: "Yhteisön pyörittämä"
-      community_byline: "Diaspora* kuuluu sinulle"
-      meaning: "Mitä se tarkoittaa?"
-      meaning_ex1: ~
-      meaning_ex2: ~
-      meaning_ex3: ~
-      whereyou: "Mitä sinä voit tehdä"
-      whereyou_ex1: ~
-      whereyou_ex2: ~
-      gi_header: "Tapoja osallistua diaspora*-projektiin"
-      code_header: "Jaa koodia"
-      code_byline: "Lähdekoodin saaminen on helppoa"
-      code_ex1: "Kloonaa tietolähde ja ala virittämään %{clone_code}"
-      code_ex2: "Asenna kehitysympäristösi"
-      code_ex3: "Aloita koodin jakaminen!"
-      code_ex4: ~
+      community: Yhteisön pyörittämä
+      community_byline: Diaspora* kuuluu sinulle
+      meaning: Mitä se tarkoittaa?
+      meaning_ex1:
+      meaning_ex2:
+      meaning_ex3:
+      whereyou: Mitä sinä voit tehdä
+      whereyou_ex1:
+      whereyou_ex2:
+      gi_header: Tapoja osallistua diaspora*-projektiin
+      code_header: Jaa koodia
+      code_byline: Lähdekoodin saaminen on helppoa
+      code_ex1: Kloonaa tietolähde ja ala virittämään %{clone_code}
+      code_ex2: Asenna kehitysympäristösi
+      code_ex3: Aloita koodin jakaminen!
+      code_ex4:
       get_started_guide_link_text: Aloitusopas
-      discourse_link_text: ~
-      irc_link_text: ~
-      code_gh: "Tutki lähdekoodia GitHubissa"
-      bugs_header: "Korjaa bugeja"
-      bugs_ex1: ~
-      bugs_ex2: ~
-      bugs_ex3: "Auta meitä siistimään lähdekoodiamme"
-      github_link_text: ~
-      translate_header: "Auta kääntämisessä"
-      translate_ex1: "Voit auttaa kääntämään diasporaa* kielellesi liittymällä kääntäjäryhmäämme %{translations_link}."
+      discourse_link_text:
+      irc_link_text:
+      code_gh: Tutki lähdekoodia GitHubissa
+      bugs_header: Korjaa bugeja
+      bugs_ex1:
+      bugs_ex2:
+      bugs_ex3: Auta meitä siistimään lähdekoodiamme
+      github_link_text:
+      translate_header: Auta kääntämisessä
+      translate_ex1: Voit auttaa kääntämään diasporaa* kielellesi liittymällä kääntäjäryhmäämme
+        %{translations_link}.
       translations_link_text: Käännösryhmä
-      translate_ex2: "Lue kääntämisohjeemme ennen aloittamista %{translation_instructions_link}."
+      translate_ex2: Lue kääntämisohjeemme ennen aloittamista %{translation_instructions_link}.
       translation_instructions_link_text: käännösohjeet
-      voice_header: ~
-      voice_ex1: ~
-      voice_ex2: "Liity mukaan"
-      voice_ex3: ~
-      meetup_link_text: ~
-      support_header: "Tarjoa tukea"
-      support_ex1: ~
-      support_ex2: "Rekisteröidy täällä"
-      support_ex3: ~
-      support_ex4: ~
+      voice_header:
+      voice_ex1:
+      voice_ex2: Liity mukaan
+      voice_ex3:
+      meetup_link_text:
+      support_header: Tarjoa tukea
+      support_ex1:
+      support_ex2: Rekisteröidy täällä
+      support_ex3:
+      support_ex4:
       irc_channel_link_text: IRC-kanava
-      support_ex5: ~
-      wiki_link_text: "diasporan* wiki"
-      run_header: "Ylläpidä julkista podia"
-      run_ex1: ~
-      host_pod_link_text: ~
-      run_ex2: ~
-      run_ex3: ~
-      contributors_header: "diasporan* osallistujat"
-      contributors_byline: ~
+      support_ex5:
+      wiki_link_text: diasporan* wiki
+      run_header: Ylläpidä julkista podia
+      run_ex1:
+      host_pod_link_text:
+      run_ex2:
+      run_ex3:
+      contributors_header: diasporan* osallistujat
+      contributors_byline:
       globe_alt: Maapallo
       megaphone_alt: Megafoni
       support_alt: Tuki
       pod_alt: Podi
     blog:
-      headline: "diasporan* blogi"
-      subline: "viralliset tiedoitukset"
+      headline: diasporan* blogi
+      subline: viralliset tiedoitukset
       menu_title: Blogi
     planet:
       headline: Diaspora*-planeetta
-      subline: ~
+      subline:
       menu_title: Planeetta
-      disclaimer_headline: ~
-      disclaimer: ~
+      disclaimer_headline:
+      disclaimer:
       subscribe_headline: Tilaa
-      subscribe: ~
-      feed_link_title: ~
+      subscribe:
+      feed_link_title:
       subscriptions_headline: Tilaukset
     community_guidelines:
-      headline: "Sosiaaliset periaatteet"
-      byline: ~
-      menu_title: "Sosiaaliset periaatteet"
-      statement1: ~
-      statement2: ~
-      statement3: ~
-      be_excellent: ~
-      howto: "Miten toimia?"
-      howto_language: ~
-      howto_viewpoints_experiences: ~
-      howto_constructive_criticism: ~
-      howto_empathy: "Näytä empatiaa muita yhteisön jäseniä kohtaan."
-      howto_sexualized_language: ~
-      howto_troll: ~
-      howto_harassment: ~
-      howto_benefit_of_doubt: ~
+      headline: Sosiaaliset periaatteet
+      byline:
+      menu_title: Sosiaaliset periaatteet
+      statement1:
+      statement2:
+      statement3:
+      be_excellent:
+      howto: Miten toimia?
+      howto_language:
+      howto_viewpoints_experiences:
+      howto_constructive_criticism:
+      howto_empathy: Näytä empatiaa muita yhteisön jäseniä kohtaan.
+      howto_sexualized_language:
+      howto_troll:
+      howto_harassment:
+      howto_benefit_of_doubt:
     tutorials:
-      headline: ~
-      byline: ~
-      menu_title: ~
-      tutorials_ex1: ~
-      tutorials_ex2: ~
-      started_head: ~
+      headline:
+      byline:
+      menu_title:
+      tutorials_ex1:
+      tutorials_ex2:
+      started_head:
       started1: Rekisteröityminen
       started2: Käyttöliittymä
       started3: Näkymät
-      started4: ~
-      started5: ~
-      started6: "Ilmoitukset ja keskustelut"
-      started7: ~
-      part1: "Osa 1"
-      part2: "Osa 2"
-      part3: "Osa 3"
-      part4: "Osa 4"
-      part5: "Osa 5"
-      part6: "Osa 6"
-      part7: "Osa 7"
-      additional: ~
-      connecting: ~
-      tips: ~
-      formatting: ~
-      more_tutorials: ~
-      other_docs: ~
-      other_docs_link_text: ~
-      thanks: ~
+      started4:
+      started5:
+      started6: Ilmoitukset ja keskustelut
+      started7:
+      part1: Osa 1
+      part2: Osa 2
+      part3: Osa 3
+      part4: Osa 4
+      part5: Osa 5
+      part6: Osa 6
+      part7: Osa 7
+      additional:
+      tips:
+      formatting:
+      more_tutorials:
+      other_docs:
+      other_docs_link_text:
+      thanks:
     getting_started1:
-      byline: "Osa 1 - Rekisteröityminen"
-      menu_title: ~
-      welcome: ~
-      find_pod: ~
-      find_pod_intro: ~
-      find_pod_ex1: ~
-      find_pod_ex2: ~
-      find_pod_ex3: ~
-      wiki_link_text: ~
-      find_pod_ex4: ~
-      find_pod_ex5: ~
+      byline: Osa 1 - Rekisteröityminen
+      menu_title:
+      welcome:
+      find_pod:
+      find_pod_intro:
+      find_pod_ex1:
+      find_pod_ex2:
+      find_pod_ex3:
+      wiki_link_text:
+      find_pod_ex4:
+      find_pod_ex5:
       registration: Rekisteröityminen
-      registration1: ~
-      registration2: ~
-      registration3: ~
-      registration4: ~
-      dhq_link_text: "diasporan* päämaja"
-      registration5: ~
-      registration6: ~
-      registration7: ~
-      registration8: ~
-      registration9: ~
-      profile1: ~
-      profile2: ~
-      profile3: ~
-      profile4: ~
-      finish: ~
-      finish_ex1: ~
-      finish_ex2: ~
+      registration1:
+      registration2:
+      registration3:
+      registration4:
+      dhq_link_text: diasporan* päämaja
+      registration5:
+      registration6:
+      registration7:
+      registration8:
+      registration9:
+      profile1:
+      profile2:
+      profile3:
+      profile4:
+      finish:
+      finish_ex1:
+      finish_ex2:
     getting_started2:
-      byline: "Osa 2 - Käyttöliittymä"
-      menu_title: ~
-      menu_title_mobile: ~
-      interface_mobile: ~
-      interface_desktop: ~
-      click_here_text: "Klikkaa tästä"
-      interface1: ~
-      interface2: ~
-      interface3: ~
-      header: ~
-      header_mobile: ~
-      header_podname: "podisi nimi, joka vie sinut takaisin syötesivulle;"
-      header_asterisk: ~
-      header_stream: ~
-      header_notify: ~
-      header_conversations: ~
-      header_newpost: ~
-      header_drawer: ~
-      header_search: ~
-      header_streams: ~
-      header_dropdown: ~
-      header_profile: ~
-      header_contacts: "linkki yhteystiedot-listaan (katso %{part_link});"
-      header_settings: ~
-      header_help: ~
-      header_toggle: ~
-      header_logout: "kirjaudu ulos painike."
-      interface_mobile_old: ~
-      columns: ~
-      column1: ~
-      column2: ~
-      stream_mobile: ~
-      views: ~
+      byline: Osa 2 - Käyttöliittymä
+      menu_title:
+      menu_title_mobile:
+      interface_mobile:
+      interface_desktop:
+      click_here_text: Klikkaa tästä
+      interface1:
+      interface2:
+      interface3:
+      header:
+      header_mobile:
+      header_podname: podisi nimi, joka vie sinut takaisin syötesivulle;
+      header_asterisk:
+      header_stream:
+      header_notify:
+      header_conversations:
+      header_newpost:
+      header_drawer:
+      header_search:
+      header_streams:
+      header_dropdown:
+      header_profile:
+      header_contacts: linkki yhteystiedot-listaan (katso %{part_link});
+      header_settings:
+      header_help:
+      header_toggle:
+      header_logout: kirjaudu ulos painike.
+      interface_mobile_old:
+      columns:
+      column1:
+      column2:
+      stream_mobile:
+      views:
       stream: Virta
-      stream_ex1: ~
-      stream_contents1: ~
-      stream_contents2: ~
-      stream_contents3: ~
-      stream_contents4: ~
-      stream_ex2: ~
-      activity: ~
-      activity_ex: ~
-      activity_ex2: ~
-      mentions: ~
-      mentions_ex: ~
+      stream_ex1:
+      stream_contents1:
+      stream_contents2:
+      stream_contents3:
+      stream_contents4:
+      stream_ex2:
+      activity:
+      activity_ex:
+      activity_ex2:
+      mentions:
+      mentions_ex:
       aspects: Näkymäni
-      aspects_ex1: ~
-      aspects_ex2: ~
-      tags: ~
-      tags_ex1: ~
-      tags_ex2: ~
-      public: ~
-      public_ex: ~
-      other_views: ~
-      other_views_ex: ~
+      aspects_ex1:
+      aspects_ex2:
+      tags:
+      tags_ex1:
+      tags_ex2:
+      public:
+      public_ex:
+      other_views:
+      other_views_ex:
       tag_stream: Tagi-syöte
-      tag_stream_ex: ~
-      spv: ~
-      spv_ex: ~
-      profile: ~
-      profile_ex1: ~
-      profile_ex2: ~
-      profile_ex3: ~
-      profile_ex3_mobile: ~
-      profile_ex4: ~
-      profile_ex5: ~
-      profile_ex6: ~
-      profile_ex7: ~
-      profile_ex8: ~
+      tag_stream_ex:
+      spv:
+      spv_ex:
+      profile:
+      profile_ex1:
+      profile_ex2:
+      profile_ex3:
+      profile_ex3_mobile:
+      profile_ex4:
+      profile_ex5:
+      profile_ex6:
+      profile_ex7:
+      profile_ex8:
       themes: Väriteemat
-      themes_ex1: ~
-      themes_list1: ~
-      themes_list2: ~
+      themes_ex1:
+      themes_list1:
+      themes_list2:
       themes_list3: Tummanvihreä
       themes_list4: Magenta
-      themes_list5: ~
-      themes_list6: ~
-      themes_ex2: ~
-      finish: ~
-      finish_mobile: ~
+      themes_list5:
+      themes_list6:
+      themes_ex2:
+      finish:
+      finish_mobile:
     getting_started3:
-      byline: "Osa 3 - Näkymät"
-      menu_title: ~
-      aspects1: ~
-      aspects2: ~
+      byline: Osa 3 - Näkymät
+      menu_title:
+      aspects1:
+      aspects2:
       my_aspects: Näkymäni
-      my_aspects1: ~
-      my_aspects2: ~
-      my_aspects3: ~
-      my_aspects4: ~
-      my_aspects5: ~
-      my_aspects6: ~
-      my_aspects7: ~
-      my_aspects8: ~
-      my_aspects9: ~
-      add_aspect: ~
-      add_aspect1: ~
-      aspects_mobile: ~
-      add_aspect2: ~
-      add_aspect3: ~
-      add_aspect4: ~
-      add_aspect6: ~
-      add_aspect7: ~
-      contacts: ~
-      contact_ex1: ~
-      contact_ex3: ~
-      contact_ex4: ~
-      contact_ex5: ~
-      contact_ex6: ~
-      contact_ex7: ~
-      sharing_me: ~
-      sharing_me_ex: ~
-      finish: ~
+      my_aspects1:
+      my_aspects2:
+      my_aspects3:
+      my_aspects4:
+      my_aspects5:
+      my_aspects6:
+      my_aspects7:
+      my_aspects8:
+      my_aspects9:
+      add_aspect:
+      add_aspect1:
+      aspects_mobile:
+      add_aspect2:
+      add_aspect3:
+      add_aspect4:
+      add_aspect6:
+      add_aspect7:
+      contacts:
+      contact_ex1:
+      contact_ex3:
+      contact_ex4:
+      contact_ex5:
+      contact_ex6:
+      contact_ex7:
+      sharing_me:
+      sharing_me_ex:
+      finish:
     getting_started4:
-      byline: ~
-      menu_title: ~
-      aspects1: ~
-      sharing: ~
-      sharing_ex: ~
-      relationships: ~
-      followers: ~
-      followers_ex1: ~
-      followers_ex2: ~
-      followers_ex3: ~
-      following: ~
-      following_ex1: ~
-      following_ex2: ~
-      mutual: ~
-      mutual_ex1: ~
-      mutual_ex2: ~
-      mutual_ls1: ~
-      mutual_ls2: ~
-      mutual_ls3: ~
-      mutual_ls4: ~
-      mutual_ex3: ~
-      finding: ~
-      finding_ex1: ~
-      finding_ex2: ~
+      byline:
+      menu_title:
+      aspects1:
+      sharing:
+      sharing_ex:
+      relationships:
+      followers:
+      followers_ex1:
+      followers_ex2:
+      followers_ex3:
+      following:
+      following_ex1:
+      following_ex2:
+      mutual:
+      mutual_ex1:
+      mutual_ex2:
+      mutual_ls1:
+      mutual_ls2:
+      mutual_ls3:
+      mutual_ls4:
+      mutual_ex3:
+      finding:
+      finding_ex1:
+      finding_ex2:
       search: Haku
-      search_ex: ~
-      search_ls1: ~
-      search_ls2: ~
-      search_ls3: ~
-      search_ls4: ~
-      search_ls5: ~
-      search_ls6: ~
-      invite: ~
-      invite_ex: ~
-      profile: ~
-      profile_ex1: ~
-      profile_ex2: ~
-      tags: ~
-      tags_ex: ~
-      removing: ~
-      removing_ex1: ~
-      removing_ex2: ~
-      removing_ex3: ~
-      removing_ex4: ~
-      removing_ex5: ~
-      finish: ~
+      search_ex:
+      search_ls1:
+      search_ls2:
+      search_ls3:
+      search_ls4:
+      search_ls5:
+      search_ls6:
+      invite:
+      invite_ex:
+      profile:
+      profile_ex1:
+      profile_ex2:
+      tags:
+      tags_ex:
+      removing:
+      removing_ex1:
+      removing_ex2:
+      removing_ex3:
+      removing_ex4:
+      removing_ex5:
+      finish:
     getting_started5:
-      byline: ~
-      menu_title: ~
-      intro1: ~
-      intro2: ~
-      publisher: ~
-      publisher_ex1: ~
-      publisher_ex2: ~
-      publisher_ex3: ~
-      publisher_ex4: ~
-      buttons: ~
-      top_buttons: ~
-      top_buttons_ex1: ~
+      byline:
+      menu_title:
+      intro1:
+      intro2:
+      publisher:
+      publisher_ex1:
+      publisher_ex2:
+      publisher_ex3:
+      publisher_ex4:
+      buttons:
+      top_buttons:
+      top_buttons_ex1:
       top_buttons_list1: Lihavoi
       top_buttons_list2: Kursivoi
       top_buttons_list3: Otsikko
       top_buttons_list4: Linkki
       top_buttons_list5: Kuva
-      top_buttons_list6: ~
-      top_buttons_list7: ~
+      top_buttons_list6:
+      top_buttons_list7:
       top_buttons_list8: Koodi
-      top_buttons_list9: ~
-      aspect_selector: ~
-      aspect_selector_ex1: ~
-      aspect_selector_ex2: ~
-      aspect_selector_ex3: ~
-      poll: ~
-      poll_ex: ~
-      photo: ~
-      photo_ex: ~
-      locator: ~
-      locator_ex1: ~
-      locator_ex2: ~
-      locator_ex3: ~
-      connected: ~
-      connected_ex1: ~
-      connected_ex2: ~
-      connected_ex3: ~
-      preview: ~
-      preview_ex1: ~
-      buttons_finish: ~
-      features: ~
-      tags: ~
-      tags_ex1: ~
-      tags_ex2: ~
-      nsfw: ~
-      tags_ex3: ~
-      mentions: ~
-      mentions_ex1: ~
-      mentions_ex2: ~
-      mentions_ex3: ~
-      format: ~
-      format_ex1: ~
-      format_ex2: ~
-      format_ex3: ~
+      top_buttons_list9:
+      aspect_selector:
+      aspect_selector_ex1:
+      aspect_selector_ex2:
+      aspect_selector_ex3:
+      poll:
+      poll_ex:
+      photo:
+      photo_ex:
+      locator:
+      locator_ex1:
+      locator_ex2:
+      locator_ex3:
+      preview:
+      preview_ex1:
+      buttons_finish:
+      features:
+      tags:
+      tags_ex1:
+      tags_ex2:
+      nsfw:
+      tags_ex3:
+      mentions:
+      mentions_ex1:
+      mentions_ex2:
+      mentions_ex3:
+      format:
+      format_ex1:
+      format_ex2:
+      format_ex3:
       links: Linkit
-      links_ex1: ~
-      links_ex2: ~
+      links_ex1:
+      links_ex2:
       images: Kuvat
-      images_ex1: ~
-      images_ex2: ~
-      format_note: ~
-      format_link_text: ~
-      links_ex: ~
+      images_ex1:
+      images_ex2:
+      format_note:
+      format_link_text:
+      links_ex:
       embed: Upottaminen
-      embed_ex1: ~
-      embed_ex2: ~
-      services: ~
-      services_ex1: ~
-      services_ex2: ~
-      services_ex3: ~
-      how: ~
-      try_out: ~
-      make_post1: ~
-      make_post2: ~
-      make_post3: ~
-      interact: ~
-      interact_ex1: ~
-      interact_ex2: ~
-      interact_ex3: ~
+      embed_ex1:
+      embed_ex2:
+      how:
+      try_out:
+      make_post1:
+      make_post2:
+      make_post3:
+      interact:
+      interact_ex1:
+      interact_ex2:
+      interact_ex3:
       comments: Kommentit
-      comments_ex: ~
+      comments_ex:
       likes: Tykkäykset
-      likes_ex1: ~
-      likes_ex2: ~
-      reshare: ~
-      reshare_ex: ~
-      post_icons: ~
-      delete: ~
-      delete_ex: ~
-      hide: ~
-      hide_ex: ~
-      notifications: "Ota ilmoitukset käyttöön/poista käytöstä"
-      notifications_ex: ~
-      ignore: ~
-      ignore_ex1: ~
-      ignore_ex1a: ~
-      ignore_ex2: ~
-      report: "Ilmianna julkaisu"
-      report_ex: ~
-      finish: ~
+      likes_ex1:
+      likes_ex2:
+      reshare:
+      reshare_ex:
+      post_icons:
+      delete:
+      delete_ex:
+      hide:
+      hide_ex:
+      notifications: Ota ilmoitukset käyttöön/poista käytöstä
+      notifications_ex:
+      ignore:
+      ignore_ex1:
+      ignore_ex1a:
+      ignore_ex2:
+      report: Ilmianna julkaisu
+      report_ex:
+      finish:
     getting_started6:
-      byline: "Osa 6 - Ilmoitukset ja keskustelut"
-      menu_title: "Ilmoitukset ja keskustelut"
-      intro: ~
+      byline: Osa 6 - Ilmoitukset ja keskustelut
+      menu_title: Ilmoitukset ja keskustelut
+      intro:
       notify: Ilmoitukset
-      notify_ex1: ~
-      notify_ex2: ~
-      notify_ls1: ~
-      notify_ls2: ~
-      notify_ls3: ~
-      notify_ls4: ~
-      notify_ex3: ~
+      notify_ex1:
+      notify_ex2:
+      notify_ls1:
+      notify_ls2:
+      notify_ls3:
+      notify_ls4:
+      notify_ex3:
       convo: Keskustelut
-      convo_ex1: ~
-      convo_ex2: ~
-      convo_ex3: ~
-      convo_ex4: ~
-      convo_ex5: ~
-      convo_ex6: ~
-      convo_ex7: ~
-      convo_ex8: ~
-      convo_ex9: ~
-      finish: ~
+      convo_ex1:
+      convo_ex2:
+      convo_ex3:
+      convo_ex4:
+      convo_ex5:
+      convo_ex6:
+      convo_ex7:
+      convo_ex8:
+      convo_ex9:
+      finish:
     getting_started7:
-      byline: ~
-      menu_title: ~
-      intro: ~
-      connect: ~
-      connect_ex1: ~
-      connect_ex2: ~
-      connect_ex3: ~
-      connect_ex4: ~
-      settings: "Käyttäjätilin hallinta"
-      settings_ex1: ~
-      settings_ex2: ~
+      byline:
+      menu_title:
+      intro:
+      settings: Käyttäjätilin hallinta
+      settings_ex1:
+      settings_ex2:
       profile: Profiili
-      profile_ex1: ~
-      nsfw: ~
-      profile_ex2: ~
-      profile_ex3: ~
+      profile_ex1:
+      nsfw:
+      profile_ex2:
+      profile_ex3:
       account: Käyttäjätili
-      account_ex1: ~
-      account_ex1a: ~
-      account_ex2: ~
-      spotlight: ~
-      spotlight_ex: ~
+      account_ex1:
+      account_ex1a:
+      account_ex2:
+      spotlight:
+      spotlight_ex:
       privacy: Yksityisyys
-      privacy_ex: ~
-      services: Palvelut
-      services_ex: ~
+      privacy_ex:
       applications: Sovellukset
-      applications_ex: ~
-      finish1: ~
-      finish2: ~
+      applications_ex:
+      finish1:
+      finish2:
     formatting:
-      byline: ~
-      menu_title: ~
-      format1: ~
-      format2: ~
-      format3: ~
-      format4: ~
+      byline:
+      menu_title:
+      format1:
+      format2:
+      format3:
+      format4:
       headings: Otsikot
-      headings_ex1: ~
-      headings_code1: "Hyvin iso otsikko"
-      headings_code2: ~
-      headings_code3: ~
-      headings_ex2: ~
+      headings_ex1:
+      headings_code1: Hyvin iso otsikko
+      headings_code2:
+      headings_code3:
+      headings_ex2:
       lists: Listat
-      lists_ex1: ~
-      lists_ex2: ~
-      lists_ex3: ~
-      lists_code1: ~
-      lists_code2: ~
-      lists_code3: ~
-      lists_code4: ~
-      lists_code5: ~
-      lists_code6: ~
+      lists_ex1:
+      lists_ex2:
+      lists_ex3:
+      lists_code1:
+      lists_code2:
+      lists_code3:
+      lists_code4:
+      lists_code5:
+      lists_code6:
       quote: Lainaus
-      quote_ex1: ~
-      quote_code1: ~
-      quote_code2: "Tämä on lainaus."
-      quote_code2a: ~
-      quote_code3: ~
-      pre: ~
-      pre_ex: ~
-      pre_code1: ~
-      pre_code2: ~
-      pre_code3: ~
-      pre_code4: ~
-      pre_code5: ~
-      code: ~
-      code_ex1: ~
-      code_ex2: ~
-      code_code1: ~
-      code_code2: ~
-      code_code3: ~
-      code_code4: ~
-      code_code5: ~
-      code_code6: ~
-      code_snippet_text_a: ~
-      code_snippet_text_b: ~
-      line: ~
-      line_ex: ~
-      line_code1: ~
-      line_code2: ~
-      itals: ~
-      itals_ex1: ~
-      itals_ex2: ~
-      itals_ex3: ~
-      itals_ex4: ~
-      itals_ex8: ~
-      links: ~
-      link_ex1: ~
-      link_code: ~
-      link_ex2: ~
-      inline_link_text: ~
+      quote_ex1:
+      quote_code1:
+      quote_code2: Tämä on lainaus.
+      quote_code2a:
+      quote_code3:
+      pre:
+      pre_ex:
+      pre_code1:
+      pre_code2:
+      pre_code3:
+      pre_code4:
+      pre_code5:
+      code:
+      code_ex1:
+      code_ex2:
+      code_code1:
+      code_code2:
+      code_code3:
+      code_code4:
+      code_code5:
+      code_code6:
+      code_snippet_text_a:
+      code_snippet_text_b:
+      line:
+      line_ex:
+      line_code1:
+      line_code2:
+      itals:
+      itals_ex1:
+      itals_ex2:
+      itals_ex3:
+      itals_ex4:
+      itals_ex8:
+      links:
+      link_ex1:
+      link_code:
+      link_ex2:
+      inline_link_text:
       images: Kuvat
-      images_ex1: ~
-      images_code: ~
-      images_ex2: ~
-      images_ex3: ~
-      escape_ex1: ~
-      escape_code: ~
-      escape_ex2: ~
-      escape_ex3: ~
-      symbols: ~
-      symbols_ex: ~
-      finish: ~
-      markdown_link_text: ~
+      images_ex1:
+      images_code:
+      images_ex2:
+      images_ex3:
+      escape_ex1:
+      escape_code:
+      escape_ex2:
+      escape_ex3:
+      symbols:
+      symbols_ex:
+      finish:
+      markdown_link_text:
     tips:
-      headline: ~
-      byline: ~
-      menu_title: ~
-      intro: ~
-      profile: ~
-      profile_ex: ~
-      notepad: ~
-      notepad_ex: ~
+      headline:
+      byline:
+      menu_title:
+      intro:
+      profile:
+      profile_ex:
+      notepad:
+      notepad_ex:
     other_docs:
-      headline: ~
-      byline: ~
-      menu_title: ~
-      intro1: ~
-      intro2: ~
+      headline:
+      byline:
+      menu_title:
+      intro1:
+      intro2:
       tutorials: Oppaat
-      parfait: ~
-      about: "Lisätietoja diasporasta*"
-      about1: ~
-      wiki: ~
-      wiki_link_text: ~
-      wikipedia: ~
+      parfait:
+      about: Lisätietoja diasporasta*
+      about1:
+      wiki:
+      wiki_link_text:
+      wikipedia:
       wikipedia_link_text: diaspora*
-      wikipedia_software_link_text: ~
+      wikipedia_software_link_text:
       support: Käyttäjätuki
-      question: ~
-      mail: ~
+      question:
+      mail:
       mail_link_text: postituslista
-      irc: ~
+      irc:
       irc_link_text: IRC-kanava
-      progress: ~
-      blog: ~
-      blog_link_text: ~
-      changelog: ~
+      progress:
+      blog:
+      blog_link_text:
+      changelog:
       changelog_link_text: Muutosloki
-      discourse: ~
-      communication: ~
-      communicate: ~
-      communicate_link_text: ~
-      other: ~
-      manifesto: ~
-      manifesto_link_text: ~
+      discourse:
+      communication:
+      communicate:
+      communicate_link_text:
+      other:
+      manifesto:
+      manifesto_link_text:

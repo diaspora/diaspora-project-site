@@ -3,728 +3,1301 @@ nl:
     formats:
       blog_headline: "%d %B %Y"
   buttons:
-    host_pod: "Begin een eigen pod"
-    join_diaspora: "Doe mee!"
-    find_more: "Meer informatie »"
+    host_pod: Begin een eigen pod
+    join_diaspora: Doe mee!
+    find_more: Meer informatie »
   meta:
     footer:
-      copyleft: "CC-BY The diaspora* Foundation"
-  title: "Het diaspora* Project"
-  newsfeed: "De diaspora* Blog (Atom feed)"
-  planet_feed: "De diaspora* Planet (Atom)"
+      copyleft: CC-BY The diaspora* Foundation
+  title: Het diaspora* Project
+  newsfeed: De diaspora* Blog (Atom feed)
+  planet_feed: De diaspora* Planet (Atom)
   layouts:
     application:
       wiki: Wiki
-      discourse: ~
+      discourse:
       planet: Planeet
-      useful_resources: "Nuttige bronnen"
+      useful_resources: Nuttige bronnen
       codebase: Codebase
       documentation: Documentatie
-      report_bugs: "Vind & meld bugs"
-      irc_general: "IRC - Algemeen"
-      irc_development: "IRC - Ontwikkeling"
-      discussion_general: "Discussies - Algemeen"
-      discussion_development: "Discussies - Ontwikkeling"
-      choose_language: "Kies je taal"
-      translate: "Een vertaling toevoegen"
-      cc_license_alt: "Creative Commons License"
+      report_bugs: Vind & meld bugs
+      irc:
+      discussion_general: Discussies - Algemeen
+      discussion_development: Discussies - Ontwikkeling
+      choose_language: Kies je taal
+      translate: Een vertaling toevoegen
+      cc_license_alt: Creative Commons License
       licensed_under: "%{site_link} is gelicenseerd onder %{license_link}"
-      license_link_text: "Creative Commons Naamsvermelding 3.0 Unported Licentie"
+      license_link_text: Creative Commons Naamsvermelding 3.0 Unported Licentie
   pages:
     index:
-      headline: "Welkom op diaspora*"
-      byline: "De online sociale omgeving waar je zelf de baas bent."
+      headline: Welkom op diaspora*
+      byline: De online sociale omgeving waar je zelf de baas bent.
       register: Aanmelden
-      key_philosophies: "diaspora* is gebaseerd op drie kerngedachten:"
+      key_philosophies: 'diaspora* is gebaseerd op drie kerngedachten:'
       decentralization: Decentralisatie
-      decentralization_about: "In plaats van dat alle persoonlijke gegevens in de enorme centrale servers van een grote organisatie zijn opgeslagen, wordt gebruik gemaakt van lokale servers (pods) die overal in de wereld kunnen staan. Je kiest zelf bij welke pod je aangesloten wilt zijn - dat kan je eigen lokale pod zijn - en dan ben je naadloos en wereldwijd verbonden met de diaspora* gemeenschap."
+      decentralization_about: In plaats van dat alle persoonlijke gegevens in de enorme
+        centrale servers van een grote organisatie zijn opgeslagen, wordt gebruik
+        gemaakt van lokale servers (pods) die overal in de wereld kunnen staan. Je
+        kiest zelf bij welke pod je aangesloten wilt zijn - dat kan je eigen lokale
+        pod zijn - en dan ben je naadloos en wereldwijd verbonden met de diaspora*
+        gemeenschap.
       freedom: Vrijheid
-      freedom_about: "In diaspora* ben je wie je wilt zijn. Anders dan bij andere sociale netwerken hoef je niet je echte identiteit te gebruiken. Je kunt met iedereen communiceren op de manier die je zelf wilt. De enige limiet is je eigen creativiteit. diaspora* is ook Vrije Software, die kun je in alle vrijheid zelf gebruiken."
+      freedom_about: In diaspora* ben je wie je wilt zijn. Anders dan bij andere sociale
+        netwerken hoef je niet je echte identiteit te gebruiken. Je kunt met iedereen
+        communiceren op de manier die je zelf wilt. De enige limiet is je eigen creativiteit.
+        diaspora* is ook Vrije Software, die kun je in alle vrijheid zelf gebruiken.
       privacy: Privacy
-      privacy_about: "In diaspora* ben je zelf de eigenaar van jouw informatie. Je draagt het eigendom of gebruiksrecht niet over aan wie dan ook. Met diaspora* zijn jouw vrienden, jouw gedrag en jouw content helemaal je eigen zaak... niet van ons! Bovendien bepaal je zelf wie wat te zien krijgt, door gebruik te maken van Aspecten."
-      get_started: "Wil je beginnnen?"
-      get_started_sub: "Simpeler kan het niet ..."
-      choose_pod: "1. Kies een pod"
-      choose_pod_exp: ~
-      host_yourself: ~
-      sign_up: "2. Schrijf je in"
-      sign_up_ex: "Als je besloten hebt welke pod het beste past, bijvoorbeeld gebaseerd op %{poduptime}, of op basis van aanbevelingen van mensen die je vertrouwt, meld je daar dan aan en creëer een profiel met net zo veel of weinig persoonlijke informatie als je wilt. Jij bepaalt wat je wilt delen!"
-      join_convo: "3. Doe mee!"
-      join_convo_ex: "Begin met het volgen van #tags (onderwerpen) die je interesseren. Dat kunnnen bijvoorbeeld zijn <span class=\"click\">#muziek</span>, <span class=\"click\">#fotografie</span>, <span class=\"click\">#privacy</span>, <span class=\"click\">#linux</span>, alles wat je maar leuk vindt. Plaats ook een bericht met de <span class=\"click\">#nieuwhier</span> tag om je zelf te introduceren. Dat is alles, je bent nu lid van de actieve diaspora* gemeenschap."
+      privacy_about: In diaspora* ben je zelf de eigenaar van jouw informatie. Je
+        draagt het eigendom of gebruiksrecht niet over aan wie dan ook. Met diaspora*
+        zijn jouw vrienden, jouw gedrag en jouw content helemaal je eigen zaak...
+        niet van ons! Bovendien bepaal je zelf wie wat te zien krijgt, door gebruik
+        te maken van Aspecten.
+      get_started: Wil je beginnnen?
+      get_started_sub: Simpeler kan het niet ...
+      choose_pod: 1. Kies een pod
+      choose_pod_exp:
+      host_yourself:
+      sign_up: 2. Schrijf je in
+      sign_up_ex: Als je besloten hebt welke pod het beste past, bijvoorbeeld gebaseerd
+        op %{poduptime}, of op basis van aanbevelingen van mensen die je vertrouwt,
+        meld je daar dan aan en creëer een profiel met net zo veel of weinig persoonlijke
+        informatie als je wilt. Jij bepaalt wat je wilt delen!
+      join_convo: 3. Doe mee!
+      join_convo_ex: 'Begin met het volgen van #tags (onderwerpen) die je interesseren.
+        Dat kunnnen bijvoorbeeld zijn <span class="click">#muziek</span>, <span class="click">#fotografie</span>,
+        <span class="click">#privacy</span>, <span class="click">#linux</span>, alles
+        wat je maar leuk vindt. Plaats ook een bericht met de <span class="click">#nieuwhier</span>
+        tag om je zelf te introduceren. Dat is alles, je bent nu lid van de actieve
+        diaspora* gemeenschap.'
       aspects: Aspecten
-      aspects_ex: "diaspora* ontwikkelde het concept van aspecten, waarmee je je relatienetwerk kunt organiseren volgens de rollen binnen je online leven. Dat betekent dat je iets kunt delen met je familieleden of collega's, terwijl je zeker weet dat ze van elkaar niet kunnen zien wat je binnen dat netwerkje deelt."
+      aspects_ex: diaspora* ontwikkelde het concept van aspecten, waarmee je je relatienetwerk
+        kunt organiseren volgens de rollen binnen je online leven. Dat betekent dat
+        je iets kunt delen met je familieleden of collega's, terwijl je zeker weet
+        dat ze van elkaar niet kunnen zien wat je binnen dat netwerkje deelt.
       features: Mogelijkheden
-      features_ex: "Hashtags bieden je de vrijheid om je interesses heel makkelijk te classificeren en te volgen. Je kunt interesse van anderen wekken door hen te @vermelden. Je kunt berichten die je interessant vindt opnieuw delen en erop reageren. En toon je belangstelling voor de berichten van anderen door ze te ♥-en."
-      help: "Wil je helpen?"
-      help_ex: "diaspora* heeft behoefte aan mensen die kunnen programmeren en testen, om nieuwe deelnemers welkom te heten, om pods in te richten en draaiend te houden en om de mogelijkheden van diaspora* te promoten om het te laten groeien. Denk je dat je mee kunt helpen?"
-      socialint: "Sociale netwerkintegratie"
-      socialint_ex: "diaspora* laat je communiceren met je vrienden, ook als ze nog niet op diaspora* zitten. Verbind gewoon je accounts op andere sociale netwerken en gebruik diaspora* om berichten op die andere netwerken te plaatsen. diaspora* ondersteunt momenteel het delen naar Facebook, Twitter en Tumblr. Andere netwerken volgen misschien later."
+      features_ex: Hashtags bieden je de vrijheid om je interesses heel makkelijk
+        te classificeren en te volgen. Je kunt interesse van anderen wekken door hen
+        te @vermelden. Je kunt berichten die je interessant vindt opnieuw delen en
+        erop reageren. En toon je belangstelling voor de berichten van anderen door
+        ze te ♥-en.
+      help: Wil je helpen?
+      help_ex: diaspora* heeft behoefte aan mensen die kunnen programmeren en testen,
+        om nieuwe deelnemers welkom te heten, om pods in te richten en draaiend te
+        houden en om de mogelijkheden van diaspora* te promoten om het te laten groeien.
+        Denk je dat je mee kunt helpen?
       earth_alt: Earthd*
       decentralized_alt: Gedecentraliseerd
       freedom_alt: Vrijheid
       keyhole_alt: Sleutelgat
       aspects_alt: Aspecten
       features_alt: Mogelijkheden
-      ways_to_help_alt: "Manieren om te helpen"
-      services_alt: Diensten
+      ways_to_help_alt: Manieren om te helpen
     about:
-      headline: "Hoe werkt diaspora*?"
-      byline: "diaspora* is makkelijk te gebruiken. Namelijk als volgt."
+      headline: Hoe werkt diaspora*?
+      byline: diaspora* is makkelijk te gebruiken. Namelijk als volgt.
       menu_title: Over
-      decentralize: "Wat is decentralisatie?"
-      decentralize_ex: "diaspora* is compleet anders dan de meeste netwerken die je kent. Het is volledig gedecentraliseerd, zonder centrale 'hub'/'server'. Toch is het erg makkelijk om contact te leggen en te communiceren met andere mensen. Zo werkt het."
+      decentralize: Wat is decentralisatie?
+      decentralize_ex: diaspora* is compleet anders dan de meeste netwerken die je
+        kent. Het is volledig gedecentraliseerd, zonder centrale 'hub'/'server'. Toch
+        is het erg makkelijk om contact te leggen en te communiceren met andere mensen.
+        Zo werkt het.
       this: ZO
-      this_ex: "diaspora* is een echt netwerk, zonder hoofdkwartier. Er zijn servers ('pods') verspreid over de hele wereld, waarvan elke de gegevens bevat van gebruikers die zelf voor die server gekozen hebben. Deze pods communiceren naadloos met elkaar waardoor je op een willekeurige pod een account kunt aanmaken en moeiteloos kunt communiceren met je contacten op welke andere pod dan ook in het netwerk."
-      notthis: "NIET ZO"
-      notthis_ex: "De meeste sociale netwerken worden gerund vanaf centrale servers die eigendom zijn van (grote) bedrijven. Deze bedrijven slaan alle privégegevens van hun gebruikers op. Deze informatie kan gehackt worden of verloren gaan, en zoals elk systeem met een flessenhals, kan elk probleem(pje) op de centrale servers de snelheid van het systeem verlagen, of het systeem zelfs platleggen. Ook is het voor de overheid veel makkelijker om 'mee te luisteren'."
-      discl: "(diaspora* gebruikt open webstandaarden zoals %{pubsubhubbub} en %{webfinger} om dit soort verbindingen mogelijk te maken.)"
-      connect: "Hoe kan ik communiceren met anderen?"
-      connect_ex: "Hoewel diaspora* bestaat uit veel verschillende pods overal op de wereld, doet het aan als één geïntegreerd netwerk. Je hoeft niet op dezelfde pod als je contacten te zitten om gewoon met ze te kunnen communiceren - de communicatie verloopt naadloos tussen alle pods in het diaspora* universum. Als je diaspora* gebruikt vergeet je daarom makkelijk dat het bestaat uit verschillende pods. Het is heel eenvoudig om een verbinding te leggen met iemand op diaspora*: "
-      find: "1. Vind iemand"
-      find_ex: "Je hoeft iemand alleen maar te vinden en toe te voegen aan een aspect om een verbinding te leggen. (Zie onder voor uitleg over aspecten.) Je kan ze vinden dmv. het zoekveld in de bovenbalk, of beweeg de muispointer over hun naam in je stream zodat een venstertje opengaat. Als je hun diaspora* ID (jouwnaam@podnaam.com) weet, kan je die ook gebruiken."
-      add: "2. Voeg ze toe"
-      add_ex: "Dan hoef je alleen maar op de 'Voeg contact toe' knop te klikken en te kiezen in welk aspect je diegene wilt. Nu heb je een verbinding gelegd en kan je net zoals op andere netwerken met ze delen. Ook kun je mensen aan meerdere aspecten toevoegen. (bijv. 'werk' en 'vrienden') Je bent nu verbonden, zo simpel is het. "
+      this_ex: diaspora* is een echt netwerk, zonder hoofdkwartier. Er zijn servers
+        ('pods') verspreid over de hele wereld, waarvan elke de gegevens bevat van
+        gebruikers die zelf voor die server gekozen hebben. Deze pods communiceren
+        naadloos met elkaar waardoor je op een willekeurige pod een account kunt aanmaken
+        en moeiteloos kunt communiceren met je contacten op welke andere pod dan ook
+        in het netwerk.
+      notthis: NIET ZO
+      notthis_ex: De meeste sociale netwerken worden gerund vanaf centrale servers
+        die eigendom zijn van (grote) bedrijven. Deze bedrijven slaan alle privégegevens
+        van hun gebruikers op. Deze informatie kan gehackt worden of verloren gaan,
+        en zoals elk systeem met een flessenhals, kan elk probleem(pje) op de centrale
+        servers de snelheid van het systeem verlagen, of het systeem zelfs platleggen.
+        Ook is het voor de overheid veel makkelijker om 'mee te luisteren'.
+      discl: "(diaspora* gebruikt open webstandaarden zoals %{pubsubhubbub} en %{webfinger}
+        om dit soort verbindingen mogelijk te maken.)"
+      connect: Hoe kan ik communiceren met anderen?
+      connect_ex: 'Hoewel diaspora* bestaat uit veel verschillende pods overal op
+        de wereld, doet het aan als één geïntegreerd netwerk. Je hoeft niet op dezelfde
+        pod als je contacten te zitten om gewoon met ze te kunnen communiceren - de
+        communicatie verloopt naadloos tussen alle pods in het diaspora* universum.
+        Als je diaspora* gebruikt vergeet je daarom makkelijk dat het bestaat uit
+        verschillende pods. Het is heel eenvoudig om een verbinding te leggen met
+        iemand op diaspora*: '
+      find: 1. Vind iemand
+      find_ex: Je hoeft iemand alleen maar te vinden en toe te voegen aan een aspect
+        om een verbinding te leggen. (Zie onder voor uitleg over aspecten.) Je kan
+        ze vinden dmv. het zoekveld in de bovenbalk, of beweeg de muispointer over
+        hun naam in je stream zodat een venstertje opengaat. Als je hun diaspora*
+        ID (jouwnaam@podnaam.com) weet, kan je die ook gebruiken.
+      add: 2. Voeg ze toe
+      add_ex: 'Dan hoef je alleen maar op de ''Voeg contact toe'' knop te klikken
+        en te kiezen in welk aspect je diegene wilt. Nu heb je een verbinding gelegd
+        en kan je net zoals op andere netwerken met ze delen. Ook kun je mensen aan
+        meerdere aspecten toevoegen. (bijv. ''werk'' en ''vrienden'') Je bent nu verbonden,
+        zo simpel is het. '
       freedom: Vrijheid
-      freedom_byline: "diaspora* probeert niet je te beperken"
-      fdm1: "Wees wie je wilt zijn"
-      fdm1_ex: "Veel netwerken verplichten je je echte naam en identiteit te gebruiken. diaspora* niet. Hier kan je kiezen wie je wilt zijn, en net zo veel of weinig over jezelf delen als je wilt. Het is helemaal aan jou om te bepalen hoe je met andere mensen omgaat."
-      fdm2: "Wees creatief"
-      fdm2_ex: "Er zitten geen grenzen aan je communicatie. Je kan gewoon interessante mensen volgen om te kijken wat die te zeggen hebben, of je kan jouw wereld delen met iedereen. Deel je foto's, kunst, video's, muziek, teksten - wat je maar wilt. Leef je uit."
-      fdm3: "Vrij als in vrijheid"
-      fdm3_ex: "diaspora* is volledig vrije software. Hierdoor zijn de gebruiksmogelijkheden onbeperkt. Je kan zelfs de broncode aanpassen om het te laten functioneren zoals jij wilt en ons te helpen het netwerk te verbeteren. We vinden het fijn als je mee doet."
+      freedom_byline: diaspora* probeert niet je te beperken
+      fdm1: Wees wie je wilt zijn
+      fdm1_ex: Veel netwerken verplichten je je echte naam en identiteit te gebruiken.
+        diaspora* niet. Hier kan je kiezen wie je wilt zijn, en net zo veel of weinig
+        over jezelf delen als je wilt. Het is helemaal aan jou om te bepalen hoe je
+        met andere mensen omgaat.
+      fdm2: Wees creatief
+      fdm2_ex: Er zitten geen grenzen aan je communicatie. Je kan gewoon interessante
+        mensen volgen om te kijken wat die te zeggen hebben, of je kan jouw wereld
+        delen met iedereen. Deel je foto's, kunst, video's, muziek, teksten - wat
+        je maar wilt. Leef je uit.
+      fdm3: Vrij als in vrijheid
+      fdm3_ex: diaspora* is volledig vrije software. Hierdoor zijn de gebruiksmogelijkheden
+        onbeperkt. Je kan zelfs de broncode aanpassen om het te laten functioneren
+        zoals jij wilt en ons te helpen het netwerk te verbeteren. We vinden het fijn
+        als je mee doet.
       privacy: Privacy
-      privacy_byline: "Compleet beheer over wat van jou is "
-      priv1: "Beheer je eigen data"
-      priv1_ex: "Veel netwerken verdienen hun geld door jouw gedrag en interesses te analyseren om 'op maat gesneden' advertenties door je strot te duwen. diaspora* gebruikt je data alleen om je in de gelegenheid te stellen te communiceren en te delen met anderen."
-      priv2: "Host het zelf"
-      priv2_ex: "Kies zelf waar je data opgeslagen is door een pod uit te kiezen die je bevalt. Als je gaat voor maximale veiligheid, kan je ook je eigen pod beginnen en hosten op je eigen server, zodat niemand bij je persoonlijke gegevens kan."
-      priv3: "Kies je publiek"
-      priv3_ex: "De aspecten in diaspora* maken het mogelijk om zelf te bepalen wat je met wie deelt. Je posts kunnen zo publiek of privé zijn als je zelf wilt. Deel bijv. een foto met de hele wereld, of een groot geheim alleen met je beste vrienden. Jij bent de baas."
-      aspects: "Alles over aspecten"
-      aspects_byline: "De sleutel tot privacy in diaspora*"
-      asp1: "Aspecten van je leven"
-      asp1_ex: "In het echt heeft je leven verschillende aspecten, afhankelijk van specifieke situaties. Waarom zou dat online niet zo zijn? Met aspecten in diaspora* kun je je online leven zo organiseren als je wilt en dingen alleen delen met mensen waarmee je dat wilt."
-      asp2: "Organiseer je leven"
-      asp2_ex: "Je kunt bijvoorbeeld verschillende aspecten hebben voor je familie, voor je beste vrienden, voor collega's en voor een sport of hobby die je beoefend. Je collega's hoeven toch niet te weten dat je een familie-reünie hebt? Door het gebruik van aspecten zullen ze dat dan ook niet weten."
-      asp3: "Vertel het aan de hele wereld"
-      asp3_ex: "Er kunnen natuurlijk ook dingen zijn die je met de hele wereld wilt delen. Dat is erg eenvoudig; maak de post 'publiek' en iedereen kan het lezen. Door gebruik te maken van toepasselijke hashtags zal het mensen bereiken die er in geïnteresseerd zijn."
-      features: "Wat wij leuk vinden"
-      features_byline: "En dat ga jij ook doen..."
+      privacy_byline: 'Compleet beheer over wat van jou is '
+      priv1: Beheer je eigen data
+      priv1_ex: Veel netwerken verdienen hun geld door jouw gedrag en interesses te
+        analyseren om 'op maat gesneden' advertenties door je strot te duwen. diaspora*
+        gebruikt je data alleen om je in de gelegenheid te stellen te communiceren
+        en te delen met anderen.
+      priv2: Host het zelf
+      priv2_ex: Kies zelf waar je data opgeslagen is door een pod uit te kiezen die
+        je bevalt. Als je gaat voor maximale veiligheid, kan je ook je eigen pod beginnen
+        en hosten op je eigen server, zodat niemand bij je persoonlijke gegevens kan.
+      priv3: Kies je publiek
+      priv3_ex: De aspecten in diaspora* maken het mogelijk om zelf te bepalen wat
+        je met wie deelt. Je posts kunnen zo publiek of privé zijn als je zelf wilt.
+        Deel bijv. een foto met de hele wereld, of een groot geheim alleen met je
+        beste vrienden. Jij bent de baas.
+      aspects: Alles over aspecten
+      aspects_byline: De sleutel tot privacy in diaspora*
+      asp1: Aspecten van je leven
+      asp1_ex: In het echt heeft je leven verschillende aspecten, afhankelijk van
+        specifieke situaties. Waarom zou dat online niet zo zijn? Met aspecten in
+        diaspora* kun je je online leven zo organiseren als je wilt en dingen alleen
+        delen met mensen waarmee je dat wilt.
+      asp2: Organiseer je leven
+      asp2_ex: Je kunt bijvoorbeeld verschillende aspecten hebben voor je familie,
+        voor je beste vrienden, voor collega's en voor een sport of hobby die je beoefend.
+        Je collega's hoeven toch niet te weten dat je een familie-reünie hebt? Door
+        het gebruik van aspecten zullen ze dat dan ook niet weten.
+      asp3: Vertel het aan de hele wereld
+      asp3_ex: Er kunnen natuurlijk ook dingen zijn die je met de hele wereld wilt
+        delen. Dat is erg eenvoudig; maak de post 'publiek' en iedereen kan het lezen.
+        Door gebruik te maken van toepasselijke hashtags zal het mensen bereiken die
+        er in geïnteresseerd zijn.
+      features: Wat wij leuk vinden
+      features_byline: En dat ga jij ook doen...
       hashtags: Hashtags
-      hashtags_ex: "Hashtags maken het mogelijk je interesses te 'classificeren' en te volgen, en ze zorgen ervoor dat je post gelijkgestemde mensen bereiken. Hashtags zijn  ook een fantastische manier om leuke en interessante nieuwe mensen te ontmoeten op diaspora*."
-      reshare: "Doorgeven (opnieuw delen)"
-      reshare_ex: "Waarom zou je een leuk bericht niet doorgeven (nog een keer delen) met anderen? diaspora* maakt het makkelijk ideeën te verspreiden door ze 'door te geven'. Gewoon op de 'doorgeven' klikken en klaar."
+      hashtags_ex: Hashtags maken het mogelijk je interesses te 'classificeren' en
+        te volgen, en ze zorgen ervoor dat je post gelijkgestemde mensen bereiken.
+        Hashtags zijn  ook een fantastische manier om leuke en interessante nieuwe
+        mensen te ontmoeten op diaspora*.
+      reshare: Doorgeven (opnieuw delen)
+      reshare_ex: Waarom zou je een leuk bericht niet doorgeven (nog een keer delen)
+        met anderen? diaspora* maakt het makkelijk ideeën te verspreiden door ze 'door
+        te geven'. Gewoon op de 'doorgeven' klikken en klaar.
       mentions: Vermeldingen
-      mentions_ex: "Wil je iemands aandacht? Gewoon @gebruikersnaam gebruiken! Op deze manier is het eenvoudig om de aandacht te vragen van één van je contacten voor iets waarvan jij vindt dat ze dat zouden moeten weten."
-      love: "Leuk vinden"
-      love_ex: "Laat blijken dat iets je bevalt door het 'leuk te vinden ♥' Al is het maar omdat woorden soms niet genoeg zijn."
-      host: "Host een publieke pod"
-      host_byline: "Word een van diaspora*'s sterren"
-      host_ex: "diaspora* is afhankelijk van de gemeenschap om pods te beheren en te runnen, die pods staan open voor iedereen die mee wil doen. Mocht je serverruimte en een beetje technische kennis hebben, dan zouden we het fantastisch vinden als je een publieke pod op zou zetten. Hoe meer pods, hoe beter diaspora* werkt - neem deel aan de toekomst van het gedecentraliseerde sociale web!"
-      hostinst1: "Lees de %{instructions_link} om je eigen publieke pod op te zetten."
-      instructions_link_text: "Pod installatieinstructies"
-      hostinst2: "Bekijk een opsomming van de actieve pods: %{poduptime}"
-      distributed_network: "Gedistribueerd netwerk"
-      centralized_network: "Gecentraliseerd netwerk"
+      mentions_ex: Wil je iemands aandacht? Gewoon @gebruikersnaam gebruiken! Op deze
+        manier is het eenvoudig om de aandacht te vragen van één van je contacten
+        voor iets waarvan jij vindt dat ze dat zouden moeten weten.
+      love: Leuk vinden
+      love_ex: Laat blijken dat iets je bevalt door het 'leuk te vinden ♥' Al is het
+        maar omdat woorden soms niet genoeg zijn.
+      host: Host een publieke pod
+      host_byline: Word een van diaspora*'s sterren
+      host_ex: diaspora* is afhankelijk van de gemeenschap om pods te beheren en te
+        runnen, die pods staan open voor iedereen die mee wil doen. Mocht je serverruimte
+        en een beetje technische kennis hebben, dan zouden we het fantastisch vinden
+        als je een publieke pod op zou zetten. Hoe meer pods, hoe beter diaspora*
+        werkt - neem deel aan de toekomst van het gedecentraliseerde sociale web!
+      hostinst1: Lees de %{instructions_link} om je eigen publieke pod op te zetten.
+      instructions_link_text: Pod installatieinstructies
+      hostinst2: 'Bekijk een opsomming van de actieve pods: %{poduptime}'
+      distributed_network: Gedistribueerd netwerk
+      centralized_network: Gecentraliseerd netwerk
       search_alt: Zoeken
-      add_a_contact_alt: "Contact toevoegen"
+      add_a_contact_alt: Contact toevoegen
       hashtag_alt: Hashtag
-      reshare_alt: "Opnieuw delen"
+      reshare_alt: Opnieuw delen
       mention_alt: Vermelden
       heart_alt: Hart
     get_involved:
-      headline: "Doe mee!"
-      byline: "De toekomst van het sociale web begint bij jou"
-      menu_title: "Doe mee"
-      community: "Door en voor de gemeenschap"
-      community_byline: "diaspora* is van jou"
-      meaning: "Waar gaat het over?"
-      meaning_ex1: "Vrije Software gaat over individualiteit, transparantie, creativiteit en zelfredzaamheid. Het is het realiseren van ideeën. diaspora* is ontwikkeld om plezier te hebben en om van internet een betere plaats te maken. Met Vrije Software kunnen we de wereld voor onszelf veranderen, en onze vrienden op het web mee te laten profiteren van onze onderzoekingen."
-      meaning_ex2: "Vrije Software gemeenschappen zijn een fantastisch ding. Wij op diaspora* geloven dat mensen gewaardeerd horen te worden voor wat ze doen. Daarbij maakt het niet uit of je een top programmeur bent of voor het eerst iets bijdraagt aan een project. Bijdragen aan diaspora* betekent problemen oplossen, met als doel bruikbare oplossingen voor de gebruikers te creëren."
-      meaning_ex3: "Vandaar dat we je toegang tot de broncode geven als je een zinvolle bijdrage aan diaspora* hebt. We doen dit samen en we willen enthousiaste mensen de kans geven veel te veranderen."
-      whereyou: "Wat jij kunt doen"
-      whereyou_ex1: "We maken diaspora* samen. Nu mogen we je dan nog niet kennen, maar we zouden het te gek vinden om kennis te maken en uit te vinden hoe jij mee zou kunnen helpen aan het bouwen van de toekomst van het web. We hebben ieder de potentie om de wereld te veranderen, als we er de gelegenheid maar voor krijgen."
-      whereyou_ex2: "Op allerlei manieren kun je mee helpen diaspora verder te helpen. Of je nu als gebruiker bugs rapporteert, constructief reageert op onze maillijsten of code of designs produceert, jouw bijdrage maakt het verschil."
-      gi_header: "Manieren om betrokken te raken bij diaspora*"
-      code_header: "Draag code bij"
-      code_byline: "De broncode ophalen is makkelijk."
-      code_ex1: "Kloon de 'repository' en kijk wat rond: %{clone_code}"
-      code_ex2: "Installeer jouw ontwikkelomgeving"
-      code_ex3: "Begin code bij te dragen!"
-      code_ex4: "Er staat een grote gemeenschap klaar om je op weg te helpen. We raden je aan om onze %{get_started_guide_link}, %{mailing_list_link} te lezen en we verheugen ons erop je te ontmoeten in de %{irc_link}."
+      headline: Doe mee!
+      byline: De toekomst van het sociale web begint bij jou
+      menu_title: Doe mee
+      community: Door en voor de gemeenschap
+      community_byline: diaspora* is van jou
+      meaning: Waar gaat het over?
+      meaning_ex1: Vrije Software gaat over individualiteit, transparantie, creativiteit
+        en zelfredzaamheid. Het is het realiseren van ideeën. diaspora* is ontwikkeld
+        om plezier te hebben en om van internet een betere plaats te maken. Met Vrije
+        Software kunnen we de wereld voor onszelf veranderen, en onze vrienden op
+        het web mee te laten profiteren van onze onderzoekingen.
+      meaning_ex2: Vrije Software gemeenschappen zijn een fantastisch ding. Wij op
+        diaspora* geloven dat mensen gewaardeerd horen te worden voor wat ze doen.
+        Daarbij maakt het niet uit of je een top programmeur bent of voor het eerst
+        iets bijdraagt aan een project. Bijdragen aan diaspora* betekent problemen
+        oplossen, met als doel bruikbare oplossingen voor de gebruikers te creëren.
+      meaning_ex3: Vandaar dat we je toegang tot de broncode geven als je een zinvolle
+        bijdrage aan diaspora* hebt. We doen dit samen en we willen enthousiaste mensen
+        de kans geven veel te veranderen.
+      whereyou: Wat jij kunt doen
+      whereyou_ex1: We maken diaspora* samen. Nu mogen we je dan nog niet kennen,
+        maar we zouden het te gek vinden om kennis te maken en uit te vinden hoe jij
+        mee zou kunnen helpen aan het bouwen van de toekomst van het web. We hebben
+        ieder de potentie om de wereld te veranderen, als we er de gelegenheid maar
+        voor krijgen.
+      whereyou_ex2: Op allerlei manieren kun je mee helpen diaspora verder te helpen.
+        Of je nu als gebruiker bugs rapporteert, constructief reageert op onze maillijsten
+        of code of designs produceert, jouw bijdrage maakt het verschil.
+      gi_header: Manieren om betrokken te raken bij diaspora*
+      code_header: Draag code bij
+      code_byline: De broncode ophalen is makkelijk.
+      code_ex1: 'Kloon de ''repository'' en kijk wat rond: %{clone_code}'
+      code_ex2: Installeer jouw ontwikkelomgeving
+      code_ex3: Begin code bij te dragen!
+      code_ex4: Er staat een grote gemeenschap klaar om je op weg te helpen. We raden
+        je aan om onze %{get_started_guide_link}, %{mailing_list_link} te lezen en
+        we verheugen ons erop je te ontmoeten in de %{irc_link}.
       get_started_guide_link_text: Inleiding
-      discourse_link_text: ~
-      irc_link_text: "diaspora* IRC rooom"
-      code_gh: "Bekijk de broncode op GitHub"
-      bugs_header: "Plet bugs"
-      bugs_ex1: "Ons project maakt gebruik van Code Triage, een vrijwilligersproject waarbij gebruikers en ontwikkelaars samenwerken om bugs te verhelpen in onze GitHub Issue tracker"
-      bugs_ex2: "Het elimineren van bugs helpt iedereen en kan nieuwkomers de werking van de verschillende onderdelen van diaspora* beter leren kennen."
-      bugs_ex3: "Help ons onze code op te schonen"
-      github_link_text: "GitHub Issue Tracker"
-      translate_header: "Help met vertalen"
-      translate_ex1: "Je kunt helpen diaspora* in andere talen te vertalen door mee te doen met de %{translations_link}."
+      discourse_link_text:
+      irc_link_text: diaspora* IRC rooom
+      code_gh: Bekijk de broncode op GitHub
+      bugs_header: Plet bugs
+      bugs_ex1: Ons project maakt gebruik van Code Triage, een vrijwilligersproject
+        waarbij gebruikers en ontwikkelaars samenwerken om bugs te verhelpen in onze
+        GitHub Issue tracker
+      bugs_ex2: Het elimineren van bugs helpt iedereen en kan nieuwkomers de werking
+        van de verschillende onderdelen van diaspora* beter leren kennen.
+      bugs_ex3: Help ons onze code op te schonen
+      github_link_text: GitHub Issue Tracker
+      translate_header: Help met vertalen
+      translate_ex1: Je kunt helpen diaspora* in andere talen te vertalen door mee
+        te doen met de %{translations_link}.
       translations_link_text: Vertaalgroep
-      translate_ex2: "Lees onze  %{translation_instructions_link} over hoe te beginnen."
-      translation_instructions_link_text: "vertaalinstructies "
-      voice_header: "Laat je mening horen."
-      voice_ex1: ~
-      voice_ex2: "Doe hier mee"
-      voice_ex3: "Je kunt natuurlijk ook je vrienden en familie overhalen om op diaspora* te komen door je eigen %{meetup_link} voor je eigen kennissenkring te organiseren."
-      meetup_link_text: "meetup "
-      support_header: "Bied ondersteuning"
-      support_ex1: "Help nieuwe gebruikers zich welkom voelen!"
-      support_ex2: "Schrijf je hier in"
-      support_ex3: "Schrijf handleidingen op %{tutorials_link}."
-      support_ex4: "Beantwoord vragen van gebruikers op %{irc_channel_link} of beantwoord gebruikersvragen op diaspora* zelf, door de #help, #vraag en feedback hashtags te volgen."
-      irc_channel_link_text: "IRC kanaal"
-      support_ex5: "Draag bij aan de %{wiki_link}."
-      wiki_link_text: "diaspora* wiki"
-      run_header: "Zet een openbare pod op"
-      run_ex1: "Nu hoef je je data niet meer uit handen te geven op de server van iemand anders. Omdat diaspora* volledig vrije software is, maken we het steeds eenvoudiger voor mensen om hun eigen %{host_pod_link}."
-      host_pod_link_text: "hosten hun eigen pods op diaspora*"
-      run_ex2: "Je kan het hosten waar je maar wilt"
-      run_ex3: "Voeg je pod toe aan de lijst van openbare pods op %{poduptime}"
-      contributors_header: "diaspora*'s bijdragers"
-      contributors_byline: "De mensen maken diaspora* tot wat het is"
+      translate_ex2: Lees onze  %{translation_instructions_link} over hoe te beginnen.
+      translation_instructions_link_text: 'vertaalinstructies '
+      voice_header: Laat je mening horen.
+      voice_ex1:
+      voice_ex2: Doe hier mee
+      voice_ex3: Je kunt natuurlijk ook je vrienden en familie overhalen om op diaspora*
+        te komen door je eigen %{meetup_link} voor je eigen kennissenkring te organiseren.
+      meetup_link_text: 'meetup '
+      support_header: Bied ondersteuning
+      support_ex1: Help nieuwe gebruikers zich welkom voelen!
+      support_ex2: Schrijf je hier in
+      support_ex3: Schrijf handleidingen op %{tutorials_link}.
+      support_ex4: 'Beantwoord vragen van gebruikers op %{irc_channel_link} of beantwoord
+        gebruikersvragen op diaspora* zelf, door de #help, #vraag en feedback hashtags
+        te volgen.'
+      irc_channel_link_text: IRC kanaal
+      support_ex5: Draag bij aan de %{wiki_link}.
+      wiki_link_text: diaspora* wiki
+      run_header: Zet een openbare pod op
+      run_ex1: Nu hoef je je data niet meer uit handen te geven op de server van iemand
+        anders. Omdat diaspora* volledig vrije software is, maken we het steeds eenvoudiger
+        voor mensen om hun eigen %{host_pod_link}.
+      host_pod_link_text: hosten hun eigen pods op diaspora*
+      run_ex2: Je kan het hosten waar je maar wilt
+      run_ex3: Voeg je pod toe aan de lijst van openbare pods op %{poduptime}
+      contributors_header: diaspora*'s bijdragers
+      contributors_byline: De mensen maken diaspora* tot wat het is
       globe_alt: Globe
       megaphone_alt: Megafoon
       support_alt: Ondersteuning
       pod_alt: Pod
     blog:
-      headline: "Het diaspora* blog"
-      subline: "officiële aankondigingen"
+      headline: Het diaspora* blog
+      subline: officiële aankondigingen
       menu_title: Blog
     planet:
-      headline: "De diaspora* planeet"
-      subline: "blogsberichten vanuit de community"
+      headline: De diaspora* planeet
+      subline: blogsberichten vanuit de community
       menu_title: Planeet
-      disclaimer_headline: "De diaspora* planet"
-      disclaimer: "De planet is een verzameling van blogberichten die zijn geschreven door leden van de community en die de mening van de afzonderlijke leden weergeven. Alle berichten zijn eigendom van de auteurs. Zie de originele berichten voor meer informatie."
+      disclaimer_headline: De diaspora* planet
+      disclaimer: De planet is een verzameling van blogberichten die zijn geschreven
+        door leden van de community en die de mening van de afzonderlijke leden weergeven.
+        Alle berichten zijn eigendom van de auteurs. Zie de originele berichten voor
+        meer informatie.
       subscribe_headline: Abonneren
-      subscribe: "Je kunt op de hoogte blijven door je te abonneren op de planets %{feed_link}"
-      feed_link_title: "Atom feed"
+      subscribe: Je kunt op de hoogte blijven door je te abonneren op de planets %{feed_link}
+      feed_link_title: Atom feed
       subscriptions_headline: Abonnementen
     community_guidelines:
-      headline: ~
-      byline: ~
-      menu_title: ~
-      statement1: ~
-      statement2: ~
-      statement3: ~
-      be_excellent: ~
-      howto: ~
-      howto_language: ~
-      howto_viewpoints_experiences: ~
-      howto_constructive_criticism: ~
-      howto_empathy: ~
-      howto_sexualized_language: ~
-      howto_troll: ~
-      howto_harassment: ~
-      howto_benefit_of_doubt: ~
+      headline:
+      byline:
+      menu_title:
+      statement1:
+      statement2:
+      statement3:
+      be_excellent:
+      howto:
+      howto_language:
+      howto_viewpoints_experiences:
+      howto_constructive_criticism:
+      howto_empathy:
+      howto_sexualized_language:
+      howto_troll:
+      howto_harassment:
+      howto_benefit_of_doubt:
     tutorials:
-      headline: "diaspora* instructies"
-      byline: "Stap-voor-stap gidsen om je te helpen"
+      headline: diaspora* instructies
+      byline: Stap-voor-stap gidsen om je te helpen
       menu_title: Instructies
-      tutorials_ex1: "Welkom bij de diaspora* instructies. Op deze pagina vind je een overzicht van al onze diaspora* instructies, verdeeld in een \"Begin met diaspora*\" serie en losse instructies voor speciale taken. Als je nieuw bent bij diaspora*, of als je jezelf nog niet hebt aangemeld, adviseren we je om de \"Begin met diaspora*\" serie te starten. Als je iets speciaals wilt doen, kijk dan even naar de andere instructies."
-      tutorials_ex2: "We proberen deze instructies te actualiseren samen met de diaspora* ontwikkelingen. Het kan zijn dat jouw pod niet de laatste versie van diaspora* gebruikt, waardoor sommige instructies voor jou iets anders uitwerken. Kijk op %{podup_link} om te zien welke versie van de software op jouw pod draait."
-      started_head: "Beginnen met diaspora*"
+      tutorials_ex1: Welkom bij de diaspora* instructies. Op deze pagina vind je een
+        overzicht van al onze diaspora* instructies, verdeeld in een "Begin met diaspora*"
+        serie en losse instructies voor speciale taken. Als je nieuw bent bij diaspora*,
+        of als je jezelf nog niet hebt aangemeld, adviseren we je om de "Begin met
+        diaspora*" serie te starten. Als je iets speciaals wilt doen, kijk dan even
+        naar de andere instructies.
+      tutorials_ex2: We proberen deze instructies te actualiseren samen met de diaspora*
+        ontwikkelingen. Het kan zijn dat jouw pod niet de laatste versie van diaspora*
+        gebruikt, waardoor sommige instructies voor jou iets anders uitwerken. Kijk
+        op %{podup_link} om te zien welke versie van de software op jouw pod draait.
+      started_head: Beginnen met diaspora*
       started1: Aanmelden
-      started2: "De interface"
+      started2: De interface
       started3: Aspecten
-      started4: "Mensen vinden en een verbinding maken"
-      started5: "Begin te delen!"
-      started6: "Meldingen en gesprekken"
+      started4: Mensen vinden en een verbinding maken
+      started5: Begin te delen!
+      started6: Meldingen en gesprekken
       started7: Voltooien
-      part1: "Deel 1"
-      part2: "Deel 2"
-      part3: "Deel 3"
-      part4: "Deel 4"
-      part5: "Deel 5"
-      part6: "Deel 6"
-      part7: "Deel 7"
-      additional: "Extra instructies"
-      connecting: "diaspora* verbinden met andere diensten"
-      tips: "Tips en Trucs"
-      formatting: "Tekst opmaken"
-      more_tutorials: "Wil je meer hulp?"
-      other_docs: "Bekijk onze %{other_docs_link} pagina voor links naar andere sites."
-      other_docs_link_text: "Verdere documentatie"
-      thanks: "We willen Kevin Kleinman hartelijk bedanken voor het ontwikkelen van de originele Diasporial instructies, waar de nieuwe instructies op zijn gebaseerd."
+      part1: Deel 1
+      part2: Deel 2
+      part3: Deel 3
+      part4: Deel 4
+      part5: Deel 5
+      part6: Deel 6
+      part7: Deel 7
+      additional: Extra instructies
+      tips: Tips en Trucs
+      formatting: Tekst opmaken
+      more_tutorials: Wil je meer hulp?
+      other_docs: Bekijk onze %{other_docs_link} pagina voor links naar andere sites.
+      other_docs_link_text: Verdere documentatie
+      thanks: We willen Kevin Kleinman hartelijk bedanken voor het ontwikkelen van
+        de originele Diasporial instructies, waar de nieuwe instructies op zijn gebaseerd.
     getting_started1:
-      byline: "Deel 1 - Aanmelden"
-      menu_title: "Aanmelden bij diaspora*"
-      welcome: "Welkom bij onze Beginners instructies. Dat je hier bent aangeland betekent dat je ofwel net bij diaspora* bent aangemeld, of dat je daarover nadenkt. In deze instructies begeleiden we je door het aanmeldproces en laten we je kennis maken met de manier waarop diaspora* werkt. We hopen dat we je goed kunnen helpen en dat je diaspora* leuk gaat vinden."
-      find_pod: "Een pod vinden"
-      find_pod_intro: ~
-      find_pod_ex1: "Anders dan de meeste andere sociale netwerken, die centrale servers hebben waarop alle gegevens van alle gebruikers worden opgeslagen, kunnen we je niet maar één link geven en je vertellen dat je daar maar een account moet maken. diaspora* is anders dan de andere netwerken doordat het is <em>gedecentraliseerd</em>, met heel veel toegangspunten. Voordat je een account aanmaakt, moet je eerst een diaspora* provider kiezen waarop je een account maakt. Die providers heten \"pods\"."
-      find_pod_ex2: "Het woord \"diaspora\" refereert aan de verspreiding van zaden (of mensen) over een groot gebied. Dat is ook waarom ons logo een paardenbloem is, de asterisk in onze naam staat voor het pluisje. De afzonderlijke accounts op diaspora* heten \"<strong>pluisjes</strong>\" en de servers waarop die accounts staan geregistreerd noemen we \"<strong>pods</strong>\". Je went er snel genoeg aan!"
-      find_pod_ex3: "Om je te helpen kiezen welke pod het beste bij jou past kun je kijken naar %{wiki_link}."
-      wiki_link_text: "gids om een pod te kiezen"
-      find_pod_ex4: "Misschien heb je een uitnodiging voor diaspora* gekregen van iemand die je kent. In dat geval heb je een link gekregen naar de diaspora* pod waar die persoon is geregistreerd. Als je jezelf wilt aanmelden op dezelfde pod dan kun je eenvoudigweg de link volgen. Je hoeft je echter niet per se op dezelfde pod aan te melden om met je vriend te kunnen communiceren."
-      find_pod_ex5: "Je logt altijd in op diaspora* via dezelfde pod als waarop je jezelf hebt aangemeld en waar dus je account wordt beheerd. Vanaf jouw pod ben je verbonden met het hele diaspora* netwerk. Via welke pod je ook meedoet moet eigenlijk niet veel uitmaken voor je gebruikservaring. Je kunt met je account niet inloggen op een andere pod, maar ach, dat hoeft ook niet."
+      byline: Deel 1 - Aanmelden
+      menu_title: Aanmelden bij diaspora*
+      welcome: Welkom bij onze Beginners instructies. Dat je hier bent aangeland betekent
+        dat je ofwel net bij diaspora* bent aangemeld, of dat je daarover nadenkt.
+        In deze instructies begeleiden we je door het aanmeldproces en laten we je
+        kennis maken met de manier waarop diaspora* werkt. We hopen dat we je goed
+        kunnen helpen en dat je diaspora* leuk gaat vinden.
+      find_pod: Een pod vinden
+      find_pod_intro:
+      find_pod_ex1: Anders dan de meeste andere sociale netwerken, die centrale servers
+        hebben waarop alle gegevens van alle gebruikers worden opgeslagen, kunnen
+        we je niet maar één link geven en je vertellen dat je daar maar een account
+        moet maken. diaspora* is anders dan de andere netwerken doordat het is <em>gedecentraliseerd</em>,
+        met heel veel toegangspunten. Voordat je een account aanmaakt, moet je eerst
+        een diaspora* provider kiezen waarop je een account maakt. Die providers heten
+        "pods".
+      find_pod_ex2: Het woord "diaspora" refereert aan de verspreiding van zaden (of
+        mensen) over een groot gebied. Dat is ook waarom ons logo een paardenbloem
+        is, de asterisk in onze naam staat voor het pluisje. De afzonderlijke accounts
+        op diaspora* heten "<strong>pluisjes</strong>" en de servers waarop die accounts
+        staan geregistreerd noemen we "<strong>pods</strong>". Je went er snel genoeg
+        aan!
+      find_pod_ex3: Om je te helpen kiezen welke pod het beste bij jou past kun je
+        kijken naar %{wiki_link}.
+      wiki_link_text: gids om een pod te kiezen
+      find_pod_ex4: Misschien heb je een uitnodiging voor diaspora* gekregen van iemand
+        die je kent. In dat geval heb je een link gekregen naar de diaspora* pod waar
+        die persoon is geregistreerd. Als je jezelf wilt aanmelden op dezelfde pod
+        dan kun je eenvoudigweg de link volgen. Je hoeft je echter niet per se op
+        dezelfde pod aan te melden om met je vriend te kunnen communiceren.
+      find_pod_ex5: Je logt altijd in op diaspora* via dezelfde pod als waarop je
+        jezelf hebt aangemeld en waar dus je account wordt beheerd. Vanaf jouw pod
+        ben je verbonden met het hele diaspora* netwerk. Via welke pod je ook meedoet
+        moet eigenlijk niet veel uitmaken voor je gebruikservaring. Je kunt met je
+        account niet inloggen op een andere pod, maar ach, dat hoeft ook niet.
       registration: Registratie
-      registration1: "Als je een pod hebt gekozen, klik daar dan op de <span class=\"click\">Aanmelden</span> of op de <span class=\"click\">Sign up</span>link. Die staat op de startpagina van de pod. Als die link er niet staat, dan kan het zijn dat die pod op dat moment geen nieuwe accounts accepteert. In dat geval zoek je gewoon een andere pod."
-      registration2: "Als je op de aanmeldlink klikt, verschijnt er een pagina waarop je een gebruikersnaam, e-mailadres en wachtwoord kunt opgeven. Denk goed na over de gebruikersnaam die je wilt gebruiken, je kunt die later niet meer wijzigen."
-      registration3: "Rond de registratie af door te klikken op  <span class=\"click\">Doorgaan</span> of <span class=\"click\">Continue</span> om je nieuwe diaspora* account te kunnen gebruiken!"
-      registration4: "Tijdens het aanmeldproces wordt jouw account waarschijnlijk automatisch verbonden met een ander account. Dit is standaard je %{dhq_link} account, maar het kan ook je pod beheerder's account zijn. Dit doen we om je in de toekomst te kunnen informeren over belangrijke informatie over diaspora*. Als je dat niet wilt, dan kun je dat account simpelweg verwijderen vanuit je contactpersonenlijst. We behandelen dit in %{part_link}."
-      dhq_link_text: "diaspora* HQ"
-      registration5: "Je ziet vervolgens een \"Beginnen\" pagina. Dit is niet verplicht, maar het invullen daarvan helpt veel bij het in contact komen met anderen."
-      registration6: "Geef in het eerste veld de naam op die je wilt gebruiken als weergavenaam."
-      registration7: "Druk op de knop om een profielfoto vanaf je computer te uploaden."
-      registration8: "Als je je diaspora* account wilt verbinden met je Facebook account, klik dan op de link om dat automatisch te doen. Dan wordt door diaspora* je naam en profielfoto van je Facebook account gebruikt."
-      registration9: "Voeg een paar zaken toe die je interesseren. Bijvoorbeeld muziek, activisme, je woonplaats. Deze termen worden omgezet in #tags, waardoor je zelf makkelijk kunt zoeken en waardoor je ook makkelijker gevonden wordt door anderen. We leggen het gebruik van #tags later uit."
-      profile1: "Voor je verder gaat, kun je het beste even je profiel verder aanvullen. In de werkbalk waar je terecht bent gekomen klik je op je naam of profielfoto rechtsboven en kies <span class=\"click\">Profiel</span> uit de uitklaplijst. Klik daarna op de blauwe <span class=\"click\">Bewerk mijn profiel</span> knop rechtsboven."
-      profile2: "Je profiel bestaat uit twee delen: je publieke profiel en je privé profiel. Het publieke profiel is voor iedereen zichtbaar; je privé profiel is uitsluitend zichtbaar voor de mensen met wie jij kiest om te delen. Je mag in je profiel zoveel of zo weinig invullen als je zelf wil, je hoeft ook niet je echte naam te gebruiken als je dat niet wenst."
-      profile3: "De meeste velden van je profiel spreken voor zich. NSFW betekend \"not safe for work\". We gaan daar later dieper op in (in  %{part_link}) dus maak je hier nu geen zorgen over."
-      profile4: "Vergeet niet op de <span class=\"click\">Profiel bijwerken</span> knop te drukken als je klaar bent!"
-      finish: "Dat is alles!"
-      finish_ex1: "Je bent nu helemaal klaar om diaspora* te gebruiken! Klik op het asterisk logo of op <span class=\"click\">Stream</span> linksboven om te starten."
-      finish_ex2: "Als je snel nieuwe mensen wilt ontmoeten en welkom geheten wilt worden door de diaspora* gemeenschap en als je niet bang bent, plaats dan een <strong>openbaar</strong> bericht om jezelf te introduceren. Zet de tag <span class=\"click\">#nieuwhier</span> in het bericht. Openbare berichten met tags plaatsen is een goede manier om nieuwe vrienden op diaspora* te maken. Als je niet precies weet hoe dat werkt, geen probleem, we hebben in %{part_link} een stap-voor-stap instructie om je te begeleiden bij het plaatsen van je eerste bericht."
+      registration1: Als je een pod hebt gekozen, klik daar dan op de <span class="click">Aanmelden</span>
+        of op de <span class="click">Sign up</span>link. Die staat op de startpagina
+        van de pod. Als die link er niet staat, dan kan het zijn dat die pod op dat
+        moment geen nieuwe accounts accepteert. In dat geval zoek je gewoon een andere
+        pod.
+      registration2: Als je op de aanmeldlink klikt, verschijnt er een pagina waarop
+        je een gebruikersnaam, e-mailadres en wachtwoord kunt opgeven. Denk goed na
+        over de gebruikersnaam die je wilt gebruiken, je kunt die later niet meer
+        wijzigen.
+      registration3: Rond de registratie af door te klikken op  <span class="click">Doorgaan</span>
+        of <span class="click">Continue</span> om je nieuwe diaspora* account te kunnen
+        gebruiken!
+      registration4: Tijdens het aanmeldproces wordt jouw account waarschijnlijk automatisch
+        verbonden met een ander account. Dit is standaard je %{dhq_link} account,
+        maar het kan ook je pod beheerder's account zijn. Dit doen we om je in de
+        toekomst te kunnen informeren over belangrijke informatie over diaspora*.
+        Als je dat niet wilt, dan kun je dat account simpelweg verwijderen vanuit
+        je contactpersonenlijst. We behandelen dit in %{part_link}.
+      dhq_link_text: diaspora* HQ
+      registration5: Je ziet vervolgens een "Beginnen" pagina. Dit is niet verplicht,
+        maar het invullen daarvan helpt veel bij het in contact komen met anderen.
+      registration6: Geef in het eerste veld de naam op die je wilt gebruiken als
+        weergavenaam.
+      registration7: Druk op de knop om een profielfoto vanaf je computer te uploaden.
+      registration8: Als je je diaspora* account wilt verbinden met je Facebook account,
+        klik dan op de link om dat automatisch te doen. Dan wordt door diaspora* je
+        naam en profielfoto van je Facebook account gebruikt.
+      registration9: 'Voeg een paar zaken toe die je interesseren. Bijvoorbeeld muziek,
+        activisme, je woonplaats. Deze termen worden omgezet in #tags, waardoor je
+        zelf makkelijk kunt zoeken en waardoor je ook makkelijker gevonden wordt door
+        anderen. We leggen het gebruik van #tags later uit.'
+      profile1: Voor je verder gaat, kun je het beste even je profiel verder aanvullen.
+        In de werkbalk waar je terecht bent gekomen klik je op je naam of profielfoto
+        rechtsboven en kies <span class="click">Profiel</span> uit de uitklaplijst.
+        Klik daarna op de blauwe <span class="click">Bewerk mijn profiel</span> knop
+        rechtsboven.
+      profile2: 'Je profiel bestaat uit twee delen: je publieke profiel en je privé
+        profiel. Het publieke profiel is voor iedereen zichtbaar; je privé profiel
+        is uitsluitend zichtbaar voor de mensen met wie jij kiest om te delen. Je
+        mag in je profiel zoveel of zo weinig invullen als je zelf wil, je hoeft ook
+        niet je echte naam te gebruiken als je dat niet wenst.'
+      profile3: De meeste velden van je profiel spreken voor zich. NSFW betekend "not
+        safe for work". We gaan daar later dieper op in (in  %{part_link}) dus maak
+        je hier nu geen zorgen over.
+      profile4: Vergeet niet op de <span class="click">Profiel bijwerken</span> knop
+        te drukken als je klaar bent!
+      finish: Dat is alles!
+      finish_ex1: Je bent nu helemaal klaar om diaspora* te gebruiken! Klik op het
+        asterisk logo of op <span class="click">Stream</span> linksboven om te starten.
+      finish_ex2: Als je snel nieuwe mensen wilt ontmoeten en welkom geheten wilt
+        worden door de diaspora* gemeenschap en als je niet bang bent, plaats dan
+        een <strong>openbaar</strong> bericht om jezelf te introduceren. Zet de tag
+        <span class="click">#nieuwhier</span> in het bericht. Openbare berichten met
+        tags plaatsen is een goede manier om nieuwe vrienden op diaspora* te maken.
+        Als je niet precies weet hoe dat werkt, geen probleem, we hebben in %{part_link}
+        een stap-voor-stap instructie om je te begeleiden bij het plaatsen van je
+        eerste bericht.
     getting_started2:
-      byline: "Deel 2 - De interface"
-      menu_title: "De interface gebruiken"
-      menu_title_mobile: ~
-      interface_mobile: ~
-      interface_desktop: ~
-      click_here_text: ~
-      interface1: "Je kijkt nu naar een ongebruikelijke interface. Als je nog steeds op de profielbeheerpagina staat, klik dan eerst op het asterisk logo of op <span class=\"click\">Stream</span> linksboven in de zwarte balk. Laten we dan eens snel naar het overzicht kijken om er aan te wennen."
+      byline: Deel 2 - De interface
+      menu_title: De interface gebruiken
+      menu_title_mobile:
+      interface_mobile:
+      interface_desktop:
+      click_here_text:
+      interface1: Je kijkt nu naar een ongebruikelijke interface. Als je nog steeds
+        op de profielbeheerpagina staat, klik dan eerst op het asterisk logo of op
+        <span class="click">Stream</span> linksboven in de zwarte balk. Laten we dan
+        eens snel naar het overzicht kijken om er aan te wennen.
       interface2: |-
-          Door het gedecentraliseerde en open-source karakter van diaspora*, is het mogelijk voor podbeheerders om hun pods naar eigen smaak aan te passen.
-          Hierdoor is het mogelijk dat, afhankelijk van op welke pod je bent aangemeld, de interface er iets anders uitziet dan hier is beschreven. Hoe dan ook, de essentiële elementen zouden allemaal aanwezig moeten zijn, ook al zijn ze een beetje anders geranschikt.
-      interface3: "De gebruikersinterface is onderverdeeld in 4 blokken."
-      header: "Bovenaan het scherm staat een balk die altijd op zijn plek blijft, ook wanneer je naar beneden scrollt. Deze balk bevat:"
-      header_mobile: ~
-      header_podname: ~
-      header_asterisk: ~
-      header_stream: ~
-      header_notify: ~
-      header_conversations: ~
-      header_newpost: ~
-      header_drawer: ~
-      header_search: ~
-      header_streams: ~
-      header_dropdown: ~
-      header_profile: ~
-      header_contacts: ~
-      header_settings: ~
-      header_help: ~
-      header_toggle: ~
-      header_logout: ~
-      interface_mobile_old: ~
-      columns: "Onder de werkbalk zie je drie kolommen:"
-      column1: "In de linkerkolom zie je jouw profielfoto en weergavenaam en links naar de verschillende schermen die in diaspora* beschikbaar zijn: <span class=\"click\">Mijn activiteit</span>, <span class=\"click\">Stream</span>, <span class=\"click\">@Mij</span>, <span class=\"click\">Mijn aspecten</span> en <span class=\"click\">#Gevolgde tags</span>. We leggen dit hierna uit."
-      column2: "De centrale kolom toont alle berichten in de Stream met een invoerveld bovenaan. We behandelen dit in %{part_link}."
-      stream_mobile: ~
-      views: "De verschillende soorten pagina's in diaspora* zijn:"
-      stream: "De stream"
-      stream_ex1: ~
-      stream_contents1: ~
-      stream_contents2: ~
-      stream_contents3: ~
-      stream_contents4: ~
-      stream_ex2: "De berichten in de stream staan op de chronologische volgorde van het moment van plaatsen van het bericht."
-      activity: "Mijn activiteit"
-      activity_ex: "Je \"Mijn activiteit\" stream toont alle berichten die je leuk vond of waarop je reageerde. Dat is een makkelijke manier om snel alle interacties binnen diaspora* te kunnen volgen. Berichten in Mijn activiteit staan op chronologische volgorde van jouw laatste actie (leuk vinden of reageren) bij elk bericht."
-      activity_ex2: ~
+        Door het gedecentraliseerde en open-source karakter van diaspora*, is het mogelijk voor podbeheerders om hun pods naar eigen smaak aan te passen.
+        Hierdoor is het mogelijk dat, afhankelijk van op welke pod je bent aangemeld, de interface er iets anders uitziet dan hier is beschreven. Hoe dan ook, de essentiële elementen zouden allemaal aanwezig moeten zijn, ook al zijn ze een beetje anders geranschikt.
+      interface3: De gebruikersinterface is onderverdeeld in 4 blokken.
+      header: 'Bovenaan het scherm staat een balk die altijd op zijn plek blijft,
+        ook wanneer je naar beneden scrollt. Deze balk bevat:'
+      header_mobile:
+      header_podname:
+      header_asterisk:
+      header_stream:
+      header_notify:
+      header_conversations:
+      header_newpost:
+      header_drawer:
+      header_search:
+      header_streams:
+      header_dropdown:
+      header_profile:
+      header_contacts:
+      header_settings:
+      header_help:
+      header_toggle:
+      header_logout:
+      interface_mobile_old:
+      columns: 'Onder de werkbalk zie je drie kolommen:'
+      column1: 'In de linkerkolom zie je jouw profielfoto en weergavenaam en links
+        naar de verschillende schermen die in diaspora* beschikbaar zijn: <span class="click">Mijn
+        activiteit</span>, <span class="click">Stream</span>, <span class="click">@Mij</span>,
+        <span class="click">Mijn aspecten</span> en <span class="click">#Gevolgde
+        tags</span>. We leggen dit hierna uit.'
+      column2: De centrale kolom toont alle berichten in de Stream met een invoerveld
+        bovenaan. We behandelen dit in %{part_link}.
+      stream_mobile:
+      views: 'De verschillende soorten pagina''s in diaspora* zijn:'
+      stream: De stream
+      stream_ex1:
+      stream_contents1:
+      stream_contents2:
+      stream_contents3:
+      stream_contents4:
+      stream_ex2: De berichten in de stream staan op de chronologische volgorde van
+        het moment van plaatsen van het bericht.
+      activity: Mijn activiteit
+      activity_ex: Je "Mijn activiteit" stream toont alle berichten die je leuk vond
+        of waarop je reageerde. Dat is een makkelijke manier om snel alle interacties
+        binnen diaspora* te kunnen volgen. Berichten in Mijn activiteit staan op chronologische
+        volgorde van jouw laatste actie (leuk vinden of reageren) bij elk bericht.
+      activity_ex2:
       mentions: "@Mij"
-      mentions_ex: "Dit toont alle berichten die door andere mensen zijn geplaatst waarin jij bent @vermeld. We bespreken dit in %{part_link}."
-      aspects: "Mijn aspecten"
-      aspects_ex1: "Mijn aspecten toont alle berichten die zijn geplaatst door alle mensen met wie je deelt, dat betekent, welke mensen je in aspecten hebt opgenomen. Geen zorg als je niet weet wat een aspect is, we behandelen dat uitgebreid in het volgende deel."
-      aspects_ex2: "Klik op <span class=\"click\">Mijn aspecten</span> om een lijst te zien van al je aspecten. Je kunt berichten zien die zijn geplaatst binnen alle aspecten, of binnen één of meer aspecten, door die in de linkerkolom te selecteren of deselecteren."
+      mentions_ex: Dit toont alle berichten die door andere mensen zijn geplaatst
+        waarin jij bent @vermeld. We bespreken dit in %{part_link}.
+      aspects: Mijn aspecten
+      aspects_ex1: Mijn aspecten toont alle berichten die zijn geplaatst door alle
+        mensen met wie je deelt, dat betekent, welke mensen je in aspecten hebt opgenomen.
+        Geen zorg als je niet weet wat een aspect is, we behandelen dat uitgebreid
+        in het volgende deel.
+      aspects_ex2: Klik op <span class="click">Mijn aspecten</span> om een lijst te
+        zien van al je aspecten. Je kunt berichten zien die zijn geplaatst binnen
+        alle aspecten, of binnen één of meer aspecten, door die in de linkerkolom
+        te selecteren of deselecteren.
       tags: "#Gevolgde tags"
-      tags_ex1: "Dit overzicht toont alle beschikbare berichten (openbare berichten en de beperkt zichtbare berichten als jij in een aspect staat) waar de door jou gevolgde tags staan. We behandelen tags in %{part_link}."
-      tags_ex2: "Klik op <span class=\"click\">#Gevolgde tags</span> om een overzicht van jouw tags te zien. Net als bij Mijn aspecten kun je deze stream filteren om alleen de berichten die één of meer van de tags bevatten door de tags in de linkerkolom te selecteren of deselecteren."
-      public: ~
-      public_ex: ~
-      other_views: ~
-      other_views_ex: ~
-      tag_stream: ~
-      tag_stream_ex: ~
-      spv: ~
-      spv_ex: ~
+      tags_ex1: Dit overzicht toont alle beschikbare berichten (openbare berichten
+        en de beperkt zichtbare berichten als jij in een aspect staat) waar de door
+        jou gevolgde tags staan. We behandelen tags in %{part_link}.
+      tags_ex2: Klik op <span class="click">#Gevolgde tags</span> om een overzicht
+        van jouw tags te zien. Net als bij Mijn aspecten kun je deze stream filteren
+        om alleen de berichten die één of meer van de tags bevatten door de tags in
+        de linkerkolom te selecteren of deselecteren.
+      public:
+      public_ex:
+      other_views:
+      other_views_ex:
+      tag_stream:
+      tag_stream_ex:
+      spv:
+      spv_ex:
       profile: Profielpagina
-      profile_ex1: "Klik op je naam of profielfoto, waar die ook staat, om naar je profielpagina te gaan. Die toont alle door jou geplaatste berichten in diaspora* en je profielfoto, je weergavenaam, de \"over mij\" tags en je diaspora* ID (behandeld onder Aanmelding in %{part_link})."
-      profile_ex2: "Onder je profielfoto zie je privé profiel informatie die je hebt toegevoegd zoals verjaardag, locatie, geslacht, biografie en zo verder."
-      profile_ex3: "Klik op de blauwe <span class=\"click\">Bewerk mijn profiel</span> knop als je je profielinformatie wilt wijzigen."
-      profile_ex3_mobile: ~
-      profile_ex4: "Je kan iemand anders zijn profielpagina zien door op hun naam of foto te klikken. Hoeveel je van die persoon zijn profielinformatie te zien krijgt hangt af van de verbinding die je met hem of haar hebt. Rechtsboven vind je een aspecten knop: die is grijs als deze persoon niet in één van je aspecten zit; groen als je die persoon wel in een aspect hebt. Klik erop om ze toe te voegen tot een aspect."
-      profile_ex5: ~
-      profile_ex6: "In de linkerkolom staat ook een link naar de geüploade foto's van die persoon en de contactpersonen die ze openbaar hebben gemaakt (dit staat uitgelegd in het volgende deel, \"Aspecten\")."
-      profile_ex7: ~
-      profile_ex8: ~
-      themes: ~
-      themes_ex1: ~
-      themes_list1: ~
-      themes_list2: ~
-      themes_list3: ~
-      themes_list4: ~
-      themes_list5: ~
-      themes_list6: ~
-      themes_ex2: ~
-      finish: "Meer hoef je nu even niet van de interface te weten. Het eerste wat je moet doen is mensen vinden met wie je iets wilt delen. Maar voordat je dat kunt doen, moeten we ons eerst richten op iets dat prominent in diaspora* aanwezig is: Aspecten."
-      finish_mobile: ~
+      profile_ex1: Klik op je naam of profielfoto, waar die ook staat, om naar je
+        profielpagina te gaan. Die toont alle door jou geplaatste berichten in diaspora*
+        en je profielfoto, je weergavenaam, de "over mij" tags en je diaspora* ID
+        (behandeld onder Aanmelding in %{part_link}).
+      profile_ex2: Onder je profielfoto zie je privé profiel informatie die je hebt
+        toegevoegd zoals verjaardag, locatie, geslacht, biografie en zo verder.
+      profile_ex3: Klik op de blauwe <span class="click">Bewerk mijn profiel</span>
+        knop als je je profielinformatie wilt wijzigen.
+      profile_ex3_mobile:
+      profile_ex4: 'Je kan iemand anders zijn profielpagina zien door op hun naam
+        of foto te klikken. Hoeveel je van die persoon zijn profielinformatie te zien
+        krijgt hangt af van de verbinding die je met hem of haar hebt. Rechtsboven
+        vind je een aspecten knop: die is grijs als deze persoon niet in één van je
+        aspecten zit; groen als je die persoon wel in een aspect hebt. Klik erop om
+        ze toe te voegen tot een aspect.'
+      profile_ex5:
+      profile_ex6: In de linkerkolom staat ook een link naar de geüploade foto's van
+        die persoon en de contactpersonen die ze openbaar hebben gemaakt (dit staat
+        uitgelegd in het volgende deel, "Aspecten").
+      profile_ex7:
+      profile_ex8:
+      themes:
+      themes_ex1:
+      themes_list1:
+      themes_list2:
+      themes_list3:
+      themes_list4:
+      themes_list5:
+      themes_list6:
+      themes_ex2:
+      finish: 'Meer hoef je nu even niet van de interface te weten. Het eerste wat
+        je moet doen is mensen vinden met wie je iets wilt delen. Maar voordat je
+        dat kunt doen, moeten we ons eerst richten op iets dat prominent in diaspora*
+        aanwezig is: Aspecten.'
+      finish_mobile:
     getting_started3:
-      byline: "Deel 3 - Aspecten"
-      menu_title: "Alles over aspecten"
-      aspects1: "Stel je even je leven voor en de mensen die je kent. Iedereen is deel van een of meer aspecten van jouw leven. Ze kunnen een familielid zijn, een collega, een sportkennis of iemand met wie je muziek, of andere interesses deelt. Maar ze kunnen ook van meerdere aspecten deel uitmaken."
-      aspects2: "diaspora* werkt net zo. Je kunt contactpersonen in een \"aspect\" van je diaspora* account plaatsen, gebaseerd op het aspect waartoe ze behoren in het echte leven. Op deze manier beheers je precies wie wat te zien krijgt van wat je op diaspora* plaatst. Je plaatst berichten en maakt ze zichtbaar voor één of meer aspecten. We leggen in de rest van deze instructies verder uit wat dit betekent.."
-      my_aspects: ~
-      my_aspects1: "Laten we vervolgens een naar Mijn Aspecten in de linkerkolom kijken, Ga terug naar je stream an klik op <span class=\"click\">Mijn Aspecten</span>. De lijst met jouw aspecten klapt uit en je ziet een Stream met alleen de berichten die zijn geplaatst door de mensen die je in al jouw aspecten hebt staan."
-      my_aspects2: "Op dit moment zijn al je aspecten geselecteerd, met vinkjes ernaast."
-      my_aspects3: "Je kunt op de aspecten klikken om ze te selecteren of deselecteren."
-      my_aspects4: "Je kunt één aspect selecteren of een combinatie van aspecten."
-      my_aspects5: "Als alle aspecten zijn geselecteerd en je wilt maar één aspect bekijken, klik dan op <span class=\"click\">Deselecteer alles</span> en kies daarna het gewenste aspect."
-      my_aspects6: "Speel er gerust even mee!"
-      my_aspects7: "Het selectiemechanisme heeft twee doelen:"
-      my_aspects8: "Het filtert de berichtenstroom. Je zou bijvoorbeeld alleen berichten willen zien die zijn geschreven door leden van het Familie-aspect. Of je wilt alles zien <em>behalve</em> familieleden."
-      my_aspects9: "Als je een statusbericht wilt plaatsen vanuit de Aspecten pagina, dan worden de geselecteerde aspecten automatisch als doelgroep bij het bericht geselecteerd. Bijvoorbeeld: als de Vrienden, Familie en Werk aspecten zijn geselecteerd en als je dan een bericht wilt plaatsen, dan zie je bij de Aspecten selectieknop staan: \"in 3 aspecten\"."
-      add_aspect: ~
+      byline: Deel 3 - Aspecten
+      menu_title: Alles over aspecten
+      aspects1: Stel je even je leven voor en de mensen die je kent. Iedereen is deel
+        van een of meer aspecten van jouw leven. Ze kunnen een familielid zijn, een
+        collega, een sportkennis of iemand met wie je muziek, of andere interesses
+        deelt. Maar ze kunnen ook van meerdere aspecten deel uitmaken.
+      aspects2: diaspora* werkt net zo. Je kunt contactpersonen in een "aspect" van
+        je diaspora* account plaatsen, gebaseerd op het aspect waartoe ze behoren
+        in het echte leven. Op deze manier beheers je precies wie wat te zien krijgt
+        van wat je op diaspora* plaatst. Je plaatst berichten en maakt ze zichtbaar
+        voor één of meer aspecten. We leggen in de rest van deze instructies verder
+        uit wat dit betekent..
+      my_aspects:
+      my_aspects1: Laten we vervolgens een naar Mijn Aspecten in de linkerkolom kijken,
+        Ga terug naar je stream an klik op <span class="click">Mijn Aspecten</span>.
+        De lijst met jouw aspecten klapt uit en je ziet een Stream met alleen de berichten
+        die zijn geplaatst door de mensen die je in al jouw aspecten hebt staan.
+      my_aspects2: Op dit moment zijn al je aspecten geselecteerd, met vinkjes ernaast.
+      my_aspects3: Je kunt op de aspecten klikken om ze te selecteren of deselecteren.
+      my_aspects4: Je kunt één aspect selecteren of een combinatie van aspecten.
+      my_aspects5: Als alle aspecten zijn geselecteerd en je wilt maar één aspect
+        bekijken, klik dan op <span class="click">Deselecteer alles</span> en kies
+        daarna het gewenste aspect.
+      my_aspects6: Speel er gerust even mee!
+      my_aspects7: 'Het selectiemechanisme heeft twee doelen:'
+      my_aspects8: Het filtert de berichtenstroom. Je zou bijvoorbeeld alleen berichten
+        willen zien die zijn geschreven door leden van het Familie-aspect. Of je wilt
+        alles zien <em>behalve</em> familieleden.
+      my_aspects9: 'Als je een statusbericht wilt plaatsen vanuit de Aspecten pagina,
+        dan worden de geselecteerde aspecten automatisch als doelgroep bij het bericht
+        geselecteerd. Bijvoorbeeld: als de Vrienden, Familie en Werk aspecten zijn
+        geselecteerd en als je dan een bericht wilt plaatsen, dan zie je bij de Aspecten
+        selectieknop staan: "in 3 aspecten".'
+      add_aspect:
       add_aspect1: |-
-          Kies een naam voor een nieuw Aspect. Dat kan in eenvoudige bewoordingen de relatie tussen de betreffende mensen zijn, zoals "Creatief schrijven", "Voetbal", of "Activisten". Je kunt aspecten noemen zoals je maar wilt.
-          Niemand zal trouwens de naam van je aspecten kunnen zien en evenmin weten wie van jouw contacten in welk aspect  zitten.
-          We stellen voor om in ieder geval een aspect "diaspora" te maken waar je iedereen die je hier ontmoet in kunt opnemen.
-      aspects_mobile: ~
-      add_aspect2: |-
-          Je kunt ervoor kiezen om de keuze "maak contacten in dit aspect zichtbaar voor elkaar?" aan te kruisen. Dat kan zinvol zijn als je een aspect hebt van een club waarvan de leden elkaar toch al kennen. Als ze elkaar binnen jouw aspect tegenkomen, kunnen ze makkelijker ook onderling contact maken. 
-          Denk hier wel goed over na. Let niet alleen op je eigen privacy, maar ook op de privacy van anderen voordat je deze optie aankruist.
-      add_aspect3: "Als je klaar bent, klik dan op de <span class=\"click\">Aanmaken</span> knop. Het aspect is dan aangemaakt en geselecteerd in het menu."
-      add_aspect4: "Als het aspect is aangemaakt, word je meegenomen naar de lijst met contacten in dat aspect (daar staan nu dus nog geen namen in). Er is een link naar \"contacten toevoegen aan Diaspora\" of hoe je het aspect ook genoemd hebt,"
-      add_aspect6: ~
-      add_aspect7: ~
+        Kies een naam voor een nieuw Aspect. Dat kan in eenvoudige bewoordingen de relatie tussen de betreffende mensen zijn, zoals "Creatief schrijven", "Voetbal", of "Activisten". Je kunt aspecten noemen zoals je maar wilt.
+        Niemand zal trouwens de naam van je aspecten kunnen zien en evenmin weten wie van jouw contacten in welk aspect  zitten.
+        We stellen voor om in ieder geval een aspect "diaspora" te maken waar je iedereen die je hier ontmoet in kunt opnemen.
+      aspects_mobile:
+      add_aspect2: "Je kunt ervoor kiezen om de keuze \"maak contacten in dit aspect
+        zichtbaar voor elkaar?\" aan te kruisen. Dat kan zinvol zijn als je een aspect
+        hebt van een club waarvan de leden elkaar toch al kennen. Als ze elkaar binnen
+        jouw aspect tegenkomen, kunnen ze makkelijker ook onderling contact maken.
+        \nDenk hier wel goed over na. Let niet alleen op je eigen privacy, maar ook
+        op de privacy van anderen voordat je deze optie aankruist."
+      add_aspect3: Als je klaar bent, klik dan op de <span class="click">Aanmaken</span>
+        knop. Het aspect is dan aangemaakt en geselecteerd in het menu.
+      add_aspect4: Als het aspect is aangemaakt, word je meegenomen naar de lijst
+        met contacten in dat aspect (daar staan nu dus nog geen namen in). Er is een
+        link naar "contacten toevoegen aan Diaspora" of hoe je het aspect ook genoemd
+        hebt,
+      add_aspect6:
+      add_aspect7:
       contacts: Contactenpagina
-      contact_ex1: "We hadden het al eerder over je contactenpagina in %{part_link}. Om bij je contactenpagina te komen, klik je op het pijltje rechtsbovenin het scherm en dan selecteer je <span class=\"click\">Contactpersonen</span> uit de uitklaplijst."
-      contact_ex3: "De contactenpagina toont je aspecten in de linkerkolom en de contactpersonen in die aspecten staan rechts."
-      contact_ex4: "Al je contacten van alle aspecten (klik op <span class=\"click\">Mijn contacten</span> in de linkerkolom), krijgen als contact rechts een groene knop om te tonen tot welke aspecten ze horen. Als een contact in meer dan 1 aspect zit, dan toont de knop \"In <em>n</em> aspecten\". Druk op de knop om de aspecten te zien."
-      contact_ex5: "Je kunt op de knop drukken om de aspecten waarin deze persoon is opgenomen te wijzigen, door ze in de lijst te selecteren of deselecteren. Als je iemand uit alle aspecten wilt verwijderen, deselecteer dan alles aspecten, waarna de knop grijs wordt. Je deelt niets meer met deze persoon."
-      contact_ex6: "Als je contacten in een afzonderlijk aspect bekijkt, zie je een kruisje naast elke naam staan. Als je daarop klikt, wordt de persoon uit het aspect verwijderd."
-      contact_ex7: "Je kunt ook nieuwe apecten aanmaken vanaf de Contactenpagina."
-      sharing_me: "Deelt alleen met mij"
-      sharing_me_ex: "Dit geeft een overzicht van alle personen die wel met jou delen, maar met wie jij zelf niet deelt - je \"volgers\"."
-      finish: "Nu je dit begrijpt, gaan we een paar relaties maken."
+      contact_ex1: We hadden het al eerder over je contactenpagina in %{part_link}.
+        Om bij je contactenpagina te komen, klik je op het pijltje rechtsbovenin het
+        scherm en dan selecteer je <span class="click">Contactpersonen</span> uit
+        de uitklaplijst.
+      contact_ex3: De contactenpagina toont je aspecten in de linkerkolom en de contactpersonen
+        in die aspecten staan rechts.
+      contact_ex4: Al je contacten van alle aspecten (klik op <span class="click">Mijn
+        contacten</span> in de linkerkolom), krijgen als contact rechts een groene
+        knop om te tonen tot welke aspecten ze horen. Als een contact in meer dan
+        1 aspect zit, dan toont de knop "In <em>n</em> aspecten". Druk op de knop
+        om de aspecten te zien.
+      contact_ex5: Je kunt op de knop drukken om de aspecten waarin deze persoon is
+        opgenomen te wijzigen, door ze in de lijst te selecteren of deselecteren.
+        Als je iemand uit alle aspecten wilt verwijderen, deselecteer dan alles aspecten,
+        waarna de knop grijs wordt. Je deelt niets meer met deze persoon.
+      contact_ex6: Als je contacten in een afzonderlijk aspect bekijkt, zie je een
+        kruisje naast elke naam staan. Als je daarop klikt, wordt de persoon uit het
+        aspect verwijderd.
+      contact_ex7: Je kunt ook nieuwe apecten aanmaken vanaf de Contactenpagina.
+      sharing_me: Deelt alleen met mij
+      sharing_me_ex: Dit geeft een overzicht van alle personen die wel met jou delen,
+        maar met wie jij zelf niet deelt - je "volgers".
+      finish: Nu je dit begrijpt, gaan we een paar relaties maken.
     getting_started4:
-      byline: "Deel 4 - Zoeken en verbinden met anderen"
-      menu_title: "Hoe verbind je met anderen"
-      aspects1: "Het is nu het moment om contactpersonen toe te voegen aan het \"diaspora\" aspect dat je net hebt aangemaakt. Als je al mensen op diaspora* kent, kun je ze opzoeken en aan aspecten toevoegen."
+      byline: Deel 4 - Zoeken en verbinden met anderen
+      menu_title: Hoe verbind je met anderen
+      aspects1: Het is nu het moment om contactpersonen toe te voegen aan het "diaspora"
+        aspect dat je net hebt aangemaakt. Als je al mensen op diaspora* kent, kun
+        je ze opzoeken en aan aspecten toevoegen.
       sharing: Delen
-      sharing_ex: "We noemen het verbinden met iemand \"delen\" omdat het aangeeft dat je met die persoon jouw berichten wilt delen. Delen in diaspora* lijkt misschien wat verwarrend, omdat jouw wijze van delen met anderen anders kan zijn dan de manier waarop die anderen met jou delen. Laten we proberen het uit te leggen."
-      relationships: "diaspora* kent drie soorten relaties tussen gebruikers:"
+      sharing_ex: We noemen het verbinden met iemand "delen" omdat het aangeeft dat
+        je met die persoon jouw berichten wilt delen. Delen in diaspora* lijkt misschien
+        wat verwarrend, omdat jouw wijze van delen met anderen anders kan zijn dan
+        de manier waarop die anderen met jou delen. Laten we proberen het uit te leggen.
+      relationships: 'diaspora* kent drie soorten relaties tussen gebruikers:'
       followers: Volgers
-      followers_ex1: "Iemand heeft je in een van zijn/haar eigen aspecten opgenomen, maar dat heb je zelf niet voor die persoon gedaan. Je krijgt een melding dat deze persoon \"is begonnen met jou te delen\", maar verder zul je niets anders merken."
-      followers_ex2: "Deze mensen zien jouw openbare berichten in hun Stream, maar geen van jouw beperkt zichtbare berichten."
-      followers_ex3: "Je zult, vanwege privacy redenen, niet kunnen achterhalen in welk aspect iemand je heeft geplaatst. Het is hun eigen zaak in welk aspect ze iedereeen plaatsen, dat gaat dus niemand iets aan."
-      following: "Mensen die jij volgt"
-      following_ex1: "Je deelt met iemand die niet deelt met jou. Dat betekent dat je die persoon in één of meer aspecten hebt geplaatst, maar ze hebben jou niet in een aspect gezet."
-      following_ex2: "De persoon die jij zelf volgt, krijgt alle openbare berichten te zien, maar ook alle berichten die je voor de aspecten plaatst waarin die persoon ook zit. Bovendien ontvang je alle openbare berichten van die persoon in jouw Stream."
-      mutual: "Samen delen"
-      mutual_ex1: "Als je over en weer met iemand anders deelt, dan wordt het extra interessant en extra complex! Je kunt dit vergelijken met \"vrienden\" op Facebook, maar er zijn belangrijke verschillen."
-      mutual_ex2: "Als jullie samen delen, dan heb je eigenlijk aangegeven dat je elkaars berichten wilt zien. Ieder van jullie ziet de berichten die de ander als beperkt gedeeld bericht ziet voor het aspect (of de aspecten) waarin de ander zit. Maar je kunt anders geclassificeerde berichten met elkaar delen. Bijvoorbeeld:"
-      mutual_ls1: "Je beschouwt Jill als een vluchtige kennis en je plaatst haar in het \"Kennissen\" aspect."
-      mutual_ls2: "Jill beschouwt jou echter als een van haar beste vrienden en plaatst je in het \"Beste vrienden\" aspect."
-      mutual_ls3: "Jij plaats bijvoorbeeld zelf de meeste berichten alleen in je \"Vrienden\" of in je \"Familie\" aspect. Jill ziet dus niet veel berichten, alleen jouw openbare berichten."
-      mutual_ls4: "Maar omdat jij in haar \"Beste vrienden\" aspect zit, zie je bijna alles wat zij plaatst."
-      mutual_ex3: "Het belangrijkste is dat <span class=\"click\">niemand</span> iets zal zien, tenzij je een bericht openbaar hebt gemaakt of het hebt geplaatst voor een aspect waar je zelf iemand in hebt geplaatst."
-      finding: "Mensen zoeken"
-      finding_ex1: "Om met mensen te kunnen delen, moet je eerst wat mensen gaan volgen. Misschien volgen ze wel terug! Laten we eens zien hoe dat gaat."
-      finding_ex2: "Je kunt mensen op verschillende manieren vinden en aan een aspect toevoegen."
+      followers_ex1: Iemand heeft je in een van zijn/haar eigen aspecten opgenomen,
+        maar dat heb je zelf niet voor die persoon gedaan. Je krijgt een melding dat
+        deze persoon "is begonnen met jou te delen", maar verder zul je niets anders
+        merken.
+      followers_ex2: Deze mensen zien jouw openbare berichten in hun Stream, maar
+        geen van jouw beperkt zichtbare berichten.
+      followers_ex3: Je zult, vanwege privacy redenen, niet kunnen achterhalen in
+        welk aspect iemand je heeft geplaatst. Het is hun eigen zaak in welk aspect
+        ze iedereeen plaatsen, dat gaat dus niemand iets aan.
+      following: Mensen die jij volgt
+      following_ex1: Je deelt met iemand die niet deelt met jou. Dat betekent dat
+        je die persoon in één of meer aspecten hebt geplaatst, maar ze hebben jou
+        niet in een aspect gezet.
+      following_ex2: De persoon die jij zelf volgt, krijgt alle openbare berichten
+        te zien, maar ook alle berichten die je voor de aspecten plaatst waarin die
+        persoon ook zit. Bovendien ontvang je alle openbare berichten van die persoon
+        in jouw Stream.
+      mutual: Samen delen
+      mutual_ex1: Als je over en weer met iemand anders deelt, dan wordt het extra
+        interessant en extra complex! Je kunt dit vergelijken met "vrienden" op Facebook,
+        maar er zijn belangrijke verschillen.
+      mutual_ex2: 'Als jullie samen delen, dan heb je eigenlijk aangegeven dat je
+        elkaars berichten wilt zien. Ieder van jullie ziet de berichten die de ander
+        als beperkt gedeeld bericht ziet voor het aspect (of de aspecten) waarin de
+        ander zit. Maar je kunt anders geclassificeerde berichten met elkaar delen.
+        Bijvoorbeeld:'
+      mutual_ls1: Je beschouwt Jill als een vluchtige kennis en je plaatst haar in
+        het "Kennissen" aspect.
+      mutual_ls2: Jill beschouwt jou echter als een van haar beste vrienden en plaatst
+        je in het "Beste vrienden" aspect.
+      mutual_ls3: Jij plaats bijvoorbeeld zelf de meeste berichten alleen in je "Vrienden"
+        of in je "Familie" aspect. Jill ziet dus niet veel berichten, alleen jouw
+        openbare berichten.
+      mutual_ls4: Maar omdat jij in haar "Beste vrienden" aspect zit, zie je bijna
+        alles wat zij plaatst.
+      mutual_ex3: Het belangrijkste is dat <span class="click">niemand</span> iets
+        zal zien, tenzij je een bericht openbaar hebt gemaakt of het hebt geplaatst
+        voor een aspect waar je zelf iemand in hebt geplaatst.
+      finding: Mensen zoeken
+      finding_ex1: Om met mensen te kunnen delen, moet je eerst wat mensen gaan volgen.
+        Misschien volgen ze wel terug! Laten we eens zien hoe dat gaat.
+      finding_ex2: Je kunt mensen op verschillende manieren vinden en aan een aspect
+        toevoegen.
       search: Zoeken
-      search_ex: "Het zoekveld vind je in de bovenste balk. Om iemand toe te voegen via de zoekfunctie:"
-      search_ls1: "Voer een naam of diaspora* ID in. Suggesties verschijnen terwijl je typt."
-      search_ls2: "Druk op de Enter-toets om te zoeken en de zoekresultaten verschijnen."
-      search_ls3: "Als je de gezochte persoon hebt gevonden, druk dan op op de <span class=\"click\">Toevoegen contact</span> knop."
-      search_ls4: "Als de persoon met wie je begint te delen voorkomt in de lijst met suggesties, dan kun je gewoon die naam selecteren om naar diens profielpagina te gaan en dan kun je daar op de <span class=\"click\">Toevoegen contact</span> knop drukken."
-      search_ls5: "Daarna verschijnt er een uitklapmenu onder de knop, waarin je kunt aangeven aan welke aspecten je die persoon wilt toevoegen. Je kunt ook een nieuw aspect aanmaken en die persoon daaraan toevoegen door op <span class=\"click\"><em>+ Toevoegen aspect</em></span> te klikken."
-      search_ls6: "Zo gauw je één of meer aspecten hebt geselecteerd, wordt de aspect-knop groen gekleurd en kun je meteen je berichten voor dat aspect met die persoon delen en krijg je zelf de openbare perichten van die persooon in jouw stream te zien."
-      invite: "Versturen van een invitatiemail"
+      search_ex: 'Het zoekveld vind je in de bovenste balk. Om iemand toe te voegen
+        via de zoekfunctie:'
+      search_ls1: Voer een naam of diaspora* ID in. Suggesties verschijnen terwijl
+        je typt.
+      search_ls2: Druk op de Enter-toets om te zoeken en de zoekresultaten verschijnen.
+      search_ls3: Als je de gezochte persoon hebt gevonden, druk dan op op de <span
+        class="click">Toevoegen contact</span> knop.
+      search_ls4: Als de persoon met wie je begint te delen voorkomt in de lijst met
+        suggesties, dan kun je gewoon die naam selecteren om naar diens profielpagina
+        te gaan en dan kun je daar op de <span class="click">Toevoegen contact</span>
+        knop drukken.
+      search_ls5: Daarna verschijnt er een uitklapmenu onder de knop, waarin je kunt
+        aangeven aan welke aspecten je die persoon wilt toevoegen. Je kunt ook een
+        nieuw aspect aanmaken en die persoon daaraan toevoegen door op <span class="click"><em>+
+        Toevoegen aspect</em></span> te klikken.
+      search_ls6: Zo gauw je één of meer aspecten hebt geselecteerd, wordt de aspect-knop
+        groen gekleurd en kun je meteen je berichten voor dat aspect met die persoon
+        delen en krijg je zelf de openbare perichten van die persooon in jouw stream
+        te zien.
+      invite: Versturen van een invitatiemail
       invite_ex: |-
-          Een andere manier om vrienden te volgen is door ze een invitatiemail te sturen. Dat kan je doen door de <span class="click">via e-mail</span> link in het menu rechts of via de zoekresultatenpagina via de <span class="click">Nodig je vrienden uit</span>link naast je stream te gebruiken.
-          Als ze de uitnodiging aannemen, komen ze in hetzelfde registratieproces als je net zelf doorlopen hebt.
-      profile: "Via hun profiel"
-      profile_ex1: "Een andere manier om iemand aan een van jouw aspecten toe te voegen is door op hun naam te klikken als je die ergens in diaspora* ziet. Dat brengt je naar hun profielpagina, waar je ze via de knop rechtsboven in het scherm aan aspecten kunt toevoegen."
-      profile_ex2: "Een alternatief: als je met de muis over hun naam gaat, verschijnt een kleine \"zweefkaart\". Je kunt die persoon direct aan een aspect toevoegen vanaf die zweefkaart."
-      tags: "Je volgt #tags"
-      tags_ex: "De drie genoemde opties richten zich op het verbinden met mensen die je al kent. Maar soms zijn vreemden minstens zo interessant als mensen die je al langer kent. Een goede manier om die mensen te leren kennen is door #tags te volgen van de onderwerpen die jou interesseren. Berichten met die tags verschijnen dan in jouw stream en je kunt mensen met interessante of inspirerende berichten gaan volgen door ze in een van jouw aspecten op te nemen."
-      removing: "Verwijder iemand van je contacten"
-      removing_ex1: "Om iemand helemaal uit je contactenlijst af te voeren en dus niet meer met hem of haar te delen, hoef je die persoon alleen maar uit al je aspecten te verwijderen. Dat doe je als volgt:"
-      removing_ex2: "ga naar de profielpagina of ga met de muis over de naam in je stream en wacht tot de zweefkaart verschijnt."
-      removing_ex3: "klik op het pijltje op de groene aspectselector knop en deselecteer al de geselecteerde aspecten."
-      removing_ex4: "Dat is alles! Zo gauw iemand niet meer in een van jouw aspecten staat, deel jij niet meer met die persoon."
-      removing_ex5: "Je kunt ook iemand uit je aspecten verwijderen via je contactenpagina. Dat hebben we behandeld aan het einde van %{part_link}"
-      finish: "Je weet nu hoe je met mensen kunt delen en hopelijk heb je al met een paar mensen contact gemaakt. In dat geval zie je hun berichten in jouw stream en, als mensen ook met jou delen, heb je een nieuw podium voor je berichten. <strong>Het is nu tijd om te gaan publiceren.</strong>"
+        Een andere manier om vrienden te volgen is door ze een invitatiemail te sturen. Dat kan je doen door de <span class="click">via e-mail</span> link in het menu rechts of via de zoekresultatenpagina via de <span class="click">Nodig je vrienden uit</span>link naast je stream te gebruiken.
+        Als ze de uitnodiging aannemen, komen ze in hetzelfde registratieproces als je net zelf doorlopen hebt.
+      profile: Via hun profiel
+      profile_ex1: Een andere manier om iemand aan een van jouw aspecten toe te voegen
+        is door op hun naam te klikken als je die ergens in diaspora* ziet. Dat brengt
+        je naar hun profielpagina, waar je ze via de knop rechtsboven in het scherm
+        aan aspecten kunt toevoegen.
+      profile_ex2: 'Een alternatief: als je met de muis over hun naam gaat, verschijnt
+        een kleine "zweefkaart". Je kunt die persoon direct aan een aspect toevoegen
+        vanaf die zweefkaart.'
+      tags: 'Je volgt #tags'
+      tags_ex: 'De drie genoemde opties richten zich op het verbinden met mensen die
+        je al kent. Maar soms zijn vreemden minstens zo interessant als mensen die
+        je al langer kent. Een goede manier om die mensen te leren kennen is door
+        #tags te volgen van de onderwerpen die jou interesseren. Berichten met die
+        tags verschijnen dan in jouw stream en je kunt mensen met interessante of
+        inspirerende berichten gaan volgen door ze in een van jouw aspecten op te
+        nemen.'
+      removing: Verwijder iemand van je contacten
+      removing_ex1: 'Om iemand helemaal uit je contactenlijst af te voeren en dus
+        niet meer met hem of haar te delen, hoef je die persoon alleen maar uit al
+        je aspecten te verwijderen. Dat doe je als volgt:'
+      removing_ex2: ga naar de profielpagina of ga met de muis over de naam in je
+        stream en wacht tot de zweefkaart verschijnt.
+      removing_ex3: klik op het pijltje op de groene aspectselector knop en deselecteer
+        al de geselecteerde aspecten.
+      removing_ex4: Dat is alles! Zo gauw iemand niet meer in een van jouw aspecten
+        staat, deel jij niet meer met die persoon.
+      removing_ex5: Je kunt ook iemand uit je aspecten verwijderen via je contactenpagina.
+        Dat hebben we behandeld aan het einde van %{part_link}
+      finish: Je weet nu hoe je met mensen kunt delen en hopelijk heb je al met een
+        paar mensen contact gemaakt. In dat geval zie je hun berichten in jouw stream
+        en, als mensen ook met jou delen, heb je een nieuw podium voor je berichten.
+        <strong>Het is nu tijd om te gaan publiceren.</strong>
     getting_started5:
-      byline: "Deel 5 - Begin met delen!"
-      menu_title: "Begin met delen!"
-      intro1: "Nu je een aantal contacten hebt is het tijd dat je inhoud met ze begint te delen."
-      intro2: "Je kunt binnen diaspora* communiceren door een bericht te delen met een groep volgers of, nog beter, met iedereen binnen diapora*, of door een bericht te sturen naar één of meer gemeenschappelijke contactpersonen. In dit deel richten we ons op het tekstveld en op de stream om berichten te plaatsen en om erop te reageren. Het plaatsen van besloten berichten (die we gesprekken noemen) behandelen we in %{part_link}."
-      publisher: "De uitgever"
+      byline: Deel 5 - Begin met delen!
+      menu_title: Begin met delen!
+      intro1: Nu je een aantal contacten hebt is het tijd dat je inhoud met ze begint
+        te delen.
+      intro2: Je kunt binnen diaspora* communiceren door een bericht te delen met
+        een groep volgers of, nog beter, met iedereen binnen diapora*, of door een
+        bericht te sturen naar één of meer gemeenschappelijke contactpersonen. In
+        dit deel richten we ons op het tekstveld en op de stream om berichten te plaatsen
+        en om erop te reageren. Het plaatsen van besloten berichten (die we gesprekken
+        noemen) behandelen we in %{part_link}.
+      publisher: De uitgever
       publisher_ex1: |-
-          Het delen van berichten doen we in diaspora* via het tekstinvoerveld bovenin de middelste kolom van de meeste pagina's in diaspora*. Je hebt er vast al eens in geklikt en waarschijnlijk kon je de verleiding niet weerstaan om een bericht te plaatsen!
-          Het plaatsen van een bericht is heel eenvoudig. Iets later in deze instructie kijken we naar wat complexere zaken die je kunt doen, maar we beginnen met het begin.
-      publisher_ex2: "Het tekstveld lijkt misschien heel saai, maar dat is maar verraderlijke uiterlijke schijn: onder de minimalistische vorm ligt een rijkdom aan mogelijkheden die je kunt vinden door alleen maar in het veld te klikken."
-      publisher_ex3: "Zo gauw het veld \"tot leven komt\" zie je een aantal knopjes en pictogrammen. Voordat we elk daarvan in detail bekijken, gaan we gewoon maar even een berichtje aan je volgers en gemeenschappelijke contacten sturen."
-      publisher_ex4: "Om dat te doen hoef je alleen maar je berichtje in te typen - wat je maar te melden hebt, bijvoorbeeld \"Dit is mijn eerste bericht in diaspora*\" - en druk dan op de <span class=\"click\">Delen</span> knop. En meteen heb je dat bericht gedeeld met je contacten!"
-      buttons: "Okee, dus waar zijn die knoppen nu voor?"
-      top_buttons: ~
-      top_buttons_ex1: ~
-      top_buttons_list1: ~
-      top_buttons_list2: ~
-      top_buttons_list3: ~
-      top_buttons_list4: ~
-      top_buttons_list5: ~
-      top_buttons_list6: ~
-      top_buttons_list7: ~
-      top_buttons_list8: ~
-      top_buttons_list9: ~
-      aspect_selector: "Aspecten selecteerknop"
-      aspect_selector_ex1: "Met deze knop bepaal je wie jouw berichten kan lezen. Standaard is \"Alle aspecten\" geselecteerd, dat wil zeggen: iedereeen die je aan een van je aspecten hebt toegevoegd kan je bericht lezen, maar niemand anders. Als het bericht dat je plaatste alleen bestemd is voor je volgers en als de standaardinstelling \"Alle aspecten\" is, dan hoef je verder niets in te stellen voor het verzenden."
-      aspect_selector_ex2: "Met deze knop selecteer je de afzonderlijke aspecten waar je mee wilt delen, door op de aspecten in de lijst te klikken om aspecten te selecteren of te deselecteren. Hierdoor heb je de volledige controle over wie je berichten kan lezen, zoals we al beschreven in %{part_link}. Maar als je iets door iedereen wilt laten lezen, kies dan voor \"Openbaar\" en er zijn geen beperkingen voor wie je bericht kan lezen."
-      aspect_selector_ex3: ~
-      poll: ~
-      poll_ex: ~
-      photo: "Foto's delen"
-      photo_ex: "Rechts van het tekstveld staat een camera pictogram, waarmee je afbeeldingen aan je bericht kunt koppelen. Je kunt ofwel op de knop drukken en afbeeldingen selecteren, of je kunt ze slepen vanaf een map op je computer."
+        Het delen van berichten doen we in diaspora* via het tekstinvoerveld bovenin de middelste kolom van de meeste pagina's in diaspora*. Je hebt er vast al eens in geklikt en waarschijnlijk kon je de verleiding niet weerstaan om een bericht te plaatsen!
+        Het plaatsen van een bericht is heel eenvoudig. Iets later in deze instructie kijken we naar wat complexere zaken die je kunt doen, maar we beginnen met het begin.
+      publisher_ex2: 'Het tekstveld lijkt misschien heel saai, maar dat is maar verraderlijke
+        uiterlijke schijn: onder de minimalistische vorm ligt een rijkdom aan mogelijkheden
+        die je kunt vinden door alleen maar in het veld te klikken.'
+      publisher_ex3: Zo gauw het veld "tot leven komt" zie je een aantal knopjes en
+        pictogrammen. Voordat we elk daarvan in detail bekijken, gaan we gewoon maar
+        even een berichtje aan je volgers en gemeenschappelijke contacten sturen.
+      publisher_ex4: Om dat te doen hoef je alleen maar je berichtje in te typen -
+        wat je maar te melden hebt, bijvoorbeeld "Dit is mijn eerste bericht in diaspora*"
+        - en druk dan op de <span class="click">Delen</span> knop. En meteen heb je
+        dat bericht gedeeld met je contacten!
+      buttons: Okee, dus waar zijn die knoppen nu voor?
+      top_buttons:
+      top_buttons_ex1:
+      top_buttons_list1:
+      top_buttons_list2:
+      top_buttons_list3:
+      top_buttons_list4:
+      top_buttons_list5:
+      top_buttons_list6:
+      top_buttons_list7:
+      top_buttons_list8:
+      top_buttons_list9:
+      aspect_selector: Aspecten selecteerknop
+      aspect_selector_ex1: 'Met deze knop bepaal je wie jouw berichten kan lezen.
+        Standaard is "Alle aspecten" geselecteerd, dat wil zeggen: iedereeen die je
+        aan een van je aspecten hebt toegevoegd kan je bericht lezen, maar niemand
+        anders. Als het bericht dat je plaatste alleen bestemd is voor je volgers
+        en als de standaardinstelling "Alle aspecten" is, dan hoef je verder niets
+        in te stellen voor het verzenden.'
+      aspect_selector_ex2: Met deze knop selecteer je de afzonderlijke aspecten waar
+        je mee wilt delen, door op de aspecten in de lijst te klikken om aspecten
+        te selecteren of te deselecteren. Hierdoor heb je de volledige controle over
+        wie je berichten kan lezen, zoals we al beschreven in %{part_link}. Maar als
+        je iets door iedereen wilt laten lezen, kies dan voor "Openbaar" en er zijn
+        geen beperkingen voor wie je bericht kan lezen.
+      aspect_selector_ex3:
+      poll:
+      poll_ex:
+      photo: Foto's delen
+      photo_ex: Rechts van het tekstveld staat een camera pictogram, waarmee je afbeeldingen
+        aan je bericht kunt koppelen. Je kunt ofwel op de knop drukken en afbeeldingen
+        selecteren, of je kunt ze slepen vanaf een map op je computer.
       locator: Localiseerder
-      locator_ex1: "Naast de camera staat een \"punaise\" pictogram, waarmee de locatiefunctie wordt ingeschakeld. Dit maakt het mogelijk de geografische locatie aan je bericht te koppelen. Klik erop en je krijgt de vraag of je het goed vindt dat je locatie wordt bepaals op basis van OpenStreetMaps en, als je dat wilt, wordt je locatie in de voettekst van je bericht gekoppeld."
-      locator_ex2: "Je kunt deze locatie wijzigen door op de tekst te klikken als je die onder het tekstveld ziet staan."
-      locator_ex3: "De aangegeven locatie kan zeer exact zijn, dus misschien wil je te specifieke adresinformatie verwijderen om alleen de plaats of regio te tonen. Aan jou de keuze!"
-      connected: "Verbonden services"
-      connected_ex1: "Afhankelijk van de koppelingen van je account(s) op andere sociale netwerken (Facebook, Twitter en Tumblr), kun je de pictogrammen van die diensten onder je tekstveld zien. Als je de pictogrammen selecteert, wordt je bericht ook op die diensten gepubliceerd. We behandelen die in de volgende sectie, hieronder."
-      connected_ex2: "Het pictogram naast je gekoppelde diensten lijkt op een steeksleutel. Als je hierop klikt kun je de koppeling met andere sociale netwerken en diensten configureren."
-      connected_ex3: "We kijken hoe we met andere services kunnen verbinden in %{part_link}."
-      preview: "Voorbeeld bericht"
-      preview_ex1: "Tussen de aspectknop en de deelknop staat de laatste knop, en die is heel nuttig! Deze knop laat je zien hoe je bericht eruit zal zien, zodat je, als je tevreden bent, het bericht kunt plaatsen. Dit kan je helpen om fouten te herstellen, zeker bij het opmaken van de tekst. Meer hierover verderop."
-      buttons_finish: ~
+      locator_ex1: Naast de camera staat een "punaise" pictogram, waarmee de locatiefunctie
+        wordt ingeschakeld. Dit maakt het mogelijk de geografische locatie aan je
+        bericht te koppelen. Klik erop en je krijgt de vraag of je het goed vindt
+        dat je locatie wordt bepaals op basis van OpenStreetMaps en, als je dat wilt,
+        wordt je locatie in de voettekst van je bericht gekoppeld.
+      locator_ex2: Je kunt deze locatie wijzigen door op de tekst te klikken als je
+        die onder het tekstveld ziet staan.
+      locator_ex3: De aangegeven locatie kan zeer exact zijn, dus misschien wil je
+        te specifieke adresinformatie verwijderen om alleen de plaats of regio te
+        tonen. Aan jou de keuze!
+      preview: Voorbeeld bericht
+      preview_ex1: Tussen de aspectknop en de deelknop staat de laatste knop, en die
+        is heel nuttig! Deze knop laat je zien hoe je bericht eruit zal zien, zodat
+        je, als je tevreden bent, het bericht kunt plaatsen. Dit kan je helpen om
+        fouten te herstellen, zeker bij het opmaken van de tekst. Meer hierover verderop.
+      buttons_finish:
       features: Plaatsingsmogelijkheden
       tags: "#tags"
-      tags_ex1: "Plaats een #-teken (hash, of hekje) direct voor een woord en het wordt een #tag. Wat heb je hieraan? Nou, #tags zijn een fantastische manier om interessante content te vinden en om content onder de aandacht van geïnteresseerde anderen te brengen. Je kunt zoeken naar tags, door in het zoekveld de tag in te voeren. Je kunt ook tags volgen, zodat elk bericht waar die tag in staat in je stream verschijnt - sterker, als je in de \"Beschrijf jezelf in 5 woorden\" onderdeel van je profielpagina tags hebt ingevuld, dan volg je die tags automatisch al!"
-      tags_ex2: "Stel je houdt van koken en je plaatst een bericht met met de tekst \"#koken\". Iedereen die de #koken tag volgt, ziet jouw bericht nu in zijn of haar stream. Natuurlijk moet je het bericht wel als Openbaar plaatsen voordat de volgers van #koken het zien; als je het alleen maar publiceerde voor één of meer aspecten, dan zullen alleen de mensen in de aspecten het bericht zien. Je kunt ook in het zoekveld zoeken naar #koken en je ziet dan de berichten die zijn getagged met #koken. Dat zijn dan je eigen berichten, maar ook de openbare berichten van andere diasporians. Zo zie je dat tags een bijzonder instrument zijn om content van anderen te vinden of om content met anderen te delen."
-      nsfw: ~
-      tags_ex3: "ALs je bericht mogelijjk aanstootgevend voor iemand kan zijn, of als iemand op z'n werk last krijgt door het bekijken ervan, voeg dan de <span class=\"click\">#nsfw</span> (“not safe for work”) tag toe aan het bericht, zodat het niet getoond wordt, tenzij de kijker er bewust voor kiest om het zien. We behandelen dit verder in %{part_link}."
+      tags_ex1: 'Plaats een #-teken (hash, of hekje) direct voor een woord en het
+        wordt een #tag. Wat heb je hieraan? Nou, #tags zijn een fantastische manier
+        om interessante content te vinden en om content onder de aandacht van geïnteresseerde
+        anderen te brengen. Je kunt zoeken naar tags, door in het zoekveld de tag
+        in te voeren. Je kunt ook tags volgen, zodat elk bericht waar die tag in staat
+        in je stream verschijnt - sterker, als je in de "Beschrijf jezelf in 5 woorden"
+        onderdeel van je profielpagina tags hebt ingevuld, dan volg je die tags automatisch
+        al!'
+      tags_ex2: 'Stel je houdt van koken en je plaatst een bericht met met de tekst
+        "#koken". Iedereen die de #koken tag volgt, ziet jouw bericht nu in zijn of
+        haar stream. Natuurlijk moet je het bericht wel als Openbaar plaatsen voordat
+        de volgers van #koken het zien; als je het alleen maar publiceerde voor één
+        of meer aspecten, dan zullen alleen de mensen in de aspecten het bericht zien.
+        Je kunt ook in het zoekveld zoeken naar #koken en je ziet dan de berichten
+        die zijn getagged met #koken. Dat zijn dan je eigen berichten, maar ook de
+        openbare berichten van andere diasporians. Zo zie je dat tags een bijzonder
+        instrument zijn om content van anderen te vinden of om content met anderen
+        te delen.'
+      nsfw:
+      tags_ex3: ALs je bericht mogelijjk aanstootgevend voor iemand kan zijn, of als
+        iemand op z'n werk last krijgt door het bekijken ervan, voeg dan de <span
+        class="click">#nsfw</span> (“not safe for work”) tag toe aan het bericht,
+        zodat het niet getoond wordt, tenzij de kijker er bewust voor kiest om het
+        zien. We behandelen dit verder in %{part_link}.
       mentions: "@vermeldingen"
-      mentions_ex1: "Wist je dat je iemands aandacht kunt trekken door hem of haar te \"vermelden\"? Type gewoon een @-teken gevolgd door de naam van een van je contacten. Als je begint te typen (de weergavenaam, niet de gebruikersnaam), dan zal diaspora* de naam automatisch aanvullen. Druk op Enter of klik op de naam in het automatisch aanvulveld en je zult zien dat de volledige naam wordt getoond en dat het @-teken is verdwenen. Geen zorgen, het wordt een @vermelding als jet het bericht hebt geplaatst. De persoon die je vermeld krijgt een notificatie op de notificatiepagina en via de e-mail als hij of zij dat zo heeft ingesteld."
-      mentions_ex2: "Zo kunnen ook anderen jou @vermelden en dan krijg jij een notificatie in de werkbalk (en via de mail als je dat zo hebt ingesteld)."
-      mentions_ex3: "Weet wel dat je alleen mensen die in je aspecten staan kunt @vermelden; en dan ook alleen in berichten, niet in de reacties."
+      mentions_ex1: Wist je dat je iemands aandacht kunt trekken door hem of haar
+        te "vermelden"? Type gewoon een @-teken gevolgd door de naam van een van je
+        contacten. Als je begint te typen (de weergavenaam, niet de gebruikersnaam),
+        dan zal diaspora* de naam automatisch aanvullen. Druk op Enter of klik op
+        de naam in het automatisch aanvulveld en je zult zien dat de volledige naam
+        wordt getoond en dat het @-teken is verdwenen. Geen zorgen, het wordt een
+        @vermelding als jet het bericht hebt geplaatst. De persoon die je vermeld
+        krijgt een notificatie op de notificatiepagina en via de e-mail als hij of
+        zij dat zo heeft ingesteld.
+      mentions_ex2: Zo kunnen ook anderen jou @vermelden en dan krijg jij een notificatie
+        in de werkbalk (en via de mail als je dat zo hebt ingesteld).
+      mentions_ex3: Weet wel dat je alleen mensen die in je aspecten staan kunt @vermelden;
+        en dan ook alleen in berichten, niet in de reacties.
       format: Tekstopmaak
-      format_ex1: ~
-      format_ex2: ~
-      format_ex3: ~
+      format_ex1:
+      format_ex2:
+      format_ex3:
       links: Links
-      links_ex1: ~
-      links_ex2: ~
-      images: ~
-      images_ex1: ~
-      images_ex2: ~
-      format_note: ~
-      format_link_text: "deze instructie"
-      links_ex: "Wil je een link in je bericht opnemen? Plak die gewoon in ke tekst en de link wordt automatisch omgezet naar een hyperlink. Je kunt ook de link invoeren met behulp van Markdown. Je kunt de <span class=\"click\">Voorbeeld</span> knop gebruiken om te controleren of je links werken."
+      links_ex1:
+      links_ex2:
+      images:
+      images_ex1:
+      images_ex2:
+      format_note:
+      format_link_text: deze instructie
+      links_ex: Wil je een link in je bericht opnemen? Plak die gewoon in ke tekst
+        en de link wordt automatisch omgezet naar een hyperlink. Je kunt ook de link
+        invoeren met behulp van Markdown. Je kunt de <span class="click">Voorbeeld</span>
+        knop gebruiken om te controleren of je links werken.
       embed: Inbedden
-      embed_ex1: "Je kunt ook links naar mediasites als Youtube, Vimeo, Soundcloud en andere plakken, waarna het video- of audiofragment wordt ingebed in je bericht. Probeer het eens!"
-      embed_ex2: "Let erop dat audio/video pas wordt ingebed <en>nadat</em> je het bericht hebt gepubliceerd. Je moet dus een refresh of F5 geven om het te zien. Soms kost het even wat tijd voordat de site waar je naar linkt de juiste reactie terugstuurt, dus soms moet je even wat langer wachten voordat je je stream ververst."
-      services: "Berichten plaatsen op andere services"
-      services_ex1: "Als je je diaspora* account hebt verbonden aan je accounts bij andere services, dan kun je je bericht automatisch op die services plaatsen door op één of meer van die pictogrammen te klikken."
-      services_ex2: "Als je begint te typen terwijl één of meer van die pictogrammen geselecteerd is, zal een teller aangeven hoeveel tekens je nog kunt gebruiken: 140 voor Twitter, 1000 voor Tumblr, 63206 voor Facebook. In diaspora* heb je zelfs 65535 tekens beschikbaar. De teller laat altijd het laagste beschikbare aantal zien; dus als je Twitter en Facebook hebt geselecteerd, dan wordt afgeteld vanaf 140 tekens."
-      services_ex3: "Als je bericht langer is dan het aantal dat de aangesloten service aankan, dan wordt het daar gedeelde bericht ingekort met een link naar je bericht op diaspora*."
-      how: "Hoe vind je dat? Je kunt dus heel veel doen met je berichten in diaspora*."
-      try_out: "Om het eens te proberen, zullen we eens een openbare aankondiging plaatsen dat je binnen bent gekomen? Dat is een goede manier om welkom geheten te worden door de mensen in de gemeenschap en om relaties aan te gaan."
-      make_post1: "Om een openbaar bericht te plaatsen hoef je alleen de aspect selector knop op <span class=\"click\">Openbaar</span> in te stellen en je bericht te typen. Als je dat nog niet eerder deed, introduceer jezelf dan bij de diaspora* gemeenschap door de <span class=\"click\">#nieuwhier</span> tag te gebruiken. Hierdoor zien de mensen die de #nieuwhier tag volgen jouw bericht en kunnen je dan welkom heten. Voeg ook een paar van je interesses als #tags toe en je zult zien dat meer mensen met soortgelijke interesses je vinden. Je bericht kan iets zijn als:"
-      make_post2: "Hoi iedereen, ik ben #newhere / #nieuwhier in diaspora*. Ik hou van #hardlopen, #literatuur en #konijnen."
-      make_post3: "Je zou ook een niet openbaar bericht kunnen maken. Als dat zo is, prima, je weet nu in ieder geval hoe het kan."
-      interact: "Interactie met berichten in de stream"
-      interact_ex1: "De stream is een real-time overzicht van statusberichten. Als iemand die je volgt een bericht plaatst, dan wordt dat in jouw stream getoond. En je kunt reageren op zowel je eigen berichten, als op die van anderen. Je kunt ook berichten van anderen \"leuk\" vinden en verder \"delen\" en als iemand iets publiceert dat je niet leuk vindt, dan kun je dat verbergen. Dit gebeurt allemaal in de stream, die je vindt onder het tekstinvoerveld."
-      interact_ex2: "Vergeet niet dat er verschillende streams afhankelijk zijn van het selectie die je maakt: <span class=\"click\">Stream</span>, <span class=\"click\">Mijn activiteit</span>, <span class=\"click\">@Vermeldingen</span>, <span class=\"click\">Mijn Aspecten</span> of <span class=\"click\">#Gevolgde Tags</span>. Hoewel het overzicht bepaalt welke berichten je in je stream ziet, kun je toch altijd op dezelfde manier interacteren met elk van de berichten in elk van de overzichten."
-      interact_ex3: ~
+      embed_ex1: Je kunt ook links naar mediasites als Youtube, Vimeo, Soundcloud
+        en andere plakken, waarna het video- of audiofragment wordt ingebed in je
+        bericht. Probeer het eens!
+      embed_ex2: Let erop dat audio/video pas wordt ingebed <en>nadat</em> je het
+        bericht hebt gepubliceerd. Je moet dus een refresh of F5 geven om het te zien.
+        Soms kost het even wat tijd voordat de site waar je naar linkt de juiste reactie
+        terugstuurt, dus soms moet je even wat langer wachten voordat je je stream
+        ververst.
+      how: Hoe vind je dat? Je kunt dus heel veel doen met je berichten in diaspora*.
+      try_out: Om het eens te proberen, zullen we eens een openbare aankondiging plaatsen
+        dat je binnen bent gekomen? Dat is een goede manier om welkom geheten te worden
+        door de mensen in de gemeenschap en om relaties aan te gaan.
+      make_post1: 'Om een openbaar bericht te plaatsen hoef je alleen de aspect selector
+        knop op <span class="click">Openbaar</span> in te stellen en je bericht te
+        typen. Als je dat nog niet eerder deed, introduceer jezelf dan bij de diaspora*
+        gemeenschap door de <span class="click">#nieuwhier</span> tag te gebruiken.
+        Hierdoor zien de mensen die de #nieuwhier tag volgen jouw bericht en kunnen
+        je dan welkom heten. Voeg ook een paar van je interesses als #tags toe en
+        je zult zien dat meer mensen met soortgelijke interesses je vinden. Je bericht
+        kan iets zijn als:'
+      make_post2: 'Hoi iedereen, ik ben #newhere / #nieuwhier in diaspora*. Ik hou
+        van #hardlopen, #literatuur en #konijnen.'
+      make_post3: Je zou ook een niet openbaar bericht kunnen maken. Als dat zo is,
+        prima, je weet nu in ieder geval hoe het kan.
+      interact: Interactie met berichten in de stream
+      interact_ex1: De stream is een real-time overzicht van statusberichten. Als
+        iemand die je volgt een bericht plaatst, dan wordt dat in jouw stream getoond.
+        En je kunt reageren op zowel je eigen berichten, als op die van anderen. Je
+        kunt ook berichten van anderen "leuk" vinden en verder "delen" en als iemand
+        iets publiceert dat je niet leuk vindt, dan kun je dat verbergen. Dit gebeurt
+        allemaal in de stream, die je vindt onder het tekstinvoerveld.
+      interact_ex2: 'Vergeet niet dat er verschillende streams afhankelijk zijn van
+        het selectie die je maakt: <span class="click">Stream</span>, <span class="click">Mijn
+        activiteit</span>, <span class="click">@Vermeldingen</span>, <span class="click">Mijn
+        Aspecten</span> of <span class="click">#Gevolgde Tags</span>. Hoewel het overzicht
+        bepaalt welke berichten je in je stream ziet, kun je toch altijd op dezelfde
+        manier interacteren met elk van de berichten in elk van de overzichten.'
+      interact_ex3:
       comments: Reacties
-      comments_ex: "Als er nog geen reacties staan bij een bericht, klik dan op <span class=\"click\">Reageren</span> om het reactieveld te openen. Als er al reacties onder een bericht staan, wordt het reactieveld automatisch getoond. Als er meer dan drie reacties zijn geplaatst, dan worden alleen de drie laatste getoond. Je kunt de andere reacties wel laten weergeven door te klikken op "
-      likes: "Leuk vinden"
-      likes_ex1: "Naast de <span class=\"click\">Reageren</span> link zie je de <span class=\"click\">Vind ik leuk</span> link. Die kan worden gebruikt om de schrijver van het bericht te melden dat je het bericht hebt gelezen het het waardeert, zonder te hoeven reageren. Als je op die link klikt, wordt je toegevoegd aan de telling van het aantal 'leukjes'. Als je op de teller klikt, zie je wie het bericht ook leuk vinden."
-      likes_ex2: "Als je van mening verandert, dan kun je je \"leukje\" verwijderen door op de <span class=\"click\">Loslaten</span> link te klikken. Maar vergeet niet dat de schrijver van het bericht dat je eerder leuk vond, daar toen een melding van kreeg."
+      comments_ex: 'Als er nog geen reacties staan bij een bericht, klik dan op <span
+        class="click">Reageren</span> om het reactieveld te openen. Als er al reacties
+        onder een bericht staan, wordt het reactieveld automatisch getoond. Als er
+        meer dan drie reacties zijn geplaatst, dan worden alleen de drie laatste getoond.
+        Je kunt de andere reacties wel laten weergeven door te klikken op '
+      likes: Leuk vinden
+      likes_ex1: Naast de <span class="click">Reageren</span> link zie je de <span
+        class="click">Vind ik leuk</span> link. Die kan worden gebruikt om de schrijver
+        van het bericht te melden dat je het bericht hebt gelezen het het waardeert,
+        zonder te hoeven reageren. Als je op die link klikt, wordt je toegevoegd aan
+        de telling van het aantal 'leukjes'. Als je op de teller klikt, zie je wie
+        het bericht ook leuk vinden.
+      likes_ex2: Als je van mening verandert, dan kun je je "leukje" verwijderen door
+        op de <span class="click">Loslaten</span> link te klikken. Maar vergeet niet
+        dat de schrijver van het bericht dat je eerder leuk vond, daar toen een melding
+        van kreeg.
       reshare: Doorgeven
       reshare_ex: |-
-          Openbare berichten van anderen kunnen worden doorgegeven. Om dat te doen klik je op de <span class="click">Doorgeven</span> link die je kunt vinden tussen de Leuk vinden en Reageren links.
-          Het verder delen van een bericht maakt het ook zichtbaar voor jouw volgers en kan dus helpen bij het verder verspreiden van belangrijk nieuws naar een nieuw publiek.
-      post_icons: ~
-      delete: "Berichten en reacties verwijderen"
-      delete_ex: "Als je met je muiscursor over een van je eigen berichten of reacties schuift, dan verschijnt een <span class=\"click\">x</span> in de rechterbovenhoek, waardoor je dat bericht of die reactie kunt verwijderen. Je kunt ook jouw reacties onder berichten van anderen verwijderen."
-      hide: "Iemands berichten verbergen"
-      hide_ex: "Als je iemands bericht niet meer wilt zien, dan kun je dat bericht in je Stream eenvoudig verbergen door te klikken op de <span class=\"click\">x</span>, net zoals je je eigen berichten kunt verwijderen."
-      notifications: ~
-      notifications_ex: ~
-      ignore: "Een gebruiker negeren"
-      ignore_ex1: "Als je vindt dat iemand steeds vervelende, saaie of aanstootgevende berichten plaatst, dan kun je die persoon negeren. Dat betekent dat dienst berichten niet langer in je stream verschijnen. Die persoon kan nog wel steeds reageren op je berichten of ze doorgeven en de reacties van die persoon op berichten in jouw stream zijn nog wel steeds zichtbaar. Om iemand te negeren plaats de cursor dan over een van de berichten van die persoon en klik op het pictogram naast de kleine \"x\" in de rechterbovenhoev - het lijkt op een persoon met een streepje erdoorheen. Als je iemand negeert, verdwijnen de berichten niet meteen, je moet eerst je scherm verversen."
-      ignore_ex1a: ~
-      ignore_ex2: "Het overzicht met de personen die je negeert kun je zien in de accountinstellingen onder <span class=\"click\">Privacy</span>. Als je iemand niet langer wilt negeren, kun je de persoon op dat overzicht verwijderen. We behandelen hoe je bij je accountinstellingen pagina kunt komen in "
-      report: ~
-      report_ex: ~
-      finish: "Je weet nu welke acties je het vaakst zult uitvoeren op diaspora*: plaatsen van berichten en reageren op en doorgeven van berichten van anderen. In het volgende deel van deze instructies gaan we in op gesprekken: besloten berichten die je deelt met één of meer contactpersonen."
+        Openbare berichten van anderen kunnen worden doorgegeven. Om dat te doen klik je op de <span class="click">Doorgeven</span> link die je kunt vinden tussen de Leuk vinden en Reageren links.
+        Het verder delen van een bericht maakt het ook zichtbaar voor jouw volgers en kan dus helpen bij het verder verspreiden van belangrijk nieuws naar een nieuw publiek.
+      post_icons:
+      delete: Berichten en reacties verwijderen
+      delete_ex: Als je met je muiscursor over een van je eigen berichten of reacties
+        schuift, dan verschijnt een <span class="click">x</span> in de rechterbovenhoek,
+        waardoor je dat bericht of die reactie kunt verwijderen. Je kunt ook jouw
+        reacties onder berichten van anderen verwijderen.
+      hide: Iemands berichten verbergen
+      hide_ex: Als je iemands bericht niet meer wilt zien, dan kun je dat bericht
+        in je Stream eenvoudig verbergen door te klikken op de <span class="click">x</span>,
+        net zoals je je eigen berichten kunt verwijderen.
+      notifications:
+      notifications_ex:
+      ignore: Een gebruiker negeren
+      ignore_ex1: Als je vindt dat iemand steeds vervelende, saaie of aanstootgevende
+        berichten plaatst, dan kun je die persoon negeren. Dat betekent dat dienst
+        berichten niet langer in je stream verschijnen. Die persoon kan nog wel steeds
+        reageren op je berichten of ze doorgeven en de reacties van die persoon op
+        berichten in jouw stream zijn nog wel steeds zichtbaar. Om iemand te negeren
+        plaats de cursor dan over een van de berichten van die persoon en klik op
+        het pictogram naast de kleine "x" in de rechterbovenhoev - het lijkt op een
+        persoon met een streepje erdoorheen. Als je iemand negeert, verdwijnen de
+        berichten niet meteen, je moet eerst je scherm verversen.
+      ignore_ex1a:
+      ignore_ex2: 'Het overzicht met de personen die je negeert kun je zien in de
+        accountinstellingen onder <span class="click">Privacy</span>. Als je iemand
+        niet langer wilt negeren, kun je de persoon op dat overzicht verwijderen.
+        We behandelen hoe je bij je accountinstellingen pagina kunt komen in '
+      report:
+      report_ex:
+      finish: 'Je weet nu welke acties je het vaakst zult uitvoeren op diaspora*:
+        plaatsen van berichten en reageren op en doorgeven van berichten van anderen.
+        In het volgende deel van deze instructies gaan we in op gesprekken: besloten
+        berichten die je deelt met één of meer contactpersonen.'
     getting_started6:
-      byline: "Deel 6 - Meldingen en gesprekken"
-      menu_title: "Meldingen en gesprekken"
-      intro: "De laatste functie die je beslist moet kennen is \"gesprekken\". Maar voor we dat doen, leggen we eerst de \"Meldingen\"-functie uit."
+      byline: Deel 6 - Meldingen en gesprekken
+      menu_title: Meldingen en gesprekken
+      intro: De laatste functie die je beslist moet kennen is "gesprekken". Maar voor
+        we dat doen, leggen we eerst de "Meldingen"-functie uit.
       notify: Meldingen
-      notify_ex1: "Door te klikken op het meldingenpictogram (dat lijkt op een satelliet) krijg je een uitklaplijst met de 5 meest recente meldingen. Als je ongelezen meldingen hebt, dan verschijnt er een rood gekleurd getalletje over het pictogram heen."
-      notify_ex2: "Meldingen zien eruit als \"Persoon A heeft gereageerd op Persoon B's bericht\", \"Persoon A deelt nu met jou\", of \"Persoon A heeft je vermeldt in een bericht\". Vanuit deze uitklaplijst kun je:"
-      notify_ls1: "Klik op de naam van de persoon om de profielpagina te bekijken."
-      notify_ls2: "Klik op <span class=\"click\">bericht</span> om het bericht te zien."
-      notify_ls3: "Klik op <span class=\"click\">Markeer alles als gelezen</span>."
-      notify_ls4: "Klik op <span class=\"click\">Bekijk alles</span> om naar de meldingenpagina te gaan."
-      notify_ex3: "De meldingenpagina toont je alle voorgaande meldingen, 25 meldingen per pagina."
+      notify_ex1: Door te klikken op het meldingenpictogram (dat lijkt op een satelliet)
+        krijg je een uitklaplijst met de 5 meest recente meldingen. Als je ongelezen
+        meldingen hebt, dan verschijnt er een rood gekleurd getalletje over het pictogram
+        heen.
+      notify_ex2: 'Meldingen zien eruit als "Persoon A heeft gereageerd op Persoon
+        B''s bericht", "Persoon A deelt nu met jou", of "Persoon A heeft je vermeldt
+        in een bericht". Vanuit deze uitklaplijst kun je:'
+      notify_ls1: Klik op de naam van de persoon om de profielpagina te bekijken.
+      notify_ls2: Klik op <span class="click">bericht</span> om het bericht te zien.
+      notify_ls3: Klik op <span class="click">Markeer alles als gelezen</span>.
+      notify_ls4: Klik op <span class="click">Bekijk alles</span> om naar de meldingenpagina
+        te gaan.
+      notify_ex3: De meldingenpagina toont je alle voorgaande meldingen, 25 meldingen
+        per pagina.
       convo: Gesprekken
-      convo_ex1: "Een gesprek is besloten communicatie tussen twee of meer mensen. Om deze functie te gebruiken, klik je op het enveloppenpictogram in de werkbalk."
-      convo_ex2: "De gesprekkenpagina bestaat uit twee kolommen: links staat een overzicht met de gesprekken waaraan je meedoet; rechts een overzicht met het momenteel geselecteerde gesprek (als dat speelt)."
-      convo_ex3: "Gebruik de <span class=\"click\">Nieuw bericht</span> knop bovenaan de linkerkolom om een nieuw gesprek te voeren. De knop opent een venster waarin je de tekst kunt schrijven en de personen kunt toevoegen voor wie het bericht bestemd is."
-      convo_ex4: "Je kunt alleen gesprekken voeren met personen met wie je over en weer deelt."
-      convo_ex5: "Als je een naam typt in het \"Aan\" veld, wordt de naam automatisch aangevuld, net als bij het vermelden in een bericht, Klik op de naam die je zoekt, voer een onderwerp in, tik je berichtje in en klaar is kees! Zo simpel is het. Je kunt natuurlijk ook tekstopmaak gebruiken, due voel je vrij om vette titels en kopteksten in je bericht op te nemen."
-      convo_ex6: "In de linkerkolom zie je een overzicht met gesprekken, met de titel, profielfoto van de persoon die het gesprek startte, de naam van de laatste persoon die reageerde; aan de rechterkant het aantal berichten binnen het gesprek (in grijs, ongelezen berichten zijn rood weergegeven), de tijd sinds de laatste reactie; en onderaan een \"meervoudige personen\" pictogram als er meer dan één persoon buiten jouzelf zijn betrokken. Verplaats je cursor over dit pictogram om de andere deelnemers te zien."
-      convo_ex7: "Je kunt het gesprek nalezen door er in de linkerkolom op te klikken, waarna het rechts getoond wordt. Linksboven zie je de lijst met deelnemers (inclusief de personen die nog niet hebben gereageerd). Let hier op, voordat je begint met roddelen! Er kunnen meer personen meedoen, die allemaal jouw reacties kunnen lezen."
-      convo_ex8: "Reageren op een gesprek wijst zichzelf. Als het wordt getoond, typ dan gewoon je reactie in het tekstveld onderaan het gesprek en druk op de <span class=\"click\">Reageren</span> knop."
+      convo_ex1: Een gesprek is besloten communicatie tussen twee of meer mensen.
+        Om deze functie te gebruiken, klik je op het enveloppenpictogram in de werkbalk.
+      convo_ex2: 'De gesprekkenpagina bestaat uit twee kolommen: links staat een overzicht
+        met de gesprekken waaraan je meedoet; rechts een overzicht met het momenteel
+        geselecteerde gesprek (als dat speelt).'
+      convo_ex3: Gebruik de <span class="click">Nieuw bericht</span> knop bovenaan
+        de linkerkolom om een nieuw gesprek te voeren. De knop opent een venster waarin
+        je de tekst kunt schrijven en de personen kunt toevoegen voor wie het bericht
+        bestemd is.
+      convo_ex4: Je kunt alleen gesprekken voeren met personen met wie je over en
+        weer deelt.
+      convo_ex5: Als je een naam typt in het "Aan" veld, wordt de naam automatisch
+        aangevuld, net als bij het vermelden in een bericht, Klik op de naam die je
+        zoekt, voer een onderwerp in, tik je berichtje in en klaar is kees! Zo simpel
+        is het. Je kunt natuurlijk ook tekstopmaak gebruiken, due voel je vrij om
+        vette titels en kopteksten in je bericht op te nemen.
+      convo_ex6: In de linkerkolom zie je een overzicht met gesprekken, met de titel,
+        profielfoto van de persoon die het gesprek startte, de naam van de laatste
+        persoon die reageerde; aan de rechterkant het aantal berichten binnen het
+        gesprek (in grijs, ongelezen berichten zijn rood weergegeven), de tijd sinds
+        de laatste reactie; en onderaan een "meervoudige personen" pictogram als er
+        meer dan één persoon buiten jouzelf zijn betrokken. Verplaats je cursor over
+        dit pictogram om de andere deelnemers te zien.
+      convo_ex7: Je kunt het gesprek nalezen door er in de linkerkolom op te klikken,
+        waarna het rechts getoond wordt. Linksboven zie je de lijst met deelnemers
+        (inclusief de personen die nog niet hebben gereageerd). Let hier op, voordat
+        je begint met roddelen! Er kunnen meer personen meedoen, die allemaal jouw
+        reacties kunnen lezen.
+      convo_ex8: Reageren op een gesprek wijst zichzelf. Als het wordt getoond, typ
+        dan gewoon je reactie in het tekstveld onderaan het gesprek en druk op de
+        <span class="click">Reageren</span> knop.
       convo_ex9: |-
-          Je kunt een gesprek uit het overzicht verwijderen. Dat kun je doen door het gesprek in de linkerkolom te selecteren en dan op de  <span class="click">x</span> rechtsboven te klikken.
-          Blokkeren van een gesprek betekent dat je het verwijdert uit het overzicht met gesprekken en dat je geen nieuwe reacties meer ontvangt. Het is dus wel mogelijk dat de andere deelnemers op elkaars berichten reageren - jij ziet die dan alleen niet meer.
-      finish: "Meer is er eigenlijk niet te zeggen over gesprekken. Je bent nu ook bijna door de instructies heen. Tijd voor het laatste deel!"
+        Je kunt een gesprek uit het overzicht verwijderen. Dat kun je doen door het gesprek in de linkerkolom te selecteren en dan op de  <span class="click">x</span> rechtsboven te klikken.
+        Blokkeren van een gesprek betekent dat je het verwijdert uit het overzicht met gesprekken en dat je geen nieuwe reacties meer ontvangt. Het is dus wel mogelijk dat de andere deelnemers op elkaars berichten reageren - jij ziet die dan alleen niet meer.
+      finish: Meer is er eigenlijk niet te zeggen over gesprekken. Je bent nu ook
+        bijna door de instructies heen. Tijd voor het laatste deel!
     getting_started7:
-      byline: "Deel 7 - Afronden"
+      byline: Deel 7 - Afronden
       menu_title: Afronden
-      intro: "We hebben nu de meeste functies van diaspora* behandeld. Het laatste deel van deze instructie gaat over een paar lossen eindjes waar je wel iets over moet weten."
-      connect: "Verbinden van je diaspora* account met andere services"
-      connect_ex1: "Je kunt je diaspora* account met verschillende andere diensten verbinden: Facebook, Twitter en Tumblr. Natuurlijk moet je dan daar ook een account hebben...!"
-      connect_ex2: "Voordat je hiermee begint moet je wel de inloggegevens van de betreffende servivce bij de hand hebben, want waarschijnlijk moet je de verbinding met diaspora* autoriseren, voordat de verbinding het doet."
-      connect_ex3: "Om met een andere service te vebinden klik je op de pictogram van die dienst bij <span class=\"click\">Verbind diensten</span> in de rechterkolom van je stream. Als je binnen jezelfde browser ook al bent ingelogd op die service, dan ben je automatisch herkend. Als je nog niet bent ingelogd, dan vraagt de service om nu in te loggen. Als je bent ingelogd, dan vraagt de dienst of je dienst wilt koppelen. Accepteer dit en je kunt hierna berichten  vanaf diaspora direct ook naar die dienst publiceren*!"
-      connect_ex4: "Als je nu klikt in het tekst invoerveld, dan zie je het pictogram van die dienst onder het tekstveld. Klik op dit pictogram om te activeren en je bericht verschijnt ook in de tijdlijn van die dienst. Slim, nietwaar? Zie %{part_link} voor meer informatie over het publicere naar verbonden diensten."
+      intro: We hebben nu de meeste functies van diaspora* behandeld. Het laatste
+        deel van deze instructie gaat over een paar lossen eindjes waar je wel iets
+        over moet weten.
       settings: Accountbeheer
-      settings_ex1: "Het laatste onderdeel waar we voor je begint aandacht aan moeten schenken is de instellingenpagina. Om daar te komen klik je op je profielafbeelding of je naam in de werkbalk en, daarna, kies je <span class=\"click\">Instellingen</span> uit het uitklapmenu. Hier zie je dan een overzicht met de account mogelijkheden."
-      settings_ex2: ~
+      settings_ex1: Het laatste onderdeel waar we voor je begint aandacht aan moeten
+        schenken is de instellingenpagina. Om daar te komen klik je op je profielafbeelding
+        of je naam in de werkbalk en, daarna, kies je <span class="click">Instellingen</span>
+        uit het uitklapmenu. Hier zie je dan een overzicht met de account mogelijkheden.
+      settings_ex2:
       profile: Profiel
-      profile_ex1: ~
-      nsfw: ~
-      profile_ex2: ~
-      profile_ex3: ~
+      profile_ex1:
+      nsfw:
+      profile_ex2:
+      profile_ex3:
       account: Account
-      account_ex1: "Hier kun je je e-mailadres en wachtwoord wijzigen, je taal instellen, je e-mailnotificaties configureren, je gegevens downloaden en je account beëindigen. Ons uiteindelijke doel is dat je je gegevens kunt downloaden om ze later te gebruiken om je account naar een andere server te migreren. Momenteel is dat nog niet mogelijk. Je zou wel regelmatig jouw gegevens kunnen downloaden als een back-up."
-      account_ex1a: ~
-      account_ex2: "diaspora* heeft een zelfbesturende community standaard genaamd NSFW (not safe for work - niet verstandig onder werktijd). Als je van plan bent regelmatig berichten te plaatsten die niet passend zijn om op kantoor te laten bekijken, overweeg dan om NSFW aan te vinken. Dat zorgt ervoor dat je berichten standaard verborgen blijven achter de NSFW melding in de stream van gebruikers. Ze kunnen dan zelf besluiten om hierop te klikken als ze je berichten willen zien."
-      spotlight: ~
-      spotlight_ex: ~
+      account_ex1: Hier kun je je e-mailadres en wachtwoord wijzigen, je taal instellen,
+        je e-mailnotificaties configureren, je gegevens downloaden en je account beëindigen.
+        Ons uiteindelijke doel is dat je je gegevens kunt downloaden om ze later te
+        gebruiken om je account naar een andere server te migreren. Momenteel is dat
+        nog niet mogelijk. Je zou wel regelmatig jouw gegevens kunnen downloaden als
+        een back-up.
+      account_ex1a:
+      account_ex2: diaspora* heeft een zelfbesturende community standaard genaamd
+        NSFW (not safe for work - niet verstandig onder werktijd). Als je van plan
+        bent regelmatig berichten te plaatsten die niet passend zijn om op kantoor
+        te laten bekijken, overweeg dan om NSFW aan te vinken. Dat zorgt ervoor dat
+        je berichten standaard verborgen blijven achter de NSFW melding in de stream
+        van gebruikers. Ze kunnen dan zelf besluiten om hierop te klikken als ze je
+        berichten willen zien.
+      spotlight:
+      spotlight_ex:
       privacy: Privacy
-      privacy_ex: "Dit is de lijst van gebruikers die je negeert. Je kunt ze van de lijst verwijderen als je hun berichten weer wilt zien. Zie %{part_link} voor informatie over het negeren van mensen."
-      services: Diensten
-      services_ex: "De Diensten pagina toont je verbonden diensten (bijv. Facebook, Twitter, Tumblr) en maakt het mogelijk nieuwe diensten aan je diaspora* account toe te voegen."
-      applications: ~
-      applications_ex: ~
-      finish1: "Bedankt voor het lezen van deze instructies! We hopen dat ze een zinvolle bijdrage leveren en dat je nu met vertrouwen diaspora* kunt gebruiken als je nieuwe netwerk. Als je vragen hebt, aanzel niet om een openbaar in diaspora* te plaatsen met de <span class=\"click\">#help</span> of <span class=\"click\">#question</click> tags, zodat andere community leden je kunnen helpen. Er staat een hulpvaardige gemeenschap om je heen."
+      privacy_ex: Dit is de lijst van gebruikers die je negeert. Je kunt ze van de
+        lijst verwijderen als je hun berichten weer wilt zien. Zie %{part_link} voor
+        informatie over het negeren van mensen.
+      applications:
+      applications_ex:
+      finish1: Bedankt voor het lezen van deze instructies! We hopen dat ze een zinvolle
+        bijdrage leveren en dat je nu met vertrouwen diaspora* kunt gebruiken als
+        je nieuwe netwerk. Als je vragen hebt, aanzel niet om een openbaar in diaspora*
+        te plaatsen met de <span class="click">#help</span> of <span class="click">#question</click>
+        tags, zodat andere community leden je kunnen helpen. Er staat een hulpvaardige
+        gemeenschap om je heen.
       finish2: " en "
     formatting:
-      byline: "Tekst opmaken"
-      menu_title: "Tekst opmaken"
-      format1: "Binnen diaspora* kun je de tekst in je berichten, reacties en gesprekken opmaken via een eenvoudig opmaaksysteem genaamd Markdown. Op deze pagina geven we een korte introductie in de meest gebruikte opmaakopties."
-      format2: "Het eerste wat je moet weten is dat je twee keer een nieuwe regel moet opgeven om paragrafen te scheiden (behalve in lijsten), anders worden de paragrafen samengevoegd. Als je echt maar één scheidingsregel wilt gebruiken, plaats dan twee spaties aan het eind van de eerste paragraaf."
-      format3: "Hierbij is de <span class=\"click\">Voorbeeld</span> knop uiterst handig. Probeer wat opmaakopties, bekijk het voorbeeld, zoek uit wat niet goed werkt, herstel het en bekijk opnieuw, totdat je tevreden bent!"
-      format4: "In de onderstaande voorbeelden kun je de tekst in de grijze gebieden kopiëren en plakken in het tekstveld in diaspora* en de <span class=\"click\">Voorbeeld</span> knop gebruiken om het resultaat te zien."
+      byline: Tekst opmaken
+      menu_title: Tekst opmaken
+      format1: Binnen diaspora* kun je de tekst in je berichten, reacties en gesprekken
+        opmaken via een eenvoudig opmaaksysteem genaamd Markdown. Op deze pagina geven
+        we een korte introductie in de meest gebruikte opmaakopties.
+      format2: Het eerste wat je moet weten is dat je twee keer een nieuwe regel moet
+        opgeven om paragrafen te scheiden (behalve in lijsten), anders worden de paragrafen
+        samengevoegd. Als je echt maar één scheidingsregel wilt gebruiken, plaats
+        dan twee spaties aan het eind van de eerste paragraaf.
+      format3: Hierbij is de <span class="click">Voorbeeld</span> knop uiterst handig.
+        Probeer wat opmaakopties, bekijk het voorbeeld, zoek uit wat niet goed werkt,
+        herstel het en bekijk opnieuw, totdat je tevreden bent!
+      format4: In de onderstaande voorbeelden kun je de tekst in de grijze gebieden
+        kopiëren en plakken in het tekstveld in diaspora* en de <span class="click">Voorbeeld</span>
+        knop gebruiken om het resultaat te zien.
       headings: Kopteksten
-      headings_ex1: "Je kunt eerste, tweede en derde niveau kopteksten aan je bericht toevoegen door een hekjessymbool (#) aan het begin van een regel te typen, dus zo:"
-      headings_code1: "Dit is een hele grote koptekst"
-      headings_code2: "Half zo groot als de voorgaande"
-      headings_code3: "Twee keer de grootte van normale tekst"
-      headings_ex2: "Let erop dat je een spatie tussen de hekjes en jouw tekst laat staan om de hekjes van kopteksten niet te verwarren met #tags. De koptekst eindigt als je op de enter-knop drukt om naar de volgende regel te gaan."
+      headings_ex1: 'Je kunt eerste, tweede en derde niveau kopteksten aan je bericht
+        toevoegen door een hekjessymbool (#) aan het begin van een regel te typen,
+        dus zo:'
+      headings_code1: Dit is een hele grote koptekst
+      headings_code2: Half zo groot als de voorgaande
+      headings_code3: Twee keer de grootte van normale tekst
+      headings_ex2: 'Let erop dat je een spatie tussen de hekjes en jouw tekst laat
+        staan om de hekjes van kopteksten niet te verwarren met #tags. De koptekst
+        eindigt als je op de enter-knop drukt om naar de volgende regel te gaan.'
       lists: Lijsten
-      lists_ex1: "Om een lijst met bullets te maken zet je ofwel een *, of een - voor elke regel die deel van de lijst is."
-      lists_ex2: "Je kunt ook een genummerde lijst maken door \"1.\", \"2.\", etc vooraan de regels te zetten. Om een genummerde lijst te maken moet je wel een punt direct na het cijfer zetten."
-      lists_ex3: "Let er ook hierbij op dat er een spatie achter het \"bullet\" teken en de rest van de tekst staat en dat er een lege regel boven en onder de lijst staat, anders werkt het niet."
-      lists_code1: "Zo maak je een bullet lijst:"
-      lists_code2: "onderdeel een;"
-      lists_code3: "onderdeel twee;"
-      lists_code4: "onderdeel drie."
-      lists_code5: "Dit wordt een andere bulletlijst:"
-      lists_code6: "En dit wordt een genummerde lijst:"
+      lists_ex1: Om een lijst met bullets te maken zet je ofwel een *, of een - voor
+        elke regel die deel van de lijst is.
+      lists_ex2: Je kunt ook een genummerde lijst maken door "1.", "2.", etc vooraan
+        de regels te zetten. Om een genummerde lijst te maken moet je wel een punt
+        direct na het cijfer zetten.
+      lists_ex3: Let er ook hierbij op dat er een spatie achter het "bullet" teken
+        en de rest van de tekst staat en dat er een lege regel boven en onder de lijst
+        staat, anders werkt het niet.
+      lists_code1: 'Zo maak je een bullet lijst:'
+      lists_code2: onderdeel een;
+      lists_code3: onderdeel twee;
+      lists_code4: onderdeel drie.
+      lists_code5: 'Dit wordt een andere bulletlijst:'
+      lists_code6: 'En dit wordt een genummerde lijst:'
       quote: Quote
-      quote_ex1: "Als je een samenvatting van een artikel of van een andere reactie wilt aanhalen, kun je de tekst makkelijk opmaken door de regel of alinea te beginnen met het \">\" teken:..."
-      quote_code1: "Dit is normale tekst om je quote te beginnen:"
-      quote_code2: "Dit is een quote."
-      quote_code2a: ~
-      quote_code3: "Deze tekst volgt op de quote."
-      pre: ~
-      pre_ex: ~
-      pre_code1: ~
-      pre_code2: ~
-      pre_code3: ~
-      pre_code4: ~
-      pre_code5: ~
+      quote_ex1: Als je een samenvatting van een artikel of van een andere reactie
+        wilt aanhalen, kun je de tekst makkelijk opmaken door de regel of alinea te
+        beginnen met het ">" teken:...
+      quote_code1: 'Dit is normale tekst om je quote te beginnen:'
+      quote_code2: Dit is een quote.
+      quote_code2a:
+      quote_code3: Deze tekst volgt op de quote.
+      pre:
+      pre_ex:
+      pre_code1:
+      pre_code2:
+      pre_code3:
+      pre_code4:
+      pre_code5:
       code: Codeblokken
-      code_ex1: "Als je een ontwikkelaar bent, dan zou je misschien wel eens een codeblok willen gebruiken. On dat te doen begin je de tekst met vier achterwaartse accentjes (` ` ` ` ). Om het codeblok af te sluiten doen je dat opnieuw."
-      code_ex2: "Je kunt dat ook doen door elk van je regels code vooraf te laten gaan door vier spaties. Met extra spaties wordt verder ingesprongen."
-      code_code1: "Dit is een normale tekstregel."
-      code_code2: "dit wordt een codeblok"
-      code_code3: "Dan nog wat normale tekst."
-      code_code4: "en meer code in een codeblok"
-      code_code5: "een regel code die inspringt met twee spaties"
-      code_code6: ~
-      code_snippet_text_a: ~
-      code_snippet_text_b: ~
-      line: "Horizontale lijn"
-      line_ex: "Om een horizontale lijn te maken gebruik je minimaal drie - - -, _ _ _ of * * * op een afzonderlijke regel. Meer dan drie tekens, of spaties ertussen, maakt voor de functie niet uit."
-      line_code1: "Er staat een horizontale lijn tussen deze regel en de volgende."
-      line_code2: "En nu kun je met de volgende sectie van je tekst beginnen."
-      itals: "Schuin en vet"
-      itals_ex1: "Zet asterisks of liggende streepjes voor en achter een woord of serie woorden om ze cursef, vet of vet cursief weer te laten geven."
+      code_ex1: Als je een ontwikkelaar bent, dan zou je misschien wel eens een codeblok
+        willen gebruiken. On dat te doen begin je de tekst met vier achterwaartse
+        accentjes (` ` ` ` ). Om het codeblok af te sluiten doen je dat opnieuw.
+      code_ex2: Je kunt dat ook doen door elk van je regels code vooraf te laten gaan
+        door vier spaties. Met extra spaties wordt verder ingesprongen.
+      code_code1: Dit is een normale tekstregel.
+      code_code2: dit wordt een codeblok
+      code_code3: Dan nog wat normale tekst.
+      code_code4: en meer code in een codeblok
+      code_code5: een regel code die inspringt met twee spaties
+      code_code6:
+      code_snippet_text_a:
+      code_snippet_text_b:
+      line: Horizontale lijn
+      line_ex: Om een horizontale lijn te maken gebruik je minimaal drie - - -, _
+        _ _ of * * * op een afzonderlijke regel. Meer dan drie tekens, of spaties
+        ertussen, maakt voor de functie niet uit.
+      line_code1: Er staat een horizontale lijn tussen deze regel en de volgende.
+      line_code2: En nu kun je met de volgende sectie van je tekst beginnen.
+      itals: Schuin en vet
+      itals_ex1: Zet asterisks of liggende streepjes voor en achter een woord of serie
+        woorden om ze cursef, vet of vet cursief weer te laten geven.
       itals_ex2: "<em>Schuin</em>: *word* of _word_"
       itals_ex3: "<strong>Vet</strong>: **word** of __word__"
       itals_ex4: "<strong><em>vet schuin</em></strong>: ***word*** or ___word___"
-      itals_ex8: "Je moet natuurlijk wel een overeenkomstige aantal asterisks en liggende streepjes aan beide zijden plaatsen om de opmaak te laten lukken. Invoeren van “Ik wil dit als een **vet* woord tonen” laat het woord niet in vet weergeven."
-      links: "Inline links"
-      link_ex1: "Om een %{inline_link} te maken gebruik je de volgende code:"
-      link_code: "[weergegeven tekst hier](http://link.adres.hier \"alt tekst\")"
-      link_ex2: "De \"alt tekst\" is optioneel en wordt weergegeven als een pop-up tekst als de muiscursor over de link beweegt."
-      inline_link_text: "inline link"
+      itals_ex8: Je moet natuurlijk wel een overeenkomstige aantal asterisks en liggende
+        streepjes aan beide zijden plaatsen om de opmaak te laten lukken. Invoeren
+        van “Ik wil dit als een **vet* woord tonen” laat het woord niet in vet weergeven.
+      links: Inline links
+      link_ex1: 'Om een %{inline_link} te maken gebruik je de volgende code:'
+      link_code: '[weergegeven tekst hier](http://link.adres.hier "alt tekst")'
+      link_ex2: De "alt tekst" is optioneel en wordt weergegeven als een pop-up tekst
+        als de muiscursor over de link beweegt.
+      inline_link_text: inline link
       images: Afbeeldingen
-      images_ex1: "Om externe afbeeldingen aan je bericht, reactie of provébericht toe te voegen, gebruik je dezelfde code als voor een link, maar met een uitroepteken vooraan:"
-      images_code: "![Alt tekst](http://website.com/afbeeldig.jpg \"optionele titel\")"
-      images_ex2: "Om dit te laten werken moet je een directie link naar een geldig afbeeldingsbestand opgeven, <em>niet</em> naar een webpagine met een of meer afbeeldingen."
-      images_ex3: "De alternatieve tekst in de vierkante haken wordt getoond als de afbeelding niet kan worden geladen en de optionele titel wordt als pop-up tekst getoond als de muiscursor over de afbeelding beweegt; beide kunnen handig zijn maar zijn niet noodzakelijk."
-      escape_ex1: "Als je in je bericht ook een teken wilt weergen dat ook in de Markdown opmaaktaal wordt gebruikt, dan kun je voorkomen dat Markdown het als opmaakcommando beschouwt door te 'escapen'. Doe dit door een 'backslash'( \\ ) voor het teken te plaatsen. Bijvoorbeeld ingeven van"
-      escape_code: "dit \\_ is een liggend streepje"
-      escape_ex2: "voorkomt dat Markdown het liggende streepje als een Markdown commando siet en laat diaspora* een liggend streepje plaatsen in plaats van er cursieve tekst achter weer te geven."
-      escape_ex3: "Je kunt wel \"diaspora*\" of \"D*\" typen zonder dat de asterisk als een opmaakopdracht wordt beschouwd."
-      symbols: "Speciale tekens"
-      symbols_ex: "Je kunt de volgende symbolen en andere speciale tekens maken door gebruik te maken van een combinatie van tekens:"
-      finish: "Er is een meer gedetailleerde beschrijving van de Markdown syntax %{markdown_link}"
-      markdown_link_text: "on deze pagina"
+      images_ex1: 'Om externe afbeeldingen aan je bericht, reactie of provébericht
+        toe te voegen, gebruik je dezelfde code als voor een link, maar met een uitroepteken
+        vooraan:'
+      images_code: '![Alt tekst](http://website.com/afbeeldig.jpg "optionele titel")'
+      images_ex2: Om dit te laten werken moet je een directie link naar een geldig
+        afbeeldingsbestand opgeven, <em>niet</em> naar een webpagine met een of meer
+        afbeeldingen.
+      images_ex3: De alternatieve tekst in de vierkante haken wordt getoond als de
+        afbeelding niet kan worden geladen en de optionele titel wordt als pop-up
+        tekst getoond als de muiscursor over de afbeelding beweegt; beide kunnen handig
+        zijn maar zijn niet noodzakelijk.
+      escape_ex1: Als je in je bericht ook een teken wilt weergen dat ook in de Markdown
+        opmaaktaal wordt gebruikt, dan kun je voorkomen dat Markdown het als opmaakcommando
+        beschouwt door te 'escapen'. Doe dit door een 'backslash'( \ ) voor het teken
+        te plaatsen. Bijvoorbeeld ingeven van
+      escape_code: dit \_ is een liggend streepje
+      escape_ex2: voorkomt dat Markdown het liggende streepje als een Markdown commando
+        siet en laat diaspora* een liggend streepje plaatsen in plaats van er cursieve
+        tekst achter weer te geven.
+      escape_ex3: Je kunt wel "diaspora*" of "D*" typen zonder dat de asterisk als
+        een opmaakopdracht wordt beschouwd.
+      symbols: Speciale tekens
+      symbols_ex: 'Je kunt de volgende symbolen en andere speciale tekens maken door
+        gebruik te maken van een combinatie van tekens:'
+      finish: Er is een meer gedetailleerde beschrijving van de Markdown syntax %{markdown_link}
+      markdown_link_text: on deze pagina
     tips:
-      headline: "Tips voor het gebruik van diaspora*"
-      byline: "Leuke trucjes die we hebben ontdekt"
-      menu_title: "Tips voor het gebruik van diaspora*"
-      intro: "Je kunt veel meer doen met diaspora*. Hier een kleine selectie met tips die jij misschien ook kunt gebruiken."
-      profile: "Extra profielvelden"
-      profile_ex: "Een eenvoudige manier om je profielpagina aantrekkelijker te maken is door extra \"profielvelden\" toe te voegen door gebruik te maken van speciale tekstopmaak in het Bio deel. Gebruik **vet** om titels te maken en gebruik optioneel *schuin* voor de onderdelen. Op die manier kun je allerhande extra velden toevoegen, zoals muziek, boeken, relatie enzovoorts."
-      notepad: "diaspora* gebruiken als notitieblok"
-      notepad_ex: "Je kunt diaspora* ook gebruiken als een notitieblok om kattebelletjes of presentatienotities op te slaan. Om dit te doen hoef je alleen maar een aspect aan te maken en daar <strong>niemand</strong> aan toe te voegen. Jawel, een leeg aspect. Waarom? Nou, dat betekent dat je berichten voor dit aspect kunt plaatsen, waarbij niemand anders die kan zien. Dat aspect is dan je persoonlijke notitieblok. Het kan een handige manier zijn om tekst of afbeeldingen van de ene naar de andere computer te kopiëren of om altijd je notities bij de hand te hebben als je online bent in diaspora*."
+      headline: Tips voor het gebruik van diaspora*
+      byline: Leuke trucjes die we hebben ontdekt
+      menu_title: Tips voor het gebruik van diaspora*
+      intro: Je kunt veel meer doen met diaspora*. Hier een kleine selectie met tips
+        die jij misschien ook kunt gebruiken.
+      profile: Extra profielvelden
+      profile_ex: Een eenvoudige manier om je profielpagina aantrekkelijker te maken
+        is door extra "profielvelden" toe te voegen door gebruik te maken van speciale
+        tekstopmaak in het Bio deel. Gebruik **vet** om titels te maken en gebruik
+        optioneel *schuin* voor de onderdelen. Op die manier kun je allerhande extra
+        velden toevoegen, zoals muziek, boeken, relatie enzovoorts.
+      notepad: diaspora* gebruiken als notitieblok
+      notepad_ex: Je kunt diaspora* ook gebruiken als een notitieblok om kattebelletjes
+        of presentatienotities op te slaan. Om dit te doen hoef je alleen maar een
+        aspect aan te maken en daar <strong>niemand</strong> aan toe te voegen. Jawel,
+        een leeg aspect. Waarom? Nou, dat betekent dat je berichten voor dit aspect
+        kunt plaatsen, waarbij niemand anders die kan zien. Dat aspect is dan je persoonlijke
+        notitieblok. Het kan een handige manier zijn om tekst of afbeeldingen van
+        de ene naar de andere computer te kopiëren of om altijd je notities bij de
+        hand te hebben als je online bent in diaspora*.
     other_docs:
-      headline: "Overige documentatie"
-      byline: "Meer hulp en informatie"
-      menu_title: "Overige documentie"
-      intro1: "We hebben geprobeerd om in deze instructie de meest noodzakelijke informatie om met diaspora* te kunnen werken duidelijk te beschrijven. Maar je zult best nog wel eens een vraag hebben, of iets willen weten wat niet is beproken. Er zijn ook nog meer technische aspecten die hier niet zijn behandeld, zoals het opzetten van je eigen diaspora* server."
-      intro2: "Op deze pagina vind je links naar nuttige sites met instructies en meer informatie."
+      headline: Overige documentatie
+      byline: Meer hulp en informatie
+      menu_title: Overige documentie
+      intro1: We hebben geprobeerd om in deze instructie de meest noodzakelijke informatie
+        om met diaspora* te kunnen werken duidelijk te beschrijven. Maar je zult best
+        nog wel eens een vraag hebben, of iets willen weten wat niet is beproken.
+        Er zijn ook nog meer technische aspecten die hier niet zijn behandeld, zoals
+        het opzetten van je eigen diaspora* server.
+      intro2: Op deze pagina vind je links naar nuttige sites met instructies en meer
+        informatie.
       tutorials: Instructies
-      parfait: "een Franstalige instructie voor nieuwe diaspora* gebruikers"
-      about: "Over diaspora*"
-      about1: "Natuurlijk is er heel veel informatie over diaspora* hier op onze projectsite"
-      wiki: "%{wiki_link} - alles wat je moet weten over gebruik, ontwikkeling en installatie van diaspora*"
-      wiki_link_text: "De officiële projectwiki"
-      wikipedia: "Er zijn pagina's over %{wikipedia_link} en de %{wikipedia_software_link} op Wikipedia"
+      parfait: een Franstalige instructie voor nieuwe diaspora* gebruikers
+      about: Over diaspora*
+      about1: Natuurlijk is er heel veel informatie over diaspora* hier op onze projectsite
+      wiki: "%{wiki_link} - alles wat je moet weten over gebruik, ontwikkeling en
+        installatie van diaspora*"
+      wiki_link_text: De officiële projectwiki
+      wikipedia: Er zijn pagina's over %{wikipedia_link} en de %{wikipedia_software_link}
+        op Wikipedia
       wikipedia_link_text: diaspora*
-      wikipedia_software_link_text: "diaspora* software"
+      wikipedia_software_link_text: diaspora* software
       support: Gebruikersondersteuning
-      question: "Je kunt een <span class=\"click\">#question</span> stellen over diaspora*, om <span class=\"click\">#help</span> vragen, of een <span class=\"click\">#bug</span> melden in openbare berichten binnen diaspora* zelf"
-      mail: "Heb je een probleem dat je niet op kunt lossen? Bespreek het met ons via %{mail_link}"
+      question: Je kunt een <span class="click">#question</span> stellen over diaspora*,
+        om <span class="click">#help</span> vragen, of een <span class="click">#bug</span>
+        melden in openbare berichten binnen diaspora* zelf
+      mail: Heb je een probleem dat je niet op kunt lossen? Bespreek het met ons via
+        %{mail_link}
       mail_link_text: distributielijst
-      irc: "Of spreek met de diaspora* ontwikkelaars op onze %{irc_link}. Als je niet meteen een reactie krijgt, probeer het dan later nog eens."
-      irc_link_text: "IRC kanaal"
-      progress: "Project voortgang"
+      irc: Of spreek met de diaspora* ontwikkelaars op onze %{irc_link}. Als je niet
+        meteen een reactie krijgt, probeer het dan later nog eens.
+      irc_link_text: IRC kanaal
+      progress: Project voortgang
       blog: "%{blog_link} - waar we belangrijke gebeurtenissen en updates aankondigen"
-      blog_link_text: "Project blog"
-      changelog: "%{changelog_link} - een overzicht van diaspora* ontwikkeling, inclusief nog niet officieel gepubliceerde mogelijkheden"
-      changelog_link_text: "Het wijzigingenlogboek"
-      discourse: "de online samenwerkingstool die we gebruiken om wijzigingen te bespreken en selecteren om diaspora* te verbeteren"
+      blog_link_text: Project blog
+      changelog: "%{changelog_link} - een overzicht van diaspora* ontwikkeling, inclusief
+        nog niet officieel gepubliceerde mogelijkheden"
+      changelog_link_text: Het wijzigingenlogboek
+      discourse: de online samenwerkingstool die we gebruiken om wijzigingen te bespreken
+        en selecteren om diaspora* te verbeteren
       communication: Communicatie
-      communicate: "De %{communicate_link} op onze wiki geeft de details van al onze communicatiekanalen die we gebruiken."
-      communicate_link_text: "\"Hoe we communiceren\""
-      other: "Andere sites"
-      manifesto: "%{manifesto_link} - a document waarin de beveiligings- en privacyafspraken van de diaspora* pod staan waar de gebruiker is aangemeld."
+      communicate: De %{communicate_link} op onze wiki geeft de details van al onze
+        communicatiekanalen die we gebruiken.
+      communicate_link_text: '"Hoe we communiceren"'
+      other: Andere sites
+      manifesto: "%{manifesto_link} - a document waarin de beveiligings- en privacyafspraken
+        van de diaspora* pod staan waar de gebruiker is aangemeld."
       manifesto_link_text: Privacyvoorwaarden

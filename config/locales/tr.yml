@@ -3,717 +3,776 @@ tr:
     formats:
       blog_headline: "%d %B %Y"
   buttons:
-    host_pod: "Pod sun"
-    join_diaspora: "Bize katıl!"
-    find_more: "Bilinmesi gerekenler »"
+    host_pod: Pod sun
+    join_diaspora: Bize katıl!
+    find_more: Bilinmesi gerekenler »
   meta:
     footer:
-      copyleft: "CC-BY diaspora* Vakfı"
-  title: "diaspora* Projesi"
-  newsfeed: "diaspora* Blog (Atom)"
-  planet_feed: "diaspora* Planet (Atom)"
+      copyleft: CC-BY diaspora* Vakfı
+  title: diaspora* Projesi
+  newsfeed: diaspora* Blog (Atom)
+  planet_feed: diaspora* Planet (Atom)
   layouts:
     application:
       wiki: wiki
-      discourse: "Tartışmalar ve Destek"
+      discourse: Tartışmalar ve Destek
       planet: planet
-      useful_resources: "Faydalı Kaynaklar"
+      useful_resources: Faydalı Kaynaklar
       codebase: codebase
       documentation: belgeleme
-      report_bugs: "Arattır ve bir hata rapor"
-      irc_general: "IRC - General"
-      irc_development: "IRC - Geliştirme"
-      discussion_general: "Tartışma - General"
-      discussion_development: "Tartışma - Geliştirme"
-      choose_language: "bir dil seçip"
-      translate: "Bir çeviri ekle"
-      cc_license_alt: "Creative Commons"
+      report_bugs: Arattır ve bir hata rapor
+      irc:
+      discussion_general: Tartışma - General
+      discussion_development: Tartışma - Geliştirme
+      choose_language: bir dil seçip
+      translate: Bir çeviri ekle
+      cc_license_alt: Creative Commons
       licensed_under: "%{site_link}, %{license_link} lisansına tabidir."
-      license_link_text: "Creative Commons Attribution 3.0 Bağımsız"
+      license_link_text: Creative Commons Attribution 3.0 Bağımsız
   pages:
     index:
-      headline: "diaspora* Hoşgeldiniz"
-      byline: "Kontrol ettiğiniz sosyal çevrimiçi dünya"
-      register: "Kaydol »"
-      key_philosophies: "diaspora* üç anahtar felsefeler dayanmaktadır:"
-      decentralization: "ademi merkeziyet"
-      decentralization_about: ~
+      headline: diaspora* Hoşgeldiniz
+      byline: Kontrol ettiğiniz sosyal çevrimiçi dünya
+      register: Kaydol »
+      key_philosophies: 'diaspora* üç anahtar felsefeler dayanmaktadır:'
+      decentralization: ademi merkeziyet
+      decentralization_about:
       freedom: özgürlük
-      freedom_about: ~
+      freedom_about:
       privacy: mahremiyet
-      privacy_about: ~
-      get_started: "Başlamak için ister misiniz?"
-      get_started_sub: "Bu 1, 2, 3 gibi kolaydır ..."
-      choose_pod: "1. Seçin bir pod"
-      choose_pod_exp: ~
-      host_yourself: ~
-      sign_up: "2. kaydol"
-      sign_up_ex: ~
-      join_convo: "3. Konuşmaya katılın!"
-      join_convo_ex: ~
+      privacy_about:
+      get_started: Başlamak için ister misiniz?
+      get_started_sub: Bu 1, 2, 3 gibi kolaydır ...
+      choose_pod: 1. Seçin bir pod
+      choose_pod_exp:
+      host_yourself:
+      sign_up: 2. kaydol
+      sign_up_ex:
+      join_convo: 3. Konuşmaya katılın!
+      join_convo_ex:
       aspects: bakış
-      aspects_ex: ~
+      aspects_ex:
       features: Özellikler
-      features_ex: ~
-      help: "Yardım ister misiniz?"
-      help_ex: ~
-      socialint: "Sosyal ağ entegrasyonu"
-      socialint_ex: ~
+      features_ex:
+      help: Yardım ister misiniz?
+      help_ex:
       earth_alt: Topraklı*
-      decentralized_alt: "ademi merkeziyetçi"
+      decentralized_alt: ademi merkeziyetçi
       freedom_alt: özgürlük
-      keyhole_alt: "anahtar deliği"
+      keyhole_alt: anahtar deliği
       aspects_alt: Bakışlar
       features_alt: Özellikler
-      ways_to_help_alt: "Yardım Yolları"
-      services_alt: Hizmetler
+      ways_to_help_alt: Yardım Yolları
     about:
-      headline: "diaspora* nasıl çalışır?"
-      byline: "diaspora*yı kullanmak kolaydır – işte nasıl olduğu"
+      headline: diaspora* nasıl çalışır?
+      byline: diaspora*yı kullanmak kolaydır – işte nasıl olduğu
       menu_title: Hakkında
-      decentralize: "Gayri merkezileştirme nedir?"
-      decentralize_ex: "diaspora* kullandığınız birçok ağdan farklıdır. Hiç bir şekilde merkezî değildir, merkez düğümü yoktur. Öyleyken bile, insanlarla bağlantı kurmak ve haberleşmek çok kolaydır. İşte nasıl olduğu."
+      decentralize: Gayri merkezileştirme nedir?
+      decentralize_ex: diaspora* kullandığınız birçok ağdan farklıdır. Hiç bir şekilde
+        merkezî değildir, merkez düğümü yoktur. Öyleyken bile, insanlarla bağlantı
+        kurmak ve haberleşmek çok kolaydır. İşte nasıl olduğu.
       this: BÖYLE
-      this_ex: "diaspora* merkez üssü olmayan gerçek bir ağdır. Dünya çapında (\"pod\" denilen) sunucular mevcuttur, her birinde kendisine kaydolmayı tercih eden kullanıcıların verileri vardır. Bu podlar birbirleriyle haberleşirler, böylece herhangi birine kayıtlıyken, diğer kullanıcı nerede olursa olsun, diğerleriyle serbestçe haberleşebilirsiniz."
-      notthis: "BÖYLE DEĞİL"
-      notthis_ex: "Birçok sosyal ağ bir şirketin sahibi olduğu ve işlettiği bir sunucudan koşulurlar. Bunlar kullanıcının tüm özel verilerini saklarlar. Bu bilgi darboğazı olan her sistemde olduğu gibi kaybolabilir ya da kurcalanabilir, merkezî sunuculardaki bir sorun tüm ağı yavaşlatıp durdurabilir. Ayrıca kamu kurumlarının \"ortam dinlemesi\" yapması çok kolaydır."
-      discl: ~
-      connect: "Ben nasıl bağlanabilirim?"
-      connect_ex: "diaspora* bir sürü poddan oluştuğu halde bütünleşik bir ağ izlenimi yaşayacaksınız. Özgürce diğerleriyle haberleşmek için onlarla aynı podda olmanız gerekmez - haberleşme diaspora* evrenindeki tüm podlar arasında kesintisiz gerçekleşir. diapora* kullandığınızda, onun birçok poddan oluştuğunun farkına varmayabilirsiniz. diaspora*daki biri ile haberleşmek aslında çok kolaydır: "
-      find: "1. onları bulmak"
-      find_ex: "Birisiyle bağlantı kurmak için tüm yapmanız gereken onu bir bakışa eklemektir. (daha fazla bilgi için aşağıya bakınız) Siyah çubuktaki arama kutusu ile onları bulun, veya akışınızda üzerine geldiğinizde çıkan kartı kullanın. Onun diaspora* kimliğini (adınız@podadı.tr) biliyorsanız, onu da kullanabilirsiniz."
-      add: "2. Onları eklemek"
-      add_ex: ~
+      this_ex: diaspora* merkez üssü olmayan gerçek bir ağdır. Dünya çapında ("pod"
+        denilen) sunucular mevcuttur, her birinde kendisine kaydolmayı tercih eden
+        kullanıcıların verileri vardır. Bu podlar birbirleriyle haberleşirler, böylece
+        herhangi birine kayıtlıyken, diğer kullanıcı nerede olursa olsun, diğerleriyle
+        serbestçe haberleşebilirsiniz.
+      notthis: BÖYLE DEĞİL
+      notthis_ex: Birçok sosyal ağ bir şirketin sahibi olduğu ve işlettiği bir sunucudan
+        koşulurlar. Bunlar kullanıcının tüm özel verilerini saklarlar. Bu bilgi darboğazı
+        olan her sistemde olduğu gibi kaybolabilir ya da kurcalanabilir, merkezî sunuculardaki
+        bir sorun tüm ağı yavaşlatıp durdurabilir. Ayrıca kamu kurumlarının "ortam
+        dinlemesi" yapması çok kolaydır.
+      discl:
+      connect: Ben nasıl bağlanabilirim?
+      connect_ex: 'diaspora* bir sürü poddan oluştuğu halde bütünleşik bir ağ izlenimi
+        yaşayacaksınız. Özgürce diğerleriyle haberleşmek için onlarla aynı podda olmanız
+        gerekmez - haberleşme diaspora* evrenindeki tüm podlar arasında kesintisiz
+        gerçekleşir. diapora* kullandığınızda, onun birçok poddan oluştuğunun farkına
+        varmayabilirsiniz. diaspora*daki biri ile haberleşmek aslında çok kolaydır: '
+      find: 1. onları bulmak
+      find_ex: Birisiyle bağlantı kurmak için tüm yapmanız gereken onu bir bakışa
+        eklemektir. (daha fazla bilgi için aşağıya bakınız) Siyah çubuktaki arama
+        kutusu ile onları bulun, veya akışınızda üzerine geldiğinizde çıkan kartı
+        kullanın. Onun diaspora* kimliğini (adınız@podadı.tr) biliyorsanız, onu da
+        kullanabilirsiniz.
+      add: 2. Onları eklemek
+      add_ex:
       freedom: Özgürlük
-      freedom_byline: "diaspora* sizi sınırlamaya çalışmaz"
-      fdm1: "İstediğiniz gibi olun"
-      fdm1_ex: "Birçok ağ gerçek kimliğinizi kullanmayı gerektirir. diaspora* gerektirmez. Burada ne olmak istediğinizi ve ne kadar az ne kadar çok paylaşmak istediğinizi kendiniz belirlersiniz. Tamamen insanlarla nasıl haberleşeceğinize kalmıştır."
-      fdm2: "Yaratıcı olun"
-      fdm2_ex: "Nasıl etkileşebileceğinizle sınırlı değilsiniz. İlgi çekici bulduğunuz insanların söylediklerini görmek için onları takip edebilir, ya da dünyayı herkesle paylaşabilirsiniz. Fotoğrafınızı, zanaatinizi, videolarınızı, müziğinizi, sözcüklerinizi- ne isterseniz paylaşabilirsiniz. Akıma kapılın."
+      freedom_byline: diaspora* sizi sınırlamaya çalışmaz
+      fdm1: İstediğiniz gibi olun
+      fdm1_ex: Birçok ağ gerçek kimliğinizi kullanmayı gerektirir. diaspora* gerektirmez.
+        Burada ne olmak istediğinizi ve ne kadar az ne kadar çok paylaşmak istediğinizi
+        kendiniz belirlersiniz. Tamamen insanlarla nasıl haberleşeceğinize kalmıştır.
+      fdm2: Yaratıcı olun
+      fdm2_ex: Nasıl etkileşebileceğinizle sınırlı değilsiniz. İlgi çekici bulduğunuz
+        insanların söylediklerini görmek için onları takip edebilir, ya da dünyayı
+        herkesle paylaşabilirsiniz. Fotoğrafınızı, zanaatinizi, videolarınızı, müziğinizi,
+        sözcüklerinizi- ne isterseniz paylaşabilirsiniz. Akıma kapılın.
       fdm3: Özgür
-      fdm3_ex: "diaspora* Özgür Yazılımdır. Bu, kullanımı üzerinde hiçbir sınırlama olmadığı anlamına gelir. Kaynak kodu alabilir ve hatta istediğiniz şekilde değiştirerek, ağı iyileştirmemize katkıda bulunabilirsiniz. Yönetimde sizi görmek isteriz."
+      fdm3_ex: diaspora* Özgür Yazılımdır. Bu, kullanımı üzerinde hiçbir sınırlama
+        olmadığı anlamına gelir. Kaynak kodu alabilir ve hatta istediğiniz şekilde
+        değiştirerek, ağı iyileştirmemize katkıda bulunabilirsiniz. Yönetimde sizi
+        görmek isteriz.
       privacy: Mahremiyet
-      privacy_byline: "Neyin size ait olduğuna dair tam denetim "
-      priv1: "Verinizi sahiplenin"
-      priv1_ex: "Birçok ağ etkileşimlerinizi analiz ederek ve bunu size reklam göstermek amaçlı kullanarak para kazanır. diaspora* verilerinizi bağlanmanıza ve paylaşmanıza izin vermek dışında kullanmaz."
-      priv2: "Kendiniz sunun"
-      priv2_ex: "Verilerinizi seçtiğiniz ve memnun olduğunuz podda saklayın. Gerçekten güvenli olmasını istiyorsanız, kendi kontrolünüz altında bir pod kurup sunabilirsiniz, böylece kimse kişisel verinize erişemez."
-      priv3: "Hedef kitlenizi seçin"
-      priv3_ex: ~
-      aspects: "Yönleri hakkında herşey"
-      aspects_byline: "diaspora*da gizliliğin anahtarı"
-      asp1: "Hayatınızın Yönleri"
-      asp1_ex: ~
-      asp2: "Hayatınızı düzenleyin"
-      asp2_ex: ~
-      asp3: "Tüm dünyayı söyle"
-      asp3_ex: ~
-      features: "Toplulukça sevilen özellikler"
-      features_byline: "Biz onları çok seveceksiniz düşünüyorum"
+      privacy_byline: 'Neyin size ait olduğuna dair tam denetim '
+      priv1: Verinizi sahiplenin
+      priv1_ex: Birçok ağ etkileşimlerinizi analiz ederek ve bunu size reklam göstermek
+        amaçlı kullanarak para kazanır. diaspora* verilerinizi bağlanmanıza ve paylaşmanıza
+        izin vermek dışında kullanmaz.
+      priv2: Kendiniz sunun
+      priv2_ex: Verilerinizi seçtiğiniz ve memnun olduğunuz podda saklayın. Gerçekten
+        güvenli olmasını istiyorsanız, kendi kontrolünüz altında bir pod kurup sunabilirsiniz,
+        böylece kimse kişisel verinize erişemez.
+      priv3: Hedef kitlenizi seçin
+      priv3_ex:
+      aspects: Yönleri hakkında herşey
+      aspects_byline: diaspora*da gizliliğin anahtarı
+      asp1: Hayatınızın Yönleri
+      asp1_ex:
+      asp2: Hayatınızı düzenleyin
+      asp2_ex:
+      asp3: Tüm dünyayı söyle
+      asp3_ex:
+      features: Toplulukça sevilen özellikler
+      features_byline: Biz onları çok seveceksiniz düşünüyorum
       hashtags: hashtags
-      hashtags_ex: ~
-      reshare: "Yeniden paylaşma"
-      reshare_ex: "Neden başkaları ile sevdiğiniz bir yayını yeniden paylaşmıyorsunuz? diaspora* kolay Yeniden paylaşmak yoluyla fikirlerini yaymak için yapar. Sadece mesajı paylaşmak için düğmesine basın."
+      hashtags_ex:
+      reshare: Yeniden paylaşma
+      reshare_ex: Neden başkaları ile sevdiğiniz bir yayını yeniden paylaşmıyorsunuz?
+        diaspora* kolay Yeniden paylaşmak yoluyla fikirlerini yaymak için yapar. Sadece
+        mesajı paylaşmak için düğmesine basın.
       mentions: Mansiyonlar
-      mentions_ex: ~
+      mentions_ex:
       love: Sevgi
-      love_ex: "Birisine değer verdiğinizi ♥erek belirtin. Bazen sözcükler yetmez."
-      host: "Bir topluluk sunucusu barındırmak"
-      host_byline: "diaspora*nın yıldızlarından biri olun"
-      host_ex: "diaspora* topluluk üyelerinin herkesin katılımına açık podları sunup işletmesine dayalıdır. Biraz teknik bilginiz ve sunucu alanınız varsa, sizin de katılıma açık bir pod kurmanızı dileriz. Podlar çoğaldıkça, diaspora* daha iyi çalışır - gayrimerkezî sosyal ağın geleceğinin bir parçası olun!"
+      love_ex: Birisine değer verdiğinizi ♥erek belirtin. Bazen sözcükler yetmez.
+      host: Bir topluluk sunucusu barındırmak
+      host_byline: diaspora*nın yıldızlarından biri olun
+      host_ex: diaspora* topluluk üyelerinin herkesin katılımına açık podları sunup
+        işletmesine dayalıdır. Biraz teknik bilginiz ve sunucu alanınız varsa, sizin
+        de katılıma açık bir pod kurmanızı dileriz. Podlar çoğaldıkça, diaspora* daha
+        iyi çalışır - gayrimerkezî sosyal ağın geleceğinin bir parçası olun!
       hostinst1: "%{instructions_link} okuyun ve kendi topluluk pod kurmak."
-      instructions_link_text: "Pod kurulum bilgileri"
-      hostinst2: "Da topluluk pods listesini görüntülemek %{poduptime}"
-      distributed_network: "dağıtık ağ"
-      centralized_network: "merkezi ağ"
+      instructions_link_text: Pod kurulum bilgileri
+      hostinst2: Da topluluk pods listesini görüntülemek %{poduptime}
+      distributed_network: dağıtık ağ
+      centralized_network: merkezi ağ
       search_alt: Arama
-      add_a_contact_alt: "Ekle İletişim"
+      add_a_contact_alt: Ekle İletişim
       hashtag_alt: Hashtag
-      reshare_alt: "Yeniden paylaşma"
+      reshare_alt: Yeniden paylaşma
       mention_alt: bahsetmek
       heart_alt: Kalp
     get_involved:
-      headline: "Yer alın!"
-      byline: "Sosyal ağın geleceği seninle başlar"
-      menu_title: "Yer alın"
-      community: "Gücünü topluluktan alır"
-      community_byline: "diaspora* size aittir"
-      meaning: "Bütün bunlar ne anlama geliyor?"
-      meaning_ex1: "Özgür Yazılım, bireysellik, saydamlık, yaratıcılık, ve hedefe bağlılıkla ilgilidir. diaspora* bir keyif arzusunu yerine getirmek ve interneti daha iyi bir yer haline getirmek için kuruldu. Özgür Yazılım dünyayı değiştirmemize ve dostlarımızın bu keşiften faydalanmasına olanak verir."
-      meaning_ex2: "Özgür Yazılım toplulukları muhteşem şeylerdir. diaspora*da, biz insanlara yaptıkları için değer verilmesinden yanayız. Elit bir kodlayıcı olmanız ya da daha önce hiçbir projeye katkıda bulunmamanız fark etmez. diaspora*ya katkıda bulunmanız, kullanıcıların işine yararlık odaklı bir çözüm anlayışıyla zor problemler üzerinde uğraştığınız anlamına gelir."
-      meaning_ex3: "Bu yüzden, diaspora*ya anlamlı bir katkınız olursa, size işlem erişimi vereceğiz. Bunda kararlıyız, ve istekli kişilere büyük değişiklikler yapma olanağı tanımak istiyoruz."
-      whereyou: "Eğer gelip nereye"
-      whereyou_ex1: "diaspora*yı bizler yapıyoruz. Sizi henüz tanımayabiliriz, ama tanışmayı ve web'in geleceğini tasarlayan bir takıma nasıl uyacağınızı görmeyi çok isteriz. Fırsat verildiğinde hepimizin dünyayı değiştirme potansiyeli mevcuttur."
-      whereyou_ex2: "diaspora*ya katkı değişik yol ve ölçülerde olur. Hataları bulmada yardımcı olmanız olsun, mektup listelerinde geri dönüş olsun, ya da bizzat koda veya tasarıma katkıda bulunmak olsun, size ihtiyacımız var."
-      gi_header: "Katkıda bulunma yolları"
-      code_header: "kod Katkıda"
-      code_byline: "Kaynak kodu elde etmek çok kolay"
-      code_ex1: "Depoyu klonlayıp içine dalın: %{clone_code}"
-      code_ex2: "Geliştirme ortamı kurun"
-      code_ex3: "katkıda başlamak kod!"
-      code_ex4: ~
-      get_started_guide_link_text: "kolay geçiş imkânı veren"
-      discourse_link_text: ~
-      irc_link_text: "diaspora* IRC oda"
-      code_gh: "GitHub üzerinde kaynak İnceleme"
-      bugs_header: "hataların giderilmesi"
-      bugs_ex1: ~
-      bugs_ex2: ~
-      bugs_ex3: "Bizim kodunu temizlemeye yardımcı"
-      github_link_text: "GitHub sorun izleyicisi"
-      translate_header: "çevrilmesine yardımcı"
-      translate_ex1: "diaspora*nın diğer dillere çevirisine %{translations_link} üzerinden yardımcı olabilirsiniz. (Asıl metinler İngilizce'dir)"
-      translations_link_text: "çeviri grubu"
-      translate_ex2: "Başlamak için %{translation_instructions_link} adresindeki komutları okuyun."
-      translation_instructions_link_text: "çeviri talimati "
-      voice_header: "Sesinizi sağlayın"
-      voice_ex1: ~
-      voice_ex2: "bize katılın"
-      voice_ex3: ~
-      meetup_link_text: "gayri resmi toplantısı"
-      support_header: "destek sağlamak"
-      support_ex1: "Yeni kullanıcılar edilir hissediyorum Yardım!"
-      support_ex2: "Buradan kayıt olun"
+      headline: Yer alın!
+      byline: Sosyal ağın geleceği seninle başlar
+      menu_title: Yer alın
+      community: Gücünü topluluktan alır
+      community_byline: diaspora* size aittir
+      meaning: Bütün bunlar ne anlama geliyor?
+      meaning_ex1: Özgür Yazılım, bireysellik, saydamlık, yaratıcılık, ve hedefe bağlılıkla
+        ilgilidir. diaspora* bir keyif arzusunu yerine getirmek ve interneti daha
+        iyi bir yer haline getirmek için kuruldu. Özgür Yazılım dünyayı değiştirmemize
+        ve dostlarımızın bu keşiften faydalanmasına olanak verir.
+      meaning_ex2: Özgür Yazılım toplulukları muhteşem şeylerdir. diaspora*da, biz
+        insanlara yaptıkları için değer verilmesinden yanayız. Elit bir kodlayıcı
+        olmanız ya da daha önce hiçbir projeye katkıda bulunmamanız fark etmez. diaspora*ya
+        katkıda bulunmanız, kullanıcıların işine yararlık odaklı bir çözüm anlayışıyla
+        zor problemler üzerinde uğraştığınız anlamına gelir.
+      meaning_ex3: Bu yüzden, diaspora*ya anlamlı bir katkınız olursa, size işlem
+        erişimi vereceğiz. Bunda kararlıyız, ve istekli kişilere büyük değişiklikler
+        yapma olanağı tanımak istiyoruz.
+      whereyou: Eğer gelip nereye
+      whereyou_ex1: diaspora*yı bizler yapıyoruz. Sizi henüz tanımayabiliriz, ama
+        tanışmayı ve web'in geleceğini tasarlayan bir takıma nasıl uyacağınızı görmeyi
+        çok isteriz. Fırsat verildiğinde hepimizin dünyayı değiştirme potansiyeli
+        mevcuttur.
+      whereyou_ex2: diaspora*ya katkı değişik yol ve ölçülerde olur. Hataları bulmada
+        yardımcı olmanız olsun, mektup listelerinde geri dönüş olsun, ya da bizzat
+        koda veya tasarıma katkıda bulunmak olsun, size ihtiyacımız var.
+      gi_header: Katkıda bulunma yolları
+      code_header: kod Katkıda
+      code_byline: Kaynak kodu elde etmek çok kolay
+      code_ex1: Depoyu klonlayıp içine dalın: %{clone_code}
+      code_ex2: Geliştirme ortamı kurun
+      code_ex3: katkıda başlamak kod!
+      code_ex4:
+      get_started_guide_link_text: kolay geçiş imkânı veren
+      discourse_link_text:
+      irc_link_text: diaspora* IRC oda
+      code_gh: GitHub üzerinde kaynak İnceleme
+      bugs_header: hataların giderilmesi
+      bugs_ex1:
+      bugs_ex2:
+      bugs_ex3: Bizim kodunu temizlemeye yardımcı
+      github_link_text: GitHub sorun izleyicisi
+      translate_header: çevrilmesine yardımcı
+      translate_ex1: diaspora*nın diğer dillere çevirisine %{translations_link} üzerinden
+        yardımcı olabilirsiniz. (Asıl metinler İngilizce'dir)
+      translations_link_text: çeviri grubu
+      translate_ex2: Başlamak için %{translation_instructions_link} adresindeki komutları
+        okuyun.
+      translation_instructions_link_text: 'çeviri talimati '
+      voice_header: Sesinizi sağlayın
+      voice_ex1:
+      voice_ex2: bize katılın
+      voice_ex3:
+      meetup_link_text: gayri resmi toplantısı
+      support_header: destek sağlamak
+      support_ex1: Yeni kullanıcılar edilir hissediyorum Yardım!
+      support_ex2: Buradan kayıt olun
       support_ex3: "%{tutorials_link} bölüm için kullanıcı öğreticiler yaz."
-      support_ex4: ~
-      irc_channel_link_text: "IRC channel"
-      support_ex5: "katkıda %{wiki_link}."
-      wiki_link_text: "diaspora*’s wiki"
-      run_header: "Bir kamuoyuna başlat pod"
-      run_ex1: ~
-      host_pod_link_text: "kendi işletmek diaspora* Pod"
-      run_ex2: "Istediğiniz yere Bunu barındırabilir."
+      support_ex4:
+      irc_channel_link_text: IRC channel
+      support_ex5: katkıda %{wiki_link}.
+      wiki_link_text: diaspora*’s wiki
+      run_header: Bir kamuoyuna başlat pod
+      run_ex1:
+      host_pod_link_text: kendi işletmek diaspora* Pod
+      run_ex2: Istediğiniz yere Bunu barındırabilir.
       run_ex3: "%{poduptime} açık listesine pod ekleyin."
-      contributors_header: "diaspora*'s contribution"
-      contributors_byline: "Bunun ne olduğunu kadar diaspora* haline getiren insanlar"
+      contributors_header: diaspora*'s contribution
+      contributors_byline: Bunun ne olduğunu kadar diaspora* haline getiren insanlar
       globe_alt: Globe
       megaphone_alt: megaphone
       support_alt: Destek
       pod_alt: Pod
     blog:
-      headline: "diaspora* Blog"
-      subline: "resmi duyurular"
+      headline: diaspora* Blog
+      subline: resmi duyurular
       menu_title: Blog
     planet:
-      headline: "Diaspora * gezegen"
-      subline: "Bizim toplum tarafından günlüğü gönderileri"
+      headline: Diaspora * gezegen
+      subline: Bizim toplum tarafından günlüğü gönderileri
       menu_title: planet
-      disclaimer_headline: "diaspora* planet"
-      disclaimer: ~
+      disclaimer_headline: diaspora* planet
+      disclaimer:
       subscribe_headline: Abone
-      subscribe: ~
-      feed_link_title: "Atom besleme"
+      subscribe:
+      feed_link_title: Atom besleme
       subscriptions_headline: Abonelikleri
     community_guidelines:
-      headline: ~
-      byline: ~
-      menu_title: ~
-      statement1: ~
-      statement2: ~
-      statement3: ~
-      be_excellent: ~
-      howto: ~
-      howto_language: ~
-      howto_viewpoints_experiences: ~
-      howto_constructive_criticism: ~
-      howto_empathy: ~
-      howto_sexualized_language: ~
-      howto_troll: ~
-      howto_harassment: ~
-      howto_benefit_of_doubt: ~
+      headline:
+      byline:
+      menu_title:
+      statement1:
+      statement2:
+      statement3:
+      be_excellent:
+      howto:
+      howto_language:
+      howto_viewpoints_experiences:
+      howto_constructive_criticism:
+      howto_empathy:
+      howto_sexualized_language:
+      howto_troll:
+      howto_harassment:
+      howto_benefit_of_doubt:
     tutorials:
-      headline: "diaspora* eğiticisi"
-      byline: "Adım adım size yardımcı olmak için kılavuzluk"
+      headline: diaspora* eğiticisi
+      byline: Adım adım size yardımcı olmak için kılavuzluk
       menu_title: Öğreticiler
-      tutorials_ex1: ~
-      tutorials_ex2: ~
-      started_head: "diaspora* ile başlarken"
+      tutorials_ex1:
+      tutorials_ex2:
+      started_head: diaspora* ile başlarken
       started1: kaydolarak
       started2: arayüzey
-      started3: ~
-      started4: "Bulgu ve insanlarla bağlantı"
-      started5: "Paylaşmaya başlayın!"
-      started6: "Bildirimler ve ileti dizileri"
+      started3:
+      started4: Bulgu ve insanlarla bağlantı
+      started5: Paylaşmaya başlayın!
+      started6: Bildirimler ve ileti dizileri
       started7: bitirme
-      part1: "kısım 1"
-      part2: "kısım 2"
-      part3: "kısım 3"
-      part4: "kısım 4"
-      part5: "kısım 5"
-      part6: "kısım 6"
-      part7: "kısım 7"
-      additional: "Ek öğreticiler"
-      connecting: "Diğer hizmetlere \"diaspora\" bağlayın"
-      tips: "Ipuçları ve Püf noktaları"
-      formatting: "biçimlendirmek için metin"
-      more_tutorials: "Daha fazla yardım mı istiyorsunuz?"
-      other_docs: "Diğer sitelere bağlantılar için %{other_docs_link} sayfasını kontrol edin."
-      other_docs_link_text: "diğer belgeler"
-      thanks: "Bu öğreticilerin dayandığı orijinal Diasporial kılavuzlarını yaratan Kevin Kleinman'a büyük teşekkürler."
+      part1: kısım 1
+      part2: kısım 2
+      part3: kısım 3
+      part4: kısım 4
+      part5: kısım 5
+      part6: kısım 6
+      part7: kısım 7
+      additional: Ek öğreticiler
+      tips: Ipuçları ve Püf noktaları
+      formatting: biçimlendirmek için metin
+      more_tutorials: Daha fazla yardım mı istiyorsunuz?
+      other_docs: Diğer sitelere bağlantılar için %{other_docs_link} sayfasını kontrol
+        edin.
+      other_docs_link_text: diğer belgeler
+      thanks: Bu öğreticilerin dayandığı orijinal Diasporial kılavuzlarını yaratan
+        Kevin Kleinman'a büyük teşekkürler.
     getting_started1:
-      byline: "1 Kısım - İmza kadar"
-      menu_title: "diaspora* kadar imzalanması"
-      welcome: ~
-      find_pod: "Bir pod bularak"
-      find_pod_intro: ~
-      find_pod_ex1: ~
-      find_pod_ex2: "\"Diaspora\" tohumların bir tarladaki dağılışına işaret eder. Bu, motifimizin bir karahindiba olması ve adımızdaki asteriskin karahindiba tohumunu andırmasının nedenidir. Tek tek hesaplara \"<strong>tohum</strong>\", ve bunların toplandıkları sunuculara da“<strong>pod</strong>” diyoruz. Bunlara alışacaksınız."
-      find_pod_ex3: "Hangi bölmenin sizin için en iyi seçimine yardımcı olmak için %{wiki_link} alanına bir göz atın."
-      wiki_link_text: "Bir \"pod\" seçerek için rehber"
-      find_pod_ex4: ~
-      find_pod_ex5: ~
-      registration: "Giriş kayıt"
-      registration1: ~
-      registration2: ~
-      registration3: "Markanızın yeni diaspora * tohumunu oluşturmak ve erişmek için <span class=\"click\">Continue</span> tıklayarak kayıt işleminizi tamamlayın!"
-      registration4: ~
-      dhq_link_text: "diaspora* HQ"
-      registration5: ~
-      registration6: "İlk alanında ekranda görüntülenir edilmesini istediğiniz adı girin."
-      registration7: "Bilgisayarınızdan bir profil fotoğrafı yüklemek için düğmesine tıklayın."
-      registration8: ~
-      registration9: "<span class=\"click\">Beni diaspora*ya al!</span>"
-      profile1: ~
-      profile2: ~
-      profile3: ~
-      profile4: "İşiniz bittiğinde <span class=\"click\"> Profili güncelle </span> düğmesini tıklamayı unutmayın!"
-      finish: "Bu kadar!"
-      finish_ex1: ~
-      finish_ex2: ~
+      byline: 1 Kısım - İmza kadar
+      menu_title: diaspora* kadar imzalanması
+      welcome:
+      find_pod: Bir pod bularak
+      find_pod_intro:
+      find_pod_ex1:
+      find_pod_ex2: '"Diaspora" tohumların bir tarladaki dağılışına işaret eder. Bu,
+        motifimizin bir karahindiba olması ve adımızdaki asteriskin karahindiba tohumunu
+        andırmasının nedenidir. Tek tek hesaplara "<strong>tohum</strong>", ve bunların
+        toplandıkları sunuculara da“<strong>pod</strong>” diyoruz. Bunlara alışacaksınız.'
+      find_pod_ex3: Hangi bölmenin sizin için en iyi seçimine yardımcı olmak için
+        %{wiki_link} alanına bir göz atın.
+      wiki_link_text: Bir "pod" seçerek için rehber
+      find_pod_ex4:
+      find_pod_ex5:
+      registration: Giriş kayıt
+      registration1:
+      registration2:
+      registration3: Markanızın yeni diaspora * tohumunu oluşturmak ve erişmek için
+        <span class="click">Continue</span> tıklayarak kayıt işleminizi tamamlayın!
+      registration4:
+      dhq_link_text: diaspora* HQ
+      registration5:
+      registration6: İlk alanında ekranda görüntülenir edilmesini istediğiniz adı
+        girin.
+      registration7: Bilgisayarınızdan bir profil fotoğrafı yüklemek için düğmesine
+        tıklayın.
+      registration8:
+      registration9: <span class="click">Beni diaspora*ya al!</span>
+      profile1:
+      profile2:
+      profile3:
+      profile4: İşiniz bittiğinde <span class="click"> Profili güncelle </span> düğmesini
+        tıklamayı unutmayın!
+      finish: Bu kadar!
+      finish_ex1:
+      finish_ex2:
     getting_started2:
-      byline: "2 Kısım - arayüzü"
-      menu_title: "arabirimini kullanma"
-      menu_title_mobile: ~
-      interface_mobile: ~
-      interface_desktop: ~
-      click_here_text: ~
-      interface1: ~
-      interface2: ~
-      interface3: "Ana arayüzü dört ana bölüme bölünebilen."
-      header: ~
-      header_mobile: ~
-      header_podname: ~
-      header_asterisk: ~
-      header_stream: ~
-      header_notify: ~
-      header_conversations: ~
-      header_newpost: ~
-      header_drawer: ~
-      header_search: ~
-      header_streams: ~
-      header_dropdown: ~
-      header_profile: ~
-      header_contacts: ~
-      header_settings: ~
-      header_help: ~
-      header_toggle: ~
-      header_logout: ~
-      interface_mobile_old: ~
-      columns: "Başlığının altında üç sütun vardır:"
-      column1: ~
-      column2: ~
-      stream_mobile: ~
-      views: "diaspora* mevcut farklı görünümler şunlardır:"
+      byline: 2 Kısım - arayüzü
+      menu_title: arabirimini kullanma
+      menu_title_mobile:
+      interface_mobile:
+      interface_desktop:
+      click_here_text:
+      interface1:
+      interface2:
+      interface3: Ana arayüzü dört ana bölüme bölünebilen.
+      header:
+      header_mobile:
+      header_podname:
+      header_asterisk:
+      header_stream:
+      header_notify:
+      header_conversations:
+      header_newpost:
+      header_drawer:
+      header_search:
+      header_streams:
+      header_dropdown:
+      header_profile:
+      header_contacts:
+      header_settings:
+      header_help:
+      header_toggle:
+      header_logout:
+      interface_mobile_old:
+      columns: 'Başlığının altında üç sütun vardır:'
+      column1:
+      column2:
+      stream_mobile:
+      views: 'diaspora* mevcut farklı görünümler şunlardır:'
       stream: dere
-      stream_ex1: ~
-      stream_contents1: ~
-      stream_contents2: ~
-      stream_contents3: ~
-      stream_contents4: ~
-      stream_ex2: "akışında Mesajlar orijinal yazının zamana göre sıralanır."
+      stream_ex1:
+      stream_contents1:
+      stream_contents2:
+      stream_contents3:
+      stream_contents4:
+      stream_ex2: akışında Mesajlar orijinal yazının zamana göre sıralanır.
       activity: Etkinliklerim
-      activity_ex: ~
-      activity_ex2: "<span class=click>Etkinliklerime</span> tıkladığınızda, iki altmenü öğesi belirecek: <span class=click>Beğenilenler</span> ve <span class=click>Yorumlananlar</span>. Bunlardn birine tıkladığınızda sözü edilen niteliği taşıyan gönderiler gösterilecektir."
+      activity_ex:
+      activity_ex2: "<span class=click>Etkinliklerime</span> tıkladığınızda, iki altmenü
+        öğesi belirecek: <span class=click>Beğenilenler</span> ve <span class=click>Yorumlananlar</span>.
+        Bunlardn birine tıkladığınızda sözü edilen niteliği taşıyan gönderiler gösterilecektir."
       mentions: "@Mansiyonlar"
-      mentions_ex: "Bu sizi @mentioning diğer insanlar tarafından yapılan tüm yayınları görüntüler. @mentioning %{part_link} de tartışacağız."
-      aspects: ~
-      aspects_ex1: ~
-      aspects_ex2: ~
-      tags: "izlenen #tags"
-      tags_ex1: ~
-      tags_ex2: ~
-      public: ~
-      public_ex: ~
-      other_views: ~
-      other_views_ex: ~
-      tag_stream: ~
-      tag_stream_ex: ~
-      spv: ~
-      spv_ex: ~
-      profile: "Profil bakış"
-      profile_ex1: ~
-      profile_ex2: "avatarınızın altında böyle benzeri doğum günü, yeri, cinsiyet, biyografisi ve gibi eklemiş herhangi bir ekstra profil bilgilerini göreceksiniz."
-      profile_ex3: ~
-      profile_ex3_mobile: ~
-      profile_ex4: ~
-      profile_ex5: "Seninle paylaşırlarsa, diaspora* kimliklerinin yanında yeşil bir işaret olur. Değilse, gri bir çember olacaktır."
-      profile_ex6: ~
-      profile_ex7: ~
-      profile_ex8: ~
-      themes: ~
-      themes_ex1: ~
-      themes_list1: ~
-      themes_list2: ~
-      themes_list3: ~
-      themes_list4: ~
-      themes_list5: ~
-      themes_list6: <strong>Koyu</strong>
-      themes_ex2: ~
-      finish: ~
-      finish_mobile: ~
+      mentions_ex: Bu sizi @mentioning diğer insanlar tarafından yapılan tüm yayınları
+        görüntüler. @mentioning %{part_link} de tartışacağız.
+      aspects:
+      aspects_ex1:
+      aspects_ex2:
+      tags: 'izlenen #tags'
+      tags_ex1:
+      tags_ex2:
+      public:
+      public_ex:
+      other_views:
+      other_views_ex:
+      tag_stream:
+      tag_stream_ex:
+      spv:
+      spv_ex:
+      profile: Profil bakış
+      profile_ex1:
+      profile_ex2: avatarınızın altında böyle benzeri doğum günü, yeri, cinsiyet,
+        biyografisi ve gibi eklemiş herhangi bir ekstra profil bilgilerini göreceksiniz.
+      profile_ex3:
+      profile_ex3_mobile:
+      profile_ex4:
+      profile_ex5: Seninle paylaşırlarsa, diaspora* kimliklerinin yanında yeşil bir
+        işaret olur. Değilse, gri bir çember olacaktır.
+      profile_ex6:
+      profile_ex7:
+      profile_ex8:
+      themes:
+      themes_ex1:
+      themes_list1:
+      themes_list2:
+      themes_list3:
+      themes_list4:
+      themes_list5:
+      themes_list6: "<strong>Koyu</strong>"
+      themes_ex2:
+      finish:
+      finish_mobile:
     getting_started3:
-      byline: ~
-      menu_title: ~
-      aspects1: ~
-      aspects2: ~
-      my_aspects: ~
-      my_aspects1: ~
-      my_aspects2: "Şu anda tüm yönleriyle yanlarında kene, seçilmelidir."
-      my_aspects3: "Onları seçmek veya seçimlerini kaldırmak için menüdeki \"Yönleri\" ı tıklayabilirsiniz."
-      my_aspects4: "Sadece bir \"aspect\" veya bunların herhangi bir kombinasyonunu seçebilirsiniz."
-      my_aspects5: ~
-      my_aspects6: "Neden birkaç saniye onunla oynamak değil?"
-      my_aspects7: "Bu seçim Bu sistem iki amaçlarla kullanılan:"
-      my_aspects8: ~
-      my_aspects9: ~
-      add_aspect: ~
-      add_aspect1: ~
-      aspects_mobile: ~
-      add_aspect2: ~
-      add_aspect3: "Bu rehber, örnek olarak \"Diaspora\" olarak adlandırılan bir yönü kullanmaktadır, ancak kendi yönünüze istediğiniz adı verin."
-      add_aspect4: ~
-      add_aspect6: ~
-      add_aspect7: ~
-      contacts: "İletişim bilgileri sayfası"
-      contact_ex1: ~
-      contact_ex3: ~
-      contact_ex4: ~
-      contact_ex5: ~
-      contact_ex6: ~
-      contact_ex7: "Ayrıca, kişiler sayfanızdan yeni \"aspects\" oluşturabilirsiniz."
-      sharing_me: "Sadece benimle paylaşan"
-      sharing_me_ex: ~
-      finish: "Artık \"aspects\" anladığımıza göre, bazı bağlantıları yapalım."
+      byline:
+      menu_title:
+      aspects1:
+      aspects2:
+      my_aspects:
+      my_aspects1:
+      my_aspects2: Şu anda tüm yönleriyle yanlarında kene, seçilmelidir.
+      my_aspects3: Onları seçmek veya seçimlerini kaldırmak için menüdeki "Yönleri"
+        ı tıklayabilirsiniz.
+      my_aspects4: Sadece bir "aspect" veya bunların herhangi bir kombinasyonunu seçebilirsiniz.
+      my_aspects5:
+      my_aspects6: Neden birkaç saniye onunla oynamak değil?
+      my_aspects7: 'Bu seçim Bu sistem iki amaçlarla kullanılan:'
+      my_aspects8:
+      my_aspects9:
+      add_aspect:
+      add_aspect1:
+      aspects_mobile:
+      add_aspect2:
+      add_aspect3: Bu rehber, örnek olarak "Diaspora" olarak adlandırılan bir yönü
+        kullanmaktadır, ancak kendi yönünüze istediğiniz adı verin.
+      add_aspect4:
+      add_aspect6:
+      add_aspect7:
+      contacts: İletişim bilgileri sayfası
+      contact_ex1:
+      contact_ex3:
+      contact_ex4:
+      contact_ex5:
+      contact_ex6:
+      contact_ex7: Ayrıca, kişiler sayfanızdan yeni "aspects" oluşturabilirsiniz.
+      sharing_me: Sadece benimle paylaşan
+      sharing_me_ex:
+      finish: Artık "aspects" anladığımıza göre, bazı bağlantıları yapalım.
     getting_started4:
-      byline: "Kısım 4 - Bulma ve insanlarla bağlantı"
-      menu_title: "Insanlarla nasıl bağlanacağı"
-      aspects1: ~
+      byline: Kısım 4 - Bulma ve insanlarla bağlantı
+      menu_title: Insanlarla nasıl bağlanacağı
+      aspects1:
       sharing: paylaşarak
-      sharing_ex: ~
-      relationships: "diasporasına* kullanıcılar arasındaki ilişkilerin üç tipi vardır:"
+      sharing_ex:
+      relationships: 'diasporasına* kullanıcılar arasındaki ilişkilerin üç tipi vardır:'
       followers: takipçiler
-      followers_ex1: ~
-      followers_ex2: "Onlar kendi akışında genel mesajları görüyorsunuz, ama sınırlı mesajların hiçbiri olacaktır."
-      followers_ex3: ~
+      followers_ex1:
+      followers_ex2: Onlar kendi akışında genel mesajları görüyorsunuz, ama sınırlı
+        mesajların hiçbiri olacaktır.
+      followers_ex3:
       following: aşağıdaki
-      following_ex1: ~
-      following_ex2: ~
-      mutual: "karşılıklı paylaşım"
-      mutual_ex1: ~
-      mutual_ex2: ~
-      mutual_ls1: ~
-      mutual_ls2: ~
-      mutual_ls3: ~
-      mutual_ls4: ~
-      mutual_ex3: ~
-      finding: "insanları bularak"
-      finding_ex1: ~
-      finding_ex2: "Birisini bulmanın ve bunları bir yöne eklemenin birkaç yolu vardır."
+      following_ex1:
+      following_ex2:
+      mutual: karşılıklı paylaşım
+      mutual_ex1:
+      mutual_ex2:
+      mutual_ls1:
+      mutual_ls2:
+      mutual_ls3:
+      mutual_ls4:
+      mutual_ex3:
+      finding: insanları bularak
+      finding_ex1:
+      finding_ex2: Birisini bulmanın ve bunları bir yöne eklemenin birkaç yolu vardır.
       search: Arama
-      search_ex: "Arama alanında başlık çubuğunda olduğunu. Arama birisini eklemek:"
+      search_ex: 'Arama alanında başlık çubuğunda olduğunu. Arama birisini eklemek:'
       search_ls1: |-
-          Bir ad veya diaspora* ID yazın.
-          Yazmaya başladığınız Öneri görünecektir.
-      search_ls2: "Arama yeterlidir vurmak girmek ve sonuçları ile bir sayfada ineceğim."
-      search_ls3: "Eğer are seyir kişinin eğer bulduğunuzda, <span class=\"click\"> İletişim Ekle </span> düğmesini tıklatın."
-      search_ls4: ~
-      search_ls5: ~
-      search_ls6: ~
-      invite: "Bir davetiye mail yollama"
-      invite_ex: ~
-      profile: "Onların profilden"
-      profile_ex1: ~
-      profile_ex2: ~
-      tags: "aşağıdaki #tags"
-      tags_ex: ~
-      removing: "Senin kişilerden gelen birisi sökülmesi"
-      removing_ex1: ~
-      removing_ex2: ~
-      removing_ex3: ~
-      removing_ex4: ~
-      removing_ex5: "Ayrıca biz %{part_link} sonunda kaplı senin kişiler sayfası aracılığıyla yönleriyle bir kişiyi kaldırabilirsiniz."
-      finish: ~
+        Bir ad veya diaspora* ID yazın.
+        Yazmaya başladığınız Öneri görünecektir.
+      search_ls2: Arama yeterlidir vurmak girmek ve sonuçları ile bir sayfada ineceğim.
+      search_ls3: Eğer are seyir kişinin eğer bulduğunuzda, <span class="click"> İletişim
+        Ekle </span> düğmesini tıklatın.
+      search_ls4:
+      search_ls5:
+      search_ls6:
+      invite: Bir davetiye mail yollama
+      invite_ex:
+      profile: Onların profilden
+      profile_ex1:
+      profile_ex2:
+      tags: 'aşağıdaki #tags'
+      tags_ex:
+      removing: Senin kişilerden gelen birisi sökülmesi
+      removing_ex1:
+      removing_ex2:
+      removing_ex3:
+      removing_ex4:
+      removing_ex5: Ayrıca biz %{part_link} sonunda kaplı senin kişiler sayfası aracılığıyla
+        yönleriyle bir kişiyi kaldırabilirsiniz.
+      finish:
     getting_started5:
-      byline: "Parça 5 - paylaşım başlama!"
-      menu_title: "paylaşım başlama!"
+      byline: Parça 5 - paylaşım başlama!
+      menu_title: paylaşım başlama!
       intro1: |-
-          Şimdi bazı kişiler var,
-          onlarla birlikte içerik paylaşımı başlamak için zamanı geldi.
-      intro2: ~
+        Şimdi bazı kişiler var,
+        onlarla birlikte içerik paylaşımı başlamak için zamanı geldi.
+      intro2:
       publisher: yayımcı
-      publisher_ex1: ~
-      publisher_ex2: ~
-      publisher_ex3: ~
-      publisher_ex4: ~
-      buttons: "Tamam, bu yüzden bu düğmeler tüm hakkında nelerdir?"
-      top_buttons: ~
-      top_buttons_ex1: ~
-      top_buttons_list1: ~
-      top_buttons_list2: ~
-      top_buttons_list3: ~
-      top_buttons_list4: ~
-      top_buttons_list5: ~
-      top_buttons_list6: ~
-      top_buttons_list7: ~
-      top_buttons_list8: ~
-      top_buttons_list9: ~
-      aspect_selector: ~
-      aspect_selector_ex1: ~
-      aspect_selector_ex2: ~
-      aspect_selector_ex3: ~
-      poll: ~
-      poll_ex: ~
-      photo: "Fotoğraf paylaşımı"
-      photo_ex: ~
-      locator: ~
-      locator_ex1: ~
-      locator_ex2: ~
-      locator_ex3: ~
-      connected: ~
-      connected_ex1: ~
-      connected_ex2: ~
-      connected_ex3: ~
-      preview: "Mesaj önizleme"
-      preview_ex1: ~
-      buttons_finish: ~
-      features: "deftere nakil özellikleri"
+      publisher_ex1:
+      publisher_ex2:
+      publisher_ex3:
+      publisher_ex4:
+      buttons: Tamam, bu yüzden bu düğmeler tüm hakkında nelerdir?
+      top_buttons:
+      top_buttons_ex1:
+      top_buttons_list1:
+      top_buttons_list2:
+      top_buttons_list3:
+      top_buttons_list4:
+      top_buttons_list5:
+      top_buttons_list6:
+      top_buttons_list7:
+      top_buttons_list8:
+      top_buttons_list9:
+      aspect_selector:
+      aspect_selector_ex1:
+      aspect_selector_ex2:
+      aspect_selector_ex3:
+      poll:
+      poll_ex:
+      photo: Fotoğraf paylaşımı
+      photo_ex:
+      locator:
+      locator_ex1:
+      locator_ex2:
+      locator_ex3:
+      preview: Mesaj önizleme
+      preview_ex1:
+      buttons_finish:
+      features: deftere nakil özellikleri
       tags: "#etiketler"
-      tags_ex1: ~
-      tags_ex2: ~
-      nsfw: "\"İş için güvenli değil\" etiketi"
-      tags_ex3: ~
+      tags_ex1:
+      tags_ex2:
+      nsfw: '"İş için güvenli değil" etiketi'
+      tags_ex3:
       mentions: "@bahseder"
-      mentions_ex1: ~
-      mentions_ex2: ~
-      mentions_ex3: ~
-      format: "Metin biçimlendirme"
-      format_ex1: ~
-      format_ex2: ~
-      format_ex3: ~
-      links: ~
-      links_ex1: ~
-      links_ex2: ~
-      images: ~
-      images_ex1: ~
-      images_ex2: ~
-      format_note: ~
-      format_link_text: "Bu öğretici"
-      links_ex: ~
+      mentions_ex1:
+      mentions_ex2:
+      mentions_ex3:
+      format: Metin biçimlendirme
+      format_ex1:
+      format_ex2:
+      format_ex3:
+      links:
+      links_ex1:
+      links_ex2:
+      images:
+      images_ex1:
+      images_ex2:
+      format_note:
+      format_link_text: Bu öğretici
+      links_ex:
       embed: gömerek
-      embed_ex1: ~
-      embed_ex2: ~
-      services: "Diğer hizmetler için ilanıyla"
-      services_ex1: ~
-      services_ex2: ~
-      services_ex3: ~
-      how: "Buna nedersiniz? Eğer mesaj yapabileceğiniz şeyler bol diaspora* olarak var."
-      try_out: ~
-      make_post1: ~
-      make_post2: "Merhaba millet, Ben diaspora* in #yeni benim. Severim #koşu, #Edebiyat ve #tavşanlar."
-      make_post3: ~
-      interact: "Akıştaki yayınlarla etkileşim kurma"
-      interact_ex1: ~
-      interact_ex2: ~
-      interact_ex3: ~
-      comments: "Yorumlar yorum"
-      comments_ex: ~
+      embed_ex1:
+      embed_ex2:
+      how: Buna nedersiniz? Eğer mesaj yapabileceğiniz şeyler bol diaspora* olarak
+        var.
+      try_out:
+      make_post1:
+      make_post2: 'Merhaba millet, Ben diaspora* in #yeni benim. Severim #koşu, #Edebiyat
+        ve #tavşanlar.'
+      make_post3:
+      interact: Akıştaki yayınlarla etkileşim kurma
+      interact_ex1:
+      interact_ex2:
+      interact_ex3:
+      comments: Yorumlar yorum
+      comments_ex:
       likes: beğendikleriniz
-      likes_ex1: ~
-      likes_ex2: ~
-      reshare: "Yeniden paylaşma mesajlar"
-      reshare_ex: ~
-      post_icons: ~
-      delete: "Mesajlar ve yorumlar silme"
-      delete_ex: ~
-      hide: "Birinin Mesaja gizlenmesi"
-      hide_ex: ~
-      notifications: ~
-      notifications_ex: ~
-      ignore: "Bir kullanıcının göz ardı"
-      ignore_ex1: ~
-      ignore_ex1a: ~
-      ignore_ex2: ~
-      report: ~
-      report_ex: ~
-      finish: ~
+      likes_ex1:
+      likes_ex2:
+      reshare: Yeniden paylaşma mesajlar
+      reshare_ex:
+      post_icons:
+      delete: Mesajlar ve yorumlar silme
+      delete_ex:
+      hide: Birinin Mesaja gizlenmesi
+      hide_ex:
+      notifications:
+      notifications_ex:
+      ignore: Bir kullanıcının göz ardı
+      ignore_ex1:
+      ignore_ex1a:
+      ignore_ex2:
+      report:
+      report_ex:
+      finish:
     getting_started6:
-      byline: "Kısım 6 - Bildirimler ve ileti dizisi"
-      menu_title: "Bildirimler ve ileti dizisi"
-      intro: ~
+      byline: Kısım 6 - Bildirimler ve ileti dizisi
+      menu_title: Bildirimler ve ileti dizisi
+      intro:
       notify: Bildirimler
-      notify_ex1: ~
-      notify_ex2: ~
-      notify_ls1: "Profil sayfalarını görüntülemek için kişinin adını tıklayın."
-      notify_ls2: ~
-      notify_ls3: "Tıklayın <span class=\"click\">Tümünü işaretle okundu olarak</span>."
-      notify_ls4: ~
-      notify_ex3: ~
+      notify_ex1:
+      notify_ex2:
+      notify_ls1: Profil sayfalarını görüntülemek için kişinin adını tıklayın.
+      notify_ls2:
+      notify_ls3: Tıklayın <span class="click">Tümünü işaretle okundu olarak</span>.
+      notify_ls4:
+      notify_ex3:
       convo: Oturumlar
-      convo_ex1: ~
-      convo_ex2: ~
-      convo_ex3: ~
-      convo_ex4: "Yalnızca karşılıklı paylaşımı var kime insanlarla konuşmaları başlayabilirsiniz."
-      convo_ex5: ~
-      convo_ex6: ~
-      convo_ex7: ~
-      convo_ex8: ~
-      convo_ex9: ~
-      finish: "Hepsi konuşmaları hakkında söylenecek olmasıdır. Neredeyse öğretici ile var! Bu son bölümünü okumak için zamanı!"
+      convo_ex1:
+      convo_ex2:
+      convo_ex3:
+      convo_ex4: Yalnızca karşılıklı paylaşımı var kime insanlarla konuşmaları başlayabilirsiniz.
+      convo_ex5:
+      convo_ex6:
+      convo_ex7:
+      convo_ex8:
+      convo_ex9:
+      finish: Hepsi konuşmaları hakkında söylenecek olmasıdır. Neredeyse öğretici
+        ile var! Bu son bölümünü okumak için zamanı!
     getting_started7:
-      byline: "Kısmı 7 - Binaların tamamlanması"
-      menu_title: "Binaların tamamlanması"
-      intro: ~
-      connect: "Diğer hizmetler için diaspora* seed Bağlama"
-      connect_ex1: "'Diaspora *' tohumunu diğer birçok hizmete bağlayabilirsiniz: Facebook, Twitter, Tumblr ve WordPress. Elbette bunu yapmak için o hizmette bir hesabınız olmalıdır!"
-      connect_ex2: "Bu başlamadan önce, el bu hizmet için hesap bilgilerinizi olduğundan emin olun. O iş için sırayla diğer hizmet ile bağlantını yetkilendirmek için gerekebilir çünkü."
-      connect_ex3: ~
-      connect_ex4: ~
-      settings: "Hesap Yönetimi"
-      settings_ex1: ~
-      settings_ex2: ~
+      byline: Kısmı 7 - Binaların tamamlanması
+      menu_title: Binaların tamamlanması
+      intro:
+      settings: Hesap Yönetimi
+      settings_ex1:
+      settings_ex2:
       profile: profil
-      profile_ex1: ~
-      nsfw: ~
-      profile_ex2: ~
-      profile_ex3: ~
+      profile_ex1:
+      nsfw:
+      profile_ex2:
+      profile_ex3:
       account: Hesap
-      account_ex1: ~
-      account_ex1a: ~
-      account_ex2: ~
-      spotlight: ~
-      spotlight_ex: ~
+      account_ex1:
+      account_ex1a:
+      account_ex2:
+      spotlight:
+      spotlight_ex:
       privacy: Gizlilik
-      privacy_ex: ~
-      services: Hizmetler
-      services_ex: ~
-      applications: ~
-      applications_ex: ~
-      finish1: ~
-      finish2: ~
+      privacy_ex:
+      applications:
+      applications_ex:
+      finish1:
+      finish2:
     formatting:
-      byline: "metin biçimlendirme"
-      menu_title: "metin biçimlendirme"
-      format1: "Diaspora * da metninizi durum mesajlarında, yorumlarda ve konuşmalarda Markdown adı verilen basitleştirilmiş işaretleme sistemi kullanarak biçimlendirmek mümkündür. Bu sayfada, bu biçimlendirmeyi oluşturmak için kullanılan kodlara bir giriş verilmektedir."
-      format2: ~
-      format3: ~
-      format4: ~
+      byline: metin biçimlendirme
+      menu_title: metin biçimlendirme
+      format1: Diaspora * da metninizi durum mesajlarında, yorumlarda ve konuşmalarda
+        Markdown adı verilen basitleştirilmiş işaretleme sistemi kullanarak biçimlendirmek
+        mümkündür. Bu sayfada, bu biçimlendirmeyi oluşturmak için kullanılan kodlara
+        bir giriş verilmektedir.
+      format2:
+      format3:
+      format4:
       headings: Başlıklar
-      headings_ex1: ~
-      headings_code1: "Bu, son derece büyük bir başlıktır"
-      headings_code2: "Yukarıdaki gibi büyük Yarım"
-      headings_code3: "Normal metin iki katı büyüklüğünde"
-      headings_ex2: ~
+      headings_ex1:
+      headings_code1: Bu, son derece büyük bir başlıktır
+      headings_code2: Yukarıdaki gibi büyük Yarım
+      headings_code3: Normal metin iki katı büyüklüğünde
+      headings_ex2:
       lists: Listeler
-      lists_ex1: "Her satırın önünde listenin bir parçası olarak istiyoruz - bir madde işaretli liste oluşturmak için, ya *, + veya yerleştirin."
-      lists_ex2: ~
-      lists_ex3: ~
-      lists_code1: "Bu madde işaretli liste oluşturmak için nasıl:"
-      lists_code2: "öğe bir tane;"
-      lists_code3: "Ürünü ikisi;"
-      lists_code4: "öğe üç;"
-      lists_code5: "Bu da başka bir madde işaretli liste olacak:"
-      lists_code6: "Ve bu bir numaralı liste olacak:"
+      lists_ex1: Her satırın önünde listenin bir parçası olarak istiyoruz - bir madde
+        işaretli liste oluşturmak için, ya *, + veya yerleştirin.
+      lists_ex2:
+      lists_ex3:
+      lists_code1: 'Bu madde işaretli liste oluşturmak için nasıl:'
+      lists_code2: öğe bir tane;
+      lists_code3: Ürünü ikisi;
+      lists_code4: öğe üç;
+      lists_code5: 'Bu da başka bir madde işaretli liste olacak:'
+      lists_code6: 'Ve bu bir numaralı liste olacak:'
       quote: alıntı
-      quote_ex1: ~
-      quote_code1: ~
-      quote_code2: "Bu alıntı olduğunu."
-      quote_code2a: ~
-      quote_code3: ~
-      pre: ~
-      pre_ex: ~
-      pre_code1: ~
-      pre_code2: ~
-      pre_code3: ~
-      pre_code4: ~
-      pre_code5: ~
-      code: "Kod blokları"
-      code_ex1: ~
-      code_ex2: ~
-      code_code1: "Bu normal metin bir çizgidir."
-      code_code2: "Bu bir kod bloğu olacak"
-      code_code3: "O zaman biraz daha normal bir metin."
-      code_code4: "ve daha sonra biraz daha fazla kod"
-      code_code5: "ikisi boşluklarla girintili bir kod satırı"
-      code_code6: ~
-      code_snippet_text_a: ~
-      code_snippet_text_b: ~
-      line: "Yatay çizgi"
-      line_ex: ~
-      line_code1: "This will be a horizontal line of text and a rule in the next."
-      line_code2: "Ve şimdi size metnin bir sonraki bölüme başlayabilirsiniz."
-      itals: "İtalik ve kalın"
-      itals_ex1: ~
+      quote_ex1:
+      quote_code1:
+      quote_code2: Bu alıntı olduğunu.
+      quote_code2a:
+      quote_code3:
+      pre:
+      pre_ex:
+      pre_code1:
+      pre_code2:
+      pre_code3:
+      pre_code4:
+      pre_code5:
+      code: Kod blokları
+      code_ex1:
+      code_ex2:
+      code_code1: Bu normal metin bir çizgidir.
+      code_code2: Bu bir kod bloğu olacak
+      code_code3: O zaman biraz daha normal bir metin.
+      code_code4: ve daha sonra biraz daha fazla kod
+      code_code5: ikisi boşluklarla girintili bir kod satırı
+      code_code6:
+      code_snippet_text_a:
+      code_snippet_text_b:
+      line: Yatay çizgi
+      line_ex:
+      line_code1: This will be a horizontal line of text and a rule in the next.
+      line_code2: Ve şimdi size metnin bir sonraki bölüme başlayabilirsiniz.
+      itals: İtalik ve kalın
+      itals_ex1:
       itals_ex2: "<em>kalın italik</em>: *kelime* _kelime_"
       itals_ex3: "<strong>kalın</strong>: **kelime** __kelime__"
       itals_ex4: "<strong><em>kalın italik</em></strong>: ***kelime*** ___kelime___"
-      itals_ex8: ~
-      links: ~
-      link_ex1: ~
-      link_code: ~
-      link_ex2: ~
-      inline_link_text: ~
+      itals_ex8:
+      links:
+      link_ex1:
+      link_code:
+      link_ex2:
+      inline_link_text:
       images: Resimleri
-      images_ex1: ~
-      images_code: "![Alt text](http://website.com/image.jpg \"isteğe bağlı başlıkta\")"
-      images_ex2: ~
-      images_ex3: ~
-      escape_ex1: ~
-      escape_code: "Budur \\_ alt çizgi gibi bir"
-      escape_ex2: ~
-      escape_ex3: ~
-      symbols: "Özel karakterler"
-      symbols_ex: "Aşağıdaki semboller ve karakterler bir arada kullanarak diğer özel karakterleri oluşturabilirsiniz:"
-      finish: "Markdown sözdizimi ilişkin daha ayrıntılı bir açıklama yoktur %{markdown_link}."
-      markdown_link_text: "Bu sayfada"
+      images_ex1:
+      images_code: '![Alt text](http://website.com/image.jpg "isteğe bağlı başlıkta")'
+      images_ex2:
+      images_ex3:
+      escape_ex1:
+      escape_code: Budur \_ alt çizgi gibi bir
+      escape_ex2:
+      escape_ex3:
+      symbols: Özel karakterler
+      symbols_ex: 'Aşağıdaki semboller ve karakterler bir arada kullanarak diğer özel
+        karakterleri oluşturabilirsiniz:'
+      finish: Markdown sözdizimi ilişkin daha ayrıntılı bir açıklama yoktur %{markdown_link}.
+      markdown_link_text: Bu sayfada
     tips:
-      headline: "diaspora* kullanma ipuçları"
-      byline: "Biz fark ettik bazı yararlı hileler"
-      menu_title: "diaspora* kullanma ipuçları"
-      intro: ~
-      profile: "Ekstra profil alanları"
-      profile_ex: ~
-      notepad: "Bir not defteri olarak kullanın diaspora*"
-      notepad_ex: ~
+      headline: diaspora* kullanma ipuçları
+      byline: Biz fark ettik bazı yararlı hileler
+      menu_title: diaspora* kullanma ipuçları
+      intro:
+      profile: Ekstra profil alanları
+      profile_ex:
+      notepad: Bir not defteri olarak kullanın diaspora*
+      notepad_ex:
     other_docs:
-      headline: "Diğer belgeler"
-      byline: "Nerede daha fazla yardım ve bilgi bulmak için"
-      menu_title: "Diğer belgeler"
-      intro1: ~
-      intro2: ~
+      headline: Diğer belgeler
+      byline: Nerede daha fazla yardım ve bilgi bulmak için
+      menu_title: Diğer belgeler
+      intro1:
+      intro2:
       tutorials: Öğreticiler
-      parfait: "diaspora* yeni insanlar için Fransız bir rehber"
-      about: "diaspora* Hakkında"
-      about1: ~
-      wiki: ~
-      wiki_link_text: "Resmi proje wiki"
-      wikipedia: ~
+      parfait: diaspora* yeni insanlar için Fransız bir rehber
+      about: diaspora* Hakkında
+      about1:
+      wiki:
+      wiki_link_text: Resmi proje wiki
+      wikipedia:
       wikipedia_link_text: diaspora*
-      wikipedia_software_link_text: "diaspora* yazılım"
-      support: "Kullanıcı desteği"
-      question: ~
-      mail: ~
-      mail_link_text: "mail listesi"
-      irc: ~
-      irc_link_text: "IRC channel"
-      progress: "Proje ilerleme"
-      blog: ~
-      blog_link_text: "Proje blog"
-      changelog: ~
-      changelog_link_text: "Değişiklik günlüğü"
-      discourse: "diaspora* hakkında fikir ve geliştirmeleri tartıştığımız ortam"
+      wikipedia_software_link_text: diaspora* yazılım
+      support: Kullanıcı desteği
+      question:
+      mail:
+      mail_link_text: mail listesi
+      irc:
+      irc_link_text: IRC channel
+      progress: Proje ilerleme
+      blog:
+      blog_link_text: Proje blog
+      changelog:
+      changelog_link_text: Değişiklik günlüğü
+      discourse: diaspora* hakkında fikir ve geliştirmeleri tartıştığımız ortam
       communication: haberleşme
-      communicate: ~
-      communicate_link_text: "\"Nasıl haberleşmek\""
-      other: "Diğer siteler"
-      manifesto: ~
-      manifesto_link_text: "Kullanıcı Veri Manifestosu"
+      communicate:
+      communicate_link_text: '"Nasıl haberleşmek"'
+      other: Diğer siteler
+      manifesto:
+      manifesto_link_text: Kullanıcı Veri Manifestosu

@@ -1,57 +1,60 @@
 nn:
   devise:
     confirmations:
-      confirmed: "Kontoen din er stadfesta. Du er logga på no."
-      send_instructions: "Om ei lita stund vil du få ei e-postmelding med rettleiing om korleis du stadfestar kontoen din."
-      send_paranoid_instructions: "Om e-postadressa di allereie eksisterar i databasane våre vil du motta ei e-postmelding med instruksjonar om korleis du stadfestar kontoen din om ei lita stund."
+      confirmed: Kontoen din er stadfesta. Du er logga på no.
+      send_instructions: Om ei lita stund vil du få ei e-postmelding med rettleiing
+        om korleis du stadfestar kontoen din.
+      send_paranoid_instructions: Om e-postadressa di allereie eksisterar i databasane
+        våre vil du motta ei e-postmelding med instruksjonar om korleis du stadfestar
+        kontoen din om ei lita stund.
     failure:
-      already_authenticated: "Du er allereie logga på."
-      inactive: "Kontoen din er ikkje aktivert enno."
-      invalid: "E-postadressa eller passordet er ugyldig."
-      invalid_token: "Ugyldig aktiveringkode."
-      locked: "Kontoen din er låst."
-      not_found_in_database: "E-postadressa eller passordet er ugyldig."
-      timeout: ~
-      unauthenticated: ~
-      unconfirmed: ~
+      already_authenticated: Du er allereie logga på.
+      inactive: Kontoen din er ikkje aktivert enno.
+      invalid: E-postadressa eller passordet er ugyldig.
+      invalid_token: Ugyldig aktiveringkode.
+      locked: Kontoen din er låst.
+      not_found_in_database: E-postadressa eller passordet er ugyldig.
+      timeout:
+      unauthenticated:
+      unconfirmed:
     mailer:
       confirmation_instructions:
-        subject: ~
+        subject:
       reset_password_instructions:
-        subject: ~
+        subject:
       unlock_instructions:
-        subject: ~
+        subject:
     omniauth_callbacks:
-      failure: ~
-      success: ~
+      failure:
+      success:
     passwords:
-      no_token: ~
-      send_instructions: ~
-      send_paranoid_instructions: ~
-      updated: ~
-      updated_not_active: ~
+      no_token:
+      send_instructions:
+      send_paranoid_instructions:
+      updated:
+      updated_not_active:
     registrations:
-      destroyed: ~
-      signed_up: ~
-      signed_up_but_inactive: ~
-      signed_up_but_locked: ~
-      signed_up_but_unconfirmed: ~
-      update_needs_confirmation: ~
-      updated: ~
+      destroyed:
+      signed_up:
+      signed_up_but_inactive:
+      signed_up_but_locked:
+      signed_up_but_unconfirmed:
+      update_needs_confirmation:
+      updated:
     sessions:
-      signed_in: ~
-      signed_out: ~
+      signed_in:
+      signed_out:
     unlocks:
-      send_instructions: ~
-      send_paranoid_instructions: ~
-      unlocked: ~
+      send_instructions:
+      send_paranoid_instructions:
+      unlocked:
   errors:
     messages:
-      already_confirmed: ~
-      confirmation_period_expired: ~
-      expired: ~
-      not_found: ~
-      not_locked: ~
+      already_confirmed:
+      confirmation_period_expired:
+      expired:
+      not_found:
+      not_locked:
       not_saved:
-        one: "1 feil hindra denne %{resource} frå å bli lagra"
+        one: 1 feil hindra denne %{resource} frå å bli lagra
         other: "%{count} feil hindra denne %{resource} frå å bli lagra"

@@ -1,719 +1,996 @@
 it:
   time:
     formats:
-      blog_headline: ~
+      blog_headline:
   buttons:
-    host_pod: "Ospita un pod"
-    join_diaspora: "Unisciti a noi!"
-    find_more: "Scopri di più »"
+    host_pod: Ospita un pod
+    join_diaspora: Unisciti a noi!
+    find_more: Scopri di più »
   meta:
     footer:
-      copyleft: "CC-BY The diaspora* Foundation"
-  title: "Il Progetto diaspora*"
-  newsfeed: ~
-  planet_feed: ~
+      copyleft: CC-BY The diaspora* Foundation
+  title: Il Progetto diaspora*
+  newsfeed:
+  planet_feed:
   layouts:
     application:
       wiki: Wiki
-      discourse: ~
+      discourse:
       planet: Pianeta
-      useful_resources: "Risorse Utili"
-      codebase: "Codice base"
+      useful_resources: Risorse Utili
+      codebase: Codice base
       documentation: Documentazione
-      report_bugs: "Trova & segnala i bug"
-      irc_general: "IRC - Generale"
-      irc_development: "IRC - Sviluppo"
-      discussion_general: "Discussioni - Generale"
-      discussion_development: "Discussioni - Sviluppo"
-      choose_language: "Scegli la lingua"
-      translate: ~
-      cc_license_alt: "Licenza Creative Commons"
+      report_bugs: Trova & segnala i bug
+      irc:
+      discussion_general: Discussioni - Generale
+      discussion_development: Discussioni - Sviluppo
+      choose_language: Scegli la lingua
+      translate:
+      cc_license_alt: Licenza Creative Commons
       licensed_under: "%{site_link} è sotto una licenza di %{license_link}"
-      license_link_text: "Creative Commons Attribution 3.0 Unported License"
+      license_link_text: Creative Commons Attribution 3.0 Unported License
   pages:
     index:
-      headline: "Benvenuto su diaspora*"
-      byline: "Il mondo sociale online dove hai il controllo"
-      register: "Registrati »"
-      key_philosophies: "diaspora* è basata su tre filosofie chiave:"
+      headline: Benvenuto su diaspora*
+      byline: Il mondo sociale online dove hai il controllo
+      register: Registrati »
+      key_philosophies: 'diaspora* è basata su tre filosofie chiave:'
       decentralization: Decentralizzazione
-      decentralization_about: "Invece dei dati di tutti registrati su enormi server centrali di proprietà di una grande organizzazione, diaspora* esiste su server gestiti in modo indipendente (\"pods\", spore) di tutto il mondo. Sei tu a scegliere con quale spora registrarti, e da qui è possibile connettersi senza soluzione di continuità con la comunità mondiale diaspora*."
+      decentralization_about: Invece dei dati di tutti registrati su enormi server
+        centrali di proprietà di una grande organizzazione, diaspora* esiste su server
+        gestiti in modo indipendente ("pods", spore) di tutto il mondo. Sei tu a scegliere
+        con quale spora registrarti, e da qui è possibile connettersi senza soluzione
+        di continuità con la comunità mondiale diaspora*.
       freedom: Libertà
-      freedom_about: "Puoi essere chiunque vuoi, in diaspora*. A differenza di alcune reti, non c'è bisogno di usare la tua vera identità. È possibile interagire con le persone in qualunque modo si sceglie. L'unico limite è la tua immaginazione. diaspora* è anche un software libero, dandoti la libertà di scegliere come utilizzala."
+      freedom_about: Puoi essere chiunque vuoi, in diaspora*. A differenza di alcune
+        reti, non c'è bisogno di usare la tua vera identità. È possibile interagire
+        con le persone in qualunque modo si sceglie. L'unico limite è la tua immaginazione.
+        diaspora* è anche un software libero, dandoti la libertà di scegliere come
+        utilizzala.
       privacy: Riservatezza
       privacy_about: |-
-          Su diaspora* possiedi tu i tuoi dati. Non concedi più alcun diritto a un'azienda o ad altri soggetti interessati che potrebbero usarlo contro di te. Con diaspora* i tuoi amici, le tue abitudini e i tuoi contenuti sono affari tuoi... non nostri!
-          Inoltre sei tu che scegli chi può vedere quello che condividi, usando gli Aspetti.
-      get_started: "Vuoi iniziare?"
-      get_started_sub: "È facile come contare 1, 2, 3 ..."
-      choose_pod: "1. Scegli un pod"
-      choose_pod_exp: "Trova un pod che rispecchi le tue esigenze. Potresti preferire un pod piccolo, una che consente di ri-postare a servizi esterni (come Twitter), uno collocato vicino a te oppure uno collocato in un paese che sai avere buone politiche di sicurezza sui dati. La scelta è tua! Puoi adirittura %{host_yourself_link} se hai delle competenze come amministratore di sistema."
-      host_yourself: ~
-      sign_up: "2. Registrati"
-      sign_up_ex: "Una volta deciso che pod è giusto per te, sulla base dei livelli e informazioni registrate presso %{poduptime} e forse raccomandazioni da parte di persone di cui ti fidi, registrati e crea un profilo con più o meno informazioni personali, come ti piace. Hai il totale controllo di quanto condividi."
-      join_convo: "3. Partecipa alle discussioni!"
-      join_convo_ex: "Inizia seguendo alcuni #tag relativi ai tuoi interessi: potrebbero essere <span class=\"click\">#musica</span>, <span class=\"click\">#fotografia</span>, <span class=\"click\">#privacy</span> oppure <span class=\"click\">#linux</span> - qualsiasi cosa ti appassioni. Condividi un messaggio pubblico con il tag <span class=\"click\">#nuovoutente</span> per presentarti, e così via. Ora fai parte della vivace comunità di diaspora*."
+        Su diaspora* possiedi tu i tuoi dati. Non concedi più alcun diritto a un'azienda o ad altri soggetti interessati che potrebbero usarlo contro di te. Con diaspora* i tuoi amici, le tue abitudini e i tuoi contenuti sono affari tuoi... non nostri!
+        Inoltre sei tu che scegli chi può vedere quello che condividi, usando gli Aspetti.
+      get_started: Vuoi iniziare?
+      get_started_sub: È facile come contare 1, 2, 3 ...
+      choose_pod: 1. Scegli un pod
+      choose_pod_exp: Trova un pod che rispecchi le tue esigenze. Potresti preferire
+        un pod piccolo, una che consente di ri-postare a servizi esterni (come Twitter),
+        uno collocato vicino a te oppure uno collocato in un paese che sai avere buone
+        politiche di sicurezza sui dati. La scelta è tua! Puoi adirittura %{host_yourself_link}
+        se hai delle competenze come amministratore di sistema.
+      host_yourself:
+      sign_up: 2. Registrati
+      sign_up_ex: Una volta deciso che pod è giusto per te, sulla base dei livelli
+        e informazioni registrate presso %{poduptime} e forse raccomandazioni da parte
+        di persone di cui ti fidi, registrati e crea un profilo con più o meno informazioni
+        personali, come ti piace. Hai il totale controllo di quanto condividi.
+      join_convo: 3. Partecipa alle discussioni!
+      join_convo_ex: 'Inizia seguendo alcuni #tag relativi ai tuoi interessi: potrebbero
+        essere <span class="click">#musica</span>, <span class="click">#fotografia</span>,
+        <span class="click">#privacy</span> oppure <span class="click">#linux</span>
+        - qualsiasi cosa ti appassioni. Condividi un messaggio pubblico con il tag
+        <span class="click">#nuovoutente</span> per presentarti, e così via. Ora fai
+        parte della vivace comunità di diaspora*.'
       aspects: Aspetti
-      aspects_ex: "diaspora* per prima ha esplorato il concetto degli aspetti, ciò significa che tu puoi organizzare i tuoi contatti similmente al ruolo che ricoprono nella tua vita. Questo vuol dire che puoi condividere qualcosa solo con la tua famiglia o i tuoi colleghi di lavoro, sapendo che solo le persone che desideri potranno vedere il tuo post."
+      aspects_ex: diaspora* per prima ha esplorato il concetto degli aspetti, ciò
+        significa che tu puoi organizzare i tuoi contatti similmente al ruolo che
+        ricoprono nella tua vita. Questo vuol dire che puoi condividere qualcosa solo
+        con la tua famiglia o i tuoi colleghi di lavoro, sapendo che solo le persone
+        che desideri potranno vedere il tuo post.
       features: Caratteristiche
-      features_ex: "Gli hashtag ti danno la libertà di etichettare e seguire i tuoi interessi con facilità. Puoi richiamare l'attenzione delle persone @menzionandole. Ricondividi i post che ami così anche gli atri potranno goderne e commentarli. E dimostra l'apprezzamento per il lavoro altrui cliccando 'mi piace' ♥."
-      help: "Vuoi aiutare?"
-      help_ex: "diaspora* abbisogna di persone per scrivere e testare il codice, dare il benvenuto ai nuovi membri, configurare e mantenere i pod e propagare per il mondo i benefici di diaspora* alle persone che potrebbero prendervi parte. Pensi che ti piacerebbe contribuire al progetto?"
-      socialint: "Integrazione con altre reti sociali"
-      socialint_ex: "Utilizzare diaspora* come base di partenza per comunicare sui tuoi profili su altre importanti reti sociali. In questo modo i vostri amici saranno ancora in grado di tenersi in contatto con quello che stai facendo, anche se non sono ancora in diaspora*. diaspora* attualmente supporta l'invio incrociato con gli account di Facebook, Twitter, Tumblr e altre reti a venire."
+      features_ex: Gli hashtag ti danno la libertà di etichettare e seguire i tuoi
+        interessi con facilità. Puoi richiamare l'attenzione delle persone @menzionandole.
+        Ricondividi i post che ami così anche gli atri potranno goderne e commentarli.
+        E dimostra l'apprezzamento per il lavoro altrui cliccando 'mi piace' ♥.
+      help: Vuoi aiutare?
+      help_ex: diaspora* abbisogna di persone per scrivere e testare il codice, dare
+        il benvenuto ai nuovi membri, configurare e mantenere i pod e propagare per
+        il mondo i benefici di diaspora* alle persone che potrebbero prendervi parte.
+        Pensi che ti piacerebbe contribuire al progetto?
       earth_alt: Terrestre*
       decentralized_alt: Decentralizzato
       freedom_alt: Libertà
       keyhole_alt: Accesso
       aspects_alt: Aspetti
       features_alt: Funzionalità
-      ways_to_help_alt: "Modi per aiutare"
-      services_alt: Servizi
+      ways_to_help_alt: Modi per aiutare
     about:
-      headline: "Come funziona diaspora*?"
-      byline: "diaspora* è semplice da usare – ecco come funziona"
-      menu_title: "Su di noi"
-      decentralize: "Cos'è la decentralizzazione?"
-      decentralize_ex: "diaspora* è completamente differente rispetto a molte reti che utilizzi. È completamente decentralizzata, senza nessun 'crocevia' centrale. Nonostante ciò è veramente facile connettersi e comunicare con le persone. Ecco come."
+      headline: Come funziona diaspora*?
+      byline: diaspora* è semplice da usare – ecco come funziona
+      menu_title: Su di noi
+      decentralize: Cos'è la decentralizzazione?
+      decentralize_ex: diaspora* è completamente differente rispetto a molte reti
+        che utilizzi. È completamente decentralizzata, senza nessun 'crocevia' centrale.
+        Nonostante ciò è veramente facile connettersi e comunicare con le persone.
+        Ecco come.
       this: QUESTO
-      this_ex: "diaspora* è una vera rete, senza una base centrale. Ci sono dei server (chiamati 'pod' - semi, baccelli) in tutto il mondo, ognuno dei quali contiene i dati di coloro che hanno deciso di registrarsi ad esso. Questi pod comunicano tra di loro ininterrottamente, così è possibile registrarsi in qualsiasi pod e comunicare liberamente con i propri contatti, ovunque siano nella rete."
-      notthis: "NON QUESTO"
-      notthis_ex: "La maggior parte delle reti sociali gira su server centralizzati, gestiti e detenuti da una grande azienda. Essi immagazzinano tutti i dati privati dei loro utenti. Queste informazioni possono essere perse o trafugate, e come qualsiasi sistema con un collo di bottiglia, qualunque problema ai server centrali può rendere l'intera rete molto lenta o completamente inutilizzabile. È anche più facile per i governi 'origliare'."
-      discl: "(diaspora* utilizza standard di rete aperti come %{pubsubhubbub} e %{webfinger} per rendere questo tipo di connessione possibile.)"
-      connect: "Come faccio a collegarmi?"
-      connect_ex: "Anche se diaspora* è composta da vari pod in tutto il mondo, vivrai l'esperienza di una rete integrata. Non hai bisogno di essere sullo stesso pod dei tuoi contatti per essere in grado di comunicare liberamente con gli altri - la comunicazione avverrà continuamente da una parte all'altra dei pod dell'universo diaspora*. Quando stai usando diaspora*, puoi facilmente dimenticarti che poggia effettivamente su molti semi. Connettersi con qualcuno in diaspora* è effettivamente molto semplice: "
-      find: "1. Cercali"
-      find_ex: "Tutto quello che devi fare per connetterti con qualcuno è cercarlo e aggiungerlo in un aspetto (Guarda più in basso per maggiori dettagli sugli aspetti). Cerca usando il campo di ricerca collocato sulla barra nera, o soffermati sopra il loro nome nel tuo flusso e ti apparirà un fumetto. Se conosci il loro identificativo diaspora* (tuonome@nomedelpod.com), puoi usare quello."
-      add: "2. Aggiungili"
-      add_ex: "Ora è solo questione di cliccare sul bottone \"Aggiungi contatto\" e scegliere di quale aspetto vuoi che facciano parte. Ora sei connesso e puoi condividere con loro come faresti su qualsiasi altra rete. Oppure, se sono parte di differenti aspetti della tua vita, collegali a molteplici aspetti. Ora siete connessi. È davvero così facile. "
+      this_ex: diaspora* è una vera rete, senza una base centrale. Ci sono dei server
+        (chiamati 'pod' - semi, baccelli) in tutto il mondo, ognuno dei quali contiene
+        i dati di coloro che hanno deciso di registrarsi ad esso. Questi pod comunicano
+        tra di loro ininterrottamente, così è possibile registrarsi in qualsiasi pod
+        e comunicare liberamente con i propri contatti, ovunque siano nella rete.
+      notthis: NON QUESTO
+      notthis_ex: La maggior parte delle reti sociali gira su server centralizzati,
+        gestiti e detenuti da una grande azienda. Essi immagazzinano tutti i dati
+        privati dei loro utenti. Queste informazioni possono essere perse o trafugate,
+        e come qualsiasi sistema con un collo di bottiglia, qualunque problema ai
+        server centrali può rendere l'intera rete molto lenta o completamente inutilizzabile.
+        È anche più facile per i governi 'origliare'.
+      discl: "(diaspora* utilizza standard di rete aperti come %{pubsubhubbub} e %{webfinger}
+        per rendere questo tipo di connessione possibile.)"
+      connect: Come faccio a collegarmi?
+      connect_ex: 'Anche se diaspora* è composta da vari pod in tutto il mondo, vivrai
+        l''esperienza di una rete integrata. Non hai bisogno di essere sullo stesso
+        pod dei tuoi contatti per essere in grado di comunicare liberamente con gli
+        altri - la comunicazione avverrà continuamente da una parte all''altra dei
+        pod dell''universo diaspora*. Quando stai usando diaspora*, puoi facilmente
+        dimenticarti che poggia effettivamente su molti semi. Connettersi con qualcuno
+        in diaspora* è effettivamente molto semplice: '
+      find: 1. Cercali
+      find_ex: Tutto quello che devi fare per connetterti con qualcuno è cercarlo
+        e aggiungerlo in un aspetto (Guarda più in basso per maggiori dettagli sugli
+        aspetti). Cerca usando il campo di ricerca collocato sulla barra nera, o soffermati
+        sopra il loro nome nel tuo flusso e ti apparirà un fumetto. Se conosci il
+        loro identificativo diaspora* (tuonome@nomedelpod.com), puoi usare quello.
+      add: 2. Aggiungili
+      add_ex: 'Ora è solo questione di cliccare sul bottone "Aggiungi contatto" e
+        scegliere di quale aspetto vuoi che facciano parte. Ora sei connesso e puoi
+        condividere con loro come faresti su qualsiasi altra rete. Oppure, se sono
+        parte di differenti aspetti della tua vita, collegali a molteplici aspetti.
+        Ora siete connessi. È davvero così facile. '
       freedom: Libertà
-      freedom_byline: "diaspora* non cerca di limitarti"
-      fdm1: "Sii chi vuoi essere"
-      fdm1_ex: "Molte reti insistono affinché tu usi la tua identità reale. Non diaspora*. Qui puoi scegliere chi vuoi essere, e condividere in pari maniera o in misura minore circa te stesso secondo come preferisci.  Sta davvero a te decidere come interagire con le altre persone."
-      fdm2: "Sii creativo"
-      fdm2_ex: "Non hai limiti nelle modalità di interazione. Puoi semplicemente seguire persone appassionanti e vedere quanto hanno da dire, oppure puoi condividere il tuo mondo con tutti. Condividi le tue foto, le tue opere d'arte, i tuoi video, la tua musica - ciò che vuoi. Lasciati trasportare."
-      fdm3: "Libero come il vento"
-      fdm3_ex: "diaspora* è un software interamente libero. Questo significa che non ci sono limiti su come può essere usato. Puoi perfino prendere le sorgenti e modificarle per usarle come più desideri, ed aiutarci a migliorare la rete. Saremmo felici di averti a bordo."
+      freedom_byline: diaspora* non cerca di limitarti
+      fdm1: Sii chi vuoi essere
+      fdm1_ex: Molte reti insistono affinché tu usi la tua identità reale. Non diaspora*.
+        Qui puoi scegliere chi vuoi essere, e condividere in pari maniera o in misura
+        minore circa te stesso secondo come preferisci.  Sta davvero a te decidere
+        come interagire con le altre persone.
+      fdm2: Sii creativo
+      fdm2_ex: Non hai limiti nelle modalità di interazione. Puoi semplicemente seguire
+        persone appassionanti e vedere quanto hanno da dire, oppure puoi condividere
+        il tuo mondo con tutti. Condividi le tue foto, le tue opere d'arte, i tuoi
+        video, la tua musica - ciò che vuoi. Lasciati trasportare.
+      fdm3: Libero come il vento
+      fdm3_ex: diaspora* è un software interamente libero. Questo significa che non
+        ci sono limiti su come può essere usato. Puoi perfino prendere le sorgenti
+        e modificarle per usarle come più desideri, ed aiutarci a migliorare la rete.
+        Saremmo felici di averti a bordo.
       privacy: Riservatezza
-      privacy_byline: "Controllo totale di ciò che è tuo "
-      priv1: "Gestisci i tuoi dati"
+      privacy_byline: 'Controllo totale di ciò che è tuo '
+      priv1: Gestisci i tuoi dati
       priv1_ex: |-
-          Molte reti utilizzano i tuoi dati per guadagnare, analizzando le tue interazioni e usando queste informazioni per fornirti pubblicità mirata.
-          diaspora* non utilizza i tuoi dati per scopi diversi dalla connessione e dalla condivisione con le altre persone. Solo gli amministratori dei pod con cui interagisci possono accedere ai tuoi dati, e solo tu decidi con quali pod interagire.
-      priv2: "Ospitalo tu stesso"
-      priv2_ex: "Scegli dove salvare i tuoi dati selezionando una spora che ti piace. Se vuoi essere veramente sicuro, puoi installare una tua spora su uno o più server che controlli, così nessuno potrà arrivare ai tuoi dati personali."
-      priv3: "Scegli il tuo pubblico"
-      priv3_ex: "Gli aspetti di diaspora* ti permettono di condividere informazioni solo con le persone che desideri. Decidi tu se essere pubblico o privato. Condividi una foto divertente con il mondo intero oppure condividi un segreto intimo solo con i tuoi amici più stretti. Ne hai tu il controllo."
-      aspects: "Tutto riguardo agli aspetti"
-      aspects_byline: "Il segreto della riservatezza in diaspora*"
-      asp1: "Aspetti della tua vita"
-      asp1_ex: "La tua vita ha molti aspetti diversi, che coinvolgono persone diverse. Perché la tua vita online dovrebbe essere differente? Con gli aspetti di diaspora* puoi organizzare la tua vita online come vuoi e condividere le cose solo con le persone che desideri."
-      asp2: "Organizza la tua vita"
-      asp2_ex: "Per esempio, potresti avere differenti impostazione per la tua famiglia, per i tuoi amici più stretti, per i colleghi di lavoro oppure per un hobby o uno sport che pratichi. I tuoi colleghi di lavoro non dovrebbero venire a sapere della tua riunione di famiglia, oppure dovrebbero? Gestendo gli aspetti non lo sapranno."
-      asp3: "Dillo al mondo intero"
-      asp3_ex: "Sicuramente alcune cose sono così importanti che vuoi annunciarle al mondo intero. Puoi condividere facilmente un post con il mondo intero rendendolo pubblico. Se utilizzi gli #hashtag appropriati, esso raggiungerà le persone che possono apprezzarlo."
-      features: "Funzionalità che piacciono molto alla nostra comunità"
-      features_byline: "Noi pensiamo che piaceranno molto anche a te"
+        Molte reti utilizzano i tuoi dati per guadagnare, analizzando le tue interazioni e usando queste informazioni per fornirti pubblicità mirata.
+        diaspora* non utilizza i tuoi dati per scopi diversi dalla connessione e dalla condivisione con le altre persone. Solo gli amministratori dei pod con cui interagisci possono accedere ai tuoi dati, e solo tu decidi con quali pod interagire.
+      priv2: Ospitalo tu stesso
+      priv2_ex: Scegli dove salvare i tuoi dati selezionando una spora che ti piace.
+        Se vuoi essere veramente sicuro, puoi installare una tua spora su uno o più
+        server che controlli, così nessuno potrà arrivare ai tuoi dati personali.
+      priv3: Scegli il tuo pubblico
+      priv3_ex: Gli aspetti di diaspora* ti permettono di condividere informazioni
+        solo con le persone che desideri. Decidi tu se essere pubblico o privato.
+        Condividi una foto divertente con il mondo intero oppure condividi un segreto
+        intimo solo con i tuoi amici più stretti. Ne hai tu il controllo.
+      aspects: Tutto riguardo agli aspetti
+      aspects_byline: Il segreto della riservatezza in diaspora*
+      asp1: Aspetti della tua vita
+      asp1_ex: La tua vita ha molti aspetti diversi, che coinvolgono persone diverse.
+        Perché la tua vita online dovrebbe essere differente? Con gli aspetti di diaspora*
+        puoi organizzare la tua vita online come vuoi e condividere le cose solo con
+        le persone che desideri.
+      asp2: Organizza la tua vita
+      asp2_ex: Per esempio, potresti avere differenti impostazione per la tua famiglia,
+        per i tuoi amici più stretti, per i colleghi di lavoro oppure per un hobby
+        o uno sport che pratichi. I tuoi colleghi di lavoro non dovrebbero venire
+        a sapere della tua riunione di famiglia, oppure dovrebbero? Gestendo gli aspetti
+        non lo sapranno.
+      asp3: Dillo al mondo intero
+      asp3_ex: 'Sicuramente alcune cose sono così importanti che vuoi annunciarle
+        al mondo intero. Puoi condividere facilmente un post con il mondo intero rendendolo
+        pubblico. Se utilizzi gli #hashtag appropriati, esso raggiungerà le persone
+        che possono apprezzarlo.'
+      features: Funzionalità che piacciono molto alla nostra comunità
+      features_byline: Noi pensiamo che piaceranno molto anche a te
       hashtags: Hashtag
-      hashtags_ex: "Gli #hashtag permettono di definire e di seguire i tuoi interessi e aiutano i tuoi post a raggiungere le persone interessate. Sono anche un ottimo modo per incontrare nuove divertenti e interessanti persone su diaspora*."
+      hashtags_ex: 'Gli #hashtag permettono di definire e di seguire i tuoi interessi
+        e aiutano i tuoi post a raggiungere le persone interessate. Sono anche un
+        ottimo modo per incontrare nuove divertenti e interessanti persone su diaspora*.'
       reshare: Condividi
-      reshare_ex: "Perché non condividi con gli altri un post che ti piace? diaspora* facilita la condivisione delle idee attraverso Condividi. Devi solo premere il pulsante per condividere il messaggio."
+      reshare_ex: Perché non condividi con gli altri un post che ti piace? diaspora*
+        facilita la condivisione delle idee attraverso Condividi. Devi solo premere
+        il pulsante per condividere il messaggio.
       mentions: Menzioni
-      mentions_ex: "Vuoi ottenere l'attenzione di qualcuno? È semplice: @citalo ! Così puoi richiamare l'attenzione di uno dei tuoi contatti su qualcosa che vorresti fargli sapere."
+      mentions_ex: 'Vuoi ottenere l''attenzione di qualcuno? È semplice: @citalo !
+        Così puoi richiamare l''attenzione di uno dei tuoi contatti su qualcosa che
+        vorresti fargli sapere.'
       love: Amore
-      love_ex: "Mostra il tuo apprezzamento per qualcosa che ami con un ♥. Perché a volte le parole non bastano per dire quello che senti."
-      host: "Ospita un pod collettivo"
-      host_byline: "Essere una delle stelle di diaspora*"
-      host_ex: "diaspora* sottostà ai suoi membri, che ospitano e propongono pod aperti a a tutti coloro che ne vogliono prendere parte. Se hai dello spazio sul tuo server e qualche conoscenza tecnica, ameremmo molto se tu avviassi un pod che è aperto alle registrazioni. Più pod ci sono e meglio lavora diaspora* - diventa parte del futuro della decentralizzazione delle reti sociali!"
-      hostinst1: "Leggi l' %{instructions_link} e avvia il tuo pod collettivo."
-      instructions_link_text: "Istruzioni di installazione di un pod"
-      hostinst2: "Visualizza una lista dei pod collettivi in %{poduptime}"
-      distributed_network: "Rete distribuita"
-      centralized_network: "Rete centralizzata"
+      love_ex: Mostra il tuo apprezzamento per qualcosa che ami con un ♥. Perché a
+        volte le parole non bastano per dire quello che senti.
+      host: Ospita un pod collettivo
+      host_byline: Essere una delle stelle di diaspora*
+      host_ex: diaspora* sottostà ai suoi membri, che ospitano e propongono pod aperti
+        a a tutti coloro che ne vogliono prendere parte. Se hai dello spazio sul tuo
+        server e qualche conoscenza tecnica, ameremmo molto se tu avviassi un pod
+        che è aperto alle registrazioni. Più pod ci sono e meglio lavora diaspora*
+        - diventa parte del futuro della decentralizzazione delle reti sociali!
+      hostinst1: Leggi l' %{instructions_link} e avvia il tuo pod collettivo.
+      instructions_link_text: Istruzioni di installazione di un pod
+      hostinst2: Visualizza una lista dei pod collettivi in %{poduptime}
+      distributed_network: Rete distribuita
+      centralized_network: Rete centralizzata
       search_alt: Cerca
-      add_a_contact_alt: "Aggiungi un contatto"
+      add_a_contact_alt: Aggiungi un contatto
       hashtag_alt: Hashtag
       reshare_alt: Ricondividi
       mention_alt: Menziona
       heart_alt: Cuore
     get_involved:
       headline: Partecipa!
-      byline: "Il futuro della rete sociale inizia con te"
-      menu_title: "Mettiti in gioco"
-      community: "Alimentato dalla comunità"
-      community_byline: "diaspora* appartiene a te"
-      meaning: "Cosa significa tutto questo?"
-      meaning_ex1: "Il software libero riguarda l'individualità, la trasparenza, la creatività e la sorte. Si tratta di avere un'idea e di realizzarla. diaspora* è nata per soddisfare la passione per il divertimento e per rendere internet un posto migliore. Il software libero è ciò che ci permette di cambiare il mondo per noi stessi e lascia che i nostri amici del web traggano beneficio dalla nostra esplorazione."
-      meaning_ex2: "Le comunità del software libero sono straordinarie. Noi di diaspora* crediamo che le persone debbano essere valutate per quello che fanno. Non importa che tu sia un programmatore d'elite o che tu non abbia mai contribuito a un progetto prima. Contribuire a diaspora* significa mettersi al lavoro per risolvere problemi difficili, con una particolare attenzione alle soluzioni che funzionano per gli utenti."
-      meaning_ex3: "Questo è il motivo per cui se contribuisci in modo significativo a diaspora*, ti daremo l'accesso al core commit. Agiamo uniti in questo, e vogliamo dare alle persone interessate la possibilità di fare enormi cambiamenti."
-      whereyou: "Da dove vieni"
-      whereyou_ex1: "Tutti noi costruiamo diaspora*. Forse ancora non ti conosciamo, ma ci piacerebbe incontrarti e trovare il modo di inserirti nel team che sta costruendo il futuro del web. Tutti noi abbiamo il potenziale di cambiare il mondo, data la giusta opportunità."
-      whereyou_ex2: "È possibile contribuire a diaspora* in tutte le forme e dimensioni diverse. Che sia trovando bug, fornendo un suggerimento sulle liste di discussione, o contribuendo al codice o alla progettazione, abbiamo bisogno di te."
-      gi_header: "I modi per essere coinvolti con diaspora*"
-      code_header: "Contribuisci al codice"
-      code_byline: "Arraffarsi il codice sorgente è semplice"
-      code_ex1: "Clonare il repository e curiosare un po' in: %{clone_code}"
-      code_ex2: "Installa il tuo ambiente di sviluppo"
-      code_ex3: "Inizia a contribuire al codice!"
-      code_ex4: "Abbiamo una grande comunità pronta ad aiut%{irc_link} %{get_started_guide_link}, far parte del nostro  %{mailing_list_link} e vienire a trovarci nel %{irc_link}."
-      get_started_guide_link_text: "Guida rapida per iniziare"
-      discourse_link_text: ~
-      irc_link_text: "Stanza IRC di diaspora*"
-      code_gh: "Vedi le sorgenti su GitHuble"
-      bugs_header: "Elimina i bug"
-      bugs_ex1: "Il nostro progetto si avvale di Code Triage, un servizio di volontariato dove gli utenti e gli sviluppatori possono lavorare insieme per affrontare i bug nel nostro %{github_link}."
-      bugs_ex2: "Scacciare piccoli bug aiuta tutti, e può dare a un nuovo arrivato una migliore conoscenza di come le parti di diaspora * funzionano."
-      bugs_ex3: "Aiutaci a ripulire il nostro codice"
-      github_link_text: "Registratore di problemi GitHub"
-      translate_header: "Aiuta a tradurre"
-      translate_ex1: "Puoi aiutare a tradurre diaspora* in altre lingue aderendo a %{translations_link}"
-      translations_link_text: "Gruppo di traduzione"
-      translate_ex2: "Leggi il nostro %{translation_instructions_link} su come iniziare."
-      translation_instructions_link_text: "istruzioni di traduzione "
-      voice_header: "Esprimi la tua voce"
-      voice_ex1: ~
-      voice_ex2: "Unisciti a noi"
-      voice_ex3: "Convinci i tuoi amici e familiari a unirsi a diaspora* organizzando la tua vita reale su diaspora* %{meetup_link} nella tua comunità."
+      byline: Il futuro della rete sociale inizia con te
+      menu_title: Mettiti in gioco
+      community: Alimentato dalla comunità
+      community_byline: diaspora* appartiene a te
+      meaning: Cosa significa tutto questo?
+      meaning_ex1: Il software libero riguarda l'individualità, la trasparenza, la
+        creatività e la sorte. Si tratta di avere un'idea e di realizzarla. diaspora*
+        è nata per soddisfare la passione per il divertimento e per rendere internet
+        un posto migliore. Il software libero è ciò che ci permette di cambiare il
+        mondo per noi stessi e lascia che i nostri amici del web traggano beneficio
+        dalla nostra esplorazione.
+      meaning_ex2: Le comunità del software libero sono straordinarie. Noi di diaspora*
+        crediamo che le persone debbano essere valutate per quello che fanno. Non
+        importa che tu sia un programmatore d'elite o che tu non abbia mai contribuito
+        a un progetto prima. Contribuire a diaspora* significa mettersi al lavoro
+        per risolvere problemi difficili, con una particolare attenzione alle soluzioni
+        che funzionano per gli utenti.
+      meaning_ex3: Questo è il motivo per cui se contribuisci in modo significativo
+        a diaspora*, ti daremo l'accesso al core commit. Agiamo uniti in questo, e
+        vogliamo dare alle persone interessate la possibilità di fare enormi cambiamenti.
+      whereyou: Da dove vieni
+      whereyou_ex1: Tutti noi costruiamo diaspora*. Forse ancora non ti conosciamo,
+        ma ci piacerebbe incontrarti e trovare il modo di inserirti nel team che sta
+        costruendo il futuro del web. Tutti noi abbiamo il potenziale di cambiare
+        il mondo, data la giusta opportunità.
+      whereyou_ex2: È possibile contribuire a diaspora* in tutte le forme e dimensioni
+        diverse. Che sia trovando bug, fornendo un suggerimento sulle liste di discussione,
+        o contribuendo al codice o alla progettazione, abbiamo bisogno di te.
+      gi_header: I modi per essere coinvolti con diaspora*
+      code_header: Contribuisci al codice
+      code_byline: Arraffarsi il codice sorgente è semplice
+      code_ex1: 'Clona il repository e inizia a curiosare un po'': %{clone_code}'
+      code_ex2: Installa il tuo ambiente di sviluppo
+      code_ex3: Inizia a contribuire al codice!
+      code_ex4: Abbiamo una grande comunità pronta ad aiutarti. Dai un'occhiata alla
+        pagina %{get_started_guide_link}, interagisci con noi nel %{discourse_link}
+        e vieni a trovarci nella %{irc_link}.
+      get_started_guide_link_text: Guida rapida per iniziare
+      discourse_link_text:
+      irc_link_text: Stanza IRC di diaspora*
+      code_gh: Vedi il sorgente su GitHub
+      bugs_header: Elimina i bug
+      bugs_ex1: Il nostro progetto si avvale di Code Triage, un servizio di volontariato
+        dove gli utenti e gli sviluppatori possono lavorare insieme per affrontare
+        i bug nel nostro %{github_link}.
+      bugs_ex2: Dare la caccia a piccoli bug aiuta tutti e può dare a un nuovo arrivato
+        una migliore conoscenza di come funzionano le parti di diaspora*.
+      bugs_ex3: Aiutaci a ripulire il nostro codice
+      github_link_text: Registratore di problemi GitHub
+      translate_header: Aiuta a tradurre
+      translate_ex1: Puoi aiutare a tradurre diaspora* in altre lingue aderendo a
+        %{translations_link}
+      translations_link_text: Gruppo di traduzione
+      translate_ex2: Leggi il nostro %{translation_instructions_link} su come iniziare.
+      translation_instructions_link_text: 'istruzioni di traduzione '
+      voice_header: Esprimi la tua voce
+      voice_ex1:
+      voice_ex2: Unisciti a noi
+      voice_ex3: Convinci i tuoi amici e familiari a unirsi a diaspora* organizzando
+        la tua vita reale su diaspora* %{meetup_link} nella tua comunità.
       meetup_link_text: incontri
-      support_header: "Fornisci supporto"
-      support_ex1: "Dai il benvenuto ai nuovi utenti!"
-      support_ex2: "Iscriviti qui"
-      support_ex3: "Scrivi tutorial utente per la sezione %{tutorials_link}."
-      support_ex4: "Rispondi alle domande degli utenti sul nostro %{irc_channel_link} o rispondi alle domande degli utenti su diaspora* stessa seguendo <span class=\"click\">#aiuto</span>, <span class=\"click\">#domanda</span> e <span class=\"click\">#risposta</span> hashtags."
-      irc_channel_link_text: "Canale IRC"
-      support_ex5: "Contribuisci a %{wiki_link}."
-      wiki_link_text: "la wiki di diaspora*"
-      run_header: "Trasmetti una spora pubblica"
-      run_ex1: "Ora non è necessario accontentarsi di avere i dati sul server di qualcun altro. Siccome diaspora* è un software completamente gratuito, rendiamo costantemente più facile per le persone a %{host_pod_link}."
-      host_pod_link_text: "ospitano le proprie spore su diaspora*"
-      run_ex2: "Puoi ospitare la spora dove vuoi."
-      run_ex3: "Aggiungi la tua spora alla lista delle spore aperte in %{poduptime}."
-      contributors_header: "I contributori di diaspora*"
-      contributors_byline: "Le persone che rendono diaspora* quello che è"
+      support_header: Fornisci supporto
+      support_ex1: Dai il benvenuto ai nuovi utenti!
+      support_ex2: Iscriviti qui
+      support_ex3: Scrivi tutorial utente per la sezione %{tutorials_link}.
+      support_ex4: Rispondi alle domande degli utenti sul nostro %{irc_channel_link}
+        o rispondi alle domande degli utenti su diaspora* stessa seguendo <span class="click">#aiuto</span>,
+        <span class="click">#domanda</span> e <span class="click">#risposta</span>
+        hashtags.
+      irc_channel_link_text: Canale IRC
+      support_ex5: Contribuisci a %{wiki_link}.
+      wiki_link_text: la wiki di diaspora*
+      run_header: Gestisci un server pubblico
+      run_ex1: Non è necessario accontentarsi di avere i dati sul server di qualcun
+        altro. Siccome diaspora* è un software completamente gratuito, ci impegniamo
+        costantemente a rendere la vita più facile per le persone che %{host_pod_link}.
+      host_pod_link_text: ospitano i propri pod su diaspora*
+      run_ex2: Puoi ospitare il pod dove preferisci.
+      run_ex3: Aggiungi il tuo server alla lista dei Pod aperti su %{poduptime}.
+      contributors_header: I contributori di diaspora*
+      contributors_byline: Le persone che rendono diaspora* quello che è
       globe_alt: Globo
       megaphone_alt: Megafono
       support_alt: Supporto
       pod_alt: Pod
     blog:
-      headline: "Il blog di diaspora*"
-      subline: "annunci ufficiali"
+      headline: Il blog di diaspora*
+      subline: annunci ufficiali
       menu_title: Blog
     planet:
-      headline: "Il pianeta diaspora*"
-      subline: ~
+      headline: Il pianeta diaspora*
+      subline:
       menu_title: Pianeta
-      disclaimer_headline: ~
-      disclaimer: ~
-      subscribe_headline: ~
-      subscribe: ~
-      feed_link_title: ~
-      subscriptions_headline: ~
+      disclaimer_headline:
+      disclaimer:
+      subscribe_headline:
+      subscribe:
+      feed_link_title:
+      subscriptions_headline:
     community_guidelines:
-      headline: ~
-      byline: ~
-      menu_title: ~
-      statement1: ~
-      statement2: ~
-      statement3: ~
-      be_excellent: ~
-      howto: ~
-      howto_language: ~
-      howto_viewpoints_experiences: ~
-      howto_constructive_criticism: ~
-      howto_empathy: ~
-      howto_sexualized_language: ~
-      howto_troll: ~
-      howto_harassment: ~
-      howto_benefit_of_doubt: ~
+      headline:
+      byline:
+      menu_title:
+      statement1:
+      statement2:
+      statement3:
+      be_excellent:
+      howto:
+      howto_language:
+      howto_viewpoints_experiences:
+      howto_constructive_criticism:
+      howto_empathy:
+      howto_sexualized_language:
+      howto_troll:
+      howto_harassment:
+      howto_benefit_of_doubt:
     tutorials:
-      headline: "diaspora* tutorial"
-      byline: "Guide passo-passo per aiutarti"
+      headline: diaspora* tutorial
+      byline: Guide passo-passo per aiutarti
       menu_title: Tutorial
-      tutorials_ex1: "Benvenuti nella sezione di tutorial di diaspora*. In questa pagina troverete una panoramica di tutti i nostri tutorial diaspora*, suddivisa in una serie di tutorial \"Per iniziare\" e per compiti specifici. Se sei nuovo su diaspora* o non sei ancora nemmeno registrato, si consiglia di leggere la serie \"Per iniziare\". Se siete alla ricerca di alcune opzioni aggiuntive, date un'occhiata alle altre dimostrazioni."
-      tutorials_ex2: "Facciamo del nostro meglio per mantenere questi tutorial aggiornati con gli ultimi sviluppi diaspora*. Per questa ragione, si prega di essere consapevoli del fatto che il vostro pod non essere nella versione più recente di diaspora*, e dan ciò può risultare un comportamento diverso da quello descritto nei nostri tutorial. Trova il tuo pod su %{podup_link} per vedere quale versione del software è in esecuzione."
-      started_head: "Per iniziare su diaspora*"
+      tutorials_ex1: Benvenuti nella sezione di tutorial di diaspora*. In questa pagina
+        troverete una panoramica di tutti i nostri tutorial diaspora*, suddivisa in
+        una serie di tutorial "Per iniziare" e per compiti specifici. Se sei nuovo
+        su diaspora* o non sei ancora nemmeno registrato, si consiglia di leggere
+        la serie "Per iniziare". Se siete alla ricerca di alcune opzioni aggiuntive,
+        date un'occhiata alle altre dimostrazioni.
+      tutorials_ex2: Facciamo del nostro meglio per mantenere questi tutorial aggiornati
+        con gli ultimi sviluppi diaspora*. Per questa ragione, si prega di essere
+        consapevoli del fatto che il vostro pod non essere nella versione più recente
+        di diaspora*, e dan ciò può risultare un comportamento diverso da quello descritto
+        nei nostri tutorial. Trova il tuo pod su %{podup_link} per vedere quale versione
+        del software è in esecuzione.
+      started_head: Per iniziare su diaspora*
       started1: Iscrizione
       started2: L'interfaccia
       started3: Aspetti
-      started4: "Cercare e connettersi con le persone"
-      started5: "Inizia a condividere!"
-      started6: "Notifiche e conversazioni"
-      started7: "Per concludere"
-      part1: "Parte 1"
-      part2: "Parte 2"
-      part3: "Parte 3"
-      part4: "Parte 4"
-      part5: "Parte 5"
-      part6: "Parte 6"
-      part7: "Parte 7"
-      additional: "Ulteriori tutorial"
-      connecting: "Collegare diaspora* ad altri servizi"
-      tips: "Trucchi e consigli"
-      formatting: "Formattare il testo"
-      more_tutorials: "Hai bisogno di altro aiuto?"
-      other_docs: "Controlla il nostro %{other_docs_link} per i link ad altri siti."
-      other_docs_link_text: "altra documentazione"
-      thanks: "Un grande ringraziamento va a Kevin Kleinman, che ha creato le guide originali Diasporial dalle quali sono tratte queste lezioni."
+      started4: Cercare e connettersi con le persone
+      started5: Inizia a condividere!
+      started6: Notifiche e conversazioni
+      started7: Per concludere
+      part1: Parte 1
+      part2: Parte 2
+      part3: Parte 3
+      part4: Parte 4
+      part5: Parte 5
+      part6: Parte 6
+      part7: Parte 7
+      additional: Ulteriori tutorial
+      tips: Trucchi e consigli
+      formatting: Formattare il testo
+      more_tutorials: Hai bisogno di altro aiuto?
+      other_docs: Controlla il nostro %{other_docs_link} per i link ad altri siti.
+      other_docs_link_text: altra documentazione
+      thanks: Un grande ringraziamento va a Kevin Kleinman, che ha creato le guide
+        originali Diasporial dalle quali sono tratte queste lezioni.
     getting_started1:
-      byline: "Prima parte - Iscrizione"
-      menu_title: "Iscrizione su diaspora*"
-      welcome: "Benvenuti alla nostra \"Introduzione\". Se sei capitato a modo tuo su questa pagina, probabilmente ti sei appena iscritto a diaspora* o stai pensando di farlo. In questa serie di tutorial ti guideremo attraverso il processo di iscrizione per farti conoscere le basi di come funziona diaspora*. Speriamo ti sia utile, e che ti piaccia utilizzare diaspora*!"
-      find_pod: "Trovare una spora"
-      find_pod_intro: ~
-      find_pod_ex1: "A differenza di molte reti sociali che hanno un nodo centrale di computer che memorizzano i dati di tutti, con diaspora* non possiamo darti un collegamento specifico e dire: \"Iscriviti qui\". diaspora* è diversa da queste reti in quanto è <em>decentralizzata</em>, con diversi punti di accesso. Prima di iniziare, si dovrà decidere quale di questi punti, o nodi, si desidera utilizzare per accedere alla rete diaspora*. Noi chiamiamo questi nodi \"pod\" o \"spore\"."
-      find_pod_ex2: "La parola \"<strong>diaspora</strong>\" si riferisce alla dispersione dei semi (o persone) su una vasta area. Ecco perché il nostro motivo guida è il dente di leone, e l'asterisco nel nostro nome rappresenta un seme di tarassaco soffice. Ci riferiamo a singoli account sulla diaspora * come \"<strong>semi </ strong>\", e i server in cui tali account sono stati raccolti come \"<strong> spore</ strong>\". Ti ci abitui presto!"
-      find_pod_ex3: "Per aiutarti a scegliere quale pod è meglio per te, dai un'occhiata al nostro %{wiki_link}."
-      wiki_link_text: "guida alla scelta di un pod"
-      find_pod_ex4: "Potresti aver ricevuto un invito a partecipare a diaspora* da qualcuno che conosci. Se è così, questo contiene un collegamento alla spora di diaspora* su cui è registrata la persona che ti ha invitato. Se si desidera partecipare alla stessa spora, si può semplicemente seguire il link nella mail. Tuttavia, non è necessario essere sulla stessa spora dei tuoi amici per comunicare con loro. È possibile scegliere qualsiasi spora su cui essere ospitati e parlare con la gente in tutta diaspora*"
-      find_pod_ex5: "Avrai sempre l'accesso a diaspora* sulla stessa spora con la quale ti sei registrato per la prima volta. Dalla tua spora è possibile collegarsi a tutta la rete e per la tua esperienza di diaspora* dovrebbe essere più o meno lo stesso, non importa da quale spora iniziale ti connetti. Non sarà possibile accedere a un altra spora, ma in ogni caso non c'è alcun motivo che tu lo faccia."
+      byline: Prima parte - Iscrizione
+      menu_title: Iscrizione su diaspora*
+      welcome: Benvenuti alla nostra "Introduzione". Se sei capitato a modo tuo su
+        questa pagina, probabilmente ti sei appena iscritto a diaspora* o stai pensando
+        di farlo. In questa serie di tutorial ti guideremo attraverso il processo
+        di iscrizione per farti conoscere le basi di come funziona diaspora*. Speriamo
+        ti sia utile, e che ti piaccia utilizzare diaspora*!
+      find_pod: Trovare una spora
+      find_pod_intro: Se ti sei già iscritto, puoi saltare questa sezione e andare
+        direttamente alla %{part_link}.
+      find_pod_ex1: 'A differenza di molte reti sociali che hanno un nodo centrale
+        di computer che memorizzano i dati di tutti, con diaspora* non possiamo darti
+        un collegamento specifico e dire: "Iscriviti qui". diaspora* è diversa da
+        queste reti in quanto è <em>decentralizzata</em>, con diversi punti di accesso.
+        Prima di iniziare, si dovrà decidere quale di questi punti, o nodi, si desidera
+        utilizzare per accedere alla rete diaspora*. Noi chiamiamo questi nodi "pod"
+        o "spore".'
+      find_pod_ex2: La parola "<strong>diaspora</strong>" si riferisce alla dispersione
+        dei semi (o persone) su una vasta area. Ecco perché il nostro elemento guida
+        è il Dente di Leone, e l'asterisco nel nostro nome rappresenta un seme di
+        tarassaco soffice. Ci riferiamo a singoli account sulla diaspora* come "<strong>semi
+        </strong>", e i server in cui tali account sono stati raccolti come "<strong>
+        spore</strong>". Ti ci abituerai presto!
+      find_pod_ex3: Per aiutarti a scegliere quale pod è meglio per te, dai un'occhiata
+        alla nostra %{wiki_link}.
+      wiki_link_text: guida alla scelta di un pod
+      find_pod_ex4: Potresti aver ricevuto un invito a partecipare a diaspora* da
+        qualcuno che conosci. Se è così, questo contiene un collegamento alla spora
+        di diaspora* su cui è registrata la persona che ti ha invitato. Se desideri
+        partecipare alla stessa spora, puoi semplicemente seguire il link nella mail.
+        Tuttavia, non è necessario essere sulla stessa spora dei tuoi amici per comunicare
+        con loro. È sufficiente scegliere di essere ospitati su una spora qualsiasi
+        per poter parlare con tutte le persone in diaspora*.
+      find_pod_ex5: Dovrai sempre effettuare l'accesso a diaspora* dalla stessa spora
+        su cui ti sei registrato per la prima volta. Dalla tua spora puoi collegarti
+        a tutta la rete e, per la tua esperienza in diaspora*, dovrebbe essere più
+        o meno lo stesso, indipendentemente da quale spora iniziale utilizzi. Non
+        potrai effettuare l'accesso da un'altra spora, ma in ogni caso non c'è alcun
+        motivo per cui tu lo faccia.
       registration: Registrazione
-      registration1: "Una volta che avete scelto una spora, trova il collegamento <span class=\"click\">Iscriviti</span>. Dovrebbe essere proprio lì sulla pagina iniziale della spora. Se non vi è alcun collegamento \"iscriversi\", potrebbe essere che questa particolare spora al momento non accetti nuove iscrizioni. È possibile controllare questo visitando la pagina delle statistiche della spora (aggiungere <code>/statistiche</code> al nome di dominio della spora nella barra degli indirizzi URL). Se le iscrizioni sono chiuse su questa spora, è necessario sceglierne un'altra."
-      registration2: "Quando si fa click sul collegamento di iscrizione ti verrà presentata una pagina in cui è necessario inserire un nome utente, l'indirizzo e-mail e una password. Pensa attentamente al momento di scegliere il tuo nome utente in quanto non sarai più in grado di cambiarlo una volta che è stato creato."
-      registration3: "Finisci la registrazione facendo click su <span class=\"click\">Continua</span> per creare e accedere al tuo nuovo seme diaspora*!"
-      registration4: "Durante il processo di registrazione il tuo seme sarà probabilmente collegato automaticamente ad un altro seme. Questo di solito è il nostro seme %{dhq_link}, ma può essere un seme gestito dall'amministratore della vostra spora. È così che possiamo tenervi aggiornati con importanti annunci su diaspora*. Se, invece, si preferisce non seguire questo seme, puoi facilmente rimuoverlo dalla lista dei contatti. Ti spieghiamo come farlo qui: %{part_link}."
-      dhq_link_text: "diaspora* HQ"
-      registration5: "Ti dovrebbe ora apparire una pagina \"Per iniziare\". Non è necessario compilare alcuna delle informazioni contenute, ma accedere a questa pagina ti aiuterà a iniziare a connetterti con altre persone."
-      registration6: "Inserisci il nome che desideri visualizzare sulla schermata in primo piano."
-      registration7: "Clicca il pulsante per caricare una foto profilo (un \"avatar\") dal tuo computer."
-      registration8: "Se vuoi connettere il tuo seme diaspora* al tuo profilo Facebook, cliccando il collegamento per far questo puoi automatizzare parte di questo processo, come mutuare il tuo nome e la tua foto profilo direttamente da Facebook."
-      registration9: "Aggiungi qualche parola sui tuoi interessi. Potrebbero essere musica, attivismo, magari la città dove vivi. Questi saranno convertiti in #tag, che ti aiuteranno a trovare contenuto e aiutare le altre persone a conoscerti. Spiegeremo di più sui #tag più avanti in questo tutorial."
-      profile1: ~
-      profile2: ~
-      profile3: ~
-      profile4: ~
-      finish: "Questo è tutto!"
-      finish_ex1: ~
-      finish_ex2: ~
+      registration1: Una volta che hai scelto una spora, trova il collegamento <span
+        class="click">Iscriviti</span>. Dovrebbe essere proprio lì sulla pagina iniziale
+        della spora. Se non vi è alcun collegamento "iscriversi", potrebbe essere
+        che questa particolare spora al momento non accetti nuove iscrizioni. È possibile
+        controllare questo aspetto visitando la pagina delle statistiche della spora
+        (aggiungere <code>/statistics</code> al nome di dominio della spora nella
+        barra degli indirizzi URL). Se le iscrizioni sono chiuse su questa spora,
+        dovrai sceglierne un'altra.
+      registration2: Quando fai click sul collegamento per l'iscrizione ti verrà presentata
+        una pagina in cui sarà necessario inserire nome utente, indirizzo e-mail e
+        password. Rifletti attentamente sul tuo nome utente in quanto non sarai più
+        in grado di cambiarlo una volta che è stato creato.
+      registration3: Finisci la registrazione facendo click su <span class="click">Continua</span>
+        per creare e accedere al tuo nuovo seme diaspora*!
+      registration4: 'Durante il processo di registrazione il tuo seme sarà probabilmente
+        collegato automaticamente ad un altro seme. Questo di solito è il nostro seme
+        %{dhq_link}, ma può essere un seme gestito dall''amministratore della vostra
+        spora. È così che possiamo tenervi aggiornati con importanti annunci su diaspora*.
+        Se, invece, si preferisce non seguire questo seme, puoi facilmente rimuoverlo
+        dalla lista dei contatti. Ti spieghiamo come farlo qui: %{part_link}.'
+      dhq_link_text: diaspora* HQ
+      registration5: Ti dovrebbe ora apparire una pagina "Per iniziare". Non è necessario
+        compilare alcuna delle informazioni contenute, ma accedere a questa pagina
+        ti aiuterà a iniziare a connetterti con altre persone.
+      registration6: Inserisci il nome che desideri visualizzare sulla schermata in
+        primo piano.
+      registration7: Clicca il pulsante per caricare una foto profilo (un "avatar")
+        dal tuo computer.
+      registration8: 'Aggiungi qualche parola su di te. Potrebbero essere i tuoi interessi
+        - come musica o attivismo - o magari la città in cui vivi. Saranno convertiti
+        in <span class="click">#tags</span>, che ti aiutano a trovare contenuti e
+        conoscere altri utenti. Spiegheremo più avanti in questo tutorial altri dettagli
+        sui #tags.'
+      registration9: Clicca <span class="click">Take me to diaspora*! >></span>
+      profile1:
+      profile2: 'Ci sono due parti del tuo profilo: il <strong>profilo base</strong>,
+        che è pubblico, e il <strong>profilo esteso</strong>, che è privato di default.
+        Il tuo profilo pubblico è visibile a tutti; il tuo profilo privato è visibile
+        solo alle persone con cui hai scelto di condividerlo. Puoi compilare il tuo
+        profilo quanto desideri, senza dover necessariamente utilizzare il tuo vero
+        nome. Se desideri che tutti conoscano il più possibile su di te, puoi rendere
+        pubblico l''intero profilo.'
+      profile3: La maggior parte dei campi si spiegano da soli. NSFW sta per "not
+        safe for work" o "non sicuro per il lavoro". Spiegheremo meglio questo aspetto
+        nella %{part_link}, quindi per ora non è importante.
+      profile4: Non dimenticare di cliccare <span class="click">Aggiorna il profilo</span>
+        quando hai finito!
+      finish: Questo è tutto!
+      finish_ex1: Ora sei pronto per iniziare ad usare diaspora*! Clicca il nome del
+        pod o <span class="click">Stream</span> nell'angolo in alto a sinistra per
+        iniziare.
+      finish_ex2: Se vuoi incontrare, ed essere accolto, dalla community di diaspora*
+        e ti senti pronto, crea un post <strong>pubblico</strong> per presentarsi
+        e includi il tag  <span class="click">#newhere</span>. Creare post pubblici
+        che contengono tag è un ottimo modo per trovare nuovi amici su diaspora*.
+        Se non sei sicuro su come fare, non preoccuparti - ti guideremo passo passo
+        verso il tuo primo post nella %{part_link}.
     getting_started2:
-      byline: "Parte 2 – L'interfaccia"
-      menu_title: "Utilizzo dell'interfaccia"
-      menu_title_mobile: ~
-      interface_mobile: ~
-      interface_desktop: ~
-      click_here_text: ~
-      interface1: ~
-      interface2: ~
-      interface3: "L'interfaccia principale può essere divisa in quattro parti."
-      header: ~
-      header_mobile: ~
-      header_podname: ~
-      header_asterisk: ~
-      header_stream: ~
-      header_notify: ~
-      header_conversations: ~
-      header_newpost: ~
-      header_drawer: ~
-      header_search: ~
-      header_streams: ~
-      header_dropdown: ~
-      header_profile: ~
-      header_contacts: ~
-      header_settings: ~
-      header_help: ~
-      header_toggle: ~
-      header_logout: ~
-      interface_mobile_old: ~
-      columns: ~
-      column1: ~
-      column2: ~
-      stream_mobile: ~
-      views: "Le diverse visualizzazioni su diaspora* sono:"
-      stream: "Le attività"
-      stream_ex1: ~
-      stream_contents1: ~
-      stream_contents2: ~
-      stream_contents3: ~
-      stream_contents4: ~
-      stream_ex2: "I messaggi nel flusso di attività sono ordinate in base al tempo del post originale."
-      activity: "Le mie attività"
-      activity_ex: ~
-      activity_ex2: ~
+      byline: Parte 2 – L'interfaccia
+      menu_title: Utilizzo dell'interfaccia
+      menu_title_mobile:
+      interface_mobile: "<strong>Nota:</strong> se stai usando un dispositivo mobile,
+        vedrai l'interfaccia di diaspora* progettata per gli schermi ridotti. %{mobile_link}
+        per una guida sull'interfaccia mobile."
+      interface_desktop:
+      click_here_text:
+      interface1: Stai vedendo un'interfaccia che potrebbe risultarti poco familiare.
+        (Se sei ancora nella pagina del profilo, clicca il nome del Pod oppure su
+        <span class="click">Stream</span> in alto a sinistra). Vediamo velocemente
+        il layout per familiarizzare con esso.
+      interface2: Data la natura decentralizzata e open source di diaspora*, gli amministratori
+        dei pod possono personalizzare le loro istanze. Pertanto, a seconda del pod
+        in cui ti trovi, l'interfaccia potrebbe apparire leggermente diversa da quella
+        descritta qui. Gli elementi essenziali dovrebbero essere tutti presenti, anche
+        se disposti in modo leggermente diverso.
+      interface3: L'interfaccia principale può essere divisa in quattro parti.
+      header: 'In alto c''è la barra di intestazione, che è sempre in quella posizione
+        anche sccorrendo in basso. La barra contiene:'
+      header_mobile:
+      header_podname: il nome del tuo pod, che ti riporta alla pagina Stream;
+      header_asterisk:
+      header_stream: collegamenti alle pagine <strong>Stream</strong> e <strong>Attività</strong>;
+      header_notify: l'icona delle notifiche (trattata nella %{part_link});
+      header_conversations: l'icona delle conversazioni (anch'essa trattata nella
+        %{part_link});
+      header_newpost:
+      header_drawer:
+      header_search: la barra di ricerca (trattata nella %{part_link});
+      header_streams:
+      header_dropdown: 'un menù personale a discesa, contenente:'
+      header_profile: un link alla tua pagina profilo (vedi sotto);
+      header_contacts: un link alla tua lista contatti (vedi %{part_link});
+      header_settings: un link alla pagina delle impostazioni (vedi %{part_link});
+      header_help: un link alla sezione Aiuto;
+      header_toggle:
+      header_logout: il pulsante di log out.
+      interface_mobile_old:
+      columns: 'Sotto l''intestazione ci sono due colonne:'
+      column1: 'Nella barra laterale vedrai i link a vari contenuti disponibili in
+        diaspora*: <span class="click">Stream</span>, <span class="click">Attività</span>,
+        <span class="click">@Menzioni</span>, <span class="click">Aspetti</span>,
+        <span class="click">#Tag che segui</span> and <span class="click">Attività
+        pubbliche</span>. Questi li approfondiremo tra poco. Inoltre, troverai anche
+        alcuni link per invitare i tuoi amici, dare il benvenuto ai nuovi utenti,
+        trovare aiuto, collegarti a servizi esterni come Twitter, Tumblr e Wordpress
+        (se disponibili sul tuo pod), pubblicare su diaspora* dal resto del web (il
+        “bookmarklet” di diaspora*) e, su alcuni pod, trovare le informazioni di contatto
+        dell''amministratore del pod e un pulsante per supportare i costi di gestione
+        del tuo pod.'
+      column2: La colonna principale contiene tutti gli elementi dello stream con
+        un box per la pubblicazione in cima. È qui che avviene la magia! Approfondiremo
+        l'utilizzo del box nella %{part_link}.
+      stream_mobile:
+      views: 'Le diverse visualizzazioni su diaspora* sono:'
+      stream: Stream
+      stream_ex1: 'La pagina "stream" è la pagina principale in diaspora*. Aggrega
+        tutti i post disponibili per te, che sono:'
+      stream_contents1: post creati dai tuoi contatti;
+      stream_contents2: post pubblici creati con i <span class="click">#tag</span>
+        che segui;
+      stream_contents3: post che ti <span class="click">@menzionano</span>;
+      stream_contents4: post della “<span class="click">Community spotlight</span>,”
+        se il tuo Pod ha questa funzione abilitata (vedi %{part_link}).
+      stream_ex2: I messaggi nel flusso di attività sono ordinate in base al tempo
+        del post originale.
+      activity: Le mie attività
+      activity_ex: L'elenco “Le mia attività” mostra tutti i post che hai apprezzato
+        o commentato. È un modo semplice per tenerti aggiornato su tutte le interazioni
+        che hai avuto su diaspora*. I post in questo flusso sono ordinati in base
+        all'attività più recente (commento o apprezzamento) su ciascun post.
+      activity_ex2: 'Quando clicchi <span class="click">Attività</span>, appaiono
+        due sottomenù: <span class="click">Post piaciuti</span> and <span class="click">Post
+        commentati</span>. Cliccare uno di questi mostrerà uno stream con i soli post
+        su cui hai messo Mi Piace o che hai commentato.'
       mentions: "@Menzioni"
-      mentions_ex: ~
-      aspects: "I miei gruppi"
-      aspects_ex1: "“I miei gruppi” espone tutti i post inviati da tutte le persone con cui si condivide - cioè le persone che hai inserito nei gruppi. Non preoccuparti se ancora non sai che cosa sia un gruppo - te lo spieghiamo in dettaglio nella prossima parte."
-      aspects_ex2: "Fai click su <span class=\"click\">I miei gruppi</span> nel menu per visualizzare l'elenco dei tuoi gruppi. È possibile visualizzare i post inviati a tutti i gruppi, o solo ad uno o più gruppi personali, selezionandoli e deselezionandoli dalla lista dei gruppi del menu."
+      mentions_ex: Questa parte mostra i post creati da altre persone, ma che ti hanno
+        menzionato. Parleremo delle menzioni nella %{part_link}.
+      aspects: Aspetti
+      aspects_ex1: "“Aspetti” mostra tutti i post inviati da tutte le persone con
+        cui stai condividendo - cioè le persone che hai inserito negli Aspetti. Non
+        preoccuparti se ancora non sai che cosa sia un Aspetto - te lo spieghiamo
+        in dettaglio nella prossima parte."
+      aspects_ex2: Fai clic su <span class="click">Aspetti</span> nel menu per visualizzare
+        l'elenco dei tuoi Aspetti. Puoi visualizzare i post inviati a tutti i gruppi,
+        o solo ad uno o più gruppi personali, selezionandoli e deselezionandoli dalla
+        lista degli Aspetti nel menu.
       tags: "#Tag seguiti"
-      tags_ex1: "Questa visualizzazione mostra tutti i posti disponibili (post pubblici e post con accesso limitato organizzati per gruppo) contenenti i tag che segui. Vedremo i tag più in dettaglio nel %{part_link}."
-      tags_ex2: ~
-      public: ~
-      public_ex: ~
-      other_views: ~
-      other_views_ex: ~
-      tag_stream: ~
-      tag_stream_ex: ~
-      spv: ~
-      spv_ex: ~
-      profile: "Mostra il profilo"
-      profile_ex1: ~
-      profile_ex2: ~
-      profile_ex3: ~
-      profile_ex3_mobile: ~
-      profile_ex4: ~
-      profile_ex5: ~
-      profile_ex6: ~
-      profile_ex7: ~
-      profile_ex8: ~
-      themes: ~
-      themes_ex1: ~
-      themes_list1: ~
-      themes_list2: ~
-      themes_list3: ~
-      themes_list4: ~
-      themes_list5: ~
-      themes_list6: ~
-      themes_ex2: ~
-      finish: ~
-      finish_mobile: ~
+      tags_ex1: Questa visualizzazione mostra tutti i posti disponibili (post pubblici
+        e post con accesso limitato organizzati per gruppo) contenenti i tag che segui.
+        Vedremo i tag più in dettaglio nella %{part_link}.
+      tags_ex2:
+      public: Attività pubblica
+      public_ex: Lo stream Attività pubblica mostra tutti i post pubblici della tua
+        Pod, anche quelli creati da persone che non condividono niente con te e che
+        non hanno tag che segui. Ci sono molti contenuti!
+      other_views: Altre visualizzazioni
+      other_views_ex: Ci sono altre visualizzazioni in diaspora*, puoi raggiungerle
+        cliccando sui link.
+      tag_stream: Visualizzazione Tag
+      tag_stream_ex: 'Clicca su qualsiasi <span class="click">#tag</span> in diaspora*
+        per raggiungere la "visualizzazione tag". Viene mostrato uno stream con tutti
+        i post, conosciuti dal tuo Pod, che contengono quel #tag.'
+      spv: Visualizzazione Post Singolo
+      spv_ex: Clicca sulla data e ora di qualsiais post per vederlo, assieme ai suoi
+        commenti, in modalità "post singolo". Il timestamp è il link accanto al nome
+        dell'autore del post e mostra qualcosa come “2 ore fa”. Se desideri inviare
+        a qualcuno un link a un post su diaspora*, puoi copiare l'URL diretto del
+        post da qui.
+      profile: Visualizzazione Profilo
+      profile_ex1: Cliccando sul tuo nome o sull'immagine del tuo profilo (il tuo
+        “avatar”) verrai reindirizzato alla tua pagina profilo. Qui puoi vedere tutti
+        i post che hai pubblicato su diaspora*. Verranno visualizzati anche la tua
+        foto profilo, il tuo nome utente, i tag “su di me” e il tuo "<strong>diaspora*
+        ID</strong> (che assomiglia a un indirizzo e-mail, inizia con il nome utente
+        che hai scelto seguito dal nome del tuo pod).
+      profile_ex2: Sotto il tuo avatar vedrai tutte le informazioni aggiuntive che
+        hai inserito nel profilo, come data di nascita, posizione, genere, biografia,
+        ecc.
+      profile_ex3: Clicca il pulsante <span class="click">Modifica profilo</span>
+        se vuoi cambiare qualsiasi informazione (vedi%{part_link}).
+      profile_ex3_mobile:
+      profile_ex4: Puoi anche visualizzare la pagina del profilo di qualcun altro
+        cliccando sul suo nome o avatar. La quantità di informazioni e post del profilo
+        di una persona che ti vengono mostrati dipende dal tipo di condivisione attiva
+        che ha con te.
+      profile_ex5: Se stanno condividendo con te, accanto al loro ID diaspora* apparirà
+        un segno di spunta verde. In caso contrario, vedrai un cerchio grigio.
+      profile_ex6: In alto a destra troverai un pulsante relativo agli Aspetti. Se
+        la persona non è presente in uno dei tuoi aspetti, il pulsante riporterà la
+        dicitura “Aggiungi contatto”; se invece è presente, sarà verde e mostrerà
+        il nome dell'aspetto in cui l'hai inserita. Cliccaci sopra per aggiungerla
+        a un aspetto. Se stai ignorando quella persona, il pulsante sarà rosso e riporterà
+        la dicitura “Smetti di ignorare”.
+      profile_ex7: 'Sotto il pulsante di selezione dell''Aspetto verranno visualizzate
+        le seguenti icone: un''icona @mention se stai condividendo con quella persona,
+        l''icona di un messaggio (busta) se avete una condivisione reciproca e un''icona
+        ignora.'
+      profile_ex8: Sotto il nome e l'ID della persona ci sono delle schede che consentono
+        di visualizzare i suoi post, le foto che ha caricato e i suoi contatti che
+        ha reso visibili a te (come spiegato nella sezione successiva, “Aspetti”).
+      themes: Temi colore
+      themes_ex1: 'Puoi personalizzare l''aspetto di diaspora* scegliendo uno dei
+        nostri temi cromatici dal menu <span class="click">Impostazioni</span> (vedi
+        %{part_link}). I temi attualmente disponibili sono:'
+      themes_list1: "<strong>Original gray</strong>: è il tema predefinito di diaspora*"
+      themes_list2: '<strong>Original white background</strong>: il tema di default,
+        ma con sfondo bianco. È l''interfaccia "vecchia scuola" di diaspora*.'
+      themes_list3: "<strong>Verde scuro</strong>"
+      themes_list4: "<strong>Magenta</strong>"
+      themes_list5: "<strong>Blu pompeiano</strong>"
+      themes_list6: "<strong>Scuro</strong>"
+      themes_ex2: Il tuo pod potrebbe aver creato  temi personalizzati. In tal caso,
+        anche questi temi verranno visualizzati nell'elenco, insieme ai nostri temi
+        predefiniti.
+      finish: 'Per ora è tutto quello che devi sapere sull''interfaccia. La prima
+        cosa che vorrai fare è trovare alcune persone con cui iniziare a condividere,
+        ma prima di arrivare a questo, concentriamoci su qualcosa che è molto importante
+        in diaspora*: gli <strong>aspetti</strong>.'
+      finish_mobile:
     getting_started3:
-      byline: "Parte 3 – Aspetti"
-      menu_title: "Tutto sui gruppi"
-      aspects1: "Pensa alla tua vita e ai gruppi di persone che conosci. Ogni persona è una parte di uno o più aspetti della tua vita. Potre essere un membro della tua famiglia, un amico vicino, un collega di lavoro o qualcuno con cui pratichi uno sport e della musica o con cui condividi un interesse particolare. Potrebbe essere qualcuno con cui condividi semplicemente battute sui social. Oppure potrebbe essere qualcuno che fa parte di più di uno di questi aspetti della tua vita."
-      aspects2: "Diaspora* funziona esattamente allo stesso modo. Si posizionano i contatti in uno o più \"gruppi\" della vostra vita su Diaspora* in base a quale aspetto (o aspetti) della tua vita fanno parte. In questo modo, è possibile controllare quali contatti vedono ogni post che pubblichi su Diaspora*, selezionando uno o più gruppi a cui rivolgerti. Ciò significa che è possibile condividere facilmente le cose prescelte con le persone prescelte. Ti piegheremo di più su come funzionano i gruppi nei prossimi tre passi di questa serie."
-      my_aspects: ~
-      my_aspects1: ~
-      my_aspects2: ~
-      my_aspects3: ~
-      my_aspects4: ~
-      my_aspects5: ~
-      my_aspects6: ~
-      my_aspects7: ~
-      my_aspects8: ~
-      my_aspects9: ~
-      add_aspect: ~
-      add_aspect1: "Quando ti iscrivi ti appaiono quattro gruppi: famiglia, lavoro, amici e conoscenti. Naturalmente non sarai in grado di ordinare tutta la tua vita in soli quattro gruppi standard, perciò il prossimo passo che andremo a fare è aggiungere dei gruppi. È anche possibile eliminare i gruppi di default, se vuoi."
-      aspects_mobile: ~
-      add_aspect2: ~
-      add_aspect3: ~
-      add_aspect4: ~
-      add_aspect6: ~
-      add_aspect7: ~
-      contacts: ~
-      contact_ex1: ~
-      contact_ex3: ~
-      contact_ex4: ~
-      contact_ex5: ~
-      contact_ex6: ~
-      contact_ex7: ~
-      sharing_me: ~
-      sharing_me_ex: ~
-      finish: ~
+      byline: Parte 3 – Aspetti
+      menu_title: Tutto sui gruppi
+      aspects1: Pensa alla tua vita e ai gruppi di persone che conosci. Ogni persona
+        è una parte di uno o più aspetti della tua vita. Potre essere un membro della
+        tua famiglia, un amico vicino, un collega di lavoro o qualcuno con cui pratichi
+        uno sport e della musica o con cui condividi un interesse particolare. Potrebbe
+        essere qualcuno con cui condividi semplicemente battute sui social. Oppure
+        potrebbe essere qualcuno che fa parte di più di uno di questi aspetti della
+        tua vita.
+      aspects2: Diaspora* funziona esattamente allo stesso modo. Si posizionano i
+        contatti in uno o più "gruppi" della vostra vita su Diaspora* in base a quale
+        aspetto (o aspetti) della tua vita fanno parte. In questo modo, è possibile
+        controllare quali contatti vedono ogni post che pubblichi su Diaspora*, selezionando
+        uno o più gruppi a cui rivolgerti. Ciò significa che è possibile condividere
+        facilmente le cose prescelte con le persone prescelte. Ti piegheremo di più
+        su come funzionano i gruppi nei prossimi tre passi di questa serie.
+      my_aspects:
+      my_aspects1:
+      my_aspects2:
+      my_aspects3:
+      my_aspects4:
+      my_aspects5:
+      my_aspects6:
+      my_aspects7:
+      my_aspects8:
+      my_aspects9:
+      add_aspect:
+      add_aspect1: 'Quando ti iscrivi ti appaiono quattro gruppi: famiglia, lavoro,
+        amici e conoscenti. Naturalmente non sarai in grado di ordinare tutta la tua
+        vita in soli quattro gruppi standard, perciò il prossimo passo che andremo
+        a fare è aggiungere dei gruppi. È anche possibile eliminare i gruppi di default,
+        se vuoi.'
+      aspects_mobile:
+      add_aspect2:
+      add_aspect3:
+      add_aspect4:
+      add_aspect6:
+      add_aspect7:
+      contacts:
+      contact_ex1:
+      contact_ex3:
+      contact_ex4:
+      contact_ex5:
+      contact_ex6:
+      contact_ex7:
+      sharing_me:
+      sharing_me_ex:
+      finish:
     getting_started4:
-      byline: ~
-      menu_title: ~
-      aspects1: ~
-      sharing: ~
-      sharing_ex: ~
-      relationships: "In diaspora* esistono tre tipi di relazione tra gli utenti:"
-      followers: ~
-      followers_ex1: ~
-      followers_ex2: ~
-      followers_ex3: ~
-      following: ~
-      following_ex1: ~
-      following_ex2: ~
-      mutual: ~
-      mutual_ex1: ~
-      mutual_ex2: ~
-      mutual_ls1: ~
-      mutual_ls2: ~
-      mutual_ls3: ~
-      mutual_ls4: ~
-      mutual_ex3: ~
-      finding: ~
-      finding_ex1: ~
-      finding_ex2: ~
-      search: ~
-      search_ex: ~
-      search_ls1: ~
-      search_ls2: ~
-      search_ls3: ~
-      search_ls4: ~
-      search_ls5: ~
-      search_ls6: ~
-      invite: ~
-      invite_ex: ~
-      profile: ~
-      profile_ex1: ~
-      profile_ex2: ~
-      tags: ~
-      tags_ex: ~
-      removing: "Rimuovere qualcuno dai tuoi contatti"
-      removing_ex1: ~
-      removing_ex2: ~
-      removing_ex3: ~
-      removing_ex4: ~
-      removing_ex5: ~
-      finish: ~
+      byline:
+      menu_title:
+      aspects1:
+      sharing:
+      sharing_ex:
+      relationships: 'In diaspora* esistono tre tipi di relazione tra gli utenti:'
+      followers:
+      followers_ex1:
+      followers_ex2:
+      followers_ex3:
+      following:
+      following_ex1:
+      following_ex2:
+      mutual:
+      mutual_ex1:
+      mutual_ex2:
+      mutual_ls1:
+      mutual_ls2:
+      mutual_ls3:
+      mutual_ls4:
+      mutual_ex3:
+      finding:
+      finding_ex1:
+      finding_ex2:
+      search:
+      search_ex:
+      search_ls1:
+      search_ls2:
+      search_ls3:
+      search_ls4:
+      search_ls5:
+      search_ls6:
+      invite:
+      invite_ex:
+      profile:
+      profile_ex1:
+      profile_ex2:
+      tags:
+      tags_ex:
+      removing: Rimuovere qualcuno dai tuoi contatti
+      removing_ex1:
+      removing_ex2:
+      removing_ex3:
+      removing_ex4:
+      removing_ex5:
+      finish:
     getting_started5:
-      byline: ~
-      menu_title: ~
-      intro1: ~
-      intro2: ~
-      publisher: ~
-      publisher_ex1: ~
-      publisher_ex2: ~
-      publisher_ex3: ~
-      publisher_ex4: ~
-      buttons: ~
-      top_buttons: ~
-      top_buttons_ex1: ~
-      top_buttons_list1: ~
-      top_buttons_list2: ~
-      top_buttons_list3: ~
-      top_buttons_list4: ~
-      top_buttons_list5: ~
-      top_buttons_list6: ~
-      top_buttons_list7: ~
-      top_buttons_list8: ~
-      top_buttons_list9: ~
-      aspect_selector: ~
-      aspect_selector_ex1: ~
-      aspect_selector_ex2: ~
-      aspect_selector_ex3: ~
-      poll: ~
-      poll_ex: ~
-      photo: ~
-      photo_ex: ~
-      locator: ~
-      locator_ex1: ~
-      locator_ex2: ~
-      locator_ex3: ~
-      connected: ~
-      connected_ex1: ~
-      connected_ex2: ~
-      connected_ex3: ~
-      preview: ~
-      preview_ex1: ~
-      buttons_finish: ~
-      features: ~
+      byline:
+      menu_title:
+      intro1:
+      intro2:
+      publisher:
+      publisher_ex1:
+      publisher_ex2:
+      publisher_ex3:
+      publisher_ex4:
+      buttons:
+      top_buttons:
+      top_buttons_ex1:
+      top_buttons_list1:
+      top_buttons_list2:
+      top_buttons_list3:
+      top_buttons_list4:
+      top_buttons_list5:
+      top_buttons_list6:
+      top_buttons_list7:
+      top_buttons_list8:
+      top_buttons_list9:
+      aspect_selector:
+      aspect_selector_ex1:
+      aspect_selector_ex2:
+      aspect_selector_ex3:
+      poll:
+      poll_ex:
+      photo:
+      photo_ex:
+      locator:
+      locator_ex1:
+      locator_ex2:
+      locator_ex3:
+      preview:
+      preview_ex1:
+      buttons_finish:
+      features:
       tags: "#tags"
-      tags_ex1: ~
-      tags_ex2: ~
-      nsfw: ~
-      tags_ex3: ~
-      mentions: ~
-      mentions_ex1: ~
-      mentions_ex2: ~
-      mentions_ex3: ~
-      format: ~
-      format_ex1: ~
-      format_ex2: ~
-      format_ex3: ~
-      links: ~
-      links_ex1: ~
-      links_ex2: ~
-      images: ~
-      images_ex1: ~
-      images_ex2: ~
-      format_note: ~
-      format_link_text: ~
-      links_ex: ~
-      embed: ~
-      embed_ex1: ~
-      embed_ex2: ~
-      services: ~
-      services_ex1: ~
-      services_ex2: ~
-      services_ex3: ~
-      how: ~
-      try_out: ~
-      make_post1: ~
-      make_post2: ~
-      make_post3: ~
-      interact: ~
-      interact_ex1: ~
-      interact_ex2: ~
-      interact_ex3: ~
-      comments: ~
-      comments_ex: ~
-      likes: ~
-      likes_ex1: ~
-      likes_ex2: ~
-      reshare: ~
-      reshare_ex: ~
-      post_icons: ~
-      delete: ~
-      delete_ex: ~
-      hide: ~
-      hide_ex: ~
-      notifications: ~
-      notifications_ex: ~
-      ignore: ~
-      ignore_ex1: ~
-      ignore_ex1a: ~
-      ignore_ex2: ~
-      report: ~
-      report_ex: ~
-      finish: ~
+      tags_ex1:
+      tags_ex2:
+      nsfw:
+      tags_ex3:
+      mentions:
+      mentions_ex1:
+      mentions_ex2:
+      mentions_ex3:
+      format:
+      format_ex1:
+      format_ex2:
+      format_ex3:
+      links:
+      links_ex1:
+      links_ex2:
+      images:
+      images_ex1:
+      images_ex2:
+      format_note:
+      format_link_text:
+      links_ex:
+      embed:
+      embed_ex1:
+      embed_ex2:
+      how:
+      try_out:
+      make_post1:
+      make_post2:
+      make_post3:
+      interact:
+      interact_ex1:
+      interact_ex2:
+      interact_ex3:
+      comments:
+      comments_ex:
+      likes:
+      likes_ex1:
+      likes_ex2:
+      reshare:
+      reshare_ex:
+      post_icons:
+      delete:
+      delete_ex:
+      hide:
+      hide_ex:
+      notifications:
+      notifications_ex:
+      ignore:
+      ignore_ex1:
+      ignore_ex1a:
+      ignore_ex2:
+      report:
+      report_ex:
+      finish:
     getting_started6:
-      byline: ~
-      menu_title: ~
-      intro: ~
-      notify: ~
-      notify_ex1: ~
-      notify_ex2: ~
-      notify_ls1: ~
-      notify_ls2: ~
-      notify_ls3: ~
-      notify_ls4: ~
-      notify_ex3: ~
-      convo: ~
-      convo_ex1: ~
-      convo_ex2: ~
-      convo_ex3: ~
-      convo_ex4: ~
-      convo_ex5: ~
-      convo_ex6: ~
-      convo_ex7: ~
-      convo_ex8: ~
-      convo_ex9: ~
-      finish: ~
+      byline:
+      menu_title:
+      intro:
+      notify:
+      notify_ex1:
+      notify_ex2:
+      notify_ls1:
+      notify_ls2:
+      notify_ls3:
+      notify_ls4:
+      notify_ex3:
+      convo:
+      convo_ex1:
+      convo_ex2:
+      convo_ex3:
+      convo_ex4:
+      convo_ex5:
+      convo_ex6:
+      convo_ex7:
+      convo_ex8:
+      convo_ex9:
+      finish:
     getting_started7:
-      byline: ~
-      menu_title: ~
-      intro: ~
-      connect: ~
-      connect_ex1: ~
-      connect_ex2: ~
-      connect_ex3: ~
-      connect_ex4: ~
-      settings: ~
-      settings_ex1: ~
-      settings_ex2: ~
-      profile: ~
-      profile_ex1: ~
-      nsfw: ~
-      profile_ex2: ~
-      profile_ex3: ~
-      account: ~
-      account_ex1: ~
-      account_ex1a: ~
-      account_ex2: ~
-      spotlight: ~
-      spotlight_ex: ~
-      privacy: ~
-      privacy_ex: ~
-      services: ~
-      services_ex: ~
-      applications: ~
-      applications_ex: ~
-      finish1: ~
-      finish2: ~
+      byline:
+      menu_title:
+      intro:
+      settings:
+      settings_ex1:
+      settings_ex2:
+      profile:
+      profile_ex1:
+      nsfw:
+      profile_ex2:
+      profile_ex3:
+      account:
+      account_ex1:
+      account_ex1a:
+      account_ex2:
+      spotlight:
+      spotlight_ex:
+      privacy:
+      privacy_ex:
+      applications:
+      applications_ex:
+      finish1:
+      finish2:
     formatting:
-      byline: ~
-      menu_title: ~
-      format1: ~
-      format2: ~
-      format3: ~
-      format4: ~
-      headings: ~
-      headings_ex1: ~
-      headings_code1: ~
-      headings_code2: ~
-      headings_code3: ~
-      headings_ex2: ~
-      lists: ~
-      lists_ex1: ~
-      lists_ex2: ~
-      lists_ex3: ~
-      lists_code1: ~
-      lists_code2: ~
-      lists_code3: ~
-      lists_code4: ~
-      lists_code5: ~
-      lists_code6: ~
-      quote: ~
-      quote_ex1: ~
-      quote_code1: ~
-      quote_code2: ~
-      quote_code2a: ~
-      quote_code3: ~
-      pre: ~
-      pre_ex: ~
-      pre_code1: ~
-      pre_code2: ~
-      pre_code3: ~
-      pre_code4: ~
-      pre_code5: ~
-      code: ~
-      code_ex1: ~
-      code_ex2: ~
-      code_code1: ~
-      code_code2: ~
-      code_code3: ~
-      code_code4: ~
-      code_code5: ~
-      code_code6: ~
-      code_snippet_text_a: ~
-      code_snippet_text_b: ~
-      line: ~
-      line_ex: ~
-      line_code1: ~
-      line_code2: ~
-      itals: ~
-      itals_ex1: ~
-      itals_ex2: ~
-      itals_ex3: ~
-      itals_ex4: ~
-      itals_ex8: ~
-      links: ~
-      link_ex1: ~
-      link_code: ~
-      link_ex2: ~
-      inline_link_text: ~
-      images: ~
-      images_ex1: ~
-      images_code: ~
-      images_ex2: ~
-      images_ex3: ~
-      escape_ex1: ~
-      escape_code: ~
-      escape_ex2: ~
-      escape_ex3: ~
-      symbols: ~
-      symbols_ex: ~
-      finish: ~
-      markdown_link_text: ~
+      byline:
+      menu_title:
+      format1:
+      format2:
+      format3:
+      format4:
+      headings:
+      headings_ex1:
+      headings_code1:
+      headings_code2:
+      headings_code3:
+      headings_ex2:
+      lists:
+      lists_ex1:
+      lists_ex2:
+      lists_ex3:
+      lists_code1:
+      lists_code2:
+      lists_code3:
+      lists_code4:
+      lists_code5:
+      lists_code6:
+      quote:
+      quote_ex1:
+      quote_code1:
+      quote_code2:
+      quote_code2a:
+      quote_code3:
+      pre:
+      pre_ex:
+      pre_code1:
+      pre_code2:
+      pre_code3:
+      pre_code4:
+      pre_code5:
+      code:
+      code_ex1:
+      code_ex2:
+      code_code1:
+      code_code2:
+      code_code3:
+      code_code4:
+      code_code5:
+      code_code6:
+      code_snippet_text_a:
+      code_snippet_text_b:
+      line:
+      line_ex:
+      line_code1:
+      line_code2:
+      itals:
+      itals_ex1:
+      itals_ex2:
+      itals_ex3:
+      itals_ex4:
+      itals_ex8:
+      links:
+      link_ex1:
+      link_code:
+      link_ex2:
+      inline_link_text:
+      images:
+      images_ex1:
+      images_code:
+      images_ex2:
+      images_ex3:
+      escape_ex1:
+      escape_code:
+      escape_ex2:
+      escape_ex3:
+      symbols:
+      symbols_ex:
+      finish:
+      markdown_link_text:
     tips:
-      headline: ~
-      byline: ~
-      menu_title: ~
-      intro: ~
-      profile: ~
-      profile_ex: ~
-      notepad: ~
-      notepad_ex: ~
+      headline:
+      byline:
+      menu_title:
+      intro:
+      profile:
+      profile_ex:
+      notepad:
+      notepad_ex:
     other_docs:
-      headline: ~
-      byline: ~
-      menu_title: ~
-      intro1: ~
-      intro2: ~
-      tutorials: ~
-      parfait: ~
-      about: ~
-      about1: ~
-      wiki: ~
-      wiki_link_text: ~
-      wikipedia: ~
-      wikipedia_link_text: ~
-      wikipedia_software_link_text: ~
-      support: ~
-      question: ~
-      mail: ~
-      mail_link_text: ~
-      irc: ~
-      irc_link_text: ~
-      progress: ~
-      blog: ~
-      blog_link_text: ~
-      changelog: ~
-      changelog_link_text: ~
-      discourse: ~
-      communication: ~
-      communicate: ~
-      communicate_link_text: ~
-      other: ~
-      manifesto: ~
-      manifesto_link_text: ~
+      headline:
+      byline:
+      menu_title:
+      intro1:
+      intro2:
+      tutorials:
+      parfait:
+      about:
+      about1:
+      wiki:
+      wiki_link_text:
+      wikipedia:
+      wikipedia_link_text:
+      wikipedia_software_link_text:
+      support:
+      question:
+      mail:
+      mail_link_text:
+      irc:
+      irc_link_text:
+      progress:
+      blog:
+      blog_link_text:
+      changelog:
+      changelog_link_text:
+      discourse:
+      communication:
+      communicate:
+      communicate_link_text:
+      other:
+      manifesto:
+      manifesto_link_text:
